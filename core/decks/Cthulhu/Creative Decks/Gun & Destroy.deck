@@ -1,0 +1,233 @@
+#
+# GCCG v0.9 Call of Cthulhu deck
+
+Deck
+
+4 Hardboiled Detective
+4 Undercover Security
+4 Sharpshooter
+4 Treasury Agent
+4 Informant
+1 * Paul LeMond, Tormented Psychic
+4 Servant of Nodens
+
+4 Forced Entry
+4 Shotgun Blast
+4 Working a Hunch
+4 A Single Glimpse
+4 Lean and Athirst
+
+3 Dockside Speakeasy
+1 * Irem, City of the Pillars
+1 Temple of Ramasekva
+
+Domains
+
+1 Eldritch Domain 1
+1 Eldritch Domain 2
+1 Eldritch Domain 3
+
+Story deck	
+
+1 Abysses of Night
+1 Beyond the Doors of Sleep
+1 Dark Heart of Cairo
+1 Digging Deep
+1 Parables of the Faceless One
+1 Shadows of Nephren-Ka
+1 The Arkham Willows
+1 The Crooked Manse
+1 The Dreams of Kingsport
+1 The Forgotten Sepulchre
+1 The Horror of the Past
+1 The Innsmouth Threat
+1 The Secret of the North Woods
+1 The Squalid Hamlet
+1 The Terror out of Dunwich
+1 The Thing at the Gate
+1 The Unquiet Earth
+1 The Well
+1 Throne of the Black Pharaoh
+1 Voice of Thunder
+
+#Description:
+#Deckbuilders Diary - Gun & Destroy, by Nodens 
+#
+#Is the weenie Run & Gun-type decks dead? That was what Xedric and I 
+#started discussing about two months back when he played a classic Arkham 
+#edition Run & Gun and it got trounced by a three-coloured FC monster 
+#mess that did a little of everything. We sort of agreed that the classic 
+#Run & Gun didn’t cut it anymore, but we also thought there might be some 
+#kick left in it given the right modifications. 
+#
+#I went home thinking about this problem as well as how to handle the 
+#Nyarly decks that we had talked about (but yet seen in our meta). What 
+#was the underlying problem with the original build? 
+#
+#The challenge – early big guys 
+#
+#A serious problem for the Run & Gun breed of decks is the early 
+#appearance of big guys with toughness. A T1 or T2 Ghoul Khanum, Nyarly 
+#(or even a Black Spawn) and the old-style R&G chokes as wounding is not 
+#enough to clear these big boys away. Add more prevalent Invulnerability 
+#to the mix (Stanford, FC GOOs) and the Gun component just doesn’t work. 
+#So what could counter the big boys while maintaining the speed of the 
+#deck? Maybe we can solve this by using bigger guns. 
+#
+#Loading for bear (khanum) 
+#
+#What is the most powerful character kill card available? There are 
+#several contenders to that title, but one answer is A Single Glimpse. 
+#(EE C165, Event, Cost 2, “Play during your operations phase. Action: 
+#choose an opponent. That opponent must sacrifice a character, if 
+#able.”). Sacrificing is a great effect since it bypasses both Toughness 
+#and Invulnerability. The only problem is that you can’t choose the 
+#target, so to bag the right monster you can only play it when your 
+#opponent is down to a single character. 
+#
+#Fortunately, the way ‘early big guy’ works in the game helps us out 
+#here. Anyone who commits to getting a big guy out is probably going to 
+#spend most of their resources on this, and you can expect most big dudes 
+#to have few supporting character. Get rid of them and A single glimpse 
+#can do it’s dirty work. Hence we load the deck with killing events – we 
+#shift from Run & Gun to Gun & Destroy. 
+#
+#4x A single glimpse
+#4x Lean and athirst
+#4x Shotgun blast
+#4x Forced entry
+#
+#Note that we chose “Lean and Athirst” above other events, as this gives 
+#us another way to destroy characters with toughness as well as an event 
+#that can be played in your opponents turn. And that is important for 
+#interception to work, which is another concept we’ll use to hold the big 
+#guys at bay. 
+#
+#Interception! 
+#
+#A strength of this deck is it’s ability to kill weenies. Several decks 
+#depend on using cheap characters as sacrifices for Mother’s Kiss or 
+#Shocking Transformation. Other decks use cost lowering characters who 
+#are often inexpensive. In both cases, Lean and Athirst and Shotgun blast 
+#can remove these immediately after your opponent plays them – most often 
+#upsetting their plans for the turn. And we’ll need that tempo advantage, 
+#as we’re going to have to drop the Syndicate altogether. 
+#
+#Selecting characters for speed and destruction 
+#
+#A three colour deck is not going to work for a rushing deck – having to 
+#potentially wait a turn for correct resourcing will be too much of a 
+#handicap. Besides, the main characters for this deck type from Syndicate 
+#and Agency are either loyal (Triggerman, Hardboiled detective) or 
+#steadfast 2 (Fugitive, Undercover security). So the syndicate goes, and 
+#with that the chance to load up on investigative characters who can 
+#fight. 
+#
+#Let’s accept that, and instead try to maintain the early advantage we 
+#should get from removing characters. One problem we will face is that we 
+#run out of killing events – but with FC we have access to perhaps the 
+#best wounding yet – the Sharpshooter. 
+#
+#Another type of destruction is that provided by the Treasury Agent. The 
+#agent gives us another character with investigation icon (which gives us 
+#a small speed bost), but also a chance to slow our opponent down by 
+#tripping up their domain build or the ability to pick up a resourced 
+#card of our own – useful in a game style where every turn counts. 
+#
+#All speed decks need a good one-point drop, and for that we’ll pick the 
+#Informant (the Agency’s cost reducer) over the Blackwood Associate. 
+#Informant enables us to play Sharpshooters and Treasury Agents without 
+#going to a 3-domain as well as working as cheap cannon fodder or 
+#swarming material as needed. 
+#
+#We round off with 4x Servant of Nodens, as another terror-immune 
+#character that also brings the Yog card count up to 12. 
+#
+#4x Hardboiled detective
+#4x Undercover security
+#4x Sharpshooter
+#4x Treasury Agent
+#4x Informant
+#4x Servant of Nodens
+#
+#8 characters are immune to insanity, 12 have investigation.
+#
+#Look ma, no rares! (Lets’ add some) 
+#
+#As you see the core of the deck doesn’t rely on any rares. In fact, they 
+#are all commons! With 10 slots left, you can spice this any way you want 
+#it. Here are my additions: 
+#
+#3x Dockside speakeasy - More speed, more flexibility in domains 
+#
+#1x Temple of Ramasekva - Another answer to the toughness problem. Now 
+#your Forced Entries kill Khanums! But I wouldn’t pack more than two, as 
+#it is a dead card if you get multiple copies. 
+#
+#1x Irem - As the game goes along you will not have managed to kill all 
+#you opponents characters. This helps at that stage as you can rush and 
+#decide later where to reinforce. Also allows you to clear stuff like 
+#Koth or Yian for a turn. 
+#
+#1x Paul leMond - I’ve seen him stall Y’Golonac on his own for three 
+#rounds. A sneaky way to stop Khanums from triggering their abilities 
+#(just copy their icons twice!) 
+#
+#4x Working a Hunch - Xedric’s old favourite, and now mine. Having two 
+#extra combat icons may be just what you need to clear away an opponent 
+#at a story, especially if you are swarming. Another important use is to 
+#give an I icon to Servants of Nodens et al. when running unopposed at a 
+#story with two tokens – this happens more often than you think. Can also 
+#be used to increase the kill range for your sharpshooters. 
+#
+#Cards that didn’t make it this time 
+#
+#Render of veils – all my Yog domains will probably be ‘2’ domains. 
+#
+#Various loyal Yog 2-cost chars – loyal will be too limiting. 
+#
+#Sacrificial gate – most of the big guys we’re after with destroy have A 
+#icons. Those that don’t most often don’t have toughness – use a 
+#sharpshooter instead. (And it is cost 3!) 
+#
+#Bureau chief – Willpower is very good, but no I icon and the inability 
+#to Work a hunch makes him less useful. You may want to play him instead 
+#of the Treasury agent. 
+#
+#A small price to pay – I decided 16 kill events + 4 sharpshooters was 
+#enough. You want more, you can put them in. It is a very good card (and 
+#you have at least 12 characters that can go insane). 
+#
+#Wish for strength – better on the defense, and I’ve decided to 
+#completely ignore that. This deck should attack all out all the time. 
+#
+#Thing in the cave – the deck’s perhaps most obvious weakness is the 
+#complete lack of support destruction, and if I were to add something to 
+#cover that angle, the Thing is it. But this is all about speed and 
+#overpowering your opponent – if your opponents play support cards, grit 
+#and bear it. That is also one less character to contend with. 
+#
+#The final deck
+#
+#4x AE C10 Hardboiled Detective
+#4x EE C4 Undercover Security
+#4x FC C7 Sharpshooter
+#4x FR C7 Treasury Agent
+#4x EE C7 Informant
+#1x FC R1 •Paul LeMond, Tormented Psychic
+#4x FR C95 Servant of Nodens
+#
+#4x UT C11 Forced Entry
+#4x AE C22 Shotgun Blast
+#4x FR C13 Working a Hunch
+#4x EE C165 A Single Glimpse
+#4x FC C100 Lean and Athirst
+#
+#3x AE R26 Dockside Speakeasy
+#1x FC R14 •Irem, City of the Pillars
+#1x AE R178 Temple of Ramasekva
+#
+#I like it :). And while it can stumble, on being outdrawn or with a bad 
+#start, you have a fair chance against almost anything that uses 
+#characters. 
+#- Nodens

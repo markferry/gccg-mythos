@@ -1,0 +1,239 @@
+#
+# GCCG v0.9 Call of Cthulhu deck
+
+Deck
+
+4 Starry Wisdom Deacon
+4 Hermetic Scholar
+4 Elder Thing Scientist
+3 Servant from Out of Time
+3 Assistant to Dr. West
+2 * Ithaqua, The Killing Cold
+2 * Omar Shakti, Ageless Wizard
+2 The Thing in the Cave
+
+4 Historic Discovery
+4 Born in the Spheres
+4 February's March
+4 Calling down the Ancients
+3 Unspeakable Resurrection
+3 Gathering at the Stones
+3 Strange Aeons
+1 Tapping the Shadow Fund
+
+Domains
+
+# Domain (3)
+
+1 Eldritch Domain 1
+1 Eldritch Domain 2
+1 Eldritch Domain 3
+
+Story deck	
+
+# Story (20)
+
+1 Abysses of Night
+1 Beyond the Doors of Sleep
+1 Dark Heart of Cairo
+1 Digging Deep
+1 Parables of the Faceless One
+1 Shadows of Nephren-Ka
+1 The Arkham Willows
+1 The Crooked Manse
+1 The Dreams of Kingsport
+1 The Forgotten Sepulchre
+1 The Horror of the Past
+1 The Innsmouth Threat
+1 The Secret of the North Woods
+1 The Squalid Hamlet
+1 The Terror out of Dunwich
+1 The Thing at the Gate
+1 The Unquiet Earth
+1 The Well
+1 Throne of the Black Pharaoh
+1 Voice of Thunder
+
+#Description:
+#Zen and the Art of a Competitive Deckby Greg Gan (aka Dr. H West), 2005 
+#World Champion 
+#
+#Welcome to a new edition of the Lang Codex. With nationals and world's 
+#looming in the not-so distant future, I wanted to introduce this next 
+#set of codices which should help newly minted cultists and spur 
+#discussion among alpha acolytes. This codex is one of many that will 
+#address a group of topics that in some cases will provide insight into 
+#cards that have already gotten some hype, and in others to dissect some 
+#cards that do not see as much use, thereby providing a forum for their 
+#understanding and a context for their use. With each codex, we'll 
+#discuss our philosophy competitive decks in general and then take a look 
+#at the deck in question and how it functions. So, without further ado, 
+#let's begin! 
+#
+#Introduction 
+#
+#My philosophy on competitive decks has more often than not steered me 
+#towards control decks. I hate having my opponent tell me what they're 
+#doing - I prefer telling them what they can and can not do (I must sound 
+#like a Cthulhu devotee. Ha!). Cthulhu CCG is officially my second 
+#serious CCG I've invested in and therefore veteran players with savvier 
+#card gaming backgrounds may see these comments as obvious, but this 
+#codex is part philosophy, part instructional, and part deck builder's 
+#diary (so bear with me). For me, a Cthulhu deck must do two things: 1) 
+#it has to be card efficient and 2) it has to be versatile enough to 
+#overcome the various decks on the field. 
+#
+#Sounds a little contradictory? Well, yes and no. Everyone's heard the 
+#standard banter: speed beats control, control eats combo and combo kills 
+#speed. Simply put, if control decks can't stabilize early on (by turn 3 
+#' 5), speed decks run them over. If a Speed deck can't win by turn 3 - 
+#5, it rarely lasts into the mid to late game. If a combo deck never 
+#pulls its pieces together, it just loses. Therefore, extremely tight 
+#builds and efficient card draw is so critical to getting the cards you 
+#need to win. Yes, I mostly agree with that thought, however, excessively 
+#focusing a deck for a single purpose leaves you vulnerable against the 
+#"nemesis" deck, because let's face it, every deck has its foil! Unlike 
+#that other card game that gives you two other chances and a sideboard to 
+#sub-in a fix, you only get one shot in Cthulhu. So ideally, you need to 
+#get it right the first time by having the ability to deal with unknown 
+#'threats'. 
+#
+#Never being completely happy with sticking to a standard deck archetype, 
+#I've found that in Cthulhu, not always building the absolute tightest 
+#decks and instead blending a primary and secondary theme often created 
+#the most versatile, winning decks. For example, one of my favorite 
+#Cthulhu (primary) deck types was adding a discard engine from Yog 
+#(secondary). I found the addition to the control deck useful for the 
+#extra destruction, the recursion was a boon while providing a secondary, 
+#often surprising win condition - discard. The control aspect of the deck 
+#gave me the versatility to dictate my opponent's actions, but if I 
+#encountered another strong control deck, the discard engine quickly gave 
+#me the edge in destabilizing the opposing control deck. Now, what I've 
+#suggested sounds easy to do, although, I suspect blending a primary and 
+#secondary theme is more art than science. However, in art, you tend to 
+#go through many iterations of the same piece until you get what you 
+#want. Not being an artist however, I see deck-testing as a science and 
+#one must constantly test and experiment against many other decks in 
+#order to find the best blend when preparing for any serious competition. 
+#
+#Tossing Down the Gauntlet 
+#
+#I remember one of the 2005 Regional Cthulhu champions from Pittsburgh 
+#making the statement that, 'tournaments could not be won unless Cthulhu 
+#was the primary faction.' Personally, I felt it was an arrogant 
+#statement. Realistically though, he had a point. (Obviously, this 
+#statement did not take into account Rainbow decks, but Rainbow decks 
+#were broken, and are now neutered out of the competitive metagame.) As 
+#many of us have seen from various tournaments, Regionals and 2006 
+#World's, mono-Cthulhu or Cthulhu mixed with other factions have been the 
+#tier one decks to beat. Particularly in the Pittsburgh meta, Cthulhu 
+#aberration decks (I use aberration loosely here) remain as one of the 
+#dominant deck archetypes simply because it destroys threats and fields 
+#big monsters that are hard to remove. So, can a non-Cthulhu based deck 
+#win consistently in the early and late game? I believe it can. 
+#
+#In my opinion, Yog-Sothoth over the past couple of sets has truly 
+#emerged as one of the stronger factions with excellent graveyard 
+#recursion capabilities as well as a solid discard mechanic. Forgotten 
+#Cities only added to this, making Yog the faction of possibilities. I've 
+#taken this deck to Regionals and Worlds and beaten many of the game's 
+#top players in the process. Personally, it's one of the most fun, 
+#complicated and versatile decks I've had the pleasure of playing. Though 
+#it never made it to the final four, it did place respectably. So, 
+#without further ado' 
+#
+#I call this deck, 'a Recurring Discovery.' It is really a Yog deck with 
+#a limited tool box consisting of 50 cards. 
+#
+#4x Starry Wisdom Deacon
+#4x Hermetic Scholar
+#4x Elder Thing Scientist
+#3x Servants Out of Time
+#3x Assistants to Dr. West
+#2x Ithaqua
+#2x Omar Shakti
+#2x Thing in the Cave
+#
+#4x Historic Discovery
+#4x Born in the Spheres
+#4x February's March
+#4x Calling Down the Ancients
+#3x Unspeakable Resurrection
+#3x Gathering at the Stones
+#3x Strange Aeons
+#1x Tapping the Shadow Fund
+#
+#The basic idea of this combo/control deck revolves around these four cards:
+#
+#Starry Wisdom Deacon (SWD)
+#Historic Discovery (HD)
+#February's March (FM)
+#Assistant to Dr. West (Assistant)
+#
+#I'm not a great fan of combo decks simply because they are fragile and 
+#often collapse when one piece of the puzzle is missing or removed. So 
+#the deck had to be tight and redundant and have multiple ways to recycle 
+#destroyed or used pieces of the combo. So, the principle card that SWD 
+#powered was HD for the rapid token generation. The second corner stone 
+#of this deck required a way to further utilize the discarded HD; thus FM 
+#became an excellent solution. The important 4th piece of the combo is 
+#there primarily for its versatility. The Assistant had the ability to 
+#resurrect SWD to repeat its cost reduction of HD or FM if drawn, but it 
+#could also pull my opponent's creatures out to supplement my own ranks. 
+#Similarly, the Servant Out of Time also plays an important role by 
+#allowing me to add HD to a resource and later discard it in order to be 
+#played using FM if a SWD was unavailable. This was the primary strategy 
+#behind this deck. Interestingly, the deck evolved two other secondary 
+#engines which were also powered by the above cards. 
+#
+#Two major problems faced 'Recurring Discovery'. The first problem was 
+#rush decks, the second, control decks. In order to deal with the first 
+#problem, I needed a mechanism for global character control. After 
+#sifting through the various character destruction cards, Strange Aeons 
+#was chosen. Its requirements were the least prohibitive and allowed me 
+#to play it either during my turn or my opponent's. Strange Aeons 
+#fortunately, could also be powered by SWD, FM, and it combo'd with the 
+#Servant Out of Time in a manner similar to HD. To supplement the 
+#character destruction, Calling Down the Ancients and Elder Thing 
+#Scientists were added to round out some offensive punch against rush 
+#decks. Add in Omar Shakti in combination with the Hermetic Scholar and 
+#SWD and you now have bullets at your disposal. Combine this with the 
+#Assistant and now you have a recurring number of bullets at your 
+#disposal. In order to deal with the second problem, I had to find a way 
+#to apply pressure and change the tempo of a control deck. 
+#
+#I've found that control decks work best sitting back and drawing cards 
+#and killing whatever you put out. Thus, I added a discard engine using 
+#the Hermetic Scholar. Interestingly, forcing a control deck to play 
+#offensively or risk being decked is usually enough to tip the scales: 
+#especially when you possess more ways to recycle your lost material 
+#(Gathering at the Stones, Ithaqua, FM, Unspeakable Resurrection and of 
+#course, the Assistant) as well as steal their characters! Now, to round 
+#off this deck, Thing in the Cave was added for spot support destruction 
+#as well as having another warm body for the field. The other card was 
+#Tapping the Shadow Fund ' a surprisingly useful card when either your 
+#hand is terrible or more often than not, you've depleted your hand by 
+#playing everything that turn and you just need a fresh 7 card hand. 
+#
+#One of the fundamental challenges with this deck is knowing which cards 
+#are in your discard pile and which cards will eventually be put into 
+#your discard at all times. Knowing this and how to establish the order 
+#in which you discard can mean the difference between dropping 12 tokens 
+#on a story in one round versus 4. The strategy of optimizing your 
+#discard pile becomes much more complex when you start adding in Strange 
+#Aeons, Calling Down the Ancients or the Hermetic Scholar. However, this 
+#is what made the deck so much fun to play. The new Asylum packs offer 
+#some useful recursion effects that should strengthen the deck. However, 
+#their actual functionality has yet to be tested. The obvious advantage 
+#with Elder Thing is the ability to stack a FM or SWD and a HD or other 
+#very crucial card (such as Strange Aeons) to secure the win or buy you 
+#some time. The other card would be Visitor from the Spheres, a 
+#potentially potent card that can replicate the effects of HD or FM to 
+#activate a FM on top of HD. Another inherent advantage is that the 
+#Assistant can resurrect them in order to key their special abilities 
+#when needed as well as have a warm body to go after a story. The cards I 
+#would probably consider exchanging might be Omar Shakti's and the Thing 
+#the Cave's. Other modifications and permutations surely exist and their 
+#exploration should lead to some fruitful discussion. Hope this helps 
+#your own deckbuilding adventures, and please return for the next codex 
+#featuring Chris Long. 

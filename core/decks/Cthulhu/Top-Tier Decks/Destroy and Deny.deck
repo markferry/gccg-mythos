@@ -1,0 +1,222 @@
+#
+# GCCG v0.9 Call of Cthulhu deck
+
+Deck
+
+4 Ravager from the Deep
+4 Deep One Rising
+2 Mysterious Mentor
+2 * Victoria Glasser
+3 * Yig, Father of Snakes
+4 Bestial Shoggoth
+4 Pulp Writer
+4 Assistant to Dr. West
+
+4 Deep One Assault
+4 Power Drain
+4 Sacrificial Offerings
+4 Wrack
+
+2 Forgotten Isle
+3 St. Toad's Church
+4 One-Way Ticket
+
+Domains
+
+1 Eldritch Domain 1
+1 Eldritch Domain 2
+1 Eldritch Domain 3
+
+Story deck	
+
+1 Abysses of Night
+1 Beyond the Doors of Sleep
+1 Dark Heart of Cairo
+1 Digging Deep
+1 Parables of the Faceless One
+1 Shadows of Nephren-Ka
+1 The Arkham Willows
+1 The Crooked Manse
+1 The Dreams of Kingsport
+1 The Forgotten Sepulchre
+1 The Horror of the Past
+1 The Innsmouth Threat
+1 The Secret of the North Woods
+1 The Squalid Hamlet
+1 The Terror out of Dunwich
+1 The Thing at the Gate
+1 The Unquiet Earth
+1 The Well
+1 Throne of the Black Pharaoh
+1 Voice of Thunder
+
+#Description:
+#Deckbuilders Diary - Cthulhu/Hastur Worlds 2006 Winner, by cannon 
+#
+#If Greg’s winning deck from last year was "Shock and Awe", then the 
+#appropriate name for this deck is probably "Destroy and Deny". Unlike 
+#most decks I make, which focus around a general theme or combo, this 
+#deck was essentially combining the best that both factions had to offer, 
+#destruction and cancellation. 
+#
+#So with the simple edict of picking the best cards I could, I went into 
+#the deckbuilder program and came up with something that looked like 
+#this: 
+#
+#Characters (24) 
+#4x UT C61 Ravager from the Deep 
+#4x AP M4 Deep One Rising 
+#2x EE R123 •Victoria Glasser, The Society Hostess 
+#4x MN U60 Ocean Crawlers 
+#4x MN U78 Demon Lover 
+#2x FC R56 •Yig, Father of Snakes 
+#4x FC C78 Pulp Writer 
+#
+#Events (16) 
+#4x AE R104 Deep One Assault 
+#4x AE U139 Power Drain 
+#4x UT U66 Sacrificial Offerings 
+#4x EP M43 Court of Yhtill 
+#
+#Support (10) 
+#3x UT U69 Forgotten Isle 
+#3x EE R119 St Toad's Church 
+#4x FC R88 One-Way Ticket 
+#
+#Total 50 
+#
+#Like many of my decks, I start off with a nice mix of characters, 
+#including some 1 and 2 drops, the events that I really want, and then 
+#rounding it out with whatever support stuff fits into 50 cards. 
+#
+#Play Testing 
+#
+#I took this along to the PA regional but ended up playing the Artifact 
+#deck instead, which was a total mistake. Afterward, I got out this deck 
+#and played some fun games and realized there was some real power here, 
+#and with this faction combination in general. 
+#
+#The first thing I did was sub out the Demon Lovers (who were useless in 
+#almost any match-up) for more cancellation in the form of Wrack (FR 
+#C84). This worked out well because I still had the same cost curve and 
+#faction balance, just fewer characters. But since she was a useless 
+#character in this deck (either not being able to block, or being used as 
+#Sac offering bait) I decided it was no big deal. 
+#
+#I play tested it some more, pitting it against the best of the tier 1 
+#decks I could construct. Ultimately, I decided that while the Court of 
+#Yhtill was very powerful, it would sometimes change my resourcing 
+#decisions in ways I wasn’t happy with. And when I didn’t need 
+#cancellation, I had too many worthless cards. 
+#
+#The other thing I realized was that the Ocean Crawlers suffered from the 
+#same affliction that Demon Lover did. They just weren’t good enough to 
+#play. I was either resourcing them, or using them as Sac Offering 
+#fodder. I didn’t like playing them on my first turn because I would 
+#rather keep the domain open for a Sac Offering or Deep One Assault. And 
+#after the first turn, I should be playing better creatures than that 
+#anyway. 
+#
+#However, I felt I was getting dangerously low on characters, so I needed 
+#to replace them with something that could actually do the job they were 
+#meant for, which was essentially block characters and stall the game 
+#until I could get something better. Enter Bestial Shoggoth (FC C58). I 
+#learned first hand from one of my local players how effective this guy 
+#could be at shutting you out of stories. Especially when you’re low on 
+#characters on the board, which my Cthulhu destruction should be doing 
+#for me. 
+#
+#So I put the Shoggoth in place of the Crawlers, and brought in Gregs (FC 
+#R128) because you’d be silly not to with all the destruction I’m 
+#running. That and the fact that it’s an amazing card which always helps 
+#you out in one way or another. I had acquired a third copy of Yig, which 
+#also went directly into the deck in place of a Forgotten Isle, and then 
+#added a couple copies of Mysterious Mentor at the last minute as a way 
+#to slow down weenie rush. 
+#
+#The Final Decklist 
+#
+#Characters (27) 
+#4x UT C61 Ravager from the Deep 
+#4x AP M4 Deep One Rising 
+#2x FR R76 Mysterious Mentor 
+#2x EE R123 •Victoria Glasser, The Society Hostess 
+#3x FC R56 •Yig, Father of Snakes 
+#4x FC C58 Bestial Shoggoth 
+#4x FC C78 Pulp Writer 
+#4x FC R128 Assistant to Dr. West 
+#
+#Events (16) 
+#4x AE R104 Deep One Assault 
+#4x AE U139 Power Drain 
+#4x UT U66 Sacrificial Offerings 
+#4x FR C84 Wrack 
+#
+#Support (9) 
+#2x UT U69 Forgotten Isle 
+#3x EE R119 St Toad's Church 
+#4x FC R88 One-Way Ticket 
+#
+#Total 52 
+#
+#Playing the Deck 
+#
+#The strategy of the deck in concept is quite simple. Use your 
+#destruction and cancellation effects to the best possible use in the 
+#early game, until your larger creatures can hit the board and take over 
+#the game. By doing this, you really slow your opponent down and force 
+#them to play at your pace. 
+#
+#In practice, however, it takes a while until you figure out exactly how 
+#best to utilize your cards. In resourcing, it’s optimal to have 
+#Cthulhu/Hastur/Cthulhu on your domains, although 2 Hastur and 1 Cthulhu 
+#will also work. Either way, on your first turn you should have 1 
+#Cthulhu, 1 Hastur, and 1 domain with both. If you draw only one Hastur 
+#card in your opening hand, you MUST lay it down as a resource. You 
+#cannot afford to be stuck using up your big domain on a One-Way Ticket. 
+#
+#I generally only play One-Way Ticket on my first turn and save the other 
+#two domains for reaction to what my opponent does on their turn. If you 
+#play characters, then your Sacrificial Offering hurts your temp as well. 
+#The only exception to this is a particularly bad hand in which you don’t 
+#have Sac Offering, and so then if I drew the ticket I’ll play a Shoggoth 
+#in hopes of slowing things down enough. 
+#
+#On my second turn, I usually sacrifice my ability to play cancellation 
+#in favor of laying a third resource on my big domain in order to play 
+#one of my many 4-cost creatures, preferably the Ravager or Yig, both of 
+#whom stop my opponent in their tracks. Then on the following turn, I’ll 
+#lay down a resource on a different domain, opening up the possible 
+#cancellation again. 
+#
+#I will generally play the rest of the game at 1-2-3 or 1-2-4, using one 
+#domain for Sac Offering, DOA, or character powers, one for cancellation 
+#(or the threat of cancellation) or any of the previous if cancellation 
+#is not needed. The final domain is usually reserved for a character each 
+#turn. 
+#
+#The Assistants generally don’t pull back your own characters, unless 
+#you’ve lost one of the Ravagers. Hold onto them until you destroy 
+#something really worthwhile of your opponent’s and then take that. I 
+#always enjoy seeing a Ghoul Khanum hit the table for exactly that 
+#reason. 
+#
+#At Worlds 
+#
+#In competition, Victoria and the Mentor didn’t help me nearly as much as 
+#I had hoped, but I’d probably hold onto them, because really good rush 
+#is a weakness of this deck, as it just can’t cope with a LOT of 
+#characters all at once. 
+#
+#The other change I would make is removing St. Toad’s Church in favor of 
+#more Forgotten Isles. The Isles were incredibly valuable to me in my 
+#games, especially against Cthulhu, but the Church never even saw play. I 
+#don’t think I’d put another Yig in because three was just right, but I’d 
+#love to be able to work the Court of Yhtill back in. 
+#
+#So that’s the deck. It was a lot of fun to play, but it was also 
+#nerve-racking, and very complicated. It’s definitely a "thinking deck" 
+#and it makes for rather long games. If you like those decks, like I do, 
+#then try it out. 
+#
+#- Chris "cannon" Long 

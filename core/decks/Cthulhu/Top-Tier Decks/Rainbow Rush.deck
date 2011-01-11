@@ -1,0 +1,240 @@
+#
+# GCCG v0.9 Call of Cthulhu deck
+#
+
+Deck
+
+# Characters
+
+4 Man on the Inside 
+#(EE U 8)
+4 Professor of Archaeology 
+#(EE R 41)
+4 Expatriate Reporter 
+#(EE U 69)
+4 Spectral Hunter 
+#(EE U 162)
+4 Thing from the Stars 
+#(EE U 132)
+4 Black Spawn from Below 
+#(EE U 184)
+2 Ravager from the Deep 
+#(UT C 61)
+2 Ghoul Khanum 
+#(EE C 187)
+
+# Events
+4 Seduction of the Tombs 
+#(EE C 50)
+3 Shocking Transformation 
+#(UT U 121)
+3 Dry Gulch 
+#(EE C 78)
+4 Wrack 
+#(FR C 84)
+4 Power Drain 
+#(AE U 139)
+2 On the Lam 
+#(AEPS F 12)
+2 Dread Curse of Azathoth 
+#(AE U 165)
+2 Shakedown! 
+#(AE R 20)
+
+Domains
+
+# Domain (3)
+
+1 Eldritch Domain 1
+1 Eldritch Domain 2
+1 Eldritch Domain 3
+
+Story deck	
+
+# Story (20)
+
+1 Abysses of Night
+1 Beyond the Doors of Sleep
+1 Dark Heart of Cairo
+1 Digging Deep
+1 Parables of the Faceless One
+1 Shadows of Nephren-Ka
+1 The Arkham Willows
+1 The Crooked Manse
+1 The Dreams of Kingsport
+1 The Forgotten Sepulchre
+1 The Horror of the Past
+1 The Innsmouth Threat
+1 The Secret of the North Woods
+1 The Squalid Hamlet
+1 The Terror out of Dunwich
+1 The Thing at the Gate
+1 The Unquiet Earth
+1 The Well
+1 Throne of the Black Pharaoh
+1 Voice of Thunder
+
+#Description:
+#Cthulhu Deck Archives - Shock and Awe (Rainbow Rush) at Worlds 2005, by 
+#Greg Gan 
+#
+#I chose the name “Shock and Awe” for two reasons. “Shock” because many 
+#times I found myself playing Shocking Transformation in order to get a 
+#better creature in order to lock down the win that round. The “Awe” 
+#comes from the fact that people sit dumbfounded at the sheer number of 
+#powerful creatures I could drop round 1 and 2 and still have resources 
+#open to counter their actions and responses. 
+#
+#So the deck works because it functions on dropping creatures fast and 
+#for free. The idea is to always have either a Wrack or Power Drain in 
+#hand to counter character removal and/or to temporarily thwart my 
+#opponent’s actions/responses from support cards – these cards were 
+#immensely crucial in turning the tide in many games especially against 
+#the dreaded Infinite Recursive Discard Deck. 
+#
+#Associated cards such as Dry Gulch help to bounce temporarily blockers 
+#from stories so that I can get them unopposed and/or to thin out the 
+#competition. Two very corner stone event cards that have also helped to 
+#turn the tide and lock down the win for me are: Shocking Transformation 
+#and Seduction of the Tombs. The shocking transformation is there to pull 
+#out a Ghoul Khanum, Ravager or Professor of Archeology at the most 
+#opportune times to either kill my opponents committed characters or to 
+#rush win a desperately needed story. Seduction of the Tombs is just an 
+#all around useful card enabling an individual to drop a professor when 
+#needed to take the instant story win or to bring in surprise 
+#reinforcements from the grave. 
+#
+#Background story 
+#
+#When I first read about the prototype Rainbow deck from the message 
+#boards, I thought it was a great idea. I generated a version and 
+#introduced it to my meta where we deconstructed the deck and further 
+#improved the design. About 2 weeks before GenCon, our meta amassed every 
+#single control and/or speed deck to try and defeat one version 
+#(different from the one I have listed here) of this “rainbow deck” and 
+#at best we could only slow the rainbow deck down before it annihilated 
+#the opponent and took the win. 
+#
+#My personal play style is one that prefers “control decks” to creature 
+#rushes and combo’s. Not being able to find the answer to this problem, I 
+#decided to instead become the problem and thus generated my version of 
+#the rainbow deck for GenCon. 
+#
+#Some of Greg's tech 
+#
+#At this point, half of my meta decided to bring the rainbow deck to 
+#GenCon for World’s. Fearing that the popularity and power of this deck 
+#would dominate World’s, I decided to introduce some tech against the 
+#mirror match. 
+#
+#I eliminated the Military Escorts because of his high cost and the fact 
+#he lacked significant punch and decided to go with only the Professors 
+#of Archeology since they work so well with Seduction of the Tombs. I 
+#included On the Lam for sneak factor in case I didn’t have a Seduction – 
+#something I could use with an Expatriate Reporter or Ghoul. 
+#
+#The Dread Curse of Azathoth was included in case I found myself staring 
+#down at a Shub deck (ironically the only deck that seemed to be able to 
+#beat the Rainbow rush deck) or another rainbow deck stalled with too 
+#many creatures on the table – this way I could discard their deck in 
+#mass and hope to deck my opponent in the late game. 
+#
+#Finally, Shakedown, a very under appreciated card. Once again, against 
+#solid control decks or another rainbow rush, exhausting all their 
+#resources on their story phase prevents them from playing any event 
+#based destruction or surprises during my turn. 
+#
+#The deck list 
+#
+#(Note: This deck list is Greg Gans version played at the 2005 World 
+#Championship which was held after Eldritch Edition came out, hence the 
+#lack of cards from Masks of Nyarlathotep, Forgotten Cities and later 
+#editions) 
+#
+#Characters:
+#4x Man on the Inside (EE U 8)
+#4x Professor of Archeology (EE R 41)
+#4x Expatriate Reporter (EE U 69)
+#4x Spectral Hunter (EE U 162)
+#4x Thing from the Stars (EE U 132)
+#4x Black Spawn from Below (EE U 184)
+#2x Ravager from the Deep (UT C 61)
+#2x Ghoul Khanum (EE C 187)
+#
+#Events:
+#4x Seduction of the Tombs (EE C 50)
+#3x Shocking Transformation (UT U 121)
+#3x Dry Gulch (EE C 78)
+#4x Wrack (FR C 84)
+#4x Power Drain (AE U 139)
+#2x On the Lam (AEPS F 12)
+#2x Dread Curse of Azathoth (AE U 165)
+#2x Shakedown (AE R 20)
+#
+#28 characters
+#24 events
+#
+#The deck consists of 52 cards – not the traditional tournament min/max 
+#of 50 cards only so I’m sure people in my meta will be screaming at me 
+#for months to come. But hey, my deck held out against everything thrown 
+#at it so 52 can’t be all that bad. 
+#
+#In retrospect, if I was to eliminate a card, I would probably consider 
+#cutting the Dread Curse of Azathoth out, but that’s only a 
+#consideration. 
+#
+#At Worlds 
+#
+#All-in-all, I’m excited to have won World’s. In all honesty, I wasn’t 
+#expecting to win – I figured someone out there had the answer to my 
+#Shock and Awe deck. I knew I’d play well and I figured I’d have a strong 
+#showing and place in the top 8. So you can only imagine the anticipation 
+#and the excitement I felt when I was squaring off for the number 1 spot 
+#against Chicago Regionals champion, Scott. 
+#
+#Knowing he was playing a modified version of the Infinite Recursive 
+#Discard deck I posted months before, I remember him asking me 10 minutes 
+#into turn 1 if I was done. I told him that I needed to calculate out 
+#every card he could play and might play by turn 2 because I knew he 
+#would set up the combo and beat me otherwise either next turn or by turn 
+#3. 
+#
+#When he asked who I was and I told him I was the one who had originally 
+#posted the prototype deck, we got a good laugh and then turns 2 and 3 
+#turned into a prolonged 30 minutes. In the end, Shock and Awe had the 
+#answers to blaze through and win all three stories by the start of round 
+#3. Scott’s a good player and it was an honor to face off against him. 
+#
+#I’m also glad I was playing optimally that day and that my deck was 
+#versatile enough to deal with the varied threats it encountered. In each 
+#of my 9 rounds, my opponents were all good players, professional and 
+#courteous, so my hats off to you for making World’s and my first GenCon 
+#a great experience. 
+#
+#I’d also like to thank the Pittsburgh meta for all the suggestions, 
+#criticisms and late night testing – its definitely made me a better 
+#player over the past year. 
+#
+#Although the absolute best part of winning the World Championship is the 
+#fact I’ll be designing my own card – I can’t wait! 
+#
+#- Greg Gan 
+#
+#____________________ 
+#
+#Many thanks to Greg for sharing this with the community. I found it an 
+#interesting and fun article to read. Hopefully you did too. 
+#
+#Just to point out. The so called "rainbow warriors" (EE U8, EE U39, EE 
+#U69, EE U162, EE U132 and EE U184) have been changed by the FAQ (see the 
+#Support page here), so this deck dont work anymore. It was just too 
+#powerful. Like all of us who played it found out, it couldnt be stopped 
+#except by errata. Seduction of the Tombs did also get errata in that 
+#same FAQ that came some time after Worlds. 
+#
+#But its not easy to win mirror matches nor against all the other crazy 
+#decks that showed up at Worlds. You need to have built and played a good 
+#deck to win it all. Many congrats to Greg once more for winning the 
+#Worlds 2005. I look forward to seeing your card in print! :) 
+#
+#- xedric 

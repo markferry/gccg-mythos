@@ -56,6 +56,8 @@ v0.9.7
 [ ] Inform opponent about card number what he is moving when setting aside.
 [X] Fix AvatarRecalcTable() so it could handle avatar placement on table image of different height
 [ ] Check sets and card counts announced by server and give warning if not matching.
+[ ] Some function to check if system is not functional in client. Use
+    it on places like import, export, etc..
 
 v0.9.8
 [ ] Try 'scons' based building.

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ccg SYSTEM "gccg-game.dtd">
+
+<ccg name="Collectible Poker" dir="Poker">
+  <option name="hand card size" value="100"/>
+  <option name="table card size" value="100"/>
+  <option name="deck card size" value="100"/>
+  <option name="book card size" value="100"/>
+  <cardset source="poker_basecards.xml"/>
+  <cardset source="basic_deck.xml"/>
+  <cardset source="chips.xml"/>
+
+  <trigger event="location hint" attribute="type"/>
+  <trigger event="play" attribute="type"/>
+  <option name="deck order" value="type"/>
+  <option name="deck color by" value="type"/>
+</ccg>

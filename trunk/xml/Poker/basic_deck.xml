@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ccg-setinfo SYSTEM "../gccg-set.dtd">
+<ccg-setinfo name="Basic Deck" dir="BasicDeck" abbrev="D" game="Collectible Poker">
+
+  <cards>
+    <card name="Red Joker" text="" graphics="rj.png">
+       <attr key="rarity" value="F"/>
+       <attr key="suit" value="Any"/>
+       <attr key="rank" value="Any"/>
+       <attr key="type" value="Card"/>
+    </card>
+    <card name="Black Joker" text="" graphics="bj.png">
+       <attr key="rarity" value="F"/>
+       <attr key="suit" value="Any"/>
+       <attr key="rank" value="Any"/>
+       <attr key="type" value="Card"/>
+    </card>
+    <card name="Ace of Spades" text="" graphics="as.png">
+       <attr key="rarity" value="F"/>
+       <attr key="suit" value="Spades"/>
+       <attr key="rank" value="Ace"/>
+       <attr key="type" value="Card"/>
+    </card>
+    <card name="King of Spades" text="" graphics="ks.png">
+       <attr key="rarity" value="F"/>
+       <attr key="suit" value="Spades"/>
+       <attr key="rank" value="King"/>
+       <attr key="type" value="Card"/>
+    </card>
+    <card name="Queen of Spades" text="" graphics="qs.png">
+       <attr key="rarity" value="F"/>
+       <attr key="suit" value="Spades"/>
+       <attr key="rank" value="Queen"/>
+       <attr key="type" value="Card"/>
+    </card>
+    <card name="Jack of Spades" text="" graphics="js.png">
+       <attr key="rarity" value="F"/>
+       <attr key="suit" value="Spades"/>
+       <attr key="rank" value="Jack"/>
+       <attr key="type" value="Card"/>
+    </card>
+    <card name="Ten of Spades" text="" graphics="10s.png">
+       <attr key="rarity" value="F"/>
+       <attr key="suit" value="Spades"/>
+       <attr key="rank" value="10"/>
+       <attr key="type" value="Card"/>
+    </card>
+    <card name="Nine of Spades" text="" graphics="9s.png">
+       <attr key="rarity" value="F"/>
+       <attr key="suit" value="Spades"/>
+       <attr key="rank" value="9"/>
+       <attr key="type" value="Card"/>
+    </card>
+    <card name="Eight of Spades" text="" graphics="8s.png">
+       <attr key="rarity" value="F"/>
+       <attr key="suit" value="Spades"/>
+       <attr key="rank" value="8"/>
+       <attr key="type" value="Card"/>
+    </card>
+    <card name="Seven of Spades" text="" graphics="7s.png">
+       <attr key="rarity" value="F"/>
+       <attr key="suit" value="Spades"/>
+       <attr key="rank" value="7"/>
+       <attr key="type" value="Card"/>
+    </card>
+    <card name="Six of Spades" text="" graphics="6s.png">
+       <attr key="rarity" value="F"/>
+       <attr key="suit" value="Spades"/>
+       <attr key="rank" value="6"/>
+       <attr key="type" value="Card"/>
+    </card>
+    <card name="Five of Spades" text="" graphics="5s.png">
+       <attr key="rarity" value="F"/>
+       <attr key="suit" value="Spades"/>
+       <attr key="rank" value="5"/>
+       <attr key="type" value="Card"/>
+    </card>
+    <card name="Four of Spades" text="" graphics="4s.png">
+       <attr key="rarity" value="F"/>
+       <attr key="suit" value="Spades"/>
+       <attr key="rank" value="4"/>
+       <attr key="type" value="Card"/>
+    </card>
+    <card name="Three of Spades" text="" graphics="3s.png">
+       <attr key="rarity" value="F"/>
+       <attr key="suit" value="Spades"/>
+       <attr key="rank" value="3"/>
+       <attr key="type" value="Card"/>
+    </card>
+    <card name="Two of Spades" text="" graphics="2s.png">
+       <attr key="rarity" value="F"/>
+       <attr key="suit" value="Spades"/>
+       <attr key="rank" value="2"/>
+       <attr key="type" value="Card"/>
+    </card>
+    <card name="Ace of Diamonds" text="" graphics="ad.png">
+       <attr key="rarity" value="F"/>
+       <attr key="suit" value="Diamonds"/>
+       <attr key="rank" value="Ace"/>
+       <attr key="type" value="Card"/>
+    </card>
+    <card name="King of Diamonds" text="" graphics="kd.png">
+       <attr key="rarity" value="F"/>
+       <attr key="suit" value="Diamonds"/>
+       <attr key="rank" value="King"/>
+       <attr key="type" value="Card"/>
+    </card>
+    <card name="Queen of Diamonds" text="" graphics="qd.png">
+       <attr key="rarity" value="F"/>
+       <attr key="suit" value="Diamonds"/>
+       <attr key="rank" value="Queen"/>
+       <attr key="type" value="Card"/>
+    </card>
+    <card name="Jack of Diamonds" text="" graphics="jd.png">
+       <attr key="rarity" value="F"/>
+       <attr key="suit" value="Diamonds"/>
+       <attr key="rank" value="Jack"/>
+       <attr key="type" value="Card"/>
+    </card>
+    <card name="Ten of Diamonds" text="" graphics="10d.png">
+       <attr key="rarity" value="F"/>
+       <attr key="suit" value="Diamonds"/>
+       <attr key="rank" value="10"/>
+       <attr key="type" value="Card"/>
+    </card>
+    <card name="Nine of Diamonds" text="" graphics="9d.png">
+       <attr key="rarity" value="F"/>
+       <attr key="suit" value="Diamonds"/>
+       <attr key="rank" value="9"/>
+       <attr key="type" value="Card"/>
+    </card>
+    <card name="Eight of Diamonds" text="" graphics="8d.png">
+       <attr key="rarity" value="F"/>
+       <attr key="suit" value="Diamonds"/>
+       <attr key="rank" value="8"/>
+       <attr key="type" value="Card"/>
+    </card>
+    <card name="Seven of Diamonds" text="" graphics="7d.png">
+       <attr key="rarity" value="F"/>
+       <attr key="suit" value="Diamonds"/>
+       <attr key="rank" value="7"/>
+       <attr key="type" value="Card"/>
+    </card>
+    <card name="Six of Diamonds" text="" graphics="6d.png">
+       <attr key="rarity" value="F"/>
+       <attr key="suit" value="Diamonds"/>
+       <attr key="rank" value="6"/>
+       <attr key="type" value="Card"/>
+    </card>
+    <card name="Five of Diamonds" text="" graphics="5d.png">
+       <attr key="rarity" value="F"/>
+       <attr key="suit" value="Diamonds"/>
+       <attr key="rank" value="5"/>
+       <attr key="type" value="Card"/>
+    </card>
+    <card name="Four of Diamonds" text="" graphics="4d.png">
+       <attr key="rarity" value="F"/>
+       <attr key="suit" value="Diamonds"/>
+       <attr key="rank" value="4"/>
+       <attr key="type" value="Card"/>
+    </card>
+    <card name="Three of Diamonds" text="" graphics="3d.png">
+       <attr key="rarity" value="F"/>
+       <attr key="suit" value="Diamonds"/>
+       <attr key="rank" value="3"/>
+       <attr key="type" value="Card"/>
+    </card>
+    <card name="Two of Diamonds" text="" graphics="2d.png">
+       <attr key="rarity" value="F"/>
+       <attr key="suit" value="Diamonds"/>
+       <attr key="rank" value="2"/>
+       <attr key="type" value="Card"/>
+    </card>
+    <card name="Ace of Hearts" text="" graphics="ah.png">
+       <attr key="rarity" value="F"/>
+       <attr key="suit" value="Hearts"/>
+       <attr key="rank" value="Ace"/>
+       <attr key="type" value="Card"/>
+    </card>
+    <card name="King of Hearts" text="" graphics="kh.png">
+       <attr key="rarity" value="F"/>
+       <attr key="suit" value="Hearts"/>
+       <attr key="rank" value="King"/>
+       <attr key="type" value="Card"/>
+    </card>
+    <card name="Queen of Hearts" text="" graphics="qh.png">
+       <attr key="rarity" value="F"/>
+       <attr key="suit" value="Hearts"/>
+       <attr key="rank" value="Queen"/>
+       <attr key="type" value="Card"/>
+    </card>
+    <card name="Jack of Hearts" text="" graphics="jh.png">
+       <attr key="rarity" value="F"/>
+       <attr key="suit" value="Hearts"/>
+       <attr key="rank" value="Jack"/>
+       <attr key="type" value="Card"/>
+    </card>
+    <card name="Ten of Hearts" text="" graphics="10h.png">
+       <attr key="rarity" value="F"/>
+       <attr key="suit" value="Hearts"/>
+       <attr key="rank" value="10"/>
+       <attr key="type" value="Card"/>
+    </card>
+    <card name="Nine of Hearts" text="" graphics="9h.png">
+       <attr key="rarity" value="F"/>
+       <attr key="suit" value="Hearts"/>
+       <attr key="rank" value="9"/>
+       <attr key="type" value="Card"/>
+    </card>
+    <card name="Eight of Hearts" text="" graphics="8h.png">
+       <attr key="rarity" value="F"/>
+       <attr key="suit" value="Hearts"/>
+       <attr key="rank" value="8"/>
+       <attr key="type" value="Card"/>
+    </card>
+    <card name="Seven of Hearts" text="" graphics="7h.png">
+       <attr key="rarity" value="F"/>
+       <attr key="suit" value="Hearts"/>
+       <attr key="rank" value="7"/>
+       <attr key="type" value="Card"/>
+    </card>
+    <card name="Six of Hearts" text="" graphics="6h.png">
+       <attr key="rarity" value="F"/>
+       <attr key="suit" value="Hearts"/>
+       <attr key="rank" value="6"/>
+       <attr key="type" value="Card"/>
+    </card>
+    <card name="Five of Hearts" text="" graphics="5h.png">
+       <attr key="rarity" value="F"/>
+       <attr key="suit" value="Hearts"/>
+       <attr key="rank" value="5"/>
+       <attr key="type" value="Card"/>
+    </card>
+    <card name="Four of Hearts" text="" graphics="4h.png">
+       <attr key="rarity" value="F"/>
+       <attr key="suit" value="Hearts"/>
+       <attr key="rank" value="4"/>
+       <attr key="type" value="Card"/>
+    </card>
+    <card name="Three of Hearts" text="" graphics="3h.png">
+       <attr key="rarity" value="F"/>
+       <attr key="suit" value="Hearts"/>
+       <attr key="rank" value="3"/>
+       <attr key="type" value="Card"/>
+    </card>
+    <card name="Two of Hearts" text="" graphics="2h.png">
+       <attr key="rarity" value="F"/>
+       <attr key="suit" value="Hearts"/>
+       <attr key="rank" value="2"/>
+       <attr key="type" value="Card"/>
+    </card>
+    <card name="Ace of Clubs" text="" graphics="ac.png">
+       <attr key="rarity" value="F"/>
+       <attr key="suit" value="Clubs"/>
+       <attr key="rank" value="Ace"/>
+       <attr key="type" value="Card"/>
+    </card>
+    <card name="King of Clubs" text="" graphics="kc.png">
+       <attr key="rarity" value="F"/>
+       <attr key="suit" value="Clubs"/>
+       <attr key="rank" value="King"/>
+       <attr key="type" value="Card"/>
+    </card>
+    <card name="Queen of Clubs" text="" graphics="qc.png">
+       <attr key="rarity" value="F"/>
+       <attr key="suit" value="Clubs"/>
+       <attr key="rank" value="Queen"/>
+       <attr key="type" value="Card"/>
+    </card>
+    <card name="Jack of Clubs" text="" graphics="jc.png">
+       <attr key="rarity" value="F"/>
+       <attr key="suit" value="Clubs"/>
+       <attr key="rank" value="Jack"/>
+       <attr key="type" value="Card"/>
+    </card>
+    <card name="Ten of Clubs" text="" graphics="10c.png">
+       <attr key="rarity" value="F"/>
+       <attr key="suit" value="Clubs"/>
+       <attr key="rank" value="10"/>
+       <attr key="type" value="Card"/>
+    </card>
+    <card name="Nine of Clubs" text="" graphics="9c.png">
+       <attr key="rarity" value="F"/>
+       <attr key="suit" value="Clubs"/>
+       <attr key="rank" value="9"/>
+       <attr key="type" value="Card"/>
+    </card>
+    <card name="Eight of Clubs" text="" graphics="8c.png">
+       <attr key="rarity" value="F"/>
+       <attr key="suit" value="Clubs"/>
+       <attr key="rank" value="8"/>
+       <attr key="type" value="Card"/>
+    </card>
+    <card name="Seven of Clubs" text="" graphics="7c.png">
+       <attr key="rarity" value="F"/>
+       <attr key="suit" value="Clubs"/>
+       <attr key="rank" value="7"/>
+       <attr key="type" value="Card"/>
+    </card>
+    <card name="Six of Clubs" text="" graphics="6c.png">
+       <attr key="rarity" value="F"/>
+       <attr key="suit" value="Clubs"/>
+       <attr key="rank" value="6"/>
+       <attr key="type" value="Card"/>
+    </card>
+    <card name="Five of Clubs" text="" graphics="5c.png">
+       <attr key="rarity" value="F"/>
+       <attr key="suit" value="Clubs"/>
+       <attr key="rank" value="5"/>
+       <attr key="type" value="Card"/>
+    </card>
+    <card name="Four of Clubs" text="" graphics="4c.png">
+       <attr key="rarity" value="F"/>
+       <attr key="suit" value="Clubs"/>
+       <attr key="rank" value="4"/>
+       <attr key="type" value="Card"/>
+    </card>
+    <card name="Three of Clubs" text="" graphics="3c.png">
+       <attr key="rarity" value="F"/>
+       <attr key="suit" value="Clubs"/>
+       <attr key="rank" value="3"/>
+       <attr key="type" value="Card"/>
+    </card>
+    <card name="Two of Clubs" text="" graphics="2c.png">
+       <attr key="rarity" value="F"/>
+       <attr key="suit" value="Clubs"/>
+       <attr key="rank" value="2"/>
+       <attr key="type" value="Card"/>
+    </card>
+  </cards>
+
+</ccg-setinfo>

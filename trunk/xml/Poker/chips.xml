@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ccg-setinfo SYSTEM "../gccg-set.dtd">
+<ccg-setinfo name="Chips" dir="Chips" abbrev="C" game="Collectible Poker">
+
+  <cards>
+    <card name="Chip 25" text="" graphics="25.png">
+       <attr key="rarity" value="F"/>
+       <attr key="value" value="25"/>
+       <attr key="type" value="Chip"/>
+    </card>
+  </cards>
+  <cards>
+    <card name="Chip 100" text="" graphics="100.png">
+       <attr key="rarity" value="F"/>
+       <attr key="value" value="100"/>
+       <attr key="type" value="Chip"/>
+    </card>
+  </cards>
+  <cards>
+    <card name="Chip 500" text="" graphics="500.png">
+       <attr key="rarity" value="F"/>
+       <attr key="value" value="500"/>
+       <attr key="type" value="Chip"/>
+    </card>
+  </cards>
+
+</ccg-setinfo>

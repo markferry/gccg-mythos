@@ -454,6 +454,9 @@ void Document::open(const string& filename)
     if(buffer)
 	delete buffer;
 
+    if(base)
+        delete base;
+    base=0;
     size=file.st_size;
     buffer=new char[size];
     if(!buffer)

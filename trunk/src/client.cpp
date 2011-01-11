@@ -578,9 +578,23 @@ int gccg_main(int argc,const char** argv)
 	{			
 	    opt=CCG_DATADIR;
 	    opt+="/xml/";
-	    opt+=argv[arg++];
-	    cout << Localization::Message("Loading %s",Localization::File(opt)) << endl;
+	    opt+=argv[arg];
+	    cout << Localization::Message("Loading game description %s",Localization::File(opt)) << endl;
 	    Database::game.ReadFile(opt);
+
+            // Read extended copy if found.
+	    opt=CCG_DATADIR;
+            opt+="/../";
+            opt+=ToLower(Database::game.Gamedir());
+            opt+="/xml/";
+	    opt+=argv[arg];
+            if(FileExist(opt))
+            {
+                cout << Localization::Message("Loading game description %s",Localization::File(opt)) << endl;
+                Database::game.ReadFile(opt);
+            }
+
+            arg++;
 
 	    string df=CCG_DATADIR"/lib/"+Database::game.Gamedir()+"/dictionary.client";
 	    if(FileExist(df))
@@ -669,6 +683,21 @@ int gccg_main(int argc,const char** argv)
 	    opt+=Database::game.Gamedir();
 	    opt+="/";
 	    opt+=Database::game.CardSet(i);
+            if(!FileExist(opt))
+            {
+                opt=CCG_DATADIR;
+                opt+="/../";
+                opt+=ToLower(Database::game.Gamedir());
+                opt+="/xml/";
+                opt+=Database::game.Gamedir();
+                opt+="/";
+                opt+=Database::game.CardSet(i);
+            }
+            if(!FileExist(opt))
+            {
+                cout << Localization::Message("Cannot load %s (maybe need to download extra repository).",Localization::File(opt)) << endl;
+                continue;
+            }
 	    cout << Localization::Message("Loading %s",Localization::File(opt)) << endl;
 	    Database::cards.AddCards(opt);
 	    if(Evaluator::quitsignal)

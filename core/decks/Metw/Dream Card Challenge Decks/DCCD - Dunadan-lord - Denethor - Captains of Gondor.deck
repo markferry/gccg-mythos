@@ -1,0 +1,190 @@
+#
+# GCCG v0.9.6 Middle-earth deck
+#
+#      DCCD - Dunadan-lord - Denethor - Captains of Gondor
+#
+
+####
+Deck
+####
+
+# Dunadan-lord (3)
+
+3 Lord Denethor (WOTR)
+
+# Hazard (33)
+
+1 Ambusher (LE)
+1 Angmar Arises (PR)
+1 Barrow-wight (TW)
+1 Barrow-wight (LE)
+2 Black Crows (FB)
+3 Chill Douser (DM)
+1 Death of a Kinsman (WOTR)
+1 Dunlending Raiders (TD)
+1 Foolish Words (TD)
+1 Ibûn (DF)
+1 Ice-drake (NW)
+2 Icy Touch (TD)
+1 Left on the Field (WOTR)
+1 Out of Practise (DF)
+1 Pale Dream-maker (DM)
+1 Plague of Wights (LE)
+1 Reaching Shadow (DM)
+1 Searching Eye (LE)
+1 Spells of the Barrow-wights (DM)
+1 Stirring Bones (DM)
+1 Stirring Bones (LE)
+2 Ta-Fa-Lisch (DF)
+1 Taint of Glory (WOTR)
+1 The Border-watch (LE)
+2 Twilight (LE)
+2 Wisp of Pale Sheen (DM)
+
+# Hero Character (5)
+
+1 Beregond (TW)
+1 Bergil (TW)
+1 Forlong (TW)
+1 Hirgon (WOTR)
+1 Ingold (WOTR)
+
+# Hero Resource (29)
+
+1 Captains of the West (WOTR)
+3 Dark Quarrels (TW)
+1 Escaped Slaves (WOTR)
+1 Fellowship (NW)
+1 Glamdring (TW)
+1 Knowledge of the Enemy (DM)
+2 Lock nor Bar May Hinder (DF)
+1 Longbottom Leaf (BA)
+2 Many Turns and Doublings (TD)
+1 Marvels Told (TD)
+1 Orcrist (TW)
+1 Reforging (NW)
+3 Rescue Prisoners (TW)
+1 Rumours of Danger (WOTR)
+1 Safe from the Shadow (AS)
+1 Smoke Rings (DM)
+1 Steward of Gondor (WOTR)
+1 Stories of the Elder Days (WOTR)
+1 The Ithil-stone (AS)
+1 Trickery (TD)
+2 War Preparations (WOTR)
+1 Withdrawn to Mordor (DM)
+
+# Stage Resource (4)
+
+1 Captain of the Tower Guard (WOTR)
+1 Kheleglin (FP)
+1 Leaguer of Pelargir (WOTR)
+1 Sworn to the Lord (FB)
+
+####
+Pool
+####
+
+# Grey Agent Character (1)
+
+1 Thorongil (WOTR)
+
+# Hero Character (6)
+
+1 Anborn (TW)
+1 Boromir II (TW)
+1 Damrod (TW)
+1 Faramir (TW)
+1 Ioreth (TD)
+1 Mablung of Ithilien (WOTR)
+
+# Hero Resource (3)
+
+1 Backpack (ROTS)
+1 Draw Swords Together (TOI)
+1 Shield of Iron-bound Ash (TW)
+
+# Stage Resource (3)
+
+1 Captain of the Royal Rangers  (WOTR)
+1 Tower of Guard (WOTR)
+1 Trusted Councellor (FB)
+
+#########
+Sideboard
+#########
+
+# Dual Resource (1)
+
+1 Mighty Steed (TOI)
+
+# Hazard (6)
+
+1 Ash-drake (SL)
+1 Call of the Deeps (DF)
+1 Eärcaraxë Ahunt (TD)
+1 King of the Dead (TOI)
+1 Muster Disperses (LE)
+1 Too Much to Ask (WOTR)
+
+# Hero Character (1)
+
+1 Robin Smallburrow (TW)
+
+# Hero Resource (10)
+
+1 Healing Herbs (TW)
+1 Lore of the Ages (TD)
+1 Many Foes He Fought (TD)
+1 Noldo-lantern (DM)
+1 Putting away All Fear (WOTR)
+1 Star-glass (TW)
+1 Tales of the Hunt (TD)
+1 Tower Guard of Minas Tirith (TW)
+1 Tower Raided (AS)
+1 True Hearted Man (ROTS)
+
+# Stage Resource (2)
+
+1 Great Achievement (DF)
+1 Legacy of Smiths (WH)
+
+#####
+Sites
+#####
+
+# Fallen Site (1)
+
+1 Edhellond [F] (FB)
+
+# Hero Site (29)
+
+1 Amon Lhaw [H] (ROTS)
+1 Amrûn [H] (SL)
+1 Barad-dûr [H] (TW)
+1 Barad-wath [H] (NE)
+1 Cair Andros [H] (WOTR)
+1 Cairn of the Colruh Hazurbal [H] (SL)
+1 Calembel [H] (WOTR)
+1 Cirith Gorgor [H] (AS)
+1 Cirith Ungol [H] (TW)
+1 Dead Marshes [H] (TW)
+1 Durthang [H] (WOTR)
+1 Dûsalan [H] (SL)
+1 Gobel Mírlond [H] (AS)
+1 Haudh-in-Gwanûr [H] (DM)
+1 Lugarlur [H] (SL)
+1 Minas Morgul [H] (TW)
+1 Minas Tirith [H] (TW)
+1 Mount Doom [H] (TW)
+1 Nûrniag Camp [H] (AS)
+1 Osgiliath [H] (WOTR)
+1 Ostigurth [H] (NE)
+1 Raider-hold [H] (AS)
+1 Shelob's Lair [H] (TW)
+1 Sturlurtsa [H] (SL)
+1 Temple of Kondri Odchi [H] (SL)
+1 The Hospice of Lost Faith [H] (SL)
+1 Thuringwathost [H] (NE)
+1 Urlurtsu Nurn [H] (DM)
+1 Vamag [H] (SL)

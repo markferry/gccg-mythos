@@ -1,0 +1,203 @@
+#
+# GCCG v0.9.6 Middle-earth deck
+#
+#      DCCD - Dwarf-lord - Balin - Lord of Moria
+#
+
+####
+Deck
+####
+
+# Dual Resource (4)
+
+2 Fungi (DF)
+1 His Beard Long and Forked (DF)
+1 Origin of Stone (DF)
+
+# Dwarf-lord Character (3)
+
+3 Balin [D] (DF)
+
+# Hazard (33)
+
+1 Abductor (TW)
+2 Ambusher (TW)
+1 An Unexpected Outpost (DM)
+1 Balrog of Moria (TW)
+1 Bardings (GW)
+1 Cardolanian Whalers (NW)
+2 Corsairs of Umbar (TW)
+1 Despair of the Heart (LE)
+1 Dunlending Raiders (TD)
+1 Foolish Words (LE)
+2 Frightful Guardian (GW)
+2 Giant (TW)
+1 Greed (TW)
+1 His Own Master (ROTS)
+1 Horse-lords (LE)
+1 Lord of the Carrock (AS)
+1 Lure of Expedience (LE)
+1 Men of the Wood (GW)
+1 Mouth of Sauron (TW)
+1 Out of Practise (DF)
+3 Rank upon Rank (DM)
+3 Sellswords Between Charters (LE)
+2 Thrice Outnumbered (LE)
+1 Twilight (LE)
+
+# Hero Character (5)
+
+1 Bifur (TW)
+1 Bofur (TW)
+1 Dwarf-miner (DF)
+1 King's Advisor (DF)
+1 Pathfinder (DF)
+
+# Hero Resource (18)
+
+1 An Unexpected Party (DM)
+1 Bill the Pony (TW)
+1 Blue Mountain Dwarves (TW)
+1 Clan Bonds (DF)
+1 Concealment (TW)
+2 Dwarven Light-stone (DM)
+1 Dwarven-axe (DF)
+2 Marvels Told (TD)
+2 Smoke Rings (DM)
+3 The Dwarves Are upon You! (DM)
+1 To the Uttermost Foundations (DM)
+1 Vein of Arda (DM)
+1 Without a Glance of Longing (DF)
+
+# Minion Character (1)
+
+1 Drór (DM)
+
+# Minion Resource (5)
+
+2 Crept Along Cleverly (WH)
+1 Iron Shield of Old (AS)
+2 Swift Strokes (LE)
+
+# Stage Resource (6)
+
+1 Clad for War (DF)
+1 Deep Mountain Fortress (DF)
+1 Dwarven-galleries (DF)
+1 Great Miners (DF)
+1 No Mouse Unnoticed (DF)
+1 Son of Fundin (DF)
+
+####
+Pool
+####
+
+# Dual Resource (1)
+
+1 Miner's Pick (DF)
+
+# Hero Character (8)
+
+1 Attack-lord (DF)
+1 Borin (DF)
+1 Dori (TW)
+1 Frerin (DF)
+1 Glóin (TW)
+1 Loni (DF)
+1 Norin (DF)
+1 Óin (TW)
+
+# Hero Resource (1)
+
+1 Pipe (DF)
+
+# Minion Resource (1)
+
+1 Deadly Dart (PR)
+
+# Stage Resource (3)
+
+1 Balin, Dwarf of All Trades (DF)
+1 Crimson Hood (DF)
+1 Promise of Treasure (DF)
+
+#########
+Sideboard
+#########
+
+# Hazard (3)
+
+1 Covetous Thoughts (LE)
+1 Many Burdens (ROTS)
+1 Muster Disperses (LE)
+
+# Hero Resource (15)
+
+1 Aglarond (TOI)
+1 Book of Mazarbul (TW)
+1 Durin's Crown (DF)
+1 Gems of Arda (DM)
+1 Gollum (TW)
+1 Halls of Khazad-dûm (DF)
+1 Into Dark Tunnels (DM)
+2 Longbottom Leaf (BA)
+1 Map to Mithril (TD)
+1 Mithril (DM)
+1 Petty-dwarves [H] (AS)
+1 Reconquest of Khazad-dûm (DF)
+1 Return to Khazad-dûm (DF)
+1 The Old Thrush (TW)
+
+# Stage Resource (2)
+
+1 Folk of Durin (DF)
+1 Lord of Dwarrowdelf (DF)
+
+#####
+Sites
+#####
+
+# Dual Site (1)
+
+1 Durin's Tower (DF)
+
+# Dwarf-lord Site (1)
+
+1 Blue Mountain Dwarf-hold [D] (DF)
+
+# Fallen-wizard Site (1)
+
+1 Deep Mines (WH)
+
+# Hero Site (30)
+
+1 Andoloki [H] (NW)
+1 Bag End [H] (TW)
+1 Bar-en-Ibûn [H] (DF)
+1 Barrow-downs [H] (TW)
+1 Bree [H] (TW)
+1 Carn Dûm [H] (TW)
+1 Creb Durga [H] (KN)
+1 Dimrill Dale [H] (TW)
+1 Dol Guldur [H] (TW)
+1 Glittering Caves [H] (TW)
+1 Goblin-gate [H] (TW)
+1 Moria [H] (TW)
+1 Mount Gram [H] (TW)
+1 Mount Gundabad [H] (TW)
+1 Ruins of Belegost [H] (DF)
+1 Ruins of Nogrod [H] (DF)
+1 Steel Fall [H] (GW)
+1 The Drowning-deeps [H] (DF)
+1 The Gem-deeps [H] (DM)
+1 The Iron-deeps [H] (DM)
+1 The Pûkel-deeps [H] (DM)
+1 The Sulfur-deeps [H] (DM)
+1 The Under-Caves [H] (KN)
+1 The Under-gates [H] (DM)
+1 The Under-grottos [H] (DM)
+1 The Under-leas [H] (DM)
+1 The Under-vaults [H] (DM)
+1 The Wind Throne [H] (TW)
+1 The Wind-deeps [H] (DF)
+1 Thunder Cleft [H] (GW)

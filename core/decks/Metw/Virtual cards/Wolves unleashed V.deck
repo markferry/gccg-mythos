@@ -1,0 +1,207 @@
+#
+# GCCG v0.8.92 Middle-earth deck
+#
+#      dwar sacado V
+#
+
+####
+Deck
+####
+
+# Hazard (30)
+
+2 Abductor
+1 Adûnaphel
+1 Akhôrahil
+3 An Unexpected Outpost
+3 Assassin
+2 Brigands (LE)
+2 Corsairs of Umbar
+1 Hoarmûrath of Dír
+1 Indûr Dawndeath
+1 Mouth of Sauron
+2 Pirates
+3 Rank upon Rank
+1 Ren the Unclean
+1 Revealed to all Watchers
+2 Sellswords Between Charters
+3 The Nazgûl are Abroad (V1)
+1 Thief
+
+# Minion Character (6)
+
+1 Bûrat
+3 Dwar the Ringwraith
+1 Tûma
+1 Wûluag
+
+# Minion Resource (30)
+
+3 A Nice Place to Hide
+3 Dark Tryst
+2 Dwar Unleashed (V1)
+1 Misty Mountain Wargs
+1 Regiment of Black Crows
+2 Riven Gate (V1)
+3 The Tormented Earth
+1 The Warg-king
+2 Threats
+2 Voices of Malice
+3 War-warg
+3 War-wolf
+1 Wargs of the Forochel
+3 Weigh All Things to a Nicety
+
+####
+Pool
+####
+
+# Minion Character (7)
+
+1 Baduila
+1 Grishnákh
+1 Lieutenant of Angmar
+1 Lieutenant of Dol Guldur
+1 Lieutenant of Morgul
+1 Odoacer
+1 The Grimburgoth
+
+# Minion Resource (2)
+
+1 Open to the Summons (WH)
+1 Strange Rations
+
+#########
+Sideboard
+#########
+
+# Hazard (18)
+
+3 Doubled Vigilance
+1 Fury of the Iron Crown
+3 Helms of Iron
+1 Lost in Free-domains (TW)
+1 Rolled down to the Sea
+3 Scimitars of Steel
+3 Two or Three Tribes Present
+3 Words of Power and Terror (V1)
+
+# Minion Character (1)
+
+1 Ûvatha the Ringwraith
+
+# Minion Resource (11)
+
+2 Long Grievous Siege
+1 No More Nonsense
+1 Scroll of Isildur [M]
+2 Smoke on the Wind
+1 Sudden Call
+1 Terror Heralds Doom (V1)
+1 The Arkenstone [M]
+1 The Iron Crown [M]
+1 Voices of Malice
+
+#####
+Sites
+#####
+
+# Minion Site (106)
+
+1 Amon Hen [M]
+1 Bag End [M]
+1 Bandit Lair [M]
+1 Barad-dûr [M]
+1 Barrow-downs [M]
+1 Beorn's House [M]
+1 Blue Mountain Dwarf-hold [M]
+1 Bree [M]
+1 Buhr Widu [M]
+1 Cameth Brin [M]
+4 Carn Dûm [M]
+1 Caves of Ûlund [M]
+1 Cirith Gorgor [M]
+1 Cirith Ungol [M]
+1 Dale [M]
+1 Dancing Spire [M]
+1 Dead Marshes [M]
+1 Dimrill Dale [M]
+1 Dol Amroth [M]
+4 Dol Guldur [M]
+1 Drúadan Forest [M]
+1 Dunharrow [M]
+1 Dunnish Clan-hold [M]
+1 Eagles' Eyrie [M]
+1 Easterling Camp [M]
+1 Edhellond [M]
+1 Edoras [M]
+1 Ettenmoors [M]
+1 Framsburg [M]
+1 Geann a-Lisch [M]
+1 Gladden Fields [M]
+1 Glittering Caves [M]
+1 Gobel Mírlond [M]
+1 Goblin-gate [M]
+1 Gold Hill [M]
+1 Gondmaeglom [M]
+1 Grey Havens [M]
+1 Haudh-in-Gwanûr [M]
+1 Henneth Annûn [M]
+1 Hermit's Hill [M]
+1 Himring [M]
+1 Irerock [M]
+1 Iron Hill Dwarf-hold [M]
+1 Isengard [M]
+1 Isle of the Ulond [M]
+1 Isles of the Dead that Live [M]
+1 Lake-town [M]
+1 Lond Galen [M]
+1 Lossadan Cairn [M]
+1 Lossadan Camp [M]
+1 Lórien [M]
+4 Minas Morgul [M]
+1 Minas Tirith [M]
+1 Moria [M]
+1 Mount Doom [M]
+1 Mount Gram [M]
+1 Mount Gundabad [M]
+1 Nûrniag Camp [M]
+1 Old Forest [M]
+1 Ost-in-Edhil [M]
+1 Ovir Hollow [M]
+1 Pelargir [M]
+1 Raider-hold [M]
+1 Rhosgobel [M]
+1 Rivendell [M]
+1 Ruined Signal Tower [M]
+1 Sarn Goriwing [M]
+1 Shelob's Lair [M]
+1 Shrel-Kain [M]
+1 Southron Oasis [M]
+1 Stone-circle [M]
+1 Tharbad [M]
+1 The Gem-deeps [M]
+1 The Iron-deeps [M]
+1 The Lonely Mountain [M]
+1 The Pûkel-deeps [M]
+1 The Stones [M]
+1 The Sulfur-deeps [M]
+1 The Under-courts [M]
+1 The Under-galleries [M]
+1 The Under-gates [M]
+1 The Under-grottos [M]
+1 The Under-leas [M]
+1 The Under-vaults [M]
+1 The White Towers [M]
+1 The Wind Throne [M]
+1 The Worthy Hills [M]
+1 Thranduil's Halls [M]
+1 Tolfalas [M]
+1 Urlurtsu Nurn [M]
+1 Vale of Erech [M]
+1 Variag Camp [M]
+1 Weathertop [M]
+1 Wellinghall [M]
+1 Woodmen-town [M]
+1 Wose Passage-hold [M]
+1 Zarak Dûm [M]

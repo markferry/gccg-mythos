@@ -1,0 +1,168 @@
+#
+# GCCG v0.9.6 Middle-earth deck
+#
+#      DCCD - Balrog - Durlach - Bane of the North
+#
+
+####
+Deck
+####
+
+# Balrog Character (3)
+
+3 Durlach (NW)
+
+# Dual Resource (2)
+
+1 Ancient Rite (NE)
+1 Rings of Power (NM)
+
+# Hazard (33)
+
+3 An Unexpected Outpost (DM)
+2 Despair of the Heart (TW)
+2 Dire Wolves (TD)
+3 Doors of Night (TW)
+1 Hobgoblins (TD)
+2 Minions Stir (TW)
+1 Morgoth's Ring (NW)
+1 Not without a Plan (DF)
+2 Orc-guard (TW)
+2 Orc-lieutenant (TW)
+1 Orc-raiders (TW)
+1 Soldiers of the Dark Lord (DF)
+1 The Black Enemy's Wrath (DM)
+1 Twilight (TW)
+2 Wake of War (TW)
+2 Where the Wargs Howl (NW)
+1 White Wolves (NW)
+2 Wolf-riders (TD)
+3 Wolves (TW)
+
+# Minion Character (1)
+
+1 Konihrabn (NW)
+
+# Minion Resource (31)
+
+1 A Few Recruits (BA)
+1 Ancient Secrets (BA)
+3 Conjure the Tempest (NW)
+3 Crept Along Cleverly (WH)
+3 Driven as by a Madness (AS)
+1 Eloeklo, Demon of the North Wind (NW)
+1 Maker's Map (BA)
+2 Master of Dread and Fear (NW)
+1 Perfect Gold Ring (LE)
+1 Poison of his Voice (WH)
+2 Secrets of Their Forging (LE)
+2 Spirit-abuse (NW)
+1 Spying out the Land (LE)
+1 Test of Fire (LE)
+2 The Least of Gold Rings (LE)
+1 The Warg-king (LE)
+3 Voices of Malice (LE)
+2 Weigh All Things to a Nicety (LE)
+
+####
+Pool
+####
+
+# Minion Character (9)
+
+1 Agog (NW)
+1 Ardagor [M] (KN)
+1 Forest-troll (KN)
+1 Hill-troll (BA)
+2 Ice-troll (NW)
+1 Troll-chief (LE)
+1 Umagaur (BA)
+1 Urdrak (NW)
+
+# Minion Resource (3)
+
+1 Orders from the Great Demon (BA)
+1 Pursuit through Barren Lands (NW)
+1 Whispers of Rings (BA)
+
+#########
+Sideboard
+#########
+
+# Hazard (5)
+
+1 Call of the Sea (TW)
+1 Lost in Free-domains (TW)
+1 Muster Disperses (TW)
+1 Siege of Gondor (WOTR)
+1 Vaurak (SL)
+
+# Hero Resource (1)
+
+1 Major Spell-bead (NW)
+
+# Minion Resource (13)
+
+1 Black Ring of Arda (NE)
+1 Flaming Torch (NE)
+2 Ghash! (NW)
+1 Ice-drakes of the Ered Úmarth (NW)
+1 Magic Ring of Delusion (LE)
+1 Magic Ring of Savagery (LE)
+1 Minor Ring (LE)
+1 Shoot in the Eye (GW)
+1 The Runeknife of Risinth (NW)
+1 War-wolf (LE)
+1 Wargs of the Forochel (LE)
+1 Wind-horde (NW)
+
+# Minion Character (1)
+
+1 Crook-legged Orc (BA)
+
+#####
+Sites
+#####
+
+# Balrog Site (4)
+
+1 Eithel Morgoth [B] (NW)
+1 Mornost [B] (NW)
+1 Shapal Udûn [B] (NW)
+1 The Under-forges [B] (NW)
+
+# Minion Site (33)
+
+1 Achrond [M] (NW)
+1 Amon Anlug [M] (NW)
+1 Ancient Maze [M] (NW)
+1 Andoloki [M] (NW)
+1 Bernastath [M] (NW)
+1 Canadras [M] (NW)
+1 Celeb-ost [M] (NW)
+1 Ei Missa [M] (NW)
+1 Evermist [M] (NW)
+1 Gondring's Lair [M] (NW)
+1 Helloth [M] (NW)
+1 Kula Dulakurth [M] (NW)
+1 Kylmätalo [M] (NW)
+1 Leiri [M] (NW)
+1 Ligr Wodaize Berne [M] (NW)
+1 Linnarthurras [M] (NW)
+1 Litash [M] (NW)
+1 Lugdruong [M] (NW)
+1 Malgolodh's Cave [M] (NW)
+1 Númenórean Tomb [M] (NW)
+1 Orod Certhas [M] (NW)
+1 Pendrath na-Udûn [M] (NW)
+1 Pieni Satama [M] (NW)
+1 Puolihmisten Satama [M] (NW)
+1 Ruskea Vene [M] (NW)
+1 Thaurung [M] (NW)
+1 The Pits of Angband [M] (NW)
+1 The Vaults of Utûmno [M] (NW)
+1 Thilgon's Tomb [M] (NW)
+1 Tol Morven [M] (NW)
+1 Tol Ringurthur [M] (NW)
+1 Vasaran Ahjo [M] (NW)
+1 Zayandaur [M] (NW)

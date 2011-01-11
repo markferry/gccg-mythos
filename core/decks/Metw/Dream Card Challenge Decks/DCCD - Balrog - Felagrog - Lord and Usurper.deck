@@ -1,0 +1,149 @@
+#
+# GCCG v0.9.6 Middle-earth deck
+#
+#      DCCD - Balrog - Felagrog - Lord and Usurper
+#
+
+####
+Deck
+####
+
+# Balrog Character (3)
+
+3 The Balrog [B] (BA)
+
+# Dual Resource (7)
+
+3 Durang (DF)
+2 Fungi (DF)
+2 Miner's Pick (DF)
+
+# Hazard (33)
+
+3 An Unexpected Outpost (DM)
+3 Dire Wolves (TD)
+3 Doors of Night (TW)
+2 Fell Winter (TW)
+2 Legacy of Carcaroth (NW)
+1 Lure of Nature (TW)
+1 Ninevet (DF)
+1 Pierced by Many Wounds (DM)
+2 The Pack at the Door (DF)
+2 Twilight (TW)
+3 Wake of War (TW)
+1 War-wargs (NW)
+1 War-wolves (NW)
+2 Wargs (TW)
+1 Watcher in the Water (LE)
+2 Were-wolf (NW)
+1 White Wolves (NW)
+2 Wolves (TW)
+
+# Minion Character (5)
+
+2 Orc Tracker (LE)
+2 Orc Veteran (LE)
+
+# Minion Resource (26)
+
+1 A Worthy Substitute (NE)
+2 Ancient Secrets (BA)
+2 Broad-headed Spear (LE)
+2 Burning Rick, Cot, and Tree (LE)
+2 Dark Forges (NE)
+1 Dwarf-chopper (DF)
+1 Foe Dismayed (BA)
+1 Gangways over the Fire (BA)
+1 Great Bats (AS)
+1 Great Lord of Goblin-gate (AS)
+1 Hatred (NE)
+1 High Helm (LE)
+1 I'll Report You (LE)
+1 Marauding Band of Orcs (NE)
+1 Obey Him or Die (BA)
+1 Orcs of Moria (LE)
+2 Strangling Coils (BA)
+1 Swarm of Bats (LE)
+2 Swift Strokes (LE)
+1 Weigh All Things to a Nicety (LE)
+
+####
+Pool
+####
+
+# Minion Character (5)
+
+1 Bolg of the North (DF)
+1 Bûthrakaur (BA)
+1 Doeth (Durthak) (WH)
+1 Hurog (NE)
+1 Lugdush (WH)
+1 Orc Captain (LE)
+
+# Minion Resource (3)
+
+1 Flaming Torch (NE)
+1 Foul-smelling Paste (LE)
+1 Trophy-belt (NE)
+
+#########
+Sideboard
+#########
+
+# Hazard (4)
+
+1 Majmun (SL)
+1 Many Burdens (ROTS)
+1 Muster Disperses (TW)
+1 Slip Treacherously (AS)
+
+# Minion Character (6)
+
+2 Crook-legged Orc (BA)
+2 Goblin-miner (NE)
+2 Orc Grunt (NE)
+
+# Minion Resource (10)
+
+1 Ancient Black Axe (AS)
+1 Blasting Fire (WH)
+1 Breach the Hold (BA)
+1 Invade Their Domain (BA)
+1 Liquid Fire (WH)
+1 Lord and Usurper (BA)
+2 Mechanical Bow (WH)
+1 Orcs of Gundabad (LE)
+1 The Arkenstone [M] (PR)
+
+#####
+Sites
+#####
+
+# Balrog Site (13)
+
+2 Moria [B] (BA)
+1 Mornost [B] (NW)
+1 Shapal Udûn [B] (NW)
+1 The Drowning-deeps [B] (BA)
+1 The Gem-deeps [B] (BA)
+1 The Rusted-deeps [B] (BA)
+2 The Under-gates [B] (BA)
+1 The Under-grottos [B] (BA)
+1 The Under-leas [B] (BA)
+1 The Under-vaults [B] (BA)
+1 The Wind-deeps [B] (BA)
+
+# Minion Site (12)
+
+1 Cameth Brin [M] (LE)
+1 Creb Durga [M] (KN)
+1 Dale [M] (LE)
+1 Deep Cleft [M] (GW)
+1 Dunnish Clan-hold [M] (LE)
+1 Goblin-gate [M] (LE)
+1 Iron Hill Dwarf-hold [M] (LE)
+1 Mathlaburg [M] (GW)
+1 Mount Gram [M] (LE)
+1 Mount Gundabad [M] (LE)
+1 Steel Fall [M] (GW)
+1 The Wind Throne [M] (LE)

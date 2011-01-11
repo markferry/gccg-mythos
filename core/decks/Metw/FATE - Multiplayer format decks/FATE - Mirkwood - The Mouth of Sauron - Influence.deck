@@ -1,0 +1,160 @@
+#
+# GCCG v0.9.4 Middle-earth deck
+#
+#      FATE - Mirkwood - The Mouth of Sauron - Influence
+#
+
+####
+Deck
+####
+
+# Hazard (40)
+
+2 Ambusher (TW)
+1 Ambusher (LE)
+3 An Unexpected Outpost (DM)
+3 Aware of their Ways (DM)
+3 Beorning Toll (LE)
+2 Foolish Words (TD)
+1 Foolish Words (LE)
+3 Gnaw with Words (DM)
+3 Lawless Men (LE)
+1 Lure of Nature (TW)
+2 Lure of Nature (LE)
+2 Olog Warlords (BA)
+3 Olog-hai (Trolls) (TW)
+3 Plague (LE)
+3 So You've Come Back (LE)
+3 The Border-watch (LE)
+2 Thranduil's Folk (LE)
+
+# Minion Character (9)
+
+1 Dorelas (LE)
+1 Freca (PRde)
+2 Horseman in the Night (LE)
+1 Jerrek (LE)
+1 Leamon (DM)
+1 Nevido Smôd (LE)
+1 Pon Opar (LE)
+1 Tros Hesnef (LE)
+
+# Minion Resource (40)
+
+2 A Little Gold Ring (LE)
+2 Blazon of the Eye (LE)
+3 Blow Turned (LE)
+1 Broad-headed Spear (LE)
+1 Easterlings [M] (LE)
+2 Faithless Steward (AS)
+3 Gifts as Given of Old (LE)
+1 Gleaming Gold Ring (LE)
+1 I'll Be At Your Heels (LE)
+2 In the Name of Mordor (LE)
+2 Join With That Power (AS)
+3 Not Slay Needlessly (LE)
+1 Nûrniags [M] (LE)
+1 Orc-liquor (LE)
+1 Records Unread (AS)
+2 Ruse (LE)
+1 Sable Shield (LE)
+1 Shadow-cloak (LE)
+3 Strange Rations (LE)
+1 Tokens to Show (AS)
+2 Treason the Greatest Foe (AS)
+1 Wain-easterlings [M] (AS)
+3 Weigh All Things to a Nicety (LE)
+
+####
+Pool
+####
+
+# Minion Character (4)
+
+1 Gisulf (DM)
+1 Horseman in the Night (LE)
+1 Ostisen (LE)
+1 The Mouth (LE)
+
+# Minion Resource (3)
+
+1 Open to the Summons (WH)
+1 Warlord (WOTR)
+1 Whispers of Rings (BA)
+
+#########
+Sideboard
+#########
+
+# Hazard (21)
+
+3 Alone and Unadvised (AS)
+3 Cunning Foes (DM)
+3 Doubled Vigilance (DM)
+2 Muster Disperses (TW)
+1 Muster Disperses (LE)
+3 Rebel-talk (LE)
+3 Shut Yer Mouth (LE)
+1 The Ring Will Have But One Master (LE)
+2 The Will of Sauron (TW)
+
+# Minion Resource (19)
+
+1 Back to the Fray (LE)
+1 Balchoth (LE)
+1 Call to Arms (WOTR)
+1 Corsairs of Rhûn (AS)
+1 Houses of Lamentations (WOTR)
+1 Magic Ring of Guile (LE)
+1 Magic Ring of Lies (LE)
+1 Magic Ring of Savagery (LE)
+1 Minor Ring (LE)
+1 Nûriags (AS)
+1 Old Prejudice (LE)
+3 Steeds (V2)
+1 Sudden Call (LE)
+1 Trifling Ring (LE)
+3 Voices of Malice (LE)
+
+#####
+Sites
+#####
+
+#  Durlach Site (1)
+
+1 Mornost [ ] (NW)
+
+# Balrog Site (1)
+
+1 Ancient Deep-hold (BA)
+
+# Minion Site (28)
+
+1 Bandit Lair [M] (LE)
+1 Barad-dûr [M] (LE)
+1 Barak-Shathur* (DF)
+1 Buhr Thurasig* (GW)
+1 Buhr Widu [M] (LE)
+1 Caras Amarth* (FB)
+1 Ceber Fanuin* (FB)
+1 Celeb-ost [M] (NW)
+1 Celebannon* (FB)
+1 Cerin Amroth* (FB)
+1 Cor Angaladh* (FB)
+1 Dead Marshes [M] (LE)
+1 Dol Guldur [M] (LE)
+1 Easterling Camp [M] (LE)
+1 Gladden Fields [M] (LE)
+1 Lake-town [M] (LE)
+1 Minas Morgul [M] (LE)
+1 Norr-dûm* (GW)
+1 Nûrniag Camp [M] (LE)
+1 Nûrunkizdin* (DF)
+1 Raider-hold [M] (LE)
+1 Sarn Goriwing [M] (LE)
+1 Shapal Udûn [M] (NW)
+1 Shrel-Kain [M] (LE)
+1 Sorondor's Mound* (DF)
+1 Steel Fall* (GW)
+1 The Carrock* (DF)
+1 The Tower of the Wolf-friend* (GW)

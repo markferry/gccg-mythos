@@ -1,0 +1,202 @@
+#
+# GCCG v0.9.6 Middle-earth deck
+#
+#      DCCD - Dwarf-lord - Thorin - Lord of the Nan-i-Naugrim
+#
+
+####
+Deck
+####
+
+# Dwarf-lord Character (3)
+
+3 Thorin (DF)
+
+# Hazard (31)
+
+3 An Unexpected Outpost (DM)
+3 Dire Wolves (TD)
+2 Doors of Night (TW)
+1 Grasping and Ungracious (TOI)
+1 Greed (TW)
+1 Hard to Tame (DF)
+1 Lord of the Eagles (DF)
+1 Lure of Nature (TW)
+1 No Memory of This Place (ROTS)
+2 The Pack at the Door (DF)
+3 Wake of War (TW)
+1 War-wargs (NW)
+1 War-wolves (NW)
+3 Wargs (TW)
+2 Watcher in the Water (TW)
+1 Were-wolf (NW)
+1 White Wolves (NW)
+3 Wolves (TW)
+
+# Hero Character (10)
+
+1 Attack-lord (DF)
+1 Bofur (TW)
+1 Dís (DF)
+1 Frerin (DF)
+1 Fíli (TW)
+1 Glóin (TW)
+1 Kíli (TW)
+1 Nori (TW)
+1 Ori (TW)
+1 Óin (TW)
+
+# Hero Resource (26)
+
+2 A Friend or Three (TW)
+1 Block (TW)
+1 Blue Mountain Dwarves (TW)
+2 Concealment (TW)
+1 Durin's Axe (TW)
+2 Dwarven-axe (DF)
+1 Habergeon of Silver (TD)
+2 Knowledge of the Enemy (DM)
+1 Longbottom Leaf (BA)
+1 Marvels Told (TD)
+1 Noble Hound (DM)
+1 Petty-dwarves [H] (AS)
+1 Pipe (DF)
+1 Rangers of the North (TW)
+1 Secret Passage (TW)
+1 Shimmer of Hope (DF)
+2 Smoke Rings (DM)
+3 The Dwarves Are upon You! (DM)
+1 Torque of Hues (TW)
+
+# Minion Resource (3)
+
+2 Crept Along Cleverly (WH)
+1 Swift Strokes (LE)
+
+# Stage Resource (2)
+
+1 Gatherer of Loyalties (WH)
+1 Promise of Treasure (DF)
+
+####
+Pool
+####
+
+# Hero Character (4)
+
+1 Beretar (TW)
+1 Gimli, Son of Gloin (DF)
+1 Lipór (DF)
+1 Náin, Son of Grór (DF)
+
+# Hero Resource (3)
+
+1 Dagger of Westernesse (TW)
+1 Shield of Iron-bound Ash (TW)
+1 Star-glass (TW)
+
+# Stage Resource (3)
+
+1 Durin's Day (DF)
+1 Oakenshield (DF)
+1 Thrall of the Voice (WH)
+
+#########
+Sideboard
+#########
+
+# Dual Resource (2)
+
+1 Children of Aulë (DF)
+1 Fortress Reclaimed (DF)
+
+# Hazard (2)
+
+1 Elf-lord Revealed in Wrath* (FB)
+1 Great Northern Bear (GW)
+
+# Hero Resource (13)
+
+1 Adamant Helmet (TD)
+1 An Unexpected Party (DM)
+1 Block (TW)
+1 Gimli's Axe (DF)
+1 Great-shield of Rohan (TW)
+1 Hauberk of Bright Mail (TW)
+2 No Strangers at this Time (AS)
+1 Noble Hound (DM)
+2 Rebuild the Town (DM)
+1 Tower Raided (AS)
+1 Woses of the Eryn Vorn [H] (AS)
+
+# Minion Resource (1)
+
+1 Secret Book (AS)
+
+# Stage Resource (2)
+
+1 Clad for War (DF)
+1 Great Achievement (DF)
+
+#####
+Sites
+#####
+
+# Dual Site (1)
+
+1 Durin's Tower (DF)
+
+# Dwarf-lord Site (2)
+
+2 Blue Mountain Dwarf-hold [D] (DF)
+
+# Fallen Site (1)
+
+1 Grey Havens [F] (FB)
+
+# Fallen-wizard Site (1)
+
+1 Deep Mines (WH)
+
+# Hero Site (40)
+
+1 Aden Scarlet's Medical Library [H] (ROTS)
+1 Andoloki [H] (NW)
+1 Bar-en-Ibûn [H] (DF)
+1 Barad Lughilsarik [H] (NW)
+1 Barrow-downs [H] (TW)
+1 Bree [H] (TW)
+1 Carn Dûm [H] (TW)
+1 Cirith Helkaloke [H] (GW)
+1 Creb Durga [H] (KN)
+1 Dead Man's Dike [H] (KN)
+1 Dimrill Dale [H] (TW)
+1 Dunnish Clan-hold [H] (TW)
+1 Glittering Caves [H] (TW)
+1 Goblin-gate [H] (TW)
+1 Gondring's Lair [H] (NW)
+1 Himring [H] (TW)
+1 Hostel of the Sisters of Nienna [H] (KN)
+1 Isles of the Dead that Live [H] (TW)
+1 Litash [H] (NW)
+1 Lond Daer [H] (KN)
+1 Moria [H] (TW)
+1 Morkai [H] (KN)
+1 Mount Gram [H] (TW)
+1 Mount Rerir [H] (FB)
+1 Ruined Signal Tower [H] (TW)
+1 Ruins of Belegost [H] (DF)
+1 Ruins of Nogrod [H] (DF)
+1 Tharbad [H] (TD)
+1 Thaurung [H] (NW)
+1 The Drowning-deeps [H] (DF)
+1 The Gem-deeps [H] (DM)
+1 The Iron-deeps [H] (DM)
+1 The Pûkel-deeps [H] (DM)
+1 The Stones [H] (TW)
+1 The Under-Caves [H] (KN)
+1 The Under-gates [H] (DM)
+1 The Under-grottos [H] (DM)
+1 The Under-vaults [H] (DM)
+1 Turukulon's Lair [H] (TOI)
+1 Zarak Dûm [H] (TD)

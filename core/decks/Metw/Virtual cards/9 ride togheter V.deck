@@ -1,0 +1,213 @@
+#
+# GCCG v0.8.92 Middle-earth deck
+#
+#      9 ride togheter V
+#
+
+####
+Deck
+####
+
+# Hazard (30)
+
+3 An Unexpected Outpost
+3 Assassin
+1 Corsairs of Umbar
+3 Doors of Night (LE)
+1 Ice-drake
+1 Itangast at Home
+3 Lure of Expedience (TW)
+2 Lure of Nature (LE)
+1 Lure of Power
+2 Lure of the Senses (LE)
+1 Mouth of Sauron
+1 Nameless Thing
+2 Pûkel-men
+2 Rain-drake
+1 Ren the Unclean
+1 Revealed to all Watchers
+1 Scorba at Home
+1 The Balance of Things
+
+# Hero Resource (1)
+
+1 Aiglos
+
+# Minion Character (6)
+
+3 Adûnaphel the Ringwraith
+1 Grishnákh
+1 Lagduf
+1 Ulkaur the Tongueless
+
+# Minion Resource (29)
+
+3 Adûnaphel Unleashed (V1)
+3 Ancient Secrets
+3 Back to the Fray
+2 Bade to Rule
+1 Blackbole
+3 Dark Tryst
+1 Great Bats
+3 In the Name of Mordor
+1 Orcs of Dol Guldur
+1 Orcs of Gundabad
+1 Orders from Lugbúrz
+1 Sable Shield
+1 They Ride Together (V1)
+3 Voices of Malice
+1 Weigh All Things to a Nicety
+1 While the Yellow Face Sleeps
+
+####
+Pool
+####
+
+# Minion Character (3)
+
+1 Lieutenant of Dol Guldur
+1 Shagrat
+1 Uglúk
+
+# Minion Resource (2)
+
+2 They Ride Together (V1)
+
+#########
+Sideboard
+#########
+
+# Hazard (2)
+
+1 Alone and Unadvised
+1 Lost in Free-domains (TW)
+
+# Minion Character (11)
+
+1 Akhôrahil the Ringwraith
+1 Dwar the Ringwraith
+1 Euog (Ulzog)
+1 Hoarmûrath the Ringwraith
+1 Indûr the Ringwraith
+1 Khamûl the Ringwraith
+1 Orc Tracker
+1 Ren the Ringwraith
+1 Snaga (V1)
+1 The Witch-king
+1 Ûvatha the Ringwraith
+
+# Minion Resource (17)
+
+7 Black Horse (AS)
+1 Black Rider
+1 High Helm
+1 Itangast Roused
+1 Join With That Power
+1 Regiment of Black Crows
+1 Sudden Call
+2 Tribute Garnered
+2 We Have Come to Kill
+
+#####
+Sites
+#####
+
+# Minion Site (106)
+
+1 Amon Hen [M]
+1 Bag End [M]
+1 Bandit Lair [M]
+1 Barad-dûr [M]
+1 Barrow-downs [M]
+1 Beorn's House [M]
+1 Blue Mountain Dwarf-hold [M]
+1 Bree [M]
+1 Buhr Widu [M]
+1 Cameth Brin [M]
+4 Carn Dûm [M]
+1 Caves of Ûlund [M]
+1 Cirith Gorgor [M]
+1 Cirith Ungol [M]
+1 Dale [M]
+1 Dancing Spire [M]
+1 Dead Marshes [M]
+1 Dimrill Dale [M]
+1 Dol Amroth [M]
+4 Dol Guldur [M]
+1 Drúadan Forest [M]
+1 Dunharrow [M]
+1 Dunnish Clan-hold [M]
+1 Eagles' Eyrie [M]
+1 Easterling Camp [M]
+1 Edhellond [M]
+1 Edoras [M]
+1 Ettenmoors [M]
+1 Framsburg [M]
+1 Geann a-Lisch [M]
+1 Gladden Fields [M]
+1 Glittering Caves [M]
+1 Gobel Mírlond [M]
+1 Goblin-gate [M]
+1 Gold Hill [M]
+1 Gondmaeglom [M]
+1 Grey Havens [M]
+1 Haudh-in-Gwanûr [M]
+1 Henneth Annûn [M]
+1 Hermit's Hill [M]
+1 Himring [M]
+1 Irerock [M]
+1 Iron Hill Dwarf-hold [M]
+1 Isengard [M]
+1 Isle of the Ulond [M]
+1 Isles of the Dead that Live [M]
+1 Lake-town [M]
+1 Lond Galen [M]
+1 Lossadan Cairn [M]
+1 Lossadan Camp [M]
+1 Lórien [M]
+4 Minas Morgul [M]
+1 Minas Tirith [M]
+1 Moria [M]
+1 Mount Doom [M]
+1 Mount Gram [M]
+1 Mount Gundabad [M]
+1 Nûrniag Camp [M]
+1 Old Forest [M]
+1 Ost-in-Edhil [M]
+1 Ovir Hollow [M]
+1 Pelargir [M]
+1 Raider-hold [M]
+1 Rhosgobel [M]
+1 Rivendell [M]
+1 Ruined Signal Tower [M]
+1 Sarn Goriwing [M]
+1 Shelob's Lair [M]
+1 Shrel-Kain [M]
+1 Southron Oasis [M]
+1 Stone-circle [M]
+1 Tharbad [M]
+1 The Gem-deeps [M]
+1 The Iron-deeps [M]
+1 The Lonely Mountain [M]
+1 The Pûkel-deeps [M]
+1 The Stones [M]
+1 The Sulfur-deeps [M]
+1 The Under-courts [M]
+1 The Under-galleries [M]
+1 The Under-gates [M]
+1 The Under-grottos [M]
+1 The Under-leas [M]
+1 The Under-vaults [M]
+1 The White Towers [M]
+1 The Wind Throne [M]
+1 The Worthy Hills [M]
+1 Thranduil's Halls [M]
+1 Tolfalas [M]
+1 Urlurtsu Nurn [M]
+1 Vale of Erech [M]
+1 Variag Camp [M]
+1 Weathertop [M]
+1 Wellinghall [M]
+1 Woodmen-town [M]
+1 Wose Passage-hold [M]
+1 Zarak Dûm [M]

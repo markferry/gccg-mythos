@@ -1,0 +1,60 @@
+#This hazard mix is built around Worm's Stench, which allows the marriage of 
+#Drakes and Wolves. Besides giving you the power of Worm's Stench, 
+#combining these two half-strategies allows you to cover a Coastal Sea 
+#strategy with creatures that hit equally well on land (Watcher in the Water, 
+#Cave-drake, Rain-drake). Fell Winter increases the occurrence of 
+#Wildernesses and provides some dimension against faction/Border-hold 
+#resource strategies.
+#
+#Be sure to include two or three Twilights in your resource mix, and note that 
+#Star-glass is an excellent starting minor item. With so many attack enhancers 
+#that could adversely affect you, an accompanying avoidance resource 
+#strategy should be a strong consideration.
+[NetMECCG v1.4 Deck]
+[starting]
+[sideboard]
+Doors of Night
+Morgul-rats
+Noose of the Sea
+Shadow of Mordor
+Slayer
+Slayer
+Slayer
+Storms of Osse
+Storms of Osse
+Were-worm
+[anti-FW]
+[characters]
+[resources]
+[hazards]
+Cave-drake
+Cave-drake
+Clouds
+Dire Wolves
+Dire Wolves
+Doors of Night
+Doors of Night
+Fell Winter
+Fell Winter
+Morgul-rats
+Mouth of Sauron
+Peril Returned
+Peril Returned
+Rain-drake
+True Fire-drake
+True Fire-drake
+Wake of War
+Wake of War
+Wake of War
+Wargs
+Wargs
+Wargs
+Watcher in the Water
+Watcher in the Water
+The Will of Sauron
+Wolves
+Wolves
+Worm's Stench
+Worm's Stench
+Worm's Stench
+[sites]

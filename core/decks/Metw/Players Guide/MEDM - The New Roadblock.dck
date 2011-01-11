@@ -1,0 +1,146 @@
+#This deck combines an agent roadblock hazard strategy with a tight site 
+#deck resource strategy based around Northern Rhovanion. The idea is to 
+#slow down your opponent with No Way Forward and rob him of a few turns 
+#with Seek Without Success. This should get enough turn advantage to pull 
+#ahead in marshalling points and win the game. With a tight site deck, No Way 
+#Forward should not hurt you.
+#
+#The best way to play the agents is with Inner Cunning and Nobody's Friend. 
+#These should not be used to retrieve agents out of the deck but rather to 
+#allow them versatility in where they reveal themselves. This means you will 
+#want to hold agents in your hand until you draw the appropriate one of these 
+#cards. Use these cards to retrieve agents if the game is getting desperate 
+#and you have two Inner Cunnings or Nobody's Friends in your hand.
+#
+#Once the agents are played and you have a Seek Without Success in your 
+#hand, you are ready to go. No Way Forward and Doors of Night should 
+#already be in play, so your opponent should be having some trouble moving 
+#anyway. Wait for a company to go to a site where obviously a three or four 
+#marshalling point resource will be played. Any of these sites will be adjacent 
+#to a region accessible with Nobody's Friend, and most will also be 
+#accessible with Inner Cunning. You can then bring a ranger agent into play, 
+#move him to the company's site, and play Seek Without Success.
+#
+#Use An Unexpected Outpost mostly to recycle the agent part of the 
+#roadblock strategy, so it can be used more than four times. Use the 
+#twilights mainly to protect No Way Forward, unless you opponent's 
+#environments are negating your turn advantage.
+#
+#On the resource side you should not have too much problem from No Way 
+#Forward. The only thing No Way Forward will be a problem for is playing 
+#Gwaihir, your ally. Elven Cloak will be useful since most of your site paths will 
+#be double Wilderness. Use Dragon's Hunger on Dragon's lair 
+#automatic-attacks.
+[NetMECCG v1.4 Deck]
+[starting]
+Anborn
+Annalena
+Beorn
+Fili
+Gimli
+Dagger of Westernesse
+Elven Cloak
+Arwen
+Kili
+Legolas
+Thrain II
+Thranduil
+[sideboard]
+A Friend or Three
+Dark Quarrels
+Elf-song
+Elf-song
+I Know Much about You
+I Know Much about You
+I Know Much about You
+Many Turns and Doublings
+Old Friendship
+Old Friendship
+Old Friendship
+Ordered to Kill
+Ordered to Kill
+Praise to Elbereth
+Praise to Elbereth
+Praise to Elbereth
+Noose of the Sea
+The Precious
+The Will of the Ring
+The Will of the Ring
+[anti-FW]
+[characters]
+Alatar
+Pallando
+Pallando
+[resources]
+A Friend or Three
+A Friend or Three
+Bounty of the Hoard
+Bounty of the Hoard
+Concealment
+Concealment
+Concealment
+Dark Quarrels
+Dark Quarrels
+Dragon's Hunger
+Dragon's Hunger
+Dragon's Hunger
+Durin's Axe
+Emerald of the Mariner
+Glamdring
+Gwaihir
+Iron Hill Dwarves
+Many Turns and Doublings
+Many Turns and Doublings
+Marvels Told
+Marvels Told
+Men of Dorwinion
+Orcrist
+Sacrifice of Form
+Torque of Hues
+Twilight
+Twilight
+Twilight
+Wood-elves
+Wormsbane
+[hazards]
+An Unexpected Outpost
+An Unexpected Outpost
+Baduila
+Doors of Night
+Doors of Night
+Doors of Night
+Gisulf
+The Grimburgoth
+Inner Cunning
+Inner Cunning
+Mouth of Sauron
+Nameless Thing
+Nameless Thing
+Nameless Thing
+Nimloth
+No Way Forward
+No Way Forward
+No Way Forward
+Nobody's Friend
+Nobody's Friend
+Olog-hai (Trolls)
+Olog-hai (Trolls)
+Olog-hai (Trolls)
+Seek without Success
+Seek without Success
+Seek without Success
+Slayer
+Slayer
+Slayer
+Uvatha the Horseman
+[sites]
+Caves of Ulund
+Dead Marshes
+Eagles' Eyrie
+Iron Hill Dwarf-hold
+The Lonely Mountain
+Lorien
+Lorien
+Rivendell
+Shrel-Kain
+Thranduil's Halls

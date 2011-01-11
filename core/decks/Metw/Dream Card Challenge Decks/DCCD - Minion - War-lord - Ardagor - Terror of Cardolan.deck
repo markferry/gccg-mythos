@@ -1,0 +1,193 @@
+#
+# GCCG v0.9.6 Middle-earth deck
+#
+#      DCCD - Minion - War-lord - Ardagor - Terror of Cardolan
+#
+
+####
+Deck
+####
+
+# Dual Resource (2)
+
+1 Olga-wama (KN)
+1 The Dunmen's Dogs (KN)
+
+# Hazard (33)
+
+3 An Unexpected Outpost (DM)
+3 Doors of Night (TW)
+1 Dunlending Raiders (TD)
+2 Fell Winter (TW)
+1 Greed (TW)
+2 Hermit Troll (DF)
+1 Hibernating Troll (NW)
+1 Left on the Field (WOTR)
+2 Old Man Willow (TW)
+1 Olog Warlords (BA)
+1 Politics (WOTR)
+2 Rain-drake (TD)
+2 Rats! (LE)
+1 River (TW)
+2 Searching Eye (TD)
+3 Trolls from the Mountains (AS)
+2 Twilight (TW)
+1 Wild Trolls (LE)
+2 Wound of Long Burden (DM)
+
+# Minion Character (9)
+
+1 Bûrat (AS)
+2 Forest-troll (KN)
+1 Hill-troll (BA)
+1 Pôn-ora-Pôn (DM)
+1 Troll Bodyguard (KN)
+1 Troll Lout (LE)
+1 Tûma (AS)
+1 Wûluag (AS)
+
+# Minion Resource (31)
+
+1 A Nice Place to Hide (LE)
+2 Awaiting the Call (LE)
+1 Blazon of the Eye (LE)
+1 Bloodspike (NE)
+1 Bone-hilted Broadsword (GW)
+2 Crept Along Cleverly (WH)
+2 Driven as by a Madness (AS)
+1 Dunlendings [M] (LE)
+1 Foul-smelling Paste (LE)
+2 Gifts as Given of Old (LE)
+2 Hide in Dark Places (LE)
+1 High Helm (LE)
+2 Hoard Well-searched (AS)
+1 Hold Rebuilt and Repaired (AS)
+1 Not Slay Needlessly (LE)
+1 Orc Quarrels (LE)
+1 Poison of his Voice (WH)
+1 Regiment of Black Crows (AS)
+2 The Least of Gold Rings (LE)
+1 War-lord's Lair (KN)
+1 War-wolf (LE)
+2 Weigh All Things to a Nicety (LE)
+1 Woses of the Eryn Vorn [M] (LE)
+
+####
+Pool
+####
+
+# Dual Character (1)
+
+1 Morvran (NW)
+
+# Minion Character (3)
+
+1 Perchen (AS)
+1 Uchel (LE)
+1 Wolf (TOI)
+
+# Minion Resource (3)
+
+1 Flaming Torch (NE)
+1 Terror of Cardolan (KN)
+1 Whispers of Rings (BA)
+
+# War-lord (1)
+
+1 Ardagor [W] (KN)
+
+#########
+Sideboard
+#########
+
+# Dual Resource (3)
+
+1 Beffraen (KN)
+1 Concealed Entrance (KN)
+1 Walls Behind Walls (KN)
+
+# Hazard (2)
+
+1 Many Burdens (ROTS)
+1 Ninevet (DF)
+
+# Hero Resource (1)
+
+1 Beasts of the Wood (WH)
+
+# Minion Resource (14)
+
+1 Cave Troll (BA)
+1 Cave-trolls (KN)
+1 Counterfeit (WH)
+1 Dwarven Ring of Thélor's Tribe [M] (AS)
+1 Foul-smelling Paste (LE)
+1 Helm of Illusions (KN)
+1 Hold Rebuilt and Repaired (AS)
+1 Magic Ring of Delusion (LE)
+1 Minor Ring (LE)
+1 Origins Revealed (NE)
+1 Secrets of Their Forging (LE)
+1 Test of Fire (LE)
+1 The Great Willow (ROTS)
+1 War-wolf (LE)
+
+#####
+Sites
+#####
+
+# Balrog Site (1)
+
+1 Carn Dûm [B] (BA)
+
+# Minion Site (49)
+
+1 Aden Scarlet's Medical Library [M] (ROTS)
+1 Amon Lind [M] (FB)
+1 Andoloki [M] (NW)
+1 Annúminas [M] (KN)
+1 Barad Tathren [M] (TOI)
+1 Barrow-downs [M] (LE)
+1 Blue Mountain Dwarf-hold [M] (LE)
+1 Brandy Hall [M] (ROTS)
+1 Bywater [M] (WOTR)
+1 Cameth Brin [M] (LE)
+1 Cirith Helkaloke [M] (GW)
+1 Creb Durga [M] (KN)
+1 Dimrill Dale [M] (LE)
+1 Dunnish Clan-hold [M] (LE)
+1 Eldanar [M] (KN)
+1 Ettenmoors [M] (LE)
+1 Goblin-gate [M] (LE)
+1 Gondring's Lair [M] (NW)
+1 Helm's Deep [M] (TOI)
+1 Hostel of the Sisters of Nienna [M] (KN)
+1 Isengard [M] (LE)
+1 Isildur's Tomb [M] (TOI)
+1 Isle of the Ulond [M] (AS)
+1 Michel Delving [M] (ROTS)
+1 Moria [M] (LE)
+1 Morkai [M] (KN)
+1 Mount Rerir [M] (FB)
+1 Ost-in-Edhil [M] (LE)
+1 Ruined Signal Tower [M] (LE)
+1 Ruins of Belegost [M] (DF)
+1 Sonotor's Mound [M] (DF)
+1 Stone-circle [M] (LE)
+1 Telpemár [M] (FB)
+1 Tharagrondost [M] (WOTR)
+1 Tharbad [M] (LE)
+1 Thaurung [M] (NW)
+1 The Drowning-deeps [M] (DF)
+1 The Last Bridge [M] (ROTS)
+1 The Under-Caves [M] (KN)
+1 The White Towers [M] (LE)
+1 The Willow Dingle [M] (ROTS)
+1 The Worthy Hills [M] (LE)
+1 Tol Glingal [M] (SL)
+1 Tom's House [M] (FB)
+1 Traith Chefudoc [M] (KN)
+1 Turukulon's Lair [M] (TOI)
+1 Weathertop [M] (AS)
+1 Wose Passage-hold [M] (LE)
+1 Zarak Dûm [M] (LE)

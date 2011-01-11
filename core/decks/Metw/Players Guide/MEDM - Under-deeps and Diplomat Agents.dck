@@ -1,0 +1,141 @@
+#This deck is a combination of an Under-deeps underdog strategy (see page 
+#9) and an agent influence strategy (see page 7). Both strategies are slow to 
+#get started, but hard to stop once they get going-sort of like a Volvo.
+#
+#With an underdog strategy you do not want to be too close to your opponent 
+#in marshalling points. Worry more about getting the right items under Great 
+#Secrets Buried There and about getting non-item marshalling points to 
+#balance out your total for the Free Council. Also, be sure to get some 
+#weapons for your characters and items you can only get upstairs like 
+#Emerald of the Mariner. The Torque of Hues is good, since it can be useful 
+#when entering the Under-deeps.
+#
+#You will need to build up your hand for the final turn. To this end use Pallando 
+#and Emerald of the Mariner to increase your hand size. Have some And 
+#Forth He Hasteneds and Crams ready for untapping characters during the 
+#site phase, and perhaps a Healing Herbs to unwound someone. Also have a 
+#Thorough Search ready to get the most out of the Under-deeps site. Great 
+#Secrets Buried There makes it hard to disguise your potential, so your 
+#opponent may be ready for your movement into the Under-deeps.
+#
+#The hazard strategy is an agent influence strategy. It uses Golodhros and 
+#some smaller mind agents, so it is halfway between a hunt and a blanket 
+#strategy. Most of the agents were picked for popular factions in my play 
+#group, but your mileage may vary. If other factions are popular in your group, 
+#it would be good to switch some of the agents.
+[NetMECCG v1.4 Deck]
+[starting]
+Annalena
+Faramir
+Kili
+Thrain II
+Cram
+Cram
+Anborn
+Beretar
+Fili
+Gimli
+Legolas
+Thranduil
+[sideboard]
+A Friend or Three
+A Friend or Three
+A Friend or Three
+Dark Quarrels
+Dark Quarrels
+Dark Quarrels
+Many Turns and Doublings
+Many Turns and Doublings
+Many Turns and Doublings
+Marvels Told
+Praise to Elbereth
+Praise to Elbereth
+The Old Thrush
+The Old Thrush
+Nameless Thing
+Never Seen Him
+Twilight
+Twilight
+Twilight
+Winds of Wrath
+[anti-FW]
+[characters]
+Alatar
+Pallando
+Pallando
+[resources]
+And Forth He Hastened
+And Forth He Hastened
+And Forth He Hastened
+Concealment
+Concealment
+Concealment
+Cram
+Dragon-helm
+Durin's Axe
+Emerald of the Mariner
+Glamdring
+Gollum
+Great Secrets Buried There
+Great Secrets Buried There
+Great Secrets Buried There
+Healing Herbs
+Iron Hill Dwarves
+Marvels Told
+Marvels Told
+Men of Dorwinion
+The Mithril-coat
+Orcrist
+Risky Blow
+Risky Blow
+Sacrifice of Form
+Thorough Search
+Thorough Search
+Torque of Hues
+Wood-elves
+Wormsbane
+[hazards]
+An Unexpected Outpost
+Assassin
+Cave-drake
+Cave-drake
+Cave-drake
+Deallus
+Dror
+Elwen
+Gergeli
+Golodhros
+Good Sense Revolts
+Good Sense Revolts
+Good Sense Revolts
+Mouth of Sauron
+Never Seen Him
+Never Seen Him
+Nobody's Friend
+Nobody's Friend
+Olog-hai (Trolls)
+Olog-hai (Trolls)
+Slayer
+Slayer
+Twisted Tales
+Twisted Tales
+Twisted Tales
+Uvatha the Horseman
+Wormtongue
+Your Welcome Is Doubtful
+Your Welcome Is Doubtful
+Your Welcome Is Doubtful
+[sites]
+Dol Guldur
+Dunharrow
+Goblin-gate
+Iron Hill Dwarf-hold
+The Lonely Mountain
+Lorien
+Lorien
+Moria
+The Pukel-deeps
+Rivendell
+Shrel-Kain
+The Sulfur-deeps
+The Under-gates

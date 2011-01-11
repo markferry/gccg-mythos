@@ -1,0 +1,205 @@
+#
+# GCCG v0.9.6 Middle-earth deck
+#
+#      DCCD - Ringwraith - Akhorahil - The Numenorean
+#
+
+####
+Deck
+####
+
+# Dual Character (2)
+
+1 Abur (SL)
+1 Harngorin (SL)
+
+# Dual Resource (4)
+
+2 Black Númenóreans [D] (WOTR)
+1 Local Hospitality (ROTS)
+1 Southron Scimitar (SL)
+
+# Hazard (33)
+
+1 Arda Angered (DF)
+1 Assassin (NE)
+1 Bairanax Ahunt (TD)
+1 Cardolanian Whalers (NW)
+1 Choking Shadows (TW)
+1 Corsairs of Umbar (TW)
+1 Doors of Night (TW)
+1 Doors of Night (LE)
+1 Earth-tremors (DM)
+1 Eärcaraxë Ahunt (TD)
+1 Fell-bear (NW)
+1 Giant Spiders (TW)
+1 Greed (TW)
+1 Half-trolls of Far Harad (TW)
+1 Hobgoblins (TD)
+1 Hurnkennec (TOI)
+1 Ireful Flames (PR)
+1 Lost in Free-domains (TW)
+1 Morgai-flies (NM)
+1 Nameless Thing (DM)
+1 Ningarach (NW)
+1 Old Man Willow (TW)
+1 Olog-hai (Trolls) (TW)
+1 Politics (WOTR)
+1 River (TW)
+1 Sand-drake (SL)
+1 Siege of Gondor (WOTR)
+1 Slayer (LE)
+1 The Burden of Time (TW)
+1 Troll-purse (DM)
+1 True Cold-drake (TD)
+1 Twilight (TW)
+1 Uruial (GW)
+
+# Minion Character (3)
+
+3 Akhôrahil the Ringwraith (LE)
+
+# Minion Resource (29)
+
+1 Akhôrahil Unleashed (LE)
+1 Ancient Secrets (BA)
+1 Bade to Rule (LE)
+1 Black Sails (SL)
+1 Black Steed (NE)
+1 Bright Gold Ring (LE)
+1 Calm Song (GW)
+1 Deeper Shadow (LE)
+1 Driven as by a Madness (AS)
+1 Gleaming Gold Ring (LE)
+1 High Helm (LE)
+1 Join With That Power (AS)
+1 Not Slay Needlessly (LE)
+1 Orc Quarrels (LE)
+1 Secret Book (AS)
+1 Southrons [M] (LE)
+1 Spying out the Land (LE)
+1 Swift Strokes (LE)
+1 Test of Fire (LE)
+2 The Black Council (WH)
+1 The Least of Gold Rings (LE)
+2 The Tormented Earth (AS)
+1 Tokens to Show (AS)
+1 Umbarean Corsairs (LE)
+1 Voices of Malice (LE)
+2 Weigh All Things to a Nicety (LE)
+
+####
+Pool
+####
+
+# Dual Character (4)
+
+2 Dúnadan Mariner (WOTR)
+1 Jehn Remak (SL)
+1 Khandash (SL)
+
+# Minion Character (8)
+
+1 Angamaite (SL)
+1 Carlon (SL)
+1 Hador (LE)
+1 Miruimor (NE)
+1 Odoacer (LE)
+1 Pon Opar (LE)
+1 Sakalure (SL)
+1 Sangahyando (SL)
+
+# Minion Resource (3)
+
+1 Blazon of the Eye (LE)
+1 Flaming Torch (NE)
+1 Whispers of Rings (BA)
+
+#########
+Sideboard
+#########
+
+# Dual Resource (1)
+
+1 Tarma of Ar-Pharazôn (SL)
+
+# Hazard (1)
+
+1 Neither so Ancient Nor so Potent (DM)
+
+# Minion Character (1)
+
+1 Ûvatha the Ringwraith (LE)
+
+# Minion Resource (17)
+
+1 A Worthy Substitute (NE)
+1 Abhorred Ring (NE)
+1 Arms of the Sea (SL)
+1 Black Sails (SL)
+1 Black Steed (NE)
+1 By the Ringwraith's Word (LE)
+1 Cult of the Dark Lord (SL)
+1 Eyes of the Well (SL)
+1 Magic Ring of Delusion (LE)
+1 Magic Ring of Savagery (LE)
+1 Magic Ring of Shadows (LE)
+1 Magic Ring of Weals (LE)
+1 Minor Ring (LE)
+1 Oliphant (SL)
+1 Poison of his Voice (WH)
+1 Rumor of the One (LE)
+1 Well-preserved (AS)
+
+#####
+Sites
+#####
+
+# Minion Site (47)
+
+1 An Sakal [M] (SL)
+1 Arhazûn-Tarîk [M] (SL)
+1 Auz Azunan [M] (SL)
+1 Azrulôni [M] (SL)
+1 Barad Annûn [M] (SL)
+1 Bozisha-Dar [M] (SL)
+1 Bûr Esmer [M] (SL)
+1 Cairn of the Colruh Hazurbal [M] (SL)
+1 Calembel [M] (WOTR)
+1 Coastal Signal Tower [M] (WOTR)
+1 Dol Amroth [M] (LE)
+1 Dûsalan [M] (SL)
+1 Edhellond [M] (AS)
+1 Gobel Mírlond [M] (LE)
+1 Hau Nysrin [M] (SL)
+1 Haudh-in-Gwanûr [M] (LE)
+1 Hazaj Tollin [M] (SL)
+1 Isle of the Ulond [M] (AS)
+1 Khibil Ephalak [M] (SL)
+1 Killing Fields [M] (SL)
+1 Korlea [M] (SL)
+1 Lighthouse at the Cape of Octopuses [M] (SL)
+1 Linhir [M] (WOTR)
+1 Lond Daer [M] (KN)
+1 Lond Galen [M] (LE)
+1 Lossarnach [M] (WOTR)
+2 Minas Morgul [M] (LE)
+1 Monastery of the True Faith [M] (SL)
+1 Narik-Zadan [M] (SL)
+1 Norr-dûm [M] (GW)
+1 Nykkea [M] (SL)
+1 Nîlûlondê [M] (SL)
+1 Pelargir [M] (LE)
+1 Pelican Islands [M] (SL)
+1 Setmaenen [M] (WOTR)
+1 Southron Oasis [M] (LE)
+1 Temple of Kondri Odchi [M] (SL)
+1 Tharagrondost [M] (WOTR)
+1 The Hospice of Lost Faith [M] (SL)
+1 The Stones [M] (LE)
+1 Tol Glingal [M] (SL)
+1 Tol Uialgaer [M] (SL)
+1 Umbar [M] (SL)
+1 Vale of Erech [M] (LE)
+1 Vamag [M] (SL)
+1 Ûrêzâyan [M] (SL)

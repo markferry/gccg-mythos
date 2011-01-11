@@ -1,0 +1,226 @@
+#
+# GCCG v0.9.6 Middle-earth deck
+#
+#      DCCD - Elf-lord - Thranduil - Protector of Greenwood
+#
+
+####
+Deck
+####
+
+# Dual Resource (2)
+
+1 Elf-friend (FB)
+1 Great Falcons of Mirkwood (GW)
+
+# Elf-lord Character (3)
+
+3 Thranduil [E] (FB)
+
+# Hazard (33)
+
+1 "Bert" (Bûrat) (TW)
+1 "Tom" (Tûma) (TW)
+1 "William" (Wûluag) (TW)
+1 Alone and Unadvised (AS)
+2 Ambush! (DF)
+1 Black Crows (FB)
+1 Earth-tremors (DM)
+2 Elf-lord Revealed in Wrath* (FB)
+2 Elven Archer (FB)
+2 Elven Custody (FB)
+3 Elves upon Errantry (LE)
+1 Evenstar of her People (FB)
+2 Faladrim (FB)
+2 Galadhrim (AS)
+1 Grasping and Ungracious (TOI)
+1 His Fury Has Betrayed Him (WOTR)
+1 Lord of the Eagles (DF)
+1 Nameless Thing (DM)
+1 Old Enemies (DF)
+1 Pierced by Many Wounds (DM)
+1 Snow-elves (NW)
+1 Sons of Elrond (FB)
+1 Taint of Glory (WOTR)
+1 Thranduil's Folk (LE)
+1 Twilight (TW)
+
+# Hero Character (5)
+
+1 Aramacar (FB)
+1 Huinen (FB)
+1 Othar (FB)
+2 Wood-elf (FB)
+
+# Hero Resource (24)
+
+1 A Friend or Three (TW)
+1 Ancient Knowledge (FB)
+1 Aranrûth (FB)
+1 Beasts of the Wood (WH)
+1 Bow of the Galadhrim (AS)
+1 Elf-path (TD)
+1 Emerald of the Mariner (TD)
+2 Greenwood the Great (FB)
+1 Horns, Horns, Horns (DM)
+1 Longbottom Leaf (BA)
+1 Many Turns and Doublings (TD)
+1 Marvels Told (TD)
+2 Muster (TW)
+1 Pass the Doors of Dol Guldur (DM)
+1 Raft-elves (FB)
+1 Refuge (TD)
+2 Rescue Prisoners (TW)
+1 Ringil (GW)
+1 Risky Blow (TW)
+1 Smoke Rings (DM)
+1 Wood-elves (TW)
+
+# Minion Resource (4)
+
+1 Blackbole (LE)
+1 Crept Along Cleverly (WH)
+2 Swift Strokes (LE)
+
+# Stage Resource (3)
+
+1 Lord of Wood and Beast (FB)
+1 Prince of Mirkwood (FB)
+1 Wardens of the Woodland Realm (FB)
+
+####
+Pool
+####
+
+# Dual Character (1)
+
+1 Hirbrand (NE)
+
+# Hero Character (7)
+
+1 Arhendhiril (FB)
+1 Elven Handmaid (FB)
+1 Gimli, Son of Gloin (DF)
+1 Heladil (DF)
+1 Legolas (TW)
+1 Legolas of Greenwood (FB)
+1 Mallorn-dweller (FB)
+
+# Hero Resource (3)
+
+1 Healing Herbs (TW)
+1 Horn of Anor (TW)
+1 Star-glass (TW)
+
+# Minion Character (1)
+
+1 Nimloth (DM)
+
+# Stage Resource (3)
+
+1 The King's Hunting (FB)
+2 Thrall of the Voice (WH)
+
+#########
+Sideboard
+#########
+
+# Dual Resource (1)
+
+1 Helecthil, Light of the North (NW)
+
+# Hazard (3)
+
+1 He is lost to us (FB)
+1 Muster Disperses (TW)
+1 Sand-storm (SL)
+
+# Hero Character (1)
+
+1 Bladorthin (FB)
+
+# Hero Resource (12)
+
+1 A Panoply of Wings (WH)
+1 Ancient Knowledge (FB)
+1 Elves of Taur Romen (FB)
+1 Fellowship (NW)
+1 Great Bow of Lorien (FB)
+1 Great Bow of Yew (FB)
+1 Great Friendship (FB)
+1 Marvels Told (TD)
+1 Reforging (NW)
+1 The Great Eagles (TW)
+1 The Wind Is Turning (WOTR)
+1 Wild Hounds (WH)
+
+# Stage Resource (3)
+
+1 Great Achievement (DF)
+1 Legacy of Smiths (WH)
+1 Sworn to the Lord (FB)
+
+#####
+Sites
+#####
+
+# Elf-lord Site (3)
+
+1 Heart of the Halls (FB)
+2 Thranduil's Halls@ (FB)
+
+# Fallen Site (2)
+
+1 Lórien [F] (FB)
+1 Rivendell [F] (FB)
+
+# Hero Site (42)
+
+1 Bandit Lair [H] (TW)
+1 Buhr Widu [H] (TD)
+1 Caras Amarth [H] (FB)
+1 Caves of Ûlund [H] (TW)
+1 Ceber Fanuin [H] (FB)
+1 Celebannon [H] (FB)
+1 Cerin Amroth [H] (FB)
+1 Cor Angaladh [H] (FB)
+1 Dale [H] (TD)
+1 Dancing Spire [H] (TW)
+1 Dead Marshes [H] (TW)
+1 Dimrill Dale [H] (TW)
+1 Dol Guldur [H] (TW)
+1 Eagles' Eyrie [H] (TW)
+1 Framsburg [H] (TD)
+1 Gladden Fields [H] (TW)
+1 Goblin-gate [H] (TW)
+1 Gold Hill [H] (TD)
+1 Gondmaeglom [H] (TD)
+1 Gyogorasag Sanctuary [H] (GW)
+1 Hermit's Hill [H] (DM)
+1 Irerock [H] (TW)
+1 Iron Hill Dwarf-hold [H] (TW)
+1 Lake-town [H] (TW)
+1 Long Marish [H] (DF)
+1 Long Peak [H] (GW)
+1 Moria [H] (TW)
+1 Mount Gundabad [H] (TW)
+1 Mountains of Mirkwood [H] (GW)
+1 Norr-dûm [H] (GW)
+1 Ovir Hollow [H] (TD)
+1 Raider-hold [H] (AS)
+1 Rhosgobel [H] (TW)
+1 Rhûbar [H] (FB)
+1 Sarn Goriwing [H] (TW)
+1 Shrel-Kain [H] (TW)
+1 Steel Fall [H] (GW)
+1 The Carrock [H] (DF)
+1 The Lonely Mountain [H] (TW)
+1 The Sulfur-deeps [H] (DM)
+1 The Wind Throne [H] (TW)
+1 Woodmen-town [H] (TW)
+
+# Minion Site (3)
+
+1 Caras Amarth [M] (FB)
+1 Cor Angaladh [M] (FB)
+1 Mountains of Mirkwood [M] (GW)

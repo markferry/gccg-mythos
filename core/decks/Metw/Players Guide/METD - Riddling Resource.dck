@@ -1,0 +1,78 @@
+#This deck employs a somewhat unique strategy, that of discarding named 
+#cards out of your opponent's hand with The Riddle Game. It is not a simple 
+#matter to position your company so that The Riddle Game can be effectively 
+#used. However, when you do use it for its full effect, your opponent will not be 
+#happy. It is recommended you do not play this deck in a friendly game. In 
+#effect, this deck offers your opponent two hazard strategies to deal with.
+#
+#Bilbo is the star, gaining an inherent +3 on all riddling roles. Much of your 
+#resource energy will be used getting Bilbo untapped to the site of one of your 
+#opponent's companies. Riddling Talk plays an integral role in that it can 
+#cancel an attack, immediately remove the hazard limit with no warning to your 
+#opponent (keeping Bilbo untapped), and show you your opponent's hand.
+#
+#Consider including Foolish Words in your hazard mix. Note that you must 
+#bring in your only faction from the sideboard. You can bring cards from your 
+#sideboard to your discard pile in droves, and then, when the Palantir of 
+#Orthanc is in play, conveniently pop them into your play deck.
+[NetMECCG v1.4 Deck]
+[starting]
+Balin
+Bilbo
+Ioreth
+Thrain II
+Dagger of Westernesse
+Healing Herbs
+Celeborn
+Erkenbrand
+Hama
+Wacho
+[sideboard]
+Eowyn
+Helm of Her Secrecy
+Old Friendship
+Old Friendship
+Old Friendship
+Riders of Rohan
+Wizard Uncloaked
+Wizard Uncloaked
+Wizard's Laughter
+Wizard's Laughter
+[anti-FW]
+[characters]
+Gandalf
+Saruman
+Saruman
+[resources]
+[hazards]
+Align Palantir
+Align Palantir
+Escape
+Escape
+Far-sight
+Fellowship
+Fellowship
+Fellowship
+Halfling Stealth
+Halfling Stealth
+Healing Herbs
+Marvels Told
+Marvels Told
+Marvels Told
+Mirror of Galadriel
+Palantir of Orthanc
+Palantir of Osgiliath
+Red Arrow
+Riddling Talk
+Riddling Talk
+Riddling Talk
+Secret News
+The Riddle Game
+The Riddle Game
+The Riddle Game
+Treebeard
+When You Know More
+Wit
+Wit
+Wit
+[sites]

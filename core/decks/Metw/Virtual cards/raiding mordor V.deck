@@ -1,0 +1,218 @@
+#
+# GCCG v0.8.92 Middle-earth deck
+#
+#      raiding mordor V
+#
+
+####
+Deck
+####
+
+# Hazard (28)
+
+3 An Unexpected Outpost
+1 Daelomin at Home
+2 Elf-lord Revealed in Wrath
+1 Eye of Sauron (V1)
+2 Heedless Revelry
+1 Lady of the Golden Wood
+1 Landroval
+1 Mouth of Sauron
+1 My Precious
+2 Pûkel-men
+1 Revealed to all Watchers
+3 River (TW)
+1 Rogrog
+1 Seized by Terror
+2 Tidings of Bold Spies
+2 Unabated in Malice
+3 Wisp of Pale Sheen
+
+# Hero Character (6)
+
+1 Beretar
+1 Faramir
+1 Haldalam
+3 Radagast [H]
+
+# Hero Resource (30)
+
+1 A Chance Meeting
+1 A Friend or Three
+1 Bow of the Galadhrim
+1 Echo of All Joy (TD)
+3 Fair Travels in Dark-domains (V1)
+3 Gates of Morning
+1 Glamdring
+2 Hundreds of Butterflies
+3 Longbottom Leaf
+1 Orcrist
+3 Risky Blow
+3 Star of High Hope (TD)
+3 Sword of Gondolin
+2 The Cock Crows
+1 Thorough Search
+1 Wormsbane (TD)
+
+# Minion Character (2)
+
+1 Baduila
+1 Golodhros
+
+####
+Pool
+####
+
+# Hero Character (4)
+
+1 Elladan
+1 Elrohir
+1 Gildor Inglorion
+1 Legolas (V1)
+
+# Hero Resource (2)
+
+1 Elf-stone
+1 Tower Raided (V1)
+
+#########
+Sideboard
+#########
+
+# Hazard (15)
+
+1 Covetous Thoughts
+1 Doubled Vigilance
+1 Gandalf the White Rider
+1 Heedless Revelry
+1 Itangast Ahunt
+1 Lost in Free-domains (LE)
+2 Nameless Thing
+1 Rolled down to the Sea
+1 Seized by Terror
+1 Smaug Ahunt
+1 The Roving Eye
+2 Troll-purse
+1 Unhappy Blows
+
+# Hero Resource (15)
+
+1 A Chance Meeting
+2 And Forth He Hastened (TD)
+1 Echo of All Joy (TD)
+1 Elves of Lindon
+1 Mount Slain
+1 Muster
+1 Noble Hound
+1 Nûrniags [H]
+1 Rangers of the North
+3 Smoke Rings
+1 The Cock Crows
+1 Tom Bombadil
+
+# Hero Site (4)
+
+1 Buhr Widu [H] (TD)
+1 Gondmaeglom [H] (TD)
+1 Isle of the Ulond [H] (TD)
+1 Tharbad [H] (TD)
+
+#####
+Sites
+#####
+
+# Hero Site (105)
+
+1 Amon Hen [H]
+1 Bag End [H]
+1 Bandit Lair [H]
+1 Barad-dûr [H]
+1 Barrow-downs [H]
+1 Beorn's House [H]
+1 Blue Mountain Dwarf-hold [H]
+1 Bree [H]
+1 Cameth Brin [H]
+1 Carn Dûm [H]
+1 Caves of Ûlund [H]
+1 Cirith Gorgor [H]
+1 Cirith Ungol [H]
+1 Dale [H] (TD)
+1 Dancing Spire [H]
+1 Dead Marshes [H]
+1 Dimrill Dale [H]
+1 Dol Amroth [H]
+1 Dol Guldur [H]
+1 Drúadan Forest [H]
+1 Dunharrow [H]
+1 Dunnish Clan-hold [H]
+1 Eagles' Eyrie [H]
+1 Easterling Camp [H]
+4 Edhellond [H]
+1 Edoras [H]
+1 Ettenmoors [H]
+1 Framsburg [H] (TD)
+1 Geann a-Lisch [H]
+1 Gladden Fields [H]
+1 Glittering Caves [H]
+1 Gobel Mírlond [H]
+1 Goblin-gate [H]
+1 Gold Hill [H] (TD)
+4 Grey Havens [H]
+1 Haudh-in-Gwanûr [H]
+1 Henneth Annûn [H]
+1 Hermit's Hill [H]
+1 Himring [H]
+1 Irerock [H]
+1 Iron Hill Dwarf-hold [H]
+1 Isengard [H]
+1 Isles of the Dead that Live [H]
+1 Lake-town [H]
+1 Lond Galen [H]
+1 Lossadan Cairn [H]
+1 Lossadan Camp [H]
+4 Lórien [H]
+1 Minas Morgul [H]
+1 Minas Tirith [H]
+1 Moria [H]
+1 Mount Doom [H]
+1 Mount Gram [H]
+1 Mount Gundabad [H]
+1 Nûrniag Camp [H]
+1 Old Forest [H]
+1 Ost-in-Edhil [H]
+1 Ovir Hollow [H] (TD)
+1 Pelargir [H]
+1 Raider-hold [H]
+1 Rhosgobel [H]
+4 Rivendell [H]
+1 Ruined Signal Tower [H]
+1 Sarn Goriwing [H]
+1 Shelob's Lair [H]
+1 Shrel-Kain [H]
+1 Southron Oasis [H]
+1 Stone-circle [H]
+1 The Gem-deeps [H]
+1 The Iron-deeps [H]
+1 The Lonely Mountain [H]
+1 The Pûkel-deeps [H]
+1 The Stones [H]
+1 The Sulfur-deeps [H]
+1 The Under-courts [H]
+1 The Under-galleries [H]
+1 The Under-gates [H]
+1 The Under-grottos [H]
+1 The Under-leas [H]
+1 The Under-vaults [H]
+1 The White Towers [H]
+1 The Wind Throne [H]
+1 The Worthy Hills [H]
+1 Thranduil's Halls [H]
+1 Tolfalas [H]
+1 Urlurtsu Nurn [H]
+1 Vale of Erech [H]
+1 Variag Camp [H]
+1 Weathertop [H]
+1 Wellinghall [H]
+1 Woodmen-town [H]
+1 Wose Passage-hold [H]
+1 Zarak Dûm [H] (TD)

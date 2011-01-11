@@ -1,0 +1,76 @@
+#This is a new redirection style avoidance deck. The redirection should be 
+#used to kill most creature hazards and to gain the marshalling points from 
+#them. Miserly opponents may not play creatures on you once this is 
+#apparent, and, accordingly, attacks will be cancelled without you playing any 
+#cards. The Concealments should be used on automatic-attacks, since there 
+#is no way to gain marshalling points from them, or on very nasty attacks.
+#
+#Alatar has an inherent redirection ability. If he teleports to a company, he 
+#must face a strike. If you can get Alatar out, work at getting two companies to 
+#take advantage of his innate redirection abilities. The company he teleports 
+#to on one turn should always move back to a Haven on the following turn, and 
+#should move first. This way, Alatar will be at a Haven and can teleport when 
+#the other com-pany moves that same turn. The best two companies are 
+#Glorfindel II, Balin or Gloin Kili, and Fili in one com-pany and Gimli, Annalena, 
+#and loreth in the other. Gollum is best played with Gimli's company to fill out 
+#the scouts.
+[NetMECCG v1.4 Deck]
+[starting]
+Annalena
+Fili
+Gimli
+Glorfindel II
+Ioreth
+Cram
+Healing Herbs
+Arwen
+Balin
+Gloin
+Kili
+[sideboard]
+A Friend or Three
+A Friend or Three
+A Friend or Three
+Dark Quarrels
+Elf-song
+Elf-song
+Not at Home
+Not at Home
+[anti-FW]
+[characters]
+Alatar
+Alatar
+Pallando
+[resources]
+[hazards]
+And Forth He Hastened
+And Forth He Hastened
+Bounty of the Hoard
+Bow of Dragon-horn
+Cloudless Day
+Cloudless Day
+Concealment
+Concealment
+Echo of All Joy
+Emerald of the Mariner
+Dark Quarrels
+Dark Quarrels
+Gates of Morning
+Gates of Morning
+Gates of Morning
+Glamdring
+Gollum
+Iron Hill Dwarves
+Many Foes He Fought
+Many Foes He Fought
+Many Foes He Fought
+Marvels Told
+Marvels Told
+Men of Dorwinion
+More Sense than You
+More Sense than You
+Muster
+Risky Blow
+Risky Blow
+Wormsbane
+[sites]

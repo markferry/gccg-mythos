@@ -1,0 +1,177 @@
+#
+# GCCG v0.9.4 Middle-earth deck
+#
+#      FATE - Eriador - Dwar - Vermin
+#
+
+####
+Deck
+####
+
+# Hazard (40)
+
+3 An Unexpected Outpost (DM)
+2 Barrow-wight (TW)
+1 Barrow-wight (LE)
+1 Doors of Night (TW)
+1 Doors of Night (LE)
+2 Fell Turtle (TW)
+1 Gondring at Home (NW)
+3 Leeches (MM)
+3 Lost at Sea (TW)
+3 Neeker-breekers (PR)
+3 New Moon (TW)
+3 Noose of the Sea (TD)
+3 The Burden of Time (TW)
+1 The Reach of Ulmo (DM)
+1 Twilight (TW)
+1 Twilight (LE)
+1 Wake of War (TW)
+1 Wake of War (LE)
+1 Wargs (TW)
+2 Wargs (LE)
+3 Wolf-riders (TD)
+
+# Hero Character (2)
+
+1 King's Advisor (DF)
+1 Mountaineer (DF)
+
+# Minion Character (10)
+
+1 Baugúr (PRde)
+1 Dunlending Spy (LE)
+4 Dwar the Ringwraith (LE)
+1 Euog (Ulzog) (WH)
+1 Orc Sniffler (LE)
+1 Perchen (AS)
+1 Shámas (LE)
+
+# Minion Resource (40)
+
+3 Black Horse (AS)
+3 Crept Along Cleverly (WH)
+3 Dark Tryst (AS)
+1 Dunlendings [M] (LE)
+1 Gleaming Gold Ring (LE)
+3 Hidden Ways (LE)
+3 Hide in Dark Places (LE)
+1 I'll Be At Your Heels (LE)
+1 Misty Mountain Wargs (LE)
+1 News of the Shire (LE)
+3 Not Slay Needlessly (LE)
+1 Snaga-hai (LE)
+1 Sudden Call (LE)
+1 The Least of Gold Rings (LE)
+1 The Warg-king (LE)
+1 They Ride Together (V1)
+1 Usriev of Treachery (V1)
+3 War-warg (LE)
+3 War-wolf (LE)
+1 Wargs of the Forochel (LE)
+3 Weigh All Things to a Nicety (LE)
+1 White Mountain Wolves (LE)
+
+####
+Pool
+####
+
+# Hero Character (1)
+
+1 Thorin III (DF)
+
+# Minion Character (7)
+
+1 Kori (DF)
+2 Orc Brawler (LE)
+3 Orc Tracker (LE)
+1 Ulkaur the Tongueless (LE)
+
+# Minion Resource (3)
+
+1 Blazon of the Eye (LE)
+1 Whip (LE)
+1 Whispers of Rings (BA)
+
+#########
+Sideboard
+#########
+
+# Hazard (20)
+
+1 Choking Shadows (V1)
+1 Das Pack vor der Tuer (PRde)
+3 Death carrying Vermin (MM)
+2 Dire Wolves (TD)
+1 Dire Wolves (LE)
+1 Fell Winter (TW)
+1 Fell Winter (LE)
+3 Legacy of Carcaroth (NW)
+1 Rolled down to the Sea (WH)
+2 The Reach of Ulmo (DM)
+1 Wake of War (LE)
+3 Wolves (TW)
+
+# Minion Resource (20)
+
+3 Above the Abyss (AS)
+1 By the Ringwraith's Word (LE)
+1 Driven as by a Madness (AS)
+3 Dwar Unleashed (LE)
+2 Magic Ring of Delusion (LE)
+1 Magic Ring of Fury (LE)
+1 Minor Ring (LE)
+1 Orc-mounts (V1)
+1 Our Own Wolves (AS)
+1 Petty-dwarves [M] (AS)
+1 Poisonous Despair (LE)
+1 Trifling Ring (LE)
+2 Voices of Malice (LE)
+1 Words of Menace and Deceit (LE)
+
+#####
+Sites
+#####
+
+# Minion Site (40)
+
+1 Annúminas [M] (WOTR)
+1 Bag End [M] (LE)
+1 Bar-en-Ibûn* (DF)
+1 Barad-dûr [M] (LE)
+1 Barrow-downs [M] (LE)
+1 Blue Mountain Dwarf-hold [M] (LE)
+1 Bree [M] (LE)
+1 Cameth Brin [M] (LE)
+1 Carn Dûm [M] (LE)
+1 Creb Durga [M] (FA)
+1 Dead Man's Dike [M] (WOTR)
+1 Dol Guldur [M] (LE)
+1 Dunnish Clan-hold [M] (LE)
+1 Durin's Tower [M] (DF)
+1 Eldanar [M] (WOTR)
+1 Ettenmoors [M] (LE)
+1 Geann a-Lisch [M] (LE)
+1 Goblin-gate [M] (LE)
+1 Isengard [M] (LE)
+1 Isildur's Tomb [M] (WOTR)
+1 Lond Galen [M] (LE)
+1 Lossadan Cairn [M] (LE)
+1 Lossadan Camp [M] (LE)
+1 Minas Morgul [M] (LE)
+1 Moria [M] (LE)
+1 Morkai [M] (WOTR)
+1 Mount Gram [M] (LE)
+1 Mount Rerir* (FB)
+1 Ost-in-Edhil [M] (LE)
+1 Ostelan* (FB)
+1 Ruined Signal Tower [M] (LE)
+1 Stone-circle [M] (LE)
+1 Telpemár [M] (FB)
+1 Tharbad [M] (LE)
+1 The Iron-deeps [M] (AS)
+1 The Last Bridge [M] (ROTS)
+1 The Under-caves [M] (FA)
+1 The White Towers [M] (LE)
+1 Turukulon's Lair [M] (FA)
+1 Weathertop [M] (AS)

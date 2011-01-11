@@ -1,0 +1,61 @@
+#The hazard strategy is based on enhancing your opponent's 
+#automatic-attacks. Watch out for this to backfire on your own companies 
+#though. This strategy is nice for bluffing. Since you will frequently be playing 
+#dangerous cards on-guard, it is possible to scare off a weak company by 
+#bluffing with even a Muster on-guard.
+#
+#If your opponent primarily travels to Free-holds and Border-holds, enhancing 
+#automatic- attack at Ruins & Lairs, Shadow-holds, and Dark-holds will not hurt 
+#him very much. Therefore, the deck is filled out with hazards that cover this 
+#blind spot: Foolish Words, Fell Winter, Assassin, etc. Accessing hazards 
+#from the sideboard can only be done when your opponent's Wizard is in 
+#play, and you should plan on using this option two to three times. Luckily, your 
+#hazards do not rely on a large hazard limit.
+[NetMECCG v1.4 Deck]
+[starting]
+[sideboard]
+Bane of the Ithil-stone
+Earcaraxe
+Earcaraxe at Home
+Foolish Words
+Foolish Words
+Lure of Power
+Noose of the Sea
+Noose of the Sea
+The Will of the Ring
+Winds of Wrath
+[anti-FW]
+[characters]
+[resources]
+[hazards]
+Assassin
+Awaken Denizens
+Awaken Minions
+Awaken Minions
+Cave-drake
+Cave-drake
+Cave-drake
+Doors of Night
+Doors of Night
+Doors of Night
+Eye of Sauron
+Eye of Sauron
+Fell Winter
+Fell Winter
+Foolish Words
+Greed
+Incite Denizens
+Incite Denizens
+Incite Minions
+Incite Minions
+Slayer
+Slayer
+Slayer
+True Fire-drake
+True Fire-drake
+True Fire-drake
+Twilight
+Twilight
+Were-worm
+Were-worm
+[sites]

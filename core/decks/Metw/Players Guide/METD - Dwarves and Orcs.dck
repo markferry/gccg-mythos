@@ -1,0 +1,148 @@
+#The resource part of this deck is a King under the Mountain strategy. The 
+#main idea is to get lots of marshalling points. The end goal of this process is 
+#a simulation of the general events at the end of The Hobbit. First, play an At 
+#Home Dragon manifestation on your opponent's turn. Then on your turn 
+#move to the manifestation's home site and kill it. This allows you to play both 
+#King under the Mountain and Returned Exiles.
+#
+#Getting all of these marshalling points will take a lot of cards. Not only do you 
+#need all of the above mentioned cards, but you also need Sacrifice of Form 
+#and/or The Old Thrush in order to defeat the At Home manifestation. 
+#Pallando is your only Wizard because his ability to let you hold an extra card 
+#is crucial. In the meantime you can go after other resources that give high 
+#marshalling points to Dwarves like Durin's Axe and the Dwarven Rings.
+#
+#Playing all of these resources gives you a lot of direct influence against 
+#Dwarves-the rings give seven each and King under the Mountain gives 
+#another five. All of this allows you to play the many high-minded Dwarves in 
+#the play deck, so be willing to hold on to these characters a little longer than 
+#you might normally.
+#
+#The hazard strategy for this deck is a pretty standard Orc strategy with the 
+#addition of Hobgoblins and Gothmog. Be sure to save Gothmog for a 
+#Minions Stir. This will make him more deadly and give him one more body 
+#check to keep his marshalling points out of your opponent's pile
+[NetMECCG v1.4 Deck]
+[starting]
+Bifur
+Bofur
+Gloin
+Nori
+Thrain II
+Dagger of Westernesse
+Shield of Iron-bound Ash
+Balin
+Dain II
+Fili
+Oin
+Thorin II
+[sideboard]
+Marvels Told
+A Friend or Three
+Concealment
+Concealment
+Concealment
+Dark Quarrels
+Dark Quarrels
+Dark Quarrels
+Elf-song
+Elf-song
+Not at Home
+Not at Home
+Trickery
+Bane of the Ithil-stone
+Earcaraxe Ahunt
+Noose of the Sea
+Noose of the Sea
+Noose of the Sea
+Winds of Wrath
+Winds of Wrath
+[anti-FW]
+[characters]
+Pallando
+Pallando
+Pallando
+[resources]
+A Friend or Three
+A Friend or Three
+The Arkenstone
+Beautiful Gold Ring
+Beautiful Gold Ring
+Blue Mountain Dwarves
+Durin's Axe
+Dwarven Ring of Bavor's Tribe
+Dwarven Ring of Durin's Tribe
+Emerald of the Mariner
+Favor of the Valar
+Gollum
+Gwaihir
+Iron Hill Dwarves
+King under the Mountain
+Marvels Told
+Marvels Told
+Men of Dorwinion
+Not at Home
+The Old Thrush
+The Old Thrush
+Quickbeam
+Returned Exiles
+Ringlore
+Ringlore
+Sacrifice of Form
+Sacrifice of Form
+Tom Bombadil
+Trickery
+Trickery
+[hazards]
+Bairanax at Home
+Doors of Night
+Doors of Night
+Doors of Night
+Gothmog
+Hobgoblins
+Hobgoblins
+Hobgoblins
+Itangast at Home
+Many Sorrows Befall
+Minions Stir
+Minions Stir
+Minions Stir
+Mouth of Sauron
+Orc-lieutenant
+Orc-lieutenant
+Orc-patrol
+Orc-patrol
+Orc-warband
+Orc-warband
+Orc-warriors
+Orc-watch
+Scorba at Home
+Smaug at Home
+Twilight
+Twilight
+Twilight
+Uvatha the Horseman
+The Will of Sauron
+The Will of Sauron
+[sites]
+Amon Hen
+Bandit Lair
+Blue Mountain Dwarf-hold
+Eagles' Eyrie
+Gladden Fields
+Goblin-gate
+Gold Hill
+Iron Hill Dwarf-hold
+Isengard
+The Lonely Mountain
+Lorien
+Lorien
+Moria
+Ovir Hollow
+Rivendell
+Rivendell
+Shrel-Kain
+Weathertop
+Wellinghall
+The Wind Throne
+Zarak Dum

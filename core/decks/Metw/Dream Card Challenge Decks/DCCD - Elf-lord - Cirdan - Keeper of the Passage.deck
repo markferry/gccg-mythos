@@ -1,0 +1,196 @@
+#
+# GCCG v0.9.6 Middle-earth deck
+#
+#      DCCD - Elf-lord - Cirdan - Keeper of the Passage
+#
+
+####
+Deck
+####
+
+# Elf-lord Character (3)
+
+3 Círdan [E] (FB)
+
+# Grey Agent Character (3)
+
+1 Ellindiel (FP)
+1 Goblin-basher (DF)
+1 Thorongil (WOTR)
+
+# Hazard (31)
+
+1 Ambusher (TW)
+1 An Unexpected Outpost (DM)
+2 Black Crows (FB)
+2 Dwarven Warparty (DF)
+1 Elf-lord Revealed in Wrath (LE)
+1 Elven Wards (FB)
+1 Elves upon Errantry (LE)
+1 Eärcaraxë at Home (TD)
+1 Foolish Words (LE)
+1 Frightful Guardian (GW)
+1 Galadhrim (AS)
+1 His Own Master (ROTS)
+1 Khuzadrepa Ahunt (GW)
+1 Master of the House (AS)
+1 Never Seen Him (DM)
+1 Ninevet (DF)
+2 Nobody's Friend (DM)
+1 Power Built by Waiting (AS)
+2 Rain-drake (TD)
+2 Sellswords Between Charters (LE)
+2 Terror from the Deeps (DF)
+1 The Reach of Ulmo (DM)
+1 Wandering Eldar (LE)
+2 Watcher in the Water (LE)
+
+# Hero Character (4)
+
+1 Andovon Pathdal (FB)
+1 Annalena (TW)
+1 Galdor (TD)
+1 Shipwright (FB)
+
+# Hero Resource (27)
+
+1 Adamant Helmet (TD)
+1 Anglachel (NW)
+1 Barrow-blade (DM)
+1 Belegaer (TD)
+1 Elves of Edhellond (FP)
+3 Gates of Morning (TW)
+1 Glamdring (TW)
+1 Great Seagull (NW)
+1 Habergeon of Silver (TD)
+2 Not at Home (TD)
+2 Reforging (NW)
+1 Scabbard of Chalcedony (TD)
+1 Shipwrights of Lindon (FB)
+2 Smoke Rings (DM)
+2 Star of High Hope (TD)
+1 Sword of Gondolin (TW)
+1 The Cock Crows (TW)
+2 The Wind Is Turning (WOTR)
+1 Ulmo's Watch (FB)
+1 Valiant Sword (TD)
+
+# Minion Character (2)
+
+1 Elwen (DM)
+1 Nimloth (DM)
+
+# Minion Resource (1)
+
+1 Black Sails (SL)
+
+# Stage Resource (5)
+
+1 Arsenal of Lindon (FB)
+1 Clad for War (DF)
+2 Hidden Haven (WH)
+1 Kinsman and Ambassador (FB)
+
+####
+Pool
+####
+
+# Dual Character (1)
+
+1 Dúnadan Mariner (WOTR)
+
+# Hero Character (5)
+
+1 Círdor (FB)
+1 Emissary of the House (FB)
+1 Gildor Inglorion (TW)
+1 Shipwright (FB)
+1 Tharudan (FB)
+
+# Hero Resource (3)
+
+1 Dagger of Westernesse (TW)
+1 Shield of Iron-bound Ash (TW)
+1 Star-glass (TW)
+
+# Stage Resource (3)
+
+1 Keeper of the Passage (FB)
+1 The Sea's Prowess (FB)
+1 Thrall of the Voice (WH)
+
+#########
+Sideboard
+#########
+
+# Hazard (6)
+
+1 An Article Missing (DM)
+1 Cunning Foes (DM)
+1 Faladrim (FB)
+1 Greed (TW)
+1 Hard to Tame (DF)
+1 Muster Disperses (TW)
+
+# Hero Resource (13)
+
+1 Belegaer (TD)
+1 Elves of the House (FB)
+1 Hair of Uinen (FB)
+1 Kindling of the Spirit (TW)
+1 Knights of Dol Amroth (TW)
+1 Linyuilë (KN)
+1 Palantír of Elostirion [H] (TW)
+2 Sail to the West (FB)
+1 Swordmaster (DF)
+1 The Evenstar (TW)
+2 The Old Thrush (TW)
+
+# Stage Resource (1)
+
+1 Sworn to the Lord (FB)
+
+#####
+Sites
+#####
+
+# Elf-lord Site (2)
+
+2 Grey Havens@ (FB)
+
+# Fallen Site (3)
+
+1 Edhellond [F] (FB)
+1 Lórien [F] (FB)
+1 Rivendell [F] (FB)
+
+# Hero Site (27)
+
+1 Achrond [H] (NW)
+1 Amon Anlug [H] (NW)
+1 Andoloki [H] (NW)
+1 Canadras [H] #1 (NW)
+1 Dol Amroth [H] (TW)
+1 Ei Missa [H] (NW)
+1 Evermist [H] (NW)
+1 Gobel Mírlond [H] (AS)
+1 Gondring's Lair [H] (NW)
+1 Himring [H] (TW)
+1 Isle of the Ulond [H] (TD)
+1 Isles of the Dead that Live [H] (TW)
+1 Jääkylät [H] (NW)
+1 Kylmätalo [H] (NW)
+1 Linnarthurras [H] (NW)
+1 Minas Tirith [H] (TW)
+1 Mount Rerir [H] (FB)
+1 Pelargir [H] (TW)
+1 Pieni Satama [H] (NW)
+1 Ruined Signal Tower [H] (TW)
+1 Stone-circle [H] (TW)
+1 Tharagrondost [H] (WOTR)
+1 Thaurung [H] (NW)
+1 The White Towers [H] (TW)
+1 Tol Morven [H] (NW)
+1 Tolfalas [H] (TW)
+1 Umbar [H] (SL)
+

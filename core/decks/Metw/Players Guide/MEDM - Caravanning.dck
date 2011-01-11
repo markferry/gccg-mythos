@@ -1,0 +1,162 @@
+#This is an example of a caravan deck using Tharbad and Armouries to thin 
+#the deck of its resources for a very high concentration of hazards in a second 
+#deck cycle. On the second cycle the deck should contain nine resources and 
+#53 hazards. The deck is designed for two-deck play, but could conceivably 
+#function in a three- or four-deck game.
+#
+#The starting company should contain four five mind characters-in part to get a 
+#jump on the marshalling points. One of the five mind characters should be a 
+#Hobbit, to carry as many of the minor items as possible. Gandalf is included 
+#as the primary Wizard because of his corruption bonus, but also because 
+#few people play him and you can be sure of getting him out. Other characters 
+#can be put into the deck, especially the lower mind characters that can be 
+#controlled by some of the starting ones.
+#
+#The basic idea is to get as many minor items into the Armories as possible. 
+#Once you get them out, you can play minor items straight into the Armories. 
+#Before and after that you can also play them at Tharbad, even if it is tapped. 
+#Just be sure to leave someone at Tharbad so that it does not get discarded. 
+#The Wizard and a Hobbit can be used to "caravan" the minor items to 
+#Rivendell, where they can be stored in the Armories.
+#
+#The Daggers of Westernesse should not be stored, certainly not until you 
+#getBarrow-blades on them. They are handy to keep in play, making your 
+#fighters more dangerous. This is especially true against Undead and Nazgul 
+#attack strategies.
+#
+#Tom Bombadil is very key to this strategy. His movement restriction is 
+#irrelevant to this deck. Within his regions he is extremely powerful, not just in 
+#combat, but also as a general hazard defense using his special ability.
+#
+#The hazard side of the deck is a pretty standard Undead strategy, using the 
+#new creatures and enhancers available in Dark Minions. Chill Dousers are 
+#central to the strategy, and should be conserved at all costs. Aim them at 
+#small targets when possible, because if they are defeated, you will not be 
+#able to recycle them.
+#
+#Recycling cards is also important to the strategy. You cannot count on the 
+#one The Will of Sauron, so be ready to recycle Plague of Wights with An 
+#Unexpected Outpost. Also recycle Chill Dousers to use again as enhancers.
+#
+#An Unexpected Outpost should not be used for sideboarding. This is what 
+#the extra Nazgul are for-use them to get five hazards at a time from your 
+#sideboard into the discard pile. On the second cycle, however, use the 
+#Nazgul to kill. The majority of the resources should be out of the deck when it 
+#cycles once, so Undead will abound! As long as you can keep your 
+#opponent from getting enough marshalling points to call the Free Council 
+#when his deck cycles, you should be in good shape to eliminate marshalling 
+#points with undead. Eliminate enough and you can win with the 23 marshalling 
+#points in your deck. This deck plans for the contingency that the two-deck 
+#game will end when you exhaust your deck twice.
+[NetMECCG v1.4 Deck]
+[starting]
+Beretar
+Bilbo
+Ghan-buri-Ghan
+Gloin
+Dagger of Westernesse
+Dagger of Westernesse
+Eomer
+Faramir
+Frodo
+Wacho
+[sideboard]
+Barrow-wight
+Corpse-candle
+Corpse-candle
+Corpse-candle
+Ghouls
+Ghouls
+Ghouls
+Lure of Expedience
+Lure of Expedience
+Lure of Expedience
+Lure of Nature
+Lure of Nature
+Lure of Nature
+Despair of the Heart
+Traitor
+Weariness of the Heart
+Weariness of the Heart
+Wisp of Pale Sheen
+Wisp of Pale Sheen
+Wisp of Pale Sheen
+[anti-FW]
+[characters]
+Gandalf
+Gandalf
+Radagast
+[resources]
+Armory
+Armory
+Armory
+Barrow-blade
+Barrow-blade
+Barrow-blade
+Black Arrow
+Black Arrow
+Black Arrow
+Concealment
+Concealment
+Concealment
+Dagger of Westernesse
+Dark Numbers
+Dark Numbers
+Dark Numbers
+Dark Quarrels
+Dark Quarrels
+Elven Cloak
+Elven Cloak
+Elven Cloak
+Marvels Told
+Marvels Told
+Ordered to Kill
+Ordered to Kill
+Rangers of the North
+Shield of Iron-bound Ash
+Shield of Iron-bound Ash
+Shield of Iron-bound Ash
+Tom Bombadil
+Twilight
+Twilight
+Twilight
+[hazards]
+Akhorahil
+An Unexpected Outpost
+An Unexpected Outpost
+An Unexpected Outpost
+Barrow-wight
+Barrow-wight
+Chill Douser
+Chill Douser
+Chill Douser
+Doors of Night
+Doors of Night
+Doors of Night
+Exhalation of Decay
+Exhalation of Decay
+Exhalation of Decay
+Ghosts
+Ghosts
+Ghosts
+The Moon Is Dead
+The Moon Is Dead
+The Moon Is Dead
+Mouth of Sauron
+Pierced by Many Wounds
+Pierced by Many Wounds
+Pierced by Many Wounds
+Plague of Wights
+Plague of Wights
+Plague of Wights
+Stirring Bones
+Stirring Bones
+Stirring Bones
+Uvatha the Horseman
+The Will of Sauron
+[sites]
+Bag End
+Bree
+Old Forest
+Rivendell
+Tharbad

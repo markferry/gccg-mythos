@@ -1,0 +1,137 @@
+#This is a Legendary Hoard strategy, with a Dragon hazard strategy as a 
+#natural complement. The strategy is perfect for the two-deck game since it 
+#requires some set up.
+#
+#The set up should be done in the first cycle of the deck. You will want to get 
+#Wormsbane in case you end up having to fight your own Dragon 
+#manifestations. Also pick up the faction and ally resources, since you will be 
+#getting plenty of item marshalling points during the second cycle of the deck. 
+#Most importantly, you need to get Legendary Hoard up and going. Play the 
+#at Home manifestation of either Scorba or Agburanar and then play 
+#Legendary Hoard on it. Play the Ahunt manifestation to rotate the Legendary 
+#Hoard, but generally try to save the Dragon's manifestations as security 
+#against your opponent plundering your Hoard. The best situation is to use 
+#Uvatha or Mouth of Sauron to get back the Ahunt manifestation and play it 
+#twice. This will fulfill the goal of rotating the Legendary Hoard twice in the first 
+#deck cycle.
+#
+#When the deck cycles, sideboard in the extra items. The turn before you 
+#move to the Legendary Hoard you will want to play the Ahunt manifestation of 
+#the appropriate Dragon to get rid of the At Home automatic-attack. Be 
+#prepared to face it though, in the event of a Sated Beast from your opponent. 
+#If you slip by the automatic-attack, play as many items as fast as possible 
+#and get out of there. If you manage to defeat it, you will have more time, but 
+#do try to play fast before your opponent can catch up.
+[NetMECCG v1.4 Deck]
+[starting]
+Cram
+Elven Cloak
+Annalena
+Gimli
+Glorfindel II
+Kili
+Arwen
+Gloin
+Thrain II
+[sideboard]
+A Friend or Three
+A Friend or Three
+Bow of Dragon-horn
+Dark Quarrels
+Dark Quarrels
+Elf-song
+Elf-song
+Enruned Shield
+Habergeon of Silver
+Orcrist
+Valiant Sword
+Earcaraxe
+Earcaraxe Ahunt
+Lure of Nature
+Lure of Nature
+Noose of the Sea
+Noose of the Sea
+Noose of the Sea
+Winds of Wrath
+Winds of Wrath
+[anti-FW]
+[characters]
+Pallando
+Pallando
+Radagast
+[resources]
+A Friend or Three
+Bounty of the Hoard
+Bounty of the Hoard
+Concealment
+Concealment
+Concealment
+Dark Quarrels
+Durin's Axe
+Emerald of the Mariner
+Favor of the Valar
+Gollum
+Iron Hill Dwarves
+Legendary Hoard
+Legendary Hoard
+Marvels Told
+Marvels Told
+Marvels Told
+Not at Home
+Not at Home
+The Old Thrush
+The Old Thrush
+Quickbeam
+Risky Blow
+Risky Blow
+Sacrifice of Form
+Sacrifice of Form
+Trickery
+Trickery
+Wizard's Staff
+Wormsbane
+[hazards]
+Agburanar
+Agburanar Ahunt
+Agburanar at Home
+Assassin
+Cave-drake
+Cave-drake
+Cave-drake
+Dragon's Desolation
+Dragon's Desolation
+Dragon's Desolation
+From the Pits of Angband
+From the Pits of Angband
+Indur Dawndeath
+Many Sorrows Befall
+Mouth of Sauron
+Parsimony of Seclusion
+Parsimony of Seclusion
+Parsimony of Seclusion
+Prowess of Might
+Scorba
+Scorba Ahunt
+Scorba at Home
+Slayer
+Smaug
+Witch-king of Angmar
+Twilight
+Twilight
+Twilight
+Uvatha the Horseman
+Were-worm
+[sites]
+Caves of Ulund
+Goblin-gate
+Gondmaeglom
+Iron Hill Dwarf-hold
+The Lonely Mountain
+Lorien
+Lorien
+Moria
+Ovir Hollow
+Rivendell
+Weathertop
+Wellinghall
+Zarak Dum

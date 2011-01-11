@@ -1,0 +1,146 @@
+#Two cards, Isle of the Ulond and Shadow of Mordor, provided the inspiration 
+#for this powerful deck. While your company of sages and scouts basks on 
+#the beaches of Earcaraxe's lair for almost the entire game, all kinds of foul 
+#weather breaks out on the Middle-earth mainland. Your acquisition of 
+#marshalling points should be steady for the entire game, but it will not be 
+#really quick. Therefore, the pivotal goal of this strategy is to slow your 
+#opponent to a crawl before he accumulates enough points to win.
+#
+#Isle of the Ulond has two special characteristics. Firstly, it is an information 
+#site that also has major items, which is ideal for Look More Closely Later. 
+#Secondly, it is a Dragon's lair, which allows Bounty of the Hoard to shine. 
+#There are six cards in all that allow the play of site-tapping resources 
+#beyond the standard of one per site. The company can travel to Isle of the 
+#Ulond on the first turn and stay there for a long time. Unfortunately, they will 
+#have to travel away from the island at some point. There will generally be 
+#one trip to the Grey Havens. This is to play the two or three Fellowships 
+#accumulating in your hand and to pick up the Wizard and whatever 
+#characters you have played with him. Hopefully the Elves of Lindon will have 
+#appeared in the meantime. You may have to leave Cirdan or the Wizard 
+#behind, if the faction hasn't been drawn, as the Elves are your only one. You 
+#will also need to make a trip to Dol Amroth to pick up your only ally, Nenseld, 
+#and you will then need to leave a character behind with her. It is possible to 
+#include Here, There, or Yonder in the deck and to play an ally at Isle of the 
+#Ulond, but this requires holding one more combination in your hand.
+#
+#Your opponent will draw no cards at the start of most of your 
+#movement/hazard phases. Your resource strategy does not offer your 
+#opponent great opportunity to play directed hazards out of his hand. 
+#Snowstorm and the other roadblock hazards discourage your opponent from 
+#moving (and thusly drawing cards). These conditions impose an unnaturally 
+#high value to drawing cards. The magnitude of this demise is virtually 
+#doubled with Shadow of Mordor. The reason you are not as adversely 
+#affected by your own hazards is that you do not need to move to advance 
+#towards victory, and a general opponent does. If you can lock your 
+#environment-based hazard strategy down, it will not only cripple your 
+#opponent's turn management (whereas yours will not be affected), but also 
+#his card management.
+[NetMECCG v1.4 Deck]
+[starting]
+Annalena
+Arwen
+Cirdan
+Elrohir
+Wacho
+Healing Herbs
+Healing Herbs
+Glorfindel II
+Galva
+Voteli
+[sideboard]
+Aragorn II
+Blue Mountain Dwarves
+Dark Quarrels
+Dark Quarrels
+Marvels Told
+Scroll of Isildur
+Vanishment
+Vanishment
+Wizard Uncloaked
+Wizard Uncloaked
+Earcaraxe Ahunt
+Lure of Power
+Lure of Power
+Morgul-rats
+Morgul-rats
+Morgul-rats
+Shelob
+The Will of the Ring
+Winds of Wrath
+No Escape from My Magic
+[anti-FW]
+[characters]
+Gandalf
+Pallando
+Pallando
+[resources]
+Bounty of the Hoard
+Bounty of the Hoard
+Concealment
+Concealment
+Concealment
+Dreams of Lore
+Elves of Lindon
+Fellowship
+Fellowship
+Fellowship
+Glamdring
+Hauberk of Bright Mail
+Hauberk of Bright Mail
+Hauberk of Bright Mail
+Hiding
+Hiding
+Look More Closely Later
+Look More Closely Later
+Look More Closely Later
+Magical Harp
+Marvels Told
+Marvels Told
+Nenselde the Wingild
+Not at Home
+Not at Home
+Not at Home
+Thror's Map
+Torque of Hues
+When I Know Anything
+Twilight
+[hazards]
+Assassin
+Cave-drake
+Cave-drake
+Cave-drake
+Doors of Night
+Doors of Night
+Doors of Night
+Earcaraxe
+Fell Winter
+Foolish Words
+Foul Fumes
+Long Winter
+Many Sorrows Befall
+Mouth of Sauron
+Peril Returned
+Shadow of Mordor
+Shadow of Mordor
+Shadow of Mordor
+Slayer
+Slayer
+Slayer
+Snowstorm
+Snowstorm
+True Fire-drake
+True Fire-drake
+True Fire-drake
+Twilight
+Twilight
+Uvatha the Horseman
+The Will of Sauron
+[sites]
+Dol Amroth
+Edhellond
+Grey Havens
+Grey Havens
+Isles of the Dead that Live
+Isle of the Ulond
+Rivendell
+Tolfalas

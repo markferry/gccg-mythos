@@ -1,0 +1,203 @@
+#
+# GCCG v0.9.6 Middle-earth deck
+#
+#      {blue}Imported Deck{white}
+#
+
+####
+Deck
+####
+
+# Dual Resource (4)
+
+2 Mighty Steed (TOI)
+2 Rings of Power (NM)
+
+# Fallen-wizard Character (3)
+
+3 Saruman [F] (WH)
+
+# Hazard (33)
+
+1 Ambusher (TW)
+1 An Unexpected Outpost (DM)
+1 Angurth Ahunt (GW)
+2 Black Crows (FB)
+1 Cruel Caradhras (TD)
+1 Despair of the Heart (LE)
+1 Earth-tremors (DM)
+1 Elven Wards (FB)
+1 Enchanted Stream (AS)
+2 Ent in Search of the Entwives (LE)
+1 Foolish Words (LE)
+1 Frightful Guardian (GW)
+1 Great Northern Bear (GW)
+1 Grima Wormtongue (TOI)
+1 Lord of the Eagles (DF)
+1 Lure of the Senses (LE)
+1 Marsh-drake (TD)
+1 Men of the Wood (GW)
+2 Mensharag (TOI)
+1 Old Man Willow (TW)
+1 Out of Practise (DF)
+1 Rain-drake (TD)
+1 Shut Yer Mouth (LE)
+1 Snow in the Mountains (NW)
+1 Taint of Ambition (WOTR)
+1 Taint of Glory (WOTR)
+1 Taint of the Wilds (ROTS)
+2 Twilight (LE)
+1 Watcher in the Water (LE)
+
+# Hero Resource (21)
+
+1 A Chance Meeting (TW)
+1 And Forth He Hastened (TD)
+2 Concealment (TW)
+1 Dark Quarrels (TW)
+2 Fair Gold Ring (TW)
+1 Glamdring (TW)
+1 Hundreds of Butterflies (DM)
+1 Longbottom Leaf (BA)
+1 Lucky Strike (TW)
+1 Men of Dorwinion [H] (TW)
+2 Rumours of Danger (WOTR)
+2 Smoke Rings (DM)
+1 The Wind Is Turning (WOTR)
+1 Trickery (TD)
+1 Wain-easterlings [H] (AS)
+1 When I Know Anything (TD)
+1 Wizard's Flame (TW)
+
+# Minion Character (4)
+
+1 Eradan (LE)
+1 Hador (LE)
+1 Leärdinoth (NE)
+1 Taladhan (DM)
+
+# Minion Resource (4)
+
+2 Swift Strokes (LE)
+1 The Tormented Earth (AS)
+1 Voices of Malice (LE)
+
+# Stage Resource (4)
+
+1 Lore of the Rings (ROTS)
+1 Never Refuse (WH)
+1 Saruman's Ring (WH)
+1 The Forge-master (WH)
+
+####
+Pool
+####
+
+# Dual Character (3)
+
+1 Abur (SL)
+1 Harngorin (SL)
+1 Khursh (SL)
+
+# Hero Character (4)
+
+1 Ceorl (TOI)
+1 Peath (TW)
+1 Wacho (TW)
+1 Éothain (TOI)
+
+# Hero Resource (1)
+
+1 Black Arrow (PR)
+
+# Minion Character (3)
+
+1 Dunlending Spy (LE)
+1 Layos (LE)
+1 Nevido Smôd (LE)
+
+# Minion Resource (2)
+
+1 Binding-ring (LE)
+1 Whispers of Rings (BA)
+
+# Stage Resource (3)
+
+1 Many-coloured Robes (WH)
+1 Thrall of the Voice (WH)
+1 Wizard's Myrmidon (WH)
+
+#########
+Sideboard
+#########
+
+# Dual Resource (1)
+
+1 King of Mighty Words (NM)
+
+# Hazard (2)
+
+1 Many Burdens (ROTS)
+1 Too Much to Ask (WOTR)
+
+# Hero Resource (7)
+
+1 Forgotten Scrolls (DM)
+1 Hands of a Healer (NM)
+1 Lordly Presence (TW)
+2 Ring for Mortal Men [H] (NM)
+1 Ringlore (TW)
+1 Wizard's Flame (TW)
+
+# Minion Character (1)
+
+1 Ulrac (NE)
+
+# Minion Resource (7)
+
+1 Dwarven Ring of Thélor's Tribe [M] (AS)
+1 Magic Ring of Fury (LE)
+1 Magic Ring of Weals (LE)
+1 Minor Ring (LE)
+1 The Tormented Earth (AS)
+1 White Light Broken (WH)
+1 Wisdom to Wield (LE)
+
+# Stage Resource (2)
+
+1 Mischief in a Mean Way (WH)
+1 Seek for the Nine (NM)
+
+#####
+Sites
+#####
+
+# Fallen-wizard Site (2)
+
+2 Isengard [F] (WH)
+
+# Hero Site (23)
+
+1 Amon Hen [H] (TW)
+1 Amon Lhaw [H] (ROTS)
+1 Bandit Lair [H] (TW)
+1 Buhr Widu [H] (TD)
+1 Caras Amarth [H] (FB)
+1 Cor Angaladh [H] (FB)
+1 Dol Guldur [H] (TW)
+1 Dunharrow [H] (TW)
+1 Easterling Camp [H] (TW)
+1 Gladden Fields [H] (TW)
+1 Glittering Caves [H] (TW)
+1 Goblin-gate [H] (TW)
+1 Gyogorasag Sanctuary [H] (GW)
+1 Joghul's Shrine [H] (GP)
+1 Kref Masar [H] (SL)
+1 Moria [H] (TW)
+1 Raider-hold [H] (AS)
+1 Rhosgobel [H] (TW)
+1 Sarn Goriwing [H] (TW)
+1 Shrel-Kain [H] (TW)
+1 Strayhold [H] (NE)
+1 The Carrock [H] (DF)
+1 Tol Buruth [H] (NE)

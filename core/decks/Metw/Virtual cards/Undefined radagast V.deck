@@ -1,0 +1,358 @@
+#
+# GCCG v0.8.92 Middle-earth deck
+#
+#      ruben indeciso V
+#
+
+####
+Deck
+####
+
+# Fallen-wizard Character (3)
+
+3 Radagast [F]
+
+# Hazard (30)
+
+1 Adûnaphel
+3 An Unexpected Outpost
+3 Choking Shadows (V1)
+1 Daelomin at Home
+3 Doors of Night (LE)
+3 Ent in Search of the Entwives
+3 Huorn (LE)
+1 Ice-drake
+1 Many Sorrows Befall
+1 Mouth of Sauron
+3 Nature's Revenge (V1)
+3 Old Man Willow
+1 Revealed to all Watchers
+2 River (LE)
+1 Ûvatha the Horseman
+
+# Hero Character (1)
+
+1 Fram Framson
+
+# Hero Resource (17)
+
+1 Armory (V1)
+1 Forewarned Is Forearmed
+1 Gwaihir
+1 Leaflock
+2 Longbottom Leaf
+2 Marvels Told
+2 Noble Hound
+2 Noble Steed
+2 Risky Blow
+1 Shadowfax (TW)
+2 Smoke Rings
+
+# Minion Resource (11)
+
+2 Bold Thrust
+2 Burning Rick, Cot, and Tree
+2 Dark Tryst (AS)
+2 Smoke on the Wind
+2 Swift Strokes
+1 We Have Come to Kill
+
+# Stage Resource (2)
+
+1 Great Patron
+1 Radagast's Black Bird
+
+####
+Pool
+####
+
+# Hero Character (8)
+
+1 Boromir II
+1 Celeborn
+1 Elladan
+1 Elrohir
+1 Faramir
+1 Gildor Inglorion
+1 Halbarad
+1 Ioreth
+
+# Hero Resource (1)
+
+1 Cram
+
+# Minion Character (2)
+
+1 Dâsakûn
+1 Mîonid
+
+# Minion Resource (1)
+
+1 Open to the Summons (WH)
+
+# Stage Resource (3)
+
+1 Master of Shapes
+1 Thrall of the Voice
+1 Wizard's Myrmidon
+
+#########
+Sideboard
+#########
+
+# Hazard (17)
+
+1 Call of Home (TW)
+3 Doubled Vigilance
+2 Eye of Sauron (V1)
+1 Foolish Words (LE)
+1 Itangast Ahunt
+1 Lost at Sea
+1 Lost in Free-domains (LE)
+1 Lure of Expedience (TW)
+1 Muster Disperses (TW)
+1 My Precious
+1 Rolled down to the Sea
+1 Scorba Ahunt
+2 Seized by Terror
+
+# Hero Resource (5)
+
+1 Black Arrow
+1 Elf-stone
+1 Healing Herbs
+1 Tempering Friendship
+1 Woses of Old Pûkel-land
+
+# Minion Resource (2)
+
+1 We Have Come to Kill
+1 White Mountain Wolves
+
+# Stage Resource (6)
+
+1 A Merrier World
+1 An Untimely Brood
+1 Girdle of Radagast
+1 Keys of Orthanc
+1 Mischief in a Mean Way
+1 Plotting Ruin (V1)
+
+################
+Sideboard vs. fw
+################
+
+# Hazard (9)
+
+3 Blind to the West
+1 Cruel Claw Perceived
+1 Fool's Bane
+3 Ire of the East
+1 News of Doom
+
+#####
+Sites
+#####
+
+# Fallen-wizard Site (12)
+
+3 Deep Mines
+3 Isengard [F]
+3 Rhosgobel [F]
+3 The White Towers [F]
+
+# Hero Site (93)
+
+1 Amon Hen [H]
+1 Bag End [H]
+1 Bandit Lair [H]
+1 Barad-dûr [H]
+1 Barrow-downs [H]
+1 Beorn's House [H]
+1 Blue Mountain Dwarf-hold [H]
+1 Bree [H]
+1 Cameth Brin [H]
+1 Carn Dûm [H]
+1 Caves of Ûlund [H]
+1 Cirith Gorgor [H] (AS)
+1 Cirith Ungol [H]
+1 Dale [H]
+1 Dancing Spire [H]
+1 Dead Marshes [H]
+1 Dimrill Dale [H]
+1 Dol Amroth [H]
+1 Dol Guldur [H]
+1 Drúadan Forest [H]
+1 Dunharrow [H]
+1 Dunnish Clan-hold [H]
+1 Eagles' Eyrie [H]
+1 Easterling Camp [H]
+1 Edhellond [H]
+1 Edoras [H]
+1 Ettenmoors [H]
+1 Geann a-Lisch [H] (AS)
+1 Gladden Fields [H]
+1 Glittering Caves [H]
+1 Gobel Mírlond [H] (AS)
+1 Goblin-gate [H]
+1 Gondmaeglom [H]
+1 Grey Havens [H]
+1 Haudh-in-Gwanûr [H]
+1 Henneth Annûn [H]
+1 Hermit's Hill [H]
+1 Himring [H]
+1 Irerock [H]
+1 Iron Hill Dwarf-hold [H]
+1 Isengard [H]
+1 Isle of the Ulond [H]
+1 Isles of the Dead that Live [H]
+1 Lake-town [H]
+1 Lond Galen [H]
+1 Lossadan Cairn [H]
+1 Lossadan Camp [H]
+1 Lórien [H]
+1 Minas Morgul [H]
+1 Minas Tirith [H]
+1 Moria [H]
+1 Mount Doom [H]
+1 Mount Gram [H]
+1 Mount Gundabad [H]
+1 Nûrniag Camp [H] (AS)
+1 Old Forest [H]
+1 Ost-in-Edhil [H]
+1 Pelargir [H]
+1 Raider-hold [H] (AS)
+1 Rhosgobel [H]
+1 Rivendell [H]
+1 Ruined Signal Tower [H]
+1 Sarn Goriwing [H]
+1 Shelob's Lair [H]
+1 Shrel-Kain [H]
+1 Southron Oasis [H]
+1 Stone-circle [H]
+1 Tharbad [H]
+1 The Gem-deeps [H]
+1 The Iron-deeps [H]
+1 The Lonely Mountain [H]
+1 The Pûkel-deeps [H]
+1 The Stones [H]
+1 The Sulfur-deeps [H]
+1 The Under-courts [H]
+1 The Under-galleries [H]
+1 The Under-gates [H]
+1 The Under-grottos [H]
+1 The Under-leas [H]
+1 The Under-vaults [H]
+1 The White Towers [H]
+1 The Wind Throne [H]
+1 The Worthy Hills [H] (AS)
+1 Thranduil's Halls [H]
+1 Tolfalas [H]
+1 Urlurtsu Nurn [H]
+1 Vale of Erech [H]
+1 Variag Camp [H]
+1 Weathertop [H]
+1 Wellinghall [H]
+1 Woodmen-town [H]
+1 Wose Passage-hold [H]
+1 Zarak Dûm [H]
+
+# Minion Site (97)
+
+1 Amon Hen [M]
+1 Bag End [M]
+1 Bandit Lair [M]
+1 Barad-dûr [M]
+1 Barrow-downs [M]
+1 Beorn's House [M]
+1 Blue Mountain Dwarf-hold [M]
+1 Bree [M]
+1 Buhr Widu [M]
+1 Cameth Brin [M]
+1 Carn Dûm [M]
+1 Caves of Ûlund [M]
+1 Cirith Gorgor [M]
+1 Cirith Ungol [M]
+1 Dale [M]
+1 Dancing Spire [M] (AS)
+1 Dead Marshes [M]
+1 Dimrill Dale [M]
+1 Dol Amroth [M]
+1 Dol Guldur [M]
+1 Drúadan Forest [M]
+1 Dunharrow [M]
+1 Dunnish Clan-hold [M]
+1 Eagles' Eyrie [M] (AS)
+1 Easterling Camp [M]
+1 Edhellond [M] (AS)
+1 Edoras [M]
+1 Ettenmoors [M]
+1 Framsburg [M] (AS)
+1 Geann a-Lisch [M]
+1 Gladden Fields [M]
+1 Glittering Caves [M]
+1 Gobel Mírlond [M]
+1 Goblin-gate [M]
+1 Gold Hill [M] (AS)
+1 Gondmaeglom [M]
+1 Grey Havens [M] (AS)
+1 Haudh-in-Gwanûr [M]
+1 Henneth Annûn [M]
+1 Hermit's Hill [M]
+1 Himring [M] (AS)
+1 Irerock [M] (AS)
+1 Iron Hill Dwarf-hold [M]
+1 Isengard [M]
+1 Isle of the Ulond [M] (AS)
+1 Isles of the Dead that Live [M] (AS)
+1 Lake-town [M]
+1 Lond Galen [M]
+1 Lossadan Cairn [M]
+1 Lossadan Camp [M]
+1 Lórien [M] (AS)
+1 Minas Morgul [M]
+1 Minas Tirith [M]
+1 Moria [M]
+1 Mount Doom [M]
+1 Mount Gram [M]
+1 Mount Gundabad [M]
+1 Nûrniag Camp [M]
+1 Old Forest [M] (AS)
+1 Ost-in-Edhil [M]
+1 Ovir Hollow [M] (AS)
+1 Pelargir [M]
+1 Raider-hold [M]
+1 Rhosgobel [M] (AS)
+1 Rivendell [M] (AS)
+1 Ruined Signal Tower [M]
+1 Sarn Goriwing [M]
+1 Shelob's Lair [M]
+1 Shrel-Kain [M]
+1 Southron Oasis [M]
+1 Stone-circle [M]
+1 Tharbad [M]
+1 The Gem-deeps [M] (AS)
+1 The Iron-deeps [M] (AS)
+1 The Lonely Mountain [M]
+1 The Pûkel-deeps [M] (AS)
+1 The Stones [M]
+1 The Sulfur-deeps [M] (AS)
+1 The Under-courts [M] (AS)
+1 The Under-galleries [M] (AS)
+1 The Under-gates [M] (AS)
+1 The Under-grottos [M] (AS)
+1 The Under-leas [M] (AS)
+1 The Under-vaults [M] (AS)
+1 The White Towers [M]
+1 The Wind Throne [M]
+1 The Worthy Hills [M]
+1 Thranduil's Halls [M]
+1 Tolfalas [M] (AS)
+1 Urlurtsu Nurn [M]
+1 Vale of Erech [M]
+1 Variag Camp [M]
+1 Weathertop [M] (AS)
+1 Wellinghall [M] (AS)
+1 Woodmen-town [M]
+1 Wose Passage-hold [M]
+1 Zarak Dûm [M]

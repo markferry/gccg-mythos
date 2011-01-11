@@ -1,0 +1,150 @@
+#This deck combines an Aragorn/Arwen Gondor strategy with attacking 
+#agents (see page 6). The resource side of the deck relies on Sentinels of 
+#Numenor to provide an extra marshalling point for each of the factions 
+#gained. To this end, the deck benefits greatly from Choice of Luthien which 
+#allows discarding the Gondorian factions early on and retrieving them later 
+#when Sentinels is in play.
+#
+#Since the deck is based around Edhellond, you will need a couple turns to 
+#set up. While it is possible to get there through Lorien or Havens, it is best to 
+#use region movement through The Stones. This way, if you draw one of your 
+#items early, you can play it on the way to Edhellond, and make up for the lost 
+#turn advantage.
+#
+#Alatar is included as the Wizard for two reasons. First, he lives around 
+#Edhellond anyway, so he easily can join your company. He is one of the 
+#least used Wizards in my play group, so it is not likely my opponent will play 
+#him before me. This may be different for your play group, so you may want to 
+#put in a back-up Wizard or switch Wizards altogether.
+#
+#Sentinels of Numenor drive these criteria for the Wizard. With the -2 modifier 
+#on the faction roll it is imperative to have your Wizard in play to influence 
+#factions. For this reason you do not want the Wizard using up too much of his 
+#direct influence. Since Sentinels of Numenor can be lost if one of the factions 
+#under it is discarded, you will also want to have extra general influence to 
+#defend against Muster Disperses. Influence is very important in this deck, 
+#and it is not a deck for playing extra characters once the Wizard comes out. 
+#Save any characters in your deck for replacing eliminated characters.
+#
+#The agent strategy is a straight forward hunt. Use the extra movement cards 
+#to get to your opponent's companies. If you can manage to get an agent to a 
+#company's site untapped, hit the company twice-once with Cunning Foes and 
+#once when they enter the site.
+#
+#Use any clues you can glean from conversation around the game to figure 
+#out where your opponent is going. Try to talk it out of him if you can, but do not 
+#count on it. Good players will not give you any free information about their 
+#strategy. Use Secret News to find out what resources your opponent has, 
+#and determine from that where he might move.
+#
+#Heavy avoidance decks can be a royal pain for this deck, since you tend to 
+#have a lower number of attacks than creature attack strategies. If possible, 
+#save up the creatures for a turn you can attack with an agent. This is 
+#especially true of Little Snuffler, who can stop many of the better avoidance 
+#cards cold. If avoidance is a problem, either try to get rid of the scouts or the 
+#rangers to make Little Snuffler  more effective. The Seized By Terrors in the 
+#sideboard can be useful for this.
+#
+[NetMECCG v1.4 Deck]
+[starting]
+Aragorn II
+Arwen
+Beretar
+Eomer
+Black Arrow
+Dagger of Westernesse
+Annalena
+Boromir II
+Frodo
+Ghan-buri-Ghan
+Thorin II
+Wacho
+[sideboard]
+A Friend or Three
+Dark Quarrels
+Forewarned Is Forearmed
+Forewarned Is Forearmed
+Marvels Told
+Sacrifice of Form
+Wizard's River-horses
+Earcaraxe
+Inner Cunning
+Lure of Expedience
+Lure of Nature
+Lure of the Senses
+My Precious
+Nobody's Friend
+Seized by Terror
+Seized by Terror
+Seized by Terror
+Twilight
+The Will of the Ring
+Winds of Wrath
+[anti-FW]
+[characters]
+Alatar
+Alatar
+Alatar
+[resources]
+A Friend or Three
+A Friend or Three
+Choice of Luthien
+Concealment
+Concealment
+Concealment
+Dark Quarrels
+Dark Quarrels
+Glamdring
+Hauberk of Bright Mail
+Fireworks
+Forewarned Is Forearmed
+Many Foes He Fought
+Marvels Told
+Marvels Told
+Men of Anfalas
+Men of Anorien
+Men of Lamedon
+Men of Lebennin
+Nenselde the Wingild
+Orcrist
+Palantir of Minas Tirith
+Return of the King
+Secret News
+Secret News
+Sentinels of Numenor
+Sentinels of Numenor
+Twilight
+Twilight
+Wormsbane
+[hazards]
+Ambusher
+Ambusher
+An Unexpected Outpost
+An Unexpected Outpost
+An Unexpected Outpost
+Baduila
+Cave-drake
+Cave-drake
+Cave-drake
+Cunning Foes
+Cunning Foes
+Cunning Foes
+Dasakun
+Fori the Beardless
+The Grimburgoth
+Inner Cunning
+Inner Cunning
+Little Snuffler
+Little Snuffler
+Mouth of Sauron
+Never Seen Him
+Never Seen Him
+Never Seen Him
+Nobody's Friend
+Nobody's Friend
+Olog-hai (Trolls)
+Olog-hai (Trolls)
+Taladhan
+Uvatha the Horseman
+Woffung
+[sites]

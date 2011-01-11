@@ -1,0 +1,216 @@
+#
+# GCCG v0.8.92 Middle-earth deck
+#
+#      sigo sin saber q armar V
+#
+
+####
+Deck
+####
+
+# Hazard (30)
+
+1 Agburanar at Home
+2 An Unexpected Outpost
+1 Daelomin at Home
+3 Doors of Night (LE)
+2 Dragon's Blood
+2 Dragon's Breath (TD)
+2 Half an Eye Open (V1)
+1 Itangast Ahunt
+1 Itangast at Home
+2 Land-drake (TD)
+1 Leucaruth Ahunt
+2 Marsh-drake (TD)
+1 Mouth of Sauron
+2 Nameless Thing
+1 Revealed to all Watchers
+1 Smaug Ahunt
+1 Summons from Long Sleep
+1 True Fire-drake (TD)
+1 True Fire-drake (LE)
+1 Winged Fire-drake
+1 Ûvatha the Horseman
+
+# Hero Character (7)
+
+1 Balin
+1 Ioreth
+3 Pallando [H]
+1 Thorin II
+1 Thráin II
+
+# Hero Resource (30)
+
+2 And Forth He Hastened (TD)
+3 Bridge
+3 Cup of Farewell (V1)
+1 Elves of Lindon
+3 Eyes of Mandos
+3 Great-road
+1 Hall of Fire
+1 Legendary Hoard (TD)
+2 Longbottom Leaf
+3 Marvels Told (TD)
+1 Noble Hound
+1 Phial of Galadriel
+3 Smoke Rings
+2 Withdrawn to Mordor
+1 Wizard's Ring
+
+####
+Pool
+####
+
+# Hero Character (4)
+
+1 Arwen
+1 Bard Bowman (V1)
+1 Celeborn
+1 Galadriel [H]
+
+# Hero Resource (2)
+
+1 Elf-stone
+1 Star-glass
+
+#########
+Sideboard
+#########
+
+# Hazard (10)
+
+1 Drowning Seas
+1 From the Pits of Angband
+1 Heedless Revelry
+1 Leucaruth at Home
+1 Lost in Free-domains (TW)
+1 Rolled down to the Sea
+1 Sand-drake
+1 Scatha at Home
+1 Stench of Mordor
+1 The Way is Shut
+
+# Hero Resource (17)
+
+1 A Chance Meeting
+3 Black Arrow
+3 Cram (TD)
+1 Durin's Axe
+1 Emerald of Doriath (TD)
+1 Forod (TD)
+1 Healing Herbs
+1 King under the Mountain (TD)
+1 Noble Hound
+1 Orcrist
+1 Returned Exiles (TD)
+1 Thrór's Map [H] (TD)
+1 Wormsbane (TD)
+
+# Minion Resource (3)
+
+3 Deadly Dart
+
+#####
+Sites
+#####
+
+# Hero Site (109)
+
+1 Amon Hen [H]
+1 Bag End [H]
+1 Bandit Lair [H]
+1 Barad-dûr [H]
+1 Barrow-downs [H]
+1 Beorn's House [H]
+1 Blue Mountain Dwarf-hold [H]
+1 Bree [H]
+1 Buhr Widu [H] (TD)
+1 Cameth Brin [H]
+1 Carn Dûm [H]
+1 Caves of Ûlund [H]
+1 Cirith Gorgor [H]
+1 Cirith Ungol [H]
+1 Dale [H] (TD)
+1 Dancing Spire [H]
+1 Dead Marshes [H]
+1 Dimrill Dale [H]
+1 Dol Amroth [H]
+1 Dol Guldur [H]
+1 Drúadan Forest [H]
+1 Dunharrow [H]
+1 Dunnish Clan-hold [H]
+1 Eagles' Eyrie [H]
+1 Easterling Camp [H]
+4 Edhellond [H]
+1 Edoras [H]
+1 Ettenmoors [H]
+1 Framsburg [H] (TD)
+1 Geann a-Lisch [H]
+1 Gladden Fields [H]
+1 Glittering Caves [H]
+1 Gobel Mírlond [H]
+1 Goblin-gate [H]
+1 Gold Hill [H] (TD)
+1 Gondmaeglom [H] (TD)
+4 Grey Havens [H]
+1 Haudh-in-Gwanûr [H]
+1 Henneth Annûn [H]
+1 Hermit's Hill [H]
+1 Himring [H]
+1 Irerock [H]
+1 Iron Hill Dwarf-hold [H]
+1 Isengard [H]
+1 Isle of the Ulond [H] (TD)
+1 Isles of the Dead that Live [H]
+1 Lake-town [H]
+1 Lond Galen [H]
+1 Lossadan Cairn [H]
+1 Lossadan Camp [H]
+4 Lórien [H]
+1 Minas Morgul [H]
+1 Minas Tirith [H]
+1 Moria [H]
+1 Mount Doom [H]
+1 Mount Gram [H]
+1 Mount Gundabad [H]
+1 Nûrniag Camp [H]
+1 Old Forest [H]
+1 Ost-in-Edhil [H]
+1 Ovir Hollow [H] (TD)
+1 Pelargir [H]
+1 Raider-hold [H]
+1 Rhosgobel [H]
+4 Rivendell [H]
+1 Ruined Signal Tower [H]
+1 Sarn Goriwing [H]
+1 Shelob's Lair [H]
+1 Shrel-Kain [H]
+1 Southron Oasis [H]
+1 Stone-circle [H]
+1 Tharbad [H] (TD)
+1 The Gem-deeps [H]
+1 The Iron-deeps [H]
+1 The Lonely Mountain [H]
+1 The Pûkel-deeps [H]
+1 The Stones [H]
+1 The Sulfur-deeps [H]
+1 The Under-courts [H]
+1 The Under-galleries [H]
+1 The Under-gates [H]
+1 The Under-grottos [H]
+1 The Under-leas [H]
+1 The Under-vaults [H]
+1 The White Towers [H]
+1 The Wind Throne [H]
+1 The Worthy Hills [H]
+1 Thranduil's Halls [H]
+1 Tolfalas [H]
+1 Urlurtsu Nurn [H]
+1 Vale of Erech [H]
+1 Variag Camp [H]
+1 Weathertop [H]
+1 Wellinghall [H]
+1 Woodmen-town [H]
+1 Wose Passage-hold [H]
+1 Zarak Dûm [H] (TD)

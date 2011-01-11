@@ -1,0 +1,157 @@
+#This is a new manifestation of the advantage strategy explained in 
+#Middle-earth: The Wizards Player Guide. If the advantage strategy is new to 
+#you, please see the glossary on pages 12-13 for an explanation of some of 
+#the concepts. The release of The Dragons and Dark Minions bring to the 
+#game many cards for achieving the various types of advantage (card 
+#advantage, table advantage, turn advantage). One way this deck differs from 
+#its predecessor in the METW Players Guide is that creatures are not 
+#considered base cards. Creatures now provide table advantage, although 
+#Little Snuffler and Nazgul are considered card advantage. This leads to less 
+#table advantage overall from the old version to now, but more of a balance 
+#between the three types of advantage. Characters and sources of 
+#marshalling points still play the role of base cards for the most part.
+#
+#This deck is even less focused than its predecessor in the METW Players 
+#Guide. It has no single central impetus. Therefore the deck is extremely 
+#versatile and can often confuse sideboarding strategies. Many people 
+#design their sideboards with specific decks in mind (like corruption decks or 
+#Coastal Seas). With no single driving strategy to sideboard against, your 
+#opponent will often hurt his deck's effectiveness if he does sideboard.
+#
+#An Unexpected Outpost and Smoke Rings give excellent card advantage, 
+#perhaps the best in the game so far. The ability to recycle cards can 
+#effectively increase the number of a particular card in your deck, and can 
+#allow discarding cards early in the game and recycling them later when 
+#needed.
+#
+#Gnaw with Words provides an excellent form of turn advantage by tapping 
+#out your opponent's characters. Do not limit yourself to characters being 
+#primarily used as sages or diplomats, but watch for any useful character with 
+#these skills. This is especially effective against companies with a Wizard, 
+#since all Wizards have at least one of the affected skills.
+#
+#Chance of Being Lost and Great Secrets Buried There are good new cards 
+#for speed advantage. Chance of Being Lost can waste a turn for your 
+#opponent if successfully played. Great Secrets Buried There may seem like 
+#card advantage, but it can also be considered speed advantage. By 
+#trimming your opponent's deck of items, it will slow down the rate at which he 
+#can draw resources to play. It will certainly slow him down if he travels to the 
+#Under-deeps to get the items.
+#
+#Eyes of Mandos makes for excellent card advantage, giving you the best 
+#card off the top of your deck. It does require Pallando, but getting him can be 
+#helped by The Windlord Found Me, another source of card advantage. The 
+#Windlord Found Me can also be used to get Radagast if Pallando is played 
+#by your opponent.
+[NetMECCG v1.4 Deck]
+[starting]
+Annalena
+Bilbo
+Faramir
+Gimli
+Dagger of Westernesse
+Elven Cloak
+Arwen
+Balin
+Beretar
+Kili
+Legolas
+[sideboard]
+A Friend or Three
+A Friend or Three
+A Friend or Three
+Dark Quarrels
+Dark Quarrels
+Many Turns and Doublings
+Many Turns and Doublings
+Ordered to Kill
+Ordered to Kill
+Withdrawn to Mordor
+Withdrawn to Mordor
+Earth-tremors
+Earth-tremors
+Lure of Expedience
+Lure of Expedience
+Lure of Nature
+Lure of Nature
+Nameless Thing
+Nameless Thing
+The Will of the Ring
+[anti-FW]
+[characters]
+Pallando
+Pallando
+Radagast
+[resources]
+And Forth He Hastened
+And Forth He Hastened
+And Forth He Hastened
+Durin's Axe
+Enduring Tales
+Enduring Tales
+Eyes of Mandos
+Eyes of Mandos
+Glamdring
+Great Secrets Buried There
+Great Secrets Buried There
+Gwaihir
+Hundreds of Butterflies
+Marvels Told
+Marvels Told
+Men of Dorwinion
+The Mithril-coat
+Orcrist
+Rangers of Ithilien
+Rescue Prisoners
+Smoke Rings
+Smoke Rings
+Smoke Rings
+Thorough Search
+Thorough Search
+Torque of Hues
+Twilight
+Twilight
+The Windlord Found Me
+Wormsbane
+[hazards]
+Adunaphel
+An Unexpected Outpost
+An Unexpected Outpost
+An Unexpected Outpost
+Assassin
+Cave-drake
+Cave-drake
+Chance of Being Lost
+Chance of Being Lost
+Chance of Being Lost
+Gnaw with Words
+Gnaw with Words
+Gnaw with Words
+Half-trolls of Far Harad
+Half-trolls of Far Harad
+In Great Wrath
+In Great Wrath
+Khamul the Easterling
+Little Snuffler
+Little Snuffler
+Many Sorrows Befall
+Mouth of Sauron
+Seized by Terror
+Seized by Terror
+Slayer
+Slayer
+Thunder's Companion
+Twilight
+Uvatha the Horseman
+Witch-king of Angmar
+[sites]
+Dancing Spire
+Dead Marshes
+Eagles' Eyrie
+Henneth Annun
+The Lonely Mountain
+Lorien
+Lorien
+Moria
+Rivendell
+Shrel-Kain

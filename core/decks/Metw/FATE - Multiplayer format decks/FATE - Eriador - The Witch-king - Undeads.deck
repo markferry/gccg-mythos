@@ -1,0 +1,167 @@
+#
+# GCCG v0.9.4 Middle-earth deck
+#
+#      FATE - The Witch-king - Undeads
+#
+
+####
+Deck
+####
+
+# Hazard (40)
+
+3 An Unexpected Outpost
+2 Angmar Arises (DM)
+1 Barrow-wight (TW)
+1 Barrow-wight (LE)
+3 Chill Douser
+2 Choking Shadows (TW)
+1 Doors of Night (TW)
+1 Doors of Night (LE)
+3 Faces of the Dead
+1 Ghosts (TW)
+1 Ghosts (LE)
+2 Ghouls (TW)
+1 Ghouls (LE)
+1 Inner Cunning
+1 New Moon
+1 Nobody's Friend
+2 Peril Returned
+2 Plague of Wights (TW)
+1 Plague of Wights (LE)
+1 Sleepless Malice
+1 Stirring Bones (DM)
+2 Stirring Bones (LE)
+1 The Burden of Time
+2 The Moon Is Dead
+3 Wisp of Pale Sheen
+
+# Minion Character (14)
+
+1 Bûrat
+1 Dôgrib
+1 Elerína
+1 Firiel
+1 Konihrabn
+1 Orc Tracker
+1 Taladhan
+4 The Witch-king
+1 Troll-chief
+1 Tûma
+1 Wûluag
+
+# Minion Resource (40)
+
+1 "Two-headed" Troll
+3 A Nice Place to Hide
+1 Ancient Black Axe
+1 Angmarim [M]
+1 Back to the Fray
+2 Black Mace
+2 Black-hide Shield
+1 Black-mail Coat
+3 Blow Turned
+3 Bold Thrust
+2 Broad-headed Spear
+3 Forced March
+1 Foul Trophies
+2 Foul-smelling Paste
+1 Hill Trolls
+1 Hillmen [M]
+1 I'll Be At Your Heels
+1 Kill All But NOT the Halflings
+1 Orcs of Angmar
+1 Sack Over the Head
+1 Snaga-hai
+1 Stone Trolls
+1 Warrior-priests of Angmar
+2 We Have Come to Kill
+3 Weigh All Things to a Nicety
+
+####
+Pool
+####
+
+# Minion Character (6)
+
+1 Lieutenant of Angmar
+2 Orc Sniffler
+1 Orc Tracker
+1 Troll Lout
+1 Uchel
+
+# Minion Resource (3)
+
+1 Blazon of the Eye
+1 Orders from Lugbúrz
+1 Whip
+
+#########
+Sideboard
+#########
+
+# Hazard (20)
+
+1 Barrow-wight (TW)
+1 Choking Shadows (TW)
+1 Earth-tremors
+1 Ghosts (LE)
+3 Never Seen Him (DM)
+2 New Moon
+3 Shadow out of the Dark (DM)
+1 Short Legs Are Slow
+2 Sleepless Malice
+1 Stormcrow (TD)
+2 The Burden of Time
+1 Twilight (TW)
+1 Twilight (LE)
+
+# Minion Resource (20)
+
+3 Above the Abyss
+3 Ancient Secrets
+1 By the Ringwraith's Word
+2 Fell Rider
+1 Grond
+2 Heralded Lord
+1 Long Grievous Siege
+1 Sudden Call
+2 The Fiery Blade (WH)
+2 The Ring Leaves Its Mark
+2 The Witch-king Unleashed (LE)
+
+#####
+Sites
+#####
+
+# Minion Site (30)
+
+1 Bag End [M]
+1 Barad-dûr [M]
+1 Barrow-downs [M]
+1 Bernastath [M]
+1 Blue Mountain Dwarf-hold [M]
+1 Bree [M]
+1 Cameth Brin [M]
+2 Carn Dûm [M]
+1 Creb Durga [M]
+1 Dol Guldur [M]
+1 Eldanar [M]
+1 Ettenmoors [M]
+1 Goblin-gate [M]
+1 Homela [M]
+1 Litash [M]
+1 Lossadan Cairn [M]
+1 Lossadan Camp [M]
+1 Minas Morgul [M]
+1 Moria [M]
+1 Morkai [M]
+1 Mount Gram [M]
+1 Mount Gundabad [M]
+1 Thaurung [M]
+1 The Iron-deeps [M]
+1 The Under-caves [M]
+1 The Under-leas [M]
+1 The Under-vaults [M]
+1 Urdic Camp [M]
+1 Zarak Dûm [M]

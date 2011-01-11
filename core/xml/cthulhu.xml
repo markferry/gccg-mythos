@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ccg SYSTEM "gccg-game.dtd">
+
+<ccg name="Call of Cthulhu" dir="Cthulhu">
+
+  <cardset source="cthulhu_basecards.xml"/>
+  <cardset source="arkham.xml"/>
+  <cardset source="arkham_premium.xml"/>
+  <cardset source="unspeakable_tales.xml"/>
+  <cardset source="forbidden_relics.xml"/>
+  <cardset source="eldritch.xml"/>  
+  <cardset source="eldritch_premium.xml"/>
+  <cardset source="masks_of_nyarlathotep.xml"/>  
+  <cardset source="forgotten_cities.xml"/>  
+  <cardset source="spawn_of_madness.xml"/>
+  <cardset source="kingsport_dreams.xml"/> 
+  <cardset source="conspiracies_of_chaos.xml"/>
+  <cardset source="dunwich_denizens.xml"/>
+  <cardset source="promo.xml"/>
+
+  <image file="Arcane.png" tag="{ar}"/>
+  <image file="Combat.png" tag="{co}"/>
+  <image file="Terror.png" tag="{te}"/>
+  <image file="Investigation.png" tag="{in}"/>
+  <image file="Neutral.png" tag="{N}"/>
+  <image file="Shub-Niggurath.png" tag="{Sh}"/>
+  <image file="Yog-Sothoth.png" tag="{Y}"/>
+  <image file="Cthulhu.png" tag="{C}"/>
+  <image file="Syndicate.png" tag="{S}"/>
+  <image file="Miskatonic University.png" tag="{M}"/>
+  <image file="The Agency.png" tag="{A}"/>
+  <image file="Hastur.png" tag="{H}"/>
+  
+  <option name="hand card size" value="50"/>
+  <option name="table card size" value="36"/>
+  <option name="deck card size" value="20"/>
+  <option name="book card size" value="40"/>
+
+  <option name="draw hints" value="color"/>
+
+  <option name="default border width" value="12"/>
+  <option name="default border color" value="243,214,26"/>
+  <option name="default back color" value="0,20,50"/>
+  <option name="default title" value="26,24,127,16"/>
+  <option name="default title font color" value="255,255,255"/>
+  <option name="default title font" value="2"/>
+  <option name="default title font size" value="20"/>
+
+  <option name="deck order" value="type"/>
+  <option name="deck color by" value="color"/>
+
+  <trigger event="play" attribute="type"/>
+
+</ccg>

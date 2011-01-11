@@ -1,0 +1,328 @@
+#
+#
+# VARIABLES
+# =========
+#
+
+# Number of cards in hand.
+HANDSIZE=8;
+# Size of columns of the decklist in pixels.
+DECKBOX_SIZE=(20,220,110);
+# minor version number for filter alogrithm
+BOOK_FILTER_VERSION_MINOR=".2";
+# default book sorting criteria.
+BOOK_DEFAULT_SORT=("[age]","[card_number_group]","N[card_number]");
+
+if(!port)
+  port=29103;
+if(server.name=="NO.DEFAULT.SERVER.FOR.THIS.GAME")
+  server.name="gccg.servebeer.com";
+
+product.image=(,);
+product.image{"Arkham Booster"}="Arkham Edition Booster.jpg";
+product.image{"Arkham Investigators"}="Arkham Edition Investigators Starter.jpg";
+product.image{"Arkham Mythos"}="Arkham Edition Mythos Starter.jpg";
+product.image{"Unspeakable Tales Booster"}="Unspeakable Tales Booster.jpg";
+product.image{"Forgotten Cities Booster"}="Forgotten Cities Booster.jpg";
+product.image{"Forbidden Relics Booster"}="Forbidden Relics Booster.jpg";
+product.image{"Masks of Nyarlathotep Booster"}="Masks of Nyarlathotep Booster.jpg";
+product.image{"Eldritch Edition Booster"}="Eldritch Edition Booster.jpg";
+
+game.bindings=(
+  ("KeyControlKey1","{orange}Refresh phase...",),
+  ("KeyControlKey2","{orange}Draw phase...",),
+  ("KeyControlKey3","{orange}Resource phase...",),
+  ("KeyControlKey4","{orange}Operations phase...",),
+  ("KeyControlKey5","{orange}Story phase...",),
+  ("KeyControlKey6","{red}{te} struggle...",),
+  ("KeyControlKey7","{red}{co} struggle...",),
+  ("KeyControlKey8","{red}{ar} struggle...",),
+  ("KeyControlKey9","{red}{in} struggle...",),
+  ("KeyControlKey0","{red}Determining story success...",),);
+
+# MENUS
+# =====
+
+GAME_MENU{"Tap a card"}=(
+ (1,"Exhaust/Ready","middle click",""),
+ (1,"Exhaust and keep exhausted","","SetStayTapped()"),
+ (1,"Invert","",'Send("Rotate",(object.number,180))'),
+ (1,"Rotate 90 degrees","",'Send("Rotate",(object.number,90))'),
+ );
+
+
+def StoryDeckMenu
+{
+    Menu("Story Deck",(
+      ("Look","Ctrl+L",""),
+      ("Shuffle","Ctrl+S",""),
+      ("Reveal/Hide","Ctrl+F",""),
+      ("Touch","Ctrl+T",""),
+	  ("Play a Story from Story Deck","Ctrl+P",""),
+    ));
+}
+
+def DomainsMenu
+{
+    Menu("Domains",(
+      ("Look","Ctrl+L",""),
+      ("Touch","Ctrl+T",""),
+	  ("Reveal/Hide","Ctrl+F",""),
+    ));
+}
+
+def SingleCardMenuHook
+{
+  push(m);
+
+  m=(("Put to Story Deck and shuffle","Alt+Delete",""),);
+
+  return(m);
+  m=pop();
+}
+
+FILTER_OPTIONS=(
+ ("Factions","1",("[faction]","[name]")),
+ ("Type","1",("[type]","[faction]","[name]")),
+ ("Characters by subtype","find('Character',Attr('type',#))!=NULL",(1,"[subtype]","[faction]","[name]")),
+ ("Characters by faction","find('Character',Attr('type',#))!=NULL",(1,"[faction]","[name]")),
+ ("Support","find('Support',Attr('type',#))!=NULL",(1,"[faction]","[name]")),
+ ("Event","find('Event',Attr('type',#))!=NULL",(1,"[faction]","[name]")),
+ ("Conspiracies","find('Conspiracy',Attr('type',#))!=NULL",(1,"[faction]","[name]")),
+ ("Hastur - {H}","find('{H}',Attr('faction',#))!=NULL",(1,"[type]","[name]")),
+ ("Cthulhu - {C}","find('{C}',Attr('faction',#))!=NULL",(1,"[type]","[name]")),
+ ("Shub - {Sh}","find('{Sh}',Attr('faction',#))!=NULL",(1,"[type]","[name]")),
+ ("Yog - {Y}","find('{Y}',Attr('faction',#))!=NULL",(1,"[type]","[name]")), 
+ ("Neutral - {N}","find('{N}',Attr('faction',#))!=NULL",(1,"[type]","[name]")),
+ ("Miskatonic - {M}","find('{M}',Attr('faction',#))!=NULL",(1,"[type]","[name]")), 
+ ("Agency - {A}","find('{A}',Attr('faction',#))!=NULL",(1,"[type]","[name]")), 
+ ("Syndicate - {S}","find('{S}',Attr('faction',#))!=NULL",(1,"[type]","[name]")), 
+ ("Sealed deck","first(book_entry(card.book,#))&&find('Site',Attr('type',#))==NULL",(2,"[faction]","[type]","[name]")),
+ );
+
+# FUNCTIONS
+# =========
+
+#
+# NewDeck() - Game specific creation of empty deck structure.
+#
+def NewDeck
+{
+  return((("deck",(,)),("domains",(,)),("story deck",(,)),));
+}
+
+#
+# InitializeGame() - Game specific initialization of game variables.
+#
+def InitializeGame
+{
+}
+
+#
+# StartGame() - What to do when game begins.
+#
+def StartGame
+{
+  net_send(server,("UploadDeck",decks{deck.name}));
+  net_send(server,("ShuffleDeck",deck));
+  net_send(server,("ShuffleDeck",deck.objects[me]{"story deck"}));
+}
+
+#
+# HOOKS
+# =====
+
+#
+# OVERRIDED FUNCTIONS
+# ===================
+
+def PlayKeyAltKeyDelete
+{
+  if(card.number!=NULL)
+  {
+    TryTransferTo("deck.top", deck.objects[me]{"story deck"}); 
+	Send("ShuffleDeck",deck.objects[me]{"story deck"})
+
+  }
+}
+
+
+#
+# REDEFINED FUNCTIONS
+# ===================
+
+#
+# ScoreToText(score structure) - Convert a score structure to string.
+# 
+def ScoreToText
+{
+  return("");
+}
+
+# MOUSE
+# =====
+
+#
+# MouseLeftClickDomains() - Look at Domains.
+#
+def MouseLeftClickDomains
+  PlayKeyControlKeyL();
+
+#
+# MouseMiddleClickDomains() - Play a card from Domains.
+#
+def MouseMiddleClickDomains
+  PlayKeyControlKeyP();
+  
+#
+# MouseLeftClickStoryDeck() - Look at Story Deck.
+#
+def MouseLeftClickStoryDeck
+  PlayKeyControlKeyL();
+
+#
+# MouseMiddleClickStoryDeck() - Play a card from Story Deck.
+#
+def MouseMiddleClickStoryDeck
+  PlayKeyControlKeyP();
+
+#
+# MouseLeftClickDiscardPile() - Look at discard.
+#
+def MouseLeftClickDiscardPile
+  PlayKeyControlKeyL();
+
+#
+# MouseLeftClickDomainsSearchBoxHook() - Play a card from Domains.
+#
+def MouseLeftClickDomainsSearchBoxHook
+{
+  TryTransferTo("play",0);
+}
+
+#
+# MouseLeftClickStoryDeckSearchBoxHook() - Play a card from Story Deck.
+#
+def MouseLeftClickStoryDeckSearchBoxHook
+{
+  TryTransferTo("play",0);
+}
+
+#
+# MouseLeftClickDiscardPileSearchBoxHook() - Play a card from Discard Pile.
+#
+def MouseLeftClickDiscardPileSearchBoxHook
+{
+  TryTransferTo("play",0);
+}
+
+
+# SPECIAL KEYS
+# ============
+
+#
+# KeyShiftControlKeyA() - Produce {ar}.
+#
+def KeyShiftControlKeyA
+{
+    Input("{ar}");
+}
+#
+# KeyShiftControlKeyC() - Produce {co}.
+#
+def KeyShiftControlKeyC
+{
+    Input("{co}");
+}
+#
+# KeyShiftControlKeyT() - Produce {te}.
+#
+def KeyShiftControlKeyT
+{
+    Input("{te}");
+}
+#
+# KeyShiftControlKeyI() - Produce {in}.
+#
+def KeyShiftControlKeyI
+{
+    Input("{in}");
+}
+#
+# KeyShiftAltKeyN() - Produce {N}.
+#
+def KeyShiftAltKeyN
+{
+    Input("{N}");
+}
+#
+# KeyShiftAltKeyB() - Produce {Sh}.
+#
+def KeyShiftAltKeyB
+{
+    Input("{Sh}");
+}
+#
+# KeyShiftAltKeyY() - Produce {Y}.
+#
+def KeyShiftAltKeyY
+{
+    Input("{Y}");
+}
+#
+# KeyShiftAltKeyC() - Produce {C}.
+#
+def KeyShiftAltKeyC
+{
+    Input("{C}");
+}
+#
+# KeyShiftAltKeyS() - Produce {S}.
+#
+def KeyShiftAltKeyS
+{
+    Input("{S}");
+}
+#
+# KeyShiftAltKeyM() - Produce {M}.
+#
+def KeyShiftAltKeyM
+{
+    Input("{M}");
+}
+
+#
+# KeyShiftAltKeyA() - Produce {A}.
+#
+def KeyShiftAltKeyA
+{
+    Input("{A}");
+}
+
+#
+# KeyShiftAltKeyH() - Produce {H}.
+#
+def KeyShiftAltKeyH
+{
+    Input("{H}");
+}
+
+#
+# PLAYING CARDS
+# =============
+
+
+#
+# LOCATION TABLES
+# ===============
+
+#
+# InitializeLocationTables() - Fill tables for location algorithm (See Mtg.include for details).
+#
+def InitializeLocationTables
+{
+  rules.category=(,);
+
+  rules.coordinate=(,);
+}
+

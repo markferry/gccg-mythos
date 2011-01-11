@@ -1,0 +1,58 @@
+#
+# DECK RULES
+# ==========
+
+deck_rules=(,);
+server_description="Standard rules";
+deck_rules{"CCG format"}=(,);
+deck_rules{"CCG format"}{"deck"}=(
+  ("RuleDeckMinimum",50),
+  ("RuleLimitByExpression",(9999,"name(#)==\"Ravenous Hunting Horror\"")),
+  ("RuleLimitByExpression",(9999,"name(#)==\"Grim Avenger\"")),
+  ("RuleCardLimitGeneral",4),
+  ("RulePass",NULL),
+);
+deck_rules{"CCG format"}{"domains"}=(
+  ("RuleDeckMinimum",3),
+  ("RuleDeckMaximum",3),
+  ("RuleLimitByExpression",(0,"Attr(\"type\",#)==\"Support\"")),
+  ("RuleLimitByExpression",(0,"Attr(\"type\",#)==\"Story\"")),
+  ("RuleLimitByExpression",(0,"Attr(\"type\",#)==\"Event\"")),
+  ("RuleLimitByExpression",(0,"Attr(\"type\",#)==\"Character\"")),
+  ("RulePass",NULL),
+);
+deck_rules{"CCG format"}{"story deck"}=(
+  ("RuleDeckMinimum",10),
+  ("RuleLimitByExpression",(0,"Attr(\"type\",#)==\"Support\"")),
+  ("RuleLimitByExpression",(0,"Attr(\"type\",#)==\"Domain\"")),
+  ("RuleLimitByExpression",(0,"Attr(\"type\",#)==\"Event\"")),
+  ("RuleLimitByExpression",(0,"Attr(\"type\",#)==\"Character\"")),
+  ("RuleCardLimitGeneral",1),
+  ("RulePass",NULL),
+);
+deck_rules{"LCG format"}=(,);
+deck_rules{"LCG format"}{"deck"}=(
+  ("RuleDeckMinimum",50),
+  ("RuleLimitByExpression",(9999,"name(#)==\"Ravenous Hunting Horror\"")),
+  ("RuleLimitByExpression",(9999,"name(#)==\"Grim Avenger\"")),
+  ("RuleCardLimitGeneral",3),
+  ("RulePass",NULL),
+);
+deck_rules{"LCG format"}{"domains"}=(
+  ("RuleDeckMinimum",3),
+  ("RuleDeckMaximum",3),
+  ("RuleLimitByExpression",(0,"Attr(\"type\",#)==\"Support\"")),
+  ("RuleLimitByExpression",(0,"Attr(\"type\",#)==\"Story\"")),
+  ("RuleLimitByExpression",(0,"Attr(\"type\",#)==\"Event\"")),
+  ("RuleLimitByExpression",(0,"Attr(\"type\",#)==\"Character\"")),
+  ("RulePass",NULL),
+);
+deck_rules{"LCG format"}{"story deck"}=(
+  ("RuleDeckMinimum",10),
+  ("RuleLimitByExpression",(0,"Attr(\"type\",#)==\"Support\"")),
+  ("RuleLimitByExpression",(0,"Attr(\"type\",#)==\"Domain\"")),
+  ("RuleLimitByExpression",(0,"Attr(\"type\",#)==\"Event\"")),
+  ("RuleLimitByExpression",(0,"Attr(\"type\",#)==\"Character\"")),
+  ("RuleCardLimitGeneral",1),
+  ("RulePass",NULL),
+);

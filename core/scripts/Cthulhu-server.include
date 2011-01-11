@@ -1,0 +1,58 @@
+
+screen.width=1024;
+screen.height=768;
+port=29700;
+meta.port=29103;
+
+#
+# FUNCTIONS
+# =========
+
+#
+# HOOKS
+# =====
+
+#
+# InitServerHook(nmb.of players) - Called during server initialization.
+#
+def InitServerHook
+{
+}
+
+#
+# StartGameHook(nmb.of players) - Called when a game is ready to start.
+#
+def StartGameHook
+{
+}
+
+#
+# UploadDeckHook(player,deck) - Called when a player uploads the deck.
+#
+def UploadDeckHook
+{
+}
+
+#
+# GAME SPECIFIC FUNCTIONS
+# =======================
+
+#
+# SetUpPlayer(p) - Create necessary strucrures for player 'p'.
+#
+def SetUpPlayer
+{
+  CreateDeck(ARG,"story deck",40,-90);
+  CreateDeck(ARG,"discard pile",40,160);
+  CreateDeck(ARG,"domains",40,270);
+  CreateDeck(ARG,"deck",40,50);
+}
+
+#
+# InitialScore(p) - Return a structure representing initial score for a player 'p'.
+#
+def InitialScore
+{
+  return("");
+}
+

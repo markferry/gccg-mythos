@@ -1,0 +1,36 @@
+
+# Change port
+if(!port)
+  port=29104;
+
+investigators=FixedSet("A",("Investigator Domain 1", "Investigator Domain 2", "Investigator Domain 3", "The Dreams of Kingsport", "The Horror of the Past", "The Arkham Willows", "The Forgotten Sepulchre", "The Thing at the Gate", "The Secret of the North Woods", "The Innsmouth Threat", "The Terror out of Dunwich", "The Well", "The Crooked Manse", "Blackwood Associate", "Blackwood Associate", "Blackwood Associate", "Blackwood File Clerk", "Blackwood File Clerk", "Hired Muscle", "Hired Muscle", "Playing with Fire", "Shotgun Blast", "Shotgun Blast", "Police Station", "Police Station", "Tommygun", "Tommygun", "Ethnobiologist", "Ethnobiologist", "Expedition Leader", "Expedition Leader", "Expedition Leader", "Binding", "Binding", "Undocumented Expedition", "Undocumented Expedition", "* Thaumaturgical Prodigies, Rev. Phillip's Expose", "* Thaumaturgical Prodigies, Rev. Phillip's Expose", "M.U. Administration Building", "M.U. Administration Building"));
+mythos=FixedSet("A",("Mythos Domain 1", "Mythos Domain 2", "Mythos Domain 3", "The Dreams of Kingsport", "The Horror of the Past", "The Arkham Willows", "The Forgotten Sepulchre", "The Thing at the Gate", "The Secret of the North Woods", "The Innsmouth Threat", "The Terror out of Dunwich", "The Well", "The Crooked Manse", "Elder Shoggoth", "Elder Shoggoth", "Son of the Sleeper", "Son of the Sleeper", "Young Deep One", "Young Deep One", "Young Deep One", "Primal Fear", "Primal Fear", "The Great Old One Rises!", "Silver Twilight Lodge", "Silver Twilight Lodge", "The Innsmouth Look", "The Innsmouth Look", "Street Scholar", "Street Scholar", "Street Scholar", "Thrill Killer", "Thrill Killer", "Agoraphobia", "Agoraphobia", "Committed", "Committed", "Academy of the Mad", "Academy of the Mad", "Pallid Mask", "Pallid Mask"));
+
+def InitDistributions
+{
+  distribution=(,);
+  distribution{"A"}=(,);
+  distribution{"A"}{"Booster"}=((7,"C"),(3,"U"),(1,"R"));
+  distribution{"A"}{"Investigators"}=((13,"C"),(5,"U"),(2,"R"));
+  distribution{"A"}{"Mythos"}=((13,"C"),(5,"U"),(2,"R"));
+  distribution{"E"}=(,);
+  distribution{"E"}{"Booster"}=((7,"C"),(3,"U"),(1,"R"));
+  distribution{"UT"}=(,);
+  distribution{"UT"}{"Booster"}=((7,"C"),(3,"U"),(1,"R"));
+  distribution{"MN"}=(,);
+  distribution{"MN"}{"Booster"}=((7,"C"),(3,"U"),(1,"R"));
+  distribution{"FR"}=(,);
+  distribution{"FR"}{"Booster"}=((7,"C"),(3,"U"),(1,"R"));
+  distribution{"FC"}=(,);
+  distribution{"FC"}{"Booster"}=((7,"C"),(3,"U"),(1,"R"));
+}
+
+def ProduceA_Investigators
+{
+  return(investigators+RandomCardSet("A",distribution{"A"}{"Investigators"}));
+}
+
+def ProduceA_Mythos
+{
+  return(mythos+RandomCardSet("A",distribution{"A"}{"Mythos"}));
+}

@@ -1,0 +1,24 @@
+
+if(!port)
+  port=29103;
+factory.port=29104;
+
+if(!load("products"))
+{
+  products=(,);
+  products{"Arkham Booster"}=(65536,3.50,("A","Booster"),65536);
+  products{"Arkham Investigators"}=(65536,12.00,("A","Investigators"),65536);
+  products{"Arkham Mythos"}=(65536,12.00,("A","Mythos"),65536);
+  products{"Unspeakable Tales Booster"}=(65536,3.50,("UT","Booster"),65536);
+  products{"Forgotten Cities Booster"}=(65536,3.50,("FC","Booster"),65536);
+  products{"Forbidden Relics Booster"}=(65536,3.50,("FR","Booster"),65536);
+  products{"Masks of Nyarlathotep Booster"}=(65536,3.50,("MN","Booster"),65536);
+  products{"Eldritch Edition Booster"}=(65536,3.50,("E","Booster"),65536);
+  save("products");
+}
+
+INITIAL_MONEY=30.0;
+GAME_BONUS=20.0;
+BET_BONUS_MULTIPLIER=1;
+LOSER_PERCENTAGE=0.20;
+

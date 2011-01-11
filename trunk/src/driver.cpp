@@ -335,7 +335,13 @@ namespace Driver
 
 	void Driver::RegisterInlineImage(const string& filename,const string& tag)
 	{
-		inlineimage[tag]=LoadImage(filename,Color(0,0,0));
+            string f=FindFile(filename,"graphics");
+            if(f=="")
+            {
+                cerr << "Warning: Image missing: "+filename << endl;
+                f=FindFile("q.png","graphics");
+            }
+		inlineimage[tag]=LoadImage(f,Color(0,0,0));
 	}
 	
 } // namespace Driver

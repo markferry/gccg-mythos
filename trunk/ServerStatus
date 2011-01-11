@@ -1,0 +1,42 @@
+#!/usr/bin/perl -I ./perl
+
+use server;
+
+for(@games)
+{
+    print ucfirst($_)."\n";
+    print "Factory servers\n";
+    for (factory_servers($_))
+    {
+	show_server($_);
+    }
+    print "Meta servers\n";
+    for (meta_servers($_))
+    {
+	show_server($_);
+    }
+    print "Game servers\n";
+    for (game_servers($_))
+    {
+	show_server($_);
+    }
+    print "Launch script PIDs:\n";
+    $pids=join(" ",scripts($_,"meta"));
+    print "  Meta: $pids\n" if($pids ne "");
+    $pids=join(" ",scripts($_,"factory"));
+    print "  Factory: $pids\n" if($pids ne "");
+    $pids=join(" ",scripts($_,"table"));
+    print "  Tables: $pids\n" if($pids ne "");
+    print "\n";
+}
+
+print "Total size: ${sz_total}Mb\n";
+
+sub show_server
+{
+    my $pid=shift;
+    my $sz;
+    $sz=rss_size($pid);
+    $sz_total+=($sz/1024);
+    print "  PID $pid $server_game{$pid} server RSS $sz Plrs=".players($pid)." Bet=".bet($pid)." Rules=".rules($pid)."\n";
+}

@@ -567,6 +567,15 @@ def d
 }
 
 #
+# ok() - Check if the client has card data and show error if not.
+#
+def ok
+{
+  if(length(sets())==0)
+    Msg("{red}You need to download game repository for full functionality.");
+}
+
+#
 # CheckInitialVariablesOrQuit(v) - Quit with an error message if variable
 #   v is not defined.
 #
@@ -5639,7 +5648,8 @@ def OfflineKeyControlKeyD
 #
 def ChatKeyControlKeyI
 {
-  ImportDeckMenu();
+  if(ok())
+    ImportDeckMenu();
 }
 
 #

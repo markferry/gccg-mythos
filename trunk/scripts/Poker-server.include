@@ -1,0 +1,28 @@
+#
+#  Poker server
+#  ------------
+
+screen.width=1024;
+screen.height=768;
+port=32000;
+meta.port=29102;
+
+#
+# GAME SPECIFIC FUNCTIONS
+# =======================
+
+#
+# SetUpPlayer(p) - Create necessary strucrures for player 'p'.
+#
+def SetUpPlayer
+{
+  CreateDeck(ARG,"deck",40,160);
+}
+
+#
+# InitialScore(p) - Return a structure representing initial score for a player 'p'.
+#
+def InitialScore
+{
+  return("");
+}

@@ -1,0 +1,14 @@
+#
+# DECK RULES
+# ==========
+
+deck_rules=(,);
+server_description="Poker";
+deck_rules{"Poker"}=(,);
+deck_rules{"Poker"}{"deck"}=(
+  ("RuleDeckMinimum",52),
+  ("RuleDeckMaximum",52),
+  ("RuleLimitEachByExpression",(0,"set_of(#)!=\"D\" || Attr(\"rank\",#)==\"Any\"")),
+  ("RuleCardLimitGeneral",1),
+  ("RulePass",NULL),
+);

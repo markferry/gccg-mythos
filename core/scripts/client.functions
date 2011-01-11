@@ -5669,7 +5669,7 @@ def OfflineKeyControlKeyI
 #
 def ChatKeyControlKeyX
 {
-  if(deck.name != NULL && has_entry(deck.name,decks))
+  if(deck.name != NULL && has_entry(deck.name,decks) && ok())
     ExportToFile(decks{deck.name},strreplace(deck.name,".","_"),DEFAULT_EXPORT_FORMAT);
 }
 

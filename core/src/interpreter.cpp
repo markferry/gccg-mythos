@@ -2388,10 +2388,7 @@ Data Table::book_set_entry(const Data& args)
 		
 	int card=L[i][0].Integer();
 	if(card < 0 || card >= Database::cards.Cards())
-	{
-	    Warning("book_set_entry: invalid card number "+ToString(card));
-	    continue;
-	}
+	    continue; // Ignore invalids
 
 	BookEntry& e=book->EntryOf(card);
 	need_refresh |= book->CardVisible(card);
@@ -2448,11 +2445,8 @@ Data Table::book_set_deck(const Data& args)
 	{
 	    c=L[i].Integer();
 	    if(c < 0 || c >=Database::cards.Cards())
-	    {
-		cerr << "Warning: book_set_deck: invalid card number "+ToString(c) << endl;
-		cerr << "         Maybe you should update your client." << endl;
-		continue;
-	    }
+		continue; // Ignore invalid card number.
+
 	    book->EntryOf(c).ondeck++;
 	    n++;
 	}
@@ -2862,11 +2856,7 @@ Data Table::listbox_set_deck(const Data& args)
 
 	    c=K[j].Integer();
 	    if(c < 0 || c >= Database::cards.Cards())
-	    {
-		cerr << "Warning: listbox_set_deck: invalid card number "+ToString(c) << endl;
-		cerr << "         Maybe you should update your client." << endl;
-		continue;
-	    }
+		continue; // Ignore invalid card number.
 			
 	    cardname=Database::cards.CanonicalName(c);
 	    total_count[cardname]++;

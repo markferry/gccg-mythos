@@ -5,8 +5,8 @@ v0.9.7
 
 [ ] BUG: dived by zero error crashes
 [ ] BUG: In multiplayer games player standing on right side of table may have items auto-placed outside of right margin, even without a (("OffscreenEnabled","yes"),),
-[x] Added mofo's small repo to installed.xml
-[x] fixed function that places avatars on tables (now tables image height can be changed)
+[X] Added mofo's small repo to installed.xml
+[X] fixed function that places avatars on tables (now tables image height can be changed)
 [ ] Check if gccg_package diff works 
 [ ] Move ChangeLog to core.
 [ ] Move docs out of trunk.
@@ -54,7 +54,8 @@ v0.9.7
 [ ] Add phone number (similar to email) setting. Maybe some other optional contact methods as well.
 [X] Check that lc() and uc() doesn't touch {SYM}. Verify with /select .. has.
 [ ] Inform opponent about card number what he is moving when setting aside.
-[x] Fix AvatarRecalcTable() so it could handle avatar placement on table image of different height
+[X] Fix AvatarRecalcTable() so it could handle avatar placement on table image of different height
+[ ] Check sets and card counts announced by server and give warning if not matching.
 
 v0.9.8
 [ ] Try 'scons' based building.

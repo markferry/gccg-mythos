@@ -1,0 +1,719 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ccg-setinfo SYSTEM "../gccg-set.dtd">
+<ccg-setinfo name="Return of the Shadow" dir="ReturnShadow" abbrev="ROTS" game="Middle-earth">
+  <cards>
+    
+		<card name="A Blazing Fire and a Mug of Beer" graphics="A Blazing Fire and a Mug of Beer.jpg" text="Unique. Playable on Barliman Butterbur during the site phase at Bree. t+1 to his body. Tap Barliman Butterburduring your organization phase to bring a Marvels Told, Glamour of Surpassing Excellence or Memories Recalled from your sideboard or discard pile to your play deck (reshuffle). Discard this card if Barliman Butterbur is not at Bree or Bree becomes a Haven [H].">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="prowess" value="-"/>
+			 <attr key="body" value="+1"/>
+			 <attr key="mp" value="1"/>
+		</card>
+		<card name="A Thing of Surpassing Potency" graphics="A Thing of Surpassing Potency.jpg" text="Playable if The One Ring is in play and borne by a non-Hobbit character with a mind greater than 4. All bonusses from other special items and rings in play are modified by -1 (to a minimum of 1). Additionally, all CC by other ringbearers are modified by -1, and any manifestation of Narya, Nenya or Vilya cannot be used.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="A Weapon in the Right Hands" graphics="A Weapon in the Right Hands.jpg" text="Unique. Playable on The One Ring. You may take this card from your play deck (shuffle) when The One Ring comes into play. Bearer may make a CC to cancel the effects of Rolled Down to the SeaC. Additionally the company has its hazard limit increased by +1 to a minimum of 3. Discard if The One Ring leaves active play.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Aden Scarlet's Medical Library" graphics="Aden Scarlets Medical Library2.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{F}"/>
+			 <attr key="site_path" value="{s}{w}{f}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="3"/>
+			 <attr key="region" value="The Shire"/>
+			 <attr key="haven" value="Carn Dûm"/>
+			 <attr key="playable" value="Information, Items (minor*) *—Secret Book, Records Unread or Thror's Map only-"/>
+			 <attr key="auto_attack" value="(1st) Hobbits — 3 strikes with 5 prowess; (2nd) Dúnedain — 2 strikes with 10 prowess."/>
+			 <attr key="special" value="all Information resources in play by hero players are worth 1 less mp."/>
+			 <attr key="keyword" value="Hobbit-hold"/>
+		</card>
+		<card name="Aden Scarlet's Medical Library" graphics="Aden Scarlets Medical Library.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{F}"/>
+			 <attr key="site_path" value="{w}{w}{f}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="The Shire"/>
+			 <attr key="haven" value="Rivendell"/>
+			 <attr key="playable" value="Information"/>
+			 <attr key="auto_attack" value="Hobbits — 3 strikes with 5 prowess (detainment)"/>
+			 <attr key="special" value="Tap a Hobbit to take Mathom Lore from your discard pile into hand; Mathom Lore may be played here as if at Bag End."/>
+			 <attr key="keyword" value="Hobbit-hold"/>
+		</card>
+		<card name="Amon Lhaw" graphics="Amon Lhaw2.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{d}{s}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="1"/>
+			 <attr key="region" value="Dagorlad"/>
+			 <attr key="haven" value="Dol Guldur"/>
+			 <attr key="playable" value="Information"/>
+			 <attr key="auto_attack" value="Opponent may play as automatic-attack 1 non-unique hazard creature with an asterix (*) from his hand, normally keyed to Border-hold [B] or Rohan."/>
+			 <attr key="special" value="When leaving this site a company may move as if Dagorlad and Rohan where adjacent."/>
+		</card>
+		<card name="Amon Lhaw" graphics="Amon Lhaw.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{w}{s}{s}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Dagorlad"/>
+			 <attr key="haven" value="Lórien"/>
+			 <attr key="playable" value="Information"/>
+			 <attr key="auto_attack" value="Opponent may play as automatic-attack 1 non-unique hazard creature normally keyed to Shadow-hold [S]."/>
+			 <attr key="special" value="When leaving this site a company may move as if Dagorlad and Rohan were adjacent."/>
+		</card>
+		<card name="Asfaloth" graphics="Asfaloth.jpg" text="Unique. Horse. Playable at any non-Haven [H] site in Rhudaur or Cardolan. Characters with home site Rivendell may play Asfaloth at a tapped site. tap: cancel a Nazgûl attack, or a strike from a non-automatic attack. If controller of Asfaloth is the only character in the company, he may move 3 additional non-Coastal Sea [c] regions when moving to a site where another company is present and tap: give +1 to all of his corruption checks this turn.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="class" value="Ranger Ally"/>
+			 <attr key="prowess" value="2/8"/>
+			 <attr key="mind" value="2"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="keyword" value="Horse"/>
+		</card>
+		<card name="Backpack" graphics="Backpack.jpg" text="taTap bearer and discard Backpack to replace it withany non-unique, non-hoard minor item from your discard pile or sideboard. If bearer is Sam Gamgee, you may take 2 minor items (no Backpack) instead. Cannot be duplicated on a given bearer.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Minor Item"/>
+			 <attr key="cp" value="1"/>
+		</card>
+		<card name="Beer from the East-farthing" graphics="Beer from the Eastfarthing.jpg" text="Food item. Playable only from sideboard on a Hobbit at a site in The Shire, if his company is forced to do nothing duringthe site phase (this card overrides that effect); or at any site instead if you discard a Backpack from the Hobbit. Hobbit need not tap to play this item and it does not tap the site. Discard this item to allow the company to undertake an action (e.g. make an influence attempt) and play non-mp resource cards during the site phase.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Special Item"/>
+			 <attr key="cp" value="1"/>
+			 <attr key="keyword" value="Food item"/>
+		</card>
+		<card name="Black Riders" graphics="Black Riders.jpg" text="Playable if Doors of Night is in play. Nazgûl creatures may be played against hero companies keyed to Border-land [b], Wilderness [w], and Shadow-land [s], and to non-Haven [H] sites in these regions. Any Nazgûl attacking in this way is detainment, unless a character in the defending company bears a ring special item. Discard when Doors of Night leaves play. Cannot be duplicated.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Bob" graphics="Bob.jpg" text="Unique. Hobbit. Playable at Bree. Also playable at any site in Arthedain or The Shire if you discard (for no effect) Memories Recalled. A company with Barliman Butterbur may play Bob at a tapped site. tap: fullfill the requirement of discarding Lost Knowledge for a card played with/on his company.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Scout Ally"/>
+			 <attr key="prowess" value="1/8"/>
+			 <attr key="mind" value="2"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="keyword" value="Hobbit"/>
+		</card>
+		<card name="Brandy Hall" graphics="Brandy Hall2.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{F}"/>
+			 <attr key="site_path" value="{s}{w}{w}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="3"/>
+			 <attr key="region" value="Cardolan"/>
+			 <attr key="haven" value="Carn Dûm"/>
+			 <attr key="playable" value="Items (minor, gold ring*)"/>
+			 <attr key="auto_attack" value="(1st) Hobbits — 3 strikes with 6 prowess (2nd) Dúnedain — 3 strikes with 10 prowess"/>
+			 <attr key="special" value="Port on Baranduin. *You may play an additional gold ring item the same turn To Satisfy the Questioner is played at this site."/>
+			 <attr key="keyword" value="Hobbit-hold"/>
+			 <attr key="keyword" value="Port on Baranduin"/>
+		</card>
+		<card name="Brandy Hall" graphics="Brandy Hall.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{F}"/>
+			 <attr key="site_path" value="{s}{w}{w}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="1"/>
+			 <attr key="region" value="Cardolan"/>
+			 <attr key="haven" value="Rivendell"/>
+			 <attr key="playable" value="Items (minor)"/>
+			 <attr key="auto_attack" value="Hobbits — 3 strikes with 6 prowess (detainment against hero companies); tMerry may tap to cancel this attack."/>
+			 <attr key="special" value="Port on Baranduin. Hobbits faction and any Hobbit character is playable at this site. Undead creatures keyable to Wilderness [w] may be played at this site; any Hobbit receives +4 prowess against a strike from such an attack."/>
+			 <attr key="keyword" value="Hobbit-hold"/>
+			 <attr key="keyword" value="Port on Baranduin"/>
+		</card>
+		<card name="Broken Heirlooms" graphics="Broken Heirlooms.jpg" text="All resource effects that would modify the mp valueof an item, ally or faction to be worth more than their normal mp value (as listed on their card) are canceled. Cannot be duplicated.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Capricious Spirit" graphics="Capricious Spirit.jpg" text="Playable on a maia or spawn ally. The controlling character must make an influence check against the ally. Make a roll and add the controlling character’s unused EI; if the result is lower than the ally’s mind +6, discard the ally.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="Council of Elrond" graphics="Council of Elrond.jpg" text="Unique. Playable if you have Elrond and any manifestation of a wizard in play at Rivendell. Characters cannot leave Rivendell while this card is in play. Any diplomat or sage at Rivendell can tap to discard one non- unique, non-corruption, non-environment hazard in play on any company; afterwards the character makes a CC.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Long-event"/>
+		</card>
+		<card name="Courtesy Lessened of Late" graphics="Courtesy Lessened of Late.jpg" text="Playable only on-guard. Reveal this card to target and cancel any card or effect that would allow opponent to bring in a character with the company during the site phase.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="Deeds of Lonely Daring" graphics="Deeds of Lonely Daring.jpg" text="Playable during the organization phase on 1 of your grey agent characters in play: turn him face down, he now is an agent. Discard any allies he controls and place him at another site in the same or an adjacent region as his current site (resulting in legal movement, otherwise this card cannot be played).">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Do Not Use It Again" graphics="Do Not Use It Again.jpg" text="Playable during the organization phase on an item borne by a character in a company of 3 or more characters at a Haven [H]. Item is “concealed.” While concealed, item is worth half its mp value (round down), gives 0 CP, and cannot be used. Concealed items cannot not be discarded or affected by hazards or resources. Discard this card if company size is below 3, during any next organization phase if you so choose, or if bearer becomes wounded in CvCC.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Eagle-watch" graphics="Eaglewatch.jpg" text="Unique. Playable at Isildur’s Tomb or Daeron’s Pool if the influence check is greater than 10. Standard Modifications: if an Eagle ally, Gandalf or Radagast is in the company (+3) (apply only once). May not be played by an overt company. If you are a Wizard or Elf-lord, you may play Spying out the Land as if a spell.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="class" value="Animal Faction"/>
+			 <attr key="mp" value="2"/>
+		</card>
+		<card name="Estel" graphics="Estel.jpg" text="Unique. Playable on Strider at a Haven [H]. +1 to his CC.tap: cancel an effect in the same chain-of- effects that required an agent at his site to tap during his site phase.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="cp" value="+1"/>
+		</card>
+		<card name="Fate let our Ways meet" graphics="Fate let our Ways meet.jpg" text="This card is played in lieu of a minor item with a starting company at a Haven [H]. The company may play an ally with mind 2 or less with the company; place this card with the ally, which is never worth any mp. Discard this card if associated ally leaves play. Alternatively if starting at a non-Haven [H] you may play with any 1 character with the company (or 2 Hobbits), which does not have the same race or homesite as any of the other starting characters; otherwise discard this card.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="mp" value="(-1)"/>
+		</card>
+		<card name="Fatty Bolger" graphics="Fatty Bolger2.jpg" text="Unique. Unless he is among the starting characters, he may only be brought into play at his home site. All his CC are modified by +1. tap: cancel a strike against another hobbit in his company.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="1"/>
+			 <attr key="body" value="8"/>
+			 <attr key="mind" value="3"/>
+			 <attr key="influence" value="0"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="cp" value="+1"/>
+			 <attr key="home_site" value="Bag End"/>
+			 <attr key="skills" value="Scout"/>
+			 <attr key="race" value="Hobbit"/>
+		</card>
+		<card name="Fatty Lumpkin" graphics="Fatty Lumpkin.jpg" text="Unique. Horse. Only playable at Tom’s House on the controller of Tom Bombadil or Goldberry (even if the site is tapped). tap: cancel any hazard effect that would discard an ally, or to return an ally that has been discarded this turn to your hand from discard pile.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Ally"/>
+			 <attr key="prowess" value="1/8"/>
+			 <attr key="mind" value="2"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="keyword" value="Horse"/>
+		</card>
+		<card name="Flight Unmarked" graphics="Flight Unmarked.jpg" text="Playable during the organization phase on a company, if you tap a ranger. You may (attempt to) move this turn to an Under-deeps site with a surface site in the same or adjacent region as your current site (or vice versa). You are considered to use both region and Under-deeps movement. Alternatively, you may move to a Hidden Site (without further requirements).">
+			 <attr key="type" value="Dual Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="Focussed Staff" graphics="Focussed Staff.jpg" text="Ritual. Playable on a Wizard’s Staff during the site phase at a site where Information is playable. taTap the Wizard and the site. +1 to all CC required by rituals and light enchantments. tap: give +1 to all rolls required for bearer’s company to move to adjacent Under-deeps sites. tap: give -2 prowess to an Undead attack against bearer’s company. Bearer makes a CC when this card becomes tapped. Cannot be duplicated by a given player.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="cp" value="(+1)"/>
+			 <attr key="keyword" value="Ritual"/>
+			 <attr key="keyword" value="Information"/>
+		</card>
+		<card name="Foe Beyond Any of You" graphics="Foe Beyond Any of You.jpg" text="Playable on an attack by a unique hazard creature with a prowess of 13 or more. All strikes must be assigned to the highest prowess character in the company (including all modifications; defender’s choice if equal), regardless of his status or any card effect. Each excess strike gives a -1 modification to his prowess; Pierced by Many Wounds cannot be played on the attack.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="Golden Chain" graphics="Golden Chain.jpg" text="Playable at any Haven [H] on the bearer of The One Ring, regardless of his status. Place this card with The One Ring anddiscard it when that item leaves play for any reason. The One Ring gives 1 less mp and 1 less CP. Bearer may opt to use its bonus to prowess, body and EI, but must make a CC if using it (e.g. before facing a strike for prowess/body, before making an influence attempt, and/or during organization phase for controlling a characterI). This item gives no CP.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Special Item"/>
+			 <attr key="cp" value="0"/>
+		</card>
+		<card name="Green Leaves and Lilies White" graphics="Green Leaves and Lilies White.jpg" text="Unique. Playable on Tom Bombadil. If in the company of Goldberry, Tom Bombadil is not discarded as per his card text. Discard this card if he is not in the company of Goldberry or your Wizard or Elf-lord.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Grey Pilgrim" graphics="Grey Pilgrim.jpg" text="Playable on Gandalf during your organization phase. If his company contains no other characters or allies, he may move up to 5 regions, his hazard limit is reduced by 1, and River or Enchanted Stream cannot be played against him.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="Grip! Fang! Wolf!" graphics="Grip Fang Wolf.jpg" text="Playable on a Noble Hound, when his company is facing a creature attack. Make a roll and add Noble Hound’s prowess; if the result is greater than the prowess of the hazard creature that your company is facing, put it in your mp (all of its attacks are defeated). Otherwise, remove Noble Hound from the game.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="Hands of the Weak" graphics="Hands of the Weak.jpg" text="All hero characters with mind less than 6 and normal prowess less than 4 gain +1 prowess and +1 EI Each avatar and hero character with mind greater than 7 must make a roll at the end of their organization phase. If the result is less than 5, that character is tapped. Discard when any play deck is exhausted. Cannot be duplicated.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Helm Clove Asunder" graphics="Helm Clove Asunder.jpg" text="Playable after a successful strike by 1 of your characters in CvCC. Make a roll for a battle-gear item borne by the wounded character, modified by +1 if your character bears a weapon (+2 if the weapon is unique). If the result is greater than 9, discard opponent’s item. May be played during your opponent’s turn.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="His Own Master" graphics="His Own Master.jpg" text="No ally may be played at a tapped site. Unless Doors of Night is in play, no ally may be played at a Haven [H]. Discard if any play deck is exhausted.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="I Pass the Test" graphics="I Pass the Test.jpg" text="Playable on The One Ring, if the bearer is at a Haven [H]. Rotate this card 90° each time a Wizard or a character with a mind greater than 6 at the same site as the bearer of The One Ring (other than the bearer) passes a CC. This may only be done once per turn, and once per game for each given character. This card gives 1 mp for each time rotated (to a maximum of 4). Cannot be duplicated by a given player.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="mp" value="(*)"/>
+		</card>
+		<card name="It Is My Own" graphics="It Is My Own.jpg" text="No item can be stored. Any character attempting to store a non-item card must make the required CC at -2.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Long-event"/>
+		</card>
+		<card name="Keeping of Good Faith" graphics="Keeping of Good Faith.jpg" text="Playable on a hazard creature with an asterix (*) with 1 strike for each of its attacks, attacking a hero company. All attacks are canceled and the creature becomes an ally under the control of any character in the company that now taps (otherwise discard this card). It has a mind of 1, prowess equal to its normal prowess minus 7 (to a minimum of 0), and a body as listed on its card (8 if none is listed). The ally is worth ally mp equal to the mp value as listed on its card.Alternatively, may be played on a detainment attack against a hero company: the attack is canceled.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="prowess" value="-7/8"/>
+			 <attr key="mind" value="1"/>
+			 <attr key="mp" value="(*)"/>
+		</card>
+		<card name="Kheled-zâram " graphics="Kheledzaram.jpg" text="Playable on a character at Dimrill Dale, if Doors of Night is not in play. When you play this card, heal and/or untap the character, or untap the site: you may take an Information resource from your discard pile to hand. Character makes a CC at -2 (-3 if a Dwarf). All automatic-attacks at Dimrill Dale receive +1 to prowess and strikes. Next time character would untap, discard this card instead. Cannot be duplicated by a given player.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Labyrintine Libraries" graphics="Labyrintine Libraries.jpg" text="Any company that wants to play a Lost Knowledge card or fullfil the requirement of Lost Knowledge being discarded must tap a sage in addition to any other requirements. Discard this card when any play deck is exhausted. Cannot be duplicated.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Light and Flame" graphics="Light and Flame.jpg" text="Spell. -2 prowess to all Ringwraith and Dragon-characters at the site for the rest of the turn. May also be played inresponse to a card played by a Ringwraith or Dragon-character at your site during the site phase: his company must immediately engage in CvCC with your company. Additionally, any Ringwraith must also be taken to hand on a body check result of 6 or 9 (unless killed by the roll). Wizard makes a CC at -3.">
+			 <attr key="magic" value="Spell"/>
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="Local Hospitality" graphics="Local Hospitality.jpg" text="Playable on a covert company containing a character whose home site is the same as the company’s current site. Heal (from wounded to untapped) or untap a character in the company whose home site is not the company’s current site.">
+			 <attr key="type" value="Dual Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="Long wailing Cry" graphics="Long wailing Cry.jpg" text="Playable on a hero company that has just faced a Nazgûl attack. Each character in the company whose mind value is lower than the number of Nazgûl permanent events in play, is tapped.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="Lore of the Rings" graphics="Lore of the Rings.jpg" text="Lore. Place this card on your sage avatar when in play. He may tap to test a gold ring in his company; afterwards he makes a CC. Discard a Lost Knowledge card from the company to place Wisdom to Wield with this card from hand or discard pile: it affects your avatar and is not discarded (unless this card is discarded).">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="sp" value="1"/>
+			 <attr key="keyword" value="Lore"/>
+		</card>
+		<card name="Many Burdens" graphics="Many Burdens.jpg" text="Unique. Playable on an avatar, if your opponent has more than 6 characters or more than 2 companies in play. Tap the avatar if untapped. Next time he would untap, remove this card from the game instead.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Many Leagues" graphics="Many Leagues.jpg" text="Playable at the end of the organization phase on your Elf-lordor Wizard (except Saruman), if at a non-Under-deeps Shadow-hold [S] or Dark-hold [D], or at Isengard. You may reveal as site card any Haven [H] or Free- hold [F], if his company size is equal to or smaller than the number of following cards in the company (allies without flying ability count as characters): Gwaihir, Meneldor, Winged Change Master, The Windlord Found Me. You are considered moving only through the region of the starting site. Wizard or Elf-lord makes a CC at -2.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="Memories of Ages Past" graphics="Memories of Ages Past.jpg" text="Playable on Gollum or Stinker. He is considered a Hobbitfor all purposes. +2 to your riddling rolls. Make a CC at -2 during your untap phase. Tap Gollum or Stinker to take a gold ring item playable at his site, or a manifestation of an item controlled by an opponent at his site, from your discard pile into hand.">
+			 <attr key="type" value="Dual Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Meneldor" graphics="Meneldor.jpg" text="Unique. Eagle. Winged. Wizard or Elf-lord only (except Saruman). Playable at Eagle’s Eyrie, or at the (tapped) site where you have played The Windlord Found Me this turn. Not playable by an overt company. The Windlord Found Me may be stored at any Free-hold [F]: you may play any character from your discard pile or play deck (as if Wizard at a Haven [H]). Discard Meneldor when moving to an Under-deeps site or a Dungeon.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="class" value="Warrior Ally"/>
+			 <attr key="prowess" value="5/7"/>
+			 <attr key="mind" value="3"/>
+			 <attr key="mp" value="2"/>
+			 <attr key="keyword" value="Eagle"/>
+			 <attr key="keyword" value="Winged"/>
+		</card>
+		<card name="Michel Delving" graphics="Michel Delving.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{F}"/>
+			 <attr key="site_path" value="{w}{w}{f}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="The Shire"/>
+			 <attr key="haven" value="Rivendell"/>
+			 <attr key="special" value="if successfull, place this site with Hobbitsinstead of discarding it (or returning it to the site deck), it is worth 2 mp."/>
+			 <attr key="keyword" value="Hobbit-hold"/>
+		</card>
+		<card name="Michel Delving" graphics="Michel Delving2.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{F}"/>
+			 <attr key="site_path" value="{s}{w}{f}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="3"/>
+			 <attr key="region" value="The Shire"/>
+			 <attr key="haven" value="Carn Dûm"/>
+			 <attr key="playable" value="Items (minor, major*) *—hero item only—"/>
+			 <attr key="auto_attack" value="(1st) Hobbits — 7 strikes with 4 prowess; (2nd) Elves — 3 strikes with 9 prowess."/>
+			 <attr key="special" value="all resources and characters only playable or storable at sites in The Shire are worth 1 less mp (to a minimum of 1)."/>
+			 <attr key="keyword" value="Hobbit-hold"/>
+		</card>
+		<card name="Mr. Underhill" graphics="Mr Underhill.jpg" text="Unique. Manifestation of Frodo. Unless he is among the starting characters, he may only be brought into play at one of his home sites. You may replace Mr. Underhill at any time with Frodo from play deck, discard pile, or sideboard; all non follower cards controlled by Mr. Underhill are transferred to Frodo. tap: during end-of-turn phase to take Halfling Stealth from discard pile to hand. Discard if he moves to a site not in The Shire or its adjacent regions. .">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="prowess" value="1/9"/>
+			 <attr key="mind" value="4"/>
+			 <attr key="influence" value="0"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="cp" value="+3"/>
+			 <attr key="home_site" value="Bree, any site in The Shire"/>
+			 <attr key="skills" value="Scout"/>
+			 <attr key="race" value="Hobbit"/>
+		</card>
+		<card name="Much-trodden Paths" graphics="Muchtrodden Paths.jpg" text="Unique. When the new or current site of a company would be tapped by a hazard played by another player, a ranger in that company may tap to untap that site again (discard this card afterwards). When a company would be sent back to its site of origin by a hazard played by another player, a ranger in that company may tap to negate all effects of that hazard (discard this card afterwards).">
+			 <attr key="type" value="Dual Resource"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="New Best Friend" graphics="New Best Friend.jpg" text="Playable on a Haven [H] or Free-hold [F]. Characters at this site may transfer the control of allies under their control to other characters, of either the same or higher mind, or to an avatar, in their company. Afterwards tap the ally if untapped. Discard this card when site is discarded or returned to the location deck. Cannot be duplicated on a given site.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="No Memory of This Place" graphics="No Memory of This Place.jpg" text="Cancels the effect of Secret Entrance and Forewarned is Forearmed. Additionally, each company at an Under-deeps site intending to move must make an Under-deeps movement roll for each adjacent site during the organization phase. This is done before a new site is selected and instead of during movement/hazard phase. Such roll is modified by -3, but if successful the site may be taken from location deck or discard pile.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="No Place for a Pony" graphics="No Place for a Pony.jpg" text="Playable on a horse ally. Discard the ally if its company enters a Shadow-hold [S] or Dark-hold [D] this turn, or moves to an Under-deeps site or Dungeon. This card cannot be played on guard.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="Nob" graphics="Nob.jpg" text="Unique. He may not be among the starting characters and he may only be brought into play at his home site. May be controlled by Barliman Butterbur or a Hobbit costing no direct influence.tap: tap a face-up agent at his current or new site.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="prowess" value="0/8"/>
+			 <attr key="mind" value="2"/>
+			 <attr key="influence" value="0"/>
+			 <attr key="cp" value="+1"/>
+			 <attr key="home_site" value="Bree"/>
+			 <attr key="skills" value="Scout"/>
+			 <attr key="race" value="Hobbit"/>
+		</card>
+		<card name="Rangers at Sarn Ford" graphics="Rangers at Sarn Ford.jpg" text="Dúnedain. 5 strikes. Only playable against minion companies. May be played keyed to Arthedain, Cardolan or The Shire. +2 prowess against Ringwraiths.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Creature"/>
+			 <attr key="prowess" value="10"/>
+			 <attr key="body" value="8"/>
+			 <attr key="mp" value="2*"/>
+			 <attr key="strikes" value="5"/>
+			 <attr key="subclass" value="Dúnedain"/>
+		</card>
+		<card name="Reunion" graphics="Reunion.jpg" text="Playable on a Haven [H] or Free-hold [F]. All characters at the site receive +2 to their CC when transferring non-ring items between characters of the same race or characters with the same home site. Additionally, all characters at the site may transfer items during their end-of-turn phase. Discard this card if the site leaves active play or if a CC forced by transferring items at this site fails.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Ruddy Varmint" graphics="Ruddy Varmint.jpg" text="Unique. Animal. Playable at any tapped or untapped Ruins &amp; Lairs [R] in The Shire or its adjacent regions. +1 to trickery, burglary, flattery or riddling attempts made by a character in his company. tap: cancel a strike against himself from a non- automatic-attack.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Ally"/>
+			 <attr key="prowess" value="1/8"/>
+			 <attr key="mind" value="1"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="keyword" value="Animal"/>
+		</card>
+		<card name="Sackville" graphics="Sackville.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{F}"/>
+			 <attr key="site_path" value="{w}{w}{f}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="The Shire"/>
+			 <attr key="haven" value="Rivendell"/>
+			 <attr key="special" value="Hobbits faction and any ally playable at Bag End are playable at this site. Place this card in your mp pile instead of discarding it: all your rolls for Early Harvest are modified by +2."/>
+			 <attr key="keyword" value="Hobbit-hold"/>
+		</card>
+		<card name="Sackville" graphics="Sackville2.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{F}"/>
+			 <attr key="site_path" value="{s}{w}{f}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="3"/>
+			 <attr key="region" value="The Shire"/>
+			 <attr key="haven" value="Carn Dûm"/>
+			 <attr key="playable" value="Items (minor)"/>
+			 <attr key="auto_attack" value="(1st) Hobbits — 5 strikes with 5 prowess; (2nd) Dúnedain — 3 strikes with 10 prowess."/>
+			 <attr key="special" value="play a food minor item from sideboard with a company at Isengard or a site in The Shire."/>
+			 <attr key="keyword" value="Hobbit-hold"/>
+		</card>
+		<card name="Say Friend and Enter" graphics="Say Friend and Enter.jpg" text="Ritual. Playable on a sage during the site phase, before facing any automatic-attacks. Tap the sage. Any ongoing hazard effect that causes the company to do nothing during the site phase is now canceled.">
+			 <attr key="magic" value="Ritual"/>
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="Second Breakfast" graphics="Second Breakfast.jpg" text="Tap all Hobbits in the company. At the end of the movement/hazard phase, if there are any Hobbits in the company, you may take another movement/hazard phase but you may only move up to 3 regions. Alternatively, playable as a hazard short-event: tap a Hobbit.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="Seized upon the Bearer" graphics="Seized upon the Bearer.jpg" text="Attacking hazard creatures may assign a strike to any hero bearer of a ring before other strikes are assigned (as normal). If such a strike is assigned to the bearer of The One Ring, the strike receives +2 prowess.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Shire-ale" graphics="Shireale.jpg" text="Playable at any tapped or untapped Border-hold [B] or Free-hold [F] in the Shire, or at Bree. Any Hobbit bearer may discard this item to receive +3 prowess and -2 body till the end of the turn; target Hobbit cannot use Halfling Stealth, Sneakin or Stealth (all Sneakin or Stealth in play on the company are canceled when Shire-ale is used). Any bearer may discard this item to discard either Despair of the Heart or Alone and Unadvised on any character in his company; target character makes a body check modified by -1. Failing the body check wounds, but does not eliminate the character.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Special Item"/>
+			 <attr key="cp" value="1"/>
+			 <attr key="keyword" value="Food item"/>
+		</card>
+		<card name="Some Devilry at Work" graphics="Some Devilry at Work.jpg" text="Playable on a face-up grey agent. The agent must return to any one of his home sites (controlling player’s choice; turn the agent face down if none of his home sites are available, he is considered at his home site).">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="Speak, Friend, and Enter!" graphics="Speak Friend and Enter.jpg" text="Playable on a Shadow-hold [S], Dark-hold [D] or Hidden Site, against a moving hero company. Cannot be played on-guard. Unless the company contains a sage or Hobbit, or you discard a Knowledge or Information card from hand or the company, the company must do nothing during the site phase. Additionally, cancels the effects of Secret Entrance.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Taint of the Wilds" graphics="Taint of the Wilds.jpg" text="Corruption. Playable on a non-Wizard ranger. Target character receives 1 CP and makes a CC when a resource card requiring ranger skill is played on any member of his company. During the organization phase at a haven [H] or a site that acts as a Haven for healing purposes, the character may tap to attempt to remove this card and make a roll: if the result is greater than 7, discard this card. Cannot be duplicated on a given character.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="keyword" value="Corruption"/>
+		</card>
+		<card name="Taurnil" graphics="Taurnil.jpg" text="Unique. Nando. -2 prowess against Animals and Awakened Plants, +2 prowess against Orcs.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="3"/>
+			 <attr key="body" value="8"/>
+			 <attr key="mind" value="3"/>
+			 <attr key="influence" value="1"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="home_site" value="Lórien, any Refuge in Mirkwood"/>
+			 <attr key="skills" value="Warrior/Ranger"/>
+			 <attr key="race" value="Elf"/>
+			 <attr key="keyword" value="Nando"/>
+		</card>
+		<card name="Ted Sandyman" graphics="Ted Sandyman.jpg" text="Unique. Agent. He may not be among the starting characters, unless you start the game at Bag End. May only be brought into play at his home site (regardless of any other card effects). Unless you are a Dwarf-lord or Gandalf, Mischief in a Mean Way is playable at his current site in The Shire. Agent only: +2 EI against Hobbits.">
+			 <attr key="type" value="Minion Character"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="1/9"/>
+			 <attr key="mind" value="3"/>
+			 <attr key="influence" value="1"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="home_site" value="Bag End, Bywater"/>
+			 <attr key="skills" value="Scout/Diplomat"/>
+			 <attr key="race" value="Hobbit"/>
+		</card>
+		<card name="The Bullroarer's Club" graphics="The Bullroarers Club.jpg" text="Unique. Weapon. Playable at Michel Delving. Also playable at any site in The Shire on The Thain or a character with Mathom Lore. Hobbit Warrior only: +2 prowess and +2 EI against Hobbits.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Special Item"/>
+			 <attr key="prowess" value="+1(2)"/>
+			 <attr key="body" value="-"/>
+			 <attr key="influence" value="+2"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="cp" value="1"/>
+			 <attr key="keyword" value="Battle-gear"/>
+		</card>
+		<card name="The Great Willow" graphics="The Great Willow.jpg" text="Unique. Playble at The Willow Dingle. +2 prowess against Hobbits. tap: cancel an Awakened Plant hazard creature attack against any 1 of your companies in Eriador. Discard if its company moves outside of Old Forest*.">
+			 <attr key="type" value="Minion Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Sage Ally"/>
+			 <attr key="prowess" value="6/9"/>
+			 <attr key="mind" value="3"/>
+			 <attr key="mp" value="3"/>
+			 <attr key="keyword" value="Ent"/>
+		</card>
+		<card name="The Last Bridge" graphics="The Last Bridge.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{B}"/>
+			 <attr key="site_path" value="{w}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="1"/>
+			 <attr key="region" value="Rhudaur"/>
+			 <attr key="haven" value="Rivendell"/>
+			 <attr key="special" value="Rangers of the North faction is playable at this site."/>
+		</card>
+		<card name="The Last Bridge" graphics="The Last Bridge2.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{B}"/>
+			 <attr key="site_path" value="{s}{w}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="1"/>
+			 <attr key="region" value="Rhudaur"/>
+			 <attr key="haven" value="Carn Dûm"/>
+			 <attr key="playable" value="Information"/>
+			 <attr key="auto_attack" value="Opponent may play as an automatic-attack Ride against the Enemy from his hand or discard pile, and the needed character may also come from his discard pile."/>
+			 <attr key="special" value="The first Information card played here does not tap the site."/>
+		</card>
+		<card name="The Prancing Pony" graphics="The Prancing Pony.jpg" text="Unique. Playable on Bree. Tap a non-overt character during the site phase to make Information or News from the Shire playable at Bree this turn. Any player may tap an agent at Bree and discard this card to make Nazgûl creatures playable at the site (not counting against the hazard limit if a ringbearer is present).Discard this card if Bree leaves active play.">
+			 <attr key="type" value="Dual Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="The Ring's Dominion" graphics="The Rings Dominion.jpg" text="Playable on your Fallen-wizard or Elf-lord, if Spells Born of Discord is in play. Instead of tapping to use a magic ring he bears, he may make a CC and tap the magic ring.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="cp" value="1"/>
+			 <attr key="sp" value="2"/>
+		</card>
+		<card name="The Willow Dingle" graphics="The Willow Dingle.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{w}{w}{w}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="1"/>
+			 <attr key="region" value="Old Forest*"/>
+			 <attr key="haven" value="Rivendell"/>
+			 <attr key="playable" value="Information, Items (minor)"/>
+			 <attr key="auto_attack" value="Awakend Plant — 1 strike with 12 prowess"/>
+			 <attr key="special" value="Contains a hoard. If Here, There or Yonder is played at this site to bring Tom Bombadil into play, it is automatically successfull."/>
+		</card>
+		<card name="The Willow Dingle" graphics="The Willow Dingle2.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{s}{w}{w}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="1"/>
+			 <attr key="region" value="Old Forest*"/>
+			 <attr key="haven" value="Carn Dûm"/>
+			 <attr key="playable" value="Information, Items (minor)"/>
+			 <attr key="auto_attack" value="Awakend Plant — 1 strike with 12 prowess"/>
+			 <attr key="special" value="Contains a hoard. Unless the automatic-attack was canceled this turn,Blackbole may be played at this site, even if tapped."/>
+		</card>
+		<card name="There Is Always Vengeance" graphics="There Is Always Vengeance.jpg" text="Unique. Playable on Aragorn II or Strider, if you are a Wizard but your Wizard is not in play. He receives +1 to mind, EI, prowess, and body. He may tap during your organization phase to shuffle up to 2 cards from your sideboard into your play deck. Aragorn II gives -5 mp if eliminated. Discard this card if your Wizard enters play. You may take this card into hand from your sideboard or discard pile when you play Sacrifice of Form.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="prowess" value="+1/+1"/>
+			 <attr key="mind" value="+1"/>
+			 <attr key="influence" value="+1"/>
+			 <attr key="mp" value="1"/>
+		</card>
+		<card name="There's Queer Folk About" graphics="Theres Queer Folk About.jpg" text="Opponent must reveal to you any agent cards he hasin his hand. If none are available he must reveal his whole hand. If you are Fallen-Saruman, you may also play this card as a hazard.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="Thrice Told Tales" graphics="Thrice Told Tales.jpg" text="Playable on a sage. Bearer is not considered a sage. Discard this card if his company ever moves at least 2 regions in its site path.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Travelled to the Corners of the World" graphics="Travelled to the Corners of the World.jpg" text="Playable if you have in play: at least 1 faction playable at a site in the Northern Waste or Eriador; at least 1 faction playable at a site in Wilderland; at least 1 faction playable at a site in the Sun-lands; and if there is a site in a Coastal Sea [c] region in your discard pile. Place this card in your mp pile. Cannot be duplicated by a given player.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="mp" value="(4)"/>
+		</card>
+		<card name="Troll-shaws" graphics="Trollshaws.jpg" text="Playable on a character at Ettenmoors. If a Hobbit, he gains the sage skill and this card may be stored at Bag End for 1 mp. If a ranger, he may tap to bring Many Turns and Doublings from your discard pile to your play deck. If a sage, he may tap to take Dawn Take You All from discard pile to hand. If a scout, he may tap to make major items playable at Ettenmoors this turn (even hoard items). Cannot be duplicated on a given character.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="mp" value="(1)"/>
+		</card>
+		<card name="True Hearted Man" graphics="True Hearted Man.jpg" text="Unique. Playable on Boromir, if his company faces a creature attack with multiple strikes. He receives +1 prowess against the attack and must face a separate strike sequence for each strike of the attack. If he is unwounded after the attack, place this card with him. tap: during your end-of-turn phase to take Many Foes He Fought from your discard pile to your hand.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="mp" value="1"/>
+		</card>
+		<card name="Tuckburrow" graphics="Tuckburrow2.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{F}"/>
+			 <attr key="site_path" value="{s}{w}{f}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="3"/>
+			 <attr key="region" value="The Shire"/>
+			 <attr key="haven" value="Carn Dûm"/>
+			 <attr key="playable" value="Items (minor, major*) *—battle-gear item only—"/>
+			 <attr key="auto_attack" value="(1st) Hobbits — 6 strikes with 6 prowess;(2nd) Dúnedain — 3 strikes with 10 prowess."/>
+			 <attr key="special" value="all automatic-attacks at sites in The Shire receive -1 prowess and strikes."/>
+			 <attr key="keyword" value="Hobbit-hold"/>
+		</card>
+		<card name="Tuckburrow" graphics="Tuckburrow.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{F}"/>
+			 <attr key="site_path" value="{w}{w}{f}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="The Shire"/>
+			 <attr key="haven" value="Rivendell"/>
+			 <attr key="playable" value="Items (minor)"/>
+			 <attr key="auto_attack" value="Hobbits — each character faces a strike with 6 prowess (detainment). Pippin may tap to cancel this automatic-attack."/>
+			 <attr key="special" value="taTap a Hobbit during site phase to make major items playable at this site this turn."/>
+			 <attr key="keyword" value="Hobbit-hold"/>
+		</card>
+		<card name="Until All Else Is Conquered" graphics="Until All Else Is Conquered.jpg" text="Playable on a Haven [H], if the bearer of The One Ring is there. Any non-minion company at the site faces 3 attacks (cannot be canceled by any effect) at the beginning of the site phase: Orcs — 5 strikes with 8 prowess; Trolls— 3 strikes 10 prowess; Nazgûl — 2 strikes with 13 prowess. Discard The One Ring if any strike against its bearer is successful. If all attacks are defeated, place this card in opponents mp pile. The bearer of The One Ring cannot leave the site while this card is in play. Cannot be duplicated.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="mp" value="3"/>
+		</card>
+		<card name="We Must Join with Him" graphics="We Must Join with Him.jpg" text="Only playable by a minion Dark-player (unless Saruman is your opponent) if you have a company bearing the Palantir of Orthanc at Isengard. Store the palantir. Isengard becomes 1 of your Darkhavens [K] and you can play any number of Uruk-hai characters there. Discard this card when Isengard is discarded or returned to its location deck. Alternatively, playable if you are Fallen-Saruman and have the Palantir of Orthanc in play at Isengard. You may bring any number of Uruk-hai characters into play at Isengard.">
+			 <attr key="type" value="Minion Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+	</cards>
+</ccg-setinfo>

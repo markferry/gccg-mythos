@@ -1,0 +1,1322 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ccg-setinfo SYSTEM "../gccg-set.dtd">
+<ccg-setinfo name="War of the Ring" dir="WarRing" abbrev="WOTR" game="Middle-earth">
+  <cards>
+<card name="Allies in the East and in the South" graphics="Allies in the East and in the South.jpg" text="Playable if you are Alatar, Pallando or a Dúnadan-lord, you have more then 6 P and at least 3 unique factions playable at sites in Horse Plains, Nurn, or Khand in play. Your factions playable at sites in these regions are worth full mp. Influence attempts made by your opponent against such factions are modified by -2. Cannot be duplicated.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="mp" value="2"/>
+			 <attr key="sp" value="2"/>
+		</card>
+		<card name="Anborn of Ithilien" graphics="Anborn of Ithilien.jpg" text="Unique. Manifestation of Anborn. Unless he is among the starting characters, he may only be brought into play at his home site. Anborn costs only 3 points of influence to control when in the company with Faramir, Damrod or Mablung. -1 to his CC if not in the company with one of these characters.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="5"/>
+			 <attr key="body" value="7"/>
+			 <attr key="mind" value="4"/>
+			 <attr key="influence" value="0"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="cp" value="-1"/>
+			 <attr key="home_site" value="Henneth Annûn"/>
+			 <attr key="skills" value="Warrior/Scout"/>
+			 <attr key="race" value="Dúnadan"/>
+		</card>
+		<card name="Ancient Druedain Wisdom" graphics="Ancient Druedain Wisdom.jpg" text="Lore. Playable on a Wose character with a mind of 5 or more, if you discard (for no effect) a Lost Knowledge card from the company. Bearer may tap to make non-unique hoard items playable at Ruins and Lairs [R] with a Pûkel-creature automatic-attack.">
+			 <attr key="type" value="Dual Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="keyword" value="Lore"/>
+		</card>
+		<card name="Angbor" graphics="Angbor.jpg" text="Unique. +1 EI against Man and Dúnadan factions playable at sites in Gondor.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="prowess" value="5"/>
+			 <attr key="body" value="7"/>
+			 <attr key="mind" value="5"/>
+			 <attr key="influence" value="2"/>
+			 <attr key="mp" value="2"/>
+			 <attr key="home_site" value="Calembel"/>
+			 <attr key="skills" value="Warrior/Diplomat"/>
+			 <attr key="race" value="Dúnadan"/>
+		</card>
+		<card name="Banner of Elendil's House" graphics="Banner of Elendils House.jpg" text="Unique. Playable at Rivendell, if you have Arwen and Ring of Barahir in play. Discard if not borne by a Dúnadan. Each Dúnadan in bearer’s company requires 1 less influence to control (to a minimum of 1). May not be played by a Fallen-wizard player.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Special Item"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="cp" value="1"/>
+		</card>
+		<card name="Beacon of Gondor" graphics="Beacon of Gondor.jpg" text="Dunadan-lord specific. Playable during the organization phase on a company using region movement that can legally move to a Free-domain [f] or Border-land [b] in Gondor. This card is used as a site card and 1 of your Lordhavens [H]; designate the region in Gondor (cards drawn: 2/2). Nothing is playable as written on the site card. If 1 of your companies is at this site, all attacks against it are canceled. Discard this card when the site is discarded or returned to its location deck. It cannot be discarded otherwise.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="sp" value="1"/>
+			 <attr key="specific" value="Dúnadan-lord"/>
+		</card>
+		<card name="Beacons Alight!" graphics="Beacons Alight.jpg" text="All sites in Gondor receive an additional automatic-attack: Men — 3 strikes with 8 prowess (detainment against hero characters).">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Long-event"/>
+		</card>
+		<card name="Black Númenóreans" graphics="Black Numenoreans.jpg" text="Manifestation of minion Black Númenóreans. Playable at a Dúnadan-hold Port in the Sun-lands or at Gobel Mírlond, if you discard from hand or from play The White Council or The Black Council if the influence check is greater than 8. Standard Modifications: Dúnedain (+2), each Black Númenóreans you have in play (+2). Cannot be duplicated at a given site.">
+			 <attr key="type" value="Dual Resource"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value="Dúnadan Faction"/>
+			 <attr key="mp" value="2"/>
+		</card>
+		<card name="Blood of Númenor" graphics="Blood of Numenor.jpg" text="Unique. Lord Denethor specific. Playable on Denethor if he has 12 or more P, 2 Dúnadan factions playable at Ports, a Palantír and 5 Dúnadan characters in play. Discard if the above mentioned requirements are not met. +1 to his body. tap: during organization phase to bring a Dúnadan character with a mind less than 3 from discard pile to your hand, or to modify an influence check made by a character in Gondor or by Denethor by +5.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="body" value="+1"/>
+			 <attr key="mp" value="4"/>
+			 <attr key="sp" value="3"/>
+			 <attr key="specific" value="Denethor"/>
+		</card>
+		<card name="Blood-stone Amulet" graphics="Bloodstone Amulet.jpg" text="Jewel. May not be a starting item, unless your starting company includes a Wose character. May only be played after you successfully influence a Wose faction. +1 EI against Wose characters.tap: cancel a strike from a Pûkel-creature attack against bearer’s company.">
+			 <attr key="type" value="Dual Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Minor Item"/>
+			 <attr key="influence" value="+1"/>
+			 <attr key="cp" value="1"/>
+			 <attr key="keyword" value="Jewel"/>
+		</card>
+		<card name="Burned and Chopped-up" graphics="Burned and Choppedup.jpg" text="Playable by a minion company at Minas Tirith. The company faces 3 attacks: Men — 5 strikes with 9 prowess; Men — 4 strikes with10 prowess; Dúnedain — 3 strikes with 12 prowess; afterwards tap a warrior in the company or discard this card. If opponent has The White Tree and/or Sapling of the White Tree in play at Minas Tirith (stored or otherwise), it is discarded and this card is inverted; it may be stored at a Darkhaven [K] for 5 mp. Alternatively, this card may also be played at any site where either The White Tree or Mallorn is in play (all other conditions still apply). Discard the The White Tree and/or Mallorn, if this card is successfully played. Cannot be duplicated on a given site.">
+			 <attr key="type" value="Minion Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="mp" value="2(5)"/>
+		</card>
+		<card name="Bywater" graphics="Bywater.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{F}"/>
+			 <attr key="site_path" value="{w}{w}{f}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="The Shire"/>
+			 <attr key="haven" value="Rivendell"/>
+			 <attr key="special" value="Hobbits faction is playable at this site; each Hobbit at this site bearing a battle-gear item gives +1 to the influence check. When Hobbits is played at this site, any Hobbit with a home site in The Shire may be brought into play at Bywater."/>
+			 <attr key="keyword" value="Hobbit-hold"/>
+		</card>
+		<card name="Bywater" graphics="Bywater2.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{F}"/>
+			 <attr key="site_path" value="{s}{w}{f}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="The Shire"/>
+			 <attr key="haven" value="Carn Dûm"/>
+			 <attr key="playable" value="Information, Items (minor, major*) *—hero item only—"/>
+			 <attr key="auto_attack" value="(1st) Hobbits — 6 strikes with 5 prowess; * (2nd) Dúnedain — 2 strikes with 11 prowess"/>
+			 <attr key="special" value="*If the Hobbit faction is in play at this site, then the 1st auto-matic attack receives + 1 prowess and +1 strikes and cannot be canceled."/>
+			 <attr key="keyword" value="Hobbit-hold"/>
+		</card>
+		<card name="Cair Andros" graphics="Cair Andros.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{B}"/>
+			 <attr key="site_path" value="{w}{b}{f}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="1"/>
+			 <attr key="region" value="Anórien/Ithilien"/>
+			 <attr key="haven" value="Lórien"/>
+			 <attr key="auto_attack" value="Men — 3 strikes at 8 prowess (detainment; the attack is canceled if the company contains a character with a home site in Anórien or Ithilien)."/>
+			 <attr key="special" value="Port on Anduin."/>
+			 <attr key="keyword" value="Port on Anduin"/>
+		</card>
+		<card name="Cair Andros" graphics="Cair Andros2.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{B}"/>
+			 <attr key="site_path" value="{s}{w}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Anórien/Ithilien"/>
+			 <attr key="haven" value="Minas Morgul"/>
+			 <attr key="playable" value="Items (minor*) *—battle-gear items only—"/>
+			 <attr key="auto_attack" value="Men — 3 strikes with 8 prowess (detainment against covert company)"/>
+			 <attr key="special" value="Port on Anduin."/>
+			 <attr key="keyword" value="Port on Anduin"/>
+		</card>
+		<card name="Calembel" graphics="Calembel2.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{B}"/>
+			 <attr key="site_path" value="{s}{w}{f}{f}{b}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Lamedon"/>
+			 <attr key="haven" value="Minas Morgul"/>
+			 <attr key="playable" value="Items (minor)"/>
+			 <attr key="auto_attack" value="Men — each character faces 1 strike with 6 prowess (detainment against covert companies)."/>
+			 <attr key="special" value="Tap a Man or Dúnadan in a covert company to play a minor item from discard pile. This site never taps."/>
+			 <attr key="keyword" value="Man-hold"/>
+		</card>
+		<card name="Calembel" graphics="Calembel.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{B}"/>
+			 <attr key="site_path" value="{w}{b}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="1"/>
+			 <attr key="region" value="Lamedon"/>
+			 <attr key="haven" value="Edhellond"/>
+			 <attr key="auto_attack" value="if you have in play at least 4 Man or Dúnadan factions playable at sites in Gondor, a Man or Dúnadan character at this site may tap to bring Profitable Trade into play from sideboard (as if the factions were of different races)."/>
+			 <attr key="special" value=""/>
+			 <attr key="keyword" value="Man-hold"/>
+		</card>
+		<card name="Captain of the Royal Rangers " graphics="Captain of the Royal Rangers.jpg" text="Unique. Lord Denethor specific. Playable only on Faramir at Minas Tirith (or in your starting company). Faramir becomes a leader. +2 EI against characters with a home site in Gondor. While moving to Henneth Annûn no creatures may be keyed to the site against his company. If Faramir is at Henneth Annûn, all agent attacks against his company are canceled.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="prowess" value="+1/-"/>
+			 <attr key="influence" value="+2"/>
+			 <attr key="sp" value="1"/>
+			 <attr key="specific" value="Denethor"/>
+		</card>
+		<card name="Captain of the Tower Guard" graphics="Captain of the Tower Guard.jpg" text="Unique. Lord Denethor specific. Playable on Boromir at Minas Tirith (or in your starting company). Boromir II becomes a leader. +2 EI against characters with a home site in Gondor. If Denethor is eliminated, all effects associated with Denethor now apply to Boromir II. Attacks against his company keyed to Anórien (by name and type) are detainment.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="influence" value="+2"/>
+			 <attr key="cp" value="+1"/>
+			 <attr key="sp" value="1"/>
+			 <attr key="specific" value="Denethor"/>
+		</card>
+		<card name="Captains of the West" graphics="Captains of the West.jpg" text="Unique. Playable on a manifestation of Aragorn II, Boromir, Faramir or Imrahil at Minas Tirith. Your Man and Dúnadan warrior characters in the company with a mind of 2 or less do not cost influence to control. You may bring any number of these into play during organization phase at Minas Tirith, and there is no limit to your company’s size. Discard this card when there are more than 2 non-Man, non-Dúnadan characters in the company or when you move outside Gondor or Mordor. If the bearer of this card leaves active play, you may transfer this card to one of above mentioned characters in the company.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Cause of the Free Peoples" graphics="Cause of the Free Peoples.jpg" text="Unique. Playable on an untapped diplomat character at the same site as a revealed agent that cannot use any type of magic. Tap the character and make an influence check against the agent, modified by -1 for each revealed agents in play. If the influence check is successful, the agent is discarded. If you have a copy of the agent in your hand, you may play him as an ally worth 1 less mp (to a minimum of 1) under the control of the influencing character. Place this card with the ally.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="mp" value="-1"/>
+		</card>
+		<card name="Challenge" graphics="Challenge.jpg" text="Playable on one of your characters during CvCC, before strikes are asigned. Choose 1 of your opponent characters: both must engage in CvCC as if they were 1 character companies.">
+			 <attr key="type" value="Dual Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="Coastal Signal Tower" graphics="Coastal Signal Tower2.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{w}{w}{w}{c}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="3"/>
+			 <attr key="region" value="Bay of Belfalas"/>
+			 <attr key="haven" value="Geann a-Lisch"/>
+			 <attr key="playable" value="Information*, Items (minor, gold ring)"/>
+			 <attr key="auto_attack" value="Men — 3 strikes with 7 prowess"/>
+			 <attr key="special" value="*only playable if you faced a Man creature this turn. An overt company must tap a scout to move to this site."/>
+		</card>
+		<card name="Coastal Signal Tower" graphics="Coastal Signal Tower.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{w}{c}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Bay of Belfalas"/>
+			 <attr key="haven" value="Edhellond"/>
+			 <attr key="playable" value="Information*, Items (minor, gold ring)"/>
+			 <attr key="auto_attack" value="Men — 3 strikes with 7 prowess"/>
+			 <attr key="special" value="*only playable if you faced a Man creature this turn."/>
+		</card>
+		<card name="Councellors of the North Kingdom" graphics="Councellors of the North Kingdom.jpg" text="Unique. Playable if 2 of the following cards arein play: Master of Buckland, The Thain or The Mayor. Bearers of these cards gain +2 EI against Dúnedain and Dúnadan factions, may use any Palantír they bear, and may tap at any time to take Arthadan Rangers or Rangers at Sarn Ford from discard pile into hand. Any Mischief in a Mean Way in play at sites in The Shire must now be discarded.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="mp" value="1"/>
+		</card>
+		<card name="Cult of the Eye" graphics="Cult of the Eye.jpg" text="Playble only if Doors of Night is in play. All Border-holds [B] and Free-holds [F], at which minion Man and/or Dúnadan faction(s) are in play, have an additional automatic-attack: Men — 2 strikes with 10 prowess (detainment against minion companies). Additionally, all influence attempts by a hero player against factions at these sites are modified by -2.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Long-event"/>
+		</card>
+		<card name="Damrod of Ithilien" graphics="Damrod of Ithilien.jpg" text="Unique. Manifestation of Damrod. Unless he is among the starting characters, he may only be brought into play at his home site. Damrod costs only 3 points of influence to control when in the company with Faramir, Anborn or Mablung. -1 to his CC if not in the company with one of these characters.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="prowess" value="5"/>
+			 <attr key="body" value="7"/>
+			 <attr key="mind" value="4"/>
+			 <attr key="influence" value="0"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="cp" value="-1"/>
+			 <attr key="home_site" value="Henneth Annûn"/>
+			 <attr key="skills" value="Warrior/Ranger"/>
+			 <attr key="race" value="Dúnadan"/>
+		</card>
+		<card name="Death of a Kinsman" graphics="Death of a Kinsman.jpg" text="Unique. Playable after an attack, if a character has been killed by the attack. tTap all other characters in the company.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="Derufin" graphics="Derufin.jpg" text="Unique. If in the same company as Duilin he requires only 2 influence to control.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="3"/>
+			 <attr key="body" value="7"/>
+			 <attr key="mind" value="3"/>
+			 <attr key="influence" value="0"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="home_site" value="Vale of Erech"/>
+			 <attr key="skills" value="Ranger"/>
+			 <attr key="race" value="Dúnadan"/>
+		</card>
+		<card name="Dervorin" graphics="Dervorin.jpg" text="Unique. +1 EI against Dúnedain.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="4"/>
+			 <attr key="body" value="7"/>
+			 <attr key="mind" value="4"/>
+			 <attr key="influence" value="1"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="home_site" value="Calembel"/>
+			 <attr key="skills" value="Warrior/Diplomat"/>
+			 <attr key="race" value="Dúnadan"/>
+		</card>
+		<card name="Devastation" graphics="Devastation.jpg" text="Playable on a site on which Siege or Wyrmsiege was in play at the beginning of the movement/hazard phase. Discard Siege/Wyrmsiege. Any version of the site becomes a Ruins &amp; Lairs [R] and the region containing the site a Wilderness [w]. Replace all automatic-attacks with: Undead — 3 strikes with 7 prowess. Additionally, the site never untaps and is not discarded or returned to the location deck. Discard this card if Rebuild the Town is played on the site or the site becomes a Haven [H]">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Dirwood Spear" graphics="Dirwood Spear.jpg" text="Weapon. +1 prowess against Animals, Orcs, Undead and Wolves. Wose only: +1 EIagainst Wose.">
+			 <attr key="type" value="Dual Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Minor Item"/>
+			 <attr key="prowess" value="(+1"/>
+			 <attr key="body" value="-)"/>
+			 <attr key="influence" value="+1"/>
+			 <attr key="cp" value="1"/>
+		</card>
+		<card name="Duilin" graphics="Duilin.jpg" text="Unique. If in the same company as Derufin he requires only 2 influence to control.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="3"/>
+			 <attr key="body" value="7"/>
+			 <attr key="mind" value="3"/>
+			 <attr key="influence" value="0"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="home_site" value="Vale of Erech"/>
+			 <attr key="skills" value="Scout"/>
+			 <attr key="race" value="Dúnadan"/>
+		</card>
+		<card name="Duinhir" graphics="Duinhir.jpg" text="Unique. +2 EI against Men of Lamedon faction. +3 EI against characters with Vale of Erech as their home site.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="4"/>
+			 <attr key="body" value="6"/>
+			 <attr key="mind" value="4"/>
+			 <attr key="influence" value="1"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="home_site" value="Vale of Erech"/>
+			 <attr key="skills" value="Warrior"/>
+			 <attr key="race" value="Dúnadan"/>
+		</card>
+		<card name="Dúnadan Mariner" graphics="Dunadan Mariner.jpg" text="+1 prowess when moving through a Coastal Sea region [c] or when at a Port or site in a Coastal Sea region.tap: allow his company to use Port movement. Discard Great Ship or Black Sails (for no effect) during the organization phase to allow his company to move 3 extra regions, if moving with Port movement.">
+			 <attr key="type" value="Dual Character"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="prowess" value="3/7"/>
+			 <attr key="mind" value="3"/>
+			 <attr key="influence" value="0"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="home_site" value="Any Dúnadan-hold Port"/>
+			 <attr key="skills" value="Ranger"/>
+			 <attr key="race" value="Dúnadan"/>
+		</card>
+		<card name="Durthang" graphics="Durthang.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{D}"/>
+			 <attr key="site_path" value="{w}{b}{f}{w}{s}{d}{d}"/>
+			 <attr key="draw" value="3"/>
+			 <attr key="draw_opp" value="4"/>
+			 <attr key="region" value="Udûn"/>
+			 <attr key="haven" value="Lórien"/>
+			 <attr key="playable" value="Items (minor, major, greater)"/>
+			 <attr key="auto_attack" value="(1st) Orcs 4 — strikes with 7 prowess(2nd) Wolves — 3 strikes with 8 prowess"/>
+			 <attr key="special" value="Were-wolf can be keyed here regardsless of other cards played. Stolen Knowledge."/>
+			 <attr key="keyword" value="Orc-hold"/>
+		</card>
+		<card name="Durthang" graphics="Durthang2.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{D}"/>
+			 <attr key="site_path" value="{s}{d}{d}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="1"/>
+			 <attr key="region" value="Udûn"/>
+			 <attr key="haven" value="Minas Morgul"/>
+			 <attr key="playable" value="Scara-hai orcs/wolf faction"/>
+			 <attr key="keyword" value="Orc-hold"/>
+		</card>
+		<card name="Elendilmir" graphics="Elendilmir.jpg" text="Unique. Jewel. Playable at Tolfalas, if you discard a Lost Knowledge card from the company; also playable at Isengard, if opponent has a manifestation of Saruman in play and you discard a Stolen Knowledge. +3 EI against Dúnedain and Men with a home site in Gondor. Dúnadan only: tap: give +2 to a CC made by a Dúnadan character in the same company.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Special Item"/>
+			 <attr key="influence" value="+3"/>
+			 <attr key="mp" value="3"/>
+			 <attr key="cp" value="2"/>
+			 <attr key="keyword" value="Jewel"/>
+		</card>
+		<card name="Elessar" graphics="Elessar.jpg" text="Unique. Leader. Manifestation of Aragorn II. +4 EI against Dúnedain and Elves. You may play Return of the King and Army of the Dead as if you were Aragorn II and take both cards from your sideboard into hand when Elessar enters play. May tap to use a palantir he bears.">
+			 <attr key="type" value="Dunadan-lord"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="7/9"/>
+			 <attr key="mind" value="11"/>
+			 <attr key="influence" value="3"/>
+			 <attr key="home_site" value="Annúminas, Minas Tirith,"/>
+			 <attr key="keyword" value="Avatar"/>
+		</card>
+		<card name="End of His Labours" graphics="End of His Labours.jpg" text="Unique. Playable on 1 of your non-avatar characters in active play. May not be played by a Fallen-wizard. Makea roll; add your unused GI, +2 if target character is at a Haven [H] or his home site (apply once), subtract target character’s mind, subtract total number of characters you have in active play. If the modified result is greater than character’s mind, you may place this card together with target character in your mp pile. Target character may not be brought back into active play, may not be influenced by any of your opponents, and may not be the target of any hazard effects.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Engines of Defense" graphics="Engines of Defense.jpg" text="Playable on a Border-hold [B] or Free-hold [F]. Cancels any attacks created by Siege. Additionally, the prowess of automatic-attacks against overt companies at this site is increased by 2. Alternatively, playable as a minion resource on a Shadow-hold [S] or Dark-hold [D]: Tower Raided cannot be played on the site and the prowess of automatic-attacks against hero companies at the site is increased by 2.">
+			 <attr key="type" value="Dual Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Envinyatar, the Renewer" graphics="Envinyatar the Renewer.jpg" text="Unique. Elessar specific. Playable during the site phase at Umbar, if Elessar is there and Raid on Umbar is inyour mp pile. Umbar becomes one of your Havens [H] and is never discarded. You may play Tarma of Ar-pharazôn at Umbar: discard any factions in play at the site. If you also have Stone of Erech in play this card is worth 5 mp and all influence attempts by opponents against factions, characters and allies in Gondor or Haradwaith are modified by -5.+1 to your handsize when Elessar is in Mordor or the Sun-lands.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="mp" value="(5)"/>
+			 <attr key="specific" value="Elessar"/>
+		</card>
+		<card name="Ernil-i-Pheriannath" graphics="ErniliPheriannath.jpg" text="Unique. Playable on Pippin, if To Fealty Sworn is played on him and you have Return of the King or Steward of Gondor in play. Pippin receives +1 prowess. He requires only 2 influence to control, if controlled by any manifestation of Aragorn II or the Steward of Gondor. When facing an attack you may always assign a strike to Pippin regardless of the attack’s abilities or his status.Discard if you have neither Return of the King nor Steward of Gondor in play.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="prowess" value="+1"/>
+			 <attr key="body" value="-"/>
+		</card>
+		<card name="Escaped Slaves" graphics="Escaped Slaves.jpg" text="Playable at any Shadow-hold [S] or Dark-hold [D] during the same site phase you played Rescue Prisoners if the influence check is greater than 7. This card may be played at a tapped site and its play does not tap the site.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Faction"/>
+			 <attr key="mp" value="1"/>
+		</card>
+		<card name="Eyes of the White Tower" graphics="Eyes of the White Tower.jpg" text="Unique. Lord Denethor specific. Place this card on Denethor if he is in play. Return this card to your hand if you so choose during your organization phase. In addition to adopting the given attributes, Denethor’s skills become Sage/Diplomat. Denethor may not move. Once per turn, Denethor may make a CC instead of tapping when he uses a palantir. +1 to your hand size.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="prowess" value="1"/>
+			 <attr key="body" value="8"/>
+			 <attr key="cp" value="1"/>
+			 <attr key="sp" value="1"/>
+			 <attr key="specific" value="Denethor"/>
+		</card>
+		<card name="Faction en Garde" graphics="Faction en Garde.jpg" text="Playable on a site where a unique faction you control is in play. All automatic-attacks at this site have their streikes and prowess increased by 2. If this card is revealed on guard, the attacks are instead modified by +3 on the turn this card is revealed. This card may also be revealed at a site which contains no automatic-attack, to create an automatic-attack: same type as the faction — 3 strikes of 7 prowess (detainment if company and faction are same alignment). Discard this card if your copy of the faction is discarded.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="First among Equals" graphics="First among Equals.jpg" text="Command. +1 cp for characters up to his total mind of 11and you may have 2 more on avatar leaders">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="cp" value="+1"/>
+		</card>
+		<card name="First Settlers" graphics="First Settlers.jpg" text="Playable at any tapped or untapped site where you have played Rebuild the Town if the influence check is greater than 8. Standard modifications: none. Your opponent chooses this faction’s race: Dúnadan, Dwarf, Elf, Hobbit or Man. Cannot be duplicated on a given site.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Faction"/>
+			 <attr key="mp" value="1"/>
+		</card>
+		<card name="Forbidden Knowledge" graphics="Forbidden Knowledge.jpg" text="Imrahil specific. Sage only. Lore. Playable on a Dúnadan sage at one of your Lordhavens [H] (or in your starting company). The character may use sorcery, spirit-magic, and shadow-magic. Cannot be duplicated on a given character.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="sp" value="2"/>
+			 <attr key="specific" value="Imrahil"/>
+			 <attr key="keyword" value="Lore"/>
+		</card>
+		<card name="Garrison of Cair Andros" graphics="Garrison of Cair Andros.jpg" text="Unique. Playable at Cair Andros if the influence check is greater than 7. Standard modifications: Dúnedain (+1).">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Dúnadan Faction"/>
+			 <attr key="mp" value="1"/>
+		</card>
+		<card name="Get You Gone" graphics="Get You Gone.jpg" text="Diplomat only. Tap the diplomat to cancel 1 unique non-agent hazard declared in the same chain of effects (i.e. before it resolves) and during his movement/hazard phase.">
+			 <attr key="type" value="Dual Resource"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="Gift of the Evenstar" graphics="Gift of the Evenstar.jpg" text="Unique. Jewel. Playable on Frodo at any Haven [H] or Free-hold [F] where Arwen is present. tap: prevent Frodofrom being discarded or returned to your hand (even immediately after a roll is made). Additionally, Sail to the West may be played on Frodo, even if Círdan is not in play or not at Grey Havens (he may keep any non-ring items he bears).">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Special Item"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="cp" value="1"/>
+			 <attr key="keyword" value="Jewel"/>
+		</card>
+		<card name="Golasgil" graphics="Golasgil.jpg" text="Unique. +2 EI against the Men of Anfalas faction.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="4"/>
+			 <attr key="body" value="7"/>
+			 <attr key="mind" value="4"/>
+			 <attr key="influence" value="2"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="home_site" value="Lond Galen"/>
+			 <attr key="skills" value="Scout/Ranger"/>
+			 <attr key="race" value="Man"/>
+		</card>
+		<card name="Grace of Uinen" graphics="Grace of Uinen.jpg" text="Unique. Elessar or Prince Imrahil specific. Playable only on your avatar during site phase at Tolfalas. tap: during your organization phase to take Karma of Aldarion, Fair Sailing or Hair of Uinen from your discard pile into hand.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="cp" value="1"/>
+			 <attr key="sp" value="1"/>
+			 <attr key="specific" value="Imrahil"/>
+		</card>
+		<card name="Great Elf-warrior" graphics="Great Elfwarrior.jpg" text="Unique. Playable on Sam Gamgee, after defeating a strike from an Orc or Spider attack while bearing Sting, Phial of Galadriel, or The One Ring. He receives +3 prowess against Orcs and Spiders.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="prowess" value="(+3"/>
+			 <attr key="body" value="-)"/>
+			 <attr key="mp" value="1"/>
+		</card>
+		<card name="Guild of the Venturers" graphics="Guild of the Venturers.jpg" text="Unique. Elessar or Prince Imrahil specific. Playable on a company at Pelargir or Linhir. Politics cannot be played on characters in the company. tap: take Leaguer of Pelargir from discard pile into hand. If Karma of Aldarion is in the company, invert this card during the site phase at a site in a Coastal Sea [c] region in the Northern Waste or in The Uttersouth. If inverted this card is worth 3 mp.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="mp" value="(3)"/>
+			 <attr key="sp" value="2"/>
+			 <attr key="specific" value="Imrahil"/>
+		</card>
+		<card name="Halbarad of the North" graphics="Halbarad of the North.jpg" text="Unique. Manifestation of Halbarad. +1 EI against factions playable at his home sites.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="5"/>
+			 <attr key="body" value="7"/>
+			 <attr key="mind" value="6"/>
+			 <attr key="influence" value="1"/>
+			 <attr key="mp" value="2"/>
+			 <attr key="home_site" value="Any Border-hold in Eriador"/>
+			 <attr key="skills" value="Warrior/Ranger/Sage"/>
+			 <attr key="race" value="Dúnadan"/>
+		</card>
+		<card name="Heritage Forsaken" graphics="Heritage Forsaken.jpg" text="Playable on a Dúnadan character not moving through a Coastal Sea [c]. The character is worth -2 character mp (to a minimum of 0). During his movement/hazard phase the character may try remove this card. Make a roll, adding 3 to the roll if the character taps and 3 for each Coastal Sea [c] in the company’s site path; if the result is grater than 12, discard this card. Cannot be duplicated on a given company.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="mp" value="-2"/>
+		</card>
+		<card name="Hideous Lust and Rage" graphics="Hideous Lust and Rage.jpg" text="Playable on a manifestation of Gollum. +3 prowess against a strike he faces. Unless wounded by the strike, you may untap him afterwards.">
+			 <attr key="type" value="Dual Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="Hirgon" graphics="Hirgon.jpg" text="Unique. +2 EI against Man and Dúnadan factions. If Hirgon is the only character in the company, add +2 to any of his influence attempts.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="3"/>
+			 <attr key="body" value="7"/>
+			 <attr key="mind" value="3"/>
+			 <attr key="influence" value="1"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="home_site" value="Minas Tirith"/>
+			 <attr key="skills" value="Warrior/Diplomat"/>
+			 <attr key="race" value="Dúnadan"/>
+		</card>
+		<card name="Hirluin the Fair" graphics="Hirluin the Fair.jpg" text="Unique. +1 EI against Dúnedain.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="2"/>
+			 <attr key="body" value="9"/>
+			 <attr key="mind" value="3"/>
+			 <attr key="influence" value="1"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="home_site" value="Lond Galen"/>
+			 <attr key="skills" value="Scout/Diplomat"/>
+			 <attr key="race" value="Dúnadan"/>
+		</card>
+		<card name="His Fury Has Betrayed Him" graphics="His Fury Has Betrayed Him.jpg" text="Playable during strike assignement on a non-avatar warrior, if the warrior is chosen to face a strike from a non-detainment creature attack with more than one strike. No strike can canceled. The warrior faces the attack as though he were a single character company. Each excess strike gives -1 body to the warrior. Cannot be duplicated on a given attack.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="Hobbit Short-bow" graphics="Hobbit Shortbow.jpg" text="Hobbit only. Weapon. tap: give -1 prowess/body to an Animal, Spider, Wolf, Orc or Man attack, and an extra -1 modification for each other Hobbit Short-bow tapped against the same attack. Cannot be duplicated on a Hobbit.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Minor Item"/>
+			 <attr key="cp" value="1"/>
+			 <attr key="keyword" value="Battle-gear"/>
+		</card>
+		<card name="Hobbits Must Make Haste" graphics="Hobbits Must Make Haste.jpg" text="Playable at the end of the movement/hazard phase on a moving company that contains only Hobbits and at least one untapped ally. Tap the ally: the company may move to an additional site this turn.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="Hobbits of the Westmarch" graphics="Hobbits of the Westmarch.jpg" text="Unique. Playable at The White Towers if Councellors of the North Kingdom is in play, and the influence check is greater than 8.Standard Modifications: Hobbits (+2), Dúnedain (+2) Red Book of West March may be stored at The White Towers for 3 mp: all versions of The White Towers become a Free-hold [F], the hero version loses its automatic-attack, replace automatic-attacks for minion versions with: Hobbits — 3 strikes with 6 prowess, Dúnedain — 2 strikes with 10 prowess.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Hobbit Faction"/>
+			 <attr key="mp" value="1"/>
+		</card>
+		<card name="Ingold" graphics="Ingold.jpg" text="Unique. -1 to his CC. -1 to influence attempts against factions.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="prowess" value="3"/>
+			 <attr key="body" value="8"/>
+			 <attr key="mind" value="2"/>
+			 <attr key="influence" value="0"/>
+			 <attr key="cp" value="-1"/>
+			 <attr key="home_site" value="Minas Tirith"/>
+			 <attr key="skills" value="Warrior"/>
+			 <attr key="race" value="Dúnadan"/>
+		</card>
+		<card name="Kin to the Firstborn" graphics="Kin to the Firstborn.jpg" text="Unique. Prince Imrahil specific. You may play Elf characters and/or factions with Prince Imrahil’s company and they are worth full mp to you.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="sp" value="1"/>
+			 <attr key="specific" value="Imrahil"/>
+		</card>
+		<card name="Kingsfoil" graphics="Kingsfoil.jpg" text="Playable on Aragorn II bearing Athelas, if Ioreth is in the same company. Tap Aragorn II and discard Athelas. Remove all corruption cards from wounded characters in the company and heal all wounded characters (from wounded to untapped). Return of the King may be played from your hand or sideboard if Aragorn is in Minas Tirith.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="Knight of Dor-en-Ernil" graphics="Knight of DorenErnil.jpg" text="Prince Imrahil specific. Playable on a Dúnadan character at Dol Amroth (or in your starting company). Character becomes a leader and receives +2 EI. No dark enchantments can be played on the character. Cannot be duplicated on a given character.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="influence" value="+2"/>
+			 <attr key="sp" value="1"/>
+			 <attr key="specific" value="Imrahil"/>
+		</card>
+		<card name="Last Army of the West" graphics="Last Army of the West.jpg" text="Unique. Playable if Doors of Night is not in play. Each minion company moving through Anórien, Ithilien, or Dagorlad faces 3 attacks: Men — 5 strikes with 8 prowess; Dúnedain — 3 strikes with 10 prowess; Eagles — 2 strikes with 12 prowess. If these attacks are defeated, place this card in opponent’s mp pile. Additionally, any minion company moving through the above mentioned regions may only move 3 regions in all cases (even if with starter movement).">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="mp" value="3*"/>
+		</card>
+		<card name="Leaguer of Pelargir" graphics="Leaguer of Pelargir.jpg" text="Unique. Dúnadan-lord specific. Playable if you control at least 6 characters and/ or factions playable in Gondor. All Man factions in play at sites in Gondor are worth full mp for all Dúnadan-lords. Dúnadan and Man creatures with an asterix (*) attack all companies of Dúnadan-lord players as detainment (unless the company is overt), if keyed to a region or site in Gondor; all such attacks against minion companies are never detainment. Additionally Dúnadan-lords receive full Mmp for Raid on Umbar, Rescue Prisoners and War Preperations. Discard this card if the minion version of Black Númenóreans comes into play.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="sp" value="2"/>
+			 <attr key="specific" value="Dúnadan-lord"/>
+		</card>
+		<card name="Left on the Field" graphics="Left on the Field.jpg" text="Playable after an Man, Orc, Troll, or Undead creature attack, if an item cannot be transfered after its bearer is discarded or eliminated, due to wounded status or unavailability of characters; does not count against the hazard limit. Place this card with the item, place both cards in your mp pile. Item gives 1 less mp and is considered stored. This card cannot be played on a unique ring item.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="mp" value="-1"/>
+		</card>
+		<card name="Lieutenant of the Tower of Barad-dûr" graphics="Lieutenant of the Tower of Baraddur.jpg" text="Unique. Playable on The Mouth. He can use spirit-magic and gains the sage skill. The Mouth becomes a War-lord and a Leader. He does not need to be controlled by GI and cannot be a follower. You can hold 1 more card than normal in your hand if at Barad-dûr or at Dol Guldur if The Necromancer is in play. Tap during your organization phase to move up to 5 resources or characters from your sideboard to your discard pile. Mouth of Sauron cannot be played.">
+			 <attr key="type" value="Minion Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Linhir" graphics="Linhir2.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{F}"/>
+			 <attr key="site_path" value="{s}{w}{f}{f}{f}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="3"/>
+			 <attr key="region" value="Belfalas"/>
+			 <attr key="haven" value="Minas Morgul"/>
+			 <attr key="playable" value="Items (minor, major)"/>
+			 <attr key="auto_attack" value="(1st) Men — each character faces a strike with 7 prowess (detainment against covert companies); (2nd) Dúnedain — 2 strikes with 10 prowess(against overt companies only)."/>
+			 <attr key="special" value="Port."/>
+			 <attr key="keyword" value="Man-hold"/>
+			 <attr key="keyword" value="Port"/>
+		</card>
+		<card name="Linhir" graphics="Linhir.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{F}"/>
+			 <attr key="site_path" value="{w}{f}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="1"/>
+			 <attr key="region" value="Belfalas"/>
+			 <attr key="haven" value="Edhellond"/>
+			 <attr key="special" value="Port. Discard a minor item from a character in the company during site phase to play a non-unique minor item on that character from sideboard (even a hoard item). If bearer is a Man or Dúnadan, he may tap and discard a major item to play a non-unique major item instead."/>
+			 <attr key="keyword" value="Man-hold"/>
+			 <attr key="keyword" value="Port"/>
+		</card>
+		<card name="Lord Denethor" graphics="Lord Denethor.jpg" text="Unique. Leader. Manifestation of Denethor II. +4 EI against characters with Minas Tirith as a home site. +2 EI against the Tower Guard of Minas Tirith faction. May tap to use a Palantír he bears. When Lord Denethor is at Minas Tirirth he may tap to take Tower of Guard from discard pile to hand and you may keep 1 more card than normal in hand.">
+			 <attr key="type" value="Dunadan-lord"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="3/7"/>
+			 <attr key="mind" value="7"/>
+			 <attr key="influence" value="3"/>
+			 <attr key="home_site" value="Minas Tirith"/>
+			 <attr key="keyword" value="Avatar"/>
+		</card>
+		<card name="Lord of Gondor" graphics="Lord of Gondor.jpg" text="Lord Denethor specific. All CC and influence checks are modified by +1 for the rest of the turn.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+			 <attr key="specific" value="Denethor"/>
+		</card>
+		<card name="Lord of the Nazgûl" graphics="Lord of the Nazgul.jpg" text="Playable if a manifestation of The Witch-king is in play. You may discard an event with Unleashed in its title to target and cancel any effect that would cancel an attack by a Nazgûl or Ringwraith.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Lord of the White Tower" graphics="Lord of the White Tower.jpg" text="Unique. Lord Denethor specific. tap: during end-of-turn phase to take one Use Palantír, I Know Much About You, Tower of Guard or a command card from your discard pile into hand. You may not play Sapling of the White Tree or the The White Tree.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="cp" value="1"/>
+			 <attr key="sp" value="1"/>
+			 <attr key="specific" value="Denethor"/>
+		</card>
+		<card name="Lossarnach" graphics="Lossarnach.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{F}"/>
+			 <attr key="site_path" value="{w}{f}{f}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="1"/>
+			 <attr key="region" value="Lebennin"/>
+			 <attr key="haven" value="Edhellond"/>
+			 <attr key="special" value=""/>
+		</card>
+		<card name="Lossarnach" graphics="Lossarnach2.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{F}"/>
+			 <attr key="site_path" value="{s}{w}{f}{f}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="3"/>
+			 <attr key="region" value="Lebennin"/>
+			 <attr key="haven" value="Minas Morgul"/>
+			 <attr key="playable" value="Items (minor*) *—non-battle-gear items only—"/>
+			 <attr key="auto_attack" value="(1st) Men — each character faces a strike with 7 prowess (detainment against covert company). (2nd) Dúnedain — 2 strikes with 9 prowess (against overt companies only)."/>
+			 <attr key="special" value="Burning Rick, Cot and Tree may be played at this site; if successfully played, all automatic-attacks at sites in Anórien and Lebennin receive -1 prowess."/>
+		</card>
+		<card name="Mablung of Ithilien" graphics="Mablung of Ithilien.jpg" text="Unique. Manifestation of Mablung. Unless he is among the starting characters, he may only be brought into play at his home site. Mablung costs only 3 points of influence to control when in the company with Faramir, Anborn or Damrod. -1 to his CC if not in the company with one of these characters.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="prowess" value="4"/>
+			 <attr key="body" value="7"/>
+			 <attr key="mind" value="4"/>
+			 <attr key="influence" value="0"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="cp" value="-1"/>
+			 <attr key="home_site" value="Henneth Annûn"/>
+			 <attr key="skills" value="Warrior/Scout/Ranger"/>
+			 <attr key="race" value="Dúnadan"/>
+		</card>
+		<card name="Mace of Anárion" graphics="Mace of Anarion.jpg" text="Unique. Playable at Minas Morgul. Weapon. This item is normally considered a hero item. Discard a stored Dark Forges at a Darkhaven [K] and play Counterfeit on this item (as if a character) to “restore” it: it now becomes a minion item which may only be borne by a Ringwraith (it affects a Ringwraith). Warrior or Ringwraith only: +3 to prowess (to a maximum of 11) and -1 to strike’s body. This item is worth 3 mp to a hero player and/or if restored.">
+			 <attr key="type" value="Dual Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Special Item"/>
+			 <attr key="prowess" value="+3/-"/>
+			 <attr key="mp" value="(3)"/>
+			 <attr key="cp" value="2"/>
+			 <attr key="keyword" value="Battle-gear"/>
+		</card>
+		<card name="Master of Buckland" graphics="Master of Buckland.jpg" text="Unique. Playable on Merry at Brandy Hall or Bywater, if he bears To Fealty Sworn. Tap Merry to cancel an Awakened Plant attack. Alternatively, tap Merry to take Fear! Fire! Foes! into hand from discard pile.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="cp" value="1"/>
+		</card>
+		<card name="Men of Lossarnach" graphics="Men of Lossarnach.jpg" text="Unique. Playable at Lossarnach if the influence check is greater than 7.Standard Modifications: Dúnedain (+1), Forlong in the company (+2). tap: take a food minor item from your discard pile into hand.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Dúnadan Faction"/>
+			 <attr key="mp" value="1"/>
+		</card>
+		<card name="Mission to the East" graphics="Mission to the East.jpg" text="Playable if you are Alatar or Pallando and you have at least 6 P. Playable on a Border-hold [B] or Shadow-hold [S] with a Man automatic-attack in any territory east of Wilderland, if you have successfully played a faction there. The site becomes a Wizardhaven [H] and loses all automatic-attacks. Nothing is considered playable as written on the site card. Cannot be duplicated on a given site.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="sp" value="2"/>
+		</card>
+		<card name="No Enemy Dares Contest" graphics="No Enemy Dares Contest.jpg" text="Playable only if Gates of Morning is in play. Anórien, Belfalas, Lamedon, and Lebennin are considered one unified region and Free-domain [f] for all purposes. Hazard creatures with an asterix (*) keyed by name to any one of these regions may be played keyed to this unified region.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Long-event"/>
+		</card>
+		<card name="No Longer Allowed to Pass" graphics="No Longer Allowed to Pass.jpg" text="Playable on a covert minion company moving to a Border-hold [B] or Free-hold [F]. Make a roll (+2 if moving to a Free-hold) and subtract the mind of highest mind character in the company that is untapped. If the result is 7 or greater, the company becomes overt. Discard this card when the company leaves the site. May also be played on-guard and revealed before any automatic-attacks are faced.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="No More Would Come" graphics="No More Would Come.jpg" text="Each player must make a roll during the untap phasefor each of his tapped factions: if the result is lower than 8, the faction does not untap. Cannot be duplicated. Discard when any play deck is exhausted.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Núrnen" graphics="Nurnen.jpg" text="Environment. Nurn is considered to be a Coastal Sea [c] for the purposes of playing non-unique hazards.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Long-event"/>
+		</card>
+		<card name="Oaths You Have Taken" graphics="Oaths You Have Taken.jpg" text="Playable on any of your characters, allies or factions,if Stone of Erech or Tarma of Ar-Pharazon is in play; if played on a character or ally, he must be at Vale of Erech or Umbar accordingly. -5 to all influence attempts against target and +5 on any rolls to discard target or return him/it to your hand. Any such attempt and/or rolls are not modified by unused GI, mind or faction number. If an influence attempt against target is successful, place target in opponent’s mp pile along with this card; he/it is considered eliminated and cannot be removed from the mp pile. Cannot be duplicated on a given target.">
+			 <attr key="type" value="Dual Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="mp" value="1"/>
+		</card>
+		<card name="Old Drûg" graphics="Old Drug.jpg" text="Playable on a unique Wose character. Character may tap to cancel a Pûkel-creature attack against his company.">
+			 <attr key="type" value="Dual Resource"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="On the Precious" graphics="On the Precious.jpg" text="Playable during site phase on a character bearing a ring special item. Take a manifestation of Gollum into hand from discard pile. Alternatively, if My Precious is face up and at a site in the same or an adjacent region, or the ringbearer is at one of My Precious’ home sites, he now attacks the ringbearer’s company. The ringbearer must face at least 1 strike. If still in play after the attack, My Precious is considered at this site (no site card is needed if none is available).">
+			 <attr key="type" value="Dual Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="Osgiliath" graphics="Osgiliath.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{w}{b}{f}{w}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="3"/>
+			 <attr key="region" value="Anórien/Ithilien"/>
+			 <attr key="haven" value="Lórien"/>
+			 <attr key="playable" value="Information, Items (minor)"/>
+			 <attr key="auto_attack" value="Opponent may play as an automatic-attack 1 non-unique hazard creature from his hand normally keyed to Shadow-hold [S]."/>
+			 <attr key="special" value="Port on Anduin. During the site phase a company may discard (for no effect) a Lost Knowledge card the company controls to make Palantír of Osgiliath playable at this site until the end of turn."/>
+			 <attr key="keyword" value="Port on Anduin"/>
+		</card>
+		<card name="Osgiliath" graphics="Osgiliath2.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{s}{w}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Anórien/Ithilien"/>
+			 <attr key="haven" value="Minas Morgul"/>
+			 <attr key="playable" value="Items (minor)"/>
+			 <attr key="auto_attack" value="Opponent may play as an automatic-attack 1 non-unique hazard creature from his hand normally keyed to Shadow-hold [B]."/>
+			 <attr key="special" value="Port on Anduin. During the site phase a company may discard (for no effect) a Stolen Knowledge card the company controls to make Palantír of Osgiliath playable at this site until the end of turn."/>
+			 <attr key="keyword" value="Port on Anduin"/>
+		</card>
+		<card name="Politics" graphics="Politics.jpg" text="Playable on a character of mind 5 or greater in the company of a Lord avatar of the same race. Character cannot be controled by GI; if there is not enough EI available to control him, he must leave the avatar’s company after the next organization phase. Discard any Trusted Councellor or Thrall of the Voice played on the character, or Sworn to the Lord on the avatar. Discard this card if character is not in the company of your avatar.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Pride Increased with Despair" graphics="Pride Increased with Despair.jpg" text="Playable on a non-avatar character with a combined mind and unused direct influence greater than 5. This character’s CC are modified by -1 for each ally he controls and for each resource permanent-event with a mp value played on him.Cannot be duplicated on a given character.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Prince Imrahil" graphics="Prince Imrahil.jpg" text="Unique. Leader. Manifestation of Imrahil. +3 EI against Dúnadan characters with a home site in Lamedon or Belfalas. +2 EI against Knights of Dol Amroth. When Prince Imrahil is at Dol Amroth he may tap to take Tower of Amroth from discard pile to hand and you may keep 1 more card than normal in hand. If during opponent’s organization phase an opponent has a company without an agent at a non-Haven [H] site in Belfalas, you may look at his hand.">
+			 <attr key="type" value="Dunadan-lord"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="5/9"/>
+			 <attr key="mind" value="7"/>
+			 <attr key="influence" value="5"/>
+			 <attr key="home_site" value="Dol Amroth"/>
+			 <attr key="keyword" value="Avatar"/>
+		</card>
+		<card name="Putting away All Fear" graphics="Putting away All Fear.jpg" text="Unique. Playable on a company at or moving to a site in a Dark-domain [d]. Discard all corruption cards placed on characters in the company. Make a roll for each environment hazard permanent-event or long-event in play; discard each if result is greater than 8. This card and its effects cannot be canceled.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="Quarters of the Regent" graphics="Quarters of the Regent.jpg" text="Prince Imrahil specific. Playable on a Free-hold [F] where you have a unique faction in play. This site becomes a Lordhaven [H] for your companies and loses all automatic-attacks against your companies. Nothing is considered playable as written on the site card. If 1 of your companies is at this site, all attacks against it are canceled. Other Fallen-avatars may not use this site as a haven. Discard this card when the site is discarded or returned to its location deck. It cannot be discarded otherwise. Cannot be duplicated on a given site.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="specific" value="Imrahil"/>
+		</card>
+		<card name="Quick as a Snake" graphics="Quick as a Snake.jpg" text="Playable on an attack that chooses defending characters, after strikes are assigned; does not count against the hazard limit. Strikes from this attack cannot be canceled or made ineffectual.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="Raid on Umbar" graphics="Raid on Umbar.jpg" text="Unique. Playable if you have at least 2 factions in play at sitesin Gondor. Discard a Stolen Knowledge card from a Dúnadanduring the site phase at Umbar: the company faces 2 attacks (Men — 3 strikes with 8 prowess; Men — 2 strikes with 9 prowess; cannot be canceled). Afterwards tap a character to place Raid on Umbar in your mp pile or discard this card. Factions in play at Umbar give 1 less mp (to minimum of 1) and Pirates and Corsairs of Umbar receive -2 prowess. Discard Raid on Umbar if opponent ever has more factions in play at sites in Hyrmenfalas and its adjacent regions than you have at sites in Gondor.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="mp" value="(3)"/>
+		</card>
+		<card name="Rammas Pelennor" graphics="Rammas Pelennor.jpg" text="Playable if you have a faction in play at Minas Tirith. All overt companies moving through Anórien face an attack: Men — 3 strikes with 8 prowess. All automatic-attacks against minion companies at Minas Tirith receive +1 prowess and +1 strike for each faction in play at Minas Tirith. All hero characters receive +2 prowess during CvCC at Minas Tirith. Discard if you have no factions in play at Minas Tirith, or if Smoke on the Wind or People Diminished is played on Minas Tirith. Cannot be duplicated.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Reunited Kingdom" graphics="Reunited Kingdom.jpg" text="Unique. Playable if you have Return of the King, The White Tree and Choice of Lúthien in play. Factions playable at any site in Arthedain, Cardolan, Rhudaur, Anórien, Ithilien, Belfalas, Lebennin, Anfalas or Lamedon are worth 1 less mp to your opponent and cannot be influenced with Muster or Threats.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Ring of Barahir" graphics="Ring of Barahir.jpg" text="Unique. Ring. Playable by Elrond, Arwen or any manifestation of Aragorn at Rivendell. When you play this item, you may bring Choice of Lúthien from your sideboard or discard pile to your play deck. tap: cancel a Dragon or Drake creature attack and put the creature’s card back into opponent’s hand. Cannot be stored or stolen.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Special Item"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="cp" value="1"/>
+			 <attr key="keyword" value="Ring"/>
+		</card>
+		<card name="Rose Cotton" graphics="Rose Cotton.jpg" text="Unique. Hobbit. Playable by a Hobbit at Bywater. If controlled by Sam Gamgee, Rose Cotton is 2 mp. tap: prevent any effect that would either discard her controlling character or return him to your hand. tap: if controlled by Sam Gamgee to search your playdeck or discard pile for any card that mentions Sam Gamgee in its card text and take it to your hand. Discard Rose Cotton if her company leaves The Shire.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Ally"/>
+			 <attr key="prowess" value="-1"/>
+			 <attr key="body" value="8"/>
+			 <attr key="mind" value="2"/>
+			 <attr key="mp" value="1(2)"/>
+			 <attr key="keyword" value="Hobbit"/>
+		</card>
+		<card name="Royal Navy" graphics="Royal Navy.jpg" text="Unique. Playable at Pelargir if the influence check is greater than 10. Standard modifications: Dúnedain (+1), Steward of Gondor Dúnadan (+2), Return of the King Aragorn (+3). tap: allow 1 of your companies to move an additional Coastal Sea [c].tap: cancel an attack by Corsairs of Umbar against 1 of your companies.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Dúnadan Faction"/>
+			 <attr key="mp" value="3"/>
+		</card>
+		<card name="Rumours of Danger" graphics="Rumours of Danger.jpg" text="tTap a scout and name a creature type: creatures of this type played against his company count as 2 against the hazard limit. Any player may discard 2 hazard creatures of this type at any time to force the discard of this card.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Long-event"/>
+		</card>
+		<card name="Rush along Recklessly" graphics="Rush along Recklessly.jpg" text="Playable on a company at the end of the organization phase on a moving company. The company’s site path may include up to 2 extra regions. The hazard limit for this company is increased by 1 for every non-ranger character in the company.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="Setmaenen" graphics="Setmaenen2.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{s}{w}{f}{f}{b}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="3"/>
+			 <attr key="region" value="Lamedon"/>
+			 <attr key="haven" value="Minas Morgul"/>
+			 <attr key="playable" value="Information, Items (minor, gold ring*)"/>
+			 <attr key="auto_attack" value="(1st) Trap — 1 strike with 6 prowess —weapons do not modify—*(2nd) Pûkel-creature — 1 strike with 8 prowess —cannot be cancelled—"/>
+			 <attr key="special" value="*The second automatic-attack must only be faced if the company intends to play a gold ring."/>
+		</card>
+		<card name="Setmaenen" graphics="Setmaenen.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{w}{b}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Lamedon"/>
+			 <attr key="haven" value="Edhellond"/>
+			 <attr key="playable" value="Information, Items (minor, gold ring*)"/>
+			 <attr key="auto_attack" value="(1st) Trap — 1 strike with 6 prowess —weapons do not modify— *(2nd) Pûkel-creature — 1 strike with 8 prowess —cannot be cancelled—"/>
+			 <attr key="special" value="The second automatic-attack must only be faced if the company intends to play a gold ring."/>
+		</card>
+		<card name="Sharp Blade" graphics="Sharp Blade.jpg" text="Playable on a character bearing a major, greater or special item weapon facing a strike from a non-Nazgûl, non-Undead attack. The body of the strike is modified by -2. Cannot be duplicated on a given strike.">
+			 <attr key="type" value="Dual Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="Siege of Gondor" graphics="Siege of Gondor.jpg" text="Unique. Playable if Doors of Night is in play. Any hero company moving through Anórien, Ithilien, Imlad Morgul and/or Gorgoroth must face the following attacks: Men — 4 strikes with 7 prowess; Orcs — 4 strikes with 9 prowess; Trolls — 2 strikes with 10 prowess; Animal — 1 strike with 11 prowess. The company may attempt to cancel each attack by making a roll, adding 1 for each scout in the company.If the result is greater than 8, the attack is canceled. If all four attacks are defeated, opponent gains 3 kill mp. Additionally, Anórien is considered a Shadow-land [s] for the purposes of playing hazards other than Undead.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="mp" value="(3)"/>
+		</card>
+		<card name="Son of Ecthelion" graphics="Son of Ecthelion.jpg" text="Lord Denethor specific. All CC and influence checks are modified by +1 for the rest of the turn.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+			 <attr key="specific" value="Denethor"/>
+		</card>
+		<card name="Spirit of Mordor" graphics="Spirit of Mordor.jpg" text="Playable on a non-unique detainment attack by Orcs, Trolls, Undeads, or Men without an asterix (*) (including an agent attack). The attack proceeds as if it were a non- detainment attack.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="Star of Gobha" graphics="Star of Gobha.jpg" text="Unique. Jewel. Playable at Setmaenen, if the company has moved this turn with special movement from Dunharrow. +3 EI against Woses. Discard Stone of Erech if in play. If at a site in Lamedon, designate a faction in Gondor in play by your opponent and place this item with the faction. When influencing this faction the number required is 0. After a successful influence attempt, place the faction and this item in your mp pile instead of discarding it; it is considered eliminated and cannot be influenced or discarded again; your opponent’s handsize is modified by -1.">
+			 <attr key="type" value="Minion Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Special Item"/>
+			 <attr key="influence" value="+3"/>
+			 <attr key="mp" value="2"/>
+			 <attr key="cp" value="3"/>
+			 <attr key="keyword" value="Jewel"/>
+		</card>
+		<card name="Steward of Gondor" graphics="Steward of Gondor.jpg" text="Unique. Playable on Denethor II, Boromir II or Faramir, if Return of the King or Elessar is not in play. This card must always be transferred to the first character in line in active play, according to the above mentioned order (or discarded if he is in play by opponent).+1 to prowess (to a maximum of 6), +1 body (to a maximum of 8), +2 mind, +2 EI against Dúnedain. According to bearer: Denethor II gains the ability to use a Palantír; Boromir II gains the ranger skill; Faramir gains the sage skill. Discard this card if bearer is ever at a site outside of Gondor.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="prowess" value="+1"/>
+			 <attr key="body" value="+1"/>
+			 <attr key="mind" value="+2"/>
+			 <attr key="influence" value="+2"/>
+		</card>
+		<card name="Stone Mace" graphics="Stone Mace.jpg" text="Weapon. Two-handed. May not be a starting item, unless played on a Wose character.+1 prowess (to a maximum of 8)Wose only: +1 prowess against Dwarves, Orcs and Trolls.">
+			 <attr key="type" value="Dual Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Minor Item"/>
+			 <attr key="prowess" value="+1"/>
+			 <attr key="cp" value="1"/>
+			 <attr key="keyword" value="Battle-gear"/>
+			 <attr key="keyword" value="Two-handed"/>
+		</card>
+		<card name="Stories of the Elder Days" graphics="Stories of the Elder Days.jpg" text="Playable on your Elf-lord, Dúnadan-lord or Wizard. Tap your avatar to take Gift of Comprehension, Lore of the Ages or Tales of the Hunt from your discard pile to hand. These may be played on characters in your avatar’s company regardless of their race and give 1 less CP. Cannot be duplicated by a given player.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="sp" value="-1"/>
+		</card>
+		<card name="Swan of Amroth" graphics="Swan of Amroth.jpg" text="Unique. Prince Imrahil specific. Place this card on Prince Imrahil if he is in play. tap: if on Prince Imrahil during your end-of-turn phase to take Great Ship, Withdrawn to Mordor, Tower of Amroth or a command card from your discard pile into hand.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="cp" value="1"/>
+			 <attr key="sp" value="1"/>
+			 <attr key="specific" value="Imrahil"/>
+		</card>
+		<card name="Taint of Ambition" graphics="Taint of Ambition.jpg" text="Corruption. Playable on a non-avatar diplomat. Target character receives 1 CP and makes a CC when a resource card requiring diplomat skill is played on a character in the company. During the organization phase, if at a Haven [H] (or a site that acts as a Haven for the purpose of healing), the character may tap to attempt to remove this card by making a roll; if the result is greater than 7, discard this card. Cannot be duplicated on a given character.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="cp" value="1"/>
+		</card>
+		<card name="Taint of Deep Lore" graphics="Taint of Deep Lore.jpg" text="Corruption. Playable on a non-avatar sage. Target character receives 1 CP and makes a CC when a resource card requiring the sage skill is played on a character in the company. During the organization phase, if at a Haven [H] (or a site that acts as a Haven for the purpose of healing), the character may tap to attempt to remove this card by making a roll; if the result is greater than 7, discard this card. Cannot be duplicated on a given character.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="cp" value="1"/>
+		</card>
+		<card name="Taint of Glory" graphics="Taint of Glory.jpg" text="Corruption. Playable on a non-avatar warrior. Target character receives 1 CP and makes a CC when a resource card requiring the warrior skill is played on character in the company. During the organization phase, if at a Haven [H] (or a site that acts as a Haven for the purpose of healing), the character may tap to attempt to remove this card by making a roll; if the result is greater than 7, discard this card. Cannot be duplicated on a given character.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="cp" value="1"/>
+		</card>
+		<card name="Tharagrondost" graphics="Tharagrondost2.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{w}{w}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Andrast"/>
+			 <attr key="haven" value="Geann a-Lisch"/>
+			 <attr key="playable" value="Information, Items (minor, major)"/>
+			 <attr key="auto_attack" value="Wolves — 3 strikes with 8 prowess"/>
+			 <attr key="special" value="Contains a hoard. A scout at this site may tap, to force the discard of any creature playable Coastal Sea [c] or non-unique Dunadan creature from opponent's hand (he must reveal his hand if none are available."/>
+		</card>
+		<card name="Tharagrondost" graphics="Tharagrondost.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{w}{w}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Andrast"/>
+			 <attr key="haven" value="Edhellond"/>
+			 <attr key="playable" value="Information*, Items (minor, major)"/>
+			 <attr key="auto_attack" value="Wolves — 3 strikes with 8 prowess"/>
+			 <attr key="special" value="Contains a hoard. *A Dúnadan sage must tap at this site to make Information playable. A scout at this site may tap to force the discard of any creature playable at Coastal Seas [C]] ] c] from opponent's hand (he must reveal his hand if none are available."/>
+		</card>
+		<card name="The Black Captain" graphics="The Black Captain.jpg" text="Unique. Playable if a manifestation of Witch-king of Angmar and Doors of Night are in play. All Nazgûl may be played keyed to Imlad Morgul, Ithilien and Anórien and to sites in these regions (except Henneth Annûn). Witch-king of Angmar may attack from his permanent-event state, counting as one against the hazard limit. If he is not defeated after such an attack, he is returned to his player’s hand. All Nazgûl attacks keyed to the above regions or sites receive +2 prowess. Discard this card at the end of any turn if Doors of Night and a manifestation of the Witch-king of Angmar are not in active play or at a site in the above regions.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="The Dwimorberg" graphics="The Dwimorberg.jpg" text="Shadow-magic. Playable during the organization phase on a shadow-magic user at Dunharrow. The company must move with special movement to a site in Lamedon this turn: only Undead and hazard creatures keyed to the site may be played on the company, but any Undead creatures may be played. Tap all allies controlled by characters with a mind less than 6; discard any allies without body. At the beginning of the movement/hazard phase it faces 2 attacks: Undead — each character faces 1 strike with 9 prowess. Undead — 2 strikes with 12 prowess. Each character wounded is eliminated. Each Undead attack may be canceled by discarding a shadow-magic card from hand. Unless he is a Ringwraith, your shadow-magic user makes a CC at -4.">
+			 <attr key="magic" value="Shadow-magic"/>
+			 <attr key="type" value="Minion Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="The Fief of Harnendor" graphics="The Fief of Harnendor.jpg" text="Dúnadan-lord specific. Playable if you have a faction in play at a site in Haradwaith. As long as you have more factions in play at sites in Haradwaith, Harondor becomes a Border-land [b] and this card is worth 1 mp for each such faction. Discard this card if opponent has more factions in play in Haradwaith or you have no such faction in play.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="mp" value="(*)"/>
+			 <attr key="sp" value="3"/>
+			 <attr key="specific" value="Dúnadan-lord"/>
+		</card>
+		<card name="The Great Battle of Our Time" graphics="The Great Battle of Our Time.jpg" text="Each player may remove any number of characters fromhis discard pile and shuffle them into his play deck. A Fallen-wizard player may remove any number of non-unique stage cards without mp value instead from his discard pile and shuffle them into his play deck.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="The Mayor" graphics="The Mayor.jpg" text="Unique. Playable on Sam Gamgee at Bag End or Michel Delving, if he bears To Fealty Sworn and if Will Whitfoot is not in play. Tap Sam Gamgee to cancel the effects of a hazard event played on a Hobbit in his company. Alternatively, tap Sam Gamgee to take Wit or The Riddle Game into hand from discard pile.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="cp" value="1"/>
+		</card>
+		<card name="The Muster of Gondor" graphics="The Muster of Gondor.jpg" text="All detainment attacks keyed by name to Rohan, Anórien, Lebennin or Belfalas, or at sites in these regions, receive +2 prowess and cannot be canceled. Additionally, Lost in Free-domains cannot be played against hero companies moving through these regions. Discard when any play deck is exhausted. Cannot be duplicated.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="The Rebellion of Gondor" graphics="The Rebellion of Gondor.jpg" text="Prince Imrahil specific. Playable on Prince Imrahil if he has at least: 12 P, 2 protected Lordhavens [H], 4 factions and The Fief of Harondor in play. Discard if playability requirements are not met.tap: once per turn during the organization phase to take Man character with a home site in Gondor from your discard pile into hand, or to modify an influence check by Prince Imrahil either in Lamedon or Belfalas by +5. Cannot be duplicated.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="prowess" value="-"/>
+			 <attr key="body" value="+1"/>
+			 <attr key="influence" value="+1"/>
+			 <attr key="mp" value="5"/>
+			 <attr key="sp" value="3"/>
+			 <attr key="specific" value="Imrahil"/>
+		</card>
+		<card name="The Ring Goes to Gondor" graphics="The Ring Goes to Gondor.jpg" text="Unique. Playable if you have Steward of Gondor in play, and a manifestation of Boromir II, Denethor II, Faramir or Aragorn II bears The One Ring while at a site in Gondor. Return of the King may not be played, unless Aragorn II bears The One Ring. All Man and Dúnadan attacks against minion companies in Gondor receive +1 prowess and +1 strike. Every site in Gondor at which a Man or Dúnadan hero faction is in play becomes a Free-hold [F]; the region which contains such a site becomes a Free-domain [f]. Discard this card if the conditions to play this card are not met.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="mp" value="8"/>
+			 <attr key="cp" value="+1"/>
+		</card>
+		<card name="The Seaward Tower" graphics="The Seaward Tower.jpg" text="Unique. Playable on Dol Amroth, if you discard (for no effect) a Lost Knowledge card from the company. If you have a company at Dol Amroth, at the beginning of the movement/hazard phase opponent must reveal any creature card playable on a hero company moving to or at sites in Anfalas, Belfalas or Bay of Belfalas. Only revealed creatures may be played on such companies this turn. Additionally, you may tap a faction you have in play at sites in these regions to cancel such a creature attack.Discard this card if Dol Amroth leaves active play.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="The Shirriffs" graphics="The Shirriffs.jpg" text="Hobbits. 6 strikes. May be played keyed to the Shire. May be played as an automatic attack at any site in the Shire. Detainment against hero companies.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Creature"/>
+			 <attr key="prowess" value="6"/>
+			 <attr key="body" value="9"/>
+			 <attr key="mp" value="1*"/>
+			 <attr key="subclass" value="Hobbits"/>
+		</card>
+		<card name="The Thain" graphics="The Thain.jpg" text="Unique. Playable on Pippin at Tuckburrow or Sackville, if he bears To Featly Sworn. Tap Pippin to cancel the effect of Pilfer Anything Unwatched before it resolves. Alternatively, tap Pippin at any time to take The Shirriffs into hand from discard pile.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="cp" value="1"/>
+		</card>
+		<card name="The Wind Is Turning" graphics="The Wind Is Turning.jpg" text="Environment. Discard 1 hazard environment long-event or permanent-event. Alternatively, make a roll: if result is greater than 5, discard any 1 hazard permanent event not played on a character or company. Cannot be duplicated on a given turn.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+			 <attr key="keyword" value="Environment"/>
+		</card>
+		<card name="This We Will Take" graphics="This We Will Take.jpg" text="Playable on a characters during CvCC, if you have you a non-ring item (or manifestation there of) in hand, which a character in opponent’s company bears. Each character makes a roll (+2 if character is an avatar) and adds the number of characters in his company. If your result exceeds your opponent’s, you may immidiately play the item; opponent must discard his version.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="Thorongil" graphics="Thorongil.jpg" text="Unique. Agent. Manifestation of Aragorn II. Agent only: +2 prowess against Ringwraiths. May move to a Darkhaven [K]. May take 2 agent actions each turn. tap: for an extra strike. tap: attack a company moving to his site during the movement/hazard phase.">
+			 <attr key="type" value="Grey Agent Character"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Warrior/Scout/Ranger Dúnadan "/>
+			 <attr key="prowess" value="5/9"/>
+			 <attr key="mind" value="8"/>
+			 <attr key="influence" value="2"/>
+			 <attr key="mp" value="3*"/>
+			 <attr key="home_site" value="Minas Tirith"/>
+			 <attr key="subclass" value="Grey Agent"/>
+			 <attr key="race" value="Dúnadan"/>
+			 <attr key="keyword" value="Grey Agent"/>
+		</card>
+		<card name="Too Much to Ask" graphics="Too Much to Ask.jpg" text="Playable on a non-unique ally. Wound the ally (no body check required) or discard the ally if he is already wounded.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="Tower of Amroth" graphics="Tower of Amroth.jpg" text="Unique. Prince Imrahil specific. Playable on Dol Amroth. The site becomes a protected Lord-haven [H]. If one of your companies is at this site, all attacks against it are canceled. Characters with Dol Amroth as their home site may be brought into play under GI at this site even if Prince Imrahil is in play and not here. This card may be played with a starting company in lieu of a minor item. Discard this card when the site leaves active play or if Smoke on the Wind or People Diminished is successfully played on/at the site.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="sp" value="1"/>
+			 <attr key="specific" value="Imrahil"/>
+		</card>
+		<card name="Tower of Ecthelion" graphics="Tower of Ecthelion.jpg" text="Unique. Playable on Minas Tirith, if you have Return of the King or Steward of Gondor in play. tap: untap Minas Tirith. This card does not untap normally, instead you may tap a character with mind 6 or greater at Minas Tirith to untap it. Character makes a CC. You receive this card’s mp if you have Tower Guard of Minas Tirith and The White Tree in play. Discard this card if Minas Tirith leaves active play, or if Smoke on the Wind is played on the site.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="mp" value="(2)"/>
+		</card>
+		<card name="Tower of Guard" graphics="Tower of Guard.jpg" text="Unique. Lord Denethor specific. Playable on Minas Tirith. The site becomes a protected Lord-haven [H]. If one of yourcompanies is at this site, all attacks against it are canceled. You may bring any number of characters with Minas Tirith as a home site into play if Denethor is there. Agents who normally do not have Minas Tirith as a home site may not move to Minas Tirith. This card may be played with a starting company in lieu of a minor item. Discard this card when the site leaves active play or if Smoke on the Wind or People Diminished is successfully played on/at the site.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="sp" value="1"/>
+			 <attr key="specific" value="Denethor"/>
+		</card>
+		<card name="Town Guard" graphics="Town Guard.jpg" text="Playable on a covert company at or moving to a Free-hold [F] or Border-hold [B], if a non-animal, non-Ent faction of the same alignment is in play at the site. Cancel an attack keyed to the site or give the attack -3 prowess (your choice). May also be played during opponent’s site phase to cancel CvCC, if the same conditions are met.">
+			 <attr key="type" value="Dual Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="Venomous Sting" graphics="Venomous Sting.jpg" text="Playable on a character wounded by an attack by Spiders, Bees or Morgai Flies this turn. Disease. Attacker may now choose: target character receives -1 bodytarget character receives -1 prowesstarget character’s company may move 1 less region.Discard this card when the character is healed. If played on an Elf, discard this card at the end of the next movement/hazard phase.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="War Preparations" graphics="War Preparations.jpg" text="Stolen Knowledge. Scout only. Playable at any tapped or untapped Shadow-hold [S] or Dark-hold [D] in Mordor, after facing all automatic-attack(s). Tap a scout (but not the site) to place this card on him. Can be stored at a Haven [H] for 2 mp. You may discard a stored War Preparations to take 1 faction playable at a site in Gondor from your discard pile or sideboard to your hand. Cannot be duplicated at a given site.">
+			 <attr key="magic" value="Stolen Knowledge"/>
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="mp" value="(2)"/>
+			 <attr key="keyword" value="Stolen Knowledge"/>
+		</card>
+		<card name="Watchers at the Gate" graphics="Watchers at the Gate.jpg" text="Playable on a Shadow-hold [S] or Dark-hold [D]. The site gains an additional automatic- attack: Pûkel-creature — 2 strikes with 9 prowess. Cannot be duplicated on a given site. Discard if the attack is defeated or when the site leaves active play.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Weary of War" graphics="Weary of War.jpg" text="Every non-Ringwraith character in a company that has initiated CvCC must make a CC at -2 during the end-of-turn phase.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="When a Man Loves a Woman" graphics="When a Man Loves a Woman.jpg" text="Playable on a company containing either: Arwen and Aragorn II, Galadriel and Celeborn, or Eowyn and Faramir. Each of them gains +2 EI useable only against the other. If they are in the same company, all influence attempts against them fail. +1 to each of their CC. If one of them leaves play but is not eliminated, you may wound the other at any time (no body check required) to return the missing one to your hand (reshuffle play deck if it was searched).">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="cp" value="(+1)"/>
+		</card>
+		<card name="Wizard's Pupil" graphics="Wizards Pupil.jpg" text="Unique. Playable on Faramir, if in company with Gandalf or if you discard (for no effect) a Lost Knowledge card from hand or the company. Faramir gains the sage skill. +2 EI against non- warrior Dúnedain. +2 to his CC when bearing a ring item.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="mind" value="+1"/>
+			 <attr key="influence" value="+2"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="cp" value="(+2)"/>
+		</card>
+		<card name="Wose Ambush" graphics="Wose Ambush.jpg" text="Wose. Each character in the company faces a strike. +3 prowess against Orcs. May be played keyed to any Wose-hold. May also be played keyed to Andrast, Lamedon, Old Pûkel Gap or any region containing a Wose-hold, and to Border-holds [B], Ruins &amp; Lairs [R] and Shadow-holds [S] in these regions. Any body check resulting from the attack is modified by +2. May not be played if opponent has a Wose faction in play or a Wose character in the company. Cannot be duplicated on a given movement/hazard phase.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Creature"/>
+			 <attr key="prowess" value="7"/>
+			 <attr key="body" value="-"/>
+			 <attr key="mp" value="1*"/>
+			 <attr key="subclass" value="Woses"/>
+		</card>
+		<card name="Wose Blowpipe" graphics="Wose Blowpipe.jpg" text="Wose warrior only. tap: consider a successful non-detainment strike from a non-Nazgûl/ Ringwraith, non-Undead attack against a character in the company defeated (all effects of the successful strike still apply). Make a roll to determine if the strike’s body is also defeated; if the strike has no body value, the roll must be higher than 4.">
+			 <attr key="type" value="Dual Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Minor Item"/>
+			 <attr key="cp" value="1"/>
+			 <attr key="keyword" value="Battle-gear"/>
+		</card>
+		<card name="Wose Burial Site" graphics="Wose Burial Site.jpg" text="Playable at the end of the organization phase on a company containing a Wose using region movement with the last one being a non-Coastal Sea [c] region containing a Wose-hold (or an adjacent region). This card is used as a site card: Ruins &amp; Lairs [R] (automatic-attack: Pûkel-creature — 1 strike with 7 prowess. Playable: Items (minor), card draw: 1/1.) A ranger at this site may tap to play Healing Herbs from your hand, discard pile or sideboard even if the site is tapped. The hazard limit is reduced by 2 to a minimum of 2 for a company moving to this site. The company may only leave the site using region movement. Discard Wose Burial when the company moves to a new site.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Wose Elite Hunter" graphics="Wose Elite Hunter.jpg" text="+3 prowess against Orcs. May only be revealed as a starting character if the company already includes a Wose character with a higher mind. tap to allow his company to move with region movement as if two non-Shadow-land [s], non-Dark-domain [d] regions seprated by a mountain range were adjacent (at least 1 region must contain a Wose-hold).">
+			 <attr key="type" value="Dual Character"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="prowess" value="3"/>
+			 <attr key="body" value="8"/>
+			 <attr key="mind" value="3"/>
+			 <attr key="influence" value="0"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="home_site" value="Any Wose-hold"/>
+			 <attr key="skills" value="Warrior/Ranger"/>
+			 <attr key="race" value="Wose"/>
+			 <attr key="keyword" value="Wose"/>
+		</card>
+		<card name="Wose Shamanist Potion" graphics="Wose Shamanist Potion.jpg" text="Playable only on a company containing a Wose character, or after successful play of a Wose faction or rune item. Discard this item to defeat all strikes against bearer keyed to Wilderness [w] or Ruins &amp; Lairs [R] for the rest of the turn. Bearer makes a body check modified by -1 (wound if he fails, eliminate if already wounded).">
+			 <attr key="type" value="Dual Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Minor Item"/>
+			 <attr key="cp" value="1"/>
+		</card>
+		<card name="You've Come Back Changed" graphics="Youve Come Back Changed.jpg" text="Playable during the organisation phase on a Hobbit at Bree. Tap the Hobbit during the site phase at a Shadow-hold [S] or Dark-hold [D] to tap this card. This card remains tapped until the Hobbit taps during the site phase at Bree to invert this card. Once inverted you receive 2 mp and the Hobbit receives +1 prowess (+3 against Men or agents). Cannot be duplicated on a given Hobbit.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="prowess" value="(+1/-)"/>
+			 <attr key="mp" value="(2)"/>
+		</card>
+	</cards>
+</ccg-setinfo>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ccg-setinfo SYSTEM "../gccg-set.dtd">
+<ccg-setinfo name="FATE" dir="Fate" abbrev="FA" game="Middle-earth">
+  <cards>
+
+    		
+	
+	
+    <card name="Galion" graphics="Galion.jpg" text="Unique. Tap Galion to cancel attack against his company keyed to Woodland Realm.">
+       <attr key="unique" value="yes"/>
+       <attr key="skills" value="Scout"/>
+	   <attr key="mp" value="1"/>
+       <attr key="home_site" value="Thranduil's Halls"/>
+       <attr key="prowess" value="3"/>
+       <attr key="body" value="8"/>
+       <attr key="rarity" value="R"/>
+       <attr key="race" value="Elf"/>
+       <attr key="type" value="Hero Character"/>
+	   <attr key="mind" value="3"/>
+       <attr key="influence" value="0"/>
+    </card>
+	
+    <card name="Heladil" graphics="Heladil.jpg" text="Unique. +1 prowess against spiders. +1 direct influence against the Wood-elves faction.">
+       <attr key="unique" value="yes"/>
+       <attr key="skills" value="Warrior/Scout"/>
+	   <attr key="mp" value="1"/>
+       <attr key="home_site" value="Thranduil's Halls"/>
+       <attr key="prowess" value="3"/>
+       <attr key="body" value="8"/>
+       <attr key="rarity" value="R"/>
+       <attr key="race" value="Elf"/>
+       <attr key="type" value="Hero Character"/>
+	   <attr key="mind" value="3"/>
+       <attr key="influence" value="0"/>
+    </card>
+					
+	
+	<card name="Avari" graphics="Avari.jpg" text="Playable at any Elf-hold outsite of Eriador, Gondor, Mordor and/or Wilderland if the influence check is greater than 11. Standard Modifications: Men (-2), Dwarves (-2), Elves (+2).">
+       <attr key="mp" value="2"/>
+       <attr key="rarity" value="R"/>
+       <attr key="class" value="Elf Faction"/>
+       <attr key="type" value="Hero Resource"/>
+    </card>
+	
+	<card name="Axe-master" graphics="Axemaster.jpg" text="Warrior-only. Dwarf, elf, man or orc only, if bearing an axe. This card may also be played as a minion resource. Before resolving a creature attack (with equal or less strikes than the prowess bonus the axe he is bearing is giving to him vs. this creature (may not be used against creatures where each character faces a strike), bearer may opt to face the creature as though he were a one-character company. If the creature is defeated, the attack against the company is canceled and bearer makes a corruption check; if the creature is ineffectful the attack resolves normally; if the creature is succesfull discard bearer's axe along with this card; in any case tap the item afterwards. This card gives 2 corruption points to a minion bearer.">
+       <attr key="corruption" value="1(2)"/>
+	   <attr key="rarity" value="U"/>
+       <attr key="class" value="Permanent-event"/>
+       <attr key="type" value="Hero Resource"/>
+    </card>
+	
+	<card name="Blade-master" graphics="Blademaster.jpg" text="Warrior-only. Dunadan, elf, men, orc, ringwraith or Alatar only, if bearing a blade (e.g.Aiglos, Glamdring, or Sting, but noa an axe). This card may also be played as a minion resource. Before resolving a creature attack (with equal or 1 more marshalling points than the prowess bonus the blade he is bearing is giving to him vs. this creature), bearer may opt to face the creature as though he were a one-character company. If the creature is defeated, the attack against the company receives -X strikes equal to the weapon prowess bonus vs. this creature bearer makes a corruption check; if the creature is ineffectful the attack resolves normally; if the creature is succesfull bearer is wounded (no body check required); in any case tap the item afterwards. This card gives 2 corruption points to a minion bearer.">
+       <attr key="corruption" value="1(2)"/>
+	   <attr key="rarity" value="U"/>
+       <attr key="class" value="Permanent-event"/>
+       <attr key="type" value="Hero Resource"/>
+    </card>
+
+	<card name="Mace-master" graphics="Macemaster.jpg" text="Warrior-only. Dwarf, troll, wose or The Witch-king only, if bearing a flail, hammer or mace. This card may also be played as a minion resource. Before resolving a creature attack (with equal or less strikes than the prowess bonus the flail, hammer or mace he is bearing is giving to him vs. this creature (may not be used against creatures where each character faces a strike), bearer may opt to face the creature as though he were a one-character company. If the creature is defeated, the attack against the company receives -2 prowess and -2 body and bearer makes a corruption check; if the creature is ineffectful the attack resolves normally; if the creature is succesfull bearer is wounded (no body check required); in any case tap the item afterwards. This card gives 2 corruption points to a minion bearer.">
+       <attr key="corruption" value="1(2)"/>
+	   <attr key="rarity" value="U"/>
+       <attr key="class" value="Permanent-event"/>
+       <attr key="type" value="Hero Resource"/>
+    </card>
+
+	
+    
+	
+	<card name="Terror of Cardolan" graphics="Terror of Cardolan.jpg" text="Unique. Aradagor specific. Only playable if Aradagor is a War-Lord. Your companies with a company size of 2 or less or with Aradagor may play allies at tapped sites. This card can be played in the starting company in lieu of a character. +1 corruption checks for followers of Aradagor. Aradagor cannot be discarded from the result of a body check. +2 direct against trolls.">
+       <attr key="unique" value="yes"/>
+	   <attr key="sp" value="2"/>
+	   <attr key="rarity" value="R"/>
+       <attr key="class" value="Permanent-event"/>
+       <attr key="type" value="Minion Resource"/>
+    </card>
+			
+		
+	
+			
+	<card name="Creb Durga" graphics="Creb Durga.jpg" back="1" text="">
+       <attr key="unique" value="yes"/>
+       <attr key="haven" value="Rivendell"/>
+       <attr key="draw" value="1"/>
+       <attr key="region" value="Cardolan"/>
+	   <attr key="auto_attack" value="(1st) Orcs --- 2 strikes with 6 prowess (2nd) Trolls --- 2 strikes with 10 prowess"/>
+       <attr key="site_type" value="{S}"/>
+	   <attr key="playable" value="Items (minor, major, greater*) *---battle-gear item only---"/>
+       <attr key="special" value=""/>
+       <attr key="draw_opp" value="2"/>
+       <attr key="site_path" value="{w}{w}"/>
+       <attr key="rarity" value="U"/>
+       <attr key="type" value="Hero Site"/>
+    </card>
+	
+    <card name="Creb Durga" graphics="CrebDurga2.jpg" back="1" text="">
+       <attr key="unique" value="yes"/>
+       <attr key="haven" value="Carn Dûm"/>
+       <attr key="draw" value="1"/>
+       <attr key="region" value="Cardolan"/>
+	   <attr key="auto_attack" value="(1st) Orcs --- 2 strikes with 6 prowess (detainment against overt companies) (2nd) Trolls --- 2 strikes with 10 prowess (detainment against overt companies)"/>
+       <attr key="site_type" value="{S}"/>
+	   <attr key="playable" value="Items (minor, major)"/>
+       <attr key="special" value="Any non-unique Orc or Troll character may be brought into play at this site."/>
+       <attr key="draw_opp" value="2"/>
+       <attr key="site_path" value="{s}{w}{w]"/>
+       <attr key="rarity" value="U"/>
+       <attr key="type" value="Minion Site"/>
+    </card>
+			
+	<card name="The Under-caves" graphics="The Undercaves.jpg" back="1" text="">
+       <attr key="unique" value="yes"/>
+       <attr key="adjacent" value=" Creb Durga (0), The Gem-deeps (7), The Under-gates (6), The Under-vaults (9)"/>
+       <attr key="draw" value="2"/>
+       <attr key="region" value="Under-deeps"/>
+	   <attr key="auto_attack" value="(1st) Trolls --- 2 strikes with 10 prowess (2nd) Troll --- 1 strike with 13 prowess"/>
+       <attr key="site_type" value="{S}"/>
+	   <attr key="playable" value="Items (minor, major, greater*) *---battle-gear item only---"/>
+       <attr key="special" value="If Doors of Night is in play, creatures normally keyed to dark-hold {D} may be played at this site,"/>
+       <attr key="draw_opp" value="3"/>
+       <attr key="rarity" value="U"/>
+       <attr key="type" value="Hero Site"/>
+    </card>
+	
+	<card name="The Under-caves" graphics="TheUndercaves2.jpg" back="1" text="">
+       <attr key="unique" value="yes"/>
+       <attr key="adjacent" value=" Creb Durga (0), The Gem-deeps (7), The Under-gates (6), The Under-vaults (9)"/>
+       <attr key="draw" value="2"/>
+       <attr key="region" value="Under-deeps"/>
+	   <attr key="auto_attack" value="Trolls --- 2 strikes with 10 prowess (2nd) Opponent may play as an automatic-attack one non-unique hazard creature from his hand normally keyed to a Ruins and Lairs"/>
+       <attr key="site_type" value="{S}"/>
+	   <attr key="playable" value="Items (minor, major)"/>
+       <attr key="special" value="Non-Nazgûl creatures played at this site attack normally, not as detainment. Any non-unique ally playable at any under-deeps site may be played here."/>
+       <attr key="draw_opp" value="3"/>
+       <attr key="rarity" value="U"/>
+       <attr key="type" value="Minion Site"/>
+    </card>
+	
+		
+  </cards>
+</ccg-setinfo>

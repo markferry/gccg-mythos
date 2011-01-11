@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ccg-setinfo SYSTEM "../gccg-set.dtd">
+<ccg-setinfo name="Virtual Set 3" dir="VC3" abbrev="V3" game="Middle-earth">
+	<cards>
+		<card name="A More Evil Hour" graphics="A More Evil Hour.jpg" text="Place this card on your non-Balrog avatar if in play. If on your avatar, the following applies to his company. You may place any tapped under-deeps ruins ‘n lairs [R] with this card; it is not discarded when moving to another site. Each card attached is worth 1 MP. You may use Balrog ruins ‘n lairs [R] sites that have no hero version. A fallen wizard must make a cc each time he reveals an under-deeps site. This card may be played in lieu of a minor item in your starting company. You may discard an attached site at any time during the game. Cannot be duplicated.">
+			 <attr key="type" value="Minion Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="mp" value="(*)"/>
+		</card>
+		<card name="A New Ringlord" graphics="A New Ringlord.jpg" text="Playable if your Wizard is at a protected wizardhaven [H] and bears the One Ring. If you have at least 70 stage points you win the game (counting this card's SP). Cannot be duplicated">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="sp" value="8"/>
+		</card>
+		<card name="All the Bells Ringing" graphics="All the Bells Ringing.jpg" text="During your organization phase you may bring characters into play under general or direct influence at your avatar's homesite, even if your avatar is in play and not at the same site. Bringing a character into play in this manner does count against the one character per turn limit.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="All Thought Bent upon It" graphics="All Thought Bent upon It.jpg" text="Playable on Stinker. Tap Stinker to take an item opponent has in play from discard pile to hand (show opponent). If his company size is less than 3, the company may move up to two additional regions when moving to a site where opponent's company is present; you must reveal from hand an item (or a manifestation thereof) opponent's company controls. After any successful strike by Stinker in CvCC, you may play with a character in the company an item identical to an item opponent's character wounded by Stinker is bearing: discard opponent's item and this card.">
+			 <attr key="type" value="Minion Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Ancient Secrets" graphics="Ancient Secrets.jpg" text="Playable on a sage at a darkhaven [K]. Tap this card if the sage successfully plays an Information card at Minas Tirith. Invert this card if already tapped and the sage successfully plays an Information card at Isengard. If inverted, this card gives 3 miscellaneous Marshalling Points, and your hand size increases by one. Cannot be duplicated in a given company.">
+			 <attr key="type" value="Minion Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="mp" value="(3)"/>
+		</card>
+		<card name="Await the Advent of Allies" graphics="Await the Advent of Allies.jpg" text="Playable only if Aragorn II or Gandalf is at Minas tirith and you have a character with Edoras as home site in Dunharrow or Edoras during the organization phase. Tap this card at the end of the movement hazard phase in wich a character with Edoras as home site moved to a site in Anorien from Dunharrow or Edoras and Aragorn II or Gandalf is still at Minas Tirith. If this card is tapped, Riders of Rohan can be played at any site in Anorien. If Riders of Rohan enters play this manner, place them with this card and you receive its marshalling points. Cannot be duplicated by a given player.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="mp" value="(2)"/>
+		</card>
+		<card name="Back to the Fray" graphics="Back to the Fray.jpg" text="During your organization phase you may bring minion characters into play under general or direct influence at a Darkhaven [K], even if your avatar is in play and not at the same site. Bringing a character into play in this manner does count against the one character per turn limit.">
+			 <attr key="type" value="Minion Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Biter and Beater!" graphics="Biter and Beater!.jpg" text="All hero Items give double their corruption points when controlled by a minion character. May not be duplicated.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Black Vapour" graphics="Black Vapour.jpg" text="Playable if Doors of Night is in play on a Spawn permanent-event which creates an additional automatic attack at an Under-deeps site. Place any adjacent Under-deeps site or surface site thereof. This site receives the additional Spawn automatic attack instead of the original site(s).">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Carrion Birds" graphics="Carrion Birds.jpg" text="Playable on a character that was just wounded by an attack. Target character makes a body check at the end of his untap phase. If target character is eliminated, place this card in opponent's marshalling point pile. Discard this card during any organization phase in which target character is at a Free-hold [F] or Haven [H]. Cannot be duplicated on a given character.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="mp" value="(-2)"/>
+		</card>
+		<card name="Catch an Eluscive Scent" graphics="Catch an Eluscive Scent.jpg" text="Playable when a resource worth Marshalling Points that would otherwise be discarded or returned to your hand if your opponent's avatar is in play. Place the resource “off to the side” with this card. This resource may be played (regardless of the site's tapped status) during the site phase at the indicated site and face an attack based on your opponent's avatar: Ringwraith: Home Site, Nazgul 1 strike at 16/9 (detainment if you are a Ringrwaith); Wizard: Home Site, Maia 2 strikes at 13/9 (detainment if you are a FW with less than 10 stage points); Balrog: Moria, Maia 1 strike at 20 (detainment if you are a balrog player); Sauron: Barad-Dur, Maia 1 strike at 24.">
+			 <attr key="type" value="Minion Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Covetous Thoughts" graphics="Covetous Thoughts.jpg" text="Playable on Gollum or Stinker. If at the same site or site of destination, you may reveal My Precious. Make a roll, subtract the controlling character's unused direct influence and add the total MP value of any rings in the company. If the result is >7, discard Stinker/Gollum: My Precious attacks a ring bearer (attacker's choice) with +2 prowess (and a roll). Either way, turn My Precious face down afterwards.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="Crebain" graphics="Crebain.jpg" text="Playable if you reveal an Animal hazard creature from your hand. Opponent may reveal to you any number of resources from his hand; only those resources may be played for the rest of the movement/hazard phase (for the rest of the turn if Eyes of the Shadow is in play).">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="Double Dealing" graphics="Double Dealing.jpg" text="Playable during the site phase on a lone Man, Orc or Troll character at Carn Dum, Dol Guldur or Minas Morgul if your opponent is a Ringwraith or Sauron, or Moria if your opponent is the Balrog. Discard all cards played with this character and this character no longer gives any MPs or requires GI to control. Character becomes an agent: any attack against a minion company attacks normally and hazard events that require an agent can be played. Rotate this card 90° each time you attack a minion company or successfully influence a minion resource. This card gives 1 MP each time it is rotated to a maximum of 3. Cannot be duplicated on a given character.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event "/>
+			 <attr key="mp" value="(3)"/>
+			 <attr key="sp" value="1"/>
+		</card>
+		<card name="Dragon-lore" graphics="Dragon-lore.jpg" text="Sage Only at a site where Information is playable. Tap the sage and the site. When this card is played, you may bring one “At Home” manifestation of a unique Dragon from your sideboard and place it “off to the side” with this card. If this card is stored at a haven [H], the At Home manifestation enters play as though played from your hand, and you may tap this card at any time during your turn to lower the number of strikes of a dragon attack by one. May not be duplicated by a given player.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="mp" value="1"/>
+		</card>
+		<card name="Fair Travel in Free-domains" graphics="Fair Travel in Free-domains.jpg" text="Playable on a company during the movement/ hazard phase if the company has at least one Free Domain [f] in their site path. Until the end of the phase, a diplomat character can tap to cancel a card with the word “lost” on its title played against his company.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="Free to Choose" graphics="Free to Choose.jpg" text="Playable on a diplomat during the organization phase instead of playing a character. Target diplomat may make an influence attempt against a hazard agent at the same site as though target agent were a minion character modified by +3 if they have the same home site and not modified by general influence. If successful, place this card with the agent; the agent is now a hero character under your control. May not be duplicated by a given player.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Gift of Comprehension" graphics="Gift of Comprehension.jpg" text="Playable on a sage during the site phase at Amon Hen. Tap the sage. Tap this card to look at the top two cards of opponent's play deck. When tapped this card gives 1 marshalling point and sage makes a corruption check modified by -1. This card does not untap during the untap phase. If tapped, your opponent may tap a character to untap this card at the start of his organization phase and look at the top card of your play deck; tapping character makes a corruption check modified by -1.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Imprisoned and Mocked" graphics="Imprisoned and Mocked.jpg" text="Playable on a non detainment Pukel-Creature attack. One strike of a Pukel-Creature attack attempts to take a character prisoner at a shadow-hold [S], dark-hold [D], or a site with a Pukel-Creature auto-attack. Rescue attacks (2): Pukel-Creature: 3 strikes at 9 prowess, 2 strikes at 10 prowess.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="In the Name of Mordor" graphics="In the Name of Mordor.jpg" text="Playable on a diplomat in a covert minion company. Choose a hero character opponent has in play with a mind > 5. Each time you enter hero character's non Shadow [S]/Dark-hold [D] home site, rotate this card 90°. This card has the following effects (cumulative) according to the number of rotations: Once: make a roll during untap phase: if >6 he does not untap. Twice: he costs 2 more points of influence to control. Thrice: he returns to his home site immediately. When at his home site, hero character or wizard may tap to rotate this card backwards one time (2 times if wizard). Smoke on the Wind and Burning Rick, Cot and Tree may not be played on his homesite(s). This card is worth 1 MP for each time rotated. Cannot be duplicated.">
+			 <attr key="type" value="Minion Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="mp" value="(*)"/>
+		</card>
+		<card name="Into the Smoking Cone" graphics="Into the Smoking Cone.jpg" text="Playable during the site phase at Mount Doom if you have at least 4 sites placed with Tower Raided. The company faces 4 attacks: Orcs: 4 at 10/5 , Trolls: 3 at 12/6, Undead: 2 at 15/6, Nazgul: 1 at 16/9. Reduce body of these attacks by 1 for each character in the company. Discard this card if any of these attacks are not defeated. May not be duplicated on a given turn.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="mp" value="6"/>
+		</card>
+		<card name="Knowledge of the Enemy" graphics="Knowledge of the Enemy.jpg" text="Playable during the site phase on a lone Man character at Carn Dum, Dol Guldur or Minas Morgul if your opponent is a Ringwraith or Sauron, or Moria if your opponent is the Balrog. Discard all cards played with this character and this character no longer gives any MPs or requires GI to control. Character becomes an agent: any attack against a minion company attacks normally and hazard events that require an agent can be played. Rotate this card 90° each time you attack a minion company or successfully influence a minion resource. This card gives 1 MP each time it is rotated to a maximum of 3. If character is killed put this card in your MP pile. Cannot be duplicated on a given character.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="mp" value="(3)"/>
+		</card>
+		<card name="Legendary Stair" graphics="Legendary Stair.jpg" text="Playable during the organization phase. This card acts as a Ruins &amp; Lairs [R] site in either High Pass, Grey Mountain Narrows, or Rohan (place region card with this card). Draw: opponent 3, you 1. One of your characters at this site may tap to rotate it 90° (max 270°) each time Hold Rebuilt and Repaired is played for no effect. For each 90° rotated this card gives 2 MPs. If rotated 270° the site becomes a Dark-hold [D]. Your opponent may use this site: if opponent initiates CvCC and afterwards taps a character, rotate this card back 90°. Discard this card at the end of any turn in which there are no characters present.">
+			 <attr key="type" value="Minion Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="mp" value="(6)"/>
+		</card>
+		<card name="Long Grevious Siege" graphics="Long Grevious Siege.jpg" text="+1 to your influence attempts against Man and Dunadan factions. If your Ringwraith or a leader is at Minas Tirith and you have at least one orc and two man/dunadan factions in play, and Grond is in play, you may tap this card during the site phase. When tapped, the company faces 3 attacks (Men - 5 strikes with 9 prowess, Dunadan - 4 strikes with 10 prowess, Dunadan - 1 strike with 13 prowess, and attacks from all Maia permanent-events). Following the attacks, tap your Ringwraith or leader to place this card with Minas Tirith and receive its MP. All versions of Minas Tirith become a Shadow-hold [S], lose their normal automatic attacks, and receive an automatic attack (Orcs - 4 strikes with 7 prowess - detainment against your companies). Anorien becomes a Shadow-land [s]. Cannot be duplicated as a Virtual card.">
+			 <attr key="type" value="Minion Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="mp" value="(5)"/>
+		</card>
+		<card name="Magic Ring of Courage" graphics="Magic Ring of Courage.jpg" text="Magic Ring. Playable only with a Gold Ring and after a test indicates a Magic Ring. Gives the bearer warrior skill. If bearer is already a Warrior, tap Magic Ring of Courage to reduce the body of an attack by -2.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Special Item"/>
+			 <attr key="mp" value="3"/>
+			 <attr key="cp" value="2"/>
+		</card>
+		<card name="Magic Ring of Fury " graphics="Magic Ring of Fury.jpg" text="Magic Ring. Playable only with a Gold Ring and after a test indicates a Magic Ring. Gives the bearer warrior skill. If bearer is already a Warrior, tap Magic Ring of Fury to reduce the body of an attack by -2.">
+			 <attr key="type" value="Minion Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Special Item"/>
+			 <attr key="mp" value="2"/>
+			 <attr key="cp" value="2"/>
+		</card>
+		<card name="Magic Ring of Lies" graphics="Magic Ring of Lies.jpg" text="Magic Ring. Playable only with a Gold Ring and after a test indicates a Magic Ring. Gives the bearer diplomat skill. If bearer is already a Diplomat, +3 to influence checks against an opponent's resources, and the cross-alignment penalty does not apply.">
+			 <attr key="type" value="Minion Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Special Item"/>
+			 <attr key="mp" value="2"/>
+			 <attr key="cp" value="2"/>
+		</card>
+		<card name="Magic Ring of Nature" graphics="Magic Ring of Nature.jpg" text="Magic Ring. Playable only with a Gold Ring and after a test indicates a Magic Ring. Gives the bearer ranger skill. If bearer is already a Ranger, tap him to cancel any Environment effect that affects his company or his company's new site or a region in his company's site path.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Special Item"/>
+			 <attr key="mp" value="3"/>
+			 <attr key="cp" value="2"/>
+		</card>
+		<card name="Magic Ring of Savagery" graphics="Magic Ring of Savagery.jpg" text="Magic Ring. Playable only with a Gold Ring and after a test indicates a Magic Ring. Gives the bearer ranger skill. If bearer is already a Ranger, tap him to cancel any Environment effect that affects his company or his company's new site or a region in his company's site path.">
+			 <attr key="type" value="Minion Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Special Item"/>
+			 <attr key="mp" value="2"/>
+			 <attr key="cp" value="2"/>
+		</card>
+		<card name="Magic Ring of Words" graphics="Magic Ring of Words.jpg" text="Magic Ring. Playable only with a Gold Ring and after a test indicates a Magic Ring. Gives the bearer diplomat skill. If bearer is already a Diplomat, +3 to influence checks against an opponent's resources, and the cross-alignment penalty does not apply.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Special Item"/>
+			 <attr key="mp" value="3"/>
+			 <attr key="cp" value="2"/>
+		</card>
+		<card name="Man of Skill" graphics="Man of Skill.jpg" text="Unique. Saruman specific. Saruman may tap to cancel and discard Rolled Down to the Sea before it resolves. Tap this card during a site phase where Saruman's company successfully plays a Stolen Knowledge card. Invert this card if it is tapped and Saruman's company successfully plays a Special Ring Item using Ringlore or Secrets of Their Forging. If this card is inverted, it gives 3 Marshalling Points and Saruman need not be at the same site as a character bearing a Ring Item in order to influence him.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="mp" value="(3)"/>
+			 <attr key="sp" value="2"/>
+			 <attr key="specific" value="Saruman"/>
+		</card>
+		<card name="Morgul-blade" graphics="Morgul-blade.jpg" text="Playable on your Ringwraith or a Ringwraith follower. Instead of making a body check, a non-Wizard character wounded by this Ringwraith, receives this card and -1/-1 prowess/body and must make a body check each untap phase. If at a Haven [H], instead of healing, a character with this card may attempt to remove it. Make a roll: if this result is greater than 4, discard this card. If a character with this card is eliminated, instead of being removed from play, place him immediately under the control of your opponent's Ringwraith. The character is considered a minion, requires no DI to control, and makes his company overt. Cannot be duplicated on a Ringwraith or character.">
+			 <attr key="type" value="Minion Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Narya" graphics="Narya.jpg" text="Playable on Cirdan or Gandalf. During the organization phase, tap Narya to search your play deck or discard pile for Wizard's Fire or Kindling of the Spirit. If on Cirdan and untapped, he may use Kindling of the Spirit as if he were a wizard. If on Gandalf and untapped, +1 to any corruption check from Wizard's Fire. Discard if on Cirdan when Gandalf comes into play (transfer instead to Gandalf if he comes into play at same site). Cannot be duplicated as a Virtual card.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="No Way Forward" graphics="No Way Forward.jpg" text="Playable on a Pukel-Creature hazard creature attack. If any Pukel-Creature strike succeeds, the defending character may do nothing during the site phase. Alternatively, Unabated in Malice can be played on a Pukel-Creature attack.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="Poison" graphics="Poison.jpg" text="Playable on a weapon. Tap bearer. Any character wounded by bearer in CvCC receives this card (invert card). Rotate this card 90° during the character's untap phase (to a maximum of 360°). At the end of the character's untap phase, character makes a body check modified by +1 per 180° this card has been rotated. Failure of this body check gives this character's marshalling points as kill points. Instead of healing, a character may remove this card from the game. Cannot be duplicated on a given weapon.">
+			 <attr key="type" value="Minion Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="cp" value="1"/>
+		</card>
+		<card name="Sack Over the Head" graphics="Sack Over the Head.jpg" text="Playable on a Troll during Company vs. Company combat. Any character that would normally be wounded by the Troll is instead taken prisoner with the Troll's company. Rescue-attack must be faced at the site where the troll is present. Rescue-attack: Trolls 1 strike at 9 prowess.">
+			 <attr key="type" value="Minion Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Saruman the Wise" graphics="Saruman the Wise.jpg" text="Unique. Maia. Manifestation of Saruman. Three strikes. Detainment and -3 prowess against hero companies. Discard this card if Saruman comes into play. As a creature, may also be played keyed to Gap of Isen, Rohan, Enedhwaith, or Old Pûkel-land; or at sites in these regions. As a permanent-event, at the end of each turn, each player may take take to hand from discard pile to hand, one of the following cards: Pukel-men, Silent Watcher or Eyes of the Shadow.Discard when any play deck is exhausted.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Creature/Permanent-event"/>
+			 <attr key="prowess" value="13"/>
+			 <attr key="body" value="9"/>
+			 <attr key="mp" value="6*"/>
+			 <attr key="playable" value="{f}{F}"/>
+			 <attr key="strikes" value="3"/>
+			 <attr key="subclass" value="Maia"/>
+		</card>
+		<card name="Secret News" graphics="Secret News.jpg" text="Diplomat only at a site where Information is playable. Tap the diplomat. Tap this card to look at the top card of your play deck and return it to the top of your playdeck. If at the same site as an opponent's company, the diplomat may tap to look at the top card of your opponent's play deck.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Slip Treacherously" graphics="Slip Treacherously.jpg" text="Playable on a non-Wizard, non-Ringwraith character. The following effects are cumulative depending on the number of Slip Treacherously cards played on the character. One: If untapped, the character must be assigned a strike of any attack with more than one strike. Two: The hazard limit for this character's company is increased by 1. Three: The hazard player may draw one extra card during this character's movement/hazard phase. During the organization phase, another character in target character's company may tap to attempt to remove this card. Make a roll: if the result is greater than 7, discard this card (+2 if sage).">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Song of the Lady" graphics="Song of the Lady.jpg" text="This card affects all companies with a female character. Any company which splits off from a female character must tap a character (two for an elf, three for Galadriel). May not be duplicated.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Long-event"/>
+		</card>
+		<card name="The Precious" graphics="The Precious.jpg" text="Does not affect Hobbits. During the site phase or when the One Ring first comes into play, the character with the lowest mind in the same company as the bearer of the One Ring must attack the bearer of the One Ring, handled according to the rules for CvCC. Discard this card if the bearer cancels the strike using the One Ring. May be duplicated, but only one copy of this card may trigger once in a given site phase.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="The Ring Leaves Its Mark" graphics="The Ring Leaves Its Mark.jpg" text="Playable on a Ringwraith company that is not in fell rider mode. The company may travel with region movement to a non-haven site where a hero character bearing a ring item is present, and you may tap one ringwraith to move an extra region. Additionally, if moving in this fashion, you may play a ringwraith-follower from hand at the end of movement/hazard phase (if your ringwraith has enough influence to control him). Tap this card if you move with region movement from a non-Darkhaven to a site where opponent's ringbearer is present. If tapped you may store this card at a Dark-haven [K] for 3 MP (any additional stored version gives 1 MP).Cannot be duplicated on a company.">
+			 <attr key="type" value="Minion Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="mp" value="3"/>
+		</card>
+		<card name="The Ring's Betrayal" graphics="The Ring's Betrayal.jpg" text="Playable on a moving company bearing a Gold Ring Item or Leaf Brooch. Opponent must place a Gold Ring Item or Leaf Brooch “off to the side” with this card. Item does not give marshalling points while it is off to the side. Take a site from your location deck which is in one of the regions the company is moving through and place it with this card (use Barad-dur or Isengard if possible). Alternatively, if Doors of Night is in play this may be an Under-deeps site adjacent to the company's new site. Opponent may play this item as if it were in his hand at this site regardless of site status.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="The Sun Shone Fiercely" graphics="The Sun Shone Fiercely.jpg" text="Environment. Any non-Hero company with a free-domain [f] or border-land [b] in its site path must return to its site of origin unless it contains a Ranger. In addition, if Gates of Morning or Skies of Fire is in play, each minion site with a free-domain [f] or border-land [b] in its site path is tapped. Cannot be duplicated">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Long-event"/>
+		</card>
+		<card name="The Undeeps of Anduin" graphics="The Undeeps of Anduin.jpg" text="Unique. Lost Knowledge. Playable on an untapped sage at a site in Anduin Vales or Brown Land. Tap the sage and the site (if untapped). Sage may tap to cancel the effect of Rolled Down to the Sea before it resolves. Tap this card to take Gollum or Stinker from the discard pile to your hand or to force My Precious to attack your company normally, not as detainment (with +2 prowess) regardless of his current site. Discard this card when tapped.">
+			 <attr key="type" value="Minion Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="The Water's Tithe" graphics="The Water's Tithe.jpg" text="Magic. Sorcery. Playable by your Ringwraith. Tap this card to allow your Ringwraith to have any number of coastal seas [c] in his site path. This card doesn't untap during untap phase. If this card is tapped and Ringwraith's company moves with at least 1 coastal sea [c] region, discard this card at the end of movement/ hazard phase. Cannot be duplicated by a given player.">
+			 <attr key="type" value="Minion Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="The Will of the Ring" graphics="The Will of the Ring.jpg" text="Playable on a company with a character bearing any Ring Item or Wizard's Ring. Make a roll, adding the character's mind (10 for a wizard) and subtracting his current corruption point total. If the roll is less than 5, replace the company's new site with any Ruins &amp; Lairs [R], Shadow-hold [S], or Dark-hold [D] in any of the regions in their site path.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="Whispers of Rings" graphics="Whispers of Rings.jpg" text="Non balrog minion only. Sage only at a site where Information is playable. Tap the sage and the site. During the site phase at Lorien, the bearer's company may choose to face an attack: Elf 1 strike at 14/10. If this attack is defeated, this card is tapped. If this card is tapped and at Rivendell, the company may elect to face an attack during the site phase: Elf 1 Strike at 18/9. If this attack is defeated, invert this card. If inverted, this card may be stored at Barad-Dur for 7 MPs. If stored, Lady of the Golden Wood may not be played, and all hero players must discard a random card from their hand.">
+			 <attr key="type" value="Minion Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="mp" value="(7)"/>
+		</card>
+		<card name="Wielded Twice" graphics="Wielded Twice.jpg" text="If a character bearing a weapon is chosen to be the target of a strike from an attack, that character may choose to face a another strike from that attack. The character faces a separate strike sequence for each strike. Alternatively, tap bearer of a tapped item to untap the item. Bearer makes a corruption check.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="Wizard's Ring" graphics="Wizard's Ring.jpg" text="Lesser Ring. Playable only with a gold ring and after a test indicates a lesser ring. Discard if not borne by an avatar. Tap Wizard's Ring to cancel a detainment attack. Tap Wizard's Ring to increase your GI by 2 until the end of the turn. If on Alatar: tap this item to decrease the body of a creature by -1; if on Gandalf: tap this item to decrease the prowess and strikes of an automatic attack by -1 (to minimum of 1); if on Pallando: tap this item to increase body of a man/dunadan character in company by +1; if on Radagast: tap this item to heal a character in his company from wounded to tapped; if on Saruman: tap this item to untap any one item in the company. Bearer makes a corruption check when this item is tapped. Cannot be duplicated on a given wizard.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Special Item"/>
+			 <attr key="influence" value="+2"/>
+			 <attr key="mp" value="2"/>
+			 <attr key="cp" value="2"/>
+		</card>
+	</cards>
+</ccg-setinfo>

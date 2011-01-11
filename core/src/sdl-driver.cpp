@@ -1172,9 +1172,16 @@ namespace Driver
         }
 
 	if(!newcard)
+        {
+            file=CCG_DATADIR;
+            file+="/graphics/unknown_card.png";
+	    newcard=IMG_Load(file.c_str());
+        }
+
+	if(!newcard)
 	{
 	    if(imagenumber==0)
-		throw Error::IO("Driver::LoadIfUnloaded(int,int,int)","Unable to load file '"+file+"'");
+		throw Error::IO("Driver::LoadIfUnloaded(int,int,int)","Unable to load 0-image file '"+file+"'");
 
 	    newcard=CreateOwnCard(imagenumber);
 				

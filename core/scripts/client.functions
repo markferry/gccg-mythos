@@ -573,6 +573,8 @@ def ok
 {
   if(length(sets())==0)
     Msg("{red}You need to download game repository for full functionality.");
+  else
+    return(1);
 }
 
 #

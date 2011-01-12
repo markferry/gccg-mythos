@@ -1,0 +1,220 @@
+#
+# V:TES Deck Statistics Script by Malakh
+#
+
+def CountVampires
+{
+
+  push(a);
+  push(n);
+  push(t);
+  t=0.0;
+  for(c)(ARG)
+  {
+    a=Attr("type",c);
+	if(find("Vampire",a)!=NULL)
+	{
+	  t=t+1.0;
+	}
+  }
+  return(t);
+  t=pop();
+  n=pop();
+  a=pop();
+
+
+}
+
+def CountEquipment
+{
+
+  push(a);
+  push(n);
+  push(t);
+  t=0.0;
+  for(c)(ARG)
+  {
+    a=Attr("type",c);
+	if(find("Equipment",a)!=NULL)
+	{
+	  t=t+1.0;
+	}
+
+  }
+  return(t);
+  t=pop();
+  n=pop();
+  a=pop();
+}
+
+def CountActions
+{
+
+  push(a);
+  push(n);
+  push(t);
+  t=0.0;
+  for(c)(ARG)
+  {
+    a=Attr("type",c);
+	if(find("Action",a)!=NULL && find("Action Modifier",a)==NULL && find("Political Action",a)==NULL)
+	{
+	  t=t+1.0;
+	}
+	
+  }
+  return(t);
+  t=pop();
+  n=pop();
+  a=pop();
+}
+
+def CountActionMods
+{
+
+  push(a);
+  push(n);
+  push(t);
+  t=0.0;
+  for(c)(ARG)
+  {
+    a=Attr("type",c);
+	if(find("Action Modifier",a)!=NULL)
+	{
+	  t=t+1.0;
+	}
+	
+  }
+  return(t);
+  t=pop();
+  n=pop();
+  a=pop();
+}
+
+def CountPoliticalActions
+{
+
+  push(a);
+  push(n);
+  push(t);
+  t=0.0;
+  for(c)(ARG)
+  {
+    a=Attr("type",c);
+	if(find("Political Action",a)!=NULL)
+	{
+	  t=t+1.0;
+	}
+	
+  }
+  return(t);
+  t=pop();
+  n=pop();
+  a=pop();
+}
+
+def CountReactions
+{
+
+  push(a);
+  push(n);
+  push(t);
+  t=0.0;
+  for(c)(ARG)
+  {
+    a=Attr("type",c);
+	if(find("Reaction",a)!=NULL)
+	{
+	  t=t+1.0;
+	}
+  }
+  return(t);
+  t=pop();
+  n=pop();
+  a=pop();
+}
+
+def CountCombat
+{
+
+  push(a);
+  push(n);
+  push(t);
+  t=0.0;
+  for(c)(ARG)
+  {
+    a=Attr("type",c);
+	if(find("Combat",a)!=NULL)
+	{
+	  t=t+1.0;
+	}
+  }
+  return(t);
+  t=pop();
+  n=pop();
+  a=pop();
+}
+
+def CountAllies
+{
+
+  push(a);
+  push(n);
+  push(t);
+  t=0.0;
+  for(c)(ARG)
+  {
+    a=Attr("type",c);
+	if(find("Ally",a)!=NULL)
+	{
+	  t=t+1.0;
+	}
+  }
+  return(t);
+  t=pop();
+  n=pop();
+  a=pop();
+}
+
+def CountMasters
+{
+
+  push(a);
+  push(n);
+  push(t);
+  t=0.0;
+  for(c)(ARG)
+  {
+    a=Attr("type",c);
+	if(find("Master",a)!=NULL)
+	{
+	  t=t+1.0;
+	}
+  }
+  return(t);
+  t=pop();
+  n=pop();
+  a=pop();
+}
+
+def CountRetainers
+{
+
+  push(a);
+  push(n);
+  push(t);
+  t=0.0;
+  for(c)(ARG)
+  {
+    a=Attr("type",c);
+	if(find("Retainer",a)!=NULL)
+	{
+	  t=t+1.0;
+	}
+  }
+  return(t);
+  t=pop();
+  n=pop();
+  a=pop();
+}
+

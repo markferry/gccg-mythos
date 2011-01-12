@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ccg SYSTEM "gccg-game.dtd">
+
+<ccg name="Vampire: The Eternal Struggle" dir="Vtes">
+  <option name="hand card size" value="35"/>
+  <option name="table card size" value="35"/>
+  <option name="deck card size" value="18"/>
+  <option name="book card size" value="29"/>
+  
+  <trigger event="location hint" attribute="type"/>
+  <trigger event="play" attribute="type"/>
+  
+  <cardset source="vtes_basecards.xml"/>
+  <cardset source="jyhad.xml"/>
+  <cardset source="vtes.xml"/>
+  <cardset source="ds.xml"/>
+  <cardset source="ah.xml"/>
+  <cardset source="sabbat.xml"/>
+  <cardset source="sw.xml"/>
+  <cardset source="fn.xml"/>
+  <cardset source="bl.xml"/>
+  <cardset source="ce.xml"/>
+  <cardset source="anarchs.xml"/>
+  <cardset source="bh.xml"/>
+  <cardset source="gehenna.xml"/>
+  <cardset source="tenth.xml"/>
+  <cardset source="kmw.xml"/>
+  <cardset source="lob.xml"/>
+  <cardset source="nor.xml"/>
+  <cardset source="third.xml"/>
+  <cardset source="soc.xml"/>
+  <cardset source="lotn.xml"/>
+  <cardset source="tr.xml"/>
+  <cardset source="kot.xml"/>
+  <cardset source="ek.xml"/>
+  <cardset source="promo.xml"/>
+  
+ <image file="IconClanAbo.png" tag="{Abomination}"/>
+ <image file="IconClanAhr.png" tag="{Ahrimane}"/>
+ <image file="IconClanAku.png" tag="{Akunanse}"/>
+ <image file="IconClanAss.png" tag="{Assamite}"/>
+ <image file="IconClanBaa.png" tag="{Baali}"/>
+ <image file="IconClanBBr.png" tag="{BBrothers}"/>
+ <image file="IconClanBru.png" tag="{Brujah}"/>
+ <image file="IconClanBruA.png" tag="{BrujahA}"/>
+ <image file="IconClanCai.png" tag="{Caitiff}"/>
+ <image file="IconClanDoC.png" tag="{DoC}"/>
+ <image file="IconClanGan.png" tag="{Gangrel}"/>
+ <image file="IconClanGanA.png" tag="{GangrelA}"/>
+ <image file="IconClanGar.png" tag="{Gargoyle}"/>
+ <image file="IconClanGio.png" tag="{Giovanni}"/>
+ <image file="IconClanGur.png" tag="{Guruhi}"/>
+ <image file="IconClanHoS.png" tag="{HoS}"/>
+ <image file="IconClanIsh.png" tag="{Ishtarri}"/>
+ <image file="IconClanKia.png" tag="{Kiasyd}"/>
+ <image file="IconClanLas.png" tag="{Lasombra}"/>
+ <image file="IconClanMal.png" tag="{Malkavian}"/>
+ <image file="IconClanMalA.png" tag="{MalkavianA}"/>
+ <image file="IconClanNag.png" tag="{Nagaraja}"/>
+ <image file="IconClanNos.png" tag="{Nosferatu}"/>
+ <image file="IconClanNosA.png" tag="{NosferatuA}"/>
+ <image file="IconClanOse.png" tag="{Osebo}"/>
+ <image file="IconClanPan.png" tag="{Pander}"/>
+ <image file="IconClanRav.png" tag="{Ravnos}"/>
+ <image file="IconClanSal.png" tag="{Salubri}"/>
+ <image file="IconClanSalA.png" tag="{SalubriA}"/>
+ <image file="IconClanSam.png" tag="{Samedi}"/>
+ <image file="IconClanSet.png" tag="{Set}"/>
+ <image file="IconClanTBr.png" tag="{TBrujah}"/>
+ <image file="IconClanTor.png" tag="{Toreador}"/>
+ <image file="IconClanTorA.png" tag="{ToreadorA}"/>
+ <image file="IconClanTre.png" tag="{Tremere}"/>
+ <image file="IconClanTreA.png" tag="{TremereA}"/>
+ <image file="IconClanTzi.png" tag="{Tzimisce}"/>
+ <image file="IconClanVen.png" tag="{Ventrue}"/>
+ <image file="IconClanVenA.png" tag="{VentrueA}"/>
+ 
+ <image file="IconDisAbo.jpg" tag="{abo}"/>
+ <image file="IconDisAni.jpg" tag="{ani}"/>
+ <image file="IconDisAus.jpg" tag="{aus}"/>
+ <image file="IconDisCel.jpg" tag="{cel}"/>
+ <image file="IconDisChi.jpg" tag="{chi}"/>
+ <image file="IconDisDai.jpg" tag="{dai}"/>
+ <image file="IconDisDem.jpg" tag="{dem}"/>
+ <image file="IconDisDom.jpg" tag="{dom}"/>
+ <image file="IconDisFor.jpg" tag="{for}"/>
+ <image file="IconDisMel.jpg" tag="{mel}"/>
+ <image file="IconDisMyt.jpg" tag="{myt}"/>
+ <image file="IconDisNec.jpg" tag="{nec}"/>
+ <image file="IconDisObe.jpg" tag="{obe}"/>
+ <image file="IconDisObf.jpg" tag="{obf}"/>
+ <image file="IconDisObt.jpg" tag="{obt}"/>
+ <image file="IconDisPot.jpg" tag="{pot}"/>
+ <image file="IconDisPre.jpg" tag="{pre}"/>
+ <image file="IconDisPro.jpg" tag="{pro}"/>
+ <image file="IconDisQui.jpg" tag="{qui}"/>
+ <image file="IconDisSan.jpg" tag="{san}"/>
+ <image file="IconDisSer.jpg" tag="{ser}"/>
+ <image file="IconDisSpi.jpg" tag="{spi}"/>
+ <image file="IconDisTem.jpg" tag="{tem}"/>
+ <image file="IconDisTha.jpg" tag="{tha}"/>
+ <image file="IconDisThn.jpg" tag="{thn}"/>
+ <image file="IconDisVal.jpg" tag="{val}"/>
+ <image file="IconDisVic.jpg" tag="{vic}"/>
+ <image file="IconDisVis.jpg" tag="{vis}"/>
+ <image file="IconDisMor.jpg" tag="{mor}"/>
+ 
+ <image file="IconAdvDisAbo.png" tag="{ABO}"/>
+ <image file="IconAdvDisAni.png" tag="{ANI}"/>
+ <image file="IconAdvDisAus.png" tag="{AUS}"/>
+ <image file="IconAdvDisCel.png" tag="{CEL}"/>
+ <image file="IconAdvDisChi.png" tag="{CHI}"/>
+ <image file="IconAdvDisDai.png" tag="{DAI}"/>
+ <image file="IconAdvDisDem.png" tag="{DEM}"/>
+ <image file="IconAdvDisDom.png" tag="{DOM}"/>
+ <image file="IconAdvDisFor.png" tag="{FOR}"/>
+ <image file="IconAdvDisMel.png" tag="{MEL}"/>
+ <image file="IconAdvDisMyt.png" tag="{MYT}"/>
+ <image file="IconAdvDisNec.png" tag="{NEC}"/>
+ <image file="IconAdvDisObe.png" tag="{OBE}"/>
+ <image file="IconAdvDisObf.png" tag="{OBF}"/>
+ <image file="IconAdvDisObt.png" tag="{OBT}"/>
+ <image file="IconAdvDisPot.png" tag="{POT}"/>
+ <image file="IconAdvDisPre.png" tag="{PRE}"/>
+ <image file="IconAdvDisPro.png" tag="{PRO}"/>
+ <image file="IconAdvDisQui.png" tag="{QUI}"/>
+ <image file="IconAdvDisSan.png" tag="{SAN}"/>
+ <image file="IconAdvDisSer.png" tag="{SER}"/>
+ <image file="IconAdvDisSpi.png" tag="{SPI}"/>
+ <image file="IconAdvDisTem.png" tag="{TEM}"/>
+ <image file="IconAdvDisTha.png" tag="{THA}"/>
+ <image file="IconAdvDisThn.png" tag="{THN}"/>
+ <image file="IconAdvDisVal.png" tag="{VAL}"/>
+ <image file="IconAdvDisVic.png" tag="{VIC}"/>
+ <image file="IconAdvDisVis.png" tag="{VIS}"/>
+ <image file="IconAdvDisMor.png" tag="{MOR}"/>
+
+ <image file="iconVirtueDef.jpg" tag="{def}"/>
+ <image file="iconVirtueInn.jpg" tag="{inn}"/>
+ <image file="iconVirtueJud.jpg" tag="{jud}"/>
+ <image file="iconVirtueMar.jpg" tag="{mar}"/>
+ <image file="iconVirtueRed.jpg" tag="{rdm}"/>
+ <image file="iconVirtueVen.jpg" tag="{ven}"/>
+ <image file="iconVirtueVis.jpg" tag="{vsn}"/>
+
+ <image file="IconConviction.png" tag="{cnv}"/>
+ <image file="IconConviction2.png" tag="{cnv2}"/>
+ <image file="IconConviction5.png" tag="{cnv5}"/>
+ 
+ <image file="IconAdv.png" tag="{Adv}"/>
+ <image file="IconBurn.jpg" tag="{Burn}"/>
+ <image file="IconDirected.png" tag="{D}"/>
+ <image file="IconFlight.jpg" tag="{Flight}"/>
+ <image file="IconMerge.jpg" tag="{Merge}"/>
+ <image file="IconTypeAction.jpg" tag="{Action}"/>
+ <image file="IconTypeAlly.jpg" tag="{Ally}"/>
+ <image file="IconTypeCombat.jpg" tag="{Combat}"/>
+ <image file="IconTypeEquip.jpg" tag="{Equip}"/>
+ <image file="IconTypeEvent.jpg" tag="{Event}"/>
+ <image file="IconTypeModifier.jpg" tag="{Modifier}"/>
+ <image file="IconTypePolitical.jpg" tag="{Political}"/>
+ <image file="IconTypeReaction.jpg" tag="{Reaction}"/>
+ <image file="IconTypeReflex.jpg" tag="{Reflex}"/>
+ <image file="IconTypeRetainer.jpg" tag="{Retainer}"/>
+ <image file="IconTypePow.jpg" tag="{Power}"/>
+
+
+ <image file="blood1.png" tag="{bd1}"/>
+ <image file="blood2.png" tag="{bd2}"/>
+ <image file="blood3.png" tag="{bd3}"/>
+ <image file="bloodx.png" tag="{bdx}"/>
+ <image file="pool1.png" tag="{pl1}"/>
+ <image file="pool2.png" tag="{pl2}"/>
+ <image file="pool3.png" tag="{pl3}"/>
+ <image file="pool4.png" tag="{pl4}"/>
+ <image file="pool5.png" tag="{pl5}"/>
+
+  <option name="deck order" value="type"/>
+  <option name="deck color by" value="type"/>
+  <option name="Vampire text" value="{black}"/>
+  <option name="Action text" value="{orange}"/>
+  <option name="Action Modifier text" value="{orange}"/>
+  <option name="Action Combat text" value="{orange}"/>
+  <option name="Action Reaction text" value="{orange}"/>
+  <option name="Action Modifier/Combat text" value="{orange}"/>
+  <option name="Action Modifier/Reaction text" value="{orange}"/>
+  <option name="Combat text" value="{red}"/>
+  <option name="Combat/Action Modifier text" value="{red}"/>
+  <option name="Combat/Reaction text" value="{red}"/>
+  <option name="Conviction text" value="{gold}"/>
+  <option name="Imbued text" value="{gold}"/>
+  <option name="Master text" value="{gray}"/>
+  <option name="Political Action text" value="{blue}"/>
+  <option name="Reaction text" value="{cyan}"/>
+  <option name="Reaction/Action Modifier text" value="{cyan}"/>
+  <option name="Reaction/Combat text" value="{cyan}"/>
+  <option name="Power text" value="{green}"/>
+  <option name="Event text" value="{magenta}"/>
+  <option name="Retainer text" value="{brown}"/>
+  <option name="Equipment text" value="{brown}"/>
+  <option name="Ally text" value="{brown}"/>
+  
+  <option name="default border width" value="15"/>
+  <option name="default border color" value="0,0,0"/>
+  <option name="default back color" value="0,0,0"/>
+  
+  <option name="default title" value="22,22,278,28"/>
+  <option name="default title font" value="2"/>
+  <option name="default title font size" value="20"/>
+  <option name="default title font color" value="255,255,255"/>  
+  
+  <option name="default image" value="70,60,270,238"/>
+  <option name="default image color" value="112,89,145"/>
+  <option name="default image border" value="3"/>
+  <option name="default image border color" value="44,23,40"/>
+  <option name="default image font" value="3"/>
+  <option name="default image font size" value="120"/>
+  <option name="default image font color" value="255,203,139"/>
+
+  <option name="default text box" value="80,319,254,156"/>
+  <option name="default text box font" value="2"/>
+  <option name="default text box font size" value="20"/>
+  <option name="default text box align" value="0"/>
+  <option name="default text box valign" value="1"/>
+  <option name="default text box border" value="1"/>
+  <option name="default text box color" value="255,0,0"/>
+  <option name="default text box border color" value="44,23,40"/>
+  
+</ccg>

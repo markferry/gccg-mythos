@@ -1,0 +1,286 @@
+if(!port)
+  port=29106;
+  
+def InitDistributions
+{
+  distribution=(,);
+  distribution{"Jyhad"}=(,);
+  distribution{"Jyhad"}{"booster"}=((11,"C"),(4,"V"),(3,"U"),(1,"R"));
+  distribution{"Jyhad"}{"starter"}=((45,"C"),(16,"V"),(13,"U"),(2,"R"));
+  distribution{"VTES"}=(,);
+  distribution{"VTES"}{"booster"}=((11,"C"),(4,"V"),(3,"U"),(1,"R"));
+  distribution{"VTES"}{"starter"}=((45,"C"),(16,"V"),(13,"U"),(2,"R"));
+  distribution{"DS"}=(,);
+  distribution{"DS"}{"booster"}=((8,"C"),(4,"V"),(3,"U"));
+  distribution{"AH"}=(,);
+  distribution{"AH"}{"booster"}=((6,"C"),(4,"V"),(1,"U"),(1,"R"));
+  distribution{"Sabbat"}=(,);
+  distribution{"Sabbat"}{"booster"}=((16,"C"),(5,"V"),(5,"U"),(2,"R"));
+  distribution{"SW"}=(,);
+  distribution{"SW"}{"booster"}=((5,"C"),(5,"U"),(1,"R"));
+  distribution{"FN"}=(,);
+  distribution{"FN"}{"booster"}=((7,"C"),(3,"U"),(1,"R"));
+  distribution{"BL"}=(,);
+  distribution{"BL"}{"booster"}=((7,"C"),(3,"U"),(1,"R"));
+  distribution{"Demo"}=(,);
+  distribution{"CE"}=(,);
+  distribution{"CE"}{"booster"}=((5,"C"),(3,"V"),(2,"U"),(1,"R"));
+  distribution{"Anarchs"}=(,);
+  distribution{"Anarchs"}{"booster"}=((7,"C"),(3,"U"),(1,"R"));
+  distribution{"BH"}=(,);
+  distribution{"BH"}{"booster"}=((7,"C"),(3,"U"),(1,"R"));
+  distribution{"Gehenna"}=(,);
+  distribution{"Gehenna"}{"booster"}=((7,"C"),(3,"U"),(1,"R"));
+  distribution{"KMW"}=(,);
+  distribution{"KMW"}{"booster"}=((7,"C"),(3,"U"),(1,"R"));
+  distribution{"LoB"}=(,);
+  distribution{"LoB"}{"booster"}=((7,"C"),(3,"U"),(1,"R"));
+  distribution{"NoR"}=(,);
+  distribution{"NoR"}{"booster"}=((7,"C"),(3,"U"),(1,"R"));
+  distribution{"Third"}=(,);
+  distribution{"Third"}{"booster"}=((5,"C"),(3,"V"),(2,"U"),(1,"R"));
+  distribution{"SoC"}=(,);
+  distribution{"SoC"}{"booster"}=((7,"C"),(3,"V"),(1,"R"));
+  distribution{"LotN"}=(,);
+  distribution{"LotN"}{"booster"}=((7,"C"),(3,"U"),(1,"R"));
+  distribution{"TR"}=(,);
+  distribution{"TR"}{"booster"}=((7,"C"),(3,"U"),(1,"R"));
+  distribution{"KoT"}=(,);
+  distribution{"KoT"}{"booster"}=((5,"C"),(3,"V"),(2,"U"),(1,"R"));
+  distribution{"EK"}=(,);
+  distribution{"EK"}{"booster"}=((4,"C"),(3,"U"),(1,"R"),(3,"C"));
+}
+
+fixed=array(66); 
+
+fixed[0]=FixedSet("SW",("Amelia", "Sarah Brando", "Hugo", "Sela", "Dodd", "Rigby, Crusade Vanguard", "Bronwen", "Jacob Bragg", "Victor Tolliver", "Salinger", "Richter, The Templar of Du Mont", "Frederick the Weak", "Blood Brother Ambush", "Ambush", "Ambush", "Ambush", "Ambush", "Ambush", "Bum's Rush", "Bum's Rush", "Distraction", "Enchant Kindred", "Enchant Kindred", "Enchant Kindred", "Legal Manipulations", "Legal Manipulations", "Rave", "Social Charm", "Survivalist", "Acrobatics", "Blur", "Blur", "Blur", "Burning Wrath", "Decapitate", "Fast Hands", "Flash", "Flash", "Immortal Grapple", "Lightning Reflexes", "Manstopper Rounds", "Pulled Fangs", "Pursuit", "Pursuit", "Pushing the Limit", "Pushing the Limit", "Sideslip", "Taste of Vitae", "Thrown Sewer Lid", "Torn Signpost", "Trap", "Trap", "Undead Strength", "Undead Strength", "Undead Strength", "Undead Strength", ".44 Magnum", "Gas-Powered Chainsaw", "Hawg", "Laptop Computer", "Leather Jacket", "Meat Cleaver", "Pier 13, Port of Baltimore", "Sawed-Off Shotgun", "Sword of Judgment", "Wooden Stake", "Amusement Park Hunting Ground", "Blood Doll", "Celerity", "Direct Intervention", "Fame", "Haven Uncovered", "Mob Connections", "Potence", "Storage Annex", "The Barrens", "Tribute to the Master", "Autarkis Persecution", "Excommunication", "Templar", "Dread Gaze", "Dread Gaze", "Forced Awakening", "Forced Awakening", "Mistaken Identity", "Wake with Evening's Freshness", "Wake with Evening's Freshness", "Mr. Winthrop"));
+
+fixed[1]=FixedSet("SW",("Alvaro, The Scion of Angelica", "Angelica, The Canonicus", "Antonio Delgado", "Aurora Van Brande, Paladin", "Cameron", "Francisco Domingo de Polonia", "Gratiano", "Ignacio, The Black Priest", "Lisette Vizquel", "Lucita", "Mitchell, The Headhunter", "Ramiro", "Ambush", "Arms of the Abyss", "Arms of the Abyss", "Arms of the Abyss", "Blood Doll", "Blood Feast", "Blood Feast", "Bonding", "Boxed In", "Communal Haven: Temple", "Conditioning", "Conditioning", "Consanguineous Boon", "Darksight", "Darksight", "Disputed Territory", "Dominate", "Effective Management", "Elysian Fields", "Entombment", "Eyes of the Night", "Eyes of the Night", "Festivo dello Estinto", "Flak Jacket", "Fractured Armament", "Eyes of the Night", "Eyes of the Night", "J. S. Simmons, Esq.", "Laptop Computer", "Laptop Computer", "Legacy of Caine", "Meat Cleaver", "Mighty Grapple", "Misdirection", "Obtenebration", "Oubliette", "Political Hunting Ground", "Political Seizure", "Political Stranglehold", "Political Struggle", "Potence", "Pushing the Limit", "Sacrament of Carnage", "Scouting Mission", "Scouting Mission", "Shade", "Shadow Body", "Shadow Body", "Shadow Play", "Shadow Play", "Shadow Play", "Shadow Play", "Shadow Strike", "Shadow Strike", "Shadow Twin", "Shroud of Night", "Sport Bike", "Surprise Influence", "The Barrens", "The Rumor Mill, Tabloid Newspaper", "Thrown Gate", "Thrown Gate", "Thrown Gate", "Thrown Gate", "Threats", "Threats", "Threats", "Threats", "Tribute to the Master", "Vaulderie", "Vaulderie", "Vicissitude Poisoning", "Wake with Evening's Freshness", "Wake with Evening's Freshness", "Wake with Evening's Freshness", "Wake with Evening's Freshness", "War Party"));
+
+fixed[2]=FixedSet("SW",("Anton", "Corine Marcón", "Devin Bisley", "Dragos", "Horatio", "Lambach", "Lolita Houston", "Meshenka", "Sascha Vykos, The Angel of Caine", "Stravinsky", "Terrence", "Violet Tremain", "Ancient Influence", "Animalism", "Army of Rats", "Arson", "Auspex", "Blood Doll", "Blood Feast", "Blood of Acid", "Body Arsenal", "Body Arsenal", "Bonecraft", "Brass Knuckles", "Breath of the Dragon", "Canine Horde", "Cardinal Sin: Failure of Mission", "Carrion Crows", "Carrion Crows", "Cats' Guidance", "Cats' Guidance", "Cats' Guidance", "Changeling", "Changeling", "Chiropteran Marauder", "Chiropteran Marauder", "Chiropteran Marauder", "Computer Hacking", "Crusade: Pittsburgh", "Dead-End Alley", "Detection", "Drawing Out the Beast", "Elder Library", "Enhanced Senses", "Enhanced Senses", "Fake Out", "Femur of Toomler", "Flamethrower", "Fleshcraft", "Forced Awakening", "Forced Awakening", "Forced Awakening", "Forced Awakening", "Forced Awakening", "Guard Dogs", "Guard Dogs", "Horrid Form", "Information Highway", "Inner Essence", "Kraken's Kiss", "Laptop Computer", "Leather Jacket", "Library Hunting Ground", "Lucky Blow", "Meld with the Land", "Meld with the Land", "Minion Tap", "Peace Treaty", "Pentex(TM) Loves You!", "Plasmic Form", "Plasmic Form", "Powerbase: Mexico City", "Precognition", "Precognition", "Primal Instincts", "Pulse of the Canaille", "Rat's Warning", "Reform Body", "Revelations", "Revenant", "Scrying of Secrets", "Song of Serenity", "Song of Serenity", "Spirit's Touch", "Spirit's Touch", "Surprise Influence", "Unnatural Disaster", "Vicissitude", "Wolf Companion"));
+
+fixed[3]=FixedSet("SW",("Dominique", "Dylan", "Gerard", "Ingrid Russo", "Juan Cali", "Kyle Strathcona, Cardinal of Canada", "Lazverinus, Thrall of Lambach", "March Halcyon", "Marlene, The Infernalist", "Quentin", "Vanessa", "Vincent Day, Paladin and Paragon", "Anarchist Uprising", "Ancient Influence", "Antediluvian Awakening", "Auspex", "Blood Doll", "Bonding", "Boxed In", "Bonding", "Boxed In", "Bonding", "Boxed In", "Brass Knuckles", " Bribes", "Bribes", "Concoction of Vitality", "Consanguineous Boon", "Consanguineous Boon", "Consanguineous Boon", "Conservative Agitation", "Conservative Agitation", "Conservative Agitation", "Conservative Agitation", "Corporate Hunting Ground", "Crusade: Mexico City", "Daring the Dawn", " Deflection", "Deflection", "Demonstration", " Disputed Territory", "Disputed Territory", "Dodge", "Dominate", "Enhanced Senses", "Enhanced Senses", "Enhanced Senses", "Eternal Vigilance", "Far Mastery", " Forced Awakening", "Forced Awakening", "Fortitude", "Govern the Unaligned", "Kindred Manipulation", "Leather Jacket", "Life Boon", "Minion Tap", "Obedience", "Open Grate", "Out of Control", "Peace Treaty", "Private Audience", "Pulse of the Canaille", "Purchase Pact", "Rabble Razing", "Rapid Healing", "Recruitment", "Redirection", "Resilience", " Restoration", "Restoration", "Rolling with the Punches", "Sabbat Priest", "Saturday-Night Special", "Seduction", "Short-Term Investment", "Skin of Rock", "Spirit's Touch", "Sport Bike", "Sudden Reversal", "Superior Mettle", " Telepathic Counter", "Telepathic Counter", "Telepathic Vote Counting", "Thoughts Betrayed", "Undead Persistence", "Unflinching Persistence", "Ventrue Investment", " Wake with Evening's Freshness", "Wake with Evening's Freshness", "Zip Gun"));
+
+fixed[4]=FixedSet("FN",("Abd al-Rashid", "Al-Ashrad, Amr of Alamut", "Fatima al-Faqadi", "Harika Guljan", "Husamettin", "Kalinda", "Kanya Akhtar", "Melek", "Parmenides", "Parnassus", "Tansu Bekir", "Thetmes, Caliph of Alamut", "Alamut", "Ambush", "Ambush", "Ambush", "Atonement", "Backstab", "Blood Agony", "Blood Doll", "Blood Sweat", "Blood Sweat", "Blood Sweat", "Blood Sweat", "Blood Sweat", "Bum's Rush", "Bum's Rush", "Bum's Rush", "Celerity", "Coagulate Blood", "Coagulate Blood", "Contract", "Contract", "Contract", "Contract", "Dagon's Call", "Dagon's Call", "Disease", "Disease", "Erosion", "Fast Hands", "Flash", "Flash", "Flash", "Flash", "Flash", "Forced Awakening", "Forced Awakening", "Forgotten Labyrinth", "Foul Blood", "Garrote", "Heartblood of the Clan", "Kali's Fang", "Legendary Vampire", "Market Square", "Minion Tap", "Psyche!", "Psyche!", "Pursuit", "Pursuit", "Pursuit", "Pursuit", "Pursuit", "Pursuit", "Quickness", "Quietus", "Quietus", "Ruins of Villers Abbey, Belgium", "Sacrificial Lamb", "Sideslip", "Sideslip", "Sport Bike", "Sideslip", "Sideslip", "Swallowed by the Night", "Swallowed by the Night", "Swallowed by the Night", "Taste of Death", "Taste of Death", "Taste of Death", "Taste of Death", "The Ancestor's Talisman", "The Khabar: Honor", "The Khabar: Honor", "The Path of Blood", "Thin Blood", "Thin Blood", "Tomb of Rameses III", "Underworld Hunting Ground"));
+
+fixed[5]=FixedSet("FN",("Aisha", "Amisa", "Dedefra", "Hadrian Garrick", "Hesha Ruhadze", "Intisar", "Kemintiri", "Kephamos, High Priest of Marrakech", "Khalil Anvari", "Lalitha", "Nepata", "Saqqaf, Keeper of the Grand Temple of Set", "Aire of Elation", "Aire of Elation", "Aire of Elation", "Arcanum Chapterhouse, Alexandria", "Arson", "Banishment", "Blackmail", "Blood Doll", "Catacombs", "Catatonic Fear", "Cloak the Gathering", "Cloak the Gathering", "Cloak the Gathering", "Consanguineous Boon", "Conservative Agitation", "Corruption", "Corruption", "Corruption", "Corruption", "Ecstasy", "Ecstasy", "Effective Management", "Elder Impersonation", "Enchant Kindred", "Enchant Kindred", "Enchant Kindred", "Flak Jacket", "Forced Awakening", "Forced Awakening", "Form of Corruption", "Form of the Serpent", "Form of the Serpent", "Form of the Serpent", "Grand Temple of Set", "Heart of Darkness", "Humanitas", "Leather Jacket", "Lost in Crowds", "Lost in Crowds", "Lost in Crowds", "Lure of the Serpent", "Marijava Ghoul", "Mark of Damnation", "Mind Numb", "Mind Numb", "Misdirection", "Mummy's Tongue", "Obfuscate", "Opium Den", "Pentex(TM) Subversion", "Phobia", "Presence", "Secure Haven", "Serpentis", "Serpentis", "Short-Term Investment", "Social Charm", "Social Charm", "Social Charm", "Staredown", "Staredown", "Summon the Serpent", "Swallowed by the Night", "Temple Hunting Ground", "Temptation", "The Damned", "The Jones", "The Jones", "The Path of Typhon", "The Realm of the Black Sun", "Tongue of the Serpent", "Tongue of the Serpent", "Tongue of the Serpent", "Venenation", "Venenation", "Violation of Trust", "White Phosphorus Grenade"));
+
+fixed[6]=FixedSet("FN",("Carlotta Giovanni", "Enzo Giovanni, Pentex Board of Directors", "Francesca Giovanni", "Gaspare Giovanni", "Gloria Giovanni", "Isabel Giovanni", "Mario Giovanni", "Regina Giovanni, The Right Hand of Augustus", "Rudolfo Giovanni", "Silvia Giovanni", "Stefano Giovanni", "Vittorio Giovanni", "Acquired Ventrue Assets", "Akhenaten, The Sun Pharaoh (Mummy)", "Ambrosius, The Ferryman (Wraith)", "Atonement", "Blood Doll", "Bum's Rush", "Bum's Rush", "Bum's Rush", "Burning Wrath", "Clan Loyalty", "Command of the Beast", "Compel the Spirit", "Conditioning", "Conditioning", "Conditioning", "Consanguineous Boon", "Conservative Agitation", "Deflection", "Deflection", "Depravity", "Disputed Territory", "Dominate", "Dreams of the Sphinx", "Elder Library", "Far Mastery", "Foreshadowing Destruction", "Foreshadowing Destruction", "Foreshadowing Destruction", "Giuseppe, Gravedigger", "Govern the Unaligned", "Govern the Unaligned", "Haunt", "Haven Uncovered", "Haven Uncovered", "Immortal Grapple", "Increased Strength", "Increased Strength", "Jar the Soul", "Jar the Soul", "Kindred Coercion", "Leonardo, Mortician", "Masquer (Wraith)", "Morgue Hunting Ground", "Necromancy", "Necromancy", "Political Stranglehold", "Possession", "Possession", "Potence", "Powerbase: Rome", "Soul Stealing", "Spectral Divination", "Spectral Divination", "Spectral Divination", "Strained Vitae Supply", "Summon Soul", "Summon Soul", "The Death of My Conscience", "The Mausoleum, Venice", "The Parthenon", "Thoughts Betrayed", "Thrown Gate", "Thrown Gate", "Torment the Soul", "Torment the Soul", "Tortured Confession", "Tortured Confession", "Undead Strength", "Undead Strength", "Undead Strength", "Undead Strength", "Vial of Garou Blood", "Wake with Evening's Freshness", "Wake with Evening's Freshness", "Whispers from the Dead", "Whispers from the Dead", "Zombie"));
+
+fixed[7]=FixedSet("FN",("Ankla Hotep", "Darius Styx", "Joaquina Amaya", "Khalil Ravana", "Kostantin, Baro of the Caravan", "Lázár Dobrescu", "Natalia", "Salbatore Bokkengro", "Sarisha Veliku", "Sasha Miklos", "Tsigane", "Vaclav Petalengro", "Amria", "Animalism", "Apparition", "Apparition", "Apparition", "Army of Rats", "Bang Nakh -- Tiger's Claws", "Blessing of Durga Syn", "Blood Doll", "Blood Tears of Kephran", "Cats' Guidance", "Cats' Guidance", "Cats' Guidance", "Cats' Guidance", "Chimerstry", "Chimerstry", "Daring the Dawn", "Dead-End Alley", "Drawing Out the Beast", "Far Fatuus", "Fata Morgana", "Fata Morgana", "Fata Morgana", "Fata Morgana", "Force of Will", "Force of Will", "Fortitude", "Fortune Teller Shop", "Guard Dogs", "Guard Dogs", "Guardian Angel", "Heidelberg Castle, Germany", "Horrid Reality", "Ignis Fatuus", "Ignis Fatuus", "Illusions of the Kindred", "Inbase Discotek, Frankfurt", "Laptop Computer", "London Evening Star, Tabloid Newspaper", "Mass Reality", "Mirror Image", "Palatial Estate", "Park Hunting Ground", "Patshiv", "Patshiv", "Purity of the Beast", "Rapid Healing", "Rat's Warning", "Rat's Warning", "Rat's Warning", "Ravnos Cache", "Ravnos Carnival", "Red Herring", "Resilience", "Resilience", "Restoration", "Restoration", "Restoration", "Rolling with the Punches", "Rom Gypsy", "Saturday-Night Special", "Scorpion Sting", "Scorpion Sting", "Sensory Deprivation", "Short-Term Investment", "Skin of Rock", "Song in the Dark", "Song of Serenity", "Song of Serenity", "Song of Serenity", "Superior Mettle", "Superior Mettle", "Terror Frenzy", "The Kiss of Ra", "The Trick of the Danya", "The Trick of the Danya", "Trap"));
+
+fixed[8]=FixedSet("CE",("Akram", "Allison Maller", "Brachah", "Constanza Vinti", "Dónal O'Connor", "Gwendolyn", "Menele", "Pug Jackson", "Raziya Samater", "Theo Bell", "Vasilis, The Traitor of Don Cruez", "Volker, The Puppet Prince", "Acrobatics", "Acrobatics", "Anathema", "Blood Doll", "Blood Hunt", "Blur", "Blur", "Blur", "Blur", "Bum's Rush", "Bum's Rush", "Bum's Rush", "Bum's Rush", "Bum's Rush", "Bum's Rush", "Bum's Rush", "Burning Wrath", "Cairo Int'l Airport", "Concealed Weapon", "Disarm", "Dread Gaze", "Dread Gaze", "Enchant Kindred", "Enchant Kindred", "Enchant Kindred", "Enchant Kindred", "Enchant Kindred", "Fame", "Fast Hands", "Flak Jacket", "Flash", "Flash", "Flash", "Flash", "Flash", "Flash", "Fractured Armament", "Haven Uncovered", "Haven Uncovered", "IR Goggles", "Illegal Search and Seizure", "Immortal Grapple", "Immortal Grapple", "Infernal Pursuit", "Legal Manipulations", "Meat Cleaver", "Mighty Grapple", "Minion Tap", "Mob Connections", "Oxford University, England", "Psyche!", "Rampage", "Sacrament of Carnage", "Sacrament of Carnage", "Sawed-Off Shotgun", "Speed of Thought", "Sport Bike", "Stutter-Step", "Taste of Vitae", "Taste of Vitae", "Thrown Gate", "Thrown Gate", "Thrown Gate", "Thrown Gate", "Thrown Gate", "Thrown Sewer Lid", "Thrown Sewer Lid", "Thrown Sewer Lid", "Thrown Sewer Lid", "Trap", "Treachery", "Wake with Evening's Freshness", "Wake with Evening's Freshness", "Wake with Evening's Freshness", "Wake with Evening's Freshness", "Warzone Hunting Ground", "Wooden Stake"));
+
+fixed[9]=FixedSet("CE",("Anatole, Prophet of Gehenna ", "Cornelius Ottavio ", "Damaskenos, Herald of Leandro", "Dr. Douglas Netchurch ", "Greger Anderssen", "Leandro", "Ohanna", "Rachel Brandywine ", "Victoria", "Watenda ", "William Biltmore ", "Zöe", "Arson", "Ascendance ", "Ascendance ", "Asylum Hunting Ground", "Blessing of Chaos ", "Blood Doll", "Bureaucratic Overload ", "Cloak the Gathering", "Cloak the Gathering", "Cloak the Gathering", "Cloak the Gathering", "Command of the Harpies", "Confusion", "Confusion", "Confusion", "Confusion", "Dementation ", "Dementation ", "Disguised Weapon", "Disguised Weapon", "Effective Management ", "Elder Impersonation", "Elder Impersonation", "Elysium: The Arboretum", "Enhanced Senses", "Eyes of Chaos", "Eyes of Chaos", "Eyes of Chaos", "Eyes of Chaos", "Faceless Night", "Flak Jacket", "Flak Jacket", "Flamethrower", "Flamethrower", "Forest of Shadows", "Lost in Crowds", "Lost in Crowds", "Lost in Crowds", "Lost in Crowds", "Lost in Crowds", "Lost in Crowds", "Marked Path ", "Misdirection", "Misdirection", "Muddled Vampire Hunter", "Precognizant Mobility", "Precognizant Mobility", "Psychic Veil", "Pulse of the Canaille", "Pulse of the Canaille", "Pulse of the Canaille", "Read Intentions", "Read Intentions", "Reversal of Fortunes", "Scrying of Secrets", "Secure Haven", "Spying Mission", "Spying Mission", "Spying Mission", "Spying Mission", "Spying Mission", "Surprise Influence", "Telepathic Counter", "Telepathic Counter", "Telepathic Counter", "Telepathic Counter", "Telepathic Misdirection", "Telepathic Misdirection", "Telepathic Misdirection", "Telepathic Misdirection", "Wake with Evening's Freshness", "Wake with Evening's Freshness", "Wake with Evening's Freshness", "Wake with Evening's Freshness"));
+
+fixed[10]=FixedSet("CE",("Amadeo", "Calebros, The Martyr", "Daliyah", "Ellison Humboldt", "Gemini", "Harrod", "Judah", "Khalid", "Laurent de Valois", "Murat", "Nikolaus Vermeulen", "Regilio, The Seeker of Akhenaten", "Aid from Bats", "Aid from Bats", "Aid from Bats", "Army of Rats", "Arson", "Behind You!", "Blood Doll", "Blood Doll", "Bomb", "Boxed In", "Boxed In", "Boxed In", "Bum's Rush", "Bum's Rush", "Bum's Rush", "Bum's Rush", "Bum's Rush", "Canine Horde", "Carrion Crows", "Carrion Crows", "Cats' Guidance", "Cats' Guidance", "Cats' Guidance", "Computer Hacking", "Computer Hacking", "Computer Hacking", "Computer Hacking", "Delaying Tactics", "Disputed Territory", "Fake Out", "Fake Out", "Fake Out", "Forgotten Labyrinth", "Gird Minions", "Guard Dogs", " Guard Dogs", " Guard Dogs", " Guard Dogs", "Increased Strength", "Increased Strength", "Increased Strength", "Lost in Crowds", "Night Moves", "Night Moves", "Night Moves", "Nosferatu Performance Art", "Owl Companion", "Pushing the Limit", "Pushing the Limit", "Pushing the Limit", "Raven Spy", "Sacrificial Lamb", "Scorpion Sting", "Scorpion Sting", "Secret Horde", "Shattering Blow", "Shattering Blow", "Slum Hunting Ground", "Song of Serenity", "Sport Bike", "Spying Mission", "Spying Mission", "Swallowed by the Night", "Swallowed by the Night", "Swallowed by the Night", "Taste of Vitae", "Terror Frenzy", "The Spawning Pool", "Undead Strength", "Undead Strength", "Undead Strength", "Undead Strength", "Undead Strength"));
+
+fixed[11]=FixedSet("CE",("Aisling Sturbridge", "Blythe Candeleria", "Cohn Rose", "Elisabetta Romano", "Etrius", "Javier Montoya", "Lucas Halton", "Muaziz, Archon of Ulugh Beg", "Mustafa Rahman", "Pieter van Dorn", "Rebekka, Chantry Elder of Munich", "Spiridonas", "Academic Hunting Ground", "Apportation", "Apportation", "Apportation", "Apportation", "Apportation", "Arcanum Chapterhouse, Alexandria", "Aura Reading", "Aura Reading", "Blood Doll", "Blood Doll", "Blood Fury", "Blood Fury", "Blood Fury", "Blood Fury", "Blood to Water", "Cauldron of Blood", "Cauldron of Blood", "Conditioning", "Conditioning", "Conditioning", "Conditioning", "Corpse Minion", "Deflection", "Deflection", "Deflection", "Enhanced Senses", "Enhanced Senses", "Enhanced Senses", "Fake Out", "Fake Out", "Flak Jacket", "Forced Awakening", "Forced Awakening", "Forced Awakening", "Forced Awakening", "Graverobbing", "Harass", "Harass", "Harass", "Harass", "Hawg", "Information Highway", "Kindred Coercion", "Leather Jacket", "Magic of the Smith", "Mob Connections", "Precognition", "Protracted Investment", "Psychic Projection", "Pulling Strings", "Revelations", "Rutor's Hand", "Seeds of Corruption", "Seeds of Corruption", "Shotgun Ritual", "Soul Burn", "Soul Burn", "Spirit's Touch", "Spirit's Touch", "Spirit's Touch", "Sport Bike", "Theft of Vitae", "Theft of Vitae", "Theft of Vitae", "Theft of Vitae", "Theft of Vitae", "Thoughts Betrayed", "Thoughts Betrayed", "Trap", "Trap", "Trap", "Unnatural Disaster", "Walk of Flame", "Walk of Flame", "Walk of Flame", "Wasserschloss Anif, Austria"));
+
+fixed[12]=FixedSet("CE",("Arika", "Bindusara, Historian of the Kindred", "Diana Vick", "Edward Vignes", "Elena Gutierrez", "Itzahk Levine", "Jan Pieterzoon", "Nakova, Advocate of Golconda", "Queen Anne", "Ranjan Rishi, Camarilla Scholar", "Suhailah", "Wilhelm Waldburg", "Banishment", "Bewitching Oration", "Bewitching Oration", "Bewitching Oration", "Bewitching Oration", "Blood Doll", "Bonding", "Bonding", "Bribes", "Bribes", "Camarilla Exemplary", "Camarilla Exemplary", "Consanguineous Boon", "Consanguineous Boon", "Conservative Agitation", "Conservative Agitation", "Conservative Agitation", "Conservative Agitation", "Disputed Territory", "Domain Challenge", "Domain Challenge", "Dominate Kine", "Effective Management", "Elder Kindred Network", "Fear of Mekhet", "Freak Drive", "Freak Drive", "Govern the Unaligned", "Govern the Unaligned", "Govern the Unaligned", "Indomitability", "Indomitability", "Information Highway", "Intimidation", "Kindred Restructure", "Majesty", "Majesty", "Majesty", "Majesty", "Mind Numb", "Mind Numb", "Minion Tap", "Misdirection", "Peace Treaty", "Political Backlash", "Protect Thine Own", "Redirection", "Redirection", "Redirection", "Resilience", "Resilience", "Resilience", "Restoration", "Restoration", "Rolling with the Punches", "Rolling with the Punches", "Rolling with the Punches", "Scouting Mission", "Second Tradition: Domain", "Second Tradition: Domain", "Seduction", "Seduction", "Short-Term Investment", "Short-Term Investment", "Social Charm", "Social Charm", "Social Charm", "The Barrens", "The Kiss of Ra", "The Rumor Mill, Tabloid Newspaper", "Uptown Hunting Ground", "Ventrue Directorate Assembly", "Voter Captivation", "Wake with Evening's Freshness", "Wake with Evening's Freshness", "Wake with Evening's Freshness", "Wake with Evening's Freshness"));
+
+fixed[13]=FixedSet("Anarchs",("Ilyana Ravidovich", "Catherine du Bois", "Kurt Densch", "Sundown", "Steve Booth", "Jeremy MacNeil (Anarchs)", "Jeremy MacNeil (Anarchs)", "Jeremy MacNeil {Adv} (Anarchs)", "Suzanne Kadim", "Ira Rivers", "Michael Luther", "Antonino", "Anarch Revolt", "Anarch Revolt", "Anarch Troublemaker", "Minion Tap", "Minion Tap", "Minion Tap", "Presence", "Presence", "Secure Haven", "Sudden Reversal", "Sudden Reversal", "Ventrue Headquarters", "Enchant Kindred", "Enchant Kindred", "Enchant Kindred", "Fee Stake: Boston", "Fee Stake: New York", "Fee Stake: Seattle", "Go Anarch", "Go Anarch", "Go Anarch", "Go Anarch", "Skullduggery", "Skullduggery", "Skullduggery", "Skullduggery", "Aire of Elation", "Alacrity", "Bewitching Oration", "Bewitching Oration", "Bewitching Oration", "Bewitching Oration", "Bribes", "Bribes", "Bribes", "Bribes", "Change of Target", "Change of Target", "Rant!", "Rant!", "Rant!", "Telepathic Vote Counting", "Voter Captivation", "Voter Captivation", "Voter Captivation", "Anarch Salon", "Anarch Salon", "Anarchist Uprising", "Anarchist Uprising", "Anarchist Uprising", "Conservative Agitation", "Conservative Agitation", "Disputed Territory", "Domain Challenge", "Dramatic Upheaval", "Firebrand", "Free States Rant", "Free States Rant", "Kine Resources Contested", "Kine Resources Contested", "Kine Resources Contested", "Peace Treaty", "Dread Gaze", "The Mole", "The Mole", "The Mole", "The Mole", "Telepathic Counter", "Telepathic Counter", "Telepathic Counter", "Wake with Evening's Freshness", "Wake with Evening's Freshness", "Wake with Evening's Freshness", "Dodge", "Fast Hands", "Majesty", "Majesty"));
+
+fixed[14]=FixedSet("Anarchs",("Xaviar", "Ingrid Rossler", "Katarina", "Faruq", "Beckett", "Iliana", "Mirembe Kabbada", "Lord Ashton", "Chandler Hungerford", "Panagos Levidis", "Ramona (Anarchs)", "Stanislava", "Stanislava", "Backways", "Blood Doll", "Blood Doll", "Fame", "Frenzy", "Gangrel Revel", "Haven Uncovered", "Minion Tap", "Protean", "Rötschreck", "Secret Horde", "Zoo Hunting Ground", "Army of Rats", "Bum's Rush", "Bum's Rush", "Bum's Rush", "Bum's Rush", "Force of Will", "Force of Will", "Restoration", "Tier of Souls", "Dawn Operation", "Dawn Operation", "Earth Control", "Earth Control", "Earth Control", "Freak Drive", "Horrific Countenance", "The Kiss of Ra", "Uncontrollable Rage", "Cats' Guidance", "Cats' Guidance", "Cats' Guidance", "Elder Intervention", "Elder Intervention", "Guard Dogs", "Guard Dogs", "Guard Dogs", "Rat's Warning", "Rat's Warning", "Aid from Bats", "Aid from Bats", "Bone Spur", "Bone Spur", "Bone Spur", "Canine Horde", "Canine Horde", "Carrion Crows", "Carrion Crows", "Claws of the Dead", "Claws of the Dead", "Claws of the Dead", "Drawing Out the Beast", "Drawing Out the Beast", "Earth Meld", "Earth Meld", "Flesh of Marble", "Form of Mist", "Form of Mist", "Form of Mist", "Form of the Ghost", "Form of the Ghost", "Scorpion Sting", "Scorpion Sting", "Skin of Night", "Skin of Night", "Superior Mettle", "Superior Mettle", "Unflinching Persistence", "Unflinching Persistence", "Unflinching Persistence", "Unflinching Persistence", "Dog Pack", "Owl Companion", "Raven Spy", "Raven Spy", "Laptop Computer"));
+
+fixed[15]=FixedSet("Anarchs",("Eddie Gaines", "Dr. Allan Woodstock", "Bobby Lemon", "Pug Jackson", "Gengis", "Eugenio Estevez", "Eugenio Estevez", "Ruth McGinley", "Darva Felispa", "Hrothulf", "Earl", "David Morgan, The Scourge", "Gerard Rafin", "Blood Doll", "Blood Doll", "Blood Doll", "Celerity", "The Coven", "Fortitude", "Galaric's Legacy", "Galaric's Legacy", "Galaric's Legacy", "Galaric's Legacy", "Haven Uncovered", "Potence", "Sudden Reversal", "Ambush", "Ambush", "Army of Rats", "Border Skirmish", "Border Skirmish", "Border Skirmish", "Ecstatic Agony", "Force of Will", "Govern the Unaligned", "Harass", "Rapid Healing", "Restoration", "Smash and Grab", "Smash and Grab", "Smash and Grab", "Enhanced Senses", "My Enemy's Enemy", "Pack Tactics", "Precognition", "Spirit's Touch", "Telepathic Counter", "Wake with Evening's Freshness", "Wake with Evening's Freshness", "Amaranth", "Boxed In", "Dead-End Alley", "Dead-End Alley", "Diversion", "Diversion", "Diversion", "Diversion", "Dodge", "Fake Out", "Fast Hands", "Flash", "Flash", "Flash", "Improvised Tactics", "Improvised Tactics", "Lucky Blow", "Pulled Fangs", "Pursuit", "Pursuit", "Pushing the Limit", "Sacrament of Carnage", "Sacrament of Carnage", "Skin of Rock", "Skin of Rock", "Skin of Rock", "Skin of Steel", "Superior Mettle", "Superior Mettle", "Thrown Sewer Lid", "Thrown Sewer Lid", "Torn Signpost", "Trap", "Trap", "Undead Persistence", "Undead Strength", "Undead Strength", "Undead Strength", "Laptop Computer", "Laptop Computer", "Meat Hook"));
+
+fixed[16]=FixedSet("BH",("Aristotle de Laurent", "Artemis", "Boy Toy", "Dolphin Black", "General Perfidio Díos", "Hannibal", "Imogen", "Kite", "Korah", "Roger Farnsworth", "The Colonel", "Virgil", "Babble", "Blood Doll", "Blood Doll", "Blooding", "Blooding", "Cardinal Sin: Insubordination", "Circumspect Revelation", "Cloak the Gathering", "Cloak the Gathering", "Cloak the Gathering", "Cloak the Gathering", "Coma", "Coma", "Coma", "Communal Haven: Temple", "Crusade: Chicago", "Deny", "Dominion", "Dominion", "Dramatic Upheaval", "Eagle's Sight", "Eagle's Sight", "Eagle's Sight", "Enhanced Senses", "Enhanced Senses", "Enhanced Senses", "Enhanced Senses", "Escaped Mental Patient", "Escaped Mental Patient", "Eyes of Chaos", "Eyes of Chaos", "Eyes of Chaos", "Eyes of Chaos", "Faceless Night", "Faceless Night", "Faceless Night", "Faceless Night", "Forced Awakening", "Forced Awakening", "Forced Awakening", "Forgotten Labyrinth", "Forgotten Labyrinth", "Guru", "Hand Intervention", "Institution Hunting Ground", "Kindred Spirits", "Kindred Spirits", "Kindred Spirits", "Kindred Spirits", "Kindred Spirits", "Kine Resources Contested", "Kine Resources Contested", "Kine Resources Contested", "Kine Resources Contested", "Kine Resources Contested", "Lost in Crowds", "Lost in Crowds", "Lost in Crowds", "Lost in Crowds", "Malkavian Game", "Malkavian Game", "Memory's Fading Glimpse", "Powerbase: Madrid", "Random Patterns", "Sabbat Priest", "Sabbat Priest", "Spirit's Touch", "Spirit's Touch", "Spirit's Touch", "Spirit's Touch", "Telepathic Misdirection", "Telepathic Misdirection", "Telepathic Misdirection", "Telepathic Vote Counting", "The Haunting", "The Haunting", "The Haunting"));
+
+fixed[17]=FixedSet("BH",("Donatien", "Greta Kircher", "Ian Wallingford", "Jessica (BH)", "Jessica {Adv} (BH)", "Jost Werner", "Lachlan, Noddist", "Lolita", "Matteus, Flesh Sculptor", "Miller Delmardigan, Teacher of Bahari", "Sabrina", "Venere Carboni", "Acrobatics", "Acrobatics", "Acrobatics", "Acrobatics", "Amaranth", "Amaranth", "Art Scam", "Bewitching Oration", "Bewitching Oration", "Bewitching Oration", "Blur", "Blur", "Blur", "Blur", "Camarilla Threat", "Concealed Weapon", "Concealed Weapon", "Concealed Weapon", "Concealed Weapon", "Consanguineous Boon", "Consanguineous Boon", "Consanguineous Boon", "Consanguineous Boon", "Crusade: Miami", "Deploy the Hand", "Disputed Territory", "Dread Gaze", "Dread Gaze", "Fetish Club Hunting Ground", "Legal Manipulations", "Legal Manipulations", "Meat Cleaver", "Meat Cleaver", "Meat Cleaver", "Palla Grande", "Patronage", "Poker", "Poker", "Propaganda", "Propaganda", "Quicken Sight", "Quicken Sight", "Revelations", "Revelations", "Short-Term Investment", "Short-Term Investment", "Sideslip", "Sideslip", "Sideslip", "Stealth Ritus", "Stealth Ritus", "Telepathic Counter", "Telepathic Counter", "Telepathic Counter", "Telepathic Counter", "Telepathic Misdirection", "Telepathic Misdirection", "Telepathic Misdirection", "Telepathic Misdirection", "Templar", "Templar", "Templar", "Templar", "Templar", "Treachery", "Under the Skin", "Under the Skin", "Wake with Evening's Freshness", "Wake with Evening's Freshness", "Wake with Evening's Freshness", "Wooden Stake", "Wooden Stake", "Wooden Stake", "Zillah's Tears", "Zillah's Tears", "Zillah's Valley", "Zillah's Valley"));
+
+fixed[18]=FixedSet("BH",("Ayelea, The Manipulator", "Brooke", "Bryan Van Duesen", "Ember Wright", "Heinrick Schlempt", "Ian Forestal", "Kij Dansky", "Kurt Strauss", "Reverend Blackwood", "Selena", "Terrell Harding", "Thelonius", "Apportation", "Apportation", "Apportation", "Apportation", "Aura Reading", "Aura Reading", "Blood Doll", "Blood Doll", "Blood Fury", "Blood Fury", "Bonding", "Bonding", "Bonding", "Bonding", "Burst of Sunlight", "Burst of Sunlight", "Cryptic Mission", "Cryptic Mission", "Cryptic Mission", "Cryptic Mission", "Cryptic Mission", "Deflection", "Deflection", "Deflection", "Deflection", "Eldritch Glimmer", "Eldritch Glimmer", "Enhanced Senses", "Enhanced Senses", "Enhanced Senses", "Enhanced Senses", "Far Mastery", "Fast Reaction", "Fast Reaction", "Forced Awakening", "Forced Awakening", "Forced Awakening", "Forced Awakening", "Harass", "Harass", "Harass", "Harass", "Infernal Pact", "Meat Hook", "Meat Hook", "Precognition", "Recure of the Homeland", "Rötschreck", "Rötschreck", "Scouting Mission", "Scouting Mission", "Scouting Mission", "Scouting Mission", "Seduction", "Seduction", "Slaughtering the Herd", "Slaughtering the Herd", "Sociopath", "Sociopath", "Spirit's Touch", "Spirit's Touch", "Spirit's Touch", "Spirit's Touch", "Stealth Ritus", "Stealth Ritus", "Succubus", "Theft of Vitae", "Theft of Vitae", "Theft of Vitae", "Theft of Vitae", "Theft of Vitae", "University Hunting Ground", "Walk of Flame", "Walk of Flame", "Weather Control", "Weather Control"));
+
+fixed[19]=FixedSet("BH",("Beast, The Leatherface of Detroit", "Cailean", "Calebos", "Christanius Lionel, The Mad Chronicler", "Dani", "Ingram Frizer", "Josef", "Kendrick", "Olivia", "Teresita, The Godmother", "Tock", "Yong-Sun, Harmonist {Adv}", "Ambush", "Ambush", "Ambush", "Ambush", "Ambush", "Behind You!", "Behind You!", "Blood Doll", "Blood Doll", "Blood Feast", "Blooding", "Blooding", "Brick Laying", "Carrion Crows", "Carrion Crows", "Carrion Crows", "Cats' Guidance", "Cats' Guidance", "Cats' Guidance", "Courier", "Creep Show", "Disarm", "Drawing Out the Beast", "Drawing Out the Beast", "Drawing Out the Beast", "Elder Impersonation", "Elder Impersonation", "Faceless Night", "Faceless Night", "Faceless Night", "Faceless Night", "Fame", "Fame", "Guard Dogs", "Guard Dogs", "Guard Dogs", "Guard Dogs", "Guard Dogs", "IR Goggles", "IR Goggles", "Increased Strength", "Increased Strength", "Laptop Computer", "Leather Jacket", "Marijava Thuggee", "Marijava Thuggee", "Mighty Grapple", "Mighty Grapple", "Nosferatu Kingdom", "Owl Companion", "Pack Tactics", "Pack Tactics", "Raven Spy", "Raven Spy", "Raven Spy", "Shakar", "Shakar", "Shanty Town Hunting Ground", "Song in the Dark", "Song of Serenity", "Song of Serenity", "Steam Tunnels", "Swallowed by the Night", "Swallowed by the Night", "Swallowed by the Night", "Swallowed by the Night", "Taste of Vitae", "Taste of Vitae", "Thrown Gate", "Thrown Gate", "Thrown Gate", "Thrown Sewer Lid", "Thrown Sewer Lid", "Thrown Sewer Lid", "Thrown Sewer Lid", "Vox Senis", "War Party"));
+
+fixed[20]=FixedSet("KMW",("Anastasz di Zagreb", "Benedict Giovanni, Agent", "Echo", "Gengis", "Jaroslav Pascek", "Juggler", "Lucas Halton", "Lucinde, Alastor", "Madame Guil", "Menele", "Muhsin Samir", "Steve Booth", "Acrobatics", "Acrobatics", "Alastor", "Anathema", "Anathema", "Archon", "Archon", "Archon", "Bang Nakh -- Tiger's Claws", "Bang Nakh -- Tiger's Claws", "Bang Nakh -- Tiger's Claws", "Bang Nakh -- Tiger's Claws", "Bang Nakh -- Tiger's Claws", "Big Game", "Big Game", "Big Game", "Blur", "Blur", "Blur", "Blur", "Blur", "Bribes", "Bum's Rush", "Bum's Rush", "Bum's Rush", "Celerity", "Closed Session", "Concealed Weapon", "Concealed Weapon", "Concealed Weapon", "Depravity", "Disarm", "Enhanced Senses", "Enhanced Senses", "Enhanced Senses", "Fame", "Govern the Unaligned", "Govern the Unaligned", "Govern the Unaligned", "Graverobbing", "Heidelberg Castle, Germany", "Meat Hook", "Meat Hook", "Mighty Grapple", "Minion Tap", "Minion Tap", "Minion Tap", "Powder of Rigidity", "Praxis Seizure: Barcelona", "Praxis Seizure: Rome", "Precognition", "Precognition", "Precognition", "Psyche!", "Psyche!", "Pushing the Limit", "Pushing the Limit", "Red List", "Sabbat Threat", "Second Tradition: Domain", "Second Tradition: Domain", "Second Tradition: Domain", "Sideslip", "Sideslip", "Sideslip", "Slave Auction", "Sudden Reversal", "Torn Signpost", "Torn Signpost", "Trumped-Up Charges", "Trumped-Up Charges", "Trumped-Up Charges", "Undead Strength", "Undead Strength", "Undead Strength", "Undead Strength", "Vox Senis"));
+
+fixed[21]=FixedSet("KMW",("Alexis Sorokin", "Antara", "Count Germaine (KMW)", "Count Germaine {Adv} (KMW)", "Jayne Jonestown", "Marcus Vitel (KMW)", "Marcus Vitel {Adv} (KMW)", "Maria Stone", "Mata Hari", "Rabbat, The Sewer Goddess", "Skidmark", "Wolfgang", "Aire of Elation", "Aire of Elation", "Anarch Revolt", "Approximation of Loyalty", "Approximation of Loyalty", "Banishment", "Banishment", "Blood Doll", "Blood Doll", "Bribes", "Bribes", "Bribes", "Diversity", "Diversity", "Dreams of the Sphinx", "Enchant Kindred", "Enchant Kindred", "Enchant Kindred", "Entrenching", "Forced March", "Forced March", "Forgotten Labyrinth", "Free States Rant", "Free States Rant", "Free States Rant", "Haven Uncovered", "Haven Uncovered", "Haven Uncovered", "Hidden Lurker", "Hidden Lurker", "Hidden Lurker", "Hidden Lurker", "Honor the Elders", "Honor the Elders", "Iron Glare", "Life in the City", "Media Influence", "Mob Rule", "Mob Rule", "Mob Rule", "Potence", "Pursuit", "Pursuit", "Pursuit", "Pursuit", "Rebirth", "Reins of Power", "Restoration", "Restoration", "Restricted Vitae", "Skin of Steel", "Sleep Unseen", "Slum Hunting Ground", "Soak", "Soak", "Society of Leopold", "Stunt Cycle", "Stunt Cycle", "Stunt Cycle", "Swallowed by the Night", "Swallowed by the Night", "Swallowed by the Night", "Taste of Vitae", "Taste of Vitae", "The Final Nights", "Threestar Cab Company", "Thrown Gate", "Thrown Gate", "Thrown Gate", "Thrown Gate", "Voter Captivation", "Voter Captivation", "Voter Captivation", "Wake with Evening's Freshness", "Wake with Evening's Freshness", "Wake with Evening's Freshness", "Warzone Hunting Ground"));
+
+fixed[22]=FixedSet("KMW",("Denette Stensen", "Enkidu, The Noah", "Harry Reese", "Hartmut Stover", "Jeffrey Mullins", "Jeffrey Mullins", "Jesús Alcalá", "Michael diCarlo", "Mitru the Hunter", "Phillipe Rigaud", "Scarlet Carson O'Toole", "Skryta Zyleta", "Acrobatics", "Acrobatics", "Acrobatics", "Ambush", "Ambush", "Ambush", "Archon Investigation", "Bay and Howl", "Behind You!", "Behind You!", "Black Spiral Buddy", "Blood Doll", "Blood Doll", "Blood Doll", "Bum's Rush", "Bum's Rush", "Bum's Rush", "Bum's Rush", "Campground Hunting Ground", "City Gangrel Connections", "Claws of the Dead", "Claws of the Dead", "Claws of the Dead", "Claws of the Dead", "Claws of the Dead", "Confusion of the Eye", "Confusion of the Eye", "Confusion of the Eye", "Dreams of the Sphinx", "Flesh of Marble", "Flesh of Marble", "Flesh of Marble", "Flurry of Action", "Flurry of Action", "Force of Will", "Forgotten Labyrinth", "Forgotten Labyrinth", "Form of Mist", "Form of Mist", "Games of Instinct", "Games of Instinct", "Gleam of Red Eyes", "Gleam of Red Eyes", "Inquisition", "Leathery Hide", "Leathery Hide", "Leathery Hide", "Lost in Crowds", "Lost in Crowds", "Major Boon", "Nimble Feet", "Nimble Feet", "Nimble Feet", "Nimble Feet", "Owl Companion", "Protean", "Quick Meld", "Raven Spy", "Shadow Feint", "Shadow Feint", "Shadow of the Beast", "Soak", "Soak", "Sonar", "Sonar", "Stutter-Step", "Stutter-Step", "Stutter-Step", "Stutter-Step", "Superior Mettle", "Superior Mettle", "Superior Mettle", "Talons of the Dead", "The Path of the Feral Heart", "Wake with Evening's Freshness", "Wake with Evening's Freshness", "Wolf Companion"));
+
+fixed[23]=FixedSet("KMW",("Ardan Lane", "Azaneal", "Cohn Rose", "Cybele", "Maureen, Dark Priestess", "Petaniqua (KMW)", "Petaniqua {Adv} (KMW)", "Sahira Siraj", "Seren Sukardi", "Valerius Maior, Hell's Fool (KMW)", "Valerius Maior, Hell's Fool {Adv} (KMW)", "Apportation", "Blood Doll", "Blood Doll", "Blood Doll", "Blood Fury", "Blood Fury", "Bloodstorm of Chorazin", "Bloodstorm of Chorazin", "Burst of Sunlight", "Burst of Sunlight", "Burst of Sunlight", "Call the Great Beast", "Concordance", "Concordance", "Conflagration", "Conflagration", "Conflagration", "Consignment to Duat", "Consignment to Duat", "D'habi Revenant", "Dummy Corporation", "Dummy Corporation", "Ecstasy", "Ecstasy", "Elder Impersonation", "Elder Impersonation", "Enticement", "Faceless Night", "Faceless Night", "Faceless Night", "Fear of the Void Below", "Finding the Path", "Finding the Path", "Form of Corruption", "Heart of Darkness", "Heart of Darkness", "Ignore the Searing Flames", "Ignore the Searing Flames", "Legal Manipulations", "Legal Manipulations", "Legal Manipulations", "Legal Manipulations", "Legal Manipulations", "Mask of a Thousand Faces", "Mask of a Thousand Faces", "Mylan Horseed (Goblin)", "Obfuscate", "Psychomachia", "Psychomachia", "Psychomachia", "Ruins of Charizel", "Rutor's Hand", "Rutor's Hand", "Rutor's Hand", "Rötschreck", "Sense the Sin", "Sense the Sin", "Sense the Sin", "Serpentis", "Serpentis", "Skin of the Adder", "Spying Mission", "Spying Mission", "Temptation", "The Book of Going Forth by Night", "Theft of Vitae", "Theft of Vitae", "Theft of Vitae", "Theft of Vitae", "Theft of Vitae", "Theft of Vitae", "Wake with Evening's Freshness", "Wake with Evening's Freshness", "Wake with Evening's Freshness", "Wake with Evening's Freshness", "Wake with Evening's Freshness"));
+
+# Akunanse
+fixed[24]=FixedSet("LoB",("Amavi", "Amavi", "Dolie", "Dolie", "Kamiri wa Itherero", "Kamiri wa Itherero", "Meno Ngari", "Meno Ngari", "Sanjo", "Sanjo", "Uchenna", "Uchenna", "Abombwe", "Akunanse Kholo", "Army of Rats", "Army of Rats", "Blood Doll", "Blood Doll", "Blood Doll", "Bum's Rush", "Bum's Rush", "Bum's Rush", "Bum's Rush", "Canine Horde", "Carrion Crows", "Carrion Crows", "Computer Hacking", "Computer Hacking", "Computer Hacking", "Dawn Operation", "Dawn Operation", "Devil-Channel: Hands", "Devil-Channel: Hands", "Devil-Channel: Hands", "Devil-Channel: Hands", "Devil-Channel: Throat", "Devil-Channel: Throat", "Devil-Channel: Throat", "Devil-Channel: Throat", "Effective Management", "Freak Drive", "Freak Drive", "Gregory Winter", "Harass", "Harass", "Harass", "Instinctive Reaction", "Instinctive Reaction", "Instinctive Reaction", "Invoking the Beast", "Invoking the Beast", "Invoking the Beast", "Invoking the Beast", "Jungle Hunting Ground", "KRCG News Radio", "Laptop Computer", "Life in the City", "Life in the City", "Major Boon", "Owl Companion", "Owl Companion", "Predator's Mastery", "Predator's Mastery", "Predator's Mastery", "Predator's Mastery", "Rapid Healing", "Rat's Warning", "Rat's Warning", "Reliquary: Akunanse Remains", "Rolling with the Punches", "Rolling with the Punches", "Rolling with the Punches", "Rumors of Gehenna", "Rötschreck", "Secret Horde", "Skin of Steel", "Skin of Steel", "Song of Serenity", "Song of Serenity", "Sudden Reversal", "The Barrens", "The Parthenon", "Tier of Souls", "Unflinching Persistence", "Unflinching Persistence", "Unseen Hibernation", "Vox Domini", "Vulnerability", "Year of Fortune"));
+
+# Guruhi
+fixed[25]=FixedSet("LoB",("Batsheva", "Batsheva", "Lumumba", "Lumumba", "Nangila Were", "Nangila Were", "Sobayifa", "Sobayifa", "Ugadja", "Ancient Influence", "Ancilla Empowerment", "Ancilla Empowerment", "Awe", "Banishment", "Bewitching Oration", "Bewitching Oration", "Bewitching Oration", "Bewitching Oration", "Blood Tears of Kephran", "Blood Tears of Kephran", "Brass Knuckles", "Burning Wrath", "Burning Wrath", "Cats' Guidance", "Cats' Guidance", "Cats' Guidance", "Change of Target", "Change of Target", "Charming Lobby", "Consanguineous Boon", "Consanguineous Boon", "Conservative Agitation", "Conservative Agitation", "Conservative Agitation", "Conservative Agitation", "Conservative Agitation", "Disputed Territory", "Domain Challenge", "Domain Challenge", "Dummy Corporation", "Elder Library", "Elephant Guardian", "Elephant Guardian", "Flak Jacket", "Fractured Armament", "Giant's Blood", "Guruhi Kholo", "Iron Glare", "Iron Glare", "Iron Glare", "Iron Glare", "Kine Resources Contested", "Kine Resources Contested", "Kine Resources Contested", "King's Favor", "Legendary Vampire", "Minion Tap", "Minion Tap", "Minion Tap", "Overseer", "Palace Hunting Ground", "Peace Treaty", "Political Flux", "Political Stranglehold", "Potence", "Pushing the Limit", "Pushing the Limit", "Staredown", "Staredown", "Staredown", "Storage Annex", "Sudden Reversal", "Terror Frenzy", "The Death of My Conscience", "The Guruhi Are the Land", "The Guruhi Are the Land", "The Guruhi Are the Land", "The Guruhi Are the Land", "The Rumor Mill, Tabloid Newspaper", "Voter Captivation", "Voter Captivation", "Voter Captivation", "Wake with Evening's Freshness", "Wake with Evening's Freshness", "Zillah's Valley", "Zillah's Valley"));
+
+# Ishtarri
+fixed[26]=FixedSet("LoB",("Ganhuru", "Ganhuru", "Honorine Ateba", "Honorine Ateba", "Jibade el-Bahrawi", "Jibade el-Bahrawi", "Kenyatta", "Kenyatta", "Shasa Abu Badr", "Shasa Abu Badr", "Ubende", "Ubende", "Alacrity", "Alacrity", "Alacrity", "Blood Doll", "Blood Doll", "Catatonic Fear", "Catatonic Fear", "Celerity", "Change of Target", "Change of Target", "Daring the Dawn", "Enchant Kindred", "Enchant Kindred", "Enchant Kindred", "Enchant Kindred", "Enchant Kindred", "Entrancement", "Forced March", "Forced March", "Forced March", "Forced March", "Fortitude", "Heidelberg Castle, Germany", "Hidden Strength", "Hidden Strength", "Hidden Strength", "Hidden Strength", "Information Highway", "Ishtarri Kholo", "Kerrie", "Kerrie", "Legal Manipulations", "Legal Manipulations", "Legal Manipulations", "Life in the City", "Life in the City", "Majesty", "Majesty", "Marijava Ghoul", "Misdirection", "Poker", "Poker", "Port Hunting Ground", "Procurer", "Procurer", "Propaganda", "Propaganda", "Reliquary: Biague", "Rowan Ring", "Scalpel Tongue", "Scalpel Tongue", "Scalpel Tongue", "Secret Passage", "Secret Passage", "Side Strike", "Side Strike", "Side Strike", "Side Strike", "Sideslip", "Sideslip", "Social Charm", "Social Charm", "Social Charm", "Social Charm", "Social Charm", "Sudden Reversal", "The Barrens", "The Kiss of Ra", "Uncontrolled Impulse", "Uncontrolled Impulse", "Uncontrolled Impulse", "Uncontrolled Impulse", "Uncontrolled Impulse", "Vampiric Speed", "Wake with Evening's Freshness", "Wake with Evening's Freshness", "Wake with Evening's Freshness"));
+
+# Osebo
+fixed[27]=FixedSet("LoB",("Cesewayo", "Cesewayo", "Ismitta", "Ismitta", "Khalu", "Khalu", "Misrak", "Misrak", "Tatu Sawosa", "Tatu Sawosa", "Uzoma", "Uzoma", ".44 Magnum", ".44 Magnum", ".44 Magnum", "Ancestor's Insight", "Ancestor's Insight", "Ancestor's Insight", "Ancestor's Insight", "Base Hunting Ground", "Blood Doll", "Blood Doll", "Brick Laying", "Brick Laying", "Celerity", "Crocodile's Tongue", "Crocodile's Tongue", "Crocodile's Tongue", "Disguised Weapon", "Eagle's Sight", "Eagle's Sight", "Enforcer", "Enforcer", "Enforcer", "Fast Reaction", "Forced Awakening", "Forced Awakening", "Forced Awakening", "Forced Awakening", "Frenzy", "Guardian Angel", "Guardian Angel", "IR Goggles", "Improvised Flamethrower", "Improvised Flamethrower", "Increased Strength", "Increased Strength", "Infernal Pursuit", "Manstopper Rounds", "Mob Connections", "My Enemy's Enemy", "My Enemy's Enemy", "New in Town", "Nimble Feet", "Nimble Feet", "Nimble Feet", "Osebo Kholo", "Projectile", "Projectile", "Projectile", "Psychic Projection", "Pulse of the Canaille", "Pursuit", "Pursuit", "Pursuit", "Pursuit", "Quicken Sight", "Quicken Sight", "Quicken Sight", "Quicken Sight", "Riposte", "Sniper Rifle", "Taste of Vitae", "Taste of Vitae", "Telepathic Tracking", "Telepathic Tracking", "Tension in the Ranks", "Thrown Gate", "Thrown Gate", "Thrown Gate", "Thrown Gate", "Thrown Sewer Lid", "Thrown Sewer Lid", "Thrown Sewer Lid", "Thrown Sewer Lid", "Thrown Sewer Lid", "Trap", "Trap", "Trap"));
+
+# Third_BruA
+fixed[27]=FixedSet("Third",("Alessandro Garcia", "Armin Brenner", "Armin Brenner", "Father Juan Carlos", "Father Juan Carlos", "Hektor", "Hektor", "Marcel de Breau", "Shawnda Dorrit", "Smash", "Urraca", "Urraca", "Acrobatics", "Acrobatics", "Acrobatics", "Alacrity", "Alacrity", "Amusement Park Hunting Ground", "Aranthebes, The Immortal", "Aura of Invincibility", "Bewitching Oration", "Bewitching Oration", "Bewitching Oration", "Bewitching Oration", "Bewitching Oration", "Blood Doll", "Blood Doll", "Bribes", "Bribes", "Bribes", "Burning Wrath", "Celerity", "Consanguineous Boon", "Creepshow Casino", "Crusade: Detroit", "Crusade: Rome", "Disputed Territory", "Dogs of War", "Dummy Corporation", "Fast Hands", "Flash", "Flash", "Flash", "Flash", "Flash", "Increased Strength", "Increased Strength", "Iron Glare", "Iron Glare", "Iron Glare", "Kine Resources Contested", "Kine Resources Contested", "Kine Resources Contested", "Kine Resources Contested", "Kine Resources Contested", "Kine Resources Contested", "Leather Jacket", "Leather Jacket", "London Evening Star, Tabloid Newspaper", "Mighty Grapple", "Nimble Feet", "Nimble Feet", "Nimble Feet", "On the Qui Vive", "On the Qui Vive", "Potence", "Reinforcements", "Sabbat Priest", "Scalpel Tongue", "Scalpel Tongue", "Secret Horde", "Sengir Dagger", "Starshell Grenade Launcher", "Stunt Cycle", "Stunt Cycle", "Stunt Cycle", "Taste of Vitae", "Taste of Vitae", "Torn Signpost", "Torn Signpost", "Toy Chest Test", "Undead Strength", "Undead Strength", "Undead Strength", "Undead Strength", "Undead Strength", "Vendetta", "Voter Captivation", "Voter Captivation"));
+
+# Third_MalA
+fixed[27]=FixedSet("Third",("Apache Jones", "Apache Jones", "Beauregard Krueller", "Beauregard Krueller", "Bloodfeud", "General Perfidio Díos", "Harold Zettler, Pentex Director", "Persephone Tar-Anis", "Persephone Tar-Anis", "Rodolfo", "Uncle George", "White Lily", "Behind You!", "Blessing of Chaos", "Blood Doll", "Blood Doll", "The Call", "Catacombs", "Cloak the Gathering", "Cloak the Gathering", "Cloak the Gathering", "Cloak the Gathering", "Cloak the Gathering", "Cloak the Gathering", "Confusion", "Confusion", "Confusion", "Confusion", "Crusade: New York", "Crusade: Toronto", "Deer Rifle", "Dementation", "Deny", "Disengage", "Disengage", "Effective Management", "Elder Impersonation", "Elder Impersonation", "Enchanted Marionette", "Escaped Mental Patient", "Eyes of Chaos", "Eyes of Chaos", "Eyes of Chaos", "Eyes of Chaos", "Eyes of Chaos", "Glancing Blow", "Glancing Blow", "Glancing Blow", "Institution Hunting Ground", "Kindred Spirits", "Kindred Spirits", "Kindred Spirits", "Kindred Spirits", "Kindred Spirits", "Leather Jacket", "Leather Jacket", "Lost in Crowds", "Lost in Crowds", "Lost in Crowds", "Lost in Crowds", "Malkavian Game", "Melange", "Mind Tricks", "Mind Tricks", "Obfuscate", "On the Qui Vive", "On the Qui Vive", "Palatial Estate", "Precognition", "Precognition", "Precognition", "Read Intentions", "Read Intentions", "Read Intentions", "Sawed-Off Shotgun", "Sawed-Off Shotgun", "Secure Haven", "Swallowed by the Night", "Swallowed by the Night", "Swallowed by the Night", "Swallowed by the Night", "Telepathic Counter", "Telepathic Counter", "Telepathic Counter", "Telepathic Counter", "Telepathic Misdirection", "Telepathic Misdirection", "Voice of Madness", "Vox Senis"));
+
+# Third_TreA
+fixed[27]=FixedSet("Third",("Alejandro Aguirre", "Esoara", "Esoara", "Frondator", "Janine", "Ladislas Toth, The Torch", "Lucubratio", "Lucubratio", "Paul Cordwood", "Paul Cordwood", "Uta Kovacs", "Apportation", "Apportation", "Apportation", "Apportation", "Apportation", "Blood Doll", "Blood Doll", "Blood Rage", "Blood Rage", "Blood Rage", "Bonding", "Bonding", "Bonding", "Bonding", "Concoction of Vitality", "Crusade: Philadelphia", "Dominate", "Dominate Kine", "Drain Essence", "Enhanced Senses", "Enhanced Senses", "Enhanced Senses", "Eternal Vigilance", "Excommunication", "Golconda: Inner Peace", "Govern the Unaligned", "Govern the Unaligned", "Govern the Unaligned", "Govern the Unaligned", "Govern the Unaligned", "Graverobbing", "Hand Intervention", "Harass", "Harass", "Harass", "Harass", "Helicopter", "Infernal Pact", "On the Qui Vive", "On the Qui Vive", "Purity of the Beast", "Recruitment", "Recure of the Homeland", "Redirection", "Redirection", "Redirection", "Redirection", "Reins of Power", "Robert Carter", "Rutor's Hand", "Spirit's Touch", "Spirit's Touch", "Spirit's Touch", "Spirit's Touch", "Spirit's Touch", "Spirit's Touch", "Strained Vitae Supply", "Talaq, The Immortal", "Thaumaturgy", "The Sleeping Mind", "Theft of Vitae", "Theft of Vitae", "Theft of Vitae", "Theft of Vitae", "Theft of Vitae", "Theft of Vitae", "Threats", "Threats", "Threats", "Threats", "University Hunting Ground", "Walk of Flame", "Walk of Flame", "Walk of Flame", "Walk of Flame", "Weather Control", "Weather Control", "Weather Control"));
+
+# Third_Tzimisce
+fixed[27]=FixedSet("Third",("Count Vladimir Rustovitch", "Duality", "Elizabeth Westcott", "Jane Sims", "Lady Zara Slatikov", "Lady Zara Slatikov", "Laika", "Laika", "Radu Bistri", "Radu Bistri", "Yuri Kerezenski", "Yuri Kerezenski", "Amaranth", "Aura Reading", "Auspex", "Blood Doll", "Blood Doll", "Blood Feast", "Body Arsenal", "Body Arsenal", "Body Arsenal", "Body Arsenal", "Bonecraft", "Bonecraft", "Bonecraft", "Breath of the Dragon", "Canine Horde", "Changeling", "Changeling", "Changeling", "Club Zombie", "Crusade: Pittsburgh", "Drawing Out the Beast", "Drawing Out the Beast", "Drawing Out the Beast", "Eagle's Sight", "Eagle's Sight", "Enhanced Senses", "Enhanced Senses", "Enhanced Senses", "Enhanced Senses", "Enhanced Senses", "Fame", "Festivo dello Estinto", "Finding the Path", "Forced Awakening", "Forced Awakening", "Forced Awakening", "Forgery", "Forgery", "Guard Dogs", "Guard Dogs", "Guard Dogs", "Horrid Form", "Horrid Form", "Inner Essence", "Inner Essence", "Jack of Both Sides", "Library Hunting Ground", "Local 1111", "Monomancy", "Neighborhood Watch Commander (Hunter)", "Owl Companion", "Plasmic Form", "Plasmic Form", "Powerbase: Barranquilla", "Purchase Pact", "Raven Spy", "Raven Spy", "Raven Spy", "Revenant", "Root of Vitality", "Rumble", "Rumble", "Rumble", "Rötschreck", "Scorpion Sting", "Scorpion Sting", "Smiling Jack, The Anarch", "Spirit's Touch", "Spirit's Touch", "Spirit's Touch", "Spirit's Touch", "Spirit's Touch", "Spirit's Touch", "Vicissitude", "War Ghoul", "Wolf Companion", "Wolf Companion"));
+
+def ProduceSW_BruA
+{
+  return(fixed[0]);
+}
+
+def ProduceSW_Lasombra
+{
+  return(fixed[1]);
+}
+
+def ProduceSW_Tzimisce
+{
+  return(fixed[2]);
+}
+
+def ProduceSW_VenA
+{
+  return(fixed[3]);
+}
+
+def ProduceFN_Assamite
+{
+  return(fixed[4]);
+}
+
+def ProduceFN_FoS
+{
+  return(fixed[5]);
+}
+
+def ProduceFN_Giovanni
+{
+  return(fixed[6]);
+}
+
+def ProduceFN_Ravnos
+{
+  return(fixed[7]);
+}
+
+def ProduceCE_Brujah
+{
+  return(fixed[8]);
+}
+
+def ProduceCE_Malkavian
+{
+  return(fixed[9]);
+}
+
+def ProduceCE_Nosferatu
+{
+  return(fixed[10]);
+}
+
+def ProduceCE_Tremere
+{
+  return(fixed[11]);
+}
+
+def ProduceCE_Ventrue
+{
+  return(fixed[12]);
+}
+
+def ProduceAnarchs_Barons
+{
+  return(fixed[13]);
+}
+
+def ProduceAnarchs_Gangrel
+{
+  return(fixed[14]);
+}
+
+def ProduceAnarchs_Gangs
+{
+  return(fixed[15]);
+}
+
+def ProduceBH_MalA
+{
+  return(fixed[16]);
+}
+
+def ProduceBH_NosA
+{
+  return(fixed[19]);
+}
+
+def ProduceBH_TorA
+{
+  return(fixed[17]);
+}
+
+def ProduceBH_TreA
+{
+  return(fixed[18]);
+}
+
+def ProduceKMW_Alastors
+{
+  return(fixed[20]);
+}
+
+def ProduceKMW_Anathema
+{
+  return(fixed[21]);
+}
+
+def ProduceKMW_Baali
+{
+  return(fixed[23]);
+}
+
+def ProduceKMW_GanA
+{
+  return(fixed[22]);
+}
+
+def ProduceLoB_Akunanse
+{
+  return(fixed[24]);
+}
+
+def ProduceLoB_Guruhi
+{
+  return(fixed[25]);
+}
+
+def ProduceLoB_Ishtarri
+{
+  return(fixed[26]);
+}
+
+def ProduceLoB_Osebo
+{
+  return(fixed[27]);
+}
+
+def ProduceThird_BruA
+{
+  return(fixed[28]);
+}
+
+def ProduceThird_MalA
+{
+  return(fixed[29]);
+}
+
+def ProduceThird_TreA
+{
+  return(fixed[30]);
+}
+
+def ProduceThird_Tzimisce
+{
+  return(fixed[31]);
+}

@@ -1,0 +1,35 @@
+#
+#  VTES server
+#  ------------
+
+screen.width=1024;
+screen.height=768;
+port=29800;
+meta.port=29105;
+
+#
+# GAME SPECIFIC FUNCTIONS
+# =======================
+
+#
+# SetUpPlayer(p) - Create necessary strucrures for player 'p'.
+#
+def SetUpPlayer
+{
+  CreateDeck(ARG,"crypt",40,50);
+  CreateDeck(ARG,"deck",40,160);
+  CreateDeck(ARG,"discard pile",40,290);
+}
+
+#
+# InitialScore(p) - Return a structure representing initial score for a player 'p'.
+#
+def InitialScore
+{
+  push(s);
+  s=(,);
+  s{"BP"}=30;
+  s{"VP"}=0;
+  return(s);
+  s=pop();
+}

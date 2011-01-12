@@ -1,0 +1,30 @@
+
+# CONSTANTS
+# =========
+
+TORRENT_VERSION=1;
+
+#
+# VARIABLES
+# =========
+
+# Deck name mapping.
+deck_name{"deck"}="Library";
+deck_name{"discard pile"}="Ash Heap";
+deck_name{"crypt"}="Crypt";
+deck_name{"opponent deck"}="Library";
+deck_name{"opponent discard pile"}="Ash Heap";
+deck_name{"opponent crypt"}="Crypt";
+
+#
+# FUNCTIONS
+# =========
+
+def CheckLegalGrouping
+{
+	push(g);
+	g=forall('toint(Attr("group",#))',select('Attr("type",#)=="Vampire"',ARG));
+	deck_rulecheck.info="Mixing group "+min(g)+" with group "+max(g);
+	return((max(g)-min(g))<2);
+	g=pop();
+}

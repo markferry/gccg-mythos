@@ -1,0 +1,115 @@
+if(!port)
+  port=29105;
+factory.port=29106;
+
+PRIZE_PER_PLAYER=5.0;
+INITIAL_MONEY=100.0;
+AMOUNT_TO_PAY_WEEKLY=35.0;
+
+if(!load("products"))
+{
+  products=(,);
+  products{"Jyhad starter"}=(65536,7.45,("Jyhad","starter"),65536);
+  products{"Jyhad booster"}=(65536,2.45,("Jyhad","booster"),65536);
+  
+  products{"Vampire: The Eternal Struggle starter"}=(65536,7.45,("VTES","starter"),65536);
+  products{"Vampire: The Eternal Struggle booster"}=(65536,2.45,("VTES","booster"),65536);
+  
+  products{"Dark Sovereigns booster"}=(65536,2.45,("DS","booster"),65536);
+  
+  products{"Ancient Hearts booster"}=(65536,2.45,("AH","booster"),65536);
+  
+  products{"Sabbat War booster"}=(65536,1.45,("SW","booster"),65536);
+  products{"Sabbat War Brujah Antitribu starter"}=(65536,7.45,("SW","BruA"),65536);
+  products{"Sabbat War Lasombra starter"}=(65536,7.45,("SW","Lasombra"),65536);
+  products{"Sabbat War Tzimisce starter"}=(65536,7.45,("SW","Tzimisce"),65536);
+  products{"Sabbat War Ventrue Antitribu starter"}=(65536,7.45,("SW","VenA"),65536);
+  products{"Sabbat booster"}=(65536,3.45,("Sabbat","booster"),65536);
+  
+  products{"Final Nights Assamite starter"}=(65536,7.45,("FN","Assamite"),65536);
+  products{"Final Nights Followers of Set starter"}=(65536,7.45,("FN","FoS"),65536);
+  products{"Final Nights Giovanni starter"}=(65536,7.45,("FN","Giovanni"),65536);
+  products{"Final Nights Ravnos starter"}=(65536,7.45,("FN","Ravnos"),65536);
+  products{"Final Nights booster"}=(65536,1.45,("FN","booster"),65536);
+  
+  products{"Bloodlines booster"}=(65536,1.45,("BL","booster"),65536);
+  
+  products{"Camarilla Edition Brujah starter"}=(65536,7.45,("CE","Brujah"),65536);
+  products{"Camarilla Edition Malkavian starter"}=(65536,7.45,("CE","Malkavian"),65536);
+  products{"Camarilla Edition Nosferatu starter"}=(65536,7.45,("CE","Nosferatu"),65536);
+  products{"Camarilla Edition Tremere starter"}=(65536,7.45,("CE","Tremere"),65536);
+  products{"Camarilla Edition Ventrue starter"}=(65536,7.45,("CE","Ventrue"),65536);
+  products{"Camarilla Edition booster"}=(65536,1.45,("CE","booster"),65536);
+  
+  products{"Anarchs Barons starter"}=(65536,7.45,("Anarchs","Barons"),65536);
+  products{"Anarchs Gangrel starter"}=(65536,7.45,("Anarchs","Gangrel"),65536);
+  products{"Anarchs Gangs starter"}=(65536,7.45,("Anarchs","Gangs"),65536);
+  products{"Anarchs booster"}=(65536,1.45,("Anarchs","booster"),65536);
+  
+  products{"Black Hand Malkavian Antitribu starter"}=(65536,7.45,("BH","MalA"),65536);
+  products{"Black Hand Nosferatu Antitribu starter"}=(65536,7.45,("BH","NosA"),65536);
+  products{"Black Hand Toreador Antitribu starter"}=(65536,7.45,("BH","TorA"),65536);
+  products{"Black Hand Tremere Antitribu starter"}=(65536,7.45,("BH","TreA"),65536);
+  products{"Black Hand booster"}=(65536,2.45,("BH","booster"),65536);
+  
+  products{"Gehenna booster"}=(65536,1.45,("Gehenna","booster"),65536);
+  
+  products{"Kindred Most Wanted Alastors starter"}=(65536,7.45,("KMW","Alastors"),65536);
+  products{"Kindred Most Wanted Anathema starter"}=(65536,7.45,("KMW","Anathema"),65536);
+  products{"Kindred Most Wanted Baali starter"}=(65536,7.45,("KMW","Baali"),65536);
+  products{"Kindred Most Wanted Gangrel Antitribu starter"}=(65536,7.45,("KMW","GanA"),65536);
+  products{"Kindred Most Wanted booster"}=(65536,1.45,("KMW","booster"),65536);
+
+  products{"Legacies of Blood Akunanse starter"}=(65536,7.45,("LoB","Akunanse"),65536);
+  products{"Legacies of Blood Guruhi starter"}=(65536,7.45,("LoB","Guruhi"),65536);
+  products{"Legacies of Blood Ishtarri starter"}=(65536,7.45,("LoB","Ishtarri"),65536);
+  products{"Legacies of Blood Osebo starter"}=(65536,7.45,("LoB","Osebo"),65536);
+  products{"Legacies of Blood booster"}=(65536,1.45,("LoB","booster"),65536);
+  
+  products{"Nights of Reckoning booster"}=(65536,1.45,("NoR","booster"),65536);
+  
+  products{"Third Edition Brujah Antitribu starter"}=(65536,7.45,("Third","BruA"),65536);
+  products{"Third Edition Malkavian Antitribu starter"}=(65536,7.45,("Third","MalA"),65536);
+  products{"Third Edition Tremere Antitribu starter"}=(65536,7.45,("Third","TreA"),65536);
+  products{"Third Edition Tzimisce starter"}=(65536,7.45,("Tzimisce","starter"),65536);
+  products{"Third Edition booster"}=(65536,1.45,("Third","booster"),65536);
+  
+  products{"Sword of Caine booster"}=(65536,1.45,("SoC","booster"),65536);
+  
+  products{"Lords of the Night booster"}=(65536,1.45,("LotN","booster"),65536);
+  
+  products{"Twilight Rebellion booster"}=(65536,1.45,("TR","booster"),65536);
+  
+  products{"Keepers of Tradition booster"}=(65536,1.45,("KoT","booster"),65536);
+  
+  products{"Ebony Kingdom booster"}=(65536,1.45,("EK","booster"),65536);
+  save("products");
+}
+
+#
+# HOOKS
+# =====
+
+# EndGameHook(player name who declared,result,result options,player numbers,player names,bet) - This
+#   hook is called at the beginning of the game result
+#   prosessing. Note: this hook is not called for undecided results.
+# 
+# def EndGameHook
+# {
+#   if(length(ARG[3])>1)
+#   {
+#     push(c);
+#     for(p)(ARG[4])
+#     {
+#       if(users{p}[4][1][0]==0)
+#       {
+#         c=random(seq(set.data{"Demo"}[1],set.data{"Demo"}[2]));
+#         AddCard(p,c);
+#         SendAll("Message","{blue}"+p+" receives{gold} #"+c+"# {blue}as a reward for the game.");
+#         if(Con(p)>-1)
+#           Send(Con(p),("SetCardbook",((c,users{p}[2]{c}),)));
+#       }
+#     }
+#     c=pop();
+#   }
+# }

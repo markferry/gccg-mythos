@@ -1,0 +1,49 @@
+#
+# DECK RULES
+# ==========
+
+deck_rules=(,);
+server_description="Standard rules";
+deck_rules{"Standard Constructed"}=(,);
+deck_rules{"Standard Constructed"}{""}=(
+  ("RulePass",NULL),
+);
+deck_rules{"Standard Constructed"}{"deck"}=(
+  ("RuleDeckMinimum",60),
+  ("RuleDeckMaximum",90),
+  ("RuleLimitByExpression",(0,"Attr(\"type\",#)==\"Vampire\"")),
+  ("RulePass",NULL),
+);
+deck_rules{"Standard Constructed"}{"crypt"}=(
+  ("RuleDeckMinimum",12),
+  ("RuleLimitByExpression",(0,"Attr(\"type\",#)!=\"Vampire\"")),
+  ("RuleCheckExpression",("legal grouping","CheckLegalGrouping(#)")),
+  ("RulePass",NULL),
+);
+deck_rules{"V:EKN Standard"}=(,);
+deck_rules{"V:EKN Standard"}{""}=(
+  ("RuleCardLimitSingle",("Dramatic Upheaval",0)),
+  ("RuleCardLimitSingle",("Edge Explosion",0)),
+  ("RuleCardLimitSingle",("Kindred Restructure",0)),
+  ("RuleCardLimitSingle",("Madness of the Bard",0)),
+  ("RuleCardLimitSingle",("Memories of Mortality",0)),
+  ("RuleCardLimitSingle",("Protect Thine Own",0)),
+  ("RuleCardLimitSingle",("The Return to Innocence",0)),
+  ("RuleCardLimitSingle",("Succubus Club",0)),
+  ("RuleCardLimitSingle",("Cunctator Motion",0)),
+  ("RuleCardLimitSingle",("High Stakes",0)),
+  ("RuleCardLimitSingle",("Playing for Keeps",0)),
+  ("RulePass",NULL),
+);
+deck_rules{"V:EKN Standard"}{"deck"}=(
+  ("RuleDeckMinimum",60),
+  ("RuleDeckMaximum",90),
+  ("RuleLimitByExpression",(0,"Attr(\"type\",#)==\"Vampire\"")),
+  ("RulePass",NULL),
+);
+deck_rules{"V:EKN Standard"}{"crypt"}=(
+  ("RuleDeckMinimum",12),
+  ("RuleLimitByExpression",(0,"Attr(\"type\",#)!=\"Vampire\"")),
+  ("RuleCheckExpression",("legal grouping","CheckLegalGrouping(#)")),
+  ("RulePass",NULL),
+);

@@ -1,0 +1,1216 @@
+#
+# VARIABLES
+# =========
+#
+# blood_pool - Current blood pool for me.
+# blood_lock - Set while waiting score update.
+# victory_points - Current victory points for me.
+# counter_store - A mapping from card numbers to the lists of counters used when playing vampire.
+
+BGCOLOR=(60,13,13);
+# FGCOLOR=(150,13,13);
+BRCOLOR=(150,13,13);
+BGCOLOR2=(60,13,13);
+# FGCOLOR2=(174,1,14);
+BRCOLOR2=(150,13,13);
+# TXCOLOR=(120,5,13);
+TXCOLOR=(110,125,110);
+BKBGCOLOR=(60,13,13);
+BKBRCOLOR=(100,100,100);
+BKTXCOLOR=(255,255,255);
+TABLE_SHADOW=1;
+
+# Number of cards in hand.
+HANDSIZE=7;
+# Size of columns of the decklist in pixels.
+DECKBOX_SIZE=(20,270,130);
+# Default export format.
+DEFAULT_EXPORT_FORMAT="Gccg";
+# default book sorting criteria.
+BOOK_DEFAULT_SORT=("[age]","[type]","[name]");
+# cards staying always on table
+IMMOBILE_CARDS=(2,);
+# Force rebuild of indexes.
+BOOK_FILTER_VERSION_MINOR=".1";
+
+
+# server and port
+if(server.name=="NO.DEFAULT.SERVER.FOR.THIS.GAME")
+  server.name="gccg.servebeer.com";
+if(!port)
+  port=29105;
+
+product.image=(,);
+product.image{"Jyhad booster"}="Jyhad-booster.jpg";
+product.image{"Jyhad starter"}="Jyhad-starter.jpg";
+product.image{"Vampire: The Eternal Struggle booster"}="VTES-booster.jpg";
+product.image{"Vampire: The Eternal Struggle starter"}="VTES-starter.jpg";
+product.image{"Dark Sovereigns booster"}="DS-booster.jpg";
+product.image{"Ancient Hearts booster"}="AH-booster.jpg";
+product.image{"Sabbat booster"}="Sabbat-booster.jpg";
+product.image{"Sabbat War booster"}="SW-booster.jpg";
+product.image{"Sabbat War Brujah Antitribu starter"}="SW_PC_BruA_starter.jpg";
+product.image{"Sabbat War Lasombra starter"}="SW_PC_Las_starter.jpg";
+product.image{"Sabbat War Tzimisce starter"}="unknown_starter.jpg";
+product.image{"Sabbat War Ventrue Antitribu starter"}="SW_PC_VenA_starter.jpg";
+product.image{"Final Nights booster"}="FN-booster.jpg";
+product.image{"Final Nights Assamite starter"}="unknown_starter.jpg";
+product.image{"Final Nights Followers of Set starter"}="unknown_starter.jpg";
+product.image{"Final Nights Giovanni starter"}="unknown_starter.jpg";
+product.image{"Final Nights Ravnos starter"}="unknown_starter.jpg";
+product.image{"Bloodlines booster"}="BL-booster.jpg";
+product.image{"Camarilla Edition booster"}="CE-booster.jpg";
+product.image{"Camarilla Edition Brujah starter"}="unknown_starter.jpg";
+product.image{"Camarilla Edition Malkavian starter"}="unknown_starter.jpg";
+product.image{"Camarilla Edition Nosferatu starter"}="unknown_starter.jpg";
+product.image{"Camarilla Edition Tremere starter"}="unknown_starter.jpg";
+product.image{"Camarilla Edition Ventrue starter"}="CE_PC_Ven_starter.jpg";
+product.image{"Anarchs booster"}="AN-booster.jpg";
+product.image{"Anarchs Barons starter"}="Anarchs_PC_Barons_starter.jpg";
+product.image{"Anarchs Gangrel starter"}="unknown_starter.jpg";
+product.image{"Anarchs Gangs starter"}="Anarchs_PC_Gangs_starter.jpg";
+product.image{"Black Hand Malkavian Antitribu starter"}="BH_PC_MalA_starter.jpg";
+product.image{"Black Hand Nosferatu Antitribu starter"}="BH_PC_NosA_starter.jpg";
+product.image{"Black Hand Toreador Antitribu starter"}="BH_PC_TorA_starter.jpg";
+product.image{"Black Hand Tremere Antitribu starter"}="BH_PC_TreA_starter.jpg";
+product.image{"Gehenna booster"}="Gehenna-booster.jpg";
+product.image{"Kindred Most Wanted booster"}="KMW-booster.jpg";
+product.image{"Kindred Most Wanted Alastors starter"}="KMW_PC_Alastor_starter.jpg";
+product.image{"Kindred Most Wanted Anathema starter"}="KMW_PC_Anathema_starter.jpg";
+product.image{"Kindred Most Wanted Baali starter"}="KMW_PC_Baali_starter.jpg";
+product.image{"Kindred Most Wanted Gangrel Antitribu starter"}="KMW_PC_Gangrel_starter.jpg";
+product.image{"Legacies of Blood booster"}="LoB-booster.jpg";
+product.image{"Legacies of Blood Akunanse starter"}="LoB_PC_Akunanse_starter.jpg";
+product.image{"Legacies of Blood Guruhi starter"}="LoB_PC_Guruhi_starter.jpg";
+product.image{"Legacies of Blood Ishtarri starter"}="LoB_PC_Ishtarri_starter.jpg";
+product.image{"Legacies of Blood Osebo starter"}="LoB_PC_Osebo_starter.jpg";
+product.image{"Nights of Reckoning booster"}="NoR-booster.jpg";
+product.image{"Third Edition booster"}="3E-booster.jpg";
+product.image{"Third Edition Brujah Antitribu booster"}="3E_PC_BrujahA_starter.jpg";
+product.image{"Third Edition Malkavian Antitribu booster"}="3E_PC_MalkavianA_starter.jpg";
+product.image{"Third Edition Tremere Antitribu booster"}="3E_PC_TremereA_starter.jpg";
+product.image{"Third Edition Tzimisce booster"}="3E_PC_Tzimisce_starter.jpg";
+product.image{"Sword of Caine booster"}="SOC-booster.jpg";
+product.image{"Lords of the Night booster"}="LotN-booster.jpg";
+product.image{"Twilight Rebellion booster"}="TR-booster.jpg";
+product.image{"Keepers of Tradition booster"}="KoT-booster.jpg";
+product.image{"Ebony Kingdom booster"}="EK-booster.jpg";
+
+
+  
+game.bindings=(
+  ("KeyControlKey1","{orange}During Untap phase...",),
+  ("KeyControlKey2","{orange}During Master phase...",),
+  ("KeyControlKey3","{orange}During Minion phase...",),
+  ("KeyControlKey4","{orange}During Influence phase...",),
+  ("KeyControlKey5","{orange}During Discard phase...",),
+  ("KeyControlKey6","{red}Bleed Prey...",),
+  ("KeyControlKey7","{red}Hunt...",),
+  ("KeyControlKey8","{blue}Block...",),
+  ("KeyControlKey9","{orange} During Combat: {red}Range phase...",),
+  ("KeyControlKey0","{orange} During Combat: {red}Strike phase...",),
+  ("KeyControlKeyMinus","{orange} During Combat: {red}Press phase...",),
+  ("KeyControlKey1","{orange}During Untap phase...",),
+  ("KeyShiftControlKeyQ","{orange}During Political Action: {blue}Terms phase...",),
+  ("KeyShiftControlKeyW","{orange}During Political Action: {blue}Polling phase...",),
+  ("KeyShiftControlKeyE","{orange}During Political Action: {blue}Resolution phase...",),
+  );
+  
+# MENUS
+# =====
+
+GAME_MENU{"Main Menu - Play"}=(
+ (1,"{hr}","",""),
+ (1,"Play Anarch Counter","",'Send("Transfer",(1,("out.of.play",3),("play",0)))'),
+ (1,"Play Corruption Counter","",'Send("Transfer",(1,("out.of.play",4),("play",0)))'),
+ (1,"{hr}","",""),
+ (1,"Display Titled Vampire Rules","/titles",""),
+ (1,"Display Bloodlines Rules...","","BloodlinesRulesSubmenu()"),
+ (1,"{hr}","",""),
+ (1,"Look at your sideboard","",'search.source=sideboard;Send("SearchDeck",sideboard)'),
+ (1,"{hr}","",""),
+ (1,"Add 1 Victory Point","/vp +1",""),
+ (1,"Del 1 Victory Point","/vp -1",""),
+);
+
+GAME_MENU{"Main Menu - Chat"}=(
+ (1,"{hr}","",""),
+ (1,"Select Clan Avatar...","","ClanAvatarSubmenu()"),
+ );
+ 
+GAME_MENU{"Tap a card"}=(
+ (1,"Tap/Untap","middle click",""),
+ (1,"Tap and keep tapped","","SetStayTapped()"),
+ (1,"Invert","Ctrl+I",""),
+ (1,"Attach","Ctrl+Z",""),
+ (1,"Attach on opponent","Ctrl+X",""),
+ ('ParentObject(object.number)!=NULL',"Detach","Ctrl+left click","MouseControlLeftClick()"),
+);
+ 
+ 
+FILTER_OPTIONS=(
+ ("Sort by Name","1",(0,"[name]")),
+ ("Sort by Type","1",("[type]","[name]")),
+  "{hr}",
+ ("Actions by Type","find('Action',Attr('type',#))!=NULL",(1,"[type]","[name]")),
+ ("          ...by Discipline","find('Action',Attr('type',#))!=NULL",(1,"[discipline]","[name]")),
+ ("          ...by Clan","find('Action',Attr('type',#))!=NULL",(1,"[clan]","[name]")),
+ ("          ...by Virtue","find('Action',Attr('type',#))!=NULL",(1,"[virtue]","[name]")),
+ ("Action Modifiers by Type","find('Action Modifier',Attr('type',#))!=NULL",(1,"[type]","[name]")),
+ ("          ...by Discipline","find('Action Modifier',Attr('type',#))!=NULL",(1,"[discipline]","[name]")),
+ ("          ...by Clan","find('Action Modifier',Attr('type',#))!=NULL",(1,"[clan]","[name]")),
+ ("Reactions by Type","find('Reaction',Attr('type',#))!=NULL",(1,"[type]","[name]")),
+ ("          ...by Discipline","find('Reaction',Attr('type',#))!=NULL",(1,"[discipline]","[name]")),
+ ("          ...by Clan","find('Reaction',Attr('type',#))!=NULL",(1,"[clan]","[name]")),
+ ("          ...by Virtue","find('Reaction',Attr('type',#))!=NULL",(1,"[virtue]","[name]")),
+ ("Combats by Type","find('Combat',Attr('type',#))!=NULL",(1,"[type]","[name]")),
+ ("          ...by Discipline","find('Combat',Attr('type',#))!=NULL",(1,"[discipline]","[name]")),
+ ("          ...by Clan","find('Combat',Attr('type',#))!=NULL",(1,"[clan]","[name]")),
+ ("          ...by Virtue","find('Combat',Attr('type',#))!=NULL",(1,"[virtue]","[name]")),
+ "{hr}",
+ ("Masters by Type","find('Master',Attr('type',#))!=NULL",(1,"[type]","[name]")),
+ ("          ...by Clan","find('Master',Attr('type',#))!=NULL",(1,"[clan]","[name]")),
+ ("Equipment cards by Disc.","find('Equipment',Attr('type',#))!=NULL",(1,"[discipline]","[name]")),
+ ("          ...by Clan","find('Equipment',Attr('type',#))!=NULL",(1,"[clan]","[name]")),
+ ("Allies by Disc.","find('Ally',Attr('type',#))!=NULL",(1,"[discipline]","[name]")),
+ ("          ...by Clan","find('Ally',Attr('type',#))!=NULL",(1,"[clan]","[name]")),
+ ("Retainers by Disc.","find('Retainer',Attr('type',#))!=NULL",(1,"[discipline]","[name]")),
+ ("          ...by Clan","find('Retainer',Attr('type',#))!=NULL",(1,"[clan]","[name]")),
+ "{hr}",
+ ("Events","find('Event',Attr('type',#))!=NULL",(1,"[type]","[name]")),
+ "{hr}",
+ ("Vampires by Clan","find('Vampire',Attr('type',#))!=NULL",(1,"[clan]","[name]")),
+ ("          ...by Group","find('Vampire',Attr('type',#))!=NULL",(1,"[group]","[name]")),
+# ("{Adv} Vampires by Clan","find('{Adv}',Attr('level',#))!=NULL",(1,"[clan]","[name]")),
+# ("          ...by Group","find('{Adv}',Attr('level',#))!=NULL",(1,"[group]","[name]")),
+ ("          ...w/ {abo} Abombwe","find('{abo}',Attr('discipline',#))!=NULL",(1,"[clan]","[group]")),
+ ("          ...w/ {ABO} Sup. Abombwe","find('{ABO}',Attr('discipline',#))!=NULL",(1,"[clan]","[group]")),
+ ("          ...w/ {ani} Animalism","find('{ani}',Attr('discipline',#))!=NULL",(1,"[clan]","[group]")),
+ ("          ...w/ {ANI} Sup. Animalism","find('{ANI}',Attr('discipline',#))!=NULL",(1,"[clan]","[group]")),
+ ("          ...w/ {aus} Auspex","find('{abo}',Attr('discipline',#))!=NULL",(1,"[clan]","[group]")),
+ ("          ...w/ {AUS} Sup. Auspex","find('{ABO}',Attr('discipline',#))!=NULL",(1,"[clan]","[group]")),
+ ("          ...w/ {cel} Celerity","find('{cel}',Attr('discipline',#))!=NULL",(1,"[clan]","[group]")),
+ ("          ...w/ {CEL} Sup. Celerity","find('{CEL}',Attr('discipline',#))!=NULL",(1,"[clan]","[group]")),
+ ("          ...w/ {chi} Chimerstry","find('{chi}',Attr('discipline',#))!=NULL",(1,"[clan]","[group]")),
+ ("          ...w/ {CHI} Sup. Chimerstry","find('{CHI}',Attr('discipline',#))!=NULL",(1,"[clan]","[group]")),
+ ("          ...w/ {dai} Daimoinon","find('{dai}',Attr('discipline',#))!=NULL",(1,"[clan]","[group]")),
+ ("          ...w/ {DAI} Sup. Daimoinon","find('{DAI}',Attr('discipline',#))!=NULL",(1,"[clan]","[group]")),
+ ("          ...w/ {dem} Dementation","find('{dem}',Attr('discipline',#))!=NULL",(1,"[clan]","[group]")),
+ ("          ...w/ {DEM} Sup. Dementation","find('{DEM}',Attr('discipline',#))!=NULL",(1,"[clan]","[group]")),
+ ("          ...w/ {dom} Dominate","find('{dom}',Attr('discipline',#))!=NULL",(1,"[clan]","[group]")),
+ ("          ...w/ {DOM} Sup. Dominate","find('{DOM}',Attr('discipline',#))!=NULL",(1,"[clan]","[group]")),
+ ("          ...w/ {for} Fortitude","find('{for}',Attr('discipline',#))!=NULL",(1,"[clan]","[group]")),
+ ("          ...w/ {FOR} Sup. Fortitude","find('{FOR}',Attr('discipline',#))!=NULL",(1,"[clan]","[group]")),
+ ("          ...w/ {mel} Melpominee","find('{mel}',Attr('discipline',#))!=NULL",(1,"[clan]","[group]")),
+ ("          ...w/ {MEL} Sup. Melpominee","find('{MEL}',Attr('discipline',#))!=NULL",(1,"[clan]","[group]")),
+ ("          ...w/ {myt} Mytherceria","find('{myt}',Attr('discipline',#))!=NULL",(1,"[clan]","[group]")),
+ ("          ...w/ {MYT} Sup. Mytherceria","find('{MYT}',Attr('discipline',#))!=NULL",(1,"[clan]","[group]")),
+ ("          ...w/ {nec} Necromacy","find('{nec}',Attr('discipline',#))!=NULL",(1,"[clan]","[group]")),
+ ("          ...w/ {NEC} Sup. Necromacy","find('{NEC}',Attr('discipline',#))!=NULL",(1,"[clan]","[group]")),
+ ("          ...w/ {obe} Obeah","find('{obe}',Attr('discipline',#))!=NULL",(1,"[clan]","[group]")),
+ ("          ...w/ {OBE} Sup. Obeah","find('{OBE}',Attr('discipline',#))!=NULL",(1,"[clan]","[group]")),
+ ("          ...w/ {obf} Obfuscate","find('{obf}',Attr('discipline',#))!=NULL",(1,"[clan]","[group]")),
+ ("          ...w/ {OBF} Sup. Obfuscate","find('{OBF}',Attr('discipline',#))!=NULL",(1,"[clan]","[group]")),
+ ("          ...w/ {obt} Obtenebration","find('{obt}',Attr('discipline',#))!=NULL",(1,"[clan]","[group]")),
+ ("          ...w/ {OBT} Sup. Obtenebration","find('{OBT}',Attr('discipline',#))!=NULL",(1,"[clan]","[group]")),
+ ("          ...w/ {pot} Potence","find('{pot}',Attr('discipline',#))!=NULL",(1,"[clan]","[group]")),
+ ("          ...w/ {POT} Sup. Potence","find('{POT}',Attr('discipline',#))!=NULL",(1,"[clan]","[group]")),
+ ("          ...w/ {pre} Presence","find('{pre}',Attr('discipline',#))!=NULL",(1,"[clan]","[group]")),
+ ("          ...w/ {PRE} Sup. Presence","find('{PRE}',Attr('discipline',#))!=NULL",(1,"[clan]","[group]")),
+ ("          ...w/ {pro} Protean","find('{pro}',Attr('discipline',#))!=NULL",(1,"[clan]","[group]")),
+ ("          ...w/ {PRO} Sup. Protean","find('{PRO}',Attr('discipline',#))!=NULL",(1,"[clan]","[group]")),
+ ("          ...w/ {qui} Quietus","find('{qui}',Attr('discipline',#))!=NULL",(1,"[clan]","[group]")),
+ ("          ...w/ {QUI} Sup. Quietus","find('{QUI}',Attr('discipline',#))!=NULL",(1,"[clan]","[group]")),
+ ("          ...w/ {san} Sanguinus","find('{san}',Attr('discipline',#))!=NULL",(1,"[clan]","[group]")),
+ ("          ...w/ {SAN} Sup. Sanguinus","find('{SAN}',Attr('discipline',#))!=NULL",(1,"[clan]","[group]")),
+ ("          ...w/ {ser} Serpentis","find('{ser}',Attr('discipline',#))!=NULL",(1,"[clan]","[group]")),
+ ("          ...w/ {SER} Sup. Serpentis","find('{SER}',Attr('discipline',#))!=NULL",(1,"[clan]","[group]")),
+ ("          ...w/ {spi} Spiritus","find('{spi}',Attr('discipline',#))!=NULL",(1,"[clan]","[group]")),
+ ("          ...w/ {SPI} Sup. Spiritus","find('{SPI}',Attr('discipline',#))!=NULL",(1,"[clan]","[group]")),
+ ("          ...w/ {tem} Temporis","find('{tem}',Attr('discipline',#))!=NULL",(1,"[clan]","[group]")),
+ ("          ...w/ {TEM} Sup. Temporis","find('{TEM}',Attr('discipline',#))!=NULL",(1,"[clan]","[group]")),
+ ("          ...w/ {thn} Thanatosis","find('{thn}',Attr('discipline',#))!=NULL",(1,"[clan]","[group]")),
+ ("          ...w/ {THN} Sup. Thanatosis","find('{THN}',Attr('discipline',#))!=NULL",(1,"[clan]","[group]")),
+ ("          ...w/ {tha} Thaumaturgy","find('{tha}',Attr('discipline',#))!=NULL",(1,"[clan]","[group]")),
+ ("          ...w/ {THA} Sup. Thaumaturgy","find('{THA}',Attr('discipline',#))!=NULL",(1,"[clan]","[group]")),
+ ("          ...w/ {val} Valeren","find('{val}',Attr('discipline',#))!=NULL",(1,"[clan]","[group]")),
+ ("          ...w/ {VAL} Sup. Valeren","find('{VAL}',Attr('discipline',#))!=NULL",(1,"[clan]","[group]")),
+ ("          ...w/ {vic} Vicissitude","find('{vic}',Attr('discipline',#))!=NULL",(1,"[clan]","[group]")),
+ ("          ...w/ {VIC} Sup. Vicissitude","find('{VIC}',Attr('discipline',#))!=NULL",(1,"[clan]","[group]")),
+ ("          ...w/ {vis} Visceratika","find('{vis}',Attr('discipline',#))!=NULL",(1,"[clan]","[group]")),
+ ("          ...w/ {VIS} Sup. Visceratika","find('{VIS}',Attr('discipline',#))!=NULL",(1,"[clan]","[group]")),
+ "{hr}",
+ ("Sort by All Disciplines","find('',Attr('discipline',#))!=NULL",(1,"[discipline]","[name]")),
+ ("          ...{abo}Abombwe","find('Abombwe',Attr('discipline',#))!=NULL",(1,"[discipline]","[name]")),
+ ("          ...{ani}Animalism","find('Animalism',Attr('discipline',#))!=NULL",(1,"[discipline]","[name]")),
+ ("          ...{aus}Auspex","find('Auspex',Attr('discipline',#))!=NULL",(1,"[discipline]","[name]")),
+ ("          ...{cel}Celerity","find('Celerity',Attr('discipline',#))!=NULL",(1,"[discipline]","[name]")),
+ ("          ...{chi}Chimerstry","find('Chimerstry',Attr('discipline',#))!=NULL",(1,"[discipline]","[name]")),
+ ("          ...{dai}Daimoinon","find('Daimoinon',Attr('discipline',#))!=NULL",(1,"[discipline]","[name]")),
+ ("          ...{dem}Dementation","find('Dementation',Attr('discipline',#))!=NULL",(1,"[discipline]","[name]")),
+ ("          ...{dom}Dominate","find('Dominate',Attr('discipline',#))!=NULL",(1,"[discipline]","[name]")),
+ ("          ...{for}Fortitude","find('Fortitude',Attr('discipline',#))!=NULL",(1,"[discipline]","[name]")),
+ ("          ...{mel}Melpominee","find('Melpominee',Attr('discipline',#))!=NULL",(1,"[discipline]","[name]")),
+ ("          ...{myt}Mytherceria","find('Mytherceria',Attr('discipline',#))!=NULL",(1,"[discipline]","[name]")),
+ ("          ...{nec}Necromacy","find('Necromancy',Attr('discipline',#))!=NULL",(1,"[discipline]","[name]")),
+ ("          ...{obe}Obeah","find('Obeah',Attr('discipline',#))!=NULL",(1,"[discipline]","[name]")),
+ ("          ...{obf}Obfuscate","find('Obfuscate',Attr('discipline',#))!=NULL",(1,"[discipline]","[name]")),
+ ("          ...{obt}Obtenebration","find('Obtenebration',Attr('discipline',#))!=NULL",(1,"[discipline]","[name]")),
+ ("          ...{pot}Potence","find('Potence',Attr('discipline',#))!=NULL",(1,"[discipline]","[name]")),
+ ("          ...{pre}Presence","find('Presence',Attr('discipline',#))!=NULL",(1,"[discipline]","[name]")),
+ ("          ...{pro}Protean","find('Protean',Attr('discipline',#))!=NULL",(1,"[discipline]","[name]")),
+ ("          ...{qui}Quietus","find('Quietus',Attr('discipline',#))!=NULL",(1,"[discipline]","[name]")),
+ ("          ...{san}Sanguinus","find('Sanguinus',Attr('discipline',#))!=NULL",(1,"[discipline]","[name]")),
+ ("          ...{ser}Serpentis","find('Serpentis',Attr('discipline',#))!=NULL",(1,"[discipline]","[name]")),
+ ("          ...{spi}Spiritus","find('Spiritus',Attr('discipline',#))!=NULL",(1,"[discipline]","[name]")),
+ ("          ...{tem}Temporis","find('Temporis',Attr('discipline',#))!=NULL",(1,"[discipline]","[name]")),
+ ("          ...{thn}Thanatosis","find('Thanatosis',Attr('discipline',#))!=NULL",(1,"[discipline]","[name]")),
+ ("          ...{tha}Thaumaturgy","find('Thaumaturgy',Attr('discipline',#))!=NULL",(1,"[discipline]","[name]")),
+ ("          ...{val}Valeren","find('Valeren',Attr('discipline',#))!=NULL",(1,"[discipline]","[name]")),
+ ("          ...{vic}Vicissitude","find('Vicissitude',Attr('discipline',#))!=NULL",(1,"[discipline]","[name]")),
+ ("          ...{vis}Visceratika","find('Visceratika',Attr('discipline',#))!=NULL",(1,"[discipline]","[name]")),
+"{hr}",
+ ("Imbued by Creed","find('Imbued',Attr('type',#))!=NULL",(1,"[creed]","[name]")),
+ ("Power cards by Virtue","find('Power',Attr('type',#))!=NULL",(1,"[virtue]","[name]")),
+ ("Conviction cards","find('Conviction',Attr('type',#))!=NULL",(1,"[type]","[name]")),
+ );
+
+
+#
+# GAME FUNCTIONS
+# ==============
+
+def BloodlinesRulesSubmenu
+{
+	Submenu("Bloodlines Rules Reference",(
+	(" {Flight} Flight Rule ","/flight",""),
+	(" {Burn} Burn Rule ","/burn",""),
+	(" Infernal Rule ","/infernal",""),
+	(" Circle Rule ","/circle",""),
+	(" Cold Iron Vulnerability Rule ","/coldiron",""),
+	(" Sterile Rule ","/sterile",""),
+	(" Scarce Rule ","/scarce",""),
+	(" Slave Rule ","/slave",""),
+	(" Split Discipline and Multi-discipline Cards Rule ","/multisplit",""),
+	));
+	
+}
+def ClanAvatarSubmenu
+{
+Submenu("Select Clan Avatar",(
+ (" {Abomination} Abomination ","/set avatar clanabo",""),
+ (" {Ahrimane} Ahrimane ","/set avatar clanahr",""),
+ (" {Akunanse} Akunanse ","/set avatar clanaku",""),
+ (" {Assamite} Assamite ","/set avatar clanass",""),
+ (" {Baali} Baali ","/set avatar clanbaa",""),
+ (" {BBrothers} Blood Brothers ","/set avatar clanbbr",""),
+ (" {Brujah} Brujah ","/set avatar clanbru",""),
+ (" {BrujahA} Brujah Antitribu ","/set avatar clanbrua",""),
+ (" {Caitiff} Caitiff ","/set avatar clancai",""),
+ (" {DoC} Daughters of Cacophony ","/set avatar clandoc",""),
+ (" {Gangrel} Gangral ","/set avatar clangan",""),
+ (" {GangrelA} Gangral Antitribu ","/set avatar clangana",""),
+ (" {Giovanni} Giovanni ","/set avatar clangio",""),
+ (" {Guruhi} Guruhi ","/set avatar clangur",""),
+ (" {HoS} Harbingers of Skulls ","/set avatar clanhos",""),
+ (" {Ishtarri} Ishtarri ","/set avatar clanish",""),
+ (" {Kiasyd} Kiasyd ","/set avatar clankia",""),
+ (" {Lasombra} Lasombra ","/set avatar clanlas",""),
+ (" {Malkavian} Malkavian ","/set avatar clanmal",""),
+ (" {MalkavianA} Malkavian Antitribu ","/set avatar clanmala",""),
+ (" {Nagaraja} Nagaraja ","/set avatar clannag",""),
+ (" {Nosferatu} Nosferatu ","/set avatar clannos",""),
+ (" {NosferatuA} Nosferatu Antitribu ","/set avatar clannosa",""),
+ (" {Osebo} Osebo ","/set avatar clanose",""),
+ (" {Pander} Pander ","/set avatar clanpan",""),
+ (" {Ravnos} Ravnos ","/set avatar clanrav",""),
+ (" {Salubri} Salubri ","/set avatar clansal",""),
+ (" {SalubriA} Salubri Antitribu ","/set avatar clansala",""),
+ (" {Samedi} Samedi ","/set avatar clansam",""),
+ (" {Set} Followers of Set ","/set avatar clanset",""),
+ (" {TBrujah} True Brujah ","/set avatar clantbr",""),
+ (" {Toreador} Toreador ","/set avatar clantor",""),
+ (" {ToreadorA} Toreador Antitribu ","/set avatar clantora",""),
+ (" {Tremere} Tremere ","/set avatar clantre",""),
+ (" {TremereA} Tremere Antitribu ","/set avatar clantrea",""),
+ (" {Tzimisce} Tzimisce ","/set avatar clantzi",""),
+ (" {Ventrue} Ventrue ","/set avatar clanven",""),
+ (" {VentrueA} Ventrue Antitribu ","/set avatar clanvena",""),
+ ));
+}
+
+#
+# PlayPoolMenu() - Generate menu for pool.
+#
+def PlayCryptMenu
+{
+  Menu("Crypt",(
+   ("Draw " + object.name,"left click",""),
+   ("Draw 4 " + object.name,"middle click",""),
+	 ("{hr}","",""),
+   ("Look at your Crypt","Ctrl+L",""),
+  ));
+}
+
+
+
+# SingleCardMenuHook() - Add context menus __.
+#
+def SingleCardMenuHook
+{
+  push(m);
+  push(a);
+  push(b);
+
+  m=(,);
+  
+  a=Attr("type", card.number);
+  b=object.name;
+  
+  if (card.number==1)
+  {
+    m=m+(("Give 1 Free Blood","",'Send("AddMarker",(object.number,0))'),("Take 1 Free Blood","",'Send("DelMarker",(object.number,0))'),);
+  }
+  
+  else if (a == "Master")
+	m=m+(("{hr}","",""),("Add Token","Ctrl+A",""),("Remove a token","Ctrl+D",""),("{hr}","",""),);
+  
+  else if (b == "The Edge")
+	m=m+(("Burn The Edge","","BurnEdge()"),("{hr}","",""),);
+  
+  return(m);
+
+  b=pop();
+  a=pop();
+  m=pop();
+}
+
+
+#
+# NewDeck() - Game specific creation of empty deck structure.
+#
+def NewDeck
+{
+  return((("crypt",(,)),("deck",(,)),));
+}
+
+#
+# InitializeGame() - Game specific initialization of game variables.
+#
+def InitializeGame
+{
+  blood_pool=30;
+  victory_points=0;
+  counter_store=(,);
+  blood_lock=0;
+  
+  edge_token=0;
+
+#  
+# Osolete for Ctrl+PageUp/Down and Ctrl+Ins functions. Please don't delete yet.
+#
+  vamp_ctrl_ycoord=100;
+  xoffset=20;
+  control_flag=0;
+}
+
+#
+# StartGame() - What to do when game begins.
+#
+def StartGame
+{
+  Send("UploadDeck",decks{deck.name});
+  Send("ShuffleDeck",deck);
+  Send("ShuffleDeck",deck.objects[me]{"crypt"});
+  player.marker_color = 0;
+  
+  	if (players<=2)
+	{
+		if(me==0)
+		 Send("Transfer",(1,("out.of.play",2),("table",table.width/2,0,0,0)));
+	}
+	else if (players>=3)
+	{
+		if (edge_token==0)
+		{
+			if(me==0)
+			 Send("Transfer",(1,("out.of.play",2),("table",(table.width*4)/4,0,0,0)));
+			token_flag=1;
+		}
+	}
+}
+
+#
+# ScoreHook(player,scorestruct)
+#
+def ScoreHook
+{
+  if(ARG[0]==me)
+  {
+    push(s);
+    s=ARG[1];
+    if(s{"VP"}!=NULL)
+      victory_points=toint(s{"VP"});
+
+    if(blood_lock)
+      blood_lock=blood_lock-1;
+
+    if(blood_lock==0)
+    {
+      if(s{"BP"}!=NULL)
+        blood_pool=s{"BP"};
+    }
+ 
+    s=pop();
+  }
+}
+
+#
+# ScoreToText(score structure) - Convert a score structure to string.
+# 
+def ScoreToText
+{
+  push(s);
+  s="";
+  
+  s=s+"Pool "+toint(ARG{"BP"});
+  if(ARG{"VP"})
+  {
+    s="VP. "+toint(ARG{"VP"})+" "+s;
+  }
+
+  return(s);
+  s=pop();
+}
+
+#
+# RefreshScore() - Send a score update.
+#
+def RefreshScore
+{
+  Send("Score",(me,(("BP",blood_pool),("VP",victory_points))));
+}
+
+def MouseMiddleClickCrypt
+{		
+	if(object.name=="crypt")
+		TryTransferTo("play",1);
+		TryTransferTo("play",1);
+		TryTransferTo("play",1);
+		TryTransferTo("play",1);
+}
+
+#
+# MouseLeftClickCrypt() - Handler for mouse left clicking on crypt.
+#
+def MouseLeftClickCrypt
+{
+  if(object.name=="crypt")
+    TryTransferTo("play",1);
+}
+
+
+#
+# TryTransferHook(dest) - called before applying relevant transfer function.
+#
+def TryTransferHook
+{
+  if((ARG==("deck.top",deck) || ARG==("deck.bottom",deck)) && (card_back(card.number)==1 || card.number==1))
+    return(ARG[0],deck.objects[me]{"crypt"});
+  else
+    return(ARG);
+}
+
+
+
+# 
+# InputHook(input) - This hook is called when the enter key is pressed and
+#   the current input line is not going to be a pricing command. This
+#   hook should return 1, if it handles the input or 0, if default handler
+#   should be used instead.
+#
+ def InputHook
+{
+  return(0);
+  if(flag.playing)
+  {
+    push(s);
+    push(d);
+
+    d=NULL;
+    s=toint(blood_pool);
+
+    if(left(ARG,1)=="-" && tostr(toint(ARG))==ARG)
+      d=toint(ARG);
+    else if(left(ARG,1)=="+" && tostr(toint(substr(ARG,1)))==substr(ARG,1))
+      d=toint(substr(ARG,1));
+    else if(tostr(toint(ARG))==ARG)
+      d=toint(ARG)-s;
+
+    if(d != NULL)
+    {
+      s=s+d;
+      blood_pool=s;
+      RefreshScore();
+    
+      if(d >= 0)
+        d="+"+d;
+      Say("{red}Blood pool ("+d+") : "+s);
+
+      return(1);
+    }
+
+    d=pop();
+    s=pop();
+  }
+}  
+
+#
+#	BurnEdge() - Function to Burn(discard) the Edge marker to the Center uncontrolled area.
+#
+def BurnEdge
+{
+	if(object.name == "The Edge")
+		Say("{brown}Burns The Edge.");
+		if (players<=2)	
+			Send("MoveObject",(object.number,table.width/2,0));
+		else if (players>=3)
+		{
+			
+			if (me<=1)
+				Send("MoveObject",(object.number,(table.width*4)/4,0));
+			else if (me==2)
+				Send("MoveObject",(object.number,table.width-table.width,0));
+			else if (me==3)
+				Send("MoveObject",(object.number,table.width-table.width,0));
+		}
+		Send("PlaySound",(sounds.card_drop));
+		PlaySound(sounds.card_drop);
+}
+
+#
+#	Pool2Blood() - Function to transfer 1 Pool to 1 Blood on a card.
+#
+def Pool2Blood
+{
+  if (blood_pool > 0)	
+  {
+    Send("AddMarker",(object.number,0));
+    blood_pool=blood_pool-1;
+    RefreshScore();
+
+    if(object.name!=NULL)
+      Say("{red}Blood pool ("+object.name+": -1) : "+blood_pool);
+    else
+      Say("{red}Blood pool (-1) : "+blood_pool);	
+  }	
+}
+
+#
+#	Blood2Pool() - Function to transfer 1 Blood  on a card to 1 Pool.
+#
+def Blood2Pool
+{
+  Send("DelMarker",(object.number,0));
+  blood_pool=blood_pool+1;
+  RefreshScore();
+
+  if(object.name!=NULL)
+    Say("{red}Blood pool ("+object.name+": +1) : "+blood_pool);
+  else
+    Say("{red}Blood pool (+1) : "+blood_pool);	
+}
+
+
+#
+#	PlayKeyControlKeyPageDown() - Old key fuctions for pool transfer
+#
+ def PlayKeyControlKeyPageDown
+ {
+    
+
+    if(lock==1)
+	{
+	}
+	else
+	{
+		lock=1;
+		if(object.number)
+		{
+			if(Owner(object.number)==me)
+			{
+				Pool2Blood();		
+			}
+		}
+		lock=0;
+    }
+	
+  }
+
+def PlayKeyControlKeyPageUp
+{
+    d=object_data(object.number);
+	cleaner=last(first(d[6]));
+	
+	if(cleaner>0)
+	{
+		token_flag=1;
+	}
+	else
+	{
+		token_flag=0;
+	}
+	
+	if(token_flag>0)
+	{
+		if(lock!=1)
+		{
+			lock=1;
+			if(object.number)
+			{
+				if(Owner(object.number)==me)
+				{
+					Blood2Pool();		
+				}
+			}
+			lock=0;
+		}
+	}
+}
+
+def PlayKeyControlKeyA
+{
+  if(object.number)
+  {
+    if(card.number==1 && player.marker_color==0 && object.type=="card")
+    {
+      if(Owner(object.number)==me)
+      {
+        Pool2Blood();
+        blood_lock=blood_lock+1;
+      }
+    }
+    else
+      Send("AddMarker",(object.number,player.marker_color));
+  }
+}
+
+def PlayKeyControlKeyD
+{
+  if(object.number)
+  {
+    if(card.number==1 && player.marker_color==0 && object.type=="card")
+    {
+      if(Owner(object.number)==me && Counters(object.number,0)>0)
+      {
+        Blood2Pool();		
+        blood_lock=blood_lock+1;
+      }
+    }
+    else
+      Send("DelMarker",(object.number,player.marker_color));
+  }
+}
+
+#
+# PlayKeyControlKeyI() - Handler for key Control+I in play mode.
+#
+def PlayKeyControlKeyI
+{
+  if(object.number)
+  {
+	if((card_data(object.number))[1]==180)
+		Send("Rotate",(object.number,0));
+	else
+		Send("Rotate",(object.number,180));
+  }
+}
+
+#
+# PlayKeyControlKeyX() - Handler for key Control+X in play mode.
+#
+def PlayKeyControlKeyX
+{
+  if(object.number)
+  {
+    if((card_data(object.number))[1]!=180)
+		Send("Rotate",(object.number,180));
+	ManualTarget(object.number, rules.coordinate[1][0]);
+  }
+}
+
+#
+# PlayKeyControlKeyZ() - Handler for key Control+Z in play mode.
+#
+def PlayKeyControlKeyZ
+{
+  if(object.number)
+  {
+    if((card_data(object.number))[1]!=0)
+		Send("Rotate",(object.number,0));
+		
+	ManualTarget(object.number, rules.coordinate[1][0]);
+	
+  }
+}
+
+#
+# Mulligan() - Put hand back into draw deck, shuffle, and redraw 6.
+#
+
+def CommandMulligan
+{
+	if (ARG!="crypt")
+	{
+		Say("I declare {green}Hand Mulligan{reset}.");
+		Send("Transfer",((HANDSIZE),("hand",me,0),("deck.top",deck)));
+		Send("ShuffleDeck",deck);
+		Send("Transfer",(6,("deck.top",deck),("hand",me)));
+	}
+	else
+	{
+		Say("I declare {gold}Crypt Mulligan{reset}.");
+	}
+  
+}
+
+#
+# PlayKeyControlKeyP() - If face down vampire, store counters.
+#
+def PlayKeyControlKeyP
+{
+  if(card.number==1 && player.marker_color==0 && object.type=="card")
+  {
+      if(Owner(object.number)==me)
+      {
+        push(c);
+        push(r);
+        c=Counters(object.number,0);
+        r=(card_data(object.number))[3];
+        if(counter_store{r}==NULL)
+          counter_store{r}=(,);
+        counter_store{r}=counter_store{r}+(c,);
+        r=pop();
+        c=pop();
+      }
+  }
+
+  TryTransferTo("play",0);
+}
+
+#
+# PutTableHook(object number,x,y,orientation,card number,player,real card number)
+#
+def PutTableHook
+{
+  if(has_entry(ARG[4],counter_store))
+  {
+     push(n);
+     push(c);
+     n=length(counter_store{ARG[4]});
+     if(n)
+     {
+       c=first(counter_store{ARG[4]});
+       counter_store{ARG[4]}=right(counter_store{ARG[4]},n-1);
+       if(c)
+         Send("AddMarker",(ARG[0],0,c));
+     }
+     c=pop();
+     n=pop();
+  }
+}
+
+#
+# PlayKeyControlKeyInsert() - Handler for key Control+Ins in play mode.
+#
+def PlayKeyControlKeyInsert
+{
+  if(object.number)
+  {
+    Send("Flip",object.number);
+#	d=object_data(object.number);
+	myx=table.width/6;
+	myy=vamp_ctrl_ycoord;
+	xsteper=card.xstep;
+	ysteper=0;
+	
+	
+	if(control_flag<1)
+	{
+		myx=table.width/6;
+		Send("MoveObject",(object.number,myx,myy));
+		control_flag=control_flag+1;
+		Send("PlaySound",(sounds.card_drop));
+		PlaySound(sounds.card_drop);
+	}
+	elseif(control_flag==1) 
+	{
+		myx=table.width/6+xsteper+xoffset;
+		Send("MoveObject",(object.number,myx,myy));
+		control_flag=control_flag+1;
+		Send("PlaySound",(sounds.card_drop));
+		PlaySound(sounds.card_drop);
+	}
+	elseif(control_flag>6)
+	{
+		control_flag=0;
+		vamp_ctrl_ycoord=vamp_ctrl_ycoord+xoffset;
+		myy=vamp_ctrl_ycoord;
+		myx=table.width/6;
+		Send("MoveObject",(object.number,myx,myy));
+		control_flag=control_flag+1;
+		Send("PlaySound",(sounds.card_drop));
+		PlaySound(sounds.card_drop);
+	}
+	else
+	{
+		xsteper=(xsteper+xoffset)*control_flag;
+		
+		myx=table.width/6+xsteper;
+		
+		Send("MoveObject",(object.number,myx,myy));
+		control_flag=control_flag+1;
+		Send("PlaySound",(sounds.card_drop));
+		PlaySound(sounds.card_drop);
+	}
+  }
+}
+
+#
+# Obsolete, left for personal reference, please do not delete. - Mal
+#
+def CommandResetready
+{
+
+	control_flag=0;
+	vamp_ctrl_ycoord=100;
+	xoffset=20;
+	xsteper=card.xstep;
+	ysteper=0;
+	myx=table.width/6;
+	myy=vamp_ctrl_ycoord;
+
+}
+ 
+def PlayCommandVp
+{
+  if(length(ARG))
+  {
+    victory_points=victory_points+toint(ARG[0]);
+    Say("{blue}Added "+toint(ARG[0])+" victory points and having now total "+victory_points+".");
+    RefreshScore();
+  }
+  else
+    Msg("{red}Missing arguments.");
+}
+
+#
+# InitializeLocationTables() - Fill tables for location algorithm (See Mtg.include for details).
+#
+def InitializeLocationTables
+{
+  rules.category=(
+    ('findspace.facedown && type=="Vampire"',
+      '("vampire","face down")'),
+    ('type=="Vampire"',
+      '("vampire","")'),
+	('1',
+      '("other","")'),
+    ('type=="Vampire"',
+      '("vampire","stacked")'),
+  );
+
+  if(players > 2)
+  {
+
+    rules.coordinate=(
+	
+	
+    (("vampire","face down"),(
+		(("StacksByGroup",toint(card.width*1.5),table.height/4+60,card.xstep+5,0,0,0),),
+     (("OffscreenEnabled","yes"),)
+    )),
+
+    (("vampire",""),(
+		(("StacksByGroup",toint(card.width*1.5),10,card.xstep+20,0,0,0),),
+      (,)
+    )),
+	
+    (("other",),(
+       (("RandomNearPoint",table.width/2,150),),
+       (("OffscreenEnabled","yes"),)
+    )),
+
+	(("vampire","stacked"),(
+     (("StacksByGroup",table.width-3*card.design.width,-card.ystep/2+15,card.xstep/3,0,0,0),),
+     (,)
+	)),
+	
+    );
+
+  }
+  else
+  {
+
+    rules.coordinate=(
+
+    (("vampire","face down"),(
+       (("StacksByGroup",toint(card.width*0.9),table.height/4+60,card.xstep+5,0,0,0),),
+       (("OffscreenEnabled","yes"),)
+    )),
+
+    (("vampire",""),(
+       (("StacksByGroup",toint(card.width*0.9),10,card.xstep+40,0,0,0),),
+       (,)
+    )),
+
+    (("other",),(
+       (("RandomNearPoint",(table.width*3)/4,50),),
+       (("OffscreenEnabled","yes"),)
+    )),
+	
+	
+
+    );
+  }
+}
+
+#
+# UntapHook(object number) - Return 1 if card shoud be untapped using Ctrl+U.
+#
+def UntapHook
+{
+
+#	Say(tostr(card_data(ARG)));
+
+  if((card_data(ARG))[1]==270)
+  {
+    Send("Rotate",(ARG,180));
+    return(0);
+  }
+  else if((card_data(ARG))[1]==180)
+    return(0);
+  else if((card_data(ARG))[1]!=0)
+    return(1);
+}
+
+# SPECIAL KEYS
+# ============
+
+#
+# KeyShiftControlKeyA() - Produce {aus}.
+#
+def KeyShiftControlKeyA
+{
+    Input("{aus}");
+}
+
+#
+# KeyShiftAltKeyA() - Produce {AUS}.
+#
+def KeyShiftAltKeyA
+{
+    Input("{AUS}");
+}
+
+#
+# KeyShiftControlKeyC() - Produce {cel}.
+#
+def KeyShiftControlKeyC
+{
+    Input("{cel}");
+}
+
+#
+# KeyShiftAltKeyC() - Produce {CEL}.
+#
+def KeyShiftAltKeyC
+{
+    Input("{CEL}");
+}
+
+#
+# KeyShiftControlKeyD() - Produce {Dom}.
+#
+def KeyShiftControlKeyD
+{
+    Input("{dom}");
+}
+
+#
+# KeyShiftAltKeyD() - Produce {DOM}.
+#
+def KeyShiftAltKeyD
+{
+    Input("{DOM}");
+}
+
+#
+# KeyShiftControlKeyF() - Produce {for}.
+#
+def KeyShiftControlKeyF
+{
+    Input("{for}");
+}
+
+#
+# KeyShiftAltKeyF() - Produce {FOR}.
+#
+def KeyShiftAltKeyF
+{
+    Input("{FOR}");
+}
+
+#
+# KeyShiftControlKeyO() - Produce {obf}.
+#
+def KeyShiftControlKeyO
+{
+    Input("{obf}");
+}
+
+#
+# KeyShiftAltKeyO() - Produce {OBF}.
+#
+def KeyShiftAltKeyO
+{
+    Input("{OBF}");
+}
+
+#
+# KeyShiftControlKeyP() - Produce {pot}.
+#
+def KeyShiftControlKeyP
+{
+    Input("{pot}");
+}
+
+#
+# KeyShiftAltKeyP() - Produce {POT}.
+#
+def KeyShiftAltKeyP
+{
+    Input("{POT}");
+}
+
+#
+# KeyShiftControlKeyR() - Produce {pre}.
+#
+def KeyShiftControlKeyR
+{
+    Input("{pre}");
+}
+
+#
+# KeyShiftAltKeyR() - Produce {PRE}.
+#
+def KeyShiftAltKeyR
+{
+    Input("{PRE}");
+}
+
+#
+# KeyShiftControlKeyT() - Produce {tha}.
+#
+def KeyShiftControlKeyT
+{
+    Input("{tha}");
+}
+
+#
+# KeyShiftAltKeyT() - Produce {THA}.
+#
+def KeyShiftAltKeyT
+{
+    Input("{THA}");
+}
+
+#
+# KeyShiftControlKeyN() - Produce {nec}.
+#
+def KeyShiftControlKeyN
+{
+    Input("{nec}");
+}
+
+#
+# KeyShiftAltKeyN() - Produce {NEC}.
+#
+def KeyShiftAltKeyN
+{
+    Input("{NEC}");
+}
+
+
+#
+# KeyShiftControlKey8() - Produce {pl5}.
+#
+def KeyShiftControlKey8
+{
+    Input("{pl5}");
+}
+
+#
+# KeyShiftControlKey7() - Produce {pl4}.
+#
+def KeyShiftControlKey7
+{
+    Input("{pl4}");
+}
+
+#
+# KeyShiftControlKey6() - Produce {pl3}.
+#
+def KeyShiftControlKey6
+{
+    Input("{pl3}");
+}
+
+#
+# KeyShiftControlKey5() - Produce {pl2}.
+#
+def KeyShiftControlKey5
+{
+    Input("{pl2}");
+}
+
+#
+# KeyShiftControlKey4() - Produce {pl1}.
+#
+def KeyShiftControlKey4
+{
+    Input("{pl1}");
+}
+
+#
+# KeyShiftControlKey3() - Produce {bd3}.
+#
+def KeyShiftControlKey3
+{
+    Input("{bd3}");
+}
+
+#
+# KeyShiftControlKey2() - Produce {bd2}.
+#
+def KeyShiftControlKey2
+{
+    Input("{bd2}");
+}
+
+#
+# KeyShiftControlKey1() - Produce {bd1}.
+#
+def KeyShiftControlKey1
+{
+    Input("{bd1}");
+}
+
+#
+# KeyShiftControlKeyX() - Produce {bdx}.
+#
+def KeyShiftControlKeyX
+{
+    Input("{bdx}");
+}
+

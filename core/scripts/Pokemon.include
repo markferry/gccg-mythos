@@ -1,0 +1,307 @@
+#
+#
+# VARIABLES
+# =========
+#
+
+# Number of cards in hand.
+HANDSIZE=7;
+# Size of columns of the decklist in pixels.
+DECKBOX_SIZE=(20,220,110);
+# minor version number for filter alogrithm
+BOOK_FILTER_VERSION_MINOR=".4";
+# default book sorting criteria.
+BOOK_DEFAULT_SORT=("[age]","N[card_number]","[color]","[name]");
+
+if(!port)
+  port=29110;
+if(server.name=="NO.DEFAULT.SERVER.FOR.THIS.GAME")
+  server.name="gccg.servebeer.com";
+
+product.image=(,);
+product.image{"Basic set booster"}="basicset.jpg";
+product.image{"Fossil booster"}="fossil.jpg";
+product.image{"Jungle booster"}="jungle.jpg";
+product.image{"Team Rocket booster"}="rocket.jpg";
+product.image{"Gym Heroes booster"}="gymheroes.jpg";
+product.image{"Gym Challenge booster"}="gymchallenge.jpg";
+product.image{"Neo Genesis booster"}="neogenesis.jpg";
+product.image{"Neo Discovery booster"}="neodiscovery.jpg";
+
+# MENUS
+# =====
+
+GAME_MENU{"Tap a card"}=(
+ ('Attr("type",card.number)!="Energy"',"Heal","middle click",""),
+ ('Attr("type",card.number)!="Energy"',"Asleep","",'Send("Rotate",(object.number,90))'),
+ ('Attr("type",card.number)!="Energy"',"Confused","",'Send("Rotate",(object.number,180))'),
+ ('Attr("type",card.number)!="Energy"',"Paralyzed","",'Send("Rotate",(object.number,270))'),
+ ('Attr("type",card.number)!="Energy"',"Poisoned","",'Send("DelMarker",(object.number,3));Send("AddMarker",(object.number,3))'),
+);
+
+FILTER_OPTIONS=(
+ ("Trainers","Attr('type',#)=='Trainer'","default"),
+ ("Energy","find('Energy',Attr('type',#))!=NULL","default"),
+ ("Colorless Pokémons","Attr('color',#)=='Colorless'",("[type]","[name]")),
+ ("Fighting Pokémons","Attr('color',#)=='Fighting'",("[type]","[name]")),
+ ("Fire Pokémons","Attr('color',#)=='Fire'",("[type]","[name]")),
+ ("Grass Pokémons","Attr('color',#)=='Grass'",("[type]","[name]")),
+ ("Lightning Pokémons","Attr('color',#)=='Lightning'",("[type]","[name]")),
+ ("Psychic Pokémons","Attr('color',#)=='Psychic'",("[type]","[name]")),
+ ("Water Pokémons","Attr('color',#)=='Water'",("[type]","[name]")),
+ "{hr}",
+);
+
+# FUNCTIONS
+# =========
+
+#
+# NewDeck() - Game specific creation of empty deck structure.
+#
+def NewDeck
+{
+  return((("deck",(,)),));
+}
+
+#
+# InitializeGame() - Game specific initialization of game variables.
+#
+def InitializeGame
+{
+}
+
+#
+# StartGame() - What to do when game begins.
+#
+def StartGame
+{
+  net_send(server,("UploadDeck",decks{deck.name}));
+
+  net_send(server,("ShuffleDeck",deck));
+  net_send(server,("Transfer",(6,("deck.top",deck),("deck.top",deck.objects[me]{"prizes"}))));
+  net_send(server,("Transfer",(7,("deck.top",deck),("hand",me))));
+}
+
+#
+# ShowGameSpecificHelp() - Additional help text.
+#
+def ShowGameSpecificHelp
+{
+  message(msg.box,"{yellow}KP0{white} - Use Power    {yellow}KP1{white} - Attack 1  {yellow}KP2{white} - Attack 2  {yellow}KP3{white} - Attack 3");
+}
+
+#
+# PrizesMenu() - Generate menu for prize pile.
+#
+def PrizesMenu
+{
+  if(card.number!=NULL)
+    Menu("Prizes",(("Take one","left click",""),));
+}
+
+#
+# OpponentPrizesMenu() - Generate menu for opponent's prize pile.
+#
+def OpponentPrizesMenu
+{
+}
+
+#
+# HOOKS
+# =====
+
+#
+# REDEFINED FUNCTIONS
+# ===================
+
+#
+# MouseMiddleClickCard() - Untap and remove poison counter.
+#
+def MouseMiddleClickCard
+{
+  if(!untapped(object.number))
+    Send("Rotate",(object.number,0));
+  Send("DelMarker",(object.number,3));
+}
+
+#
+# ScoreToText(score structure) - Convert a score structure to string.
+# 
+def ScoreToText
+{
+  return("");
+}
+
+# MOUSE
+# =====
+
+#
+# MouseLeftClickPrizes() - Draw a card from prizes.
+#
+def MouseLeftClickPrizes
+  PlayKeyInsert();
+
+# SPECIAL KEYS
+# ============
+
+#
+# KeyShiftControlKeyC() - Produce {c}.
+#
+def KeyShiftControlKeyC
+{
+    Input("{c}");
+}
+#
+# KeyShiftControlKeyF() - Produce {f}.
+#
+def KeyShiftControlKeyF
+{
+    Input("{f}");
+}
+#
+# KeyShiftControlKeyG() - Produce {g}.
+#
+def KeyShiftControlKeyG
+{
+    Input("{g}");
+}
+#
+# KeyShiftControlKeyL() - Produce {l}.
+#
+def KeyShiftControlKeyL
+{
+    Input("{l}");
+}
+#
+# KeyShiftControlKeyP() - Produce {p}.
+#
+def KeyShiftControlKeyP
+{
+    Input("{p}");
+}
+#
+# KeyShiftControlKeyR() - Produce {r}.
+#
+def KeyShiftControlKeyR
+{
+    Input("{r}");
+}
+#
+# KeyShiftControlKeyW() - Produce {w}.
+#
+def KeyShiftControlKeyW
+{
+    Input("{w}");
+}
+
+#
+# KeyControlKey1() - Use first attack on a card.
+#
+def KeyControlKey1
+{
+  if(object.type=="card" && card_attr("attack1",card.number)!=NULL)
+    net_send(server,("Say","{sz16}{orange}"+card_attr("attack1",card.number)+"!!!"));
+}
+#
+# KeyControlKey2() - Use second attack on a card.
+#
+def KeyControlKey2
+{
+  if(object.type=="card" && card_attr("attack2",card.number)!=NULL)
+    net_send(server,("Say","{sz16}{orange}"+card_attr("attack2",card.number)+"!!!"));
+}
+#
+# KeyControlKey3() - Use third attack on a card.
+#
+def KeyControlKey3
+{
+  if(object.type=="card" && card_attr("attack3",card.number)!=NULL)
+    net_send(server,("Say","{sz16}{orange}"+card_attr("attack3",card.number)+"!!!"));
+}
+#
+# KeyControlKey4() - Use 4th attack on a card.
+#
+def KeyControlKey4
+{
+  if(object.type=="card" && card_attr("attack4",card.number)!=NULL)
+    net_send(server,("Say","{sz16}{orange}"+card_attr("attack4",card.number)+"!!!"));
+}
+#
+# KeyControlKey5() - Use 5th attack on a card.
+#
+def KeyControlKey5
+{
+  if(object.type=="card" && card_attr("attack5",card.number)!=NULL)
+    net_send(server,("Say","{sz16}{orange}"+card_attr("attack5",card.number)+"!!!"));
+}
+#
+# KeyControlKey0() - Use pokemon power on a card.
+#
+def KeyControlKey0
+{
+  if(object.type=="card" && card_attr("power",card.number)!=NULL)
+    net_send(server,("Say","{sz16}{orange}"+card_attr("power",card.number)+"!!!"));
+}
+
+# PLAYING CARDS
+# =============
+
+#
+# PlayTrainer(card number,is face down?) - Play a trainer card.
+#
+def PlayTrainer
+{
+  push(n);
+  n=name(ARG[0]);
+  if(Attr("subtype",ARG[0])!="" || n=="Mysterious Fossil" || n=="Defender" || n=="PlusPower" || n=="Clefairy Doll")
+    PlayCard(ARG);
+  else
+    Send("Transfer",(1,("play",ARG[0],0),("deck.top",discard)));
+  n=pop();
+}
+
+#
+# LOCATION TABLES
+# ===============
+
+#
+# InitializeLocationTables() - Fill tables for location algorithm (See Mtg.include for details).
+#
+def InitializeLocationTables
+{
+  rules.category=(
+    ('type=="Basic Energy" || type=="Special Energy Card"',
+      '("energy",name(card))'),
+    ('name(card)=="Mysterious Fossil" || name(card)=="PlusPower" || name(card)=="Clefairy Doll"',
+      '("energy",name(card))'),
+    ('subtype=="Pokemon Tool"',
+      '("energy",name(card))'),
+    ('type=="Basic Pokemon" || type=="Baby Pokemon"',
+      '("basic pokemon","")'),
+    ('type=="Stage 1"',
+      '("stage",card_attr("evolve",card))'),
+    ('type=="Stage 2"',
+      '("stage",card_attr("evolve",card))'),
+    ('subtype=="Stadium Card"',
+      '("stadium","")'),
+  );
+
+  rules.coordinate=(
+    (("energy",),(
+       (("TargetCard",-w(30),0,-w(30),0),),
+       (,)
+    )),
+    (("basic pokemon",),(
+       (("LocationList",((design.width/2-card.design.width/2,0),(50,card.design.height+10),(250,card.design.height+10),(450,card.design.height+10),(650,card.design.height+10),(850,card.design.height+10)),),),
+       (,)
+    )),
+    (("stage",),(
+       (("TargetCard",0,h(30),0,h(30)),),
+       (("RaiseSource","yes"),("ReverseAttach","yes"))
+    )),
+    (("stadium",),(
+       (("StacksByGroup",650,0,0,h(10),0,h(10)),),
+       (,)
+    )),
+  );
+}

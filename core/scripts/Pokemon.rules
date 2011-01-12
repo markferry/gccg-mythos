@@ -1,0 +1,19 @@
+#
+# DECK RULES
+# ==========
+
+deck_rules=(,);
+server_description="Standard rules";
+deck_rules{"Tournament"}=(,);
+deck_rules{"Tournament"}{"deck"}=(
+  ("RuleDeckMinimum",60),
+  ("RuleDeckMaximum",60),
+  ("RuleCardLimitAny","Fighting Energy"),
+  ("RuleCardLimitAny","Grass Energy"),
+  ("RuleCardLimitAny","Fire Energy"),
+  ("RuleCardLimitAny","Lightning Energy"),
+  ("RuleCardLimitAny","Water Energy"),
+  ("RuleCardLimitAny","Psychic Energy"),
+  ("RuleCardLimitGeneral",4),
+  ("RulePass",NULL),
+);

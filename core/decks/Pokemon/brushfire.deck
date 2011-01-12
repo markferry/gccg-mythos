@@ -1,0 +1,37 @@
+#
+# GCCG v0.8.77 Pokémon deck
+#
+#      brushfire.deck
+#
+
+Deck
+
+# Basic Energy (28)
+
+18 Fire Energy (BA)
+10 Grass Energy (BA)
+
+# Basic Pokemon (18)
+
+4 Charmander (BA)
+2 Growlithe
+4 Nidoran(M)
+2 Tangela
+2 Vulpix
+4 Weedle
+
+# Stage 1 (4)
+
+1 Arcanine
+2 Charmeleon
+1 Ninetales
+
+# Trainer (10)
+
+1 Energy Removal
+2 Energy Retrieval
+1 Gust of Wind
+1 Lass
+1 PlusPower
+3 Potion
+1 Switch

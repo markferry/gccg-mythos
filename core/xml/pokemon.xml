@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ccg SYSTEM "gccg-game.dtd">
+
+<ccg name="Pokémon" dir="Pokemon">
+
+  <cardset source="pokemon_basecards.xml"/>
+  <cardset source="basicset.xml"/>
+  <cardset source="jungle.xml"/>
+  <cardset source="fossil.xml"/>
+  <cardset source="teamrocket.xml"/>
+  <cardset source="gymheroes.xml"/>
+  <cardset source="gymchallenge.xml"/>
+  <cardset source="neogenesis.xml"/>
+  <cardset source="neodiscovery.xml"/>
+  <cardset source="neorevelation.xml"/>
+  <cardset source="neodestiny.xml"/>
+
+  <image file="c.png" tag="{c}"/>
+  <image file="f.png" tag="{f}"/>
+  <image file="g.png" tag="{g}"/>
+  <image file="l.png" tag="{l}"/>
+  <image file="p.png" tag="{p}"/>
+  <image file="r.png" tag="{r}"/>
+  <image file="w.png" tag="{w}"/>
+  <image file="s.png" tag="{s}"/>
+  <image file="d.png" tag="{d}"/>
+
+  <option name="hand card size" value="50"/>
+  <option name="table card size" value="50"/>
+  <option name="deck card size" value="30"/>
+  <option name="book card size" value="50"/>
+
+  <option name="draw hints" value="color"/>
+  <option name="draw hints 2" value="type"/>
+
+  <option name="default border width" value="12"/>
+  <option name="default border color" value="243,214,26"/>
+
+  <option name="default back color" value="0,20,50"/>
+  <option name="Trainer back color" value="180,171,176"/>
+  <option name="Stadium Card back color" value="180,171,176"/>
+  <option name="Fighting Energy back color" value="147,41,2"/>
+  <option name="Lightning Energy back color" value="250,213,21"/>
+  <option name="Psychic Energy back color" value="143,53,143"/>
+  <option name="Fightning Energy back color" value="175,60,5"/>
+  <option name="Grass Energy back color" value="47,119,9"/>
+  <option name="Water Energy back color" value="44,141,210"/>
+  <option name="Fire Energy back color" value="169,67,5"/>
+  <option name="Special Energy Card back color" value="154,138,102"/>
+  <option name="Colorless back color" value="229,233,232"/>
+  <option name="Water back color" value="104,174,225"/>
+  <option name="Fire back color" value="209,87,66"/>
+  <option name="Grass back color" value="159,196,90"/>
+  <option name="Fighting back color" value="220,156,82"/>
+  <option name="Psychic back color" value="159,127,190"/>
+  <option name="Lightning back color" value="251,242,111"/>
+
+  <option name="default text box font" value="2"/>
+  <option name="default text box font size" value="20"/>
+  <option name="default text box font color" value="0,0,0"/>
+
+  <option name="default title" value="26,24,127,16"/>
+  <option name="Basic Energy title" value="40,23,127,16"/>
+  <option name="Special Energy Card title" value="60,23,127,16"/>
+  <option name="Trainer title" value="36,30,127,16"/>
+  <option name="Stadium Card title" value="36,30,127,16"/>
+  <option name="default title font color" value="0,0,0"/>
+  <option name="default title font" value="2"/>
+  <option name="default title font size" value="20"/>
+  <option name="default title shadow" value="0"/>
+  <option name="Special Energy Card title font size" value="18"/>
+  <option name="Trainer text box" value="22,191,193,113"/>
+  <option name="Trainer text box color" value="223,224,219"/>
+  <option name="Stadium Card text box" value="22,191,193,113"/>
+  <option name="Stadium Card text box color" value="223,224,219"/>
+  <option name="Special Energy Card text box" value="22,191,193,113"/>
+  <option name="Basic Pokemon text box" value="18,173,202,113"/>
+  <option name="Baby Pokemon text box" value="18,173,202,113"/>
+  <option name="Stage 1 text box" value="18,173,202,113"/>
+  <option name="Stage 2 text box" value="18,173,202,113"/>
+  <option name="Water text box color" value="104,174,225"/>
+  <option name="Fire text box color" value="209,87,66"/>
+  <option name="Grass text box color" value="159,196,90"/>
+  <option name="Fighting text box color" value="220,156,82"/>
+  <option name="Psychic text box color" value="159,127,190"/>
+  <option name="Lightning text box color" value="251,242,111"/>
+  <option name="Colorless text box color" value="229,233,232"/>
+  <option name="Special Energy Card text box color" value="223,224,219"/>
+
+  <option name="Trainer box 1" value="18,20,198,33"/>
+  <option name="Trainer box 1 color" value="246,212,76"/>
+  <option name="Stadium Card box 1" value="18,20,198,33"/>
+  <option name="Stadium Card box 1 color" value="246,212,76"/>
+
+  <option name="default text 1" value="22,20,45,25"/>
+  <option name="Basic Energy box 1" value="11,11,215,41"/>
+  <option name="Grass Energy box 1 color" value="151,202,0"/>
+  <option name="Water Energy box 1 color" value="85,160,243"/>
+  <option name="Fire Energy box 1 color" value="222,63,59"/>
+  <option name="Psychic Energy box 1 color" value="96,39,90"/>
+  <option name="Lightning Energy box 1 color" value="253,240,3"/>
+  <option name="Fighting Energy box 1 color" value="239,110,8"/>
+  <option name="Special Energy Card box 1 color" value="168,156,106"/>
+  <option name="Grass Energy text 1 content" value="{g}"/>
+  <option name="Water Energy text 1 content" value="{w}"/>
+  <option name="Fire Energy text 1 content" value="{r}"/>
+  <option name="Psychic Energy text 1 content" value="{p}"/>
+  <option name="Lightning Energy text 1 content" value="{l}"/>
+  <option name="Fighting Energy text 1 content" value="{f}"/>
+  <option name="Special Energy Card text 1 content" value=""/>
+
+  <option name="Trainer text 2" value="94,57,120,19"/>
+  <option name="Trainer text 2 font size" value="14"/>
+  <option name="Trainer text 2 font" value="2"/>
+  <option name="Trainer text 2 content" value="[subtype]"/>
+  <option name="Trainer text 2 align" value="2"/>
+
+  <option name="Basic Pokemon box 1" value="19,283,202,1"/>
+  <option name="Basic Pokemon box 1 color" value="50,50,50"/>
+  <option name="Basic Pokemon text 1" value="21,284,37,12"/>
+  <option name="Basic Pokemon text 1 font size" value="10"/>
+  <option name="Basic Pokemon text 1 font" value="2"/>
+  <option name="Basic Pokemon text 1 content" value="weakness"/>
+  <option name="Basic Pokemon text 2" value="20,288,40,30"/>
+  <option name="Basic Pokemon text 2 align" value="1"/>
+  <option name="Basic Pokemon text 2 content" value="[weakness]"/>
+  <option name="Basic Pokemon text 3" value="91,284,55,12"/>
+  <option name="Basic Pokemon text 3 font size" value="10"/>
+  <option name="Basic Pokemon text 3 font" value="2"/>
+  <option name="Basic Pokemon text 3 align" value="1"/>
+  <option name="Basic Pokemon text 3 content" value="resistance"/>
+  <option name="Basic Pokemon text 4" value="91,288,55,30"/>
+  <option name="Basic Pokemon text 4 align" value="1"/>
+  <option name="Basic Pokemon text 4 content" value="[resistance]"/>
+  <option name="Basic Pokemon text 5" value="164,284,54,12"/>
+  <option name="Basic Pokemon text 5 font size" value="10"/>
+  <option name="Basic Pokemon text 5 font" value="2"/>
+  <option name="Basic Pokemon text 5 align" value="2"/>
+  <option name="Basic Pokemon text 5 content" value="retreat cost"/>
+  <option name="Basic Pokemon text 6" value="164,288,54,30"/>
+  <option name="Basic Pokemon text 6 align" value="2"/>
+  <option name="Basic Pokemon text 6 content" value="[retreat]"/>
+  <option name="Basic Pokemon text 7" value="139,22,78,19"/>
+  <option name="Basic Pokemon text 7 font" value="2"/>
+  <option name="Basic Pokemon text 7 font size" value="22"/>
+  <option name="Basic Pokemon text 7 font color" value="160,67,68"/>
+  <option name="Basic Pokemon text 7 align" value="2"/>
+  <option name="Basic Pokemon text 7 content" value="[hp]"/>
+  <option name="Basic Pokemon text 8" value="16,11,194,16"/>
+  <option name="Basic Pokemon text 8 font" value="2"/>
+  <option name="Basic Pokemon text 8 font size" value="11"/>
+  <option name="Basic Pokemon text 8 font color" value="0,0,0"/>
+  <option name="Basic Pokemon text 8 content" value="Basic Pokemon"/>
+
+  <option name="Baby Pokemon box 1" value="19,283,202,1"/>
+  <option name="Baby Pokemon box 1 color" value="50,50,50"/>
+  <option name="Baby Pokemon text 1" value="21,284,37,12"/>
+  <option name="Baby Pokemon text 1 font size" value="10"/>
+  <option name="Baby Pokemon text 1 font" value="2"/>
+  <option name="Baby Pokemon text 1 content" value="weakness"/>
+  <option name="Baby Pokemon text 2" value="20,288,40,30"/>
+  <option name="Baby Pokemon text 2 align" value="1"/>
+  <option name="Baby Pokemon text 2 content" value="[weakness]"/>
+  <option name="Baby Pokemon text 3" value="91,284,55,12"/>
+  <option name="Baby Pokemon text 3 font size" value="10"/>
+  <option name="Baby Pokemon text 3 font" value="2"/>
+  <option name="Baby Pokemon text 3 align" value="1"/>
+  <option name="Baby Pokemon text 3 content" value="resistance"/>
+  <option name="Baby Pokemon text 4" value="91,288,55,30"/>
+  <option name="Baby Pokemon text 4 align" value="1"/>
+  <option name="Baby Pokemon text 4 content" value="[resistance]"/>
+  <option name="Baby Pokemon text 5" value="164,284,54,12"/>
+  <option name="Baby Pokemon text 5 font size" value="10"/>
+  <option name="Baby Pokemon text 5 font" value="2"/>
+  <option name="Baby Pokemon text 5 align" value="2"/>
+  <option name="Baby Pokemon text 5 content" value="retreat cost"/>
+  <option name="Baby Pokemon text 6" value="164,288,54,30"/>
+  <option name="Baby Pokemon text 6 align" value="2"/>
+  <option name="Baby Pokemon text 6 content" value="[retreat]"/>
+  <option name="Baby Pokemon text 7" value="139,22,78,19"/>
+  <option name="Baby Pokemon text 7 font" value="2"/>
+  <option name="Baby Pokemon text 7 font size" value="22"/>
+  <option name="Baby Pokemon text 7 font color" value="160,67,68"/>
+  <option name="Baby Pokemon text 7 align" value="2"/>
+  <option name="Baby Pokemon text 7 content" value="[hp]"/>
+  <option name="Baby Pokemon text 8" value="16,11,194,16"/>
+  <option name="Baby Pokemon text 8 font" value="2"/>
+  <option name="Baby Pokemon text 8 font size" value="11"/>
+  <option name="Baby Pokemon text 8 font color" value="0,0,0"/>
+  <option name="Baby Pokemon text 8 content" value="Baby Pokemon"/>
+
+  <option name="Stage 1 box 1" value="19,283,202,1"/>
+  <option name="Stage 1 box 1 color" value="50,50,50"/>
+  <option name="Stage 1 text 1" value="21,284,37,12"/>
+  <option name="Stage 1 text 1 font size" value="10"/>
+  <option name="Stage 1 text 1 font" value="2"/>
+  <option name="Stage 1 text 1 content" value="weakness"/>
+  <option name="Stage 1 text 2" value="20,288,40,30"/>
+  <option name="Stage 1 text 2 align" value="1"/>
+  <option name="Stage 1 text 2 content" value="[weakness]"/>
+  <option name="Stage 1 text 3" value="91,284,55,12"/>
+  <option name="Stage 1 text 3 font size" value="10"/>
+  <option name="Stage 1 text 3 font" value="2"/>
+  <option name="Stage 1 text 3 align" value="1"/>
+  <option name="Stage 1 text 3 content" value="resistance"/>
+  <option name="Stage 1 text 4" value="91,288,55,30"/>
+  <option name="Stage 1 text 4 align" value="1"/>
+  <option name="Stage 1 text 4 content" value="[resistance]"/>
+  <option name="Stage 1 text 5" value="164,284,54,12"/>
+  <option name="Stage 1 text 5 font size" value="10"/>
+  <option name="Stage 1 text 5 font" value="2"/>
+  <option name="Stage 1 text 5 align" value="2"/>
+  <option name="Stage 1 text 5 content" value="retreat cost"/>
+  <option name="Stage 1 text 6" value="164,288,54,30"/>
+  <option name="Stage 1 text 6 align" value="2"/>
+  <option name="Stage 1 text 6 content" value="[retreat]"/>
+  <option name="Stage 1 text 7" value="139,22,78,19"/>
+  <option name="Stage 1 text 7 font" value="2"/>
+  <option name="Stage 1 text 7 font size" value="22"/>
+  <option name="Stage 1 text 7 font color" value="165,67,68"/>
+  <option name="Stage 1 text 7 align" value="2"/>
+  <option name="Stage 1 text 7 content" value="[hp]"/>
+  <option name="Stage 1 text 8" value="16,11,194,16"/>
+  <option name="Stage 1 text 8 font" value="2"/>
+  <option name="Stage 1 text 8 font size" value="11"/>
+  <option name="Stage 1 text 8 font color" value="0,0,0"/>
+  <option name="Stage 1 text 8 content" value="Evolves from [evolve]"/>
+
+  <option name="Stage 2 box 1" value="19,283,202,1"/>
+  <option name="Stage 2 box 1 color" value="50,50,50"/>
+  <option name="Stage 2 text 1" value="21,284,37,12"/>
+  <option name="Stage 2 text 1 font size" value="10"/>
+  <option name="Stage 2 text 1 font" value="2"/>
+  <option name="Stage 2 text 1 content" value="weakness"/>
+  <option name="Stage 2 text 2" value="20,288,40,30"/>
+  <option name="Stage 2 text 2 align" value="1"/>
+  <option name="Stage 2 text 2 content" value="[weakness]"/>
+  <option name="Stage 2 text 3" value="91,284,55,12"/>
+  <option name="Stage 2 text 3 font size" value="10"/>
+  <option name="Stage 2 text 3 font" value="2"/>
+  <option name="Stage 2 text 3 align" value="1"/>
+  <option name="Stage 2 text 3 content" value="resistance"/>
+  <option name="Stage 2 text 4" value="91,288,55,30"/>
+  <option name="Stage 2 text 4 align" value="1"/>
+  <option name="Stage 2 text 4 content" value="[resistance]"/>
+  <option name="Stage 2 text 5" value="164,284,54,12"/>
+  <option name="Stage 2 text 5 font size" value="10"/>
+  <option name="Stage 2 text 5 font" value="2"/>
+  <option name="Stage 2 text 5 align" value="2"/>
+  <option name="Stage 2 text 5 content" value="retreat cost"/>
+  <option name="Stage 2 text 6" value="164,288,54,30"/>
+  <option name="Stage 2 text 6 align" value="2"/>
+  <option name="Stage 2 text 6 content" value="[retreat]"/>
+  <option name="Stage 2 text 7" value="139,22,78,19"/>
+  <option name="Stage 2 text 7 font" value="2"/>
+  <option name="Stage 2 text 7 font size" value="22"/>
+  <option name="Stage 2 text 7 font color" value="165,67,68"/>
+  <option name="Stage 2 text 7 align" value="2"/>
+  <option name="Stage 2 text 7 content" value="[hp]"/>
+  <option name="Stage 2 text 8" value="16,11,194,16"/>
+  <option name="Stage 2 text 8 font" value="2"/>
+  <option name="Stage 2 text 8 font size" value="11"/>
+  <option name="Stage 2 text 8 font color" value="0,0,0"/>
+  <option name="Stage 2 text 8 content" value="Evolves from [evolve]"/>
+
+  <option name="Basic Pokemon image" value="30,45,178,123"/>
+  <option name="Basic Pokemon image border color" value="243,214,26"/>
+  <option name="Baby Pokemon image" value="30,45,178,123"/>
+  <option name="Baby Pokemon image border color" value="243,214,26"/>
+  <option name="Stage 1 image" value="30,45,178,123"/>
+  <option name="Stage 1 image border color" value="243,214,26"/>
+  <option name="Stage 2 image" value="30,45,178,123"/>
+  <option name="Stage 2 image border color" value="243,214,26"/>
+  <option name="Trainer image" value="27,76,180,105"/>
+  <option name="Stadium Card image" value="27,76,180,105"/>
+  <option name="default image color" value="106,95,112"/>
+  <option name="default image border" value="2"/>
+  <option name="default image font size" value="100"/>
+
+  <option name="deck order" value="type"/>
+  <option name="deck color by" value="color"/>
+  <option name="Water text" value="{blue}"/>
+  <option name="Grass text" value="{green}"/>
+  <option name="Fire text" value="{red}"/>
+  <option name="Colorless text" value="{gray}"/>
+  <option name="Fighting text" value="{orange}"/>
+  <option name="Psychic text" value="{magenta}"/>
+  <option name="Lightning text" value="{yellow}"/>
+
+  <trigger event="location hint" attribute="type"/>
+  <trigger event="location hint" attribute="subtype"/>
+
+  <trigger event="play" attribute="type"/>
+
+</ccg>

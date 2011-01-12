@@ -1,0 +1,74 @@
+#
+# VARIABLES:
+#
+# distribution{set}{product} - rarity distribution of the product
+# port - server port of the factory
+# rarities - generate these distributions from the card data
+#
+# FUNCTIONS:
+#
+# InitDistributions() - Initialize product distribution data.
+#
+
+if(!port)
+  port=29111;
+
+#
+# InitDistributions() - Initialize product distribution data.
+#
+def InitDistributions
+{
+  distribution=(,);
+  distribution{"BA"}=(,);
+  distribution{"BA"}{"booster"}=((2,"E"),(5,"C"),(3,"U"),(1,"R"));
+  distribution{"BA-H"}=(,);
+  distribution{"BA-H"}{"booster"}=((2,"E"),(5,"C"),(3,"U"),(1,"H"));
+  distribution{"FO"}=(,);
+  distribution{"FO"}{"booster"}=((7,"C"),(3,"U"),(1,"R"));
+  distribution{"FO-H"}=(,);
+  distribution{"FO-H"}{"booster"}=((7,"C"),(3,"U"),(1,"H"));
+  distribution{"JU"}=(,);
+  distribution{"JU"}{"booster"}=((7,"C"),(3,"U"),(1,"R"));
+  distribution{"JU-H"}=(,);
+  distribution{"JU-H"}{"booster"}=((7,"C"),(3,"U"),(1,"H"));
+  distribution{"TR"}=(,);
+  distribution{"TR"}{"booster"}=((7,"C"),(3,"U"),(1,"R"));
+  distribution{"TR-H"}=(,);
+  distribution{"TR-H"}{"booster"}=((7,"C"),(3,"U"),(1,"H"));
+
+  distribution{"TR"}=(,);
+  distribution{"TR"}{"booster"}=((7,"C"),(3,"U"),(1,"R"));
+  distribution{"TR-H"}=(,);
+  distribution{"TR-H"}{"booster"}=((7,"C"),(3,"U"),(1,"H"));
+
+  distribution{"GH"}=(,);
+  distribution{"GH"}{"booster"}=((2,"E"),(5,"C"),(3,"U"),(1,"R"));
+  distribution{"GH-H"}=(,);
+  distribution{"GH-H"}{"booster"}=((2,"E"),(5,"C"),(3,"U"),(1,"H"));
+
+  distribution{"GC"}=(,);
+  distribution{"GC"}{"booster"}=((2,"E"),(5,"C"),(3,"U"),(1,"R"));
+  distribution{"GC-H"}=(,);
+  distribution{"GC-H"}{"booster"}=((2,"E"),(5,"C"),(3,"U"),(1,"H"));
+
+  distribution{"NG"}=(,);
+  distribution{"NG"}{"booster"}=((2,"E"),(5,"C"),(3,"U"),(1,"R"));
+  distribution{"NG-H"}=(,);
+  distribution{"NG-H"}{"booster"}=((2,"E"),(5,"C"),(3,"U"),(1,"H"));
+
+  distribution{"ND"}=(,);
+  distribution{"ND"}{"booster"}=((7,"C"),(3,"U"),(1,"R"));
+  distribution{"ND-H"}=(,);
+  distribution{"ND-H"}{"booster"}=((7,"C"),(3,"U"),(1,"H"));
+}
+
+#
+# ProduceBooster(set) - Return random booster.
+#
+def ProduceBooster
+{
+  if(random(3))
+    return(RandomCardSet(ARG,distribution{ARG}{"booster"}));
+  else
+    return(RandomCardSet(ARG,distribution{ARG+"-H"}{"booster"}));
+}

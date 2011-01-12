@@ -1,0 +1,57 @@
+#
+#  Pokemon server
+#  --------------
+#
+#  Variables:
+#
+#  screen.width,screen.height - screen resolution
+#  port - server port
+#  players_wanted - how many players we will wait
+#
+#  Functions:
+#
+# SetUpPlayer(p) - create necessary strucrures for player 'p'
+#
+
+screen.width=1024;
+screen.height=768;
+port=29300;
+meta.port=29110;
+
+#
+# HOOKS
+# =====
+
+#
+# InitServerHook(nmb.of players) - Called during server initialization.
+#
+def InitServerHook
+{
+  for(i)(ARG)
+  {
+    visible.me[i]{"prizes"}=0;
+    visible.opp[i]{"prizes"}=0;
+  }
+}
+
+#
+# GAME SPECIFIC FUNCTIONS
+# =======================
+
+#
+# SetUpPlayer(p) - Create necessary strucrures for player 'p'.
+#
+def SetUpPlayer
+{
+  CreateDeck(ARG,"prizes",40,50);
+  CreateDeck(ARG,"deck",40,160);
+  CreateDeck(ARG,"discard pile",40,270);
+}
+
+#
+# InitialScore(p) - Return a structure representing initial score for a player 'p'.
+#
+def InitialScore
+{
+  return("");
+}

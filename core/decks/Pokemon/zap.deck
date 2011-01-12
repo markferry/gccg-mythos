@@ -1,0 +1,38 @@
+#
+# GCCG v0.8.77 Pokémon deck
+#
+#      zap.deck
+#
+
+Deck
+
+# Basic Pokemon (18)
+
+3 Abra (BA)
+2 Drowzee (BA)
+3 Gastly (BA)
+2 Jynx
+3 Magnemite (BA)
+1 Mewtwo
+4 Pikachu (BA)
+
+# Energy (28)
+
+12 Lightning Energy (BA)
+16 Psychic Energy (BA)
+
+# Stage 1 (3)
+
+2 Haunter (BA)
+1 Kadabra
+
+# Trainer (11)
+
+2 Bill
+1 Computer Search
+1 Defender
+2 Gust of Wind
+1 Potion
+1 Professor Oak
+1 Super Potion
+2 Switch

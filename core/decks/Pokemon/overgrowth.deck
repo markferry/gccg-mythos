@@ -1,0 +1,38 @@
+#
+# GCCG v0.8.77 Pokémon deck
+#
+#      overgrowth.deck
+#
+
+Deck
+
+# Basic Energy (28)
+
+16 Grass Energy (BA)
+12 Water Energy (BA)
+
+# Basic Pokemon (14)
+
+4 Bulbasaur
+2 Magikarp (BA)
+4 Staryu
+4 Weedle
+
+# Stage 1 (8)
+
+1 Gyarados
+2 Ivysaur
+2 Kakuna
+3 Starmie
+
+# Stage 2 (1)
+
+1 Beedrill
+
+# Trainer (9)
+
+2 Bill
+2 Gust of Wind
+1 Potion
+2 Super Potion
+2 Switch

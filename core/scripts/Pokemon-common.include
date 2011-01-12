@@ -1,0 +1,15 @@
+#
+# CONSTANTS
+# =========
+
+TORRENT_VERSION=1;
+
+#
+# VARIABLES
+# =========
+
+# Deck name mapping.
+deck_name{"deck"}="play deck";
+deck_name{"discard pile"}="discard pile";
+deck_name{"opponent deck"}="play deck";
+deck_name{"opponent discard pile"}="discard pile";

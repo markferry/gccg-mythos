@@ -1,0 +1,38 @@
+#
+# GCCG v0.8.77 Pokémon deck
+#
+#      blackout.deck
+#
+
+Deck
+
+# Basic Energy (16)
+
+16 Fighting Energy (BA)
+
+# Basic Pokemon (20)
+
+2 Farfetch'd
+1 Hitmonchan
+4 Machop (BA)
+3 Onix
+3 Sandshrew
+4 Squirtle (BA)
+3 Staryu
+
+# Energy (12)
+
+12 Water Energy (BA)
+
+# Stage 1 (4)
+
+2 Machoke
+2 Wartortle
+
+# Trainer (8)
+
+4 Energy Removal
+1 Gust of Wind
+1 Impostor Professor Oak
+1 PlusPower
+1 Super Energy Removal

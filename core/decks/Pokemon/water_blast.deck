@@ -1,0 +1,36 @@
+#
+# GCCG v0.8.77 Pokémon deck
+#
+#      water_blast.deck
+#
+
+Deck
+
+# Basic Pokemon (18)
+
+4 Eevee (JU)
+2 Machop (BA)
+4 Meowth (JU)
+4 Poliwag
+3 Rhyhorn
+1 Seel
+
+# Energy (28)
+
+14 Fighting Energy (BA)
+14 Water Energy (BA)
+
+# Stage 1 (6)
+
+2 Persian
+2 Poliwhirl
+1 Rhydon
+1 Vaporeon
+
+# Trainer (8)
+
+2 Gust of Wind
+2 Potion
+1 Professor Oak
+2 Super Potion
+1 Switch

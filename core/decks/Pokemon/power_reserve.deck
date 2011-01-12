@@ -1,0 +1,39 @@
+#
+# GCCG v0.8.77 Pokémon deck
+#
+#      power_reserve.deck
+#
+
+Deck
+
+# Basic Energy (17)
+
+17 Grass Energy (BA)
+
+# Basic Pokemon (16)
+
+4 Abra (BA)
+4 Bellsprout
+1 Jynx
+1 Kangaskhan
+4 Nidoran(F)
+2 Oddish (JU)
+
+# Energy (11)
+
+11 Psychic Energy (BA)
+
+# Stage 1 (7)
+
+1 Gloom
+2 Kadabra
+2 Nidorina
+2 Weepinbell
+
+# Trainer (9)
+
+2 Bill
+2 Gust of Wind
+1 Pokedex
+3 Potion
+1 Switch

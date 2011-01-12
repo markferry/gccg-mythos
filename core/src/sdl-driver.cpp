@@ -1171,8 +1171,9 @@ namespace Driver
 	    newcard=IMG_Load(file.c_str());
         }
 
-	if(!newcard)
+	if(!newcard && imagenumber==0)
         {
+            cerr << "Warning: cannot load " << file << endl;
             file=CCG_DATADIR;
             file+="/graphics/unknown_card.png";
 	    newcard=IMG_Load(file.c_str());

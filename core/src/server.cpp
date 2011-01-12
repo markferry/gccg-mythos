@@ -961,6 +961,18 @@ int main(int argc,const char** argv)
 				opt+=Database::game.Gamedir();
 				opt+="/";
 				opt+=Database::game.CardSet(i);
+
+                                if(!FileExist(opt))
+                                {
+                                    opt=CCG_DATADIR;
+                                    opt+="/../";
+                                    opt+=ToLower(Database::game.Gamedir());
+                                    opt+="/xml/";
+                                    opt+=Database::game.Gamedir();
+                                    opt+="/";
+                                    opt+=Database::game.CardSet(i);
+                                }
+
 				cout << "Loading " << opt << endl;
 				Database::cards.AddCards(opt);
 				if(Evaluator::quitsignal)

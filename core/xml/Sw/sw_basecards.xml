@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ccg-setinfo SYSTEM "../gccg-set.dtd">
+<ccg-setinfo name="" game="Star Wars: The Collectible Card Game">
+
+  <cards>
+    <card name="Dark Side Force" text="" graphics="backdark.jpg">
+    </card>
+    <card name="Light Side Force" text="" back="1" graphics="backlight.jpg">
+    </card>
+    <card name="_unknown" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+  </cards>
+
+</ccg-setinfo>

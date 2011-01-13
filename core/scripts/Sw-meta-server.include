@@ -1,0 +1,35 @@
+if(!port)
+  port=29170;
+factory.port=29171;
+
+if(!load("products"))
+{
+  products=(,);
+  products{"Premier starter"}=(65536,10.00,("PR","starter"),65536);
+  products{"Premier booster"}=(65536,3.00,("PR","booster"),65536);
+  products{"A New Hope booster"}=(65536,3.00,("ANH","booster"),65536);
+  products{"Hoth booster"}=(65536,3.00,("HO","booster"),65536);
+  products{"Dagobah booster"}=(65536,3.00,("DAG","booster"),65536);
+  products{"Cloud City booster"}=(65536,3.00,("CC","booster"),65536);
+  products{"Jabba's Palace booster"}=(65536,3.00,("JP","booster"),65536);
+  products{"Premiere Introductory Two Player Game booster"}=(65536,100.00,("PR2","booster"),65536);
+  products{"Jedi Pack booster"}=(65536,100.00,("JEDI","booster"),65536);
+  products{"Enhanced Premiere booster"}=(65536,100.00,("ENP","booster"),65536);
+  products{"Rebel Leader booster"}=(65536,100.00,("RL","booster"),65536);
+  products{"Empire Strikes Back Introductory Two Player Game booster"}=(65536,100.00,("HO2","booster"),65536);
+  products{"Enhanced Cloud City booster"}=(65536,100.00,("ENCC","booster"),65536);
+  products{"Enhanced Jabba's Palace booster"}=(65536,100.00,("ENJP","booster"),65536);
+  products{"Official Tournament Sealed Deck booster"}=(65536,100.00,("TSD","booster"),65536);
+  products{"Jabba's Palace Sealed Deck booster"}=(65536,100.00,("JPSD","booster"),65536);
+  products{"Special Edition Side starter"}=(65536,10.00,("SPE","darkstarter"),65536);
+  products{"Special Edition Light Side starter"}=(65536,10.00,("SPE","lightstarter"),65536);
+  products{"Special Edition booster"}=(65536,3.00,("SPE","booster"),65536);
+  products{"Endor booster"}=(65536,3.00,("END","booster"),65536);
+  products{"Death Star II booster"}=(65536,3.00,("DSII","booster"),65536);
+  save("products");
+}
+
+INITIAL_MONEY=100.0;
+GAME_BONUS=25.0;
+BET_BONUS_MULTIPLIER=1;
+LOSER_PERCENTAGE=0.20;

@@ -1,0 +1,122 @@
+# VARIABLES
+# =========
+
+HANDSIZE=8;
+DECKBOX_SIZE=(20,260,170);
+
+
+if(!port)
+  port=29170;
+product.image=(,);
+product.image{"Premier booster"}="prboosterpack.jpg";
+product.image{"Premier starter"}="prstarterdeck.jpg";
+product.image{"A New Hope booster"}="anhlimitedpack.jpg";
+product.image{"Hoth booster"}="holimitedpack.jpg";
+product.image{"Dagobah booster"}="daglimitedpack.jpg";
+product.image{"Cloud City booster"}="cloudcitypack.jpg";
+product.image{"Jabba's Palace booster"}="jabbaspalacepack.jpg";
+product.image{"Premiere Introductory Two Player Game booster"}="prboosterbox.jpg";
+product.image{"Jedi Pack booster"}="jedipack.jpg";
+product.image{"Empire Strikes Back Introductory Two Player Game booster"}="holimitedbox.jpg";
+product.image{"Rebel Leader booster"}="rebelleaderpack.jpg";
+product.image{"Enhanced Premiere booster"}="enhancedleia.jpg";
+product.image{"Enhanced Cloud City booster"}="cloudcitybox.jpg";
+product.image{"Enhanced Jabba's Palace booster"}="jabbaspalacebox.jpg";
+product.image{"Official Tournament Sealed Deck booster"}="prstarterbox.jpg";
+product.image{"Jabba's Palace Sealed Deck booster"}="jabbaspalacebox.jpg";
+product.image{"Special Edition Light Side starter"}="specialeditionlightsidedeck.jpg";
+product.image{"Special Edition Dark Side starter"}="specialeditiondarksidedeck.jpg";
+product.image{"Special Edition booster"}="specialeditionpack.jpg";
+product.image{"Endor booster"}="endorpack.jpg";
+product.image{"Death Star II booster"}="deathstariipack.jpg";
+
+
+
+game.bindings=(
+  ("KeyControlKey1","{orange}Activate phase...",),
+  ("KeyControlKey2","{orange}Control phase...",),
+  ("KeyControlKey3","{orange}Deploy phase...",),
+  ("KeyControlKey4","{orange}Battle phase...",),
+  ("KeyControlKey5","{orange}Move phase...",),
+  ("KeyControlKey6","{orange}Draw phase...",),
+  ("KeyControlKey7","{orange}End of turn phase...",),);
+
+
+# MENUS
+# =====
+
+
+
+def ForcePileMenu
+{
+    Menu("force pile",(
+      ("Look","Ctrl+L",""),
+      ("Shuffle","Ctrl+S",""),
+       ("Use Force","","TryTransferTo('deck.top',deck.objects[me]{'used pile'})"),
+      ("Touch","Ctrl+T",""),
+    ));
+}
+
+def UsedPileMenu
+{
+    Menu("used pile",(
+      ("Look","Ctrl+L",""),
+      ("Shuffle","Ctrl+S",""),
+ ("Recycle Force","","TryTransferTo('deck.bottom',deck.objects[me]{'deck'})"),
+      ("Touch","Ctrl+T",""),
+    ));
+}
+
+def SingleCardMenuHook
+{
+  push(m);
+
+  m=(,);
+  if(ARG=='deck')
+  {
+    m=(("Activate Force","","TryTransferTo('deck.top',deck.objects[me]{'force pile'})"),
+       ("Put to Used Pile","","TryTransferTo('deck.top',deck.objects[me]{'used pile'})"),);
+  }
+
+  return(m);
+  m=pop();
+}
+
+# FUNCTIONS
+# =========
+
+def NewDeck
+{
+  return((("deck",(,)),));
+}
+
+def InitializeLocationTables
+{
+  rules.category=(,);
+  rules.coordinate=(,);
+}
+
+def StartGame 
+{
+  Send("UploadDeck",decks{deck.name});
+  Send("ShuffleDeck",deck);
+}
+
+#Create /activate command (for fast Force Activation :D )
+
+def PlayCommandActivate
+{
+  i=0
+  if(length(ARG))
+  {
+    i=(ARG[0]);
+    Transfer(i,{'reserve'},{'force pile'});
+    Msg("{red}Activated ",i,"Force");
+  }
+  else
+    Msg("{red}Missing arguments.");
+}
+
+
+
+

@@ -1,0 +1,31 @@
+#
+#  Sw server
+#  ------------
+
+screen.width=1024;
+screen.height=768;
+port=29900;
+meta.port=29170;
+
+#
+# GAME SPECIFIC FUNCTIONS
+# =======================
+
+#
+# SetUpPlayer(p) - Create necessary structures for player 'p'.
+#
+def SetUpPlayer
+{
+  CreateDeck(ARG,"deck",115,310);
+  CreateDeck(ARG,"discard pile",440,310);
+  CreateDeck(ARG,"force pile",115,205);
+  CreateDeck(ARG,"used pile",40,310);
+}
+
+#
+# InitialScore(p) - Return a structure representing initial score for a player 'p'.
+#
+def InitialScore
+{
+  return("");
+}

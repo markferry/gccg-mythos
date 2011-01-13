@@ -1,0 +1,79 @@
+#
+# CONSTANTS
+# =========
+
+TORRENT_VERSION=1;
+
+#
+# VARIABLES
+# =========
+
+# Deck name mapping.
+deck_name{"deck"}="reserve";
+deck_name{"discard pile"}="lost";
+deck_name{"force pile"}="force";
+deck_name{"used pile"}="used";
+deck_name{"opponent deck"}="reserve";
+deck_name{"opponent discard pile"}="lost";
+deck_name{"opponent force pile"}="force";
+deck_name{"opponent used pile"}="used";
+
+
+#
+# FUNCTIONS
+# =========
+
+#
+# ImperialCardsInList(deck) - Calculate number of Imperial Side cards in deck.
+#
+def ImperialCardsInList
+{
+  push(c);
+  c=0;
+  c=c+length(select('Attr("card_side",#)=="Dark"',ARG));
+  return(c);
+  c=pop();
+}
+
+#
+# ImperialCards(deck) - Calculate number of Imperial Side cards in deck.
+#
+def ImperialCards
+{
+  return(ImperialCardsInList(ARG{"deck"}));
+}
+
+#
+# RebelCardsInList(deck) - Calculate number of Rebel cards in deck.
+#
+def RebelCardsInList
+{
+  push(c);
+  c=0;
+  c=c+length(select('Attr("card_side",#)=="Light"',ARG));
+  return(c);
+  c=pop();
+}
+
+#
+# RebelCards(deck) - Calculate number of Rebel cards in deck.
+#
+def RebelCards
+{
+  return(RebelCardsInList(ARG{"deck"}));
+}
+
+
+
+
+#
+# FactionOfDeck(deck) - Return 'Imperial' or 'Rebel' based on higher number of cards.
+#
+def FactionOfDeck
+{
+  if(RebelCards(ARG) > ImperialCards(ARG))
+    return("Rebel");
+  else
+    return("Imperial");
+}
+

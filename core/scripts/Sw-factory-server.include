@@ -1,0 +1,366 @@
+if(!port)
+  port=29171;
+
+def InitDistributions
+{
+  distribution=(,);
+  distribution{"PR"}=(,);
+  distribution{"ANH"}=(,);
+  distribution{"HO"}=(,);
+  distribution{"DAG"}=(,);
+  distribution{"CC"}=(,);
+  distribution{"JP"}=(,);
+  distribution{"ENP"}=(,);
+  distribution{"JEDI"}=(,);
+  distribution{"RL"}=(,);
+  distribution{"PR2"}=(,);
+  distribution{"HO2"}=(,);
+  distribution{"ENCC"}=(,);
+  distribution{"ENJP"}=(,);
+  distribution{"SPE"}=(,);
+  distribution{"END"}=(,);
+  distribution{"DSII"}=(,);
+}
+
+fixed=array(50);
+
+#Jedi Pack
+fixed[0]=FixedSet("JEDI",("Hyperoute Navigation Chart", "Dark Forces", "Eriadu", "Gravity Shadow", "Motti", "Tarkin", "For Luck", "Han", "Leia", "Luke's T-16 Skyhopper", "Tedn Dahai"));
+
+#Rebel Leader Pack
+fixed[1]=FixedSet("RL",("Gold Leader In Gold 1", "Red Leader In Red 1"));
+
+#Special Edition Light Side Starter Deck Fixed cards
+spelt=FixedSet("SPE",("ASP-707 (Ayesspee)", "Bothawui", "B-wing Attack Fighter", "Desert (R)", "Disruptor Pistol (R)", "Farm", "First Aid", "Forest (R)", "Intruder Missile (R)", "It's Not My Fault!", "Jungle (R)", "Ralltiir Freighter Captain", "Sandspeeder", "Scurrier", "Spaceport City (R)", "Spaceport Docking Bay (R)", "Spaceport Street (R)", "Swamp (R)", "Tatooine: Anchorhead", "Trooper Sabacc (R)", "Wookiee", "Yavin 4 Trooper"));
+
+#Special Edition Dark Side Starter Deck Fixed cards
+spedk=FixedSet("SPE",("Combat Cloud Car", "Desert (I)", "Disruptor Pistol (I)", "Forest (I)", "IM4-099 (Eyeemmfour)", "Intruder Missile (I)", "Jungle (I)", "Makurth", "Rendili", "Rock Wart", "Sacrifice", "Sandtrooper", "Sentinel-Class Landing Craft", "Spaceport City (I)", "Spaceport Docking Bay (I)", "Spaceport Prefect's Office", "Spaceport Street (I)", "Swamp (I)", "Swoop Mercenary", "Tatooine: Krayt Dragon Pass", "TIE Defender Mark I", "Trooper Sabacc (I)"));
+
+# Generate Premier booster pack.
+def ProducePR_Booster
+{
+  push(p);
+  push(q);
+  p=RandomCardSet("PR",((5,"ICC"),(5,"RCC"),(2,"IUU"),(2,"RUU"),(1,"IRR")));
+  i=0;
+  while(i < 5)
+  {
+    if(random(99) < 10)
+      p[i]=random(cards{"PR"}{"IC"});
+    i=i+1;
+  }
+  while(i < 10)
+  {
+    if(random(99) < 10)
+      p[i]=random(cards{"PR"}{"RC"});
+    i=i+1;
+  }
+  while(i < 12)
+  {
+    if(random(78) < 30)
+      p[i]=random(cards{"PR"}{"IU"});
+    i=i+1;
+  }
+  while(i < 14)
+  {
+    if(random(78) < 30)
+      p[i]=random(cards{"PR"}{"RU"});
+    i=i+1;
+  }
+  q=(random(78));
+  if(q < 54){
+    p[i]=random(cards{"PR"}{"RRR"});
+    if(q < 30){
+      p[i]=random(cards{"PR"}{"IR"});
+      if(q < 15){
+        p[i]=random(cards{"PR"}{"RR"});
+        }
+      }         
+    }
+  return(p);
+  p=pop();
+  q=pop();
+}
+
+#Generate Premier Starter Deck
+def ProducePR_Starter
+{
+  push(p);
+  p=RandomCardSet("PR",((22,"ICC"),(22,"RCC"),(7,"IUU"),(7,"RUU"),(1,"IRR"),(1,"RRR")));
+  i=0;
+  while(i < 22)
+  {
+    if(random(99) < 10)
+      p[i]=random(cards{"PR"}{"IC"});
+    i=i+1;
+  }
+  while(i < 44)
+  {
+    if(random(99) < 10)
+      p[i]=random(cards{"PR"}{"RC"});
+    i=i+1;
+  }
+  while(i < 51)
+  {
+    if(random(78) < 30)
+      p[i]=random(cards{"PR"}{"IU"});
+    i=i+1;
+  }
+  while(i < 58)
+  {
+    if(random(78) < 30)
+      p[i]=random(cards{"PR"}{"RU"});
+    i=i+1;
+  }
+  while(i < 59)
+  {
+    if(random(78) < 30)
+      p[i]=random(cards{"PR"}{"IR"});
+    i=i+1;
+  }
+  while(i < 60)
+  {
+    if(random(78) < 30)
+      p[i]=random(cards{"PR"}{"RR"});
+    i=i+1;
+  }
+  return(p);
+  p=pop();
+}
+
+#Produce A New Hope booster
+def ProduceANH_Booster
+{
+  push(p);
+  p=RandomCardSet("ANH",((5,"ICC"),(5,"RCC"),(2,"IUU"),(2,"RUU"),(1,"IRR")));
+  i=0;
+  while(i < 5)
+  {
+    if(random(99) < 10)
+      p[i]=random(cards{"ANH"}{"IC"});
+    i=i+1;
+  }
+  while(i < 10)
+  {
+    if(random(99) < 10)
+      p[i]=random(cards{"ANH"}{"RC"});
+    i=i+1;
+  }
+  while(i < 12)
+  {
+    if(random(78) < 30)
+      p[i]=random(cards{"ANH"}{"IU"});
+    i=i+1;
+  }
+  while(i < 14)
+  {
+    if(random(78) < 30)
+      p[i]=random(cards{"ANH"}{"RU"});
+    i=i+1;
+  }
+  q=(random(78));
+  if(q < 54){
+    p[i]=random(cards{"ANH"}{"RRR"});
+    if(q < 30){
+      p[i]=random(cards{"ANH"}{"IR"});
+      if(q < 15){
+        p[i]=random(cards{"ANH"}{"RR"});
+        }
+      }         
+    }
+  return(p);
+  p=pop();
+}
+
+#Produce Hoth booster
+def ProduceHO_Booster
+{
+  push(p);
+  p=RandomCardSet("HO",((5,"ICC"),(5,"RCC"),(2,"IUU"),(2,"RUU"),(1,"IRR")));
+  i=0;
+  while(i < 5)
+  {
+    if(random(99) < 10)
+      p[i]=random(cards{"HO"}{"IC"});
+    i=i+1;
+  }
+  while(i < 10)
+  {
+    if(random(99) < 10)
+      p[i]=random(cards{"HO"}{"RC"});
+    i=i+1;
+  }
+  while(i < 12)
+  {
+    if(random(78) < 30)
+      p[i]=random(cards{"HO"}{"IU"});
+    i=i+1;
+  }
+  while(i < 14)
+  {
+    if(random(78) < 30)
+      p[i]=random(cards{"HO"}{"RU"});
+    i=i+1;
+  }
+  q=(random(78));
+  if(q < 54){
+    p[i]=random(cards{"HO"}{"RRR"});
+    if(q < 30){
+      p[i]=random(cards{"HO"}{"IR"});
+      if(q < 15){
+        p[i]=random(cards{"HO"}{"RR"});
+        }
+      }         
+    }
+  return(p);
+  p=pop();
+}
+
+#Produce Dagobah booster
+def ProduceDAG_Booster
+{
+  push(p);
+  p=RandomCardSet("DAG",((3,"IC"),(3,"RC"),(1,"IU"),(1,"RU"),(1,"IR")));
+  if(random(50) < 25)
+    p[8]=random(cards{"DAG"}{"RR"});
+  return(p);
+  p=pop();
+}
+
+#Produce Cloud City Booster
+def ProduceCC_Booster
+{
+  push(p);
+  p=RandomCardSet("CC",((3,"IC"),(3,"RC"),(1,"IU"),(1,"RU"),(1,"IR")));
+  if(random(50) < 25)
+    p[8]=random(cards{"CC"}{"RR"});
+  return(p);
+  p=pop();
+}
+
+#Produce Jabba's Palace booster
+def ProduceJP_Booster
+{
+  push(p);
+  p=RandomCardSet("JP",((2,"IC"),(3,"RC"),(1,"IU"),(2,"RU"),(1,"IR")));
+  if(random(50) < 25)
+    p[4]=random(cards{"JP"}{"IC"});
+  if(random(50) < 25)
+    p[7]=random(cards{"JP"}{"IU"});
+  if(random(50) < 25)
+    p[8]=random(cards{"JP"}{"RR"});
+  return(p);
+  p=pop();
+}
+
+#Generate Rebel Leader booster
+def ProduceRL_Booster
+{
+  return (fixed[1]);
+}
+
+#Generate Jedi Pack booster
+def ProduceJEDI_Booster
+{
+  return(fixed[0]);
+}
+
+#Generate Enhanced Premiere booster - currently single random card
+def ProduceENP_Booster
+{
+  return(random(cards{"ENP"}{"P"}));
+}
+
+#Generate Premiere 2 Player booster - currently single random card
+def ProducePR2_Booster
+{
+  return(random(cards{"PR2"}{"P"}));
+}
+
+#Generate Hoth 2 Player booster - currently single random card
+def ProduceHO2_Booster
+{
+  return(random(cards{"HO2"}{"P"}));
+}
+
+#Generate Enhanced Cloud City booster - currently single random card
+def ProduceENCC_Booster
+{
+  return(random(cards{"ENCC"}{"P"}));
+}
+
+#Generate Enhanced Jabba's Palace booster - currently single random card
+def ProduceENJP_Booster
+{
+  return(random(cards{"ENJP"}{"P"}));
+}
+
+#Generate Official Sealed Tournament Deck booster - currently single random card
+def ProduceTSD_Booster
+{
+  return(random(cards{"TSD"}{"P"}));
+}
+
+#Generate Jabba's Palace Sealed Deck booster - currently single random card
+def ProduceJPSD_Booster
+{
+  return(random(cards{"JPSD"}{"P"}));
+}
+
+#Generate Special Edition Light Side Starter deck
+def ProduceSPE_Lightstarter
+{
+  return(spelt+RandomCardSet("SPE",((22,"RC"),(14,"RU"),(2,"RR"))));
+}
+
+#Generate Special Edition Dark Side Starter deck
+def ProduceSPE_Darkstarter
+{
+  return(spedk+RandomCardSet("SPE",((22,"IC"),(14,"IU"),(2,"IR"))));
+}
+
+#Generate Special Edition booster
+def ProduceSPE_Booster
+{
+  push(p);
+  p=RandomCardSet("SPE",((2,"IC"),(3,"RC"),(1,"IU"),(2,"RU"),(1,"IR")));
+  if(random(50) < 25)
+    p[4]=random(cards{"SPE"}{"IC"});
+  if(random(50) < 25)
+    p[7]=random(cards{"SPE"}{"IU"});
+  if(random(50) < 25)
+    p[8]=random(cards{"SPE"}{"RR"});
+  return(p);
+  p=pop();
+}
+
+#Generate Endor booster
+def ProduceEND_Booster
+{
+  push(p);
+  p=RandomCardSet("END",((2,"IC"),(3,"RC"),(1,"IU"),(2,"RU"),(1,"IR")));
+  if(random(50) < 25)
+    p[4]=random(cards{"END"}{"IC"});
+  if(random(50) < 25)
+    p[7]=random(cards{"END"}{"IU"});
+  if(random(50) < 25)
+    p[8]=random(cards{"END"}{"RR"});
+  return(p);
+  p=pop();
+}
+
+#Generate Death Star II booster
+#Needs algorithm for UR and XR
+def ProduceDSII_Booster
+{
+  push(p);
+  p=RandomCardSet("DSII",((2,"IC"),(3,"RC"),(1,"IU"),(2,"RU"),(1,"IR")));
+  if(random(50) < 25)
+    p[4]=random(cards{"DSII"}{"IC"});
+  if(random(50) < 25)
+    p[7]=random(cards{"DSII"}{"IU"});
+  if(random(50) < 25)
+    p[8]=random(cards{"DSII"}{"RR"});
+  return(p);
+  p=pop();
+}

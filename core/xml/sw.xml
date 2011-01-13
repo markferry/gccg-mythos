@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ccg SYSTEM "gccg-game.dtd">
+
+<ccg name="Star Wars: The Collectible Card Game" dir="Sw">
+  <option name="hand card size" value="25"/>
+  <option name="table card size" value="20"/>
+  <option name="deck card size" value="20"/>
+  <option name="book card size" value="35"/>
+  <cardset source="sw_basecards.xml"/>
+  <cardset source="pr.xml"/>
+  <cardset source="enp.xml" />
+  <cardset source="pr2.xml" />
+  <cardset source="anh.xml"/>
+  <cardset source="ho.xml" />
+  <cardset source="ho2.xml" />
+  <cardset source="dag.xml" />
+  <cardset source="cc.xml" />
+  <cardset source="encc.xml" />
+  <cardset source="jp.xml" />
+  <cardset source="enjp.xml" />
+  <cardset source="tsd.xml" />
+  <cardset source="jedi.xml" />
+  <cardset source="rl.xml" />
+  <cardset source="jpsd.xml" />
+  <cardset source="spe.xml" />
+  <cardset source="end.xml" />
+  <cardset source="dsii.xml" />
+</ccg>

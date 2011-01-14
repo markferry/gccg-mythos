@@ -1,0 +1,134 @@
+#
+# Import/export definitions for SdA
+# ===========================================
+#
+
+importZDL.item=0;
+importZDL.count=0;
+
+#
+# IsSdADeck(file content) - Return 1 if the file is a SdA-deck.
+#
+def IsSdADeck
+{
+  push(i);
+  i=0;
+  while(i<length(ARG))
+  {
+    if(left(ARG[i],6)=="<Deck>")
+    {
+      return(1);
+      i=length(ARG);
+    }
+    i=i+1;
+  }
+  i=pop();
+}
+
+#
+# ImportSdADeck(file content) - Importer for SdA-deck.
+#
+def ImportSdADeck
+{
+  ImportReaderLineByLine(ARG,"HashComments","TrimSpaces","None","SdAFormatParser");
+}
+
+#
+# SdAFormatParser(text line) - Text line parser for SdA-deck.
+#
+def SdAFormatParser
+{
+  push(s);
+  push(n);
+  push(id);
+  push(d);
+  push(sl);
+  
+  id="";
+
+  if(left(ARG,10)=="<DeckCard>")
+  {
+	importZDL.item=0;
+	importZDL.count=0;
+  }
+  elseif(left(ARG,11)=="</DeckCard>")
+  {
+	if(importZDL.count!=0 && importZDL.item!=0)
+		ImportAdd(importZDL.count,importZDL.item);
+  }
+  elseif(left(ARG,4)=="<ID>")
+  {
+	id=substr(ARG,4);
+	id=left(id,find("<",id));
+
+	  if(id!="")
+	  { 
+	    s="";
+		n="";
+	    if(find("C",id)!=NULL)
+		{
+		  s=substr(id,0,find("C",id));
+		  n=substr(id,find("C",id)+1);
+		}
+	    elseif(find("S",id)!=NULL)
+		{
+		  s=substr(id,0,find("S",id));
+		  n=substr(id,find("S",id)+1);
+		}
+	    elseif(find("U",id)!=NULL)
+		{
+		  s=substr(id,0,find("U",id));
+		  n=substr(id,find("U",id)+1);
+		}
+	    elseif(find("P",id)!=NULL)
+		{
+		  s=substr(id,0,find("P",id));
+		  n=substr(id,find("P",id)+1);
+		}
+	    elseif(find("R+",id)!=NULL)
+		{
+		  s=substr(id,0,find("R+",id));
+		  n=substr(id,find("R+",id)+2);
+		}
+	    elseif(find("R",id)!=NULL)
+		{
+		  s=substr(id,0,find("R",id));
+		  n=substr(id,find("R",id)+1);
+		}
+
+		sl=sets();
+	    d=select('Attr("expansion",#)==s && Attr("card_number",#)==n',cards(sl[toint(s)]));
+
+		if(length(d)==1)
+		  importZDL.item=d[0];
+		else
+		  ImportErrorAdd("Invalid card "+ARG);
+	  }
+  }
+  elseif(left(ARG,10)=="<Quantity>")
+  {
+	id=substr(ARG,10);
+	importZDL.count=toint(left(id,find("<",id)));
+  }
+  elseif(left(ARG,6)=="<Side>")
+  {
+	if(find("Site", ARG))
+		import.part="sites";
+	else
+		import.part="deck";
+  }
+
+  sl=pop();
+  d=pop();
+  id=pop();
+  n=pop();
+  s=pop();
+}
+
+#
+# SdAFormatSuffix() - Return filename suffix .dck for SdA-format.
+#
+def SdAFormatSuffix
+{
+  return(".dck");
+}

@@ -1,0 +1,42 @@
+#
+# Lotr Deck Statistics Script
+#
+
+def CountOfType
+{
+	push(t);
+	t=0.0;
+	for(c)(ARG[1])
+	{
+		if(Attr("type",c)==ARG[0])
+		t=t+1.0;
+	}
+	return(t);
+	t=pop();
+}
+
+def CountOfKind
+{
+	push(t);
+	t=0.0;
+	for(c)(ARG[1])
+	{
+		if(Attr("kind",c)==ARG[0])
+		t=t+1.0;
+	}
+	return(t);
+	t=pop();
+}
+
+def CountOfRarity
+{
+	push(t);
+	t=0.0;
+	for(c)(ARG[1])
+	{
+		if(Attr("rarity",c)==ARG[0])
+		t=t+1.0;
+	}
+	return(t);
+	t=pop();
+}

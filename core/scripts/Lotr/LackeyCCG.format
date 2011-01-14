@@ -1,0 +1,98 @@
+#
+# Import/export definitions for LackeyCCG
+# By Kralik
+# ===========================================
+#
+
+importZDL.item=0;
+importZDL.count=0;
+
+#
+# IsLackeyCCGDeck(file content) - Return 1 if the file is a LackeyCCG-deck.
+#
+def IsLackeyCCGDeck
+{
+  push(i);
+  i=0;
+  while(i<length(ARG))
+  {
+    if(left(ARG[i],58)=="<!DOCTYPE deck SYSTEM \"http://www.lackeyccg.com/deck.dtd\">")
+    {	
+      return(1);
+      i=length(ARG);
+    }
+    i=i+1;
+  }
+  i=pop();
+}
+
+#
+# ImportLackeyCCGDeck(file content) - Importer for LackeyCCG-deck.
+#
+def ImportLackeyCCGDeck
+{
+  ImportReaderLineByLine(ARG,"HashComments","TrimSpaces","None","LackeyCCGFormatParser");
+}
+
+#
+# LackeyCCGFormatParser(text line) - Text line parser for LackeyCCG-deck.
+#
+def LackeyCCGFormatParser
+{
+  push(s);
+  push(n);
+  push(id);
+  push(d);
+  push(sl);
+  
+  if(left(ARG,6)=="<card>")
+  {
+	importZDL.item=0;
+	importZDL.count=0;
+  }
+  elseif(left(ARG,7)=="</card>")
+  {
+	if(importZDL.count!=0 && importZDL.item!=0)
+		ImportAdd(importZDL.count,importZDL.item);
+  }
+  elseif(left(ARG,5)=="<name")
+  {
+	id=left(substr(ARG,14),5);	
+	if(id!="")
+	{ 			
+		s=tostr(toint(left(id,2)));
+		n=tostr(toint(substr(id,2)));
+				
+		sl=sets();
+		d=select('Attr("expansion",#)==s && Attr("card_number",#)==n',cards(sl[toint(s)]));
+
+		if(length(d)==1)
+		{
+		  importZDL.item=d[0];
+		  importZDL.count=1;
+		}
+		else
+		  ImportErrorAdd("Invalid card "+ARG);
+	}
+  }  
+  elseif(left(ARG,23)=="<superzone name=\"Deck\">")
+		import.part="deck";
+  elseif(left(ARG,24)=="<superzone name=\"Sites\">")
+		import.part="sites";
+  elseif(left(ARG,27)=="<superzone name=\"Starting\">")
+		import.part="deck";
+
+  sl=pop();
+  d=pop();
+  id=pop();
+  n=pop();
+  s=pop();
+}
+
+#
+# LackeyCCGFormatSuffix() - Return filename suffix .dek for LackeyCCG-format.
+#
+def LackeyCCGFormatSuffix
+{
+  return(".dek");
+}

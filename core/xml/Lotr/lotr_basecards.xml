@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ccg-setinfo SYSTEM "../gccg-set.dtd">
+<ccg-setinfo name="" game="Lord of the Rings">
+
+  <cards>
+    <card name="A Card" text="" graphics="lotr_back.jpg">
+    </card>
+    <card name="Twilight Pool" back="2" text="An area where Twilight Tokens are placed." graphics="twilight_pool.png">
+    </card>
+    <card name="Tiwlight Pool" back="2" text="" graphics="twilight_pool_back.png">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+    <card name="_unknown_" text="" graphics="">
+    </card>
+  </cards>
+
+</ccg-setinfo>

@@ -1,0 +1,139 @@
+#
+# Import/export definitions for ZDeckBuilder
+# ===========================================
+#
+
+importZDL.item=0;
+
+#
+# IsZDeckBuilderDeck(file content) - Return 1 if the file is a ZDeckBuilder-deck.
+#
+def IsZDeckBuilderDeck
+{
+  push(i);
+  i=0;
+  while(i<length(ARG))
+  {
+    if(left(ARG[i],21)=="; Deck list generated")
+    {
+      return(1);
+      i=length(ARG);
+    }
+    i=i+1;
+  }
+  i=pop();
+}
+
+#
+# ImportZDeckBuilderDeck(file content) - Importer for ZDeckBuilder-deck.
+#
+def ImportZDeckBuilderDeck
+{
+  ImportReaderLineByLine(ARG,"HashComments","TrimSpaces","None","ZDeckBuilderFormatParser");
+}
+
+#
+# ZDeckBuilderFormatParser(text line) - Text line parser for ZDeckBuilder-deck.
+#
+def ZDeckBuilderFormatParser
+{
+  push(s);
+  push(n);
+  push(id);
+  push(cnt);
+  push(d);
+  push(sl);
+  
+  id="";
+  cnt=0;
+
+  if(left(ARG,11)=="RingBearer=")
+  {
+	id=substr(ARG,11);
+	import.part="deck";
+	cnt=1;
+  }
+  elseif(left(ARG,8)=="OneRing=")
+  {
+	id=substr(ARG,8);
+	import.part="deck";
+	cnt=1;
+  }
+  elseif(left(ARG,4)=="Site" && find("=",ARG))
+  {
+	id=substr(ARG,find("=",ARG)+1);
+	import.part="sites";
+	cnt=1;
+  }
+  elseif(left(ARG,6)=="CardID" && find("=",ARG))
+  {
+	id=substr(ARG,find("=",ARG)+1);
+	import.part="deck";
+  }
+  elseif(left(ARG,3)=="Qty" && find("=",ARG))
+  {
+	cnt=toint(substr(ARG,find("=",ARG)+1));  
+  }
+
+  if(id!="")
+  { 
+    s="";
+	n="";
+    if(find("C",id)!=NULL)
+	{
+	  s=substr(id,0,find("C",id));
+	  n=substr(id,find("C",id)+1);
+	}
+    elseif(find("S",id)!=NULL)
+	{
+	  s=substr(id,0,find("S",id));
+	  n=substr(id,find("S",id)+1);
+	}
+    elseif(find("U",id)!=NULL)
+	{
+	  s=substr(id,0,find("U",id));
+	  n=substr(id,find("U",id)+1);
+	}
+    elseif(find("P",id)!=NULL)
+	{
+	  s=substr(id,0,find("P",id));
+	  n=substr(id,find("P",id)+1);
+	}
+    elseif(find("R+",id)!=NULL)
+	{
+	  s=substr(id,0,find("R+",id));
+	  n=substr(id,find("R+",id)+2);
+	}
+    elseif(find("R",id)!=NULL)
+	{
+	  s=substr(id,0,find("R",id));
+	  n=substr(id,find("R",id)+1);
+	}
+
+	sl=sets();
+    d=select('Attr("expansion",#)==s && Attr("card_number",#)==n',cards(sl[toint(s)]));
+
+	if(length(d)==1)
+	  importZDL.item=d[0];
+	else
+	  ImportErrorAdd("Invalid card "+ARG);
+  }
+
+  if(cnt!=0 && importZDL.item!=0)
+    ImportAdd(cnt,importZDL.item);
+
+  sl=pop();
+  d=pop();
+  cnt=pop();
+  id=pop();
+  n=pop();
+  s=pop();
+}
+
+#
+# ZDeckBuilderFormatSuffix() - Return filename suffix .zdl for ZDeckBuilder-format.
+#
+def ZDeckBuilderFormatSuffix
+{
+  return(".zdl");
+}

@@ -1,0 +1,182 @@
+
+# CONSTANTS
+# =========
+
+TORRENT_VERSION=1;
+
+#
+# VARIABLES
+# =========
+
+# Deck name mapping.
+deck_name{"deck"}="draw deck";
+deck_name{"sites"}="adventure deck";
+deck_name{"discard pile"}="discard pile";
+deck_name{"Dead Pile"}="Dead Pile";
+deck_name{"opponent deck"}="draw deck";
+deck_name{"opponent sites"}="adventure deck";
+deck_name{"opponent discard pile"}="discard pile";
+deck_name{"opponent Dead Pile"}="Dead Pile";
+
+#
+# SPECIAL DECK RULES
+# ==================
+
+#
+# RuleFellowshipShadowBalance(card list) - Check that
+#   there is as many Fellowship as Shadow. 
+#
+def RuleFellowshipShadowBalance
+{
+  push(a);
+  push(s);
+  push(t);
+  s=(,);
+  s{""}=0;
+  s{"f"}=0;
+  s{"s"}=0;
+  s{"r"}=0;
+
+  for(c)(ARG[0])
+  { 
+    t="";
+    a=Attr("kind",c);
+    if(a=="Free Peoples")
+	{
+	  if(s{"r"}==0 && Attr("type",c)=="Companion" && (left(name(c),6)=="·Frodo" || find(", Bearer of ",name(c))!=NULL))
+		t="r";
+	  else
+	    t="f";
+	}
+    else if(a=="Shadow")
+	  t="s";
+
+    s{t}=s{t}+1;
+  }
+
+  deck_rulecheck.info="Free Peoples="+s{"f"}+", Shadow="+s{"s"}+", Ring-bearer="+s{"r"}+", Other="+s{""};
+
+  return( s{""}==0 && s{"r"}==1 && (s{"f"})==s{"s"} );
+  
+  t=pop();
+  s=pop();
+  a=pop();
+}
+
+#
+# RuleCheckCopiesCount(card list, limit) - Check that
+#   there is no more than x copies of the same card (ignoring subtitle).
+#
+def RuleCheckCopiesCount
+{
+  push(n);
+  push(s);
+  push(e);
+  push(f);
+  s=(,);
+  e=(,);
+  f=0;
+
+  for(c)(ARG[0])
+  { 
+    n=name(c);	
+	if((p=find(",",n)) != NULL)
+	{
+		n=substr(n,0,p);
+	    if(s{n}==NULL)
+	        s{n}=1;
+		else
+		  s{n}=s{n}+1;
+		if(s{n} > toint(ARG[1]))
+		{
+		  e{n}=s{n};
+		  f=1;
+		}
+	}
+  }
+
+  deck_rulecheck.info=join(forall('#+" x "+e{#}',keys(e)),", ");
+  
+  return(f==0);
+  
+  f=pop();
+  e=pop();
+  s=pop();
+  n=pop();
+}
+
+#
+# RuleCountSite(card list, level) - Count sites for $level$
+#
+def RuleCountSite
+{
+  push(s);
+  s=0;
+  for(c)(ARG[0])
+  { 
+    if( Attr("site",c) == ARG[1] )
+		s=s+1;
+  }
+  
+  deck_rulecheck.info=s+" in adventure deck";
+  
+  return( s );
+  s=pop();
+}
+
+#
+# RuleCountKind(card list, kind) - Count number of cards for kind $kind$
+#
+def RuleCountKind
+{
+	return(length(select('Attr("kind",#)==ARG[1]',ARG[0])));
+}
+
+#
+# RuleSitesTwilightCost(card list,limit) - Count number of cards with the same twilight cost
+#
+def RuleSitesTwilightCost
+{
+  push(n);
+  push(s);
+  push(e);
+  push(f);
+  s=(,);
+  e=(,);
+  f=0;
+
+  for(c)(ARG[0])
+  { 
+	n=Attr("twilight_cost",c);
+	if(s{n}==NULL)
+		s{n}=1;
+	else
+	  s{n}=s{n}+1;
+	if(s{n} > toint(ARG[1]))
+	{
+	  e{n}=s{n};
+	  f=1;
+	}
+  }
+
+  deck_rulecheck.info=join(forall('#+" twilight x "+e{#}',keys(e)),", ");
+  
+  return(f==0);
+  
+  f=pop();
+  e=pop();
+  s=pop();
+  n=pop();
+}
+
+#
+# RuleSameBlockSites(card list) - Check if sites come from the same block
+#
+def RuleSameBlockSites
+{
+	push(b);
+	b=unique(forall('Attr("block",#)',select('Attr("type",#)=="Site"',ARG)));
+	deck_rulecheck.info="Mixed blocks: "+join(b,",");
+	return(length(b)==1);
+	b=pop();
+}

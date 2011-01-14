@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ccg SYSTEM "gccg-game.dtd">
+
+<ccg name="Lord of the Rings" dir="Lotr">
+
+  <cardset source="lotr_basecards.xml"/>
+  <cardset source="promo.xml"/>
+  <cardset source="fellowship.xml"/>
+  <cardset source="mines.xml"/>
+  <cardset source="realms.xml"/>
+  <cardset source="twotowers.xml"/>
+  <cardset source="helmsdeep.xml"/>
+  <cardset source="ents.xml"/>
+  <cardset source="returnoftheking.xml"/>
+  <cardset source="siege.xml"/>
+  <cardset source="reflections.xml"/>
+  <cardset source="mountdoom.xml"/>
+  <cardset source="shadows.xml"/>
+  <cardset source="blackrider.xml"/>
+  <cardset source="bloodlines.xml"/>
+  <cardset source="expanded.xml"/>
+  <cardset source="hunters.xml"/>
+  <cardset source="wraith.xml"/>
+  <cardset source="rise.xml"/>
+  <cardset source="treachery.xml"/>
+  <cardset source="agesend.xml"/>
+
+  <image tag="{Dunland}" file="dunland.png" />
+  <image tag="{Dwarven}" file="dwarven.png" />
+  <image tag="{Elven}" file="elven.png" />
+  <image tag="{Gandalf}" file="gandalf.png" />
+  <image tag="{Gollum}" file="gollum.png" />
+  <image tag="{Gondor}" file="gondor.png" />
+  <image tag="{Isengard}" file="isengard.png" />
+  <image tag="{Moria}" file="moria.png" />
+  <image tag="{Raider}" file="raider.png" />
+  <image tag="{Ringwraith}" file="ringwraith.png" />
+  <image tag="{Rohan}" file="rohan.png" />
+  <image tag="{Sauron}" file="sauron.png" />
+  <image tag="{Shire}" file="shire.png" />
+  <image tag="{Men}" file="men.png" />
+  <image tag="{Orc}" file="orc.png" />
+  <image tag="{Uruk-hai}" file="uruk.png" />
+
+  <image tag="{AragornSignet}" file="aragorn-signet.png" />
+  <image tag="{FrodoSignet}" file="frodo-signet.png" />
+  <image tag="{GandalfSignet}" file="gandalf-signet.png" />
+  <image tag="{ThéodenSignet}" file="theoden-signet.png" />
+
+  <image tag="{T}" file="tower.png" />
+  <image tag="{K}" file="king.png" />
+  <image tag="{1}" file="1.png" />
+  <image tag="{2}" file="2.png" />
+  <image tag="{3}" file="3.png" />
+  <image tag="{4}" file="4.png" />
+  <image tag="{5}" file="5.png" />
+  <image tag="{8}" file="8.png" />
+  <image tag="{9}" file="9.png" />
+  <image tag="{X}" file="x.png" />
+
+  <option name="hand card size" value="30"/>
+  <option name="table card size" value="25"/>
+  <option name="deck card size" value="20"/>
+  <option name="book card size" value="30"/>
+
+  <option name="deck order" value="culture"/>
+  <option name="deck color by" value="culture"/>
+
+  <option name="draw hints" value="culture"/>
+  <option name="draw hints 2" value="kind"/>
+  
+  <option name="default border width" value="17"/>
+  <option name="default border color" value="0,0,255"/>
+  <option name="default border color" value="0,0,0"/>
+  <option name="default back color" value="0,255,0"/>
+
+  <option name="default title" value="60,25,220,40"/>
+  <option name="default title font" value="2"/>
+  <option name="default title font size" value="20"/>
+  <option name="default title font color" value="0,0,0"/>  
+  
+  <option name="default image" value="30,70,298,210"/>
+  <option name="default image color" value="112,89,145"/>
+  <option name="default image border" value="3"/>
+  <option name="default image border color" value="44,23,40"/>
+  <option name="default image font" value="3"/>
+  <option name="default image font size" value="120"/>
+  <option name="default image font color" value="255,203,139"/>
+  
+  <option name="default text box" value="70,315,265,155"/>
+  <option name="default text box font" value="2"/>
+  <option name="default text box font size" value="20"/>
+  <option name="default text box align" value="0"/>
+  <option name="default text box valign" value="1"/>
+  <option name="default text box border" value="1"/>
+  <option name="default text box color" value="255,0,0"/>
+  <option name="default text box border color" value="44,23,40"/>
+      
+  <option name="Site text box" value="30,315,298,155"/>
+  <option name="Site text box font" value="2"/>
+  <option name="Site text box font size" value="20"/>
+  <option name="Site text box align" value="0"/>
+  <option name="Site text box valign" value="1"/>
+  <option name="Site text box border" value="1"/>
+  <option name="Site text box color" value="255,0,0"/>
+  <option name="Site text box border color" value="44,23,40"/>
+	  
+  <option name="default text 2" value="20,25,40,40"/>
+  <option name="default text 2 font" value="2"/>
+  <option name="default text 2 font size" value="35"/>
+  <option name="default text 2 align" value="1"/>
+  <option name="default text 2 content" value="[twilight_cost]"/>
+  
+  <option name="Site text 2 content" value="[site]"/>
+
+  <option name="default text 3" value="280,22,60,40"/>
+  <option name="default text 3 font" value="2"/>
+  <option name="default text 3 font size" value="35"/>
+  <option name="default text 3 align" value="1"/>
+  <option name="default text 3 content" value="[culture]"/>
+  
+  <option name="Site text 3" value="300,25,40,40"/>
+  <option name="Site text 3 content" value="[twilight_cost]"/>
+
+  <option name="default text 4" value="40,290,280,22"/>
+  <option name="default text 4 font" value="2"/>
+  <option name="default text 4 font size" value="20"/>
+  <option name="default text 4 align" value="1"/>
+  <option name="default text 4 content" value="[type] [race]"/>
+
+  <option name="default text 5" value="20,315,45,45"/>
+  <option name="default text 5 font" value="2"/>
+  <option name="default text 5 font size" value="35"/>
+  <option name="default text 5 align" value="1"/>
+  <option name="default text 5 content" value="[strength]"/>
+
+  <option name="default text 6" value="20,370,45,45"/>
+  <option name="default text 6 font" value="2"/>
+  <option name="default text 6 font size" value="35"/>
+  <option name="default text 6 align" value="1"/>
+  <option name="default text 6 content" value="[vitality]"/>
+
+  <option name="default text 7" value="20,425,45,45"/>
+  <option name="default text 7 font" value="2"/>
+  <option name="default text 7 font size" value="35"/>
+  <option name="default text 7 align" value="1"/>
+  <option name="default text 7 content" value="[resistance]"/>
+
+  <option name="default text 8" value="20,425,45,45"/>
+  <option name="default text 8 font" value="0"/>
+  <option name="default text 8 font size" value="35"/>
+  <option name="default text 8 align" value="1"/>
+  <option name="default text 8 content" value="[signet]"/>
+
+  <option name="Free Peoples border color" value="200,200,200"/>
+  <option name="Shadow border color" value="0,0,0"/>
+  <option name="Site border color" value="211,193,157"/>  
+  <option name="Site back color" value="178,157,112"/>
+  <option name="Site text box color" value="211,193,157"/>
+  <option name="Ring border color" value="250,227,134"/>  
+  <option name="Ring back color" value="238,146,43"/>
+  <option name="Ring text box color" value="250,227,134"/>
+
+  <option name="{Dwarven} back color" value="105,46,32"/>
+  <option name="{Dwarven} text box color" value="231,220,200"/>
+  <option name="{Elven} back color" value="59,124,162"/>
+  <option name="{Elven} text box color" value="217,214,209"/>
+  <option name="{Gandalf} back color" value="209,181,116"/>
+  <option name="{Gandalf} text box color" value="233,215,191"/>
+  <option name="{Gondor} back color" value="108,95,149"/>
+  <option name="{Gondor} text box color" value="212,208,199"/>
+  <option name="{Shire} back color" value="140,147,95"/>
+  <option name="{Shire} text box color" value="207,209,172"/>
+  <option name="{Rohan} back color" value="103,72,77"/>
+  <option name="{Rohan} text box color" value="221,221,233"/>
+
+  <option name="{Gollum} back color" value="176,147,139"/>
+  <option name="{Gollum} text box color" value="210,210,208"/>
+
+  <option name="{Moria} back color" value="212,120,17"/>
+  <option name="{Moria} text box color" value="214,194,162"/>
+  <option name="{Isengard} back color" value="72,127,85"/>
+  <option name="{Isengard} text box color" value="197,208,192"/>
+  <option name="{Sauron} back color" value="138,48,40"/>
+  <option name="{Sauron} text box color" value="184,177,159"/>
+  <option name="{Ringwraith} back color" value="36,77,95"/>
+  <option name="{Ringwraith} text box color" value="188,185,176"/>
+  <option name="{Raider} back color" value="228,198,50"/>
+  <option name="{Raider} text box color" value="240,221,163"/>
+  <option name="{Dunland} back color" value="117,126,143"/>
+  <option name="{Dunland} text box color" value="227,220,204"/>
+  <option name="{Uruk-hai} back color" value="64,129,47"/>
+  <option name="{Uruk-hai} text box color" value="230,233,216"/>
+  <option name="{Orc} back color" value="170,76,42"/>
+  <option name="{Orc} text box color" value="223,214,199"/>
+  <option name="{Men} back color" value="201,160,52"/>
+  <option name="{Men} text box color" value="194,199,202"/>
+
+  <trigger event="location hint" attribute="type"/>
+  <trigger event="location hint" attribute="culture"/>
+
+  <trigger event="play" attribute="type"/>
+
+</ccg>

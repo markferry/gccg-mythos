@@ -1,0 +1,99 @@
+
+if(!port)
+  port=29120;
+
+factory.port=29121;
+REQUIRE_GAME_VERSION="0.8.80";
+
+INITIAL_MONEY=100.0;
+GAME_BONUS=45.0;
+BET_BONUS_MULTIPLIER=1;
+LOSER_PERCENTAGE=0.20;
+
+products=(,);
+if(!load("products"))
+{
+  products=(,);
+  products{"The Fellowship of the Ring Gandalf starter"}=(65536,11.00,("FoTR","Gandalf",),65536);
+  products{"The Fellowship of the Ring Aragorn starter"}=(65536,11.00,("FoTR","Aragorn",),65536);
+  products{"The Fellowship of the Ring Deluxe starter"}=(65536,14.00,("FoTR","Deluxe",),65536);
+  products{"The Fellowship of the Ring booster"}=(65536,3.70,("FoTR","booster"),65536);
+  products{"Mines of Moria Gandalf starter"}=(65536,11.00,("MoM","Gandalf",),65536);
+  products{"Mines of Moria Gimli starter"}=(65536,11.00,("MoM","Gimli",),65536);
+  products{"Mines of Moria booster"}=(65536,3.70,("MoM","booster",),65536);
+  products{"Realms of the Elf-lords Legolas starter"}=(65536,11.00,("RoTEL","Legolas",),65536);
+  products{"Realms of the Elf-lords Boromir starter"}=(65536,11.00,("RoTEL","Boromir",),65536);
+  products{"Realms of the Elf-lords booster"}=(65536,3.70,("RoTEL","booster",),65536);
+  products{"The Two Towers Aragorn starter"}=(65536,11.00,("TTT","Aragorn",),65536);
+  products{"The Two Towers Théoden starter"}=(65536,11.00,("TTT","Theoden",),65536);
+  products{"The Two Towers Deluxe starter"}=(65536,14.00,("TTT","Deluxe",),65536);
+  products{"The Two Towers booster"}=(65536,3.70,("TTT","booster",),65536);
+  products{"Battle of Helm's Deep Eowyn starter"}=(65536,11.00,("BoHD","Eowyn",),65536);
+  products{"Battle of Helm's Deep Legolas starter"}=(65536,11.00,("BoHD","Legolas",),65536);
+  products{"Battle of Helm's Deep booster"}=(65536,3.70,("BoHD","booster",),65536);
+  products{"Ents of Fangorn Faramir starter"}=(65536,11.00,("EoF","Faramir",),65536);
+  products{"Ents of Fangorn Witch-King starter"}=(65536,11.00,("EoF","Witchking",),65536);
+  products{"Ents of Fangorn booster"}=(65536,3.70,("EoF","booster",),65536);
+  products{"The Return of the King Aragorn starter"}=(65536,11.00,("RoTK","Aragorn",),65536);
+  products{"The Return of the King Éomer starter"}=(65536,11.00,("RoTK","Eomer",),65536);
+  products{"The Return of the King booster"}=(65536,3.70,("RoTK","booster",),65536);
+  products{"Siege of Gondor Merry starter"}=(65536,11.00,("SoG","Merry",),65536);
+  products{"Siege of Gondor Pippin starter"}=(65536,11.00,("SoG","Pippin",),65536);
+  products{"Siege of Gondor booster"}=(65536,3.70,("SoG","booster",),65536);
+  products{"Reflections booster"}=(65536,5.60,("Refl","booster",),65536);
+  products{"Mount Doom Frodo starter"}=(65536,11.00,("MD","Frodo",),65536);
+  products{"Mount Doom Sam starter"}=(65536,11.00,("MD","Sam",),65536);
+  products{"Mount Doom booster"}=(65536,3.70,("MD","booster",),65536);
+  products{"Shadows Aragorn starter"}=(65536,11.00,("SH","Aragorn",),65536);
+  products{"Shadows Eowyn starter"}=(65536,11.00,("SH","Eowyn",),65536);
+  products{"Shadows Gandalf starter"}=(65536,11.00,("SH","Gandalf",),65536);
+  products{"Shadows Legolas starter"}=(65536,11.00,("SH","Legolas",),65536);
+  products{"Shadows booster"}=(65536,3.70,("SH","booster",),65536);
+  products{"Black Rider Saruman starter"}=(65536,11.00,("BR","Saruman",),65536);
+  products{"Black Rider Mouth of Sauron starter"}=(65536,11.00,("BR","MouthOfSauron",),65536);
+  products{"Black Rider booster"}=(65536,3.70,("BR","booster",),65536);
+  products{"Bloodlines Arwen starter"}=(65536,11.00,("BL","Arwen",),65536);
+  products{"Bloodlines Boromir starter"}=(65536,11.00,("BL","Boromir",),65536);
+  products{"Bloodlines booster"}=(65536,3.70,("BL","booster",),65536);
+  products{"Middle-Earth Elrohir Draft pack"}=(65536,20.00,("ME","Elrohir",),65536);
+  products{"Middle-Earth Grimbeorn Draft pack"}=(65536,20.00,("ME","Grimbeorn",),65536);
+  products{"Middle-Earth Halbarad Draft pack"}=(65536,20.00,("ME","Halbarad",),65536);  
+  products{"Hunters Aragorn starter"}=(65536,11.00,("HUN","Aragorn",),65536);
+  products{"Hunters Mauhur starter"}=(65536,11.00,("HUN","Mauhur",),65536);
+  products{"Hunters booster"}=(65536,3.70,("HUN","booster",),65536);
+  products{"The Wraith Collection set"}=(65536,20.0,("WC","Set",),65536);
+  products{"Rise of Saruman Evil Man starter"}=(65536,11.00,("RS","Evilman",),65536);
+  products{"Rise of Saruman Uruk Rampage starter"}=(65536,11.00,("RS","Urukrampage",),65536);
+  products{"Rise of Saruman booster"}=(65536,3.70,("RS","booster",),65536);
+  products{"Treachery and Deceit booster"}=(65536,3.70,("TD","booster",),65536);
+  products{"Ages End set"}=(65536,40.0,("AE","Set",),65536);
+  save("products");
+}
+
+#
+# HOOKS
+# =====
+
+# EndGameHook(player name who declared,result,result options,player numbers,player names,bet) - This
+#   hook is called at the beginning of the game result
+#   prosessing. Note: this hook is not called for undecided results.
+#
+def EndGameHook
+{
+  if(length(ARG[3])>1)
+  {
+    push(c);
+    for(p)(ARG[4])
+    {
+      if(users{p}[4][1][0]==0)
+      {
+        c=random(seq(set.data{"PR"}[1],set.data{"PR"}[2]));
+        AddCard(p,c);
+        SendAll("Message","{blue}"+p+" receives{gold} #"+c+"# {blue}as a reward for the game.");
+        if(Con(p)>-1)
+          Send(Con(p),("SetCardbook",((c,users{p}[2]{c}),)));
+      }
+    }
+    c=pop();
+  }
+}

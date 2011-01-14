@@ -1,0 +1,1102 @@
+#
+# VARIABLES
+# =========
+
+# Number of cards in hand.
+HANDSIZE=8;
+# Size of columns of the decklist in pixels.
+DECKBOX_SIZE=(20,300,50);
+# minor version number for filter alogrithm
+BOOK_FILTER_VERSION_MINOR=".5";
+# default book sorting criteria.
+BOOK_DEFAULT_SORT=("[age]","N[card_number]");
+# cards staying always on table
+IMMOBILE_CARDS=(1,);
+# Mininum binary version required to use this script.
+# MINIMUM_VERSION="0.8.81";
+# Value of my last bid.
+my_bid=0;
+
+BGCOLOR=(88,42,11);
+FGCOLOR=(208,162,72);
+BRCOLOR=(208,162,72);
+BGCOLOR2=(88,42,11);
+FGCOLOR2=(88,42,11);
+BRCOLOR2=(208,162,72);
+TXCOLOR=(208,162,72);
+INCOLOR=(255,255,255);
+BKBGCOLOR=(88,42,11);
+BKBRCOLOR=(208,162,72);
+
+
+if(!port)
+  port=29120;
+if(server.name=="NO.DEFAULT.SERVER.FOR.THIS.GAME")
+  server.name="gccg.servebeer.com";
+
+product.image=(,);
+product.image{"The Fellowship of the Ring Gandalf starter"}="fotr_starter_gandalf.jpg";
+product.image{"The Fellowship of the Ring Aragorn starter"}="fotr_starter_aragorn.jpg";
+product.image{"The Fellowship of the Ring Deluxe starter"}="fotr_starter_deluxe.jpg";
+product.image{"The Fellowship of the Ring booster"}="fotr_booster.jpg";
+product.image{"Mines of Moria Gandalf starter"}="mom_starter_gandalf.jpg";
+product.image{"Mines of Moria Gimli starter"}="mom_starter_gimli.jpg";
+product.image{"Mines of Moria booster"}="mom_booster.jpg";
+product.image{"Realms of the Elf-lords Legolas starter"}="rotel_starter_legolas.jpg";
+product.image{"Realms of the Elf-lords Boromir starter"}="rotel_starter_boromir.jpg";
+product.image{"Realms of the Elf-lords booster"}="rotel_booster.jpg";
+product.image{"The Two Towers Aragorn starter"}="ttt_starter_aragorn.jpg";
+product.image{"The Two Towers Théoden starter"}="ttt_starter_theoden.jpg";
+product.image{"The Two Towers Deluxe starter"}="ttt_starter_deluxe.jpg";
+product.image{"The Two Towers booster"}="ttt_booster.jpg";
+product.image{"Battle of Helm's Deep Eowyn starter"}="bohd_starter_eowyn.jpg";
+product.image{"Battle of Helm's Deep Legolas starter"}="bohd_starter_legolas.jpg";
+product.image{"Battle of Helm's Deep booster"}="bohd_booster.jpg";
+product.image{"Ents of Fangorn Faramir starter"}="eof_starter_faramir.jpg";
+product.image{"Ents of Fangorn Witch-King starter"}="eof_starter_witchking.jpg";
+product.image{"Ents of Fangorn booster"}="eof_booster.jpg";
+product.image{"The Return of the King Aragorn starter"}="rotk_starter_aragorn.jpg";
+product.image{"The Return of the King Éomer starter"}="rotk_starter_eomer.jpg";
+product.image{"The Return of the King booster"}="rotk_booster.jpg";
+product.image{"Siege of Gondor Merry starter"}="sog_starter_merry.jpg";
+product.image{"Siege of Gondor Pippin starter"}="sog_starter_pippin.jpg";
+product.image{"Siege of Gondor booster"}="sog_booster.jpg";
+product.image{"Reflections booster"}="refl_booster.jpg";
+product.image{"Mount Doom Frodo starter"}="md_starter_frodo.jpg";
+product.image{"Mount Doom Sam starter"}="md_starter_sam.jpg";
+product.image{"Mount Doom booster"}="md_booster.jpg";
+product.image{"Shadows Aragorn starter"}="sh_starter_aragorn.jpg";
+product.image{"Shadows Gandalf starter"}="sh_starter_gandalf.jpg";
+product.image{"Shadows Eowyn starter"}="sh_starter_eowyn.jpg";
+product.image{"Shadows Legolas starter"}="sh_starter_legolas.jpg";
+product.image{"Shadows booster"}="sh_booster.jpg";
+product.image{"Black Rider Saruman starter"}="br_starter_saruman.jpg";
+product.image{"Black Rider Mouth of Sauron starter"}="br_starter_mouth.jpg";
+product.image{"Black Rider booster"}="br_booster.jpg";
+product.image{"Bloodlines Arwen starter"}="bl_starter_arwen.jpg";
+product.image{"Bloodlines Boromir starter"}="bl_starter_boromir.jpg";
+product.image{"Bloodlines booster"}="bl_booster.jpg";
+product.image{"Middle-Earth Elrohir Draft pack"}="me_pack_elrohir.jpg";
+product.image{"Middle-Earth Grimbeorn Draft pack"}="me_pack_grimbeorn.jpg";
+product.image{"Middle-Earth Halbarad Draft pack"}="me_pack_halbarad.jpg";
+product.image{"Hunters Aragorn starter"}="hun_starter_aragorn.jpg";
+product.image{"Hunters Mauhur starter"}="hun_starter_mauhur.jpg";
+product.image{"Hunters booster"}="hun_booster.jpg";
+product.image{"The Wraith Collection set"}="wc_set.jpg";
+product.image{"Rise of Saruman Evil Man starter"}="rs_starter_evilman.jpg";
+product.image{"Rise of Saruman Uruk Rampage starter"}="rs_starter_urukrampage.jpg";
+product.image{"Rise of Saruman booster"}="rs_booster.jpg";
+product.image{"Treachery and Deceit booster"}="td_booster.jpg";
+product.image{"Ages End set"}="ae_set.jpg";
+
+game.bindings=(
+  ("KeyControlKey1","{orange}Fellowship phase..."),
+  ("KeyControlKey2","{orange}Shadow phase..."),
+  ("KeyControlKey3","{orange}Maneuver phase..."),
+  ("KeyControlKey4","{orange}Archery phase..."),
+  ("KeyControlKey5","{orange}Assignment phase..."),
+  ("KeyControlKey6","{orange}Skirmish phase..."),
+  ("KeyControlKey7","{orange}Regroup phase..."),);
+
+if(options{"discard_attached"}==NULL)
+  options{"discard_attached"}="yes";
+
+FILTER_OPTIONS=(
+ ("The One Ring","Attr('kind',#)=='Ring'",(1,"[block]","[name]")),
+ ("Free Peoples","Attr('kind',#)=='Free Peoples'",(1,"[type]","[name]")),
+ ("Shadow","Attr('kind',#)=='Shadow'",(1,"[type]","[name]")),
+ ("Sites","Attr('kind',#)=='Site'",(1,"[site]","[name]")),
+ "{hr}",
+ ("Dwarven","Attr('culture',#)=='{Dwarven}'",(1,"[type]","[name]")),
+ ("Elven","Attr('culture',#)=='{Elven}'",(1,"[type]","[name]")),
+ ("Gandalf","Attr('culture',#)=='{Gandalf}'",(1,"[type]","[name]")),
+ ("Gondor","Attr('culture',#)=='{Gondor}'",(1,"[type]","[name]")),
+ ("Rohan","Attr('culture',#)=='{Rohan}'",(1,"[type]","[name]")),
+ ("Shire","Attr('culture',#)=='{Shire}'",(1,"[type]","[name]")),
+ ("Gollum","Attr('culture',#)=='{Gollum}'",(1,"[type]","[name]")),
+ ("Dunland","Attr('culture',#)=='{Dunland}'",(1,"[type]","[name]")),
+ ("Isengard","Attr('culture',#)=='{Isengard}'",(1,"[type]","[name]")),
+ ("Men","Attr('culture',#)=='{Men}'",(1,"[type]","[name]")),
+ ("Moria","Attr('culture',#)=='{Moria}'",(1,"[type]","[name]")),
+ ("Orc","Attr('culture',#)=='{Orc}'",(1,"[type]","[name]")),
+ ("Raider","Attr('culture',#)=='{Raider}'",(1,"[type]","[name]")),
+ ("Sauron","Attr('culture',#)=='{Sauron}'",(1,"[type]","[name]")),
+ ("Uruk-hai","Attr('culture',#)=='{Uruk-hai}'",(1,"[type]","[name]")),
+ ("Wraith","Attr('culture',#)=='{Ringwraith}'",(1,"[type]","[name]")),
+ "{hr}",
+);
+  
+# MENUS
+# =====
+
+MENU{"Main Menu - Play"}=(
+	(1,"End of my turn","Ctrl+E",""),
+	(1,"Roll dice","Ctrl+R",""),
+	(1,"Select counter color...","","CounterSubmenu()"),
+	(1,"{hr}","",""),
+	(1,"Declare win","/win",""),
+	(1,"Declare loss","/lose",""),
+	(1,"Declare draw","/draw",""),
+	(1,"Declare undecided","/undecided",""),
+	(1,"Accept result","/ok",""),
+	(1,"{hr}","",""),
+	(1,"Show/Hide deck","","set_attr(deck.box,'visible',!get_attr(deck.box,'visible'))"),
+	(1,"Show/Hide collection","Ctrl+B",""),
+	(1,"Save game","/savegame",""),
+	(1,"Load game","/loadgame",""),
+	(1,"Delete saved game","/delgame",""),
+	);
+
+GAME_MENU{"Main Menu - Play"}=(
+ (1,"{hr}","",""),
+ (1,"Set your bid to zero","/bid 0",""),
+ (1,"Set your bid to {1}","/bid 1",""),
+ (1,"Set your bid to {2}","/bid 2",""),
+ (1,"Set your bid to {3}","/bid 3",""),
+ (1,"Set your bid to {4}","/bid 4",""),
+ );
+
+GAME_MENU{"Tap a card"}=(
+ (1,"Invert","Ctrl+I",""),
+ (1,"Attach","Ctrl+Z",""),
+ (1,"Attach on opponent","Ctrl+X",""),
+ ('ParentObject(object.number)!=NULL',"Detach","Ctrl+left click","MouseControlLeftClick()"),
+);
+
+GAME_MENU{"Discard Pile"}=(
+ (1,"{hr}","",""),
+ (1,"Count {Dwarven} artifacts","","CountDiscard('{Dwarven}','Artifact')"),
+ (1,"Count {Elven} events","","CountDiscard('{Elven}','Event')"),
+ (1,"Count {Shire} events","","CountDiscard('{Shire}','Event')"),
+ (1,"Count {Ringwraith} possessions","","CountDiscard('{Ringwraith}','Possession')"),
+ );
+ 
+GAME_MENU{"Deck Draw"}=(
+  (1,"Draw a card","left click",""),
+  (1,"Reconcile hand","middle click","ReconcileHand()"),
+  (1,"Set aside from bottom","Ctrl+End",""),
+ );
+ 
+ MENU{"Hand"}=(
+	 (1,"Reveal/Hide hand","Ctrl+F",""),
+	 (1,"Shuffle hand","Ctrl+S",""),
+	 (1,"Shuffle to the deck","",'Send("Transfer",(length(hand(hand[me])),("hand",me,0),("deck.top",deck))); Send("ShuffleDeck",deck);'),
+     (1,"Touch","Ctrl+T",""),
+	 ("((length(hand(hand[me]))==HANDSIZE) && (length(select('Attr(\"type\",card(#))==\"Site\"',inplay()))<2))","Mulligan","","Mulligan()"),
+     (1,"{hr}","",""),
+     (1,"Big size","","SetHandSize(150)"),
+     (1,"Normal size","","SetHandSize(100)"),
+     (1,"Small size","","SetHandSize(66)"),
+     (1,"Normal layout","","set_attr(object.number,'compact',0)"),
+     (1,"Wide layout","","set_attr(object.number,'compact',1)"),
+    );
+ 
+# GAME FUNCTIONS
+# ==============
+
+#
+# NewDeck() - Game specific creation of empty deck structure.
+#
+def NewDeck
+{
+  return((("deck",(,)),("sites",(,)),));
+}
+
+#
+# InitializeGame() - Game specific initialization of game variables.
+#
+def InitializeGame
+{
+  my_bid=0;
+}
+
+#
+# StartGame() - What to do when game begins.
+#
+def StartGame
+{
+  Send("UploadDeck",decks{deck.name});
+  Send("ShuffleDeck",deck);
+  if(me==0)
+    Send("Transfer",(1,("out.of.play",1),("table",table.width-8-card.design.height/2,40+card.design.width/2,0,0)));
+  SearchStartingCards();
+  set_attr(hand[me],"compact",1);
+  player.marker_color=2;
+  mulligan=0;
+}
+
+#
+# TwilightPool() - Return object number of the twilight pool or NULL if not found.
+#
+def TwilightPool
+{
+  return(first(select('card(#)==1',inplay())));
+}
+
+#
+# MyFrodo() - Return object number of my Frodo or NULL if not found.
+#
+def MyFrodo
+{
+  push(r);
+  r=first(select('right(substr(name(card(#)),0,14),13)=="The One Ring,"',inplay(me)));
+  if (r!=NULL)
+    return(ParentObject(r));
+  else
+    return(NULL);
+  r=pop();
+}
+
+#
+# TwilightTokens() - Count number of twilight tokens.
+#
+def TwilightTokens
+{
+  return((object_data(TwilightPool()))[6]{5});
+}
+
+#
+# NextSiteNumber() - Calculate the smallest site number not yet in table.
+#
+def NextSiteNumber
+{
+  return(length(select('Attr("type",#)=="Site"',card(inplay())))+1);
+}
+
+#
+# MouseLeftClickCardSelectBox() - Apply the selector expression to
+#  the selected card.
+#
+def MouseLeftClickCardSelectBox
+{
+  forall(select.expression,(card.number,));
+  del_cardbox_recenter(select.box,cardbox.card_index);
+}
+
+#
+# SearchStartingCards() - Search all potential starting cards from the deck and set aside.
+#
+def SearchStartingCards
+{
+  push(s);
+  s=unique(select('Attr("type",#)=="Companion" || Attr("type",#)=="The One Ring"',decks{deck.name}{"deck"}));
+  SelectCard(s,'Send("Transfer",(1,("deck.search",deck,#),("play",0)))','("deck.search",deck,#)');
+  s=pop();
+}
+
+#
+# CountDiscard({Culture}, Type) - Count {Culture}/Type cards in discard pile.
+#
+def CountDiscard
+{
+  push(c);
+  push(pl);
+  c=select('Attr("type",#)==ARG[1] && Attr("culture",#)==ARG[0]',deck(discard));
+  if ((length(c) > 1) || (length(c) == 0)) pl = "s";
+	else pl = "";
+  Say("I {cyan}count{yellow} "+length(c)+" "+ARG[0]+"  "+ARG[1]+pl+" in my discard pile.");
+  c=pop();
+}
+
+#
+# ReconcileHand() - Draw up to HANDSIZE cards
+#
+def ReconcileHand
+{
+  if((HANDSIZE-(length(hand(hand[me]))))>0)
+	Send("Transfer",((HANDSIZE-(length(hand(hand[me])))),("deck.top",deck),("hand",me)));
+  else
+    Msg("You already have "+HANDSIZE+" or more cards in hand.");
+}
+
+#
+# Mulligan() - Put hand back into draw deck, shuffle, and redraw 6.
+#
+
+def Mulligan
+{
+  Say("I declare {cyan}mulligan.");
+  Send("Transfer",((HANDSIZE),("hand",me,0),("deck.top",deck)));
+  Send("ShuffleDeck",deck);
+  Send("Transfer",(6,("deck.top",deck),("hand",me)));
+}
+
+#
+# MOUSE
+# =====
+
+#
+# MouseMiddleClickCard() - Discard a card from table.
+#
+def MouseMiddleClickCard
+{
+	PlayKeyDelete();
+}
+
+#
+# MouseMiddleClickHand() - Discard a card from hand.
+#
+def MouseMiddleClickHand
+{
+	PlayKeyDelete();
+}
+
+#
+# MouseMiddleClickActiveSet() - Discard a card set aside.
+#
+def MouseMiddleClickActiveSet
+{
+	PlayKeyDelete();
+}
+
+#
+# MouseMiddleClickDeck() - Reconcile your hand
+#
+def MouseMiddleClickDeck
+{
+    ReconcileHand();
+}
+
+#
+# MouseLeftClickTwilightPool() - Add one twilight counter.
+#
+def MouseLeftClickTwilightPool
+{
+  Send("AddMarker",(object.number,5));
+}
+
+#
+# MouseMiddleClickTwilightPool() - Delete one twilight counter.
+#
+def MouseMiddleClickTwilightPool
+{
+  Send("DelMarker",(object.number,5));
+}
+
+#
+# MouseLeftClickSites() - Play next site.
+#
+def MouseLeftClickSites
+{
+  push(d);
+  push(n);
+  d=deck_content{deck.objects[me]{"sites"}};
+  n=NextSiteNumber();
+  n=select('toint(Attr("site",#))==n',d);
+  if(length(n)>0)
+    Send("Transfer",(1,("deck.search",deck.objects[me]{"sites"},first(n)),("play",0)));
+  else
+  {
+    Msg("You must select your next site in your adventure deck.");
+	PlayKeyControlKeyL();
+  }
+  n=pop();
+  d=pop();
+}
+
+#
+# MouseLeftClickActiveSet() - Play a card.
+#
+def MouseLeftClickActiveSet
+{
+  if(length(cardbox(active[me])))
+    Send("Transfer",(1,("active",me,cardbox.card_index),("play",0)));
+}
+
+#
+# MouseLeftClickSitesSearchBoxHook() - Play a site.
+#
+def MouseLeftClickSitesSearchBoxHook
+{
+  TryTransferTo("play",0);
+  KeyEscape();
+}
+
+#
+# MouseLeftClickDeckSearchBoxHook() - Play a card from draw deck.
+#
+def MouseLeftClickDeckSearchBoxHook
+{
+  TryTransferTo("play",0);
+}
+
+#
+# MouseLeftClickDiscardPileSearchBoxHook() - Play a card from discard pile.
+#
+def MouseLeftClickDiscardPileSearchBoxHook
+{
+  TryTransferTo("play",0);
+}
+
+#
+# CompanySize() - Return size of the my company.
+#
+def CompanySize
+{
+  return(length(select('Attr("type",card(#))=="Companion"',inplay(me))));
+}
+
+#
+# MouseLeftClickSiteCard() - Move to the next site.
+#
+def MouseLeftClickSiteCard
+{
+  if(mode!="watch")
+  {
+	push(p);
+	push(t);
+
+	t="{cyan}"+CompanySize();
+	if(CompanySize()==1)
+	t=t+" companion";
+	else
+	t=t+" companions";
+
+	t=t+" moving to "+card.name;
+	if(Attr("twilight_cost",card.number)!="")
+	t=t+" ["+Attr("twilight_cost",card.number)+"].";
+
+	Send("Say",t);
+	p=object_data(object.number);
+	p=screen2table(p[0],p[1]);
+	p[0]=p[0]+card.design.height/2-20;
+	p[1]=p[1]+card.design.width/2;
+	Send("MoveObject",(player.icon{username},p[0],p[1]));
+
+	t=pop();
+	p=pop();
+  }
+}
+
+#
+# MouseMiddleClickCard() - Discard a card from table.
+#
+def MouseMiddleClickCard
+{
+    PlayKeyDelete();
+}
+
+#
+# MouseMiddleClickHand() - Discard a card from hand.
+#
+def MouseMiddleClickHand
+{
+    PlayKeyDelete();
+}
+
+#
+# OVERRIDED FUNCTIONS
+# ===================
+
+#
+# PlayKeyControlKeyX() - Handler for key Control+X in play mode.
+#
+def PlayKeyControlKeyX
+{
+  if(object.number)
+  {
+    if((card_data(object.number))[1]!=180)
+		Send("Rotate",(object.number,180));
+	ManualTarget(object.number, rules.coordinate[1][0]);
+  }
+}
+
+#
+# PlayKeyControlKeyZ() - Handler for key Control+Z in play mode.
+#
+def PlayKeyControlKeyZ
+{
+  if(object.number)
+  {
+    if((card_data(object.number))[1]!=0)
+		Send("Rotate",(object.number,0));
+	ManualTarget(object.number, rules.coordinate[0][0]);
+  }
+}
+
+#
+# PlayKeyControlKeyA() - Handler for key Control+A in play mode.
+#
+def PlayKeyControlKeyA
+{
+  if(card.number)
+  {
+    if(card.number==1)
+      Send("AddMarker",(object.number,5));
+	else if (Attr("type", card.number) == "Companion" || Attr("type", card.number) == "Ally" || Attr("type", card.number) == "Minion")
+      Send("AddMarker",(object.number,0));
+	else
+	  Send("AddMarker",(object.number,player.marker_color));
+  }
+  else if(object.number==deck.objects[me]{"Dead Pile"})
+	Send("AddMarker",(object.number,0));
+  else
+    Send("AddMarker",(object.number,player.marker_color));
+}
+
+#
+# PlayKeyControlKeyD() - Handler for key Control+A in play mode.
+#
+def PlayKeyControlKeyD
+{
+  if(card.number)
+  {
+    if(card.number==1)
+      Send("DelMarker",(object.number,5));
+	else if (Attr("type", card.number) == "Companion" || Attr("type", card.number) == "Ally" || Attr("type", card.number) == "Minion")
+      Send("DelMarker",(object.number,0));
+	else
+	  Send("DelMarker",(object.number,player.marker_color));
+  }
+  else if(object.number==deck.objects[me]{"Dead Pile"})
+	Send("DelMarker",(object.number,0));
+  else
+    Send("DelMarker",(object.number,player.marker_color));
+}
+
+#
+# PlayKeyControlKeyG() - Handler for key Control+G in play mode.
+#
+def PlayKeyControlKeyG
+{
+  if(MyFrodo()==NULL)
+    Msg("Please attach {yellow}The One Ring{white} to a suitable Ring-bearer.");
+  else
+    Send("AddMarker",(MyFrodo(),5));
+}
+
+#
+# PlayKeyControlKeyJ() - Handler for key Control+J in play mode.
+#
+def PlayKeyControlKeyJ
+{
+  if(MyFrodo()==NULL)
+    Msg("Please attach {yellow}The One Ring{white} to a suitable Ring-bearer.");
+  else
+    Send("DelMarker",(MyFrodo(),5));
+}
+
+#
+# PlayKeyControlKeyI() - Handler for key Control+I in play mode.
+#
+def PlayKeyControlKeyI
+{
+  if(object.number)
+  {
+	if((card_data(object.number))[1]==180)
+		Send("Rotate",(object.number,0));
+	else
+		Send("Rotate",(object.number,180));
+  }
+}
+
+#
+# PlayKeyControlKeyEnd() - Set aside from bottom
+#
+def PlayKeyControlKeyEnd
+{
+  Send("Transfer",(1,("deck",deck,length(deck(deck))-1),("active",me)))
+}
+
+#
+# PlayKeyAltKeyDelete() - Handler for key Alt+Delete in play mode.
+#
+def PlayKeyAltKeyDelete
+{
+  if(card.number)
+  {
+	if (Attr("type", card.number) == "Companion" || Attr("type", card.number) == "Ally")
+	{
+	  TryTransferTo("deck.top", deck.objects[me]{"Dead Pile"});
+	  if(options{"discard_attached"}=="yes" && card.number!=NULL)
+      {
+        push(object.number);
+        for(o)((object_data(object.number))[5])
+        {
+         object.number=o;
+         PlayKeyDelete();
+        }
+        object.number=pop();
+      }
+	}
+	else
+	  Msg("Only killed companions and allies go to the Dead Pile.");
+  }
+}
+
+#
+# HOOKS
+# =====
+
+# CardMenuHook() - Add context menus for sites, tokens and burdens.
+#
+def CardMenuHook
+{
+  push(m);
+  push(a);
+  m=(,);
+  
+  a=Attr("type", card.number);
+  
+  if (a == "Companion" || a == "Ally" || a == "Minion")
+  {
+    m=m+(("Wound","Ctrl+A",""),("Heal","Ctrl+D",""),);
+	  
+    if (a == "Companion" && (object.number==MyFrodo() || MyFrodo()==NULL))
+	  m=m+(("Add a burden","Ctrl+G",""),("Remove a burden","Ctrl+J",""),);
+  }
+  else if (a == "Possession" || a == "Artifact" || a == "Condition")
+	m=m+(("Add a "+Attr("culture", card.number)+" token","Ctrl+A",""),("Remove a "+Attr("culture", card.number)+" token","Ctrl+D",""),);
+  else if (a == "Site")
+	m=m+(("Move here","left click",""),);
+
+  m=m+(("Touch","Ctrl+T",""),);
+  
+  return(m);
+  a=pop();
+  m=pop();
+}
+
+#
+# SingleCardMenuHook() - Generate additional card context menu.
+#
+def SingleCardMenuHook
+{
+  push(m);
+
+  m=(("Put to the dead pile","Alt+Delete",""),);
+
+  return(m);
+  m=pop();
+}
+
+#
+# TryTransferHook(dest) - Called before applying relevant transfer function.
+#   This function may modify target when needed.
+#
+def TryTransferHook
+{
+  return(ARG);
+  if(card.number)
+  {
+    if((ARG==("deck.top",deck) || ARG==("deck.bottom",deck)) && Attr("type",card.number)=="Site")
+      return(ARG[0],deck.objects[me]{"sites"});
+  }
+}
+
+# 
+# InputHook(input) - This hook is called when the enter key is pressed and
+#   the current input line is not going to be a pricing command. This
+#   hook should return 1, if it handles the input or 0, if default handler
+#   should be used instead.
+#
+def InputHook
+{
+  return(0);
+
+  if(flag.playing)
+  {
+    push(i);
+
+    i=toint(ARG);   
+    if(substr(ARG,0,1)=="+" && tostr(i)==substr(ARG,1)) 
+    {
+      Send("AddMarker",(TwilightPool(),5,i));
+      return(1);
+    }
+    else if(substr(ARG,0,1)=="-" && tostr(i)==ARG)
+    {
+      Send("DelMarker",(TwilightPool(),5,-i));
+      return(1);
+    }
+	else if(substr(ARG,0,1)=="d" && tostr(toint(substr(ARG,1)))==substr(ARG,1))
+    {
+      Send("Transfer",(substr(ARG,1),("deck.top",deck),("hand",me)));
+      return(1);
+    }
+    else if(ARG=="p")
+	{
+      Say("Pass.");
+	  return(1);
+	}
+	else if(ARG=="pp")
+	{
+      Say("I pass all manuever, archery and assignment actions.");
+	  return(1);
+	}
+	else if(ARG=="f")
+	{
+      Say("Fierce...");
+	  return(1);
+	}
+	else if(ARG=="k")
+	{
+      Say("Okay.");
+	  return(1);
+	}
+	else if(ARG=="y")
+	{
+      Say("Yes.");
+	  return(1);
+	}
+	else if(ARG=="n")
+	{
+      Say("No.");
+	  return(1);
+	}
+	else if(ARG=="t")
+	{
+      Say("Thanks.");
+	  return(1);
+	}
+	else if(ARG=="gg")
+	{
+      Say("Good game.");
+	  return(1);
+	}
+	
+    i=pop();
+  }
+}
+
+#
+# AddMarkerHook(object number,marker type,[count]) - Called when a marker has been added to the object.
+#
+def AddMarkerHook
+{
+  if(ARG[0]==TwilightPool())
+    message(score.object[0],"Twilight Pool: "+TwilightTokens());
+}
+
+#
+# DelMarkerHook(object number,marker type,[count]) - Called when a marker has been deleted from the object.
+#
+def DelMarkerHook
+{
+  if(ARG[0]==TwilightPool())
+    message(score.object[0],"Twilight Pool: "+TwilightTokens());
+}
+
+#
+# PutTableHook(n,x,y,o,c,p) - Put a card number 'c' owned by 'p' using
+#   object number 'n' to the table centered at (x,y) oriented 'o' degrees
+#   clockwise.
+#
+def PutTableHook
+{
+  if(ARG[5]==me)
+  {
+    push(t);
+    push(k);
+
+    t=Attr("type",ARG[4]);
+    k=Attr("kind",ARG[4]);    
+
+#    if(count("Site",Attr("type",card(inplay()))))
+#    {
+#      if(k=="Free Peoples")
+#        Send("AddMarker",(TwilightPool(),5,toint(Attr("twilight_cost",ARG[4]))));
+#      else if(k=="Shadow")
+#        Send("DelMarker",(TwilightPool(),5,toint(Attr("twilight_cost",ARG[4]))));
+#    }
+
+    if(t=="Site" && me % 2==1)
+      Send("Rotate",(ARG[0],180));
+
+#    if(t=="Companion")
+#    {
+#      if(right(substr(name(ARG[4]),0,6),5)=="Frodo")
+#      {
+#         Send("AddMarker",(ARG[0],5,my_bid));
+#         my_bid=0;
+#      }
+#    }
+    k=pop();
+    t=pop();
+  }
+}
+
+#
+# BidHook(results) - This hook is called when bidding results are received.
+#   The results are presented as a dictionary mapping player numbers to bids.
+#
+def BidHook__DISABLED__
+{
+  my_bid=toint(ARG{me});
+  if(MyFrodo()!=NULL)
+    Send("AddMarker",(MyFrodo(),5,my_bid));
+}
+
+#
+# EndOfTurnHook() - Called after end of turn is announced.
+#
+def EndOfTurnHook
+{
+  PlayKeyControlKeyU();
+}
+
+#
+# MENU FUNCTIONS
+# ==============
+
+#
+# PlaySitesMenu() - Generate menu for sites.
+#
+def PlaySitesMenu
+{
+  Menu("Adventure Deck",(
+   ("Play next site","left click",""),
+   ("Look at your sites","Ctrl+L",""),
+  ));
+}
+
+#
+# PlayTwilightPoolMenu() - Generate menu for Twilight Pool.
+#
+def PlayTwilightPoolMenu
+{
+  Menu("Twilight Pool (" + TwilightTokens() + " tokens)",(
+   ("Add {1}","left click",""),
+   ("Remove {1}","middle click",""),
+   ("Remove all","Ctrl+U",""),
+  ));
+}
+
+#
+# PlayDeadPileMenu() - Generate menu for Dead Pile.
+#
+def PlayDeadPileMenu
+{
+  Menu("Dead Pile",(
+    ("Add a threat","Ctrl+A",""),
+	("Remove a threat","Ctrl+D",""),
+    ("Look","Ctrl+L",""),
+  ));
+}
+
+# SPECIAL KEYS
+# ============
+
+#
+# PlayKeyControlKeyU() - Delete all tokens from Twilight pool.
+#
+def PlayKeyControlKeyU
+{
+  Send("DelMarker",(TwilightPool(),5,TwilightTokens()));  
+}
+
+#
+# KeyShiftControlKeyD()
+#
+def KeyShiftControlKeyD
+{
+    Input("{Dwarven}");
+}
+#
+# KeyShiftControlKeyE()
+#
+def KeyShiftControlKeyE
+{
+    Input("{Elven}");
+}
+#
+# KeyShiftControlKeyG()
+#
+def KeyShiftControlKeyG
+{
+    Input("{Gandalf}");
+}
+#
+# KeyShiftControlKeyO()
+#
+def KeyShiftControlKeyO
+{
+    Input("{Gondor}");
+}
+#
+# KeyShiftControlKeyS()
+#
+def KeyShiftControlKeyS
+{
+    Input("{Shire}");
+}
+#
+# KeyShiftControlKeyR()
+#
+def KeyShiftControlKeyR
+{
+    Input("{Rohan}");
+}
+#
+# KeyShiftAltKeyG()
+#
+def KeyShiftAltKeyG
+{
+    Input("{Gollum}");
+}
+#
+# KeyShiftAltKeyM()
+#
+def KeyShiftAltKeyM
+{
+    Input("{Moria}");
+}
+#
+# KeyShiftAltKeyI()
+#
+def KeyShiftAltKeyI
+{
+    Input("{Isengard}");
+}
+#
+# KeyShiftAltKeyS()
+#
+def KeyShiftAltKeyS
+{
+    Input("{Sauron}");
+}
+#
+# KeyShiftAltKeyW()
+#
+def KeyShiftAltKeyW
+{
+    Input("{Ringwraith}");
+}
+#
+# KeyShiftAltKeyR()
+#
+def KeyShiftAltKeyR
+{
+    Input("{Raider}");
+}
+#
+# KeyShiftAltKeyD()
+#
+def KeyShiftAltKeyD
+{
+    Input("{Dunland}");
+}
+#
+# KeyShiftAltKeyU()
+#
+def KeyShiftAltKeyU
+{
+    Input("{Uruk-hai}");
+}
+#
+# KeyShiftAltKeyO()
+#
+def KeyShiftAltKeyO
+{
+    Input("{Orc}");
+}
+#
+# KeyShiftAltKeyE()
+#
+def KeyShiftAltKeyE
+{
+    Input("{Men}");
+}
+
+# PLAYING CARDS
+# =============
+
+#
+# PlayEvent(card number,is face down?) - Play an event card.
+#
+def PlayEvent__DISABLED__
+{
+  push(k);
+
+  k=Attr("kind",ARG[0]);    
+
+  Send("Transfer",(1,("play",ARG[0],0),("deck.top",discard)));
+
+  if(k=="Free Peoples")
+    Send("AddMarker",(TwilightPool(),5,toint(Attr("twilight_cost",ARG[0]))));
+  else if(k=="Shadow")
+    Send("DelMarker",(TwilightPool(),5,toint(Attr("twilight_cost",ARG[0]))));
+
+  k=pop();
+}
+
+#
+# PlaySite(card number,is face down?) - Play a site card.
+#
+def PlaySite
+{
+  push(s);
+
+  s=NextSiteNumber();
+
+  if(s==1)
+  {
+    if(me % 2==0)
+      Send("Transfer",(1,("play",ARG[0],ARG[1]),("table",160,326,0,0)));
+    else
+      Send("Transfer",(1,("play",ARG[0],ARG[1]),("table",table.width-160,-326,0,0)));
+  }
+  else
+  {
+    if(me % 2==0)
+      Send("Transfer",(1,("play",ARG[0],ARG[1]),("table",160,326-(card.design.width-8)*(s-1),0,0)));
+    else
+      Send("Transfer",(1,("play",ARG[0],ARG[1]),("table",table.width-160,-(326-(card.design.width-8)*(s-1)),0,0)));
+  }
+
+  s=pop();
+}
+
+#
+# LOCATION TABLES
+# ===============
+
+#
+# InitializeLocationTables() - Fill tables for location algorithm (See Mtg.include for details).
+#
+def InitializeLocationTables
+{
+  rules.category=(
+  ('type=="The One Ring" || type=="Possession"',
+     '("possession","stacked")'),
+  ('type=="Companion"',
+     '("companion","")'),
+  ('type=="Ally" || type=="Follower" || type=="Condition"',
+     '("support","")'),
+  ('type=="Minion"',
+     '("minion","")'),
+  ('type=="Event"',
+     '("event","")'),
+  );
+
+  rules.coordinate=(
+  (("possession hook",),(
+     (("TargetCardHook",-w(17),0,-w(17),0),),
+     (,)
+  )),
+  (("possession2 hook",),(
+     (("TargetCardHook",-w(-17),0,-w(-17),0),),
+     (,)
+  )),
+  (("possession","stacked"),(
+     (("StacksByGroup",table.width-3*card.design.width,-card.ystep/2+15,card.xstep/3,0,0,0),),
+     (,)
+  )),
+  (("companion",),(
+     (("StacksByGroup",265,100,(card.xstep*4)/3,0,0,0),),
+     (,)
+  )),
+  (("support",),(
+     (("StacksByGroup",265,235,(card.xstep*6)/5,0,0,0),),
+     (,)
+  )),
+  (("minion",),(
+     (("StacksByGroup",265,-61,(card.xstep*4)/3,0,0,0),),
+     (,)
+  )),
+  (("event",),(
+     (("StacksByGroup",100,-card.ystep/2+15,card.xstep/3,0,0,0),),
+	 (("AutoRaiseGroupTail","yes"),)
+  )),
+  );
+}

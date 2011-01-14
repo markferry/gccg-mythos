@@ -1,0 +1,414 @@
+#
+# VARIABLES:
+#
+# distribution{set}{product} - rarity distribution of the product
+# port - server port of the factory
+#
+# FUNCTIONS:
+#
+# InitDistributions() - Initialize product distribution data.
+#
+
+if(!port)
+  port=29121;
+
+#
+# InitDistributions() - Initialize product distribution data.
+#
+def InitDistributions
+{
+  distribution=(,);
+  distribution{"FoTR"}=(,);
+  distribution{"FoTR"}{"booster"}=((1,"R"),(3,"U"),(7,"C"));
+  distribution{"FoTR"}{"3rares"}=((3,"R"),(0,"U"),(0,"C"));
+  distribution{"MoM"}=(,);
+  distribution{"MoM"}{"booster"}=((1,"R"),(3,"U"),(7,"C"));
+  distribution{"MoM"}{"3rares"}=((3,"R"),(0,"U"),(0,"C"));
+  distribution{"RoTEL"}=(,);
+  distribution{"RoTEL"}{"booster"}=((1,"R"),(3,"U"),(7,"C"));
+  distribution{"RoTEL"}{"3rares"}=((3,"R"),(0,"U"),(0,"C"));
+  distribution{"TTT"}=(,);
+  distribution{"TTT"}{"booster"}=((1,"R"),(3,"U"),(7,"C"));
+  distribution{"TTT"}{"3rares"}=((3,"R"),(0,"U"),(0,"C"));
+  distribution{"BoHD"}=(,);
+  distribution{"BoHD"}{"booster"}=((1,"R"),(3,"U"),(7,"C"));
+  distribution{"BoHD"}{"3rares"}=((3,"R"),(0,"U"),(0,"C"));
+  distribution{"EoF"}=(,);
+  distribution{"EoF"}{"booster"}=((1,"R"),(3,"U"),(7,"C"));
+  distribution{"EoF"}{"3rares"}=((3,"R"),(0,"U"),(0,"C"));
+  distribution{"RoTK"}=(,);
+  distribution{"RoTK"}{"booster"}=((1,"R"),(3,"U"),(7,"C"));
+  distribution{"RoTK"}{"3rares"}=((3,"R"),(0,"U"),(0,"C"));
+  distribution{"SoG"}=(,);
+  distribution{"SoG"}{"booster"}=((1,"R"),(3,"U"),(7,"C"));
+  distribution{"SoG"}{"3rares"}=((3,"R"),(0,"U"),(0,"C"));
+  distribution{"MD"}=(,);
+  distribution{"MD"}{"booster"}=((1,"R"),(3,"U"),(7,"C"));
+  distribution{"MD"}{"3rares"}=((3,"R"),(0,"U"),(0,"C"));
+  distribution{"SH"}=(,);
+  distribution{"SH"}{"booster"}=((1,"R"),(3,"U"),(7,"C"));
+  distribution{"SH"}{"3rares"}=((3,"R"),(0,"U"),(0,"C"));
+  distribution{"BR"}=(,);
+  distribution{"BR"}{"booster"}=((1,"R"),(3,"U"),(7,"C"));
+  distribution{"BR"}{"3rares"}=((3,"R"),(0,"U"),(0,"C"));
+  distribution{"BL"}=(,);
+  distribution{"BL"}{"booster"}=((1,"R"),(3,"U"),(7,"C"));
+  distribution{"BL"}{"3rares"}=((3,"R"),(0,"U"),(0,"C"));
+  distribution{"HUN"}=(,);
+  distribution{"HUN"}{"booster"}=((1,"R"),(3,"U"),(7,"C"));
+  distribution{"HUN"}{"3rares"}=((3,"R"),(0,"U"),(0,"C"));
+  distribution{"RS"}=(,);
+  distribution{"RS"}{"booster"}=((1,"R"),(3,"U"),(7,"C"));
+  distribution{"RS"}{"3rares"}=((3,"R"),(0,"U"),(0,"C"));
+  distribution{"TD"}=(,);
+  distribution{"TD"}{"booster"}=((1,"R"),(3,"U"),(7,"C"));
+  distribution{"TD"}{"3rares"}=((3,"R"),(0,"U"),(0,"C"));
+}
+
+fixed=array(66);
+
+fixed[0]=FixedSet("FoTR",("·Frodo, Son of Drogo", "·The One Ring, The Ruling Ring", "Westfarthing", "Ettenmoors", "Council Courtyard", "Mithril Mine", "The Bridge of Khazad-dûm", "Dimrill Dale", "Anduin Confluence", "Shores of Nen Hithoel", "Emyn Muil", "·Barliman Butterbur, Prancing Pony Proprietor", "·Boromir, Son of Denethor", "Bounder", "Bounder", "Bounder", "Defiance", "Defiance", "·Gandalf, The Grey Wizard", "·Gandalf, The Grey Wizard", "·Gimli, Dwarf of Erebor", "·Gimli, Dwarf of Erebor", "Hobbit Sword", "Intimidate", "Intimidate", "Intimidate", "·Legolas, Prince Of Mirkwood", "·Legolas, Prince Of Mirkwood", "Mysterious Wizard", "Mysterious Wizard", "Mysterious Wizard", "Noble Intentions", "Their Halls of Stone", "Their Halls of Stone", "Treachery Deeper Than You Know", "Drums in the Deep", "Drums in the Deep", "Drums in the Deep", "Goblin Marksman", "Goblin Marksman", "Goblin Marksman", "Goblin Runner", "Goblin Runner", "Goblin Runner", "Goblin Scavengers", "Goblin Scavengers", "Goblin Scavengers", "Goblin Scimitar", "Goblin Scimitar", "Goblin Scimitar", "Goblin Sneak", "Goblin Sneak", "Goblin Sneak", "Host of Thousands", "Host of Thousands", "Moria Scout", "Moria Scout", "Moria Scout", "They Are Coming", "They Are Coming" ));
+
+fixed[1]=FixedSet("FoTR",("·Frodo, Son of Drogo", "·The One Ring, The Ruling Ring", "East Road", "Bree Gate", "Rivendell Terrace", "Moria Lake", "The Bridge of Khazad-dûm", "Galadriel's Glade", "Silverlode Banks", "Pillars of the Kings", "Slopes of Amon Hen", "·Aragorn, King in Exile", "·Aragorn, King in Exile", "Athelas", "Athelas", "·Boromir, Son of Denethor", "·Boromir, Son of Denethor", "Coat of Mail", "Eregion's Trails", "Eregion's Trails", "Great Shield", "Great Shield", "Hobbit Sword", "Hobbit Sword", "·Legolas, Prince Of Mirkwood", "No Stranger to the Shadows", "No Stranger to the Shadows", "Pathfinder", "Pathfinder", "·Sam, Son of Hamfast", "Swordarm of the White Tower", "Swordarm of the White Tower", "Swordarm of the White Tower", "Swordsman of the Northern Kingdom", "Swordsman of the Northern Kingdom", "Swordsman of the Northern Kingdom", "Bred for Battle", "Bred for Battle", "Bred for Battle", "Saruman's Ambition", "Saruman's Ambition", "Their Arrows Enrage", "Their Arrows Enrage", "Uruk Rager", "Uruk Rager", "Uruk Rager", "Uruk Savage", "Uruk Savage", "Uruk Savage", "Uruk Shaman", "Uruk Shaman", "Uruk Shaman", "Uruk Slayer", "Uruk Slayer", "Uruk Soldier", "Uruk Soldier", "Uruk-hai Armory", "Uruk-hai Armory", "Uruk-hai Raiding Party", "Uruk-hai Raiding Party" ));
+
+fixed[2]=FixedSet("FoTR",("·Frodo, Son of Drogo","·The One Ring, The Ruling Ring","East Road","Bree Streets","Ford of Bruinen","Moria Stairway","The Bridge of Khazad-dûm","Lothlórien Woods","Anduin Wilderland","Anduin Banks","Emyn Muil","·Boromir, Son of Denethor","·Boromir, Son of Denethor","Bounder","Bounder","Bounder","Halfling Deftness","Halfling Deftness","Hobbit Appetite","Hobbit Appetite","Hobbit Intuition","Hobbit Intuition","Hobbit Intuition","Hobbit Party Guest","Hobbit Party Guest","Hobbit Stealth","Hobbit Stealth","Hobbit Stealth","Hobbit Sword","Hobbit Sword","Hobbit Sword","·Merry, From O'er the Brandywine","·Pippin, Friend to Frodo","·Sam, Son of Hamfast","Stout and Sturdy","Stout and Sturdy","Black Breath","Black Breath","Blade Tip","Blade Tip","Forces of Mordor","Forces of Mordor","Morgul Skulker","Morgul Skulker","Morgul Skulker","Orc Chieftain","Orc Chieftain","Orc Chieftain","Orc Scimitar","Orc Scimitar","Orc Scimitar","Orc Soldier","Orc Soldier","Orc Soldier","·Sword of Minas Morgul","·Sword of Minas Morgul","·Úlairë Lemenya, Lieutenant Of Morgul","·Úlairë Lemenya, Lieutenant Of Morgul","·Úlairë Nertëa, Messenger Of Dol Guldur","·Úlairë Nertëa, Messenger Of Dol Guldur" ));
+
+fixed[3]=FixedSet("FoTR",("·The One Ring, The Ruling Ring","Farmer Maggot's Fields","Trollshaw Forest","Frodo's Bedroom","Moria Lake","The Bridge of Khazad-dûm","Dimrill Dale","Anduin Confluence","Shores of Nen Hithoel","Summit of Amon Hen","·Merry, From O'er the Brandywine","·Merry, From O'er the Brandywine","·Legolas, Prince Of Mirkwood","·Legolas, Prince Of Mirkwood","·Boromir, Son of Denethor","·Boromir, Son of Denethor","·Barliman Butterbur, Prancing Pony Proprietor","Hobbit Sword","Hobbit Sword","Strength of Spirit","Strength of Spirit","Strength of Spirit","Intimidate","Intimidate","Mysterious Wizard","Mysterious Wizard","Stand Against Darkness","Swordarm of the White Tower","Swordarm of the White Tower","Elendil's Valor","Goblin Runner","Goblin Runner","Goblin Runner","Goblin Scavengers","Goblin Scavengers","Goblin Scavengers","Goblin Spear","Goblin Spear","Goblin Spear","·The Long Dark","·The Long Dark","Drums in the Deep","Drums in the Deep","Host of Thousands"));
+fixed[4]=FixedSet("MoM",("·Frodo, Reluctant Adventurer","·Gandalf, The Grey Pilgrim","·Gandalf, The Grey Pilgrim","Wizard Staff","Wizard Staff","Goblin Flankers","Goblin Flankers","Goblin Flankers","Goblin Pursuer","Goblin Pursuer","Goblin Pursuer","Goblin Spearman","Goblin Spearman","Goblin Spearman","Old Differences","Old Differences"));
+
+fixed[5]=FixedSet("FoTR",("·The One Ring, The Ruling Ring","Westfarthing","Ettenmoors","Council Courtyard","Dwarrowdelf Chamber","The Bridge of Khazad-dûm","Lothlórien Woods","Anduin Wilderland","Anduin Banks","Tol Brandir","·Farin, Dwarven Emissary","·Farin, Dwarven Emissary","Dwarf Guard","Dwarf Guard","Dwarf Guard","·Thrarin, Dwarven Smith","Dwarven Axe","Dwarven Axe","Dwarven Armor","Stairs of Khazad-dûm","Stairs of Khazad-dûm","Axe Strike","Axe Strike","Still Draws Breath","Still Draws Breath","Here Lies Balin, Son of Fundin","Here Lies Balin, Son of Fundin","Orc Ambusher","Orc Ambusher","Orc Ambusher","Orc Assassin","Orc Assassin","Orc Assassin","Orc Chieftain","Orc Chieftain","Orc Chieftain","Orc Hunters","Orc Hunters","Orc Inquisitor","Orc Inquisitor","Mordor's Strength","Mordor's Strength","Under the Watching Eye","Under the Watching Eye"));
+fixed[6]=FixedSet("MoM",("·Frodo, Reluctant Adventurer","·Gimli, Dwarf of the Mountain-race","·Gimli, Dwarf of the Mountain-race","Hand Axe","Hand Axe","Flurry of Blows","Flurry of Blows","Flurry of Blows","Orc Scout","Orc Scout","Orc Scout","Vile Blade","Vile Blade","Vile Blade","Spies of Mordor","Spies of Mordor"));
+
+fixed[7]=FixedSet("FoTR",("·The One Ring, The Ruling Ring","·Frodo, Son of Drogo","Westfarthing","Breeland Forest","Pass of Caradhras","The Bridge of Khazad-dûm","Lothlórien Woods","Silverlode Banks","Anduin Banks","Tol Brandir","Border Defenses","Border Defenses","·Boromir, Son of Denethor","·Boromir, Son of Denethor","Defiance","Defiance","·Far-seeing Eyes","·Far-seeing Eyes","Foul Creation","Foul Creation","Foul Creation","·Gimli, Dwarf of Erebor","·Gimli, Dwarf of Erebor","·Haldir, Elf Of The Golden Wood","·Haldir, Elf Of The Golden Wood","Bred for Battle","Bred for Battle","Saruman's Snows","Uruk Rager","Uruk Rager","Uruk Savage","Uruk Savage","Uruk Savage","Uruk-hai Raiding Party","Uruk-hai Raiding Party","Uruk-hai Sword","Uruk-hai Sword"));
+fixed[8]=FixedSet("MoM",("Hosts of the Last Alliance","Hosts of the Last Alliance","Hosts of the Last Alliance","Uruk Scout","Uruk Scout","Uruk Scout"));
+fixed[9]=FixedSet("RoTEL",("House of Elrond","·Golradir, Councilor of Imladris","·Golradir, Councilor of Imladris","·Legolas, Son of Thranduil","·Legolas, Son of Thranduil","·Saelbeth, Elven Councilor","·Saelbeth, Elven Councilor","Abandoning Reason for Madness","Abandoning Reason for Madness","Isengard Forger","Isengard Forger","Isengard Forger","One of You Must Do This","One of You Must Do This","Uruk Raider","Uruk Raider","Uruk Raider"));
+
+fixed[10]=FixedSet("FoTR",("·The One Ring, The Ruling Ring","Bree Gate","Rivendell Terrace","The Bridge of Khazad-dûm","Galadriel's Glade","Anduin Wilderland","Pillars of the Kings","Emyn Muil","Coat of Mail","Foes of Mordor","Foes of Mordor","·Gimli, Dwarf of Erebor","Hobbit Sword","Hobbit Sword","·Legolas, Prince Of Mirkwood","·Legolas, Prince Of Mirkwood","·Merry, From O'er the Brandywine","No Stranger to the Shadows","Swordsman of the Northern Kingdom","Swordsman of the Northern Kingdom","Swordsman of the Northern Kingdom","What Are They?","What Are They?","Mordor's Strength","Mordor's Strength","Mordor's Strength","Orc Scimitar","Orc Scimitar","Orc Scimitar","Orc Soldier","Orc Soldier","Orc Soldier","Strength Born of Fear","Strength Born of Fear","·Tower Lieutenant","·Tower Lieutenant",));
+fixed[11]=FixedSet("MoM",("·Frodo, Reluctant Adventurer","Hobbiton Woods","Sentinels of Númenor","Sentinels of Númenor","Sentinels of Númenor",));
+fixed[12]=FixedSet("RoTEL",("Eregion Hills","·Boromir, Defender of Minas Tirith","·Boromir, Defender of Minas Tirith","Answering the Cries","Answering the Cries","Might of Númenor","Might of Númenor","Massing in the East","Massing in the East","Massing in the East","Orc Butcher","Orc Butcher","Orc Butcher","Orc Swordsman","Orc Swordsman","Orc Swordsman","Orc Warrior","Orc Warrior","Orc Warrior",));
+
+fixed[13]=FixedSet("TTT",("·The One Ring, The Ruling Ring","Band of Wild Men","Band of Wild Men","Band of Wild Men","Dark Fury","Dark Fury","Death to the Strawheads","Death to the Strawheads","Dunlending Brigand","Dunlending Brigand","Dunlending Brigand","Dunlending Madman","Dunlending Madman","Dunlending Madman","Dunlending Pillager","Dunlending Pillager","Dunlending Pillager","Dunlending Robber","Dunlending Robber","Dunlending Robber","Dunlending Savage","Dunlending Savage","Dunlending Savage","Iron Axe","Iron Axe","Iron Axe","Best Company","Best Company","·Gimli, Unbidden Guest","·Gimli, Unbidden Guest","Valor","Valor","·Legolas, Elven Comrade","·Legolas, Elven Comrade","·Aragorn, Wingfoot","·Aragorn, Wingfoot","·Ranger's Sword, Blade of Aragorn","·Ranger's Sword, Blade of Aragorn","Hobbit Sword","Hobbit Sword","Severed His Bonds","Severed His Bonds","Swiftly and Softly","Swiftly and Softly","·Frodo, Tired Traveller","·Merry, Learned Guide","·Merry, Learned Guide","·Merry, Learned Guide","·Pippin, Woolly-footed Rascal","·Pippin, Woolly-footed Rascal","·Pippin, Woolly-footed Rascal","Hornburg Armory","Hornburg Causeway","Hornburg Courtyard","Orthanc Library","Ring of Isengard","Rohirrim Village","The Riddermark","Westemnet Plains","White Rocks"));
+
+fixed[14]=FixedSet("TTT",("·The One Ring, The Ruling Ring","Broad-bladed Sword","Broad-bladed Sword","Broad-bladed Sword","Ferocity","Ferocity","Orthanc Warrior","Orthanc Warrior","Orthanc Warrior","Still They Came","Still They Came","Uruk Defender","Uruk Defender","Uruk Fanatic","Uruk Fanatic","Uruk Fanatic","Uruk Rear Guard","Uruk Rear Guard","Uruk Regular","Uruk Regular","Uruk Stalker","Uruk Stalker","Uruk Stalker","Uruk-hai Raiding Party","Uruk-hai Raiding Party","Uruk-hai Raiding Party","An Honorable Charge","An Honorable Charge","An Honorable Charge","Heavy Chain","Heavy Chain","Heavy Chain","Horse of Rohan","Horse of Rohan","Horse of Rohan","Rider of Rohan","Rider of Rohan","Rider of Rohan","Work for the Sword","Work for the Sword","Work for the Sword","·Brego","·Herugrim","·Herugrim","·Théoden, Lord of the Mark","·Théoden, Lord of the Mark","·Éomer, Sister-son of Théoden","·Éowyn, Lady of Rohan","Hobbit Sword","Hobbit Sword","·Frodo, Tired Traveller","Deep of Helm","Hornburg Armory","Horse-country","King's Room","Palantír Chamber","Throne Room","Uruk Camp","Westemnet Hills","Wizard's Vale"));
+
+fixed[15]=FixedSet("TTT",("·The One Ring, The Ruling Ring","·Gimli, Unbidden Guest","·Legolas, Elven Comrade","Have Patience","Have Patience","Long I Fell","Long I Fell","Long I Fell","Under the Living Earth","Under the Living Earth","Under the Living Earth","·Gandalf, The White Wizard","Desert Soldier","Desert Soldier","Desert Soldier","Desert Spearman","Desert Spearman","Desert Spearman","Easterling Axeman","Easterling Axeman","Easterling Axeman","Easterling Guard","Easterling Guard","Easterling Infantry","Easterling Infantry","Easterling Lieutenant","Easterling Lieutenant","Easterling Lieutenant","Gathering to the Summons","Gathering to the Summons","Men of Rhûn","Men of Rhûn","On the March","On the March","Southron Scout","Southron Scout","Southron Scout","Sword of Rohan","Sword of Rohan","·Éomer, Sister-son of Théoden","·Éomer, Sister-son of Théoden","·Éowyn, Lady of Rohan","·Éowyn, Lady of Rohan","Hobbit Sword","Hobbit Sword","Severed His Bonds","Severed His Bonds","Swiftly and Softly","Swiftly and Softly","·Frodo, Tired Traveller","·Sam, Samwise the Brave","Hornburg Armory","Hornburg Parapet","King's Room","Palantír Chamber","Streets of Edoras","Western Emyn Muil","White Rocks","Wizard's Vale","Wold of Rohan",));
+
+fixed[16]=FixedSet("TTT",("·The One Ring, The Ruling Ring (TTT)","Elite Rider (TTT)","Elite Rider (TTT)","Elite Rider (TTT)","Rider's Mount","Rider's Mount","Rider's Mount","Rider's Spear","Rider's Spear","Rider's Spear","Work for the Sword","Work for the Sword","Work for the Sword","Hobbit Sword (TTT)","Hobbit Sword (TTT)","Severed His Bonds","·Frodo, Tired Traveller","Helm's Gate","Hornburg Armory","Horse-country","King's Room","Palantír Chamber","Plains of Rohan","Stables","Westemnet Plains",));
+fixed[17]=FixedSet("BoHD",("Isengard Flanker","Isengard Flanker","Isengard Flanker","Isengard Flanker","Isengard Rider","Isengard Rider","Isengard Rider","War-warg","War-warg","War-warg","Warg","Warg","Warg","Warg-master","Warg-master","Warg-master","Warg-rider","Warg-rider","Warg-rider","Warg-rider","Wolf-voices","Wolf-voices","Wolf-voices","·Foul Horde #2","Household Guard","Household Guard","Household Guard","Rohirrim Bow","Rohirrim Bow","Rohirrim Bow","Rohirrim Helm #2","Thundering Host #1","·Éowyn, Daughter of Éomund","·Éowyn, Daughter of Éomund","Nan Curunír",));
+
+fixed[18]=FixedSet("TTT",("·The One Ring, The Ruling Ring (TTT)","Khazâd Ai-mênu","Khazâd Ai-mênu","Quick As May Be","Quick As May Be","·Gimli, Unbidden Guest","Elven Bow (TTT)","Elven Bow (TTT)","Elven Bow (TTT)","Elven Sword","Elven Sword","Elven Sword","Lórien Swordsman","Lórien Swordsman","Lórien Swordsman","Valor","Valor","Valor","Desert Soldier (TTT)","Desert Soldier (TTT)","Desert Spearman (TTT)","Desert Spearman (TTT)","Desert Spearman (TTT)","Desert Warrior","Desert Warrior","On the March","On the March","On the March","Whirling Strike","Hobbit Sword (TTT)","Hobbit Sword (TTT)","Severed His Bonds","·Frodo, Tired Traveller","Barrows of Edoras","Hornburg Armory","Hornburg Causeway","Hornburg Parapet","Palantír Chamber","Plains of Rohan","White Rocks","Wizard's Vale","Wold of Rohan",));
+fixed[19]=FixedSet("BoHD",("Baruk Khazâd #1","Break the Charge #1","·Balglin, Elven Warrior","·Legolas, Archer of Mirkwood","·Legolas, Archer of Mirkwood","Mûmak","Mûmak","Mûmak","Southron Marcher","Southron Marcher","Southron Marcher","Southron Runner","Southron Runner","Southron Runner","Southron Traveler","Southron Traveler","Southron Traveler","·Army of Haradrim #2",));
+
+fixed[20]=FixedSet("TTT",("·The One Ring, The Ruling Ring (TTT)","Ranger of Ithilien","Ranger of Ithilien","Ranger of Ithilien","Ranger's Bow","Ranger's Bow","Sword of Gondor","Sword of Gondor","Sword of Gondor","War and Valor","War and Valor","War and Valor","Kill Them Now","Kill Them Now","Kill Them Now","Uruk-hai Raiding Party (TTT)","Uruk-hai Raiding Party (TTT)","Uruk-hai Raiding Party (TTT)","Hobbit Sword (TTT)","Hobbit Sword (TTT)","Hobbit Sword (TTT)","Severed His Bonds","·Frodo, Tired Traveller","Deep of Helm","East Wall of Rohan","Hornburg Armory","King's Room","Ring of Isengard","Stables","White Rocks","Wold of Rohan",));
+fixed[21]=FixedSet("BoHD",("Uruk-hai Berserker","Uruk-hai Berserker","Uruk-hai Berserker","·Sam, Nice Sensible Hobbit","Caverns of Isengard",));
+fixed[22]=FixedSet("EoF",("Don't Follow the Lights","Don't Look at Them #2","·Sméagol, Poor Creature","Ancient Roads #2","·Anborn, Skilled Huntsman","·Anborn, Skilled Huntsman","·Faramir, Ithilien Ranger","·Faramir, Ithilien Ranger","Gnawing, Biting, Hacking, Burning","Gnawing, Biting, Hacking, Burning","Gnawing, Biting, Hacking, Burning","Isengard Artisan","Isengard Artisan","Isengard Artisan","Isengard Builder","Isengard Builder","Isengard Journeyman","Isengard Journeyman","Isengard Mechanics #2","Isengard Plodder","Isengard Plodder","Isengard Plodder","Isengard Tinker","Isengard Tinker",));
+
+fixed[23]=FixedSet("TTT",("·The One Ring, The Ruling Ring (TTT)","Hobbit Sword (TTT)","Hobbit Sword (TTT)","Knocked on the Head","Knocked on the Head","Severed His Bonds","Severed His Bonds","·Frodo, Tired Traveller","·Merry, Learned Guide","·Pippin, Woolly-footed Rascal","Derndingle","Ered Nimrais","Golden Hall","Hornburg Armory","Hornburg Courtyard","Horse-country","Orthanc Library",));
+fixed[24]=FixedSet("BoHD",("Gate Trooper","Gate Trooper","Gate Trooper","Gate Veteran","Gate Veteran","Gate Veteran","Orc Pursuer (BoHD)","Orc Pursuer (BoHD)","Orc Pursuer (BoHD)","Orc Runner","Orc Runner","Orc Runner","·Orc Cutthroat","·Orc Cutthroat","Hornburg Wall","Nan Curunír",));
+fixed[25]=FixedSet("EoF",("Boomed and Trumpeted","Boomed and Trumpeted","Enraged #1","Ent Avenger","Ent Avenger","Ent Avenger","Ent Moot","Ent Moot","Roused","Roused","Roused","·Host of Fangorn","·Quickbeam, Bregalad","·Skinbark, Fladrif #1","Fell Beast (EoF)","Fell Beast (EoF)","·The Witch-king, Deathless Lord","·The Witch-king, Deathless Lord","·Úlairë Lemenya, Winged Hunter","·Úlairë Lemenya, Winged Hunter","·Úlairë Nertëa, Winged Hunter","·Úlairë Nertëa, Winged Hunter","·Gate Troll #2","·Orc Insurgent","·Orc Insurgent","Long Slow Wrath","Long Slow Wrath",));
+
+fixed[26]=FixedSet("RoTK",("·The One Ring, The Ruling Ring (RoTK)","City of Men","City of Men","Great Gate","Great Gate","Knight's Spear","Knight's Spear","Knight's Spear","Ranger of Minas Tirith","Ranger of Minas Tirith","Ranger of Minas Tirith","Second Level","Second Level","Second Level","Stand to Arms","Third Level","Third Level","·Aragorn, Driven by Need","·Aragorn, Driven by Need","·Faramir, Stout Captain","·Madril, Faramir's Aide","·Targon","Desert Fighter","Desert Fighter","Desert Fighter","Desert Nomad","Desert Nomad","Desert Nomad","Desert Villain","Desert Villain","Desert Villain","Easterling Blademaster","Easterling Blademaster","Easterling Blademaster","Easterling Ransacker","Easterling Ransacker","Easterling Ransacker","Mûmakil of the Harad","Mûmakil of the Harad","Mûmakil of the Harad","Red Wrath","Red Wrath","Southron Bandit","Southron Bandit","Southron Bandit","Southron Captain","Southron Captain","War Towers","Hobbit Sword (RoTK)","Hobbit Sword (RoTK)","·Frodo, Hope of Free Peoples","Beacon of Minas Tirith","City Gates","Cross Roads","Dagorlad","Minas Tirith Sixth Circle","Osgiliath Fallen","Pelennor Grassland","Steps of Edoras","West Road",));
+
+fixed[27]=FixedSet("RoTK",("·The One Ring, The Ruling Ring (RoTK)","·Gandalf, Defender of the West (RoTK)","Knights of His House","Knights of His House","Long Spear","Long Spear","Long Spear","Morning Came","Morning Came","Riding Armor","Riding Armor","Rohirrim Guard","Rohirrim Guard","Rohirrim Guard","Swift Steed","Swift Steed","Swift Steed","Wind in His Face","Wind in His Face","·Théoden, Leader of Spears","·Éomer, Valiant Warchief","·Éomer, Valiant Warchief","·Éowyn, Restless Maiden","Anguish","Anguish","Mordor Defender","Mordor Defender","Mordor Defender","Mordor Regular","Mordor Regular","Mordor Regular","Mordor Savage","Mordor Savage","Mordor Savage","Mordor Trooper","Mordor Trooper","Mordor Veteran","Mordor Veteran","Orc Brood","Orc Brood","Orc Officer","Orc Officer","Orc Officer","Orc Pursuer (RoTK)","Orc Pursuer (RoTK)","Orc Savage","Siegecraft","Siegecraft","Hobbit Sword (RoTK)","Hobbit Sword (RoTK)","·Frodo, Hope of Free Peoples","Anduin Banks (RoTK)","Edoras Hall","Hall of the Kings","Minas Tirith Fourth Circle","Morgul Vale","Osgiliath Crossing","Pelennor Flat","Rohirrim Camp","Slag Mounds",));
+
+fixed[28]=FixedSet("RoTK",("·The One Ring, The Ruling Ring","·Frodo, Hope of Free Peoples","Hobbit Sword","Hobbit Sword","·Éowyn, Restless Maiden","·Guthláf, Herald","Enraged Horseman","Enraged Horseman","Enraged Horseman","Long Spear","Long Spear","Long Spear","Rohirrim Javelin","Rohirrim Javelin","Rohirrim Javelin","White Hot Fury","White Hot Fury","Swift Steed","Swift Steed","Morgul Predator","Morgul Predator","Morgul Spearman","Morgul Spearman","Morgul Spearman","Morgul Destroyer","Morgul Destroyer","Morgul Destroyer","·Úlairë Nelya, Black-Mantled Wraith","·Úlairë Nelya, Black-Mantled Wraith","·Úlairë Otsëa, Black-Mantled Wraith","·Úlairë Otsëa, Black-Mantled Wraith","·Úlairë Lemenya, Wraith on Wings","·Úlairë Lemenya, Wraith on Wings","Morgul Axe","Morgul Axe","Edoras Hall","Rohirrim Camp","Hall of the Kings","Anduin Banks","Pelennor Flat","Minas Tirith Fourth Circle","Morgulduin","Haunted Pass",));
+fixed[29]=FixedSet("SoG",("·Merry, Noble Warrior","·Merry, Noble Warrior","·Éomer, Keeper of Oaths","Doom Drove Them","Doom Drove Them","Charged Headlong","Charged Headlong","Morgul Lurker","Morgul Lurker","Morgul Lurker","Morgul Lurker","Morgul Creeper","Morgul Creeper","Morgul Creeper","Unhindered","Unhindered","Osgiliath Channel",));
+
+fixed[30]=FixedSet("RoTK",("·The One Ring, The Ruling Ring","·Frodo, Hope of Free Peoples","Hobbit Sword","Hobbit Sword","·Denethor, Wizened Steward","·Ingold","Gondorian Captain","Gondorian Captain","Gondorian Captain","First Level","First Level","First Level","Gondorian Sword","Gondorian Sword","Gondorian Sword","Dagger Strike","Dagger Strike","Dagger Strike","Troop of Haradrim","Troop of Haradrim","Troop of Haradrim","Desert Soldier","Desert Soldier","Desert Soldier","Desert Runner","Desert Runner","Desert Runner","Desert Scout","Desert Scout","Desert Scout","Desert Sneak","Desert Sneak","Desert Sneak","Raider Bow","Raider Bow","Great Beasts","New Strength Came Now","New Strength Came Now","Steps of Edoras","King's Tent","Hall of the Kings","Pelennor Plain","Pelennor Flat","Minas Tirith Sixth Circle","Cross Roads","Haunted Pass",));
+fixed[31]=FixedSet("SoG",("·Pippin, Guard of Minas Tirith","·Pippin, Guard of Minas Tirith","·Faramir, Defender of Osgiliath","Fourth Level","Fourth Level","Fourth Level","Knight's Mount","Knight's Mount","·Haradwaith","·Haradwaith","·Haradrim Marksman","·Haradrim Marksman","·Haradrim Marksman","Osgiliath Channel",));
+
+fixed[32]=FixedSet("RoTK",("·The One Ring, The Ruling Ring","·Gandalf, Defender of the West","·Gandalf, Defender of the West","·Gandalf, Defender of the West","Intimidate","Intimidate","All Save One","All Save One","Hobbit Sword","Noble Intentions","Noble Intentions","Morgul Lackey","Morgul Lackey","Morgul Predator","Morgul Predator","Morgul Axe","Morgul Axe","Steps of Edoras","Rohirrim Camp","City Gates","Minas Tirith Fifth Circle","Pelennor Grassland","Dagorlad",));
+fixed[33]=FixedSet("SoG",("Oathbreaker","Oathbreaker","Sleepless Dead","Spectral Sword","Spectral Sword","The Dimholt",));
+fixed[34]=FixedSet("MD",("·Frodo, Resolute Hobbit","·Frodo, Resolute Hobbit","Gathering Wind","Gathering Wind","Dead Man of Dunharrow","Dead Man of Dunharrow","Dead Man of Dunharrow","End of the Game","End of the Game","End of the Game","Cirith Ungol Watchman","Cirith Ungol Watchman","Cirith Ungol Watchman","Cirith Ungol Watchman","Cirith Ungol Warrior","Cirith Ungol Warrior","Cirith Ungol Warrior","Cirith Ungol Warrior","Cirith Ungol Soldier","Cirith Ungol Soldier","Cirith Ungol Soldier","Cirith Ungol Soldier","Cirith Ungol Scavenger","Cirith Ungol Scavenger","Cirith Ungol Scavenger","Ten Times Outnumbered","Ten Times Outnumbered","Houses of Lamentation","Houses of Lamentation","Pelennor Prairie","Watchers of Cirith Ungol",));
+
+fixed[35]=FixedSet("RoTK",("·The One Ring, The Ruling Ring","·Merry, Rohirrim Squire","·Pippin, Sworn to Service","Hobbit Sword","Hobbit Sword","Hobbit Sword","Hobbit Sword","Mordor Veteran","Mordor Veteran","Sleeping Quarters","King's Tent","Beacon of Minas Tirith","Anduin Banks","Minas Tirith Third Circle","Morgul Vale","Slag Mounds",));
+fixed[36]=FixedSet("SoG",("Osgiliath Channel",));
+fixed[37]=FixedSet("MD",("·Frodo, Resolute Hobbit","·Sam, Great Elf Warrior","·Sam, Great Elf Warrior","Orc Armor","Orc Armor","Narrow Escape","Narrow Escape","Nine-fingered Frodo and the Ring of Doom","Nine-fingered Frodo and the Ring of Doom","Brave and Loyal","Brave and Loyal","Chance Observation","Chance Observation","A Marvel","A Marvel","A Marvel","A Marvel","·The Tale of the Great Ring","·The Tale of the Great Ring","Cirith Ungol Sentinel","Cirith Ungol Sentinel","Cirith Ungol Sentinel","Cirith Ungol Sentinel","Cirith Ungol Guard","Cirith Ungol Guard","Cirith Ungol Guard","Cirith Ungol Guard","Cirith Ungol Sentry","Cirith Ungol Sentry","Cirith Ungol Sentry","Cirith Ungol Sentry","Cirith Ungol Patroller","Cirith Ungol Patroller","Cirith Ungol Patroller","·Rank and File","·Rank and File","Uruk Axe","Uruk Axe","Uruk Axe","Uruk Axe","·Barren Land","·Barren Land","Steward's Tomb",));
+
+fixed[38]=FixedSet("SH",("·Frodo, Protected by Many","·The One Ring, The Ruling Ring","·Aragorn, Guide and Protector","·Aragorn, Guide and Protector","·Madril, Ranger of Ithilien","·Madril, Ranger of Ithilien","Ranger of Westernesse","Ranger of Westernesse","Ranger of Westernesse","Ranger of Westernesse","·Sam, Steadfast Friend","Gondorian Blade","Gondorian Blade","Gondorian Blade","Gondorian Blade","Hobbit Sword","Hobbit Sword","Pledge of Loyalty","Pledge of Loyalty","Pledge of Loyalty","Armor of the Citadel","Armor of the Citadel","Battle Cry","Battle Cry","Battle Cry","Battle Cry","Skulking Goblin","Skulking Goblin","Skulking Goblin","Skulking Goblin","Denizen of Moria","Denizen of Moria","Denizen of Moria","Denizen of Moria","Marauding Orcs","Marauding Orcs","Orc Hammer","Orc Hammer","Conquered Halls","Conquered Halls","Denizen of the Black Pit","Denizen of the Black Pit","Denizen of the Black Pit","Unyielding Goblin","Unyielding Goblin","Unyielding Goblin","Unyielding Goblin","Denizen of Khazad-dum","Denizen of Khazad-dum","Denizen of Khazad-dum","Denizen of Khazad-dum","The Prancing Pony","North Undeep","Cavern Entrance","Window on the West","West Gate of Moria","Moria Stairway","Crags of Emyn Muil","Expanding Marshland","Watch-tower of Cirith Ungol",));
+fixed[39]=FixedSet("SH",("·Frodo, Protected by Many","·The One Ring, The Ruling Ring","·Éowyn, Shieldmaiden of Rohan","·Éowyn, Shieldmaiden of Rohan","·Éomer, Guardian of the Eastmark","·Éomer, Guardian of the Eastmark","Riddermark Soldier","Riddermark Soldier","Riddermark Soldier","Riddermark Soldier","·Hrothlac, Man of Rohan","Rider's Spear","Rider's Spear","Rider's Spear","Rider's Spear","Rohirrim Mount","Rohirrim Mount","Rohirrim Mount","Hobbit Sword","Hobbit Sword","War Now Calls Us","War Now Calls Us","War Now Calls Us","Rally Cry","Rally Cry","Rally Cry","Bloodthirsty Uruk","Bloodthirsty Uruk","Bloodthirsty Uruk","Bloodthirsty Uruk","Hounding Uruk","Hounding Uruk","Hounding Uruk","Hounding Uruk","Lookout Uruk","Lookout Uruk","Lookout Uruk","Lookout Uruk","Feral Uruk","Feral Uruk","Feral Uruk","Feral Uruk","Invincible Uruk","Invincible Uruk","Furor","Furor","Furor","Furor","Brutality","Brutality","Brutality","Flats of Rohan","Harrowdale","Pelennor Flat","Osgiliath Reclaimed","Stables","Slag Mounds","Fortress of Orthanc","Rohan Uplands","Trollshaw Forest",));
+fixed[40]=FixedSet("SH",("·Frodo, Protected by Many","·The One Ring, The Ruling Ring","·Gandalf, Leader of the Company","·Gandalf, Leader of the Company","·Sam, Steadfast Friend","·Sam, Steadfast Friend","·Merry, Loyal Companion","·Merry, Loyal Companion","·Farmer Maggot, Hobbit of the Marish","·Farmer Maggot, Hobbit of the Marish","Hobbit Sword","Hobbit Sword","Hobbit Sword","Hobbit Sword","G for Grand","G for Grand","G for Grand","Unharmed","Unharmed","Unharmed","Concerning Hobbits","Concerning Hobbits","Concerning Hobbits","Sworn Companion","Sworn Companion","Sworn Companion","·Úlairë Lemenya, Fifth of the Nine Riders","·Úlairë Lemenya, Fifth of the Nine Riders","·Úlairë Lemenya, Fifth of the Nine Riders","·Úlairë Lemenya, Fifth of the Nine Riders","·Úlairë Nelya, Third of the Nine Riders","·Úlairë Nelya, Third of the Nine Riders","·Úlairë Nelya, Third of the Nine Riders","·Úlairë Nelya, Third of the Nine Riders","·Úlairë Cantëa, Fourth of the Nine Riders","·Úlairë Cantëa, Fourth of the Nine Riders","·Úlairë Cantëa, Fourth of the Nine Riders","·Úlairë Cantëa, Fourth of the Nine Riders","·Úlairë Toldëa, Eighth of the Nine Riders","·Úlairë Toldëa, Eighth of the Nine Riders","·Úlairë Toldëa, Eighth of the Nine Riders","·Úlairë Toldëa, Eighth of the Nine Riders","·Úlairë Nertëa, Ninth of the Nine Riders","·Úlairë Nertëa, Ninth of the Nine Riders","Drawn to its Power","Drawn to its Power","Moving This Way","Moving This Way","Moving This Way","Riders in Black","Riders in Black","Westemnet Village","Valley of the Silverlode","Green Dragon Inn","East Road","Buckland Homestead","Woody-End","Caras Galadhon","Neekerbreekers' Bog","Pinnacle of Zirakzigil",));
+fixed[41]=FixedSet("SH",("·Frodo, Protected by Many","·The One Ring, The Ruling Ring","·Legolas, Companion of the Ring","·Legolas, Companion of the Ring","·Farin, Emissary of Erebor","·Farin, Emissary of Erebor","Elven Scout","Elven Scout","Elven Scout","Elven Scout","Woodland Sentinel","Woodland Sentinel","Blade of Lindon","Blade of Lindon","Blade of Lindon","Blade of Lindon","Axe of Khazad-dum","The Lady's Blessing","The Lady's Blessing","The Lady's Blessing","The Lady's Blessing","Hobbit Sword","Hobbit Sword","Farewell to Lorien","Sworn Companion","Sworn Companion","Footman of Dunland","Footman of Dunland","Footman of Dunland","Footman of Dunland","Elder of Dunland","Elder of Dunland","Elder of Dunland","Elder of Dunland","Harad Standard-bearer","Harad Standard-bearer","Harad Standard-bearer","Harad Standard-bearer","Man of Bree","Man of Bree","Man of Bree","Man of Bree","Raging Dunlending","Raging Dunlending","Poleaxe","Poleaxe","Poleaxe","Poleaxe","Overrun","Overrun","Overrun","Old Forest Road","Anduin Confluence","Fangorn Glade","Ettenmoors","Chamber of Mazarbul","Pelennor Fields","Moria Guardroom","Helm's Gate","Barazinbar",));
+
+fixed[42]=FixedSet("SH",("·Frodo, Protected by Many","·The One Ring, The Ruling Ring","·Merry, Loyal Companion","·Farmer Maggot, Hobbit of the Marish","·Sam, Steadfast Friend","·Sam, Steadfast Friend","Ranger of Westernesse","Ranger of Westernesse","The More, The Merrier","The More, The Merrier","Sworn Companion","Sworn Companion","Sworn Companion","Hobbit Sword","Hobbit Sword","Hobbit Sword","Hobbit Sword","Squad of Uruk-hai","Squad of Uruk-hai","Squad of Uruk-hai","Squad of Uruk-hai","Intimidating Uruk","Intimidating Uruk","Patrol of Uruk-hai","Patrol of Uruk-hai","Patrol of Uruk-hai","Furor","Furor","Our Foes Are Weak","Our Foes Are Weak","Our Foes Are Weak","Caras Galadhon","Fortress of Orthanc","Green Dragon Inn","Helm's Gate","Slag Mounds","Trollshaw Forest","The Prancing Pony",));
+fixed[43]=FixedSet("BR",("·Tolman Cotton, Farmer of Bywater","Hope is Kindled","Hope is Kindled","Hope is Kindled","Hope is Kindled","No Worse for Wear","No Worse for Wear","No Worse for Wear","No Worse for Wear","·Saruman, Agent of the Dark Lord","·Saruman, Agent of the Dark Lord","Uruk Desecrator","Uruk Desecrator","Uruk Desecrator","·Uruk Dominator","·Uruk Dominator","·Uruk Dominator","Weapon of Opportunity","Weapon of Opportunity","Weapon of Opportunity","Hill of Sight","Hobbiton Market",));
+
+fixed[44]=FixedSet("SH",("·Frodo, Protected by Many","·The One Ring, The Ruling Ring","·Éomer, Guardian of the Eastmark","·Théoden, King of the Eorlingas","·Merry, Loyal Companion","Rider's Spear","Rider's Spear","Rider's Spear","Rider's Spear","Rohirrim Mount","Rohirrim Mount","Rohirrim Mount","Hobbit Sword","Hobbit Sword","War Now Calls Us","War Now Calls Us","War Now Calls Us","War Now Calls Us","Raging Dunlending","Raging Dunlending","Raging Dunlending","Corps of Harad","Corps of Harad","Corps of Harad","Long Battle Bow","Long Battle Bow","Poleaxe","Poleaxe","Poleaxe","Poleaxe","Overrun","Overrun","Overrun","Fortress of Orthanc","Pelennor Fields","Pelennor Flat","Helm's Gate","Flats of Rohan","Stables","Harrowdale",));
+fixed[45]=FixedSet("BR",("Eored Warrior","Eored Warrior","Eored Warrior","Eored Warrior","For the Mark","For the Mark","Measure of Comfort","Measure of Comfort","·The Mouth of Sauron, Messenger of Mordor","·The Mouth of Sauron, Messenger of Mordor","Frenzied Dunlending","Frenzied Dunlending","Frenzied Dunlending","Brutal Easterling","Brutal Easterling","Brutal Easterling","Crooked Townsman","Crooked Townsman","Emyn Muil","Northern Pelennor",));
+
+fixed[46]=FixedSet("SH",("·Frodo, Protected by Many","·The One Ring, The Ruling Ring","Blade of Lindon","Blade of Lindon","Blade of Lindon","Blade of Lindon","Hobbit Sword","Hobbit Sword","Farewell to Lorien","Farewell to Lorien","Prowling Orc","Prowling Orc","Prowling Orc","Strength in Shadows","Strength in Shadows","Caras Galadhon","East Road","Old Forest Road","Fangorn Glade","West Gate of Moria","Moria Stairway",));
+fixed[47]=FixedSet("BR",("·Rumil, Brother of Haldir","·Orophin, Brother of Haldir","Measure of Comfort","Measure of Comfort","Attunement","Attunement","Attunement","Orc Strategist","Orc Strategist","Orc Strategist","Orc Spear","Orc Spear","Orc Spear","Scavenging Goblins","Scavenging Goblins","Scavenging Goblins","Orc Skulker","Orc Skulker","Orc Skulker","Orc Skulker","Shores of Nen Hithoel",));
+fixed[48]=FixedSet("BL",("·Arwen, Reflection of Lúthien","·Arwen, Reflection of Lúthien","Lorien Protector","Lorien Protector","Shrouded Elf","Shrouded Elf","Final Shot","Final Shot","Final Shot","Orc Plains Runner","Orc Plains Runner","Orc Plains Runner","Howling Orc","Howling Orc","Picket Denizen","Picket Denizen","Caves of Aglarond","Crossroads of the Fallen Kings",));
+
+fixed[49]=FixedSet("SH",("·Frodo, Protected by Many","·The One Ring, The Ruling Ring","·Merry, Loyal Companion","Hobbit Sword","Hobbit Sword","Hobbit Sword","Armor of the Citadel","Gondorian Blade","Gondorian Blade","Gondorian Blade","Gondorian Blade","Column of Easterlings","Column of Easterlings","Column of Easterlings","Easterling Shield Wall","Easterling Shield Wall","Easterling Shield Wall","Rampaging Easterling","Rampaging Easterling","Rampaging Easterling","Rampaging Easterling","Anduin Banks","Valley of the Silverlode","Trollshaw Forest","Window on the West","Helm's Gate","North Undeep",));
+fixed[50]=FixedSet("BR",("·Tolman Cotton, Farmer of Bywater","Measure of Comfort","Measure of Comfort","Crooked Townsman","Crooked Townsman","Crooked Townsman","Northern Pelennor",));
+fixed[51]=FixedSet("BL",("·Boromir, Doomed Heir","·Boromir, Doomed Heir","Rally the Company","Rally the Company","Rally the Company","Tradesman From Lebennin","Tradesman From Lebennin","Tradesman From Lebennin","Tradesman From Lebennin","·Heirs of Gondor","·Heirs of Gondor","·Heirs of Gondor","Vicious Dunlending","Vicious Dunlending","Vicious Dunlending","Cruel Dunlending","Cruel Dunlending","Cruel Dunlending","Worn Battleaxe","Worn Battleaxe","Stragglers","Stragglers","Stragglers","Stragglers","Fords of Isen","The Great Gates",));
+
+fixed[52]=FixedSet("HUN",("·Frodo, Weary From the Journey","·The One Ring, The Ruling Ring","·Gimli, Eager Hunter","·Gimli, Eager Hunter","Whatever End","Whatever End","Elven Warrior","Elven Warrior","·Haldir, Sentry of the Golden Wood","·Legolas, Fleet-footed Hunter","·Legolas, Fleet-footed Hunter","Sword of the Fallen","Sword of the Fallen","Sword of the Fallen","Sword of the Fallen","Focus","Focus","Focus","·Aragorn, Swift Hunter","·Aragorn, Swift Hunter","·Aragorn, Swift Hunter","·Aragorn, Swift Hunter","No Quicker Path","No Quicker Path","Hobbit Sword","Hobbit Sword","Battlefield Recruit","Battlefield Recruit","Battlefield Recruit","Battlefield Recruit","Battlefield Veteran","Battlefield Veteran","Battlefield Veteran","Battlefield Veteran","·Black Gate Sentry","Black Land Spy","Black Land Spy","Black Land Spy","Desolation Orc","Scouting Orc","Scouting Orc","Scouting Orc","Scouting Orc","Veteran War Chief","Veteran War Chief","Veteran War Chief","Veteran War Chief","Orkish Hunting Spear","Orkish Hunting Spear","Orkish Camp","Orkish Camp","Gate of Mordor","City Gates","Westfold Village",));
+fixed[53]=FixedSet("SH",("Anduin Banks","Helm's Gate","Trollshaw Forest",));
+fixed[54]=FixedSet("BR",("Slopes of Orodruin","Shores of Nen Hithoel","Starkhorn",));
+
+fixed[55]=FixedSet("HUN",("·Frodo, Weary From the Journey","·The One Ring, The Ruling Ring","·Éowyn, Willing Fighter","·Éowyn, Willing Fighter","·Gamling, The Old","·Gamling, The Old","·Haleth, Son of Hama","·Haleth, Son of Hama","Rohirrim Soldier","Rohirrim Soldier","Rohirrim Soldier","Rohirrim Soldier","·Rohirrim Warrior","Rohirrim Axe","Rohirrim Axe","Rohirrim Axe","Rohirrim Axe","Rider's Mount","Rider's Mount","Rider's Mount","Rider's Mount","Grim Trophy","Grim Trophy","Grim Trophy","Hobbit Sword","Hobbit Sword","Charging Uruk","Charging Uruk","Charging Uruk","Charging Uruk","Following Uruk","Following Uruk","·Mauhur, Relentless Hunter","·Mauhur, Relentless Hunter","·Mauhur, Relentless Hunter","·Mauhur, Relentless Hunter","Pursuing Uruk","Pursuing Uruk","Pursuing Uruk","Pursuing Uruk","·Searching Uruk","·Searching Uruk","Seeking Uruk","Seeking Uruk","Tracking Uruk","Tracking Uruk","Tracking Uruk","Tracking Uruk","Violent Hurl","Violent Hurl","Violent Hurl","Breeding Pit of Isengard","City Gates","East Wall of Rohan",));
+fixed[56]=FixedSet("SH",("Anduin Banks","Rohan Uplands","Harrowdale",));
+fixed[57]=FixedSet("BL",("Doors of Durin","Fords of Isen","City of Kings",));
+
+fixed[58]=FixedSet("HUN",("·Frodo, Weary From the Journey","·The One Ring, The Ruling Ring","·Damrod, Dunadan of Gondor","·Damrod, Dunadan of Gondor","Dunedain of the South","Dunedain of the South","Dunedain of the South","Dunedain of the South","Ithilien Blade","Ithilien Blade","Ithilien Blade","Portico","Ranger's Cloak","Ranger's Cloak","Ranger's Cloak","Ranger's Cloak","Hobbit Sword","Hobbit Sword","Bold Easterling","Bold Easterling","Bold Easterling","Easterling Scout","Easterling Scout","Easterling Scout","Great Axe","Great Axe","Great Axe","Great Axe","Ravaging Wild Man","Ravaging Wild Man","Isengard Ruined","Westfold Village",));
+fixed[59]=FixedSet("BL",("Doors of Durin",));
+fixed[60]=FixedSet("RS",("·Madril, Loyal Lieutenant","·Madril, Loyal Lieutenant","Nimble Attack","Nimble Attack","Ranger of the White Tree","Ranger of the White Tree","Spirit of the White Tree","Spirit of the White Tree","Beast of War","Beast of War","Beast of War","Beast of War","Easterling Dispatcher","Easterling Dispatcher","Easterling Dispatcher","·Saruman, Coldly Still","·Saruman, Coldly Still","·Saruman, Coldly Still","·Saruman, Coldly Still","Vengeful Wild Man","Vengeful Wild Man","Imladris","Falls of Rauros",));
+fixed[61]=FixedSet("SH",("Fortress of Orthanc","Flats of Rohan","Expanding Marshland","Ettenmoors",));
+
+fixed[62]=FixedSet("HUN",("·Frodo, Weary From the Journey","·The One Ring, The Ruling Ring","Elven Bow","Elven Bow","Elven Warrior","Elven Warrior","·Haldir, Sentry of the Golden Wood","Point Blank Range","Point Blank Range","Sword of the Fallen","Sword of the Fallen","Sword of the Fallen","Hobbit Sword","Hobbit Sword","Seeking Uruk","Seeking Uruk","Violent Hurl","Violent Hurl","Violent Hurl","Violent Hurl","City Gates","Gate of Mordor",));
+fixed[63]=FixedSet("BL",("City of Kings",));
+fixed[64]=FixedSet("RS",("Elven Guardian","Elven Guardian","Elven Guardian","Elven Guardian","Hearth and Hall","Hearth and Hall","Hearth and Hall","Hearth and Hall","·Orophin, Silvan Elf","·Orophin, Silvan Elf","·Rumil, Silvan Elf","·Rumil, Silvan Elf","·Saruman, Curunir","·Saruman, Curunir","Spear of the White Hand","Spear of the White Hand","Spear of the White Hand","Spear of the White Hand","White Hand Butcher","White Hand Butcher","White Hand Butcher","White Hand Butcher","White Hand Guard","White Hand Guard","White Hand Guard","White Hand Guard","White Hand Guard","White Hand Slayer","White Hand Slayer","White Hand Slayer","·White Hand Vanquisher","·White Hand Vanquisher","Dol Guldur","Nurn",));
+fixed[65]=FixedSet("SH",("Osgiliath Reclaimed","Old Forest Road","Helm's Gate",));
+
+#
+# Fellowship of the Ring Starters (Gandalf/Moria, Aragorn/Isengard, Hobbit/Sauron)
+#
+def ProduceFoTR_Gandalf
+{
+  return(RandomCardSet("FoTR",distribution{"FoTR"}{"3rares"})+fixed[0]);
+}
+
+def ProduceFoTR_Aragorn
+{
+  return(RandomCardSet("FoTR",distribution{"FoTR"}{"3rares"})+fixed[1]);
+}
+
+def ProduceFoTR_Deluxe
+{
+  return(RandomCardSet("FoTR",distribution{"FoTR"}{"3rares"})+RandomCardSet("FoTR",distribution{"FoTR"}{"booster"})+fixed[2]);
+}
+
+#
+# Mines of Moria Starters (Gandalf/Moria, Gimli/Sauron)
+#
+def ProduceMoM_Gandalf
+{
+  return(RandomCardSet("MoM",distribution{"MoM"}{"3rares"})+fixed[4]+fixed[3]);
+}
+def ProduceMoM_Gimli
+{
+  return(RandomCardSet("MoM",distribution{"MoM"}{"3rares"})+fixed[6]+fixed[5]);
+}
+
+#
+# Realm of the Elf-Lords Starters (Legolas/Isengard, Boromir/Sauron)
+#
+def ProduceRoTEL_Legolas
+{
+  return(RandomCardSet("RoTEL",distribution{"RoTEL"}{"3rares"})+fixed[9]+fixed[8]+fixed[7]);
+}
+def ProduceRoTEL_Boromir
+{
+  return(RandomCardSet("RoTEL",distribution{"RoTEL"}{"3rares"})+fixed[12]+fixed[11]+fixed[10]);
+}
+
+#
+# The Two Towers Starters (Aragorn/Dunland, Théoden/Isengard, Gandalf/Raiders)
+#
+def ProduceTTT_Aragorn
+{
+  return(RandomCardSet("TTT",distribution{"TTT"}{"3rares"})+fixed[13]);
+}
+def ProduceTTT_Theoden
+{
+  return(RandomCardSet("TTT",distribution{"TTT"}{"3rares"})+fixed[14]);
+}
+def ProduceTTT_Deluxe
+{
+  return(RandomCardSet("TTT",distribution{"TTT"}{"3rares"})+RandomCardSet("TTT",distribution{"TTT"}{"booster"})+fixed[15]);
+}
+
+#
+# Battle of Helm's Deep (Eowyn/Isengard, Legolas/Raiders)
+#
+def ProduceBoHD_Eowyn
+{
+  return(RandomCardSet("BoHD",distribution{"BoHD"}{"3rares"})+fixed[17]+fixed[16]);
+}
+def ProduceBoHD_Legolas
+{
+  return(RandomCardSet("BoHD",distribution{"BoHD"}{"3rares"})+fixed[19]+fixed[18]);
+}
+
+#
+# Ent of Fangorn (Faramir/Isengard, Witchking/Sauron)
+#
+def ProduceEoF_Faramir
+{
+  return(RandomCardSet("EoF",distribution{"EoF"}{"3rares"})+fixed[22]+fixed[21]+fixed[20]);
+}
+def ProduceEoF_Witchking
+{
+  return(RandomCardSet("EoF",distribution{"EoF"}{"3rares"})+fixed[25]+fixed[24]+fixed[23]);
+}
+
+#
+# Return of the King (Aragorn/Raiders, Eomer/Sauron)
+#
+def ProduceRoTK_Aragorn
+{
+  return(RandomCardSet("RoTK",distribution{"RoTK"}{"3rares"})+fixed[26]);
+}
+def ProduceRoTK_Eomer
+{
+  return(RandomCardSet("RoTK",distribution{"RoTK"}{"3rares"})+fixed[27]);
+}
+
+#
+# Siege of Gonder (Merry/Sauron, Pippin/Raiders)
+#
+def ProduceSoG_Merry
+{
+  return(RandomCardSet("SoG",distribution{"SoG"}{"3rares"})+fixed[29]+fixed[28]);
+}
+def ProduceSoG_Pippin
+{
+  return(RandomCardSet("SoG",distribution{"SoG"}{"3rares"})+fixed[31]+fixed[30]);
+}
+
+#
+# Reflections
+#
+def ProduceRefl_Booster
+{
+  push(r1);
+  push(r2);
+  push(u);
+  push(c);
+  r1=having_rarity("R+",seq((set_data("Refl"))[1],(set_data("Refl"))[2]));
+  r2=having_rarity("R",seq((set_data("Refl"))[1],(set_data("Refl"))[2]));
+  u=having_rarity("U",seq((set_data("FoTR"))[1],(set_data("EoF"))[2]));
+  c=having_rarity("C",seq((set_data("FoTR"))[1],(set_data("EoF"))[2]));
+  if(random(seq(1,12))<=5)
+  {
+	return(flatten(random(r1))+flatten(random(r2))+flatten(repeat(5,'random(u)'))+flatten(repeat(11,'random(c)')));
+  }
+  else
+  {
+	return(flatten(random(r2))+flatten(random(r2))+flatten(repeat(5,'random(u)'))+flatten(repeat(11,'random(c)')));
+  }
+  c=pop();
+  u=pop();
+  r2=pop();
+  r1=pop();
+}
+
+#
+# Mount Doom (Frodo/Ringwraith, Sam/Sauron)
+#
+def ProduceMD_Frodo
+{
+  return(RandomCardSet("MD",distribution{"MD"}{"3rares"})+fixed[34]+fixed[33]+fixed[32]);
+}
+def ProduceMD_Sam
+{
+  return(RandomCardSet("MD",distribution{"MD"}{"3rares"})+fixed[37]+fixed[36]+fixed[35]);
+}
+
+#
+# Shadows
+#
+def ProduceSH_Aragorn
+{
+	return(RandomCardSet("SH",distribution{"SH"}{"3rares"})+fixed[38]);
+}
+def ProduceSH_Eowyn
+{
+	return(RandomCardSet("SH",distribution{"SH"}{"3rares"})+fixed[39]);
+}
+def ProduceSH_Gandalf
+{
+	return(RandomCardSet("SH",distribution{"SH"}{"3rares"})+fixed[40]);
+}
+def ProduceSH_Legolas
+{
+	return(RandomCardSet("SH",distribution{"SH"}{"3rares"})+fixed[41]);
+}
+
+#
+# Black Rider
+#
+def ProduceBR_Saruman
+{
+	return(RandomCardSet("BR",distribution{"BR"}{"3rares"})+fixed[43]+fixed[42]);
+}
+def ProduceBR_MouthOfSauron
+{
+	return(RandomCardSet("BR",distribution{"BR"}{"3rares"})+fixed[45]+fixed[44]);
+}
+
+#
+# Bloodlines
+#
+def ProduceBL_Arwen
+{
+	return(RandomCardSet("BL",distribution{"BL"}{"3rares"})+fixed[48]+fixed[47]+fixed[46]);
+}
+def ProduceBL_Boromir
+{
+	return(RandomCardSet("BL",distribution{"BL"}{"3rares"})+fixed[51]+fixed[50]+fixed[49]);
+}
+
+#
+# Drafts
+#
+def ProduceME_Elrohir
+{
+	return(	FixedSet("ME",("·Elladan, Son of Elrond","·Elladan, Son of Elrond","·Elrohir, Son of Elrond","·Elrohir, Son of Elrond","·Gildor Inglorion, of the House of Finrod","·Gildor Inglorion, of the House of Finrod","Uruk-hai Healer","Uruk-hai Healer","Uruk-hai Scout","Uruk-hai Scout"))+
+			RandomCardSet("SH",distribution{"SH"}{"booster"})+RandomCardSet("SH",distribution{"SH"}{"booster"})+
+			RandomCardSet("BR",distribution{"BR"}{"booster"})+RandomCardSet("BL",distribution{"BL"}{"booster"}));
+}
+def ProduceME_Grimbeorn
+{
+	return(	FixedSet("ME",("·Dain Ironfoot, King Under the Mountain","·Dain Ironfoot, King Under the Mountain","·Brand, King of Dale","·Brand, King of Dale","·Grimbeorn, Beorning Chieftain","·Grimbeorn, Beorning Chieftain","Furious Hillman","Furious Hillman","Swarming Hillman","Swarming Hillman"))+
+			RandomCardSet("SH",distribution{"SH"}{"booster"})+RandomCardSet("SH",distribution{"SH"}{"booster"})+
+			RandomCardSet("BR",distribution{"BR"}{"booster"})+RandomCardSet("BL",distribution{"BL"}{"booster"}));
+}
+def ProduceME_Halbarad
+{
+	return(	FixedSet("ME",("·Duilin, Ranger from Blackroot Vale","·Duilin, Ranger from Blackroot Vale","·Duinhir, Tall Man of Blackroot Vale","·Duinhir, Tall Man of Blackroot Vale","·Halbarad, Ranger of the North","·Halbarad, Ranger of the North","Half-troll of Far Harad","Half-troll of Far Harad","·Horror of Harad","·Horror of Harad"))+
+			RandomCardSet("SH",distribution{"SH"}{"booster"})+RandomCardSet("SH",distribution{"SH"}{"booster"})+
+			RandomCardSet("BR",distribution{"BR"}{"booster"})+RandomCardSet("BL",distribution{"BL"}{"booster"}));
+}
+
+#
+# Hunters
+#
+def ProduceHUN_Aragorn
+{
+	return(RandomCardSet("HUN",distribution{"HUN"}{"3rares"})+fixed[52]+fixed[53]+fixed[54]);
+}
+def ProduceHUN_Mauhur
+{
+	return(RandomCardSet("HUN",distribution{"HUN"}{"3rares"})+fixed[55]+fixed[56]+fixed[57]);
+}
+
+#
+# Wraith Collection
+#
+def ProduceWC_Set
+{
+	return(flatten(seq((set_data("WC"))[1],(set_data("WC"))[2])));
+}
+
+#
+# Rise of Saruman
+#
+def ProduceRS_Evilman
+{
+	return(RandomCardSet("RS",distribution{"RS"}{"3rares"})+fixed[58]+fixed[59]+fixed[60]+fixed[61]);
+}
+def ProduceRS_Urukrampage
+{
+	return(RandomCardSet("RS",distribution{"RS"}{"3rares"})+fixed[62]+fixed[63]+fixed[64]+fixed[65]);
+}
+
+#
+# Ages End
+#
+def ProduceAE_Set
+{
+	return(flatten(seq((set_data("AE"))[1],(set_data("AE"))[2])));
+}

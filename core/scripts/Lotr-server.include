@@ -1,0 +1,55 @@
+#
+#  Lotr server
+#  -----------
+
+screen.width=1024;
+screen.height=768;
+port=29400;
+meta.port=29120;
+
+# What piles have known order even if not visible.
+SELF_KNOWN_PILES=("sites",);
+
+# Options
+options.game{"zero_counters_ok"}=1;
+
+#
+# GAME SPECIFIC FUNCTIONS
+# =======================
+
+#
+# SetUpPlayer(p) - Create necessary strucrures for player 'p'.
+#
+def SetUpPlayer
+{
+  CreateDeck(ARG,"sites",40,50);
+  CreateDeck(ARG,"deck",40,160);
+  CreateDeck(ARG,"discard pile",40,290);
+  CreateDeck(ARG,"Dead Pile",980,190);
+}
+
+#
+# InitialScore(p) - Return a structure representing initial score for a player 'p'.
+#
+def InitialScore
+{
+  return(NULL);
+}
+
+#
+# HOOKS
+# =====
+
+#
+# InitServerHook(nmb.of players) - Called during server initialization.
+#
+def InitServerHook
+{
+  for(i)(ARG)
+  {
+    visible.me[i]{"sites"}=0;
+    visible.opp[i]{"sites"}=0;
+    visible.me[i]{"Dead Pile"}=1;
+    visible.opp[i]{"Dead Pile"}=1;
+  }
+}

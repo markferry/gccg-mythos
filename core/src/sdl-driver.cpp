@@ -1070,7 +1070,7 @@ namespace Driver
 
 		// Check arguments and if card is loaded already.		
 		if(imagenumber < 0 || imagenumber >= Database::cards.Cards())
-			throw Error::Range("Driver::LoadSoundIfUnloaded()","Invalid imagenumber "+ToString(imagenumber));
+			return 0;
 
 		if(cardsound[imagenumber] != 0)
 			return cardsound[imagenumber];

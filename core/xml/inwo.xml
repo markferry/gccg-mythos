@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ccg SYSTEM "gccg-game.dtd">
+
+<ccg name="IlluminatiL New World Order" dir="Inwo">
+  <option name="hand card size" value="30"/>
+  <option name="table card size" value="25"/>
+  <option name="deck card size" value="20"/>
+  <option name="book card size" value="40"/>
+  <cardset source="Inwo_basecards.xml"/>
+  <cardset source="unlimited.xml"/>
+
+  <option name="deck order" value="type"/>
+</ccg>

@@ -1,0 +1,11 @@
+
+if(!port)
+  port=29113;
+  
+
+def InitDistributions
+{
+  distribution=(,);
+  distribution{"UE"}=(,);
+  distribution{"UE"}{"Booster"}=((7,"C"),(4,"U"),(2,"R"));
+}

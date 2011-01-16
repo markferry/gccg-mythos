@@ -1,0 +1,155 @@
+#
+#
+# VARIABLES
+# =========
+#
+
+# Number of cards in hand.
+HANDSIZE=6;
+# Size of columns of the decklist in pixels.
+DECKBOX_SIZE=(20,220,110);
+# minor version number for filter alogrithm
+BOOK_FILTER_VERSION_MINOR=".0";
+# default book sorting criteria.
+BOOK_DEFAULT_SORT=("[age]","N[card_number]");
+
+if(!port)
+  port=29112;
+if(server.name=="NO.DEFAULT.SERVER.FOR.THIS.GAME")
+  server.name="gccg.servebeer.com";
+
+product.image=(,);
+product.image{"Unlimited Booster"}="ul.prod.jpg";
+
+game.bindings=(
+  ("KeyControlKey1","{orange}Draw Plots...",),
+  ("KeyControlKey2","{orange}Draw Group...",),
+  ("KeyControlKey3","{orange}Automatic Takeover...",),
+  ("KeyControlKey4","{orange}Action Phase...",),
+  ("KeyControlKey5","{orange}End of turn phase...",),);
+
+# MENUS
+# =====
+
+def PlotsMenu
+{
+    Menu("Plots",(
+      ("Look","Ctrl+L",""),
+      ("Shuffle","Ctrl+S",""),
+      ("Reveal/Hide","Ctrl+F",""),
+      ("Touch","Ctrl+T",""),
+      ("Set aside from bottom","Ctrl+End",""),
+    ));
+}
+
+GAME_MENU{"Tap a card"}=(
+ ('Attr("type",card.number)!="Energy"',"Straighten","",'Send("Rotate",(object.number,0))'),
+ ('Attr("type",card.number)!="Energy"',"Rotate Right","",'Send("Rotate",(object.number,90))'),
+ ('Attr("type",card.number)!="Energy"',"Rotate Left","",'Send("Rotate",(object.number,270))'),
+ ('Attr("type",card.number)!="Energy"',"Invert","",'Send("Rotate",(object.number,180))'),
+);
+
+FILTER_OPTIONS=(
+ ("Illuminati","Attr('subtype',#)=='Ill.'","default"),
+ ("Groups","Attr('subtype',#)=='Grp.'","default"),
+ ("Resources","Attr('subtype',#)=='Res.'","default"),
+ ("Plots","Attr('subtype',#)=='Plot'","default"),
+ ("Personalities","Attr('subtype',#)=='Per.'","default"),
+ ("Places","Attr('subtype',#)=='Plc.'","default"),
+ ("Assassinations","Attr('subtype',#)=='Ass.'","default"),
+ ("Disasters","Attr('subtype',#)=='Dis.'","default"),
+ "{hr}",
+);
+
+# FUNCTIONS
+# =========
+
+#
+# NewDeck() - Game specific creation of empty deck structure.
+#
+def NewDeck
+{
+  return((("deck",(,)),("plots",(,)),));
+}
+
+#
+# InitializeGame() - Game specific initialization of game variables.
+#
+def InitializeGame
+{
+}
+
+#
+# StartGame() - What to do when game begins.
+#
+
+def StartGame
+{
+  net_send(server,("UploadDeck",decks{deck.name}));
+  net_send(server,("ShuffleDeck",deck));
+  net_send(server,("ShuffleDeck",deck.objects[me]{"plots"}));
+}
+
+
+#
+# HOOKS
+# =====
+
+def TryTransferHook
+{
+  if((ARG==("deck.top",deck) || ARG==("deck.bottom",deck)) && (card_back(card.number)==1 || card.number==1))
+    return(ARG[0],deck.objects[me]{"plots"});
+  else
+    return(ARG);
+}
+
+#
+# REDEFINED FUNCTIONS
+# ===================
+
+#
+# PlayKeyControlKeyEnd() - Set aside from bottom
+#
+def PlayKeyControlKeyEnd
+{
+  Send("Transfer",(1,("deck",deck,length(deck(deck))-1),("active",me)))
+}
+
+
+#
+# ScoreToText(score structure) - Convert a score structure to string.
+# 
+def ScoreToText
+{
+  return("");
+}
+
+# MOUSE
+# =====
+
+#
+# MouseLeftClickPlots() - Play a card from your Plots
+#
+def MouseLeftClickPlots
+  PlayKeyInsert();
+
+# SPECIAL KEYS
+# ============
+
+# PLAYING CARDS
+# =============
+
+
+#
+# LOCATION TABLES
+# ===============
+
+#
+# InitializeLocationTables() - Fill tables for location algorithm (See Mtg.include for details).
+#
+def InitializeLocationTables
+{
+  rules.category=(,);
+
+  rules.coordinate=(,);
+}

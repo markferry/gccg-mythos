@@ -1,0 +1,18 @@
+#
+# VARIABLES
+# =========
+
+# Deck name mapping.
+
+deck_name{"deck"}="groups";
+deck_name{"plots"}="plots";
+deck_name{"discard pile"}="discard pile";
+deck_name{"opponent deck"}="groups";
+deck_name{"opponent plots"}="plots";
+deck_name{"opponent discard pile"}="discard pile";
+
+#
+# FUNCTIONS
+# =========
+
+# Helper functions for rule checks.

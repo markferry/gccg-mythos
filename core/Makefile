@@ -112,20 +112,62 @@ tmp/game-sdl-version.o: src/game-draw.cpp
 tmp/SDL_rotozoom.o: src/SDL_rotozoom.c
 	$(CCCMD) -o tmp/SDL_rotozoom.o src/SDL_rotozoom.c
 
-web:
-	rm -rf ../build/sites/gccg.sourceforge.net/
-	mkdir -p ../build/sites/gccg.sourceforge.net/
-	rm -f doc/gccg.sourceforge.net/*~
-	rsync --delete -ax doc/gccg.sourceforge.net/* ../build/sites/gccg.sourceforge.net/
-	mkdir -p ../build/sites/gccg.sourceforge.net/graphics/avatar
-	cp graphics/avatar/*.png ../build/sites/gccg.sourceforge.net/graphics/avatar
-	perl/svn_cleanup.pl ../build/sites/gccg.sourceforge.net/ > /dev/null
-	rm -rf ../build/sites/gccg.sourceforge.net/modules
-	mkdir -p ../build/sites/gccg.sourceforge.net/modules
-	cp ../build/mirrors/gccg.sourceforge.net/available.xml ../build/sites/gccg.sourceforge.net/modules/
-	cp ../build/mirrors/gccg.sourceforge.net/gccg-*.tgz ../build/sites/gccg.sourceforge.net/modules/
-	cp installer/gccg_install.zip ../build/sites/gccg.sourceforge.net/downloads
+# web:
+# 	rm -rf ./build/sites/gccg.sourceforge.net/
+# 	mkdir -p ./build/sites/gccg.sourceforge.net/
+# 	rm -f doc/gccg.sourceforge.net/*~
+# 	rsync --delete -ax doc/gccg.sourceforge.net/* ./build/sites/gccg.sourceforge.net/
+# 	mkdir -p ./build/sites/gccg.sourceforge.net/graphics/avatar
+# 	cp graphics/avatar/*.png ./build/sites/gccg.sourceforge.net/graphics/avatar
+# 	perl/svn_cleanup.pl ./build/sites/gccg.sourceforge.net/ > /dev/null
+# 	rm -rf ./build/sites/gccg.sourceforge.net/modules
+# 	mkdir -p ./build/sites/gccg.sourceforge.net/modules
+# 	cp ./build/mirrors/gccg.sourceforge.net/available.xml ./build/sites/gccg.sourceforge.net/modules/
+# 	cp ./build/mirrors/gccg.sourceforge.net/gccg-*.tgz ./build/sites/gccg.sourceforge.net/modules/
+# 	cp installer/gccg_install.zip ./build/sites/gccg.sourceforge.net/downloads
 
-web-update:
-	rsync --delete -avx ../build/sites/gccg.sourceforge.net/ `./tools/user uid`,gccg@web.sf.net:htdocs
+# web-update:
+# 	rsync --delete -avx ./build/sites/gccg.sourceforge.net/ `./tools/user uid`,gccg@web.sf.net:htdocs
 
+# revision:
+# 	strip $(TARGETS)
+# 	./gccg_package revision
+
+# mirrors:
+# 	./gccg_package create_mirrors gccg.sourceforge.net www.derangedmonkey.com lotrtcgdb.com
+
+# rebuild:
+# 	strip $(TARGETS)
+# 	cp $(TARGETS) `tools/sys_module`
+# 	./gccg_package b
+
+# nr-zip:
+# 	tools/make_zip nr
+
+# nr-torrent:
+# 	rm -rf build
+# 	mkdir build
+# 	rm -rf ../build/torrents/Gccg-Nr-`tools/make_zip --version nr`
+# 	unzip -d build ../build/torrents/Gccg-Nr-`tools/make_zip --version nr`.zip
+# 	mkdir -p ../build/torrents/
+# 	mv build/Gccg-Nr-* ../build/torrents/
+# 	btmakemetafile $(TRACKER) ../build/torrents/Gccg-Nr-`tools/make_zip --version nr`
+# 	rm -rf build
+# 	cp ../build/torrents/Gccg-Nr-`tools/make_zip --version nr`.torrent save
+
+# full-build:
+# 	$(MAKE) clean
+# 	rm -rf ../build/modules
+# 	$(MAKE) -j2 all
+# 	$(MAKE) rebuild
+# 	rm -rf ../build/torrents
+# 	$(MAKE) nr-zip
+# 	$(MAKE) nr-torrent
+# 	$(MAKE) mirrors
+# 	$(MAKE) web
+
+# update:
+# 	$(MAKE) rebuild
+# 	$(MAKE) mirrors
+# 	$(MAKE) web
+# 	$(MAKE) web-update

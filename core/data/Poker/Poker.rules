@@ -1,0 +1,16 @@
+#
+# Deck rule definitions for Poker
+# ===============================
+#
+
+Game Poker
+Info Poker
+Format Poker
+Rules for deck
+
+Size 52-52
+
+Limit 0 for each card having set_of(#)!="D" || Attr("rank",#)=="Any"
+General limit 1
+
+Otherwise ok

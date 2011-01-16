@@ -1,0 +1,141 @@
+#
+# CONSTANTS
+# =========
+
+TORRENT_VERSION=1;
+
+#
+# VARIABLES
+# =========
+
+# Deck name mapping.
+deck_name{"deck"}="library";
+deck_name{"discard pile"}="graveyard";
+deck_name{"sideboard"}="sideboard";
+deck_name{"exile"}="exile";
+deck_name{"opponent deck"}="library";
+deck_name{"opponent discard pile"}="graveyard";
+deck_name{"opponent sideboard"}="sideboard";
+deck_name{"opponent exile"}="exile";
+
+#
+# RuleCountBiggestPopulation(list of card numbers) - Count the biggest number of creatures having the same type.
+#
+def RuleCountBiggestPopulation
+{
+  push(t);
+  push(e);
+  t=select('find("Creature",Attr("type",#))!=NULL',ARG);
+  t=forall('Attr("subtype",#)',t)-("",);
+  t=flatten(forall('split(#," ")',t));
+  deck_rulecheck.info="found: "+join(forall('count(#,t)+" x "+#',unique(sort(t))),", ");
+  return(max(forall('count(#,t)',unique(sort(t)))));
+  e=pop();
+  t=pop();
+}
+
+#
+# RuleCountColors(list of card numbers) - Return the list of total numbers of each color (black,blue,green,red,white).
+#
+def RuleCountColors
+{
+  push(t);
+  t=forall('Attr("color",#)',ARG);
+  return(count("Black",t),count("Blue",t),count("Green",t),count("Red",t),count("White",t));
+  t=pop();  
+}
+
+#
+# TribalLegal(card number) - Return 1 if card is a tribal legal creature.
+#
+def TribalLegal
+{
+  if(find("Creature",Attr("type",ARG))==NULL)
+    return(0);
+  else
+  {
+    if(TRIBAL_COUNT==NULL)
+    {
+      TRIBAL_COUNT=(,);
+  
+      for(t)(flatten(forall("split(#,' ')",Attr('subtype',cards())-("",))))
+      {
+          if(TRIBAL_COUNT{t}==NULL)
+            TRIBAL_COUNT{t}=1;
+          else
+            TRIBAL_COUNT{t}=TRIBAL_COUNT{t}+1;
+      }
+  
+      TRIBAL_COUNT{""}=0;
+    }
+
+    return(max(forall("TRIBAL_COUNT{#}",split(Attr('subtype',ARG)," ")))>=5);
+  }
+}
+
+#
+# CreateTypeLegalTable(type) - Fill table TYPE_LEGAL, if not already filled.
+#
+def CreateTypeLegalTable
+{
+  if(TYPE_LEGAL==NULL)
+    TYPE_LEGAL=(,);
+  if(TYPE_LEGAL{ARG}==NULL)
+  {
+    TYPE_LEGAL{ARG}=(,);
+    for(c)(cards())
+        TYPE_LEGAL{ARG}{c}=0;
+    for(r)(deck_rules{ARG}{""})
+    {
+      if(r[0]=="RuleCardSet" || r[0]=="RuleCardSetReprint")
+      {
+        if(r[1][1] > 0)
+        {
+          push(s);
+          s=set_data(r[1][0]);
+          for(c)(seq(s[1],s[2]))
+            TYPE_LEGAL{ARG}{c}=r[1][1];
+          s=pop();
+        }
+      }
+      else if(r[0]=="RuleCardLimitSingle")
+      {
+        if(r[1][1] > 0)
+        {
+          for(c)(images(r[1][0]))
+            TYPE_LEGAL{ARG}{c}=r[1][1];
+        }
+      }
+    }
+
+    for(r)(deck_rules{ARG}{""})
+    {
+      if(r[0]=="RuleCardLimitSingle")
+      {
+        if(r[1][1]==0)
+        {
+          for(c)(images(r[1][0]))
+            TYPE_LEGAL{ARG}{c}=0;
+        }
+      }
+    }
+  }
+}
+
+#
+# TypeLegal(rule set,card number) - Return 1 if a card is a legal in the type.
+#
+def TypeLegal
+{
+  CreateTypeLegalTable(ARG[0]);
+  return(TYPE_LEGAL{ARG[0]}{ARG[1]});
+}
+
+#
+# TypeRestricted(rule set,card number) - Return 1 if a card is limited to one in the type.
+#
+def TypeRestricted
+{
+  CreateTypeLegalTable(ARG[0]);
+  return(TYPE_LEGAL{ARG[0]}{ARG[1]}==1);
+}

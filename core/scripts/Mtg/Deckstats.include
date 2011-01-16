@@ -1,0 +1,241 @@
+#
+# Mtg Deck Statistics Script by Malakh
+#
+
+def CountMtgLand
+{
+
+  push(a);
+  push(n);
+  push(t);
+  t=0.0;
+  for(c)(ARG)
+  {
+    a=Attr("color",c);
+	if(find("Land",a)!=NULL)
+	{
+	  t=t+1.0;
+	}
+  }
+  return(t);
+  t=pop();
+  n=pop();
+  a=pop();
+
+
+}
+
+def CountMtgCreatures
+{
+
+  push(a);
+  push(n);
+  push(t);
+  t=0.0;
+  for(c)(ARG)
+  {
+    a=Attr("type",c);
+	if(find("Creature",a)!=NULL)
+	{
+	  t=t+1.0;
+	}
+
+  }
+  return(t);
+  t=pop();
+  n=pop();
+  a=pop();
+}
+
+def CountMtgEnchantments
+{
+
+  push(a);
+  push(n);
+  push(t);
+  t=0.0;
+  for(c)(ARG)
+  {
+    a=Attr("type",c);
+	if(find("Enchantment",a)!=NULL)
+	{
+	  t=t+1.0;
+	}
+	elseif(find("Enchant",a)!=NULL)
+	{
+	  t=t+1.0;
+	}
+  }
+  return(t);
+  t=pop();
+  n=pop();
+  a=pop();
+}
+
+def CountMtgInstants
+{
+
+  push(a);
+  push(n);
+  push(t);
+  t=0.0;
+  for(c)(ARG)
+  {
+    a=Attr("type",c);
+	if(find("Instant",a)!=NULL)
+	{
+	  t=t+1.0;
+	}
+  }
+  return(t);
+  t=pop();
+  n=pop();
+  a=pop();
+}
+
+def CountMtgSorceries
+{
+
+  push(a);
+  push(n);
+  push(t);
+  t=0.0;
+  for(c)(ARG)
+  {
+    a=Attr("type",c);
+	if(find("Sorcery",a)!=NULL)
+	{
+	  t=t+1.0;
+	}
+  }
+  return(t);
+  t=pop();
+  n=pop();
+  a=pop();
+}
+
+def CountMtgArtifacts
+{
+
+  push(a);
+  push(n);
+  push(t);
+  t=0.0;
+  for(c)(ARG)
+  {
+    a=Attr("type",c);
+	if(find("Artifact",a)!=NULL)
+	{
+	  t=t+1.0;
+	}
+  }
+  return(t);
+  t=pop();
+  n=pop();
+  a=pop();
+}
+
+def CountMtgBlack
+{
+
+  push(a);
+  push(n);
+  push(t);
+  t=0.0;
+  for(c)(ARG)
+  {
+    a=Attr("color",c);
+	if(find("Black",a)!=NULL)
+	{
+	  t=t+1.0;
+	}
+  }
+  return(t);
+  t=pop();
+  n=pop();
+  a=pop();
+}
+
+def CountMtgBlue
+{
+
+  push(a);
+  push(n);
+  push(t);
+  t=0.0;
+  for(c)(ARG)
+  {
+    a=Attr("color",c);
+	if(find("Blue",a)!=NULL)
+	{
+	  t=t+1.0;
+	}
+  }
+  return(t);
+  t=pop();
+  n=pop();
+  a=pop();
+}
+
+def CountMtgRed
+{
+
+  push(a);
+  push(n);
+  push(t);
+  t=0.0;
+  for(c)(ARG)
+  {
+    a=Attr("color",c);
+	if(find("Red",a)!=NULL)
+	{
+	  t=t+1.0;
+	}
+  }
+  return(t);
+  t=pop();
+  n=pop();
+  a=pop();
+}
+
+def CountMtgGreen
+{
+
+  push(a);
+  push(n);
+  push(t);
+  t=0.0;
+  for(c)(ARG)
+  {
+    a=Attr("color",c);
+	if(find("Green",a)!=NULL)
+	{
+	  t=t+1.0;
+	}
+  }
+  return(t);
+  t=pop();
+  n=pop();
+  a=pop();
+}
+
+def CountMtgWhite
+{
+
+  push(a);
+  push(n);
+  push(t);
+  t=0.0;
+  for(c)(ARG)
+  {
+    a=Attr("color",c);
+	if(find("White",a)!=NULL)
+	{
+	  t=t+1.0;
+	}
+  }
+  return(t);
+  t=pop();
+  n=pop();
+  a=pop();
+}

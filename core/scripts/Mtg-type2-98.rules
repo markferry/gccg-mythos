@@ -1,0 +1,29 @@
+#
+# DECK RULES
+# ==========
+
+deck_rules=(,);
+server_description="Type 2 (1998)";
+deck_rules{"Type 2 (1998)"}=(,);
+deck_rules{"Type 2 (1998)"}{"deck"}=(
+  ("RuleDeckMinimum",60),
+  ("RulePass",NULL),
+);
+deck_rules{"Type 2 (1998)"}{"sideboard"}=(
+  ("RuleDeckSizes",(0,15)),
+  ("RulePass",NULL),
+);
+deck_rules{"Type 2 (1998)"}{""}=(
+  ("RuleCardLimitAny","Island"),
+  ("RuleCardLimitAny","Forest"),
+  ("RuleCardLimitAny","Mountain"),
+  ("RuleCardLimitAny","Swamp"),
+  ("RuleCardLimitAny","Plains"),
+  ("RuleCardSetReprint",("MI",4)),
+  ("RuleCardSetReprint",("VI",4)),
+  ("RuleCardSetReprint",("WL",4)),
+  ("RuleCardSetReprint",("TE",4)),
+  ("RuleCardSetReprint",("SH",4)),
+  ("RuleCardSetReprint",("EX",4)),
+  ("RuleCardSetReprint",("5E",4)),
+);

@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ccg SYSTEM "gccg-game.dtd">
+
+<ccg name="Magic the Gathering" dir="Mtg">
+
+  <cardset source="mtg_basecards.xml"/>
+  <cardset source="beta.xml"/>
+  <cardset source="an.xml"/>
+  <cardset source="aq.xml"/>
+  <cardset source="lg.xml"/>
+  <cardset source="dk.xml"/>
+  <cardset source="fe.xml"/>
+  <cardset source="ia.xml"/>
+  <cardset source="hl.xml"/>
+  <cardset source="al.xml"/>
+  <cardset source="mi.xml"/>
+  <cardset source="vi.xml"/>
+  <cardset source="wl.xml"/>
+  <cardset source="te.xml"/>
+  <cardset source="sh.xml"/>
+  <cardset source="ex.xml"/>
+  <cardset source="us.xml"/>
+  <cardset source="ul.xml"/>
+  <cardset source="ud.xml"/>
+  <cardset source="mm.xml"/>
+  <cardset source="ne.xml"/>
+  <cardset source="py.xml"/>
+  <cardset source="in.xml"/>
+  <cardset source="ps.xml"/>
+  <cardset source="ap.xml"/>
+  <cardset source="od.xml"/>
+  <cardset source="ug.xml"/>
+  <cardset source="to.xml"/>
+  <cardset source="jd.xml"/>
+  <cardset source="on.xml"/>
+  <cardset source="le.xml"/>
+  <cardset source="sc.xml"/>
+  <cardset source="mr.xml"/>
+  <cardset source="8th.xml"/>
+  <cardset source="7th.xml"/>
+  <cardset source="6th.xml"/>
+  <cardset source="5th.xml"/>
+  <cardset source="4th.xml"/>
+  <cardset source="rv.xml"/>
+  <cardset source="ds.xml"/>
+  <cardset source="fd.xml"/>
+  <cardset source="ck.xml"/>
+  <cardset source="uh.xml"/>
+  <cardset source="bk.xml"/>
+  <cardset source="pm.xml"/>
+  <cardset source="P1.xml"/>
+  <cardset source="P2.xml"/>
+  <cardset source="P3.xml"/>
+  <cardset source="sk.xml"/>
+  <cardset source="9th.xml"/>
+  <cardset source="ra.xml"/>
+  <cardset source="gp.xml"/>
+  <cardset source="di.xml"/>
+  <cardset source="cs.xml"/>
+  <cardset source="ts.xml"/>
+  <cardset source="pc.xml"/>
+  <cardset source="S1.xml"/>
+  <cardset source="fs.xml"/>
+  <cardset source="xe.xml"/>
+  <cardset source="lrw.xml"/>
+  <cardset source="mor.xml"/>
+  <cardset source="sm.xml"/>
+  <cardset source="eve.xml"/>
+  <cardset source="ala.xml"/>
+  <cardset source="cfx.xml"/>
+  <cardset source="are.xml"/>
+  <cardset source="m10.xml"/>
+  <cardset source="zdk.xml"/>
+  <cardset source="wwk.xml"/>
+  <cardset source="roe.xml"/>
+  <cardset source="m11.xml"/>
+  <cardset source="som.xml"/>
+  <image file="b.png" tag="{B}"/>
+  <image file="g.png" tag="{G}"/>
+  <image file="r.png" tag="{R}"/>
+  <image file="u.png" tag="{U}"/>
+  <image file="w.png" tag="{W}"/>
+  <image file="b2.png" tag="{b}"/>
+  <image file="g2.png" tag="{g}"/>
+  <image file="r2.png" tag="{r}"/>
+  <image file="u2.png" tag="{u}"/>
+  <image file="w2.png" tag="{w}"/>
+  <image file="2b.png" tag="{2B}"/>
+  <image file="2g.png" tag="{2G}"/>
+  <image file="2r.png" tag="{2R}"/>
+  <image file="2u.png" tag="{2U}"/>
+  <image file="2w.png" tag="{2W}"/>
+  <image file="bg.png" tag="{BG}"/>
+  <image file="br.png" tag="{BR}"/>
+  <image file="gu.png" tag="{GU}"/>
+  <image file="gw.png" tag="{GW}"/>
+  <image file="rg.png" tag="{RG}"/>
+  <image file="rw.png" tag="{RW}"/>
+  <image file="ub.png" tag="{UB}"/>
+  <image file="ur.png" tag="{UR}"/>
+  <image file="wb.png" tag="{WB}"/>
+  <image file="wu.png" tag="{WU}"/>
+  <image file="inf.png" tag="{inf}"/>
+  <image file="half.png" tag="{half}"/>
+  <image file="0.png" tag="{0}"/>
+  <image file="1.png" tag="{1}"/>
+  <image file="2.png" tag="{2}"/>
+  <image file="3.png" tag="{3}"/>
+  <image file="4.png" tag="{4}"/>
+  <image file="5.png" tag="{5}"/>
+  <image file="6.png" tag="{6}"/>
+  <image file="7.png" tag="{7}"/>
+  <image file="8.png" tag="{8}"/>
+  <image file="9.png" tag="{9}"/>
+  <image file="10.png" tag="{10}"/>
+  <image file="11.png" tag="{11}"/>
+  <image file="12.png" tag="{12}"/>
+  <image file="15.png" tag="{15}"/>
+  <image file="16.png" tag="{16}"/>
+  <image file="x.png" tag="{X}"/>
+  <image file="y.png" tag="{Y}"/>
+  <image file="z.png" tag="{Z}"/>
+  <image file="t.png" tag="{T}"/>
+  <image file="s.png" tag="{S}"/>
+  <image file="ut.png" tag="{UT}"/>
+
+  <option name="hand card size" value="50"/>
+  <option name="table card size" value="50"/>
+  <option name="deck card size" value="30"/>
+  <option name="book card size" value="50"/>
+
+  <option name="draw hints" value="color"/>
+
+  <option name="default back color" value="5,5,5"/>
+  <option name="Artifact back color" value="125,83,69"/>
+  <option name="Black back color" value="66,66,70"/>
+  <option name="Blue back color" value="30,60,130"/>
+  <option name="Green back color" value="75,105,50"/>
+  <option name="Multicolor back color" value="190,190,100"/>
+  <option name="Red back color" value="120,50,60"/>
+  <option name="White back color" value="200,190,190"/>
+  <option name="Land back color" value="140,120,110"/>
+
+  <option name="default border width" value="5"/>
+  <option name="default border color" value="5,5,5"/>
+  <option name="default title" value="6,6,159,20"/>
+  <option name="default title font color" value="255,255,255"/>
+  <option name="default title font" value="1"/>
+  <option name="default title font size" value="20"/>
+
+  <option name="default text box font size" value="16"/>
+  <option name="default text box" value="19,179,173,91"/>
+  <option name="default text box align" value="1"/>
+  <option name="default text box color" value="150,159,156"/>
+  <option name="default text box border" value="2"/>
+  <option name="Artifact text box color" value="221,200,171"/>
+  <option name="Black text box color" value="237,198,139"/>
+  <option name="Blue text box color" value="171,196,227"/>
+  <option name="Green text box color" value="131,100,98"/>
+  <option name="Red text box color" value="188,117,135"/>
+  <option name="White text box color" value="247,236,234"/>
+  <option name="Multicolor text box color" value="220,202,202"/>
+  <option name="Land text box color" value="199,138,107"/>
+  <option name="Forest text box color" value="183,191,106"/>
+  <option name="Mountain text box color" value="219,95,93"/>
+  <option name="Swamp text box color" value="144,125,145"/>
+  <option name="Plains text box color" value="232,218,153"/>
+  <option name="Island text box color" value="171,173,194"/>
+
+  <option name="default image" value="15,30,180,132"/>
+  <option name="default image color" value="150,159,156"/>
+  <option name="default image border" value="2"/>
+  <option name="default image font size" value="100"/>
+
+  <option name="default text 1" value="18,164,174,15"/>
+  <option name="default text 1 content" value="[type] - [subtype]"/>
+  <option name="default text 1 font color" value="255,255,255"/>
+  <option name="White text 1 font color" value="0,0,0"/>
+  <option name="Multicolor text 1 font color" value="0,0,0"/>
+
+  <option name="default text 2" value="14,9,184,14"/>
+  <option name="default text 2 content" value="[cost]"/>
+  <option name="default text 2 font size" value="20"/>
+  <option name="default text 2 align" value="2"/>
+
+  <option name="default text 3" value="158,275,44,15"/>
+  <option name="default text 3 content" value="[power]/[toughness]"/>
+  <option name="default text 3 font size" value="18"/>
+  <option name="default text 3 align" value="2"/>
+
+  <option name="deck order" value="color"/>
+  <option name="deck color by" value="color"/>
+
+  <option name="Artifact text" value="{brown}"/>
+  <option name="Black Blue Green Red White text" value="{gold}"/>
+  <option name="Black Blue Green text" value="{gold}"/>
+  <option name="Black Blue Red text" value="{gold}"/>
+  <option name="Black Blue White text" value="{gold}"/>
+  <option name="Black Blue text" value="{gold}"/>
+  <option name="Black Green Red text" value="{gold}"/>
+  <option name="Black Green White text" value="{gold}"/>
+  <option name="Black Green text" value="{gold}"/>
+  <option name="Black Red White text" value="{gold}"/>
+  <option name="Black Red text" value="{gold}"/>
+  <option name="Black White text" value="{gold}"/>
+  <option name="Black text" value="{black}"/>
+  <option name="Blue Green Red text" value="{gold}"/>
+  <option name="Blue Green White text" value="{gold}"/>
+  <option name="Blue Green text" value="{gold}"/>
+  <option name="Blue Red White text" value="{gold}"/>
+  <option name="Blue Red text" value="{gold}"/>
+  <option name="Blue White text" value="{gold}"/>
+  <option name="Blue text" value="{blue}"/>
+  <option name="Green Red White text" value="{gold}"/>
+  <option name="Green Red text" value="{gold}"/>
+  <option name="Green White text" value="{gold}"/>
+  <option name="Green text" value="{green}"/>
+  <option name="Land text" value="{gray}"/>
+  <option name="Red White text" value="{gold}"/>
+  <option name="Red text" value="{red}"/>
+  <option name="White text" value="{yellow}"/>
+
+  <trigger event="location hint" attribute="type"/>
+  <trigger event="location hint" attribute="color"/>
+
+  <trigger event="play" attribute="type"/>
+  <trigger event="play" attribute="color"/>
+
+</ccg>

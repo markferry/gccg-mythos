@@ -1,0 +1,151 @@
+#
+# Variables:
+#
+# promo.booster - remaining Unglued "promo" cards to give as prizes
+# promo.booster2 - remaining Unhinged "promo" cards to give as prizes
+
+#
+# CONSTANTS
+# =========
+
+if(!port)
+  port=29100;
+
+factory.port=29101;
+
+INITIAL_MONEY=50.0;
+GAME_BONUS=13.0;
+BET_BONUS_MULTIPLIER=1;
+LOSER_PERCENTAGE=0.20;
+DRAW_PERCENTAGE=0.15;
+PLAYSET_COUNT=4;
+
+ANONYMOUS_IP="www.wizards.com";
+
+if(!load("products"))
+{
+  products=(,);
+  products{"Beta booster"}=(50000,2.45,("BE","booster"),50000);
+  products{"Beta starter"}=(50000,7.95,("BE","starter"),50000);
+  products{"Arabian Nights booster"}=(50000,1.45,("AN","booster"),50000);
+  products{"Antiquities booster"}=(50000,1.45,("AQ","booster"),50000);
+  products{"Legends booster"}=(50000,2.45,("LG","booster"),50000);
+  products{"The Dark booster"}=(50000,1.45,("DK","booster"),50000);
+  products{"Fallen Empires booster"}=(50000,1.45,("FE","booster"),50000);
+  save("products");
+}
+
+#
+# HOOKS
+# =====
+
+# SealedStartHook(sealed player name,mode name,money,options) - This hook is called after
+#   initialization of sealed mode is complete. Current user is a
+#   player entering in the sealed mode. Note: This hook can be called more often than end hook.
+#
+def SealedStartHook
+{
+  check_card(ARG[0],192);
+  if(users{ARG[0]}[2]{192}[0]==0)
+  {
+    Reply("Adding some lands...");
+    AddCards(ARG[0],192,30);
+    AddCards(ARG[0],230,30);
+    AddCards(ARG[0],270,30);
+    AddCards(ARG[0],296,30);
+    AddCards(ARG[0],349,30);
+    Refresh(192,230,270,296,349);
+  }
+}
+
+# SealedEndHook() - This hook is called before ending sealed
+#   mode. Current user is sealed mode player.
+#
+def SealedEndHook
+{
+  check_card(User(),192);
+  if(users{User()}[2]{192}[0] > 0)
+  {
+    Reply("Removing extra lands...");
+    DelCards(User(),192,30);
+    DelCards(User(),230,30);
+    DelCards(User(),270,30);
+    DelCards(User(),296,30);
+    DelCards(User(),349,30);
+    Refresh(192,230,270,296,349);
+  }
+}
+
+# EndGameHook(player name who declared,result,result options,player numbers,player names,bet) - This
+#   hook is called at the beginning of the game result
+#   prosessing. Note: this hook is not called for undecided results.
+#
+def EndGameHook
+{
+  if(length(ARG[3])>1)
+  {
+    push(c);
+    push(ready);
+    for(p)(ARG[4])
+    {
+#
+# Get Unglued
+#
+      if(length(promo.booster) <= 0)
+      {
+        if(net_send(factory.server,(1,"UG","booster")))
+        {
+          ready=0;
+          while(!ready)
+          {
+            c=net_get();
+            if(c!=NULL)
+            {
+              ready=1;
+              promo.booster=shuffle(flatten(toval(c[1])));
+            }
+          }
+        }
+      }
+#
+# Get Unhinged
+#
+      if(length(promo.booster2) <= 0)
+      {
+        if(net_send(factory.server,(1,"UH","booster")))
+        {
+          ready=0;
+          while(!ready)
+          {
+            c=net_get();
+            if(c!=NULL)
+            {
+              ready=1;
+              promo.booster2=shuffle(flatten(toval(c[1])));
+            }
+          }
+        }
+      }
+
+      if(users{p}[4][1][0]==0)
+      {
+         if(count("UG",users{UserWithoutMode(p)}[3][2]))
+         {
+           c=first(promo.booster2);
+           promo.booster2=tail(promo.booster2);
+         }
+         else
+         {
+           c=first(promo.booster);
+           promo.booster=tail(promo.booster);
+         }
+         AddCard(p,c);
+         SendAll("Message","{blue}"+p+" receives{gold} #"+c+"# {blue}as a reward for the game.");
+         if(Con(p)>-1)
+           Send(Con(p),("SetCardbook",((c,users{p}[2]{c}),)));
+      }
+    }
+    ready=pop();
+    c=pop();
+  }
+}

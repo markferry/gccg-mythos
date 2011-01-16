@@ -1,0 +1,190 @@
+#
+# VARIABLES:
+#
+# distribution{set}{product} - rarity distribution of the product
+# port - server port of the factory
+# rarities - generate these distributions from the card data
+#
+# FUNCTIONS:
+#
+# InitDistributions() - Initialize product distribution data.
+#
+
+if(!port)
+  port=29101;
+
+#
+# InitDistributions() - Initialize product distribution data.
+#
+def InitDistributions
+{
+  distribution=(,);
+  distribution{"AN"}=(,);
+  distribution{"AN"}{"booster"}=((6,"C"),(2,"U"));
+  distribution{"AQ"}=(,);
+  distribution{"AQ"}{"booster"}=((6,"C"),(2,"U"));
+  distribution{"LG"}=(,);
+  distribution{"LG"}{"booster"}=((11,"C"),(3,"U"),(1,"R"));
+  distribution{"DK"}=(,);
+  distribution{"DK"}{"booster"}=((6,"C"),(2,"U"));
+  distribution{"FE"}=(,);
+  distribution{"FE"}{"booster"}=((6,"C"),(2,"U"));
+  distribution{"IA"}=(,);
+  distribution{"IA"}{"booster"}=((11,"C"),(3,"U"),(1,"R"));
+  distribution{"IA"}{"starter"}=((22,"L"),(26,"C"),(9,"U"),(3,"R"));
+  distribution{"HL"}=(,);
+  distribution{"HL"}{"booster"}=((6,"C"),(2,"U"));
+  distribution{"AL"}=(,);
+  distribution{"AL"}{"booster"}=((8,"C"),(3,"U"),(1,"R"));
+  distribution{"MI"}=(,);
+  distribution{"MI"}{"booster"}=((11,"C"),(3,"U"),(1,"R"));
+  distribution{"MI"}{"starter"}=((22,"L"),(26,"C"),(9,"U"),(3,"R"));
+  distribution{"VI"}=(,);
+  distribution{"VI"}{"booster"}=((11,"C"),(3,"U"),(1,"R"));
+  distribution{"WL"}=(,);
+  distribution{"WL"}{"booster"}=((11,"C"),(3,"U"),(1,"R"));
+  distribution{"TE"}=(,);
+  distribution{"TE"}{"booster"}=((11,"C"),(3,"U"),(1,"R"));
+  distribution{"TE"}{"starter"}=((22,"L"),(26,"C"),(9,"U"),(3,"R"));
+  distribution{"SH"}=(,);
+  distribution{"SH"}{"booster"}=((11,"C"),(3,"U"),(1,"R"));
+  distribution{"EX"}=(,);
+  distribution{"EX"}{"booster"}=((11,"C"),(3,"U"),(1,"R"));
+  distribution{"US"}=(,);
+  distribution{"US"}{"booster"}=((11,"C"),(3,"U"),(1,"R"));
+  distribution{"US"}{"starter"}=((30,"L"),(32,"C"),(10,"U"),(3,"R"));
+  distribution{"UL"}=(,);
+  distribution{"UL"}{"booster"}=((11,"C"),(3,"U"),(1,"R"));
+  distribution{"UD"}=(,);
+  distribution{"UD"}{"booster"}=((11,"C"),(3,"U"),(1,"R"));
+  distribution{"MM"}=(,);
+  distribution{"MM"}{"booster"}=((11,"C"),(3,"U"),(1,"R"));
+  distribution{"MM"}{"starter"}=((30,"L"),(32,"C"),(10,"U"),(3,"R"));
+  distribution{"NE"}=(,);
+  distribution{"NE"}{"booster"}=((11,"C"),(3,"U"),(1,"R"));
+  distribution{"PY"}=(,);
+  distribution{"PY"}{"booster"}=((11,"C"),(3,"U"),(1,"R"));
+  distribution{"IN"}=(,);
+  distribution{"IN"}{"booster"}=((11,"C"),(3,"U"),(1,"R"));
+  distribution{"IN"}{"starter"}=((30,"L"),(32,"C"),(10,"U"),(3,"R"));
+  distribution{"PS"}=(,);
+  distribution{"PS"}{"booster"}=((11,"C"),(3,"U"),(1,"R"));
+  distribution{"AP"}=(,);
+  distribution{"AP"}{"booster"}=((11,"C"),(3,"U"),(1,"R"));
+  distribution{"OD"}=(,);
+  distribution{"OD"}{"booster"}=((11,"C"),(3,"U"),(1,"R"));
+  distribution{"OD"}{"starter"}=((30,"L"),(32,"C"),(10,"U"),(3,"R"));
+  distribution{"UG"}=(,);
+  distribution{"UG"}{"booster"}=((1,"L"),(6,"C"),(2,"U"),(1,"R"));
+  distribution{"TO"}=(,);
+  distribution{"TO"}{"booster"}=((11,"C"),(3,"U"),(1,"R"));
+  distribution{"JD"}=(,);
+  distribution{"JD"}{"booster"}=((11,"C"),(3,"U"),(1,"R"));
+  distribution{"ON"}=(,);
+  distribution{"ON"}{"booster"}=((11,"C"),(3,"U"),(1,"R"));
+  distribution{"ON"}{"starter"}=((30,"L"),(32,"C"),(10,"U"),(3,"R"));
+  distribution{"LE"}=(,);
+  distribution{"LE"}{"booster"}=((11,"C"),(3,"U"),(1,"R"));
+  distribution{"SC"}=(,);
+  distribution{"SC"}{"booster"}=((11,"C"),(3,"U"),(1,"R"));
+  distribution{"MR"}=(,);
+  distribution{"MR"}{"booster"}=((11,"C"),(3,"U"),(1,"R"));
+  distribution{"MR"}{"starter"}=((30,"L"),(32,"C"),(10,"U"),(3,"R"));
+  distribution{"4E"}=(,);
+  distribution{"4E"}{"booster"}=((11,"C"),(3,"U"),(1,"R"));
+  distribution{"4E"}{"starter"}=((22,"L"),(26,"C"),(9,"U"),(3,"R"));
+  distribution{"5E"}=(,);
+  distribution{"5E"}{"booster"}=((11,"C"),(3,"U"),(1,"R"));
+  distribution{"5E"}{"starter"}=((22,"L"),(26,"C"),(9,"U"),(3,"R"));
+  distribution{"6E"}=(,);
+  distribution{"6E"}{"booster"}=((11,"C"),(3,"U"),(1,"R"));
+  distribution{"6E"}{"starter"}=((30,"L"),(32,"C"),(10,"U"),(3,"R"));
+  distribution{"7E"}=(,);
+  distribution{"7E"}{"booster"}=((1,"L"),(10,"C"),(3,"U"),(1,"R"));
+  distribution{"7E"}{"starter"}=((30,"L"),(32,"C"),(10,"U"),(3,"R"));
+  distribution{"8E"}=(,);
+  distribution{"8E"}{"booster"}=((11,"C"),(3,"U"),(1,"R"));
+  distribution{"8E"}{"starter"}=((30,"L"),(32,"C"),(10,"U"),(3,"R"));
+  distribution{"9E"}=(,);
+  distribution{"9E"}{"booster"}=((11,"C"),(3,"U"),(1,"R"));
+  distribution{"9E"}{"starter"}=((30,"L"),(32,"C"),(10,"U"),(3,"R"));
+  distribution{"RV"}=(,);
+  distribution{"RV"}{"booster"}=((11,"C"),(3,"U"),(1,"R"));
+  distribution{"RV"}{"starter"}=((45,"C"),(13,"U"),(2,"R"));
+  distribution{"DS"}=(,);
+  distribution{"DS"}{"booster"}=((11,"C"),(3,"U"),(1,"R"));
+  distribution{"FD"}=(,);
+  distribution{"FD"}{"booster"}=((11,"C"),(3,"U"),(1,"R"));
+  distribution{"CK"}=(,);
+  distribution{"CK"}{"booster"}=((11,"C"),(3,"U"),(1,"R"));
+  distribution{"CK"}{"starter"}=((30,"L"),(32,"C"),(10,"U"),(3,"R"));
+  distribution{"UH"}=(,);
+  distribution{"UH"}{"booster"}=((10,"C"),(3,"U"),(1,"L"),(1,"R"));
+  distribution{"BK"}=(,);
+  distribution{"BK"}{"booster"}=((11,"C"),(3,"U"),(1,"R"));
+  distribution{"P1"}=(,);
+  distribution{"P1"}{"booster"}=((11,"C"),(3,"U"),(1,"R"));
+  distribution{"P2"}=(,);
+  distribution{"P2"}{"booster"}=((11,"C"),(3,"U"),(1,"R"));
+  distribution{"P3"}=(,);
+  distribution{"P3"}{"booster"}=((11,"C"),(3,"U"),(1,"R"));
+  distribution{"SK"}=(,);
+  distribution{"SK"}{"booster"}=((11,"C"),(3,"U"),(1,"R"));
+  distribution{"RA"}=(,);
+  distribution{"RA"}{"booster"}=((11,"C"),(3,"U"),(1,"R"));
+  distribution{"RA"}{"starter"}=((30,"L"),(32,"C"),(10,"U"),(3,"R"));
+}
+
+#
+# ProduceBE_Booster() - Produce beta booster.
+#
+def ProduceBE_Booster
+{
+  push(p);
+  p=RandomCardSet("BE",((11,"C"),(3,"U"),(1,"R")));
+  i=0;
+  while(i < 11)
+  {
+    if(random(10000) < 3802)
+      p[i]=random(cards{"BE"}{"L"});
+    i=i+1;
+  }
+  while(i < 14)
+  {
+    if(random(10000) < 2150)
+      p[i]=random(cards{"BE"}{"L"});
+    i=i+1;
+  }
+  if(random(10000) < 331)
+    p[i]=random(cards{"BE"}{"L"});
+  return(p);
+  p=pop();
+}
+
+#
+# ProduceBE_Starter() - Produce beta starter.
+#
+def ProduceBE_Starter
+{
+  push(p);
+  p=RandomCardSet("BE",((45,"C"),(13,"U"),(2,"R")));
+  i=0;
+  while(i < 45)
+  {
+    if(random(10000) < 3802)
+      p[i]=random(cards{"BE"}{"L"});
+    i=i+1;
+  }
+  while(i < 58)
+  {
+    if(random(10000) < 2150)
+      p[i]=random(cards{"BE"}{"L"});
+    i=i+1;
+  }
+  if(random(10000) < 331)
+    p[i]=random(cards{"BE"}{"L"});
+  if(random(10000) < 331)
+    p[i+1]=random(cards{"BE"}{"L"});
+  return(p);
+  p=pop();
+}

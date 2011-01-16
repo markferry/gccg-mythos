@@ -1,0 +1,30 @@
+#################
+# STANDARD 2010 #
+#################
+
+deck_rules{"Type 2 (2010)"}=(,);
+deck_rules{"Type 2 (2010)"}{"deck"}=(
+  ("RuleDeckMinimum",60),
+  ("RulePass",NULL),
+);
+deck_rules{"Type 2 (2010)"}{"sideboard"}=(
+  ("RuleDeckSizes",(0,15)),
+  ("RulePass",NULL),
+);
+deck_rules{"Type 2 (2010)"}{""}=(
+  ("RuleCardLimitAny","Island"),
+  ("RuleCardLimitAny","Forest"),
+  ("RuleCardLimitAny","Mountain"),
+  ("RuleCardLimitAny","Swamp"),
+  ("RuleCardLimitAny","Plains"),
+
+  ("RuleCardLimitAny","Relentless Rats"),
+
+  ("RuleCardSetReprint",("M11",4)),
+
+  ("RuleCardSetReprint",("ZDK",4)),
+  ("RuleCardSetReprint",("WWK",4)),
+  ("RuleCardSetReprint",("ROE",4)),
+
+  ("RuleCardSetReprint",("SOM",4)),
+);

@@ -1,0 +1,49 @@
+############
+# EXTENDED #
+############
+
+deck_rules{"Extended"}=(,);
+deck_rules{"Extended"}{"deck"}=(
+  ("RuleDeckMinimum",60),
+  ("RulePass",NULL),
+);
+deck_rules{"Extended"}{"sideboard"}=(
+  ("RuleDeckSizes",(0,15)),
+  ("RulePass",NULL),
+);
+deck_rules{"Extended"}{""}=(
+  ("RuleCardLimitAny","Island"),
+  ("RuleCardLimitAny","Forest"),
+  ("RuleCardLimitAny","Mountain"),
+  ("RuleCardLimitAny","Swamp"),
+  ("RuleCardLimitAny","Plains"),
+  ("RuleCardLimitAny","Snow-Covered Island"),
+  ("RuleCardLimitAny","Snow-Covered Forest"),
+  ("RuleCardLimitAny","Snow-Covered Mountain"),
+  ("RuleCardLimitAny","Snow-Covered Swamp"),
+  ("RuleCardLimitAny","Snow-Covered Plains"),
+
+  ("RuleCardLimitSingle",("Hypergenesis",0)),
+  ("RuleCardLimitSingle",("Sword of the Meek",0)),
+
+  ("RuleCardLimitAny","Relentless Rats"),
+
+  ("RuleCardSetReprint",("M10",4)),
+  ("RuleCardSetReprint",("M11",4)),
+
+  ("RuleCardSetReprint",("LRW",4)),
+  ("RuleCardSetReprint",("MOR",4)),
+
+  ("RuleCardSetReprint",("SM",4)),
+  ("RuleCardSetReprint",("EVE",4)),
+
+  ("RuleCardSetReprint",("ALA",4)),
+  ("RuleCardSetReprint",("CFX",4)),
+  ("RuleCardSetReprint",("ARE",4)),
+
+  ("RuleCardSetReprint",("ZDK",4)),
+  ("RuleCardSetReprint",("WWK",4)),
+  ("RuleCardSetReprint",("ROE",4)),
+
+  ("RuleCardSetReprint",("SOM",4)),
+);

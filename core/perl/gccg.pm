@@ -42,6 +42,14 @@ sub root_path
 
     $path = abs_path("..");
     return $path if -f $path."/games.dat";
+
+    $path = abs_path("../core");
+    return $path if -f $path."/games.dat";
+
+    $path = abs_path("../../core");
+    return $path if -f $path."/games.dat";
+
+    die "Cannot find root path.";
 }
 
 #

@@ -1,4 +1,4 @@
-#!/usr/bin/perl -I ../perl -I perl
+#!/usr/bin/perl -I ../perl -I perl -I ../../core/perl
 
 use gccg;
 

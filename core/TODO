@@ -58,6 +58,7 @@ v0.9.7
 [ ] Check sets and card counts announced by server and give warning if not matching.
 [ ] Some function to check if system is not functional in client. Use
     it on places like import, export, etc..
+[X] Support for XML-files in extra repositories.
 
 v0.9.8
 [ ] Try 'scons' based building.

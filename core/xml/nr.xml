@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ccg SYSTEM "gccg-game.dtd">
+
+<ccg name="Netrunner" dir="Nr">
+
+  <cardset source="nr_basecards.xml"/>
+  <cardset source="netrunner.xml"/>
+  <cardset source="proteus.xml"/>
+  <cardset source="classic.xml"/>
+  <cardset source="openwar.xml"/>
+
+  <option name="hand card size" value="32"/>
+  <option name="table card size" value="25"/>
+  <option name="deck card size" value="20"/>
+  <option name="book card size" value="29"/>
+
+  <option name="canonical key" value="card_type"/>
+  <option name="canonical key length" value="1"/>
+  
+  <image tag="{T}" file="trash.png" />
+  <image tag="{A}" file="action.png" />
+  <image tag="{S}" file="subroutine.png" />
+  <image tag="{TM}" file="tm.png" />
+  <image tag="{R}" file="r.png" />
+  <image tag="{0}" file="0.png" />
+  <image tag="{1}" file="1.png" />
+  <image tag="{2}" file="2.png" />
+  <image tag="{3}" file="3.png" />
+  <image tag="{4}" file="4.png" />
+  <image tag="{5}" file="5.png" />
+  <image tag="{6}" file="6.png" />
+  <image tag="{7}" file="7.png" />
+  <image tag="{8}" file="8.png" />
+  <image tag="{9}" file="9.png" />
+  <image tag="{10}" file="10.png" />
+  <image tag="{11}" file="11.png" />
+  <image tag="{12}" file="12.png" />
+  <image tag="{15}" file="15.png" />
+  <image tag="{16}" file="16.png" />
+
+  <option name="draw hints" value="card_type"/>
+  <option name="default border width" value="25"/>
+  <option name="default border color" value="163,168,185"/>
+  <option name="default back color" value="58,59,80"/>
+
+  <option name="default title" value="25,25,300,45"/>
+  <option name="default title font" value="2"/>
+  <option name="default title font size" value="30"/>
+  <option name="default title font color" value="255,255,255"/>
+
+  <option name="default text box" value="70,360,300,190"/>
+  <option name="default text box font" value="2"/>
+  <option name="default text box font size" value="25"/>
+  <option name="default text box font color" value="10,10,10"/>
+  <option name="default text box align" value="0"/>
+
+  <option name="default image" value="33,77,350,219"/>
+  <option name="default image color" value="112,89,145"/>
+  <option name="default image border" value="3"/>
+  <option name="default image border color" value="44,23,40"/>
+  <option name="default image font" value="3"/>
+  <option name="default image font size" value="120"/>
+  <option name="default image font color" value="255,203,139"/>
+
+  <option name="default box 1" value="25,25,300,45"/>
+  <option name="default box 1 color" value="10,10,10"/>
+
+  <option name="default box 2" value="25,291,370,270"/>
+  <option name="default box 2 color" value="83,82,148"/>
+
+  <option name="default box 3" value="270,261,125,30"/>
+  <option name="default box 3 color" value="83,82,148"/>
+
+  <option name="default box 4" value="70,326,300,235"/>
+  <option name="default box 4 color" value="208,203,200"/>
+
+  <option name="default box 5" value="70,326,300,235"/>
+  <option name="default box 5 color" value="208,203,200"/>
+
+  <option name="default box 6" value="330,25,50,55"/>
+  <option name="default box 6 color" value="35,62,43"/>
+  <option name="default box 6 border" value="2"/>
+  <option name="default box 6 border color" value="35,82,43"/>
+
+  <option name="default text 2" value="70,326,300,35"/>
+  <option name="default text 2 font" value="0"/>
+  <option name="default text 2 font size" value="35"/>
+  <option name="default text 2 content" value="[card_type] - [card_subtype] [memory_use]"/>
+
+  <option name="default text 3" value="320,25,70,55"/>
+  <option name="default text 3 font" value="3"/>
+  <option name="default text 3 font size" value="40"/>
+  <option name="default text 3 font color" value="255,255,255"/>
+  <option name="default text 3 align" value="1"/>
+  <option name="default text 3 content" value="[cost]"/>
+
+  <option name="Agenda image color" value="13,11,22"/>
+  <option name="Agenda image font color" value="197,150,124"/>
+  <option name="Agenda image border color" value="179,59,71"/>
+  <option name="Agenda text 3 content" value="[difficulty]"/>
+  <option name="Agenda box 7" value="353,523,50,50"/>
+  <option name="Agenda box 7 color" value="10,10,10"/>
+  <option name="Agenda box 7 border" value="3"/>
+  <option name="Agenda box 7 border color" value="142,132,51"/>
+  <option name="Agenda text 7" value="353,523,50,50"/>
+  <option name="Agenda text 7 font" value="0"/>
+  <option name="Agenda text 7 font size" value="35"/>
+  <option name="Agenda text 7 font color" value="255,255,255"/>
+  <option name="Agenda text 7 align" value="1"/>
+  <option name="Agenda text 7 content" value="[agenda]"/>
+
+  <option name="Operation box 2 color" value="199,105,18"/>
+  <option name="Operation box 3 color" value="199,105,18"/>
+  <option name="Operation box 5 color" value="203,203,195"/>
+  <option name="Operation image color" value="207,158,55"/>
+  <option name="Operation image font color" value="114,69,40"/>
+  <option name="Operation image border color" value="202,211,192"/>
+  <option name="Operation box 6 color" value="75,107,22"/>
+  <option name="Operation box 6 border color" value="75,127,22"/>
+
+  <option name="Resource text box font color" value="255,255,255"/>
+  <option name="Resource text 2 font color" value="255,255,255"/>
+  <option name="Resource box 2 color" value="41,41,37"/>
+  <option name="Resource box 3 color" value="41,41,37"/>
+  <option name="Resource box 5 color" value="13,18,14"/>
+  <option name="Resource image color" value="101,116,95"/>
+  <option name="Resource image font color" value="157,71,36"/>
+  <option name="Resource image border color" value="84,96,120"/>
+  <option name="Resource box 6 color" value="115,51,49"/>
+  <option name="Resource box 6 border color" value="145,51,49"/>
+
+  <option name="Program text box font color" value="255,255,255"/>
+  <option name="Program text 2 font color" value="255,255,255"/>
+  <option name="Program box 2 color" value="132,129,124"/>
+  <option name="Program box 3 color" value="132,129,124"/>
+  <option name="Program box 5 color" value="8,6,9"/>
+  <option name="Program image color" value="167,183,196"/>
+  <option name="Program image font color" value="158,83,69"/>
+  <option name="Program image border color" value="202,211,192"/>
+  <option name="Program box 6 color" value="115,51,49"/>
+  <option name="Program box 6 border color" value="145,51,49"/>
+
+  <option name="Prep text box font color" value="198,204,200"/>
+  <option name="Prep text 2 font color" value="198,204,200"/>
+  <option name="Prep box 2 color" value="66,70,69"/>
+  <option name="Prep box 3 color" value="66,70,69"/>
+  <option name="Prep box 5 color" value="9,10,14"/>
+  <option name="Prep image color" value="245,190,100"/>
+  <option name="Prep image font color" value="57,34,16"/>
+  <option name="Prep image border color" value="21,23,20"/>
+  <option name="Prep box 6 color" value="115,51,49"/>
+  <option name="Prep box 6 border color" value="145,51,49"/>
+
+  <option name="Node box 2 color" value="46,72,45"/>
+  <option name="Node box 3 color" value="46,72,45"/>
+  <option name="Node box 5 color" value="191,197,169"/>
+  <option name="Node image color" value="228,206,120"/>
+  <option name="Node image font color" value="86,43,70"/>
+  <option name="Node image border color" value="28,53,24"/>
+
+  <option name="Node box 7" value="353,523,50,50"/>
+  <option name="Node box 7 color" value="253,255,254"/>
+  <option name="Node text 7" value="353,523,50,50"/>
+  <option name="Node text 7 font" value="0"/>
+  <option name="Node text 7 font size" value="30"/>
+  <option name="Node text 7 align" value="1"/>
+  <option name="Node text 7 content" value="[trash][strength]"/>
+
+  <option name="Ice box 2 color" value="126,173,165"/>
+  <option name="Ice box 3 color" value="126,173,165"/>
+  <option name="Ice box 5 color" value="210,202,199"/>
+  <option name="Ice image color" value="194,189,219"/>
+  <option name="Ice image font color" value="137,52,73"/>
+  <option name="Ice image border color" value="255,255,255"/>
+  <option name="Ice box 7" value="12,503,60,60"/>
+  <option name="Ice box 7 color" value="10,15,8"/>
+  <option name="Ice box 7 border" value="3"/>
+  <option name="Ice box 7 border color" value="78,111,54"/>
+  <option name="Ice text 7" value="12,503,60,60"/>
+  <option name="Ice text 7 font" value="0"/>
+  <option name="Ice text 7 font size" value="30"/>
+  <option name="Ice text 7 font color" value="255,255,255"/>
+  <option name="Ice text 7 align" value="1"/>
+  <option name="Ice text 7 content" value="[strength]"/>
+
+  <option name="Hardware text box font color" value="255,255,255"/>
+  <option name="Hardware text 2 font color" value="255,255,255"/>
+  <option name="Hardware box 2 color" value="94,95,100"/>
+  <option name="Hardware box 3 color" value="94,95,100"/>
+  <option name="Hardware box 5 color" value="15,16,18"/>
+  <option name="Hardware image color" value="168,77,20"/>
+  <option name="Hardware image font color" value="196,121,66"/>
+  <option name="Hardware image border color" value="110,67,76"/>
+  <option name="Hardware box 6 color" value="115,51,49"/>
+  <option name="Hardware box 6 border color" value="145,51,49"/>
+
+  <option name="Upgrade box 2 color" value="65,55,80"/>
+  <option name="Upgrade box 3 color" value="65,55,80"/>
+  <option name="Upgrade box 5 color" value="206,202,199"/>
+  <option name="Upgrade image color" value="66,53,141"/>
+  <option name="Upgrade image font color" value="219,80,21"/>
+  <option name="Upgrade image border color" value="41,31,92"/>
+  <option name="Upgrade box 7" value="353,523,50,50"/>
+  <option name="Upgrade box 7 color" value="253,255,254"/>
+  <option name="Upgrade box 7 border" value="1"/>
+  <option name="Upgrade box 7 border color" value="10,10,10"/>
+  <option name="Upgrade text 7" value="353,523,50,50"/>
+  <option name="Upgrade text 7 font" value="0"/>
+  <option name="Upgrade text 7 font size" value="30"/>
+  <option name="Upgrade text 7 align" value="1"/>
+  <option name="Upgrade text 7 content" value="[trash]"/>
+
+  <option name="deck order" value="card_type"/>
+  <option name="deck color by" value="card_type"/>
+  <option name="Agenda text" value="{blue}"/>
+  <option name="Hardware text" value="{black}"/>
+  <option name="Ice text" value="{cyan}"/>
+  <option name="Node text" value="{green}"/>
+  <option name="Operation text" value="{orange}"/>
+  <option name="Prep text" value="{gray}"/>
+  <option name="Program text" value="{magenta}"/>
+  <option name="Resource text" value="{brown}"/>
+  <option name="Upgrade text" value="{gray}"/>
+
+  <trigger event="play" attribute="card_type"/>
+
+  <trigger event="location hint" attribute="card_type"/>
+</ccg>

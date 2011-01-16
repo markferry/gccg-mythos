@@ -1,0 +1,116 @@
+if(!port)
+  port=29141;
+  
+
+def InitDistributions
+{
+  distribution=(,);
+  distribution{"NR"}=(,);
+
+  distribution{"NR"}{"starter"}=((15,"CC"),(2,"CR"),(15,"CC"),(11,"CV"),(17,"CU"), (30,"RC"),(15,"RV"),(13,"RU"),(2,"RR"));
+
+  distribution{"NR"}{"booster common"}=((3,"CC"),(3,"RC"));
+  distribution{"NR"}{"booster uncommon"}=((2,"CU"),(2,"RU"));
+  distribution{"NR"}{"booster vital"}=((1,"CV"),(1,"RV"));
+
+  distribution{"CL"}=(,);
+  distribution{"CL"}{"booster"}=((1,"RR"),(3,"RC"),(1,"CR"),(3,"CC"));
+
+}
+
+def ProduceNR_Booster
+{
+  push(p);
+  push(q);
+  push(r);
+  
+  if(random(100) < 50)
+  {
+    p=random(cards{"NR"}{"CC"});
+    r=random(cards{"NR"}{"RR"});
+  }
+  else
+  {
+    p=random(cards{"NR"}{"RC"});
+    r=random(cards{"NR"}{"CR"});
+  }
+
+  if(random(100) < 50)
+    q=random(cards{"NR"}{"CU"});
+  else
+    q=random(cards{"NR"}{"RU"});
+
+  return(RandomCardSet("NR",distribution{"NR"}{"booster common"})+(p,)+RandomCardSet("NR",distribution{"NR"}{"booster uncommon"})+(q,)+(r,)+RandomCardSet("NR",distribution{"NR"}{"booster vital"}));
+  
+  r=pop();
+  q=pop();
+  p=pop();
+}
+
+
+def ProducePR_Booster
+{
+  push(p);
+  push(q);
+  push(r);
+  
+  if(random(100) < 50)
+    p=RandomCardSet("PR",((5,"CC"), (5,"RC")));
+  else
+    p=RandomCardSet("PR",((5,"RC"), (5,"CC")));
+  
+  if(random(100) < 50)
+    q=random(cards{"PR"}{"CR"});
+  else
+    q=random(cards{"PR"}{"RR"});
+  
+  if(random(100) < 50)
+    r=RandomCardSet("PR",((2,"CU"), (2,"RU")));
+  else
+    r=RandomCardSet("PR",((2,"RU"), (2,"CU")));
+
+  return(p+(q,)+r);
+  
+  r=pop();
+  q=pop();
+  p=pop();
+}
+
+def ProduceOW_Booster
+{
+  push(p);
+  push(q);
+  push(r);
+
+  if (random(100) < 50)
+    p=RandomCardSet("OW",((4,"CC"), (5,"RC")));
+  else
+    p=RandomCardSet("OW",((5,"CC"), (4,"RC")));
+
+  if(random(100) < 50)
+    q=random(cards{"OW"}{"CR"});
+  else
+    q=random(cards{"OW"}{"RR"});
+
+  if (random(100) < 50)
+    r=RandomCardSet("OW",((3,"CU"), (2,"RU")));
+  else
+    r=RandomCardSet("OW",((2,"CU"), (3,"RU")));
+
+  return(p+(q,)+r);
+
+  r=pop();
+  q=pop();
+  p=pop();
+}
+
+
+
+
+
+
+
+
+
+
+

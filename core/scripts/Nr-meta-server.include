@@ -1,0 +1,19 @@
+if(!port)
+  port=29140;
+factory.port=29141;
+
+if(!load("products"))
+{
+  products=(,);
+  products{"NetRunner Starter"}=(65536,17.95,("NR","starter"),65536);
+  products{"NetRunner Booster"}=(65536,2.95,("NR","booster"),65536);
+  products{"Proteus Booster"}=(65536,2.95,("PR","booster"),65536);
+  products{"Classic Booster"}=(65536,1.95,("CL","booster"),65536);
+  products{"Open War Booster"}=(65536,1.95,("OW","booster"),65536);
+  save("products");
+}
+
+INITIAL_MONEY=30.0;
+GAME_BONUS=5.0;
+BET_BONUS_MULTIPLIER=1;
+LOSER_PERCENTAGE=0.20;

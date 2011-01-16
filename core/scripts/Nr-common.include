@@ -1,0 +1,144 @@
+
+# CONSTANTS
+# =========
+
+TORRENT_VERSION=1;
+
+#
+# VARIABLES
+# =========
+
+# Deck name mapping.
+deck_name{"deck"}="R&D/Stack";
+deck_name{"discard pile"}="Archive/Trash";
+deck_name{"hidden pile"}="Archive/Trash (H)";
+deck_name{"opponent deck"}="R&D/Stack";
+deck_name{"opponent discard pile"}="Archive/Trash";
+deck_name{"opponent hidden pile"}="Archive/Trash (H)";
+
+#
+# FUNCTIONS
+# =========
+
+#
+# CorpCardsInList(deck) - Calculate number of corporate cards in deck.
+#
+def CorpCardsInList
+{
+  push(c);
+  c=0;
+  c=c+length(select('Attr("card_type",#)=="Agenda"',ARG));
+  c=c+length(select('Attr("card_type",#)=="Ice"',ARG));
+  c=c+length(select('Attr("card_type",#)=="Node"',ARG));
+  c=c+length(select('Attr("card_type",#)=="Operation"',ARG));
+  c=c+length(select('Attr("card_type",#)=="Upgrade"',ARG));
+  return(c);
+  c=pop();
+}
+
+#
+# CorpCards(deck) - Calculate number of corporate cards in deck.
+#
+def CorpCards
+{
+  return(CorpCardsInList(ARG{"deck"}));
+}
+
+#
+# RunnerCardsInList(deck) - Calculate number of runner cards in deck.
+#
+def RunnerCardsInList
+{
+  push(c);
+  c=0;
+  c=c+length(select('Attr("card_type",#)=="Hardware"',ARG));
+  c=c+length(select('Attr("card_type",#)=="Prep"',ARG));
+  c=c+length(select('Attr("card_type",#)=="Program"',ARG));
+  c=c+length(select('Attr("card_type",#)=="Resource"',ARG));
+  return(c);
+  c=pop();
+}
+
+#
+# RunnerCards(deck) - Calculate number of runner cards in deck.
+#
+def RunnerCards
+{
+  return(RunnerCardsInList(ARG{"deck"}));
+}
+
+#
+# TotalAgendaPoints(list) - Calculate total agenda points in the list of cards.
+#
+def TotalAgendaPoints
+{
+  push(p);
+  p=sum(forall('toint(Attr("agenda",#))',select('Attr("card_type",#)=="Agenda"',ARG)));
+  deck_rulecheck.info="found "+p+" agenda points";
+  if(MaxSizePerPoints(p))
+    deck_rulecheck.info=deck_rulecheck.info+" requiring size "+MaxSizePerPoints(p);
+  return(p);
+  p=pop();
+}
+
+#
+# MaxSizePerPoints(points) - Return maximum deck size vs. agenda points.
+#
+def MaxSizePerPoints
+{
+  push(n);
+  n=toint(ARG);
+  if(n<18)
+    return(NULL);
+  else
+  {
+    n=n-18;
+    n=n/2;
+    n=n*5;
+    n=n+45;
+    return(n);    
+  }
+  n=pop();
+}
+
+#
+# FactionOfDeck(deck) - Return 'corp' or 'runner' based on higher number of cards.
+#
+def FactionOfDeck
+{
+  if(RunnerCards(ARG) > CorpCards(ARG))
+    return("runner");
+  else
+    return("corp");
+}
+
+#
+# Test1of15(deck) - Check that 1/15 rule is complied.
+#
+def Test1of15
+{
+  push(m);
+  push(c);
+  push(r);
+
+  m=length(ARG)/15;
+
+  return(1);
+
+  r=(,);
+  for(c)(unique(sort(ARG)))
+  {
+    if(count(c,ARG) > m)
+    {
+      r=r+(name(c)+" x "+count(c,ARG),);
+      return(0);
+    }
+  }
+
+  if(length(r))
+    deck_rulecheck.info="Too many: "+join(r,", ")+" (max. "+m+")";
+
+  r=pop();
+  c=pop();
+  m=pop();
+}

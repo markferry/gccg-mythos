@@ -1,0 +1,113 @@
+#
+#  Middle-earth server
+#  -------------------
+#
+#  Variables:
+#
+#  score_adjust{object number} - modifications to the card score
+#
+#  Functions:
+#
+# SetUpPlayer(p) - create necessary strucrures for player 'p'
+#
+
+screen.width=1024;
+screen.height=768;
+port=29600;
+meta.port=29140;
+
+#
+# FUNCTIONS
+# =========
+
+#
+# ReplaceCorpPlayer(player) - Replace table stuff with corp specific stuff.
+#
+def ReplaceCorpPlayer
+{
+  MoveObject(FindTableCard(ARG,2),60+130,200);
+  MoveObject(FindTableCard(ARG,3),60,200);
+  MoveObject(FindTableCard(ARG,4),60+260,200);
+  score[ARG]{"T"}="corp";
+  SendAll("Score",(ARG,score[ARG]));
+}
+
+#
+# ReplaceRunnerPlayer(player) - Replace table stuff with runner specific stuff.
+#
+def ReplaceRunnerPlayer
+{
+  MoveObject(FindTableCard(ARG,5),60,200);
+  MoveObject(FindDeck(ARG,"hidden pile"),-100,0);
+  MoveObject(FindDeck(ARG,"discard pile"),180,305);
+  score[ARG]{"T"}="runner";
+  SendAll("Score",(ARG,score[ARG]));
+}
+
+#
+# HOOKS
+# =====
+
+#
+# InitServerHook(nmb.of players) - Called during server initialization.
+#
+def InitServerHook
+{
+  for(i)(ARG)
+  {
+    visible.me[i]{"hidden pile"}=0;
+    visible.opp[i]{"hidden pile"}=0;
+  }
+}
+
+#
+# StartGameHook(nmb.of players) - Called when a game is ready to start.
+#
+def StartGameHook
+{
+}
+
+#
+# UploadDeckHook(player,deck) - Called when a player uploads the deck.
+#
+def UploadDeckHook
+{
+  if(FactionOfDeck(ARG[1])=="runner")
+    ReplaceRunnerPlayer(ARG[0]);
+  else
+  {
+    ReplaceCorpPlayer(ARG[0]);
+    GrabTimer();
+  }
+}
+
+#
+# GAME SPECIFIC FUNCTIONS
+# =======================
+
+#
+# SetUpPlayer(p) - Create necessary strucrures for player 'p'.
+#
+def SetUpPlayer
+{
+  CreateDeck(ARG,"deck",50,293);
+  CreateDeck(ARG,"discard pile",280,305);
+  CreateDeck(ARG,"hidden pile",370,305);
+}
+
+#
+# InitialScore(p) - Return a structure representing initial score for a player 'p'.
+#
+def InitialScore
+{
+  push(s);
+  s=(,);
+  s{"B"}=0;
+  s{"A"}=0;
+  s{"D"}=0;
+  s{"P"}=0;
+  s{"T"}="";
+  return(s);
+  s=pop();
+}
+

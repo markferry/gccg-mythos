@@ -59,6 +59,7 @@ v0.9.7
 [ ] Some function to check if system is not functional in client. Use
     it on places like import, export, etc..
 [X] Support for XML-files in extra repositories.
+[ ] Support for deck files in extra repositories.
 
 v0.9.8
 [ ] Try 'scons' based building.

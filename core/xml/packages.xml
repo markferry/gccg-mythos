@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE modules SYSTEM "modules.dtd">
+<modules>
+  <store dir="../build/modules"/>
+  <source url="http://gccg.sourceforge.net/modules/"/>
+  <source url="http://www.derangedmonkey.com/bmin/"/>
+  <source url="http://www.reneploetz.de/gccg/"/>
+  <source url="http://lotrtcgdb.com/files/gccg/"/>
+  <module name="core" version="1.0.1">
+	<include file="decks"/>
+	<include file="doc"/>
+	<include file="lib"/>
+	<include files="xml/*.dtd"/>
+	<include file="graphics"/>
+	<include file="sounds"/>
+	<include file="scripts/common.include"/>
+	<include file="gccg_package"/>
+	<include file="COPYING"/>
+	<include file="tools/launch_client"/>
+	<include file="games.dat"/>
+  </module>
+  <module name="source" version="0.9.6.0">
+	<include dir="src"/>
+	<include files="*.bpr"/>
+	<include files="*.vcproj"/>
+	<include file="TODO"/>
+	<include file="Makefile"/>
+	<include file="ChangeLog"/>
+	<include file="configure"/>
+  </module>
+  <module name="linux-i386" version="0.9.6.1">
+	<include file="ccg_client"/>
+	<include file="ccg_server"/>
+	<include file="ccg_text_client"/>
+  </module>
+  <module name="darwin-i386" version="0.9.6.0">
+	<include file="ccg_client"/>
+	<include file="ccg_server"/>
+	<include file="ccg_text_client"/>
+  </module>
+  <module name="windows32" version="0.9.6.0">
+	<include file="ccg_client.exe"/>
+	<include file="ccg_server.exe"/>
+	<include files="*.dll"/>
+	<include file="README-SDL.txt"/>
+  </module>
+  <module name="client" version="0.9.6.2">
+	<include file="scripts/client.functions"/>
+	<include file="scripts/client.triggers"/>
+	<include file="lib/dictionary.client"/>
+	<include files="graphics/avatar/*.png"/>
+	<include files="graphics/avatar/*.txt"/>
+	<include files="graphics/*.png"/>
+	<include files="graphics/*.jpg"/>
+	<include files="sounds/*.ogg"/>
+  </module>
+  <module name="server" version="0.9.6.0">
+	<include file="ServerLaunch"/>
+	<include file="ServerStatus"/>
+	<include file="ServerKill"/>
+	<include file="Server"/>
+	<include file="TableKill"/>
+	<include file="save"/>
+	<include file="log"/>
+	<include file="perl/gccg.pm"/>
+	<include file="perl/server.pm"/>
+	<include file="perl/game_info.pl"/>
+	<include file="scripts/factory-server.functions"/>
+	<include file="scripts/factory-server.triggers"/>
+	<include file="scripts/meta-server.functions"/>
+	<include file="scripts/meta-server.triggers"/>
+	<include file="scripts/server.functions"/>
+	<include file="scripts/server.triggers"/>
+  </module>
+  <module name="fonts" version="2.0">
+	<include dir="graphics/fonts/free"/>
+  </module>
+  <module name="fonts-windows" version="2.0">
+	<include dir="graphics/fonts/windows"/>
+  </module>
+  <module name="dev-tools" version="2.0">
+	<include dir="data"/>
+	<include dir="perl"/>
+	<include dir="localization"/>
+  </module>
+  <module name="mtg-server" version="1.3">
+	<include file="scripts/Mtg-factory-server.include"/>
+	<include file="scripts/Mtg-meta-server.include"/>
+	<include file="scripts/Mtg-server.include"/>
+	<include file="mtg-sample.conf"/>
+  </module>
+  <module name="pokemon-server" version="0.9.6">
+	<include file="scripts/Pokemon-factory-server.include"/>
+	<include file="scripts/Pokemon-meta-server.include"/>
+	<include file="scripts/Pokemon-server.include"/>
+	<include file="pokemon-sample.conf"/>
+  </module>
+  <module name="metw-server" version="1.2.4">
+	<include file="scripts/Metw-factory-server.include"/>
+	<include file="scripts/Metw-meta-server.include"/>
+	<include file="scripts/Metw-server.include"/>
+	<include file="metw-sample.conf"/>
+  </module>
+  <module name="lotr-server" version="1.1">
+	<include file="scripts/Lotr-factory-server.include"/>
+	<include file="scripts/Lotr-meta-server.include"/>
+	<include file="scripts/Lotr-server.include"/>
+	<include file="lotr-sample.conf"/>
+  </module>
+  <module name="mtg" version="1.2.9">
+  	<include file="Mtg"/>
+	<include file="Mtg.bat"/>
+	<include file="xml/mtg.xml"/>
+	<include dir="lib/Mtg"/>
+	<include dir="xml/Mtg"/>
+	<include dir="decks/Mtg"/>
+	<include dir="scripts/Mtg"/>
+	<include file="scripts/Mtg.include"/>
+	<include file="scripts/Mtg-common.include"/>
+	<include file="scripts/client.functions"/>
+	<include files="scripts/Mtg*.rules"/>
+	<include files="graphics/Mtg/*.png"/>
+	<include files="graphics/Mtg/*_booster.jpg"/>
+	<include files="graphics/Mtg/*_starter.jpg"/>
+	<include files="graphics/Mtg/*_token.jpg"/>
+	<include files="graphics/Mtg/mtgback.jpg"/>
+  </module>
+  <module name="pokemon" version="1.2">
+	<include file="Pokemon"/>
+	<include file="Pokemon.bat"/>
+	<include file="xml/pokemon.xml"/>
+	<include dir="lib/Pokemon"/>
+	<include dir="xml/Pokemon"/>
+	<include dir="decks/Pokemon"/>
+	<include dir="scripts/Pokemon"/>
+	<include file="scripts/Pokemon.include"/>
+	<include files="scripts/Pokemon*.rules"/>
+	<include files="graphics/Pokemon/*.png"/>
+	<include files="graphics/Pokemon/*.jpg"/>
+  </module>
+  <module name="metw" version="1.2.4">
+	<include file="Metw"/>
+	<include file="Metw.bat"/>
+	<include file="Metw-fullscreen.bat"/>
+	<include file="xml/metw.xml"/>
+	<include dir="lib/Metw"/>
+	<include dir="decks/Metw"/>
+	<include dir="scripts/Metw"/>
+	<include files="xml/Metw/*.xml"/>
+	<include file="scripts/Metw-common.include"/>
+	<include file="scripts/Metw.include"/>
+	<include files="scripts/Metw*.rules"/>
+	<include files="graphics/Metw/*.png"/>
+	<include files="graphics/Metw/*.jpg"/>
+  </module>
+  <module name="metw-de" version="0.3">
+	<include files="xml/Metw/de/*.xml"/>
+  </module>
+  <module name="lotr" version="1.1.2">
+	<include file="Lotr"/>
+	<include file="Lotr.bat"/>
+	<include file="Lotr-fullscreen.bat"/>
+	<include file="xml/lotr.xml"/>
+	<include dir="lib/Lotr"/>
+	<include dir="xml/Lotr"/>
+	<include dir="decks/Lotr"/>
+	<include dir="scripts/Lotr"/>
+	<include file="scripts/Lotr-common.include"/>
+	<include file="scripts/Lotr.include"/>
+	<include files="scripts/Lotr*.rules"/>
+	<include files="graphics/Lotr/*.png"/>
+	<include files="graphics/Lotr/*.jpg"/>
+  </module>
+  <module name="poker" version="0.5.0">
+	<include file="xml/poker.xml"/>
+	<include dir="lib/Poker"/>
+	<include dir="xml/Poker"/>
+	<include dir="decks/Poker"/>
+	<include dir="graphics/Poker"/>
+	<include files="scripts/Poker*"/>
+	<include files="graphics/Poker/*.png"/>
+	<include files="graphics/Poker/*.jpg"/>
+  </module>
+  <module name="nr" version="1.1">
+	<include file="Nr"/>
+	<include file="Nr.bat"/>
+	<include file="xml/nr.xml"/>
+	<include dir="lib/Nr"/>
+	<include dir="decks/Nr"/>
+	<include dir="scripts/Nr"/>
+	<include files="xml/Nr/*.xml"/>
+	<include file="scripts/Nr-common.include"/>
+	<include file="scripts/Nr.include"/>
+	<include files="scripts/Nr*.rules"/>
+	<include files="graphics/Nr/*.png"/>
+	<include files="graphics/Nr/*.jpg"/>
+  </module>
+  <module name="nr-server" version="1.1">
+	<include file="scripts/Nr-factory-server.include"/>
+	<include file="scripts/Nr-meta-server.include"/>
+	<include file="scripts/Nr-server.include"/>
+	<include file="nr-sample.conf"/>
+  </module>
+  <module name="mtg-cards-000" version="14">
+	<include dir="graphics/Mtg/PM"/>
+	<include dir="graphics/Mtg/UG"/>
+	<include dir="graphics/Mtg/UH"/>
+    <include file="graphics/Mtg/Angel44W.jpg"/>
+    <include file="graphics/Mtg/AvatarXXW.jpg"/>
+    <include file="graphics/Mtg/Bear22G.jpg"/>
+    <include file="graphics/Mtg/Beast33G.jpg"/>
+    <include file="graphics/Mtg/Beast44G.jpg"/>
+    <include file="graphics/Mtg/Beast55G.jpg"/>
+    <include file="graphics/Mtg/Beast88RGW.jpg"/>
+    <include file="graphics/Mtg/Bird11U.jpg"/>
+    <include file="graphics/Mtg/Bird11UW.jpg"/>
+    <include file="graphics/Mtg/Bird11W.jpg"/>
+    <include file="graphics/Mtg/BirdSoldier11W.jpg"/>
+    <include file="graphics/Mtg/Cat11R.jpg"/>
+    <include file="graphics/Mtg/Cat21B.jpg"/>
+    <include file="graphics/Mtg/Centaur33G.jpg"/>
+    <include file="graphics/Mtg/DemonXXB.jpg"/>
+    <include file="graphics/Mtg/Dragon11RG.jpg"/>
+    <include file="graphics/Mtg/Dragon44R.jpg"/>
+    <include file="graphics/Mtg/Dragon55R.jpg"/>
+    <include file="graphics/Mtg/DragonSpirit55U.jpg"/>
+    <include file="graphics/Mtg/Drake22UG.jpg"/>
+    <include file="graphics/Mtg/Elemental11R.jpg"/>
+    <include file="graphics/Mtg/Elemental22U.jpg"/>
+    <include file="graphics/Mtg/Elemental31R.jpg"/>
+    <include file="graphics/Mtg/Elemental33R.jpg"/>
+    <include file="graphics/Mtg/Elemental44G.jpg"/>
+    <include file="graphics/Mtg/Elemental44W.jpg"/>
+    <include file="graphics/Mtg/Elemental55BR.jpg"/>
+    <include file="graphics/Mtg/Elemental55UR.jpg"/>
+    <include file="graphics/Mtg/Elemental77G.jpg"/>
+    <include file="graphics/Mtg/ElementalShaman31R.jpg"/>
+    <include file="graphics/Mtg/ElementalXXG.jpg"/>
+    <include file="graphics/Mtg/Elephant33G.jpg"/>
+    <include file="graphics/Mtg/ElfWarrior11G.jpg"/>
+    <include file="graphics/Mtg/ElfWarrior11GW.jpg"/>
+    <include file="graphics/Mtg/Faerie11U.jpg"/>
+    <include file="graphics/Mtg/FaerieRogue11B.jpg"/>
+    <include file="graphics/Mtg/FaerieRogue11BU.jpg"/>
+    <include file="graphics/Mtg/GiantWarrior44GR.jpg"/>
+    <include file="graphics/Mtg/GiantWarrior55W.jpg"/>
+    <include file="graphics/Mtg/Goat01W.jpg"/>
+    <include file="graphics/Mtg/Goblin11R.jpg"/>
+    <include file="graphics/Mtg/GoblinRogue11B.jpg"/>
+    <include file="graphics/Mtg/GoblinSoldier11RW.jpg"/>
+    <include file="graphics/Mtg/GoblinWarrior11GR.jpg"/>
+    <include file="graphics/Mtg/Hippo11G.jpg"/>
+    <include file="graphics/Mtg/Homunculus01C.jpg"/>
+    <include file="graphics/Mtg/Horror44B.jpg"/>
+    <include file="graphics/Mtg/Illusion11U.jpg"/>
+    <include file="graphics/Mtg/Insect22G.jpg"/>
+    <include file="graphics/Mtg/JitteCounter.jpg"/>
+    <include file="graphics/Mtg/Kaldra44C.jpg"/>
+    <include file="graphics/Mtg/Kavu33B.jpg"/>
+    <include file="graphics/Mtg/KithkinSoldier11W.jpg"/>
+    <include file="graphics/Mtg/Knight22W.jpg"/>
+    <include file="graphics/Mtg/Lizard22G.jpg"/>
+    <include file="graphics/Mtg/MaritLage22B.jpg"/>
+    <include file="graphics/Mtg/MerfolkWizard11U.jpg"/>
+    <include file="graphics/Mtg/Myr11C.jpg"/>
+    <include file="graphics/Mtg/OozeXXG.jpg"/>
+    <include file="graphics/Mtg/Pentavite11C.jpg"/>
+    <include file="graphics/Mtg/Pest01C.jpg"/>
+    <include file="graphics/Mtg/Pincher22C.jpg"/>
+    <include file="graphics/Mtg/Rat11B.jpg"/>
+    <include file="graphics/Mtg/ReflectionXXW.jpg"/>
+    <include file="graphics/Mtg/Rukh44R.jpg"/>
+    <include file="graphics/Mtg/Saproling11G.jpg"/>
+    <include file="graphics/Mtg/Shapeshifter11C.jpg"/>
+    <include file="graphics/Mtg/Skeleton11B.jpg"/>
+    <include file="graphics/Mtg/Sliver11C.jpg"/>
+    <include file="graphics/Mtg/Snake11G.jpg"/>
+    <include file="graphics/Mtg/Snake11UG.jpg"/>
+    <include file="graphics/Mtg/Soldier11W.jpg"/>
+    <include file="graphics/Mtg/Spawn22C.jpg"/>
+    <include file="graphics/Mtg/Spider12G.jpg"/>
+    <include file="graphics/Mtg/Spirit11BW.jpg"/>
+    <include file="graphics/Mtg/Spirit11C.jpg"/>
+    <include file="graphics/Mtg/Spirit11W.jpg"/>
+    <include file="graphics/Mtg/Squirrel11G.jpg"/>
+    <include file="graphics/Mtg/StormCounter.jpg"/>
+    <include file="graphics/Mtg/Thopther11C.jpg"/>
+    <include file="graphics/Mtg/Thrull01B.jpg"/>
+    <include file="graphics/Mtg/TreefolkShaman25G.jpg"/>
+    <include file="graphics/Mtg/Twin34C.jpg"/>
+    <include file="graphics/Mtg/Urami55B.jpg"/>
+    <include file="graphics/Mtg/Voja22GW.jpg"/>
+    <include file="graphics/Mtg/Warrior11R.jpg"/>
+    <include file="graphics/Mtg/Wasp11C.jpg"/>
+    <include file="graphics/Mtg/Wolf22G.jpg"/>
+    <include file="graphics/Mtg/Worm11BG.jpg"/>
+    <include file="graphics/Mtg/Wurm66B.jpg"/>
+    <include file="graphics/Mtg/Wurm66G.jpg"/>
+    <include file="graphics/Mtg/Zombie22B.jpg"/>
+    <include file="graphics/Mtg/ZombieWizard11BU.jpg"/>
+  </module>
+  <module name="mtg-cards-001" version="11">
+	<include dir="graphics/Mtg/Beta"/>
+	<include dir="graphics/Mtg/RV"/>
+  </module>
+  <module name="mtg-cards-002" version="11">
+	<include dir="graphics/Mtg/4th"/>
+	<include dir="graphics/Mtg/5th"/>
+	<include dir="graphics/Mtg/6th"/>
+	<include dir="graphics/Mtg/7th"/>
+  </module>
+  <module name="mtg-cards-003" version="11">
+	<include dir="graphics/Mtg/AN"/>
+	<include dir="graphics/Mtg/AQ"/>
+	<include dir="graphics/Mtg/DK"/>
+	<include dir="graphics/Mtg/FE"/>
+	<include dir="graphics/Mtg/HL"/>
+	<include dir="graphics/Mtg/LG"/>
+  </module>
+  <module name="mtg-cards-004" version="11">
+	<include dir="graphics/Mtg/8th"/>
+	<include dir="graphics/Mtg/9th"/>
+	<include dir="graphics/Mtg/XE"/>
+  </module>
+  <module name="mtg-cards-005" version="11">
+	<include dir="graphics/Mtg/P1"/>
+	<include dir="graphics/Mtg/P2"/>
+	<include dir="graphics/Mtg/P3"/>
+	<include dir="graphics/Mtg/S1"/>
+  </module>
+  <module name="mtg-cards-006" version="11">
+	<include dir="graphics/Mtg/IA"/>
+	<include dir="graphics/Mtg/AL"/>
+	<include dir="graphics/Mtg/CS"/>
+  </module>
+  <module name="mtg-cards-007" version="11">
+	<include dir="graphics/Mtg/MI"/>
+	<include dir="graphics/Mtg/VI"/>
+	<include dir="graphics/Mtg/WL"/>
+  </module>
+  <module name="mtg-cards-008" version="11">
+	<include dir="graphics/Mtg/TE"/>
+	<include dir="graphics/Mtg/SH"/>
+	<include dir="graphics/Mtg/EX"/>
+  </module>
+  <module name="mtg-cards-009" version="11">
+	<include dir="graphics/Mtg/US"/>
+	<include dir="graphics/Mtg/UD"/>
+	<include dir="graphics/Mtg/UL"/>
+  </module>
+  <module name="mtg-cards-010" version="11">
+	<include dir="graphics/Mtg/MM"/>
+	<include dir="graphics/Mtg/NE"/>
+	<include dir="graphics/Mtg/PY"/>
+  </module>
+  <module name="mtg-cards-011" version="11">
+	<include dir="graphics/Mtg/IN"/>
+	<include dir="graphics/Mtg/PS"/>
+	<include dir="graphics/Mtg/AP"/>
+  </module>
+  <module name="mtg-cards-012" version="11">
+	<include dir="graphics/Mtg/MI"/>
+	<include dir="graphics/Mtg/MI"/>
+	<include dir="graphics/Mtg/WL"/>
+  </module>
+  <module name="mtg-cards-013" version="11">
+	<include dir="graphics/Mtg/ON"/>
+	<include dir="graphics/Mtg/LE"/>
+	<include dir="graphics/Mtg/SC"/>
+  </module>
+  <module name="mtg-cards-014" version="12">
+	<include dir="graphics/Mtg/MR"/>
+	<include dir="graphics/Mtg/DS"/>
+	<include dir="graphics/Mtg/FD"/>
+  </module>
+  <module name="mtg-cards-015" version="11">
+	<include dir="graphics/Mtg/CK"/>
+	<include dir="graphics/Mtg/BK"/>
+	<include dir="graphics/Mtg/SK"/>
+  </module>
+  <module name="mtg-cards-016" version="11">
+	<include dir="graphics/Mtg/RA"/>
+	<include dir="graphics/Mtg/DI"/>
+	<include dir="graphics/Mtg/GP"/>
+  </module>
+  <module name="mtg-cards-017" version="11">
+	<include dir="graphics/Mtg/TS"/>
+	<include dir="graphics/Mtg/PC"/>
+	<include dir="graphics/Mtg/FS"/>
+  </module>
+  <module name="mtg-cards-018" version="12">
+	<include dir="graphics/Mtg/LRW"/>
+	<include dir="graphics/Mtg/MOR"/>
+	<include dir="graphics/Mtg/SM"/>
+	<include dir="graphics/Mtg/EVE"/>
+  </module>
+  <module name="mtg-cards-019" version="3">
+	<include dir="graphics/Mtg/ALA"/>
+	<include dir="graphics/Mtg/CFX"/>
+	<include dir="graphics/Mtg/ARE"/>
+  </module>
+  <module name="mtg-cards-020" version="2">
+	<include dir="graphics/Mtg/M10"/>
+	<include dir="graphics/Mtg/M11"/>
+  </module>
+  <module name="mtg-cards-021" version="4">
+	<include dir="graphics/Mtg/ZDK"/>
+	<include dir="graphics/Mtg/WWK"/>
+	<include dir="graphics/Mtg/ROE"/>
+  </module>
+  <module name="mtg-cards-022" version="1">
+	<include dir="graphics/Mtg/SOM"/>
+  </module>
+  <module name="pokemon-cards-001" version="5">
+	<include dir="graphics/Pokemon/BasicSet"/>
+  </module>
+  <module name="pokemon-cards-002" version="4">
+	<include dir="graphics/Pokemon/Jungle"/>
+  </module>
+  <module name="pokemon-cards-003" version="3">
+	<include dir="graphics/Pokemon/Fossil"/>
+  </module>
+  <module name="pokemon-cards-004" version="2">
+	<include dir="graphics/Pokemon/TeamRocket"/>
+  </module>
+  <module name="pokemon-cards-005" version="3">
+	<include dir="graphics/Pokemon/GymHeroes"/>
+  </module>
+  <module name="pokemon-cards-006" version="1">
+	<include dir="graphics/Pokemon/GymChallenge"/>
+  </module>
+  <module name="pokemon-cards-007" version="1">
+	<include dir="graphics/Pokemon/NeoGenesis"/>
+  </module>
+  <module name="pokemon-cards-008" version="1">
+	<include dir="graphics/Pokemon/NeoDiscovery"/>
+  </module>
+  <module name="pokemon-cards-009" version="1">
+	<include dir="graphics/Pokemon/NeoRevelation"/>
+  </module>
+  <module name="metw-cards-001" version="7">
+	<include dir="graphics/Metw/Wizards"/>
+  </module>
+  <module name="metw-cards-002" version="5">
+	<include dir="graphics/Metw/Dragons"/>
+  </module>
+  <module name="metw-cards-003" version="5">
+	<include dir="graphics/Metw/DarkMinions"/>
+  </module>
+  <module name="metw-cards-004" version="11">
+	<include dir="graphics/Metw/LidlessEye"/>
+  </module>
+  <module name="metw-cards-005" version="7">
+	<include dir="graphics/Metw/AgainstShadow"/>
+  </module>
+  <module name="metw-cards-006" version="2">
+	<include dir="graphics/Metw/WhiteHand"/>
+  </module>
+  <module name="metw-cards-007" version="3">
+	<include dir="graphics/Metw/Balrog"/>
+  </module>
+  <module name="metw-cards-008" version="3">
+	<include dir="graphics/Metw/Promo"/>
+  </module>
+  <module name="metw-cards-009" version="1">
+	<include dir="graphics/Metw/Promo_de"/>
+  </module>
+  <module name="metw-cards-010" version="6">
+	<include dir="graphics/Metw/VC1"/>
+  </module>
+  <module name="metw-cards-011" version="1">
+	<include dir="graphics/Metw/Party"/>
+  </module>
+  <module name="metw-cards-012" version="1">
+	<include dir="graphics/Metw/Waste"/>
+  </module>
+  <module name="metw-cards-013" version="9">
+	<include dir="graphics/Metw/Firstborn"/>
+  </module>
+  <module name="metw-cards-014" version="1">
+	<include dir="graphics/Metw/MortalMen"/>
+  </module>
+  <module name="metw-cards-016" version="1">
+	<include dir="graphics/Metw/DurinsFolk"/>
+  </module>
+  <module name="metw-cards-017" version="1">
+	<include dir="graphics/Metw/GreatWyrms"/>
+  </module>
+  <module name="metw-cards-018" version="1">
+	<include dir="graphics/Metw/NorthernWaste"/>
+  </module>
+  <module name="metw-cards-019" version="1">
+	<include dir="graphics/Metw/firstborn_promo"/>
+  </module>
+  <module name="metw-cards-020" version="1">
+	<include dir="graphics/Metw/VC2"/>
+  </module>
+  <module name="metw-cards-021" version="1">
+	<include dir="graphics/Metw/VC3"/>
+  </module>
+  <module name="metw-cards-022" version="1">
+	<include dir="graphics/Metw/DurinsFolk"/>
+  </module>
+  <module name="lotr-cards-001" version="5">
+	<include dir="graphics/Lotr/Promo"/>
+  </module>
+  <module name="lotr-cards-002" version="4">
+	<include dir="graphics/Lotr/Fellowship"/>
+  </module>
+  <module name="lotr-cards-003" version="4">
+	<include dir="graphics/Lotr/Mines"/>
+  </module>
+  <module name="lotr-cards-004" version="4">
+	<include dir="graphics/Lotr/Realms"/>
+  </module>
+  <module name="lotr-cards-005" version="4">
+	<include dir="graphics/Lotr/TwoTowers"/>
+  </module>
+  <module name="lotr-cards-006" version="4">
+	<include dir="graphics/Lotr/HelmsDeep"/>
+  </module>
+  <module name="lotr-cards-007" version="4">
+	<include dir="graphics/Lotr/Ents"/>
+  </module>
+  <module name="lotr-cards-008" version="2">
+	<include dir="graphics/Lotr/ReturnOfTheKing"/>
+  </module>
+  <module name="lotr-cards-009" version="3">
+	<include dir="graphics/Lotr/Reflections"/>
+  </module>
+  <module name="lotr-cards-010" version="3">
+	<include dir="graphics/Lotr/Siege"/>
+  </module>
+  <module name="lotr-cards-011" version="2">
+	<include dir="graphics/Lotr/Doom"/>
+  </module>
+  <module name="lotr-cards-012" version="2">
+	<include dir="graphics/Lotr/Shadows"/>
+  </module>
+  <module name="lotr-cards-013" version="2">
+	<include dir="graphics/Lotr/Riders"/>
+  </module>
+  <module name="lotr-cards-014" version="2">
+	<include dir="graphics/Lotr/Bloodlines"/>
+  </module>
+  <module name="lotr-cards-015" version="2">
+	<include dir="graphics/Lotr/Expanded"/>
+  </module>
+  <module name="lotr-cards-016" version="2">
+	<include dir="graphics/Lotr/Hunters"/>
+  </module>
+  <module name="lotr-cards-017" version="2">
+	<include dir="graphics/Lotr/Wraith"/>
+  </module>
+  <module name="lotr-cards-018" version="2">
+	<include dir="graphics/Lotr/Rise"/>
+  </module>
+  <module name="lotr-cards-019" version="2">
+	<include dir="graphics/Lotr/Treachery"/>
+  </module>
+  <module name="lotr-cards-020" version="2">
+	<include dir="graphics/Lotr/Ages"/>
+  </module>
+  <module name="nr-cards-001" version="1">
+	<include dir="graphics/Nr/netrunner"/>
+  </module>
+  <module name="nr-cards-002" version="1">
+	<include dir="graphics/Nr/proteus"/>
+  </module>
+  <module name="nr-cards-003" version="1">
+	<include dir="graphics/Nr/classic"/>
+  </module>
+</modules>

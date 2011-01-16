@@ -1,0 +1,1198 @@
+#!/usr/bin/env perl
+
+#
+# Globals
+#
+%module=();			# $module{mode}{module name} - version numbers of updated/build/installed/available modules.
+%files=();			# $files{mode}{module name}{filename} - include or exclude flags (1 = include, 0 = exclude)
+%sources=();		# $sources{mode} - List of sources.
+@sources_fail=();   # List of source indices found without valid available.xml
+@sources_new=();    # List of new sources seen
+$store="";			# Where to store modules built.
+%url=();			# $url{mode}{module name} - url of newest module
+$mode;				# Section to handle "build", "installed" or "available".
+$current_module;	# Current module during xml-read.
+$module_list_already_fetched;  # Set to "yes" if module list is already fetched.
+$build_list="xml/packages.xml"; # File describing packagelists.
+$winsystem=($^O eq "MSWin32");  # True if we are running on Windows
+@file_cache=();     # A file name cache.
+
+#
+# pattern2regexp(rexex) - Convert file wildcard pattern  to regexp.
+#
+sub pattern2regexp($)
+{
+	my $pattern=shift;
+
+	$pattern=~s/\./\\./g;
+	$pattern=~s/\//\\\//g;
+	$pattern=~s/\*/[^\/]*/g;
+
+	return "$pattern";
+}
+
+#
+# module_match(mode,joker expression) - find all modules matching joker expanded expression
+#
+sub module_match
+{
+	my $md=shift;
+	my @ret;
+	
+	for(@_)
+	{
+		my $exp=$_;
+		$exp=~s/\*/.*/g;
+		$exp="^$exp\$";
+		for(keys(%{$module{$md}}))
+		{
+			push @ret,$_ if(m/$exp/);
+		}
+	}
+
+	return @ret;
+}
+
+#
+# read_xml_document(file,mode) - Read module description xml-file.
+#
+sub read_xml_document
+{
+	my $file=shift;
+	$mode=shift;
+
+	$module{$mode}=();
+	$sources{$mode}=();
+	$files{$mode}=();
+
+	open(F,$file) or die "cannot open $file";
+	while(<F>)
+	{
+		s/\s+$//;
+		if(m/<module name="(.+?)" version="(.+?)">/)
+		{
+			$module{$mode}{$1}=$2;
+			$current_module=$1;
+		}
+		elsif(m/<include file="(.+?)"\/>/)
+		{
+			my $d=$1;
+			
+			while ($d=~s/(.*)\/(.+)/$1/)
+			{
+				$files{$mode}{$current_module}{$1}=1;
+			}
+			$files{$mode}{$current_module}{$1}=1;
+		}
+		elsif(m/<include files="(.+?)"\/>/)
+		{
+			my $d=$1;
+			
+			while ($d=~s/(.*)\/(.+)/$1/)
+			{
+				$files{$mode}{$current_module}{$1}=1;
+			}
+
+			if(!@file_cache)
+			{
+			    print "Reading files...\n";
+			    open(DIR,"find .. -follow 2>/dev/null |");
+			    while(<DIR>)
+			    {
+				chomp;
+				s|^\.\./[a-zA-Z]+/||;
+				next if m |/\.svn|;
+				next if m |^\.svn|;
+				next if m |~$|;
+				next if $_ eq ".";
+
+				push @file_cache,$_;
+			    }
+			    close(DIR);
+			}
+		
+			my $pat="^".pattern2regexp($1)."\$";
+			my $pat2="^module_$current_module\/".pattern2regexp($1)."\$";
+
+			for(@file_cache)
+			{
+				if(m/$pat2/)
+				{
+					s/^module_$current_module\///;
+					$files{$mode}{$current_module}{$_}=1;
+				}
+				elsif(m/$pat/)
+				{
+					$files{$mode}{$current_module}{$_}=1;
+				}
+			}
+		}
+		elsif(m/<store dir="(.+?)"\/>/)
+		{
+			$store=$1;
+		}
+		elsif(m/<include dir="(.+?)"\/>/)
+		{
+			my $dir=$1;
+			my $d=$dir;
+			
+			while ($d=~s/(.*)\/(.+)/$1/)
+			{
+			    $files{$mode}{$current_module}{$1}=1;
+			}
+			$files{$mode}{$current_module}{$dir}=1;
+			if(! -d $dir)
+			{
+			    for $b (branches())
+			    {
+				if(-d "../$b/$dir")
+				{
+				    open(DIR,"find ../$b/$dir -follow 2>/dev/null |");
+				    while(<DIR>)
+				    {
+					chomp;
+					next if m|/\.svn|;
+					s|^../$b/||;
+					$files{$mode}{$current_module}{$_}=1;
+				    }
+				}
+			    }
+			}		
+			else
+			{
+			    open(DIR,"find $dir -follow 2>/dev/null |");
+			    while(<DIR>)
+			    {
+				chomp;
+				if (not m/(\bCVS\b|.svn|\.cvsignore|~$)/)
+				    {
+					$files{$mode}{$current_module}{$_}=1;
+				    }
+			    }
+			    close(DIR);
+			}
+		    }
+		elsif(m/<source url="(.+?)"\/>/)
+		{
+			push @{$sources{$mode}},$1;
+		}
+	}
+	close(F);
+}
+
+#
+# Write current status of modules to xml-file.
+#
+sub write_xml_document
+{
+	my $file=shift;
+	my $type=shift;
+
+	open(F,">$file") or die "$0: cannot write '$file'";
+	print F "<?xml version=\"1.0\" encoding=\"ISO-8859-1\"?>\n";
+	print F "<!DOCTYPE modules SYSTEM \"modules.dtd\">\n";
+	print F "<modules>\n";
+	for(@{$sources{$type}})
+	{
+		print F "  <source url=\"$_\"/>\n";
+	}
+	foreach $m (sort(keys(%{$module{$type}})))
+	{
+		if($module{$type}{$m} ne "")
+		{
+			print F "  <module name=\"$m\" version=\"".$module{$type}{$m}."\">\n";
+			foreach $f (sort(keys(%{$files{$type}{$m}})))
+			{
+				print F "    <include file=\"$f\"/>\n" if($files{$type}{$m}{$f});
+			}
+			print F "  </module>\n";
+		}
+	}
+	print F "</modules>\n";
+
+	close(F);
+}
+
+#
+# print_modules(mode) - Print table of modules.
+#
+sub print_modules
+{
+	my $type=shift;
+	printf ucfirst($type)." modules:\n";
+	foreach $m (sort(keys(%{$module{$type}})))
+	{
+		print $module{$type}{$m}."\t $m\n";
+	}
+}
+
+#
+# Return 1 if argument is a module.
+#
+sub is_module
+{
+	my $name=shift;
+
+	return $module{"build"}{$name} || $module{"installed"}{$name} || $module{"available"}{$name} || $module{"updated"}{$name};
+}
+
+#
+# module_file(module,version) - Return file name of the module.
+#
+sub module_file
+{
+	my($name, $version) = @_;
+	return "gccg-${name}-${version}.tgz";
+}
+
+#
+# branches() - Get list of branch directories with trunk.
+#
+sub branches
+{
+    my $dir;
+    my $f;
+
+    my @branches;
+
+    opendir($dir,"..");
+    while($f=readdir($dir)) {
+	next if $f eq "." || $f eq ".." || $f eq ".svn" || $f eq "tmp" || $f eq "trunk" || $f eq "build";
+	push @branches,$f;
+    }
+    closedir($dir);
+
+    return @branches;
+}
+
+#
+# create_empty_xml(path) - create new module xml file
+#
+sub create_empty_xml
+{
+	my $path=shift;
+
+	open(F,">$path") or die "cannot write $path";
+	print F "<?xml version=\"1.0\" encoding=\"ISO-8859-1\"?>
+<!DOCTYPE modules SYSTEM \"modules.dtd\">
+<modules>
+</modules>
+";
+	close(F);
+}
+
+#
+# build_module(name) - Build package.
+#
+sub build_module
+{
+	my $name=shift;
+	my $dir;
+
+	if( ! -f "$store/available.xml" ) {
+		create_empty_xml("$store/available.xml");
+	}
+
+	read_xml_document("$store/available.xml","available");
+	read_xml_document($build_list,"build");
+
+	die "$0: package definition for module $name not found" if not is_module($name);
+	
+	my $modulename=module_file($name,$module{"build"}{$name});
+
+	die "$0: '$name' is not a module" if not is_module($name);
+	die "$0: store directory not defined" if $store eq "";
+
+	if ($module{"build"}{$name} eq $module{"available"}{$name} and -f "$store/$modulename")
+	{
+		print "Skipping module $name: version ".$module{"build"}{$name}." already build.\n";
+		return;
+	}
+	
+	system("rm -rf build");
+	mkdir("build",0755);
+
+
+
+	for $f (sort(keys(%{$files{"build"}{$name}})))
+	{
+ 	        $orig=$f;
+		if($files{"build"}{$name}{$f})
+		{
+			print "Module $name: adding $f\n";
+			if(-d $f or -l $f)
+			{
+				mkdir("build/$f",0755);
+			}
+			elsif(-f $f || -f "module_$name/$f")
+			{
+				$dir=$f;
+
+				$dir=~s|(.*/).*|$1|;
+				$dir="" if($dir eq $f);
+				$f=~s|.*/(.*)|$1|;
+
+				if(-f "module_$name/$dir$f")
+				{
+					print "Module $name: using alternative: module_$name/$dir$f\n";
+					system("cp \"module_$name/$dir$f\" \"build/$dir$f\"");
+				}
+				else
+				{
+					system("cp \"$orig\" \"build/$dir$f\"");
+				}
+			}
+			else
+			{
+			    $dir=$f;
+			    
+			    $dir=~s|(.*/).*|$1|;
+			    $dir="" if($dir eq $f);
+			    $f=~s|.*/(.*)|$1|;
+			    $ok=0;
+			    for $b (branches())
+			    {
+					if(-f "../$b/$dir$f")
+					{
+						print "Module $name: from branch ../$b/$orig\n";
+						system("cp \"../$b/$orig\" \"build/$dir$f\"");
+						$ok=1;
+						last;
+					}
+			    }
+			    
+			    if(!$ok)
+			    {
+				$f="$dir$f";
+				print "WARNING: suspicious directory name $f\n" if $f=~m/\.[a-z]+$/;
+				system("mkdir -p build/$f")
+			    }
+			}
+		}
+	}
+
+	if($name eq "core")
+	{
+		$module{"temp"}{"core"}=$module{"build"}{"core"};
+		$files{"temp"}{"core"}=$files{"build"}{"core"};
+		$files{"temp"}{"core"}{"xml/installed.xml"}=1;
+		$sources{"temp"}=$sources{"build"};
+		write_xml_document("build/xml/installed.xml","temp");
+	}
+
+	my $old=module_file($name,"[0-9]*");
+	
+	print "Module $name: creating package $modulename\n";
+	system("cd build && tar czf ../$modulename .");
+	system("rm -rf build");
+	print "Removing old modules $store/$old\n";
+	system("rm -f $store/$old");
+	print "Moving module to $store/$modulename\n";
+	system("mv $modulename $store");
+	print "Writing $store/available.xml\n";
+	$module{"available"}{$name}=$module{"build"}{$name};
+	$sources{"available"}=$sources{"build"};
+	write_xml_document("$store/available.xml","available");
+}
+
+#
+# fetch_file(url) - Fetch a file from the web, return the name of the file or "" if failed.
+#
+sub fetch_file
+{
+	my($url) = @_;
+
+	(my $file = $url) =~ s|^.*/||;
+
+	unlink($file);
+	if ( $use_LWP )
+	{
+		if ( system("lwp-request $url >$file 2>/dev/null") == 0 )
+		{
+			return $file if -s $file;
+		}
+	}
+
+	if($use_curl)
+	{
+		if ( system("curl $url >$file 2>/dev/null") == 0 )
+		{
+			return $file if -s $file;
+		}
+	}
+	
+	if ( $use_wget )
+	{
+	    if($winsystem)
+	    {
+		system("wget -t 0 $url");
+	    }
+	    else
+	    {
+		system("wget -t 0 $url >/dev/null 2>&1");
+	    }
+	}
+	return (-s $file)? $file : "";
+}
+
+#
+# is_newer(ver1,ver2) - Return 1 if ver1 is newer version than ver2.
+#
+sub is_newer
+{
+	my $ver1=shift;
+	my $ver2=shift;
+#	print "$ver1 vs $ver2\n";
+	return 0 if $ver1 eq "";
+	return 1 if $ver2 eq "";
+	my @v1=split /\./,$ver1;
+	my @v2=split /\./,$ver2;
+	for (my $i=0; $i<6; $i++)
+	{
+		return 1 if $v1[$i] > $v2[$i];
+		return 0 if $v1[$i] < $v2[$i];
+	}
+	return 0;
+}
+
+#
+# sourcenumber(url) - return index of the source for the given url or 0 if none.
+sub sourcenumber
+{
+	my $url=shift;
+	my $idx=1;
+	foreach(@{$sources{"installed"}})
+	{
+		return $idx if($_ eq substr($url,0,length($_)));
+		$idx++;
+	}
+
+	return 0;
+}
+
+#
+# check_for_new(urlbase) - Compare available versions to installed ones and update %url if newer.
+#
+sub check_for_new
+{
+	my $urlbase=shift;
+	
+	foreach $m (keys(%{$module{"available"}}))
+	{
+		$url{"updated"}{$m}=$urlbase.module_file($m,$module{"available"}{$m}) if $url{"updated"}{$m} eq "";
+		
+		if (is_newer($module{"available"}{$m},$module{"installed"}{$m}) and
+			is_newer($module{"available"}{$m},$module{"updated"}{$m}))
+		{
+			$module{"updated"}{$m}=$module{"available"}{$m};
+			$files{"updated"}{$m}=$files{"available"}{$m};
+			$url{"updated"}{$m}=$urlbase.module_file($m,$module{"available"}{$m});
+		}
+	}
+}
+
+#
+# fetch_module_lists(verbose) - Fetch all module lists from sources unless already fetched.
+#
+sub fetch_module_lists
+{
+	my($verbose) = @_;
+	my($url, $file);
+
+	my $idx=1;
+	if($module_list_already_fetched ne "yes")
+	{
+		$module_list_already_fetched="yes";
+		for $f (@{$sources{"installed"}})
+		{
+			$url=$f;
+			$url.="/" if not $url=~m/\/$/;
+			print "Fetching module list [$idx] ${url}available.xml\n" if $verbose;
+			$idx++;
+			$file=fetch_file("${url}available.xml");
+			if ($file eq "")
+			{
+				print "FAILED: Skipping ${url}available.xml\n" if $verbose;
+				push @sources_fail,$url;
+			}
+			else
+			{
+				read_xml_document($file,"available");
+				check_for_new($url);
+				foreach(@{$sources{"available"}})
+				{
+					my $n=$_;
+					$n=~s/([^\/])$/$1\//;
+					push @sources_new,$n if((0==grep($n eq $_,@{$sources{"installed"}}))
+											&& 0==grep($n eq $_,@sources_new));
+				}
+				unlink($file);
+			}
+		}
+	}
+}
+
+#
+# join_sources(mode) - Collect all sources found and append to mode.
+#
+sub join_sources
+{
+	my $type=shift;
+	my %src;
+	my $url;
+	
+	for(keys(%sources))
+	{
+		for(@{$sources{$_}})
+		{
+			$url=$_;
+			$url.="/" if not $url=~ m/\/$/;
+			$src{$url}=1;
+		}
+	}
+	@{$sources{$type}}=keys(%src);
+}
+
+#
+# print_status() - Show status report.
+#
+sub print_status
+{
+	my @modules;
+	my $status;
+	my ($v1,$v2,$prev,$snum);
+	
+	@modules=keys(%{$module{"installed"}});
+	push @modules,keys(%{$module{"updated"}});
+	print "============================================================\n";
+	print "                     STATUS OF MODULES\n";
+	print "============================================================\n";
+	print "Module              | Installed | Available | Status  | Src\n";
+	print "------------------------------------------------------------\n";
+	foreach (sort(@modules))
+	{
+		if ($prev ne $_)
+		{
+			$status="OK";
+			$status="UPDATED" if is_newer($module{"updated"}{$_},$module{"installed"}{$_});
+			$status="-" if $module{"installed"}{$_} eq "";
+			$v1=$module{"installed"}{$_};
+			$v2=$module{"updated"}{$_};
+			$v1="v$v1" if $v1 ne "";
+			$v2="v$v2" if $v2 ne "";
+			$snum=sourcenumber($url{"updated"}{$_});
+			
+			printf "%-20s| %-10s| %-10s| %-8s|%s\n",$_,$v1,$v2,$status,$snum ? " [$snum]" : "";
+			$prev=$_;
+		}
+	}
+	print "============================================================\n";
+}
+
+#
+# make_source_updates() - make recommended source updates if any
+#
+sub make_source_updates
+{
+	my $offset=0;
+	
+	if((@sources_fail) || (@sources_new))
+	{
+		foreach(@sources_fail)
+		{
+			if($_ ne "http://gccg.sourceforge.net/modules/")
+			{
+				source_del($_);
+			}
+		}
+		foreach(@sources_new)
+		{
+			source_add($_);
+		}
+	}
+}
+
+#
+# uncompress(file) - uncompress .tgz file to the current directory, return 1 if successfull.
+#
+sub uncompress
+{
+    my $file=shift;
+    my $r;
+
+    if($winsystem)
+    {
+		$r=system("gunzip -f $file");
+		$file=~s/(.*)\.tgz$/$1.tar/;
+		$r=system("tar xpf $file");
+    }
+    else
+    {
+		$r=system("gunzip -c $file | tar xpf -");
+    }
+
+    return $r==0;
+}
+
+#
+# install_modules(list of modules or expressions) - Download and install a modules.
+#
+sub install_modules
+{
+	fetch_module_lists(1);
+
+	install_module($_) for(module_match("updated",@_));
+}
+
+#
+# install_module(module name) - Install single module.
+#
+sub install_module
+{
+	my $name=shift;
+	
+	die "$0: no such module as ".$name if not is_module($name);
+	if ($module{"updated"}{$name} eq "")
+	{
+		print "Module ".$name." is already up-to-date\n";
+	}
+	else
+	{
+		print "Fetching ".$url{"updated"}{$name}."\n";
+		my $file=fetch_file($url{"updated"}{$name});
+		if ($file eq "")
+		{
+			print "FAILED\n";
+		}
+		else
+		{
+			remove_module($name) if($name ne "core" and $module{"installed"}{$name} ne "");
+			
+			print "Installing module ".$name."\n";
+			
+			if(uncompress($file))
+			{
+				$module{"installed"}{$name}=$module{"updated"}{$name};
+				%{$files{"installed"}{$name}}=();
+				if($winsystem)
+				{
+				    $file=~s/(.*)\.tgz$/$1.tar/;				
+				    system("tar tf $file > log.txt");
+				    open(FILES,"log.txt");
+				}
+				else
+				{
+				    open(FILES,"gunzip -c $file | tar tf - |");
+				}
+				while(<FILES>)
+				{
+					chomp;
+					$files{"installed"}{$name}{$_}=1;
+				}
+				close(FILES);
+				write_xml_document("xml/installed.xml","installed");
+				unlink($file);
+
+				if($winsystem)
+				{
+				    unlink("log.txt");
+				}
+
+				if($name eq "windows32")
+				{
+					system("chmod +x ccg_client.exe");
+				}
+			}
+			else
+			{
+				die "$0: failed to uncompress $file";
+			}
+		}
+	}
+}
+
+#
+# remove_modules(list of modules or expressions) - Uninstall a modules.
+#
+sub remove_modules
+{
+	remove_module($_) for(module_match("installed",@_));
+}
+
+#
+# remove_module(module) - Uninstall a module.
+#
+sub remove_module
+{
+	my $name=shift;
+	
+	die "$0: module $name is not installed" if $module{"installed"}{$name} eq "";
+	die "$0: removing core is forbidden" if $name eq "core";
+	
+	print "Removing module $name\n";
+	for(sort {$b cmp $a} keys(%{$files{"installed"}{$name}}))
+	{
+		if(-d $_)
+		{
+			rmdir;
+		}
+		else
+		{
+			unlink;
+		}
+	}
+	$module{"installed"}{$name}="";
+	write_xml_document("xml/installed.xml","installed");
+}
+
+#
+# update_modules() - Update all modules
+#
+sub update_modules
+{
+	fetch_module_lists(1);
+	foreach $m (keys(%{$module{"updated"}}))
+	{
+		if($module{"installed"}{$m} ne "" and is_newer($module{"updated"}{$m},$module{"installed"}{$m}))
+		{
+			install_module($m);
+		}
+	}
+}
+
+#
+# read_file(filename) - Return content of the file.
+#
+sub read_file
+{
+	my $filename=shift;
+	my @st;
+	my $ret;
+	
+	@st=stat($filename);
+	open(F,$filename);
+	read(F,$ret,$st[7]);
+	close(F);
+	
+	return $ret;
+}
+
+#
+# compare_package(file,module name) - Compare stored package to current files.
+#
+sub compare_package
+{
+	my $file=shift;
+	my $modulename=shift;
+	my $f1,$f2;
+	my $ok=1;
+	mkdir("build",0755);
+	chdir("build");
+	$file="../$file" if(substr($file,0,2) eq "..");
+	die "$0: uncompress failed" if !uncompress("$file");
+	open(DIR,"find .|");
+	while(<DIR>)
+	{
+		chomp;
+		if(-f $_)
+		{
+			$f1=read_file($_);
+			
+			if(-f "../module_$modulename/$_")
+			{
+				$f2=read_file("../module_$modulename/$_");
+			}
+			else
+			{
+				$f2=read_file("../$_");
+			}
+			
+			if($f1 ne $f2 and $_ ne "./xml/installed.xml")
+			{
+				$ok=0;
+				print "$modulename ".$module{"build"}{$modulename}.": $_\n";
+			}
+		}
+	}
+	close(DIR);
+	chdir("..");
+	system("rm -rf build");
+
+	return $ok;
+}
+
+#
+# diff_modules() - Check all packages and search for differencies between
+# current files. Return a list of failed packages.
+#
+sub diff_modules
+{
+	my @failed;
+	my $m;
+	
+	die "$0: storage location not defined" if $store eq "";
+	
+	read_xml_document("$store/available.xml","available");
+	for(keys(%{$module{"build"}}))
+	{
+		$m=$_;
+		if(not $m=~m/.+-cards-\d+/)
+		{
+			if(not -e "$store/".module_file($m,$module{"build"}{$m}))
+			{
+				push @failed,$m;
+				print "$m ".$module{"build"}{$m}.": package missing\n";
+			}
+			else
+			{
+				if(not compare_package("$store/".module_file($m,$module{"build"}{$m}),$m))
+				{
+					push @failed,$m;
+				}
+			}
+		}
+	}
+
+	return @failed;
+}
+
+#
+# Check all modules that needs rebuilding and rebuild them.
+#
+sub build_all_modules
+{
+	die "$0: storage location not defined" if $store eq "";
+
+	if( ! -f "$store/available.xml" ) {
+		create_empty_xml("$store/available.xml");
+	}
+	
+	read_xml_document("$store/available.xml","available");
+	my @rebuild;
+	for(keys(%{$module{"build"}}))
+	{
+		if(not -e "$store/".module_file($_,$module{"build"}{$_}))
+		{
+			push @rebuild,$_;
+		}
+	}
+	for(@rebuild)
+	{
+		print "Building module $_\n";
+		build_module($_);
+	}
+}
+
+#
+# Add new source to @{$sources{"installed"}} list.
+#
+sub source_add
+{
+	my $url=shift;
+
+	$url=~s/([^\/])$/$1\//;
+	print "Testing $url\n";
+
+	$file=fetch_file("${url}available.xml");
+	if($file eq "")
+	{
+		print "${url}available.xml not found.\nDiscarding URL $url\n";
+	}
+	else
+	{
+		unlink($file);
+		print "Adding new source $url\n";
+		push @{$sources{"installed"}},$url;
+	}
+}
+
+#
+# Delete source from @{$sources{"installed"}} list.
+#
+sub source_del
+{
+	my $url=shift;
+	$url=~s/([^\/])$/$1\//;
+	
+	print "Removing $url\n";
+	@{$sources{"installed"}}=grep($_ ne $url,@{$sources{"installed"}});
+}
+
+#
+# Main
+#
+
+#
+# See if we can use lwp-request instead of wget
+#
+if($winsystem)
+{
+    $use_wget = 1;
+}
+else
+{
+    if(($_ = `lwp-request -v 2>&1`)  &&  /version/)
+    {
+	$use_LWP = 1;
+    }
+    elsif(($_ = `curl --version 2>&1`)  &&  /curl/)
+    {
+	$use_curl = 1;
+    }
+    elsif ( system("wget --help >/dev/null 2>&1") == 0 )
+    {
+	$use_wget = 1;
+    }
+    else
+    {
+	die "$0: gccg_package requires wget, curl or lwp-request";
+    }
+    system("tar --help >/dev/null 2>&1")==0 or die "$0: gccg_package requires tar";
+    system("gunzip --help > /dev/null 2>&1")==0 or die "$0: gccg_package requires gunzip";
+}
+
+if( $ARGV[0] eq "status" or $ARGV[0] eq "s" )
+{
+	read_xml_document("xml/installed.xml","installed");
+	fetch_module_lists(1);
+	print_status();
+}
+elsif($#ARGV==0 and ($ARGV[0] eq "update" or $ARGV[0] eq "u"))
+{
+	read_xml_document("xml/installed.xml","installed");
+	update_modules();
+	make_source_updates();
+	write_xml_document("xml/installed.xml","installed");
+}
+elsif($#ARGV==0 and ($ARGV[0] eq "diff" or $ARGV[0] eq "d"))
+{
+	read_xml_document($build_list,"build");
+	diff_modules();
+}
+elsif(($#ARGV==1 or $#ARGV==0) and ($ARGV[0] eq "build" or $ARGV[0] eq "b"))
+{
+	my $module="";
+	
+	# Rebuild modules not found from store.
+	if($#ARGV==1)
+	{
+		if(-f $ARGV[1])
+		{
+			$build_list=$ARGV[1];
+		}
+		else
+		{
+			$module=$ARGV[1];
+		}
+	}
+	print "Building $module...\n";
+	read_xml_document($build_list,"build");
+	mkdir($store) if not -d $store;
+	die "cannot access directory $store for writing" if not -d $store or not -w $store;
+	if($module eq "")
+	{
+		build_all_modules();
+	}
+	else
+	{
+		build_module($module);
+	}
+}
+elsif($#ARGV==0 and $ARGV[0] eq "revision")
+{
+	# Search differencies between files and increase revision number of
+	# appropriate module if found.
+	
+	read_xml_document($build_list,"build");
+	@m=diff_modules();
+	print "--Checking revision----------------------------------------------\n";
+	for(@m)
+	{
+		my $n=$module{"build"}{$_};
+		$n=~s/(.*)\.([^.]+)$/"$1.".($2+1)/e;
+		print "Updated $_ version number ",$module{"build"}{$_}," to $n\n";
+		$module{"build"}{$_}=$n;
+	}
+	print "-----------------------------------------------------------------\n";
+	open(FILE,$build_list);
+	@f=<FILE>;
+	open(PACKAGES,">$build_list");
+	for(@f)
+	{
+		if(m/<module name="(.+?)" version="(.+?)"(.*)/)
+		{
+			print PACKAGES "  <module name=\"$1\" version=\"".$module{"build"}{$1}."\"$3\n";
+		}
+		else
+		{
+			print PACKAGES $_;
+		}
+	}
+	close(FILE);
+	close(PACKAGES);
+}
+elsif($#ARGV>=1 and ($ARGV[0] eq "install" or $ARGV[0] eq "i"))
+{
+	read_xml_document("xml/installed.xml","installed");
+	shift @ARGV;
+	install_modules(@ARGV);
+}
+elsif($#ARGV==1 and ($ARGV[0] eq "remove" or $ARGV[0] eq "r"))
+{
+	read_xml_document("xml/installed.xml","installed");
+	shift @ARGV;
+	remove_modules(@ARGV);
+}
+elsif($#ARGV>=0 and ($ARGV[0] eq "source" or $ARGV[0] eq "src"))
+{
+	read_xml_document("xml/installed.xml","installed");
+	if($#ARGV==0)
+	{
+		print "List of sources:\n";
+		print "=========================================================\n";
+		my $i=1;
+		foreach(@{$sources{"installed"}})
+		{
+			print $i++," - $_\n";
+		}
+		print "=========================================================\n";
+	}
+	elsif($#ARGV==2 && $ARGV[1] eq "add")
+	{
+		source_add($ARGV[2]);
+		write_xml_document("xml/installed.xml","installed");
+	}
+	elsif($#ARGV==2 && $ARGV[1] eq "del")
+	{
+		die "$0: refusing to delete the last source" if scalar(@{$sources{"installed"}})==1;
+		my $i=1;
+		my $url="";
+		foreach(@{$sources{"installed"}})
+		{
+			if($i == $ARGV[2])
+			{
+				$url=$_;
+				last;
+			}
+			$i++;
+		}
+		if($url ne "")
+		{
+			source_del($url);
+			write_xml_document("xml/installed.xml","installed");
+		}
+	}
+	else
+	{
+		print "Invalid arguments.\n";
+	}
+}
+elsif($#ARGV>=0 and $ARGV[0] eq "create_mirrors")
+{
+	# Check mirror status and create directories ready to upload updated
+	# material to mirrors.
+	
+	shift @ARGV;
+	read_xml_document($build_list,"build");
+
+	mkdir("$store/../mirrors");
+
+	my @mirror_list;
+	my @url_list;
+
+	for(@{$sources{"build"}})
+	{
+	    my $url=$_;
+	    for(@ARGV)
+	    {
+		my $mirror=$_;
+		if($url=~m/$mirror/)
+		{
+		    push @mirror_list,$mirror;
+		    push @url_list,$url;
+		    last;
+		}
+	    }
+	}
+
+	my $i=0;
+
+	while($i<=$#mirror_list)
+	{
+	    my $mirror=$mirror_list[$i];
+	    my $url=$url_list[$i];
+	    $i++;
+
+	    my @updates;
+
+	    if(-f "$store/../mirrors/$mirror/available.xml") 
+	    {
+		print "Loading $store/../mirrors/$mirror/available.xml\n";
+		read_xml_document("$store/../mirrors/$mirror/available.xml",$mirror);
+	    }
+	    else
+	    {
+		print "Fetching ${url}available.xml\n";
+		$file=fetch_file("${url}available.xml");
+		read_xml_document("available.xml",$mirror);
+		unlink("available.xml");
+	    }
+
+	    for(keys %{$module{$mirror}})
+	    {
+		print "Using module: $_   Local: ".$module{"build"}{$_}."   Mirror:".$module{$mirror}{$_}." $new\n";
+		push @updates, $_;
+		$module{$mirror}{$_}=$module{"build"}{$_};
+	    }
+
+	    if(@updates)
+	    {
+		print("Remaking $store/../mirrors/$mirror\n");
+		system("rm -rf $store/../mirrors/$mirror");
+		mkdir("$store/../mirrors/$mirror");
+		for(@updates)
+		{
+		    print "Copying $store/".module_file($_,$module{"build"}{$_})." "."$store/../mirrors/$mirror/\n";
+		    system("cp $store/".module_file($_,$module{"build"}{$_})." "."$store/../mirrors/$mirror/");
+		}
+		if($mirror=~m/gccg\.sourceforge\.net/)
+		{
+		    $sources{$mirror}=$sources{"build"};
+		}
+		else
+		{
+		    $sources{$mirror}=();
+		    push @{$sources{$mirror}},@{$sources{"build"}}[0];
+		}
+		write_xml_document("$store/../mirrors/$mirror/available.xml",$mirror);
+	    }
+	}
+}
+elsif($#ARGV==0 and $ARGV[0] eq "links")
+{
+	read_xml_document($build_list,"installed");
+	fetch_module_lists(0);
+
+	print "<html><body><h1>List of packages</h1>\n";
+	print "<h2>If you download packages from here, three rules:</h2>\n";
+	print "<h3>1. Don't download here, since links are always broken.</h3>\n";
+	print "<h3>2. If you do, update everything at once, since otherwise it may not work.</h3>\n";
+	print "<h3>3. If it does not work, don't bother to make any bug report, since you probably screwed something yourself.</h3>\n";
+	print "<ul>\n";
+	foreach $m (sort keys(%{$module{"available"}}))
+	{
+		print "<li><a href=\"".$url{"updated"}{$m}."\">$m</a></li>\n";
+	}
+	print "</ul></body></html>\n";
+}
+
+else
+{
+	print "usage: gccg_package status                list installed and available packages\n";
+	print "       gccg_package source                list current download sources\n";
+	print "       gccg_package source add <url>      add one download source\n";
+	print "       gccg_package source del <n>        remove n:th download source\n";
+	print "       gccg_package update                update all installed packages\n";
+	print "       gccg_package install <package>...  install new package(s)\n";
+	print "       gccg_package remove <package>      remove a package\n";
+}

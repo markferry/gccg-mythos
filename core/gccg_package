@@ -953,6 +953,11 @@ else
 
 if( $ARGV[0] eq "status" or $ARGV[0] eq "s" )
 {
+    if(-d ".svn") {
+	print "This is a subversion copy. Package status is irrelevant.\n";
+	exit;
+    }
+
 	read_xml_document("xml/installed.xml","installed");
 	fetch_module_lists(1);
 	print_status();

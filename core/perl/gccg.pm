@@ -33,7 +33,7 @@ sub clear_data
 # ===============
 
 #
-# root_path() - Return the root of all files.
+# root_path() - Return the root of core files.
 #
 sub root_path
 {
@@ -49,15 +49,37 @@ sub root_path
     $path = abs_path("../../core");
     return $path if -f $path."/games.dat";
 
-    die "Cannot find root path.";
+    die "Cannot find root path for '$game_name'.";
 }
 
 #
-# xml_path() - Return the location of xml files.
+# root_path() - Return the root of additional repository files.
+#
+sub repo_path
+{
+    my $path = abs_path("../".lc($game_dir));
+    return $path if -d $path."/graphics/$game_dir";
+
+    my $path = abs_path("../../".lc($game_dir));
+    return $path if -d $path."/graphics/$game_dir";
+}
+
+#
+# xml_path([<file>]) - Return the location of xml file.
 #
 sub xml_path
 {
-    return root_path()."/xml";
+    my $file=shift;
+
+    return $path=root_path()."/xml" if $file eq "";
+
+    $path=repo_path()."/xml/";
+    return $path if -f "$path/$game_dir/$file";
+
+    $path=root_path()."/xml/";
+    return $path if -f "$path/$game_dir/$file";
+
+    die "Cannot find XML path for $file";
 }
 
 #
@@ -123,13 +145,13 @@ sub load_game
 	clear_data();
 	$game_dir=$game;
 
-	open(XML,xml_path()."/".lc($game).".xml") or die "cannot open game XML ".xml_path()."/".lc($game).".xml";
+	open(XML,xml_path()."/".lc($game).".xml") or die "cannot open game XML ".root_path()."/".lc($game).".xml";
 	while(<XML>)
 	{
 		chomp;
 
 		$game_name=$1 if m/<ccg name=\"(.+?)\"/;
-		load_cardset($game,xml_path()."/$game/".$1) if m/<cardset source=\"(.+?.xml)\"\/>/;
+		load_cardset($game,xml_path($1)."/$game/".$1) if m/<cardset source=\"(.+?.xml)\"\/>/;
 		$game_option{$1}=$2 if m/<option name=\"(.*?)\" value=\"(.*?)\"\/>/;
 		
 	}

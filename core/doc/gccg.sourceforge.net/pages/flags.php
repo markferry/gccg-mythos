@@ -57,7 +57,7 @@ lowerborder("header");
 	</tr>
 	<tr>
 		<td align="left"><tt>--design &lt;width&gt;x&lt;height&gt;</tt></td>
-		<td align="left">Like --geometry, but this way your opponent will notice if you are using a lower resolution, and will know he should not put cards in that "blackened" area.<br>
+		<td align="left">Allows to change the canvas size. Areas outside default geometry area will be darkened and other users won't be able to see objects it contains.<br>
 		Default value is set to 1024x768.</td>
 	</tr>
 	<tr>

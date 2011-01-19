@@ -60,7 +60,7 @@ upperborder("body");
 		</h2>
 		<ul class="navlinks">
 			<li><a href ="http://sourceforge.net/projects/gccg/" target ="showframe">SOURCEFORGE PAGE</a></li>
-			<li><a href ="http://sourceforge.net/forum/?group_id=72744" target ="showframe">SOURCEFORGE FORUM</a></li>
+			<li><a href ="https://sourceforge.net/projects/gccg/forums" target ="showframe">SOURCEFORGE FORUM</a></li>
 			<li><a href ="faq.php" target ="showframe">F.A.Q.</a></li>
 			<li><a href ="manual" target ="showframe">MANUAL</a></li>
 			<li><a href ="avatars.php" target ="showframe">AVATAR LIST</a></li>
@@ -82,11 +82,6 @@ upperborder("body");
  	<p>&nbsp;<br>&nbsp;<br>&nbsp;<br></p>
 
 <center>
-<?php
-
-include("counter.php");
-
-?>
 
 <p>&nbsp;<br></p>
 

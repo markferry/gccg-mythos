@@ -32,7 +32,7 @@ BKBRCOLOR=(208,162,72);
 if(!port)
   port=29120;
 if(server.name=="NO.DEFAULT.SERVER.FOR.THIS.GAME")
-  server.name="gccg.servebeer.com";
+  server.name="gccg.lotrtcgdb.com";
 
 product.image=(,);
 product.image{"The Fellowship of the Ring Gandalf starter"}="fotr_starter_gandalf.jpg";

@@ -36,7 +36,7 @@ DEFAULT_EXPORT_FORMAT="Gccg";
 BOOK_DEFAULT_SORT=("[age]","[type]","[name]");
 # Servers
 if(server.name=="NO.DEFAULT.SERVER.FOR.THIS.GAME")
-  server.name="gccg.servebeer.com";
+  server.name="173.208.151.54";
 # Export set names
 options.export_set=1;
 

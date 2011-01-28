@@ -34,9 +34,9 @@ BOOK_FILTER_VERSION_MINOR=".8";
 DEFAULT_EXPORT_FORMAT="Gccg";
 # default book sorting criteria.
 BOOK_DEFAULT_SORT=("[age]","[type]","[name]");
-# Servers
+# Servers (173.208.151.54)
 if(server.name=="NO.DEFAULT.SERVER.FOR.THIS.GAME")
-  server.name="173.208.151.54";
+  server.name="gccg.councilofelrond.org";
 # Export set names
 options.export_set=1;
 

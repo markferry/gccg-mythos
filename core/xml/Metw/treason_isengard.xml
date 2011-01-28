@@ -168,6 +168,7 @@
 			 <attr key="mp" value="1"/>
 			 <attr key="strikes" value="4"/>
 			 <attr key="subclass" value="Demons"/>
+			 <attr key="keyword" value="Demon"/>
 		</card>
 		<card name="Dernhelm" graphics="Dernhelm.jpg" text="Unique. Manifestation of Éowyn. When Dernhelm faces a strike from a Nazgûl or Ringwraith attack, you may immediately discard Dernhelm to take Éowyn from your sideboard, discard pile or play deck (shuffle).">
 			 <attr key="type" value="Hero Character"/>

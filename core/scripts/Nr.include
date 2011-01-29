@@ -26,7 +26,7 @@ BKBGCOLOR=(73,71,114);
 BKBRCOLOR=(206,205,237);
 
 if(!port)
-  port=29140;
+  port=61759;
 
 product.image=(,);
 product.image{"NetRunner Starter"}="netrunner_starter.jpg";
@@ -35,7 +35,7 @@ product.image{"Proteus Booster"}="proteus_booster.jpg";
 product.image{"Classic Booster"}="classic_booster.jpg";
 
 if(server.name=="NO.DEFAULT.SERVER.FOR.THIS.GAME")
-  server.name="gccg.servebeer.com";
+  server.name="lakka.kapsi.fi";
 
 BOOK_DEFAULT_SORT=("[age]","C[name]");
 

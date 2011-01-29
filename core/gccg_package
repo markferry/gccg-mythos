@@ -96,7 +96,7 @@ sub read_xml_document
 			if(!@file_cache)
 			{
 			    print "Reading files...\n";
-			    open(DIR,"find .. -follow 2>/dev/null |");
+			    open(DIR,"find . -follow 2>/dev/null |");
 			    while(<DIR>)
 			    {
 				chomp;
@@ -309,9 +309,8 @@ sub build_module
 		return;
 	}
 	
-	system("rm -rf build");
-	mkdir("build",0755);
-
+	system("rm -rf build/tmp");
+	mkdir("build/tmp",0755);
 
 
 	for $f (sort(keys(%{$files{"build"}{$name}})))
@@ -322,7 +321,7 @@ sub build_module
 			print "Module $name: adding $f\n";
 			if(-d $f or -l $f)
 			{
-				mkdir("build/$f",0755);
+				mkdir("build/tmp/$f",0755);
 			}
 			elsif(-f $f || -f "module_$name/$f")
 			{
@@ -335,11 +334,11 @@ sub build_module
 				if(-f "module_$name/$dir$f")
 				{
 					print "Module $name: using alternative: module_$name/$dir$f\n";
-					system("cp \"module_$name/$dir$f\" \"build/$dir$f\"");
+					system("cp \"module_$name/$dir$f\" \"build/tmp/$dir$f\"");
 				}
 				else
 				{
-					system("cp \"$orig\" \"build/$dir$f\"");
+					system("cp \"$orig\" \"build/tmp/$dir$f\"");
 				}
 			}
 			else
@@ -355,7 +354,7 @@ sub build_module
 					if(-f "../$b/$dir$f")
 					{
 						print "Module $name: from branch ../$b/$orig\n";
-						system("cp \"../$b/$orig\" \"build/$dir$f\"");
+						system("cp \"../$b/$orig\" \"build/tmp/$dir$f\"");
 						$ok=1;
 						last;
 					}
@@ -365,7 +364,7 @@ sub build_module
 			    {
 				$f="$dir$f";
 				print "WARNING: suspicious directory name $f\n" if $f=~m/\.[a-z]+$/;
-				system("mkdir -p build/$f")
+				system("mkdir -p 'build/tmp/$f'")
 			    }
 			}
 		}
@@ -377,18 +376,18 @@ sub build_module
 		$files{"temp"}{"core"}=$files{"build"}{"core"};
 		$files{"temp"}{"core"}{"xml/installed.xml"}=1;
 		$sources{"temp"}=$sources{"build"};
-		write_xml_document("build/xml/installed.xml","temp");
+		write_xml_document("build/tmp/xml/installed.xml","temp");
 	}
 
 	my $old=module_file($name,"[0-9]*");
 	
 	print "Module $name: creating package $modulename\n";
-	system("cd build && tar czf ../$modulename .");
-	system("rm -rf build");
+	system("cd build/tmp && tar czf ../$modulename .");
+	system("rm -rf build/tmp");
 	print "Removing old modules $store/$old\n";
 	system("rm -f $store/$old");
-	print "Moving module to $store/$modulename\n";
-	system("mv $modulename $store");
+	print "Moving module build/$modulename to $store/$modulename\n";
+	system("mv build/$modulename $store");
 	print "Writing $store/available.xml\n";
 	$module{"available"}{$name}=$module{"build"}{$name};
 	$sources{"available"}=$sources{"build"};

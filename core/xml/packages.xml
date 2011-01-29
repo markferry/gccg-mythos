@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <!DOCTYPE modules SYSTEM "modules.dtd">
 <modules>
-  <store dir="../build/modules"/>
+  <store dir="build/modules"/>
   <source url="http://gccg.sourceforge.net/modules/"/>
   <source url="http://www.derangedmonkey.com/bmin/"/>
   <source url="http://www.reneploetz.de/gccg/"/>

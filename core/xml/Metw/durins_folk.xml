@@ -202,7 +202,7 @@
 			 <attr key="race" value="Orc"/>
 			 <attr key="keyword" value="Leader"/>
 		</card>
-		<card name="Bolg, Son of Azog" graphics="Bolg Son of Azog.jpg" text="Unique. Orc. Manifestation of Bolg. 1 strike. May be keyed to The Under-leas, Gundabad, Dragon-gap and sites in these regions. May also be keyed to Angmar, Forovirkain, Grey Mountain Narrows, Grey Mountains, Misty Mountains Northern Spur, Northern Rhovanion and to sites in these regions if the company has faced a Wolf attack the same turn. One strike of must always be assigned to the highest mind Dwarf in the company.">
+		<card name="Bolg, Son of Azog" graphics="Bolg Son of Azog.jpg" text="Unique. Orc. Manifestation of Bolg. 1 strike. May be played keyed to The Under-leas, and to Gundabad, Dragon-gap and sites in these regions. May also be keyed to Angmar, Forovirkain, Grey Mountain Narrows, Grey Mountains, Misty Mountains Northern Spur, Northern Rhovanion and to sites in these regions if the company has faced a Wolf attack the same turn. One strike must always be assigned to the highest mind Dwarf in the company.">
 			 <attr key="type" value="Hazard"/>
 			 <attr key="rarity" value="P"/>
 			 <attr key="unique" value="yes"/>

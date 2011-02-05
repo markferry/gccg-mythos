@@ -22,7 +22,7 @@ deck_rules{"2-deck Hero"}{"deck"}=(
   ("RuleLimitByExpression",(3,"Attr(\"race\",#)==\"Wizard\"")),
   ("RuleDeckMinimum",60),
   ("RuleDeckMaximum",100),
-  ("RuleLimitByExpression",(0,"Attr(\"type\",#)!=\"Hero Character\" && Attr(\"type\",#)!=\"Hero Resource\" && Attr(\"type\",#)!=\"Hazard\" && (Attr(\"keyword\",#),\"agent\")!=\"yes\" && !(Attr(\"type\",#)==\"Minion Resource\" && find(\"Item\",Attr(\"class\",#))) && name(#)!=\"Tidings of Death\" && name(#)!=\"Deadly Dart\" && name(#)!=\"Sudden Call\" && name(#)!=\"Gnawed Ways\"")),
+  ("RuleLimitByExpression",(0,"Attr(\"type\",#)!=\"Hero Character\" && Attr(\"type\",#)!=\"Hero Resource\" && Attr(\"type\",#)!=\"Hazard\" && Attr(\"agent\",#)!=\"yes\" && !(Attr(\"type\",#)==\"Minion Resource\" && find(\"Item\",Attr(\"class\",#))) && name(#)!=\"Tidings of Death\" && name(#)!=\"Deadly Dart\" && name(#)!=\"Sudden Call\" && name(#)!=\"Gnawed Ways\"")),
   ("RulePass",NULL),
 );
 deck_rules{"2-deck Hero"}{"sideboard"}=(

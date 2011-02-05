@@ -30,14 +30,14 @@ deck_rules{"Sealed Hero"}{"deck"}=(
   ("RuleLimitByExpression",(10,"Attr(\"type\",#)==\"Hero Character\" && Attr(\"race\",#)!=\"Wizard\"")),
   ("RuleLimitByExpression",(3,"Attr(\"race\",#)==\"Wizard\"")),
   ("RuleDeckMinimum",50),
-  ("RuleLimitByExpression",(0,"Attr(\"type\",#)!=\"Hero Character\" && Attr(\"type\",#)!=\"Hero Resource\" && Attr(\"type\",#)!=\"Hazard\" && (Attr(\"keyword\",#),\"agent\")!=\"yes\" && !(Attr(\"type\",#)==\"Minion Resource\" && find(\"Item\",Attr(\"class\",#))) && name(#)!=\"Tidings of Death\" && name(#)!=\"Deadly Dart\" && name(#)!=\"Sudden Call\" && name(#)!=\"Gnawed Ways\"")),
+  ("RuleLimitByExpression",(0,"Attr(\"type\",#)!=\"Hero Character\" && Attr(\"type\",#)!=\"Hero Resource\" && Attr(\"type\",#)!=\"Hazard\" && Attr(\"agent\",#)!=\"yes\" && !(Attr(\"type\",#)==\"Minion Resource\" && find(\"Item\",Attr(\"class\",#))) && name(#)!=\"Tidings of Death\" && name(#)!=\"Deadly Dart\" && name(#)!=\"Sudden Call\" && name(#)!=\"Gnawed Ways\"")),
   ("RulePass",NULL),
 );
 deck_rules{"Sealed Hero"}{"sideboard"}=(
   ("RuleDeckMinimum",0),
   ("RuleDeckMaximum",30),
   ("RuleLimitByExpression",(0,"find(\"Site\",Attr(\"type\",#)) != NULL")),
-  ("RuleLimitByExpression",(0,"Attr(\"type\",#)!=\"Hero Character\" && Attr(\"type\",#)!=\"Hero Resource\" && Attr(\"type\",#)!=\"Hazard\" && (Attr(\"keyword\",#),\"agent\")!=\"yes\" && !(Attr(\"type\",#)==\"Minion Resource\" && find(\"Item\",Attr(\"class\",#))) && name(#)!=\"Tidings of Death\" && name(#)!=\"Deadly Dart\" && name(#)!=\"Sudden Call\" && name(#)!=\"Gnawed Ways\"")),
+  ("RuleLimitByExpression",(0,"Attr(\"type\",#)!=\"Hero Character\" && Attr(\"type\",#)!=\"Hero Resource\" && Attr(\"type\",#)!=\"Hazard\" && Attr(\"agent\",#)!=\"yes\" && !(Attr(\"type\",#)==\"Minion Resource\" && find(\"Item\",Attr(\"class\",#))) && name(#)!=\"Tidings of Death\" && name(#)!=\"Deadly Dart\" && name(#)!=\"Sudden Call\" && name(#)!=\"Gnawed Ways\"")),
   ("RulePass",NULL),
 );
 deck_rules{"Sealed Hero"}{"sideboard vs. fw"}=(

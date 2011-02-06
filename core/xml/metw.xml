@@ -30,7 +30,7 @@
   <cardset source="sun_lands.xml"/>
   <cardset source="morgothslegacy.xml"/>
   <cardset source="bay_ormal.xml"/>
-  <cardset source="great_plains.xml"/>
+  <cardset source="centralplains.xml"/>
   
   <image file="b.png" tag="{b}"/>
   <image file="c.png" tag="{c}"/>

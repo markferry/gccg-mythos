@@ -652,7 +652,6 @@
 	- Store Fate of the Ithil Stone or Into the Smoking Cone at Mount Doom or Barad-dur for full mp.
 	- Make Awakened Plant creatures playable against minion companies at Cirdan or Gandalf’s current site;
 	- Discard The Will of Sauron or Shadow of Mordor. Discard if Tom Bombadil or Treebeard leaves play. Cannot be duplicated on a given player.">
-       <attr key="unique" value="yes"/>
 	   <attr key="rarity" value="R"/>
        <attr key="class" value="Permanent-event"/>
        <attr key="type" value="Hero Resource"/>

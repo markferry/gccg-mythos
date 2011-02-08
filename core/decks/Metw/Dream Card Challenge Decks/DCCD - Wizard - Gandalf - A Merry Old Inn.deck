@@ -1,7 +1,7 @@
 #
-# GCCG v0.9.6 Middle-earth deck
+# GCCG v0.9.6.3 Middle-earth deck
 #
-#      DCCD Gandalf A Merry Old Inn
+#      DCCD - Wizard - Gandalf - A Merry Old Inn
 #
 
 ####
@@ -20,7 +20,7 @@ Deck
 2 Ent in Search of the Entwives (LE)
 1 Fangorn* (FB)
 1 Fladrif (FB)
-1 Foe Beyond Any of You (ROTS)
+1 Foe Beyond Any of You (RS)
 1 Foolish Words (LE)
 1 Frightful Guardian (GW)
 1 Gondring (NW)
@@ -29,27 +29,27 @@ Deck
 1 Nameless Thing (DM)
 1 Out of Practise (DF)
 2 Summons from Long Sleep (AS)
-1 Thrice Told Tales (ROTS)
+1 Thrice Told Tales (RS)
 1 Tookish Blood (TW)
 1 True Fire-drake (TD)
 2 Twilight (TW)
 2 Watchers at the Gate (WOTR)
 
-# Hero Character (10)
+# Hero Character (12)
 
 1 Ascarnil (FB)
+1 Brandir (KN)
 1 Emissary of the House (FB)
 4 Gandalf [H] (TW)
-1 Brandir (KN)
 1 Glorfindel II (TW)
 1 Halbarad (TW)
-1 Mr. Underhill (ROTS)
-1 Nob (ROTS)
+1 Mr. Underhill (RS)
+1 Nob (RS)
 1 Ranger of Arnor (KN)
 
 # Hero Resource (33)
 
-1 A Blazing Fire and a Mug of Beer (ROTS)
+1 A Blazing Fire and a Mug of Beer (RS)
 1 And Forth He Hastened (TD)
 2 Concealment (TW)
 2 Dark Quarrels (TW)
@@ -59,20 +59,20 @@ Deck
 1 Gwaihir (TW)
 1 Halfling Stealth (TW)
 1 Halfling Strength (TW)
-1 Looking Forward (DF)
-1 Many Leagues (ROTS)
+1 Looking Forward (RS)
+1 Many Leagues (RS)
 1 Many Turns and Doublings (TD)
 1 Marvels Told (TD)
-1 Meneldor (ROTS)
+1 Meneldor (RS)
 1 Noble Hound (DM)
-1 Red Book of Westmarch (TW)
+1 Red Book of Westmarch [H] (TW)
 1 Sacrifice of Form (TW)
 1 Sting (TW)
 1 The Wind Is Turning (WOTR)
 2 The Windlord Found Me (DM)
 1 Torque of Hues (TW)
 1 Trickery (TD)
-2 Troll-shaws (ROTS)
+2 Troll-shaws (RS)
 1 Warhammer (DF)
 3 You've Come Back Changed (WOTR)
 
@@ -88,27 +88,27 @@ Pool
 1 Sam Gamgee (TW)
 1 Strider (BA)
 
-# Hero Resource (2)
+# Hero Resource (3)
 
-2 Backpack (ROTS)
+2 Backpack (RS)
 1 Shield of Iron-bound Ash (TW)
 
 #########
 Sideboard
 #########
 
-# Hazard (3)
+# Hazard (4)
 
-1 No Memory of This Place (ROTS)
+1 No Memory of This Place (RS)
 1 Politics (WOTR)
 1 Terror of Halifirien (TOI)
 1 Too Much to Ask (WOTR)
 
 # Hero Resource (16)
 
-1 Beer from the East-farthing (ROTS)
+1 Beer from the East-farthing (RS)
 1 Bill the Pony (TW)
-1 Bob (ROTS)
+1 Bob (RS)
 1 Cram (TD)
 1 Elf-stone (TW)
 1 Elven Rope (BA)
@@ -121,7 +121,7 @@ Sideboard
 1 Rangers of the North (TW)
 1 Smoke Rings (DM)
 1 Star-glass (TW)
-1 There Is Always Vengeance (ROTS)
+1 There Is Always Vengeance (RS)
 
 #####
 Sites
@@ -148,9 +148,8 @@ Sites
 1 Mount Gundabad [H] (TW)
 1 Mount Rerir [H] (FB)
 2 Rivendell [H] (TW)
-1 The Last Bridge [H] (ROTS)
-1 The Willow Dingle [H] (ROTS)
+1 The Last Bridge [H] (RS)
+1 The Willow Dingle [H] (RS)
 1 Tol Lamfirith [H] (KN)
 1 Tom's House [H] (FB)
-1 Tuckburrow [H] (ROTS)
-
+1 Tuckburrow [H] (RS)

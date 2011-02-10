@@ -803,7 +803,7 @@
 			 <attr key="special" value="Dwarf-lord specific. This site is a protected Lordhaven. If any of your companies is at this site, all attacks against it are cancelled. Characters with Iron Hill Dwarf-hold as their home site may be brought into play under GI at this site, even if your Dwarf-lord is in play and not here."/>
 			 <attr key="keyword" value="Dwarf-hold"/>
 		</card>
-		<card name="Ironfoot" graphics="Ironfoot.jpg" text="Unique. Armor. Place this card on a manifestation of Daín if he is in play. +1 body to a maximum of 10. If on Dáin: tap: +2 prowess against a strike from an Animal, Orc, or Wolf attack. tap: during your end-of-turn phase to search your play deck (reshuffle) or discard pile for a Leg it Double Quick.">
+		<card name="Ironfoot" graphics="Ironfoot.jpg" text="Unique. Armor. Place this card on a manifestation of Daín II if he is in play. +1 body to a maximum of 10. If on Dáin: tap: +2 prowess against a strike from an Animal, Orc, or Wolf attack. tap: during your end-of-turn phase to search your play deck (reshuffle) or discard pile for a Leg it Double Quick.">
 			 <attr key="type" value="Stage Resource"/>
 			 <attr key="rarity" value="R"/>
 			 <attr key="unique" value="yes"/>
@@ -1221,7 +1221,7 @@
 			 <attr key="special" value="*You may discard a treasure item from a covert company at this site to cancel the automatic-attack."/>
 			 <attr key="keyword" value="Dwarf-hold"/>
 		</card>
-		<card name="Oakenshield" graphics="Oakenshield.jpg" text="Unique. Shield. Place this card on a manifestation of Thorin if he is in play. +1 body to a maximum of 10. If on Thorin: tap: allow him to face a strike from an attack against his company regardless of the attack's normal abilities or his status. tap: during your end-of-turn phase to take Block from your play deck (reshuffle) or discard pile into hand.">
+		<card name="Oakenshield" graphics="Oakenshield.jpg" text="Unique. Shield. Place this card on a manifestation of Thorin II if he is in play. +1 body to a maximum of 10. If on Thorin: tap: allow him to face a strike from an attack against his company regardless of the attack's normal abilities or his status. tap: during your end-of-turn phase to take Block from your play deck (reshuffle) or discard pile into hand.">
 			 <attr key="type" value="Stage Resource"/>
 			 <attr key="rarity" value="R"/>
 			 <attr key="unique" value="yes"/>

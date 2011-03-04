@@ -10,36 +10,38 @@ Deck
 
 # Dunadan-lord (3)
 
-3 Lord Denethor (WOTR)
+4 Lord Denethor (WOTR)
 
 # Hazard (33)
 
 1 Ambusher (LE)
+1 An Unexpected Outpost (DM)
 1 Angmar Arises (PR)
 1 Barrow-wight (TW)
 1 Barrow-wight (LE)
-2 Black Crows (FB)
+1 Black Crows (FB)
 3 Chill Douser (DM)
 1 Death of a Kinsman (WOTR)
-1 Dunlending Raiders (TD)
 1 Foolish Words (TD)
+1 Ghosts (LE)
+1 Haunted Place (TI)
 1 Ibûn (DF)
-1 Ice-drake (NW)
 2 Icy Touch (TD)
 1 Left on the Field (WOTR)
+1 Mewlips (TOI)
 1 Out of Practise (DF)
 1 Pale Dream-maker (DM)
-1 Plague of Wights (LE)
+2 Plague of Wights (LE)
 1 Reaching Shadow (DM)
 1 Searching Eye (LE)
+1 Sons of Kings (LE)
 1 Spells of the Barrow-wights (DM)
 1 Stirring Bones (DM)
 1 Stirring Bones (LE)
 2 Ta-Fa-Lisch (DF)
 1 Taint of Glory (WOTR)
-1 The Border-watch (LE)
 2 Twilight (LE)
-2 Wisp of Pale Sheen (DM)
+
 
 # Hero Character (5)
 
@@ -58,12 +60,11 @@ Deck
 1 Glamdring (TW)
 1 Knowledge of the Enemy (DM)
 2 Lock nor Bar May Hinder (DF)
-1 Longbottom Leaf (BA)
 2 Many Turns and Doublings (TD)
 1 Marvels Told (TD)
 1 Orcrist (TW)
 1 Reforging (NW)
-3 Rescue Prisoners (TW)
+2 Rescue Prisoners (TW)
 1 Rumours of Danger (WOTR)
 1 Safe from the Shadow (AS)
 1 Smoke Rings (DM)
@@ -71,12 +72,14 @@ Deck
 1 Stories of the Elder Days (WOTR)
 1 The Ithil-stone (AS)
 1 Trickery (TD)
+1 Ungolcrist (FB)
 2 War Preparations (WOTR)
 1 Withdrawn to Mordor (DM)
 
 # Stage Resource (4)
 
 1 Captain of the Tower Guard (WOTR)
+1 Great Achievement (DF)
 1 Kheleglin (FP)
 1 Leaguer of Pelargir (WOTR)
 1 Sworn to the Lord (FB)
@@ -100,8 +103,8 @@ Pool
 
 # Hero Resource (3)
 
-1 Backpack (ROTS)
-1 Draw Swords Together (TOI)
+1 Backpack (RS)
+1 Potion of Prowess (TW)
 1 Shield of Iron-bound Ash (TW)
 
 # Stage Resource (3)
@@ -116,14 +119,14 @@ Sideboard
 
 # Dual Resource (1)
 
-1 Mighty Steed (TOI)
+1 Mighty Steed (TI)
 
 # Hazard (6)
 
-1 Ash-drake (SL)
 1 Call of the Deeps (DF)
 1 Eärcaraxë Ahunt (TD)
-1 King of the Dead (TOI)
+1 Ice-drake (NW)
+1 King of the Dead (TI)
 1 Muster Disperses (LE)
 1 Too Much to Ask (WOTR)
 
@@ -131,9 +134,10 @@ Sideboard
 
 1 Robin Smallburrow (TW)
 
-# Hero Resource (10)
+# Hero Resource (11)
 
 1 Healing Herbs (TW)
+1 Longbottom Leaf (BA)
 1 Lore of the Ages (TD)
 1 Many Foes He Fought (TD)
 1 Noldo-lantern (DM)
@@ -142,11 +146,10 @@ Sideboard
 1 Tales of the Hunt (TD)
 1 Tower Guard of Minas Tirith (TW)
 1 Tower Raided (AS)
-1 True Hearted Man (ROTS)
+1 True Hearted Man (RS)
 
-# Stage Resource (2)
+# Stage Resource (1)
 
-1 Great Achievement (DF)
 1 Legacy of Smiths (WH)
 
 #####
@@ -159,7 +162,7 @@ Sites
 
 # Hero Site (29)
 
-1 Amon Lhaw [H] (ROTS)
+1 Amon Lhaw [H] (RS)
 1 Amrûn [H] (SL)
 1 Barad-dûr [H] (TW)
 1 Barad-wath [H] (NE)

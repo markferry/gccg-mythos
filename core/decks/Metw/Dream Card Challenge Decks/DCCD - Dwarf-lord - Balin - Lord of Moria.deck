@@ -1,5 +1,5 @@
 #
-# GCCG v0.9.6 Middle-earth deck
+# GCCG v0.9.6.3 Middle-earth deck
 #
 #      DCCD - Dwarf-lord - Balin - Lord of Moria
 #
@@ -14,9 +14,9 @@ Deck
 1 His Beard Long and Forked (DF)
 1 Origin of Stone (DF)
 
-# Dwarf-lord Character (3)
+# Dwarf-lord Character (4)
 
-3 Balin [D] (DF)
+4 Balin [D] (DF)
 
 # Hazard (33)
 
@@ -33,7 +33,7 @@ Deck
 2 Frightful Guardian (GW)
 2 Giant (TW)
 1 Greed (TW)
-1 His Own Master (ROTS)
+1 His Own Master (RS)
 1 Horse-lords (LE)
 1 Lord of the Carrock (AS)
 1 Lure of Expedience (LE)
@@ -58,11 +58,11 @@ Deck
 1 An Unexpected Party (DM)
 1 Bill the Pony (TW)
 1 Blue Mountain Dwarves (TW)
-1 Clan Bonds (DF)
 1 Concealment (TW)
+1 Dwarven Fire (DF)
 2 Dwarven Light-stone (DM)
-1 Dwarven-axe (DF)
 2 Marvels Told (TD)
+1 Reunion (RS)
 2 Smoke Rings (DM)
 3 The Dwarves Are upon You! (DM)
 1 To the Uttermost Foundations (DM)
@@ -128,12 +128,12 @@ Sideboard
 # Hazard (3)
 
 1 Covetous Thoughts (LE)
-1 Many Burdens (ROTS)
+1 Many Burdens (RS)
 1 Muster Disperses (LE)
 
 # Hero Resource (15)
 
-1 Aglarond (TOI)
+1 Aglarond (TI)
 1 Book of Mazarbul (TW)
 1 Durin's Crown (DF)
 1 Gems of Arda (DM)
@@ -157,9 +157,12 @@ Sideboard
 Sites
 #####
 
-# Dual Site (1)
+# Dual Site (4)
 
 1 Durin's Tower (DF)
+1 Ruins of Belegost (DF)
+1 Ruins of Nogrod (DF)
+1 The Wind-deeps [D] (DF)
 
 # Dwarf-lord Site (1)
 
@@ -169,9 +172,8 @@ Sites
 
 1 Deep Mines (WH)
 
-# Hero Site (30)
+# Hero Site (24)
 
-1 Andoloki [H] (NW)
 1 Bag End [H] (TW)
 1 Bar-en-Ibûn [H] (DF)
 1 Barrow-downs [H] (TW)
@@ -185,10 +187,6 @@ Sites
 1 Moria [H] (TW)
 1 Mount Gram [H] (TW)
 1 Mount Gundabad [H] (TW)
-1 Ruins of Belegost [H] (DF)
-1 Ruins of Nogrod [H] (DF)
-1 Steel Fall [H] (GW)
-1 The Drowning-deeps [H] (DF)
 1 The Gem-deeps [H] (DM)
 1 The Iron-deeps [H] (DM)
 1 The Pûkel-deeps [H] (DM)
@@ -199,5 +197,4 @@ Sites
 1 The Under-leas [H] (DM)
 1 The Under-vaults [H] (DM)
 1 The Wind Throne [H] (TW)
-1 The Wind-deeps [H] (DF)
 1 Thunder Cleft [H] (GW)

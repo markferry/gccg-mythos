@@ -1,14 +1,19 @@
 #
-# GCCG v0.9.6 Middle-earth deck
+# GCCG v0.9.6.3 Middle-earth deck
 #
-#      A Few Trusty Lads
+#      DCCD - Minion - Avatarless - A Few Trusty Lads
 #
 
 ####
 Deck
 ####
 
-# Hazard (33)
+# Dual Resource (3)
+
+1 Anguirel (NW)
+2 Flight Unmarked (RS)
+
+# Hazard (32)
 
 1 Alone and Unadvised (AS)
 2 An Unexpected Outpost (DM)
@@ -17,7 +22,6 @@ Deck
 1 Hobgoblins (TD)
 2 Little Snuffler (DM)
 3 Minions Stir (TW)
-1 Not without a Plan (DF)
 2 Orc Archers (DF)
 1 Orc-lieutenant (TW)
 3 Orc-raiders (TW)
@@ -25,16 +29,11 @@ Deck
 3 Orc-warband (TW)
 2 Orcish Marauders (DF)
 3 Pierced by Many Wounds (DM)
-1 Siege of Gondor (WOTR)
+1 Siege of Gondor (WR)
 1 Soldiers of the Dark Lord (DF)
-1 Taint of Glory (WOTR)
-1 Thrice Told Tales (ROTS)
+1 Taint of Glory (WR)
+1 The Back Door (DF)
 1 Twilight (TW)
-
-# Hero Resource (3)
-
-1 Anguirel (NW)
-2 Flight Unmarked (ROTS)
 
 # Minion Character (6)
 
@@ -75,8 +74,8 @@ Pool
 1 Hurog (NE)
 1 Radbug (LE)
 1 Shagrat (LE)
-1 Urdrak (NW)
 1 Ukôg the Lame (NE)
+1 Urdrak (NW)
 1 Virsh (NE)
 
 # Minion Resource (3)
@@ -89,35 +88,42 @@ Pool
 Sideboard
 #########
 
+# Dual Resource (1)
+
+1 Battle of Five Armies (GW)
+
 # Hazard (6)
 
-1 Capricious Spirit (ROTS)
-1 Many Burdens (ROTS)
+1 Capricious Spirit (RS)
+1 Many Burdens (RS)
 1 Muster Disperses (TW)
-1 Pride Increased with Despair (WOTR)
-1 Too Much to Ask (WOTR)
+1 Pride Increased with Despair (WR)
+1 Too Much to Ask (WR)
 1 Two or Three Tribes Present (DM)
 
-# Minion Resource (14)
+# Minion Resource (13)
 
-1 Always the Black Horses (TOI)
-1 Battle of Five Armies (GW)
+1 Always the Black Horses (TI)
 1 Flaming Torch (NE)
 1 I'll Be At Your Heels (LE)
 2 Orc-draughts (LE)
 2 Orc-liquor (LE)
 1 Orcs of Moria (LE)
-1 Slew the Great Warrior (TOI)
+1 Slew the Great Warrior (TI)
 1 Trophy-belt (NE)
 1 Whip (LE)
 1 Wolf-den (NE)
-1 Wolves of Isengard (TOI)
+1 Wolves of Isengard (TI)
 
 #####
 Sites
 #####
 
-# Minion Site (24)
+# Dual Site (1)
+
+1 The Wind-deeps [D] (DF)
+
+# Minion Site (23)
 
 1 Amon Hen [M] (LE)
 1 Bree [M] (LE)
@@ -142,7 +148,3 @@ Sites
 1 The Under-leas [M] (AS)
 1 The Under-vaults [M] (AS)
 1 The Wind Throne [M] (LE)
-1 The Wind-deeps [M] (DF)
-
-
-

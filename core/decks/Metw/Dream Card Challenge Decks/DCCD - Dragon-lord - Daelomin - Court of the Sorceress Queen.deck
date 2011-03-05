@@ -1,5 +1,5 @@
 #
-# GCCG v0.9.6 Middle-earth deck
+# GCCG v0.9.6.3 Middle-earth deck
 #
 #      DCCD - Dragon-lord - Daelomin - Court of the Sorceress Queen
 #
@@ -8,7 +8,7 @@
 Deck
 ####
 
-# Dragon-lord (3)
+# Dragon Character (3)
 
 3 Daelomin the Ghost-Wing (GW)
 
@@ -18,7 +18,7 @@ Deck
 2 An Unexpected Outpost (DM)
 1 Ando-anca Ahunt (GW)
 1 Corlagon Ahunt (GW)
-1 Death of a Kinsman (WOTR)
+1 Death of a Kinsman (WR)
 2 Doors of Night (LE)
 3 Dragon's Blood (TD)
 2 From the Pits of Angband (TD)
@@ -27,11 +27,11 @@ Deck
 1 Lure of Magic (NE)
 1 Marsh-drake (TD)
 1 Nameless Thing (DM)
-3 Quick as a Snake (WOTR)
+3 Quick as a Snake (WR)
 2 Sand-drake (SL)
 3 Summons from Long Sleep (AS)
-1 Taint of Glory (WOTR)
-1 Turukulon (TOI)
+1 Taint of Glory (WR)
+1 Turukulon (TI)
 1 Wyrmsiege (DF)
 
 # Hero Resource (4)
@@ -50,27 +50,29 @@ Deck
 1 Orc Tracker (LE)
 1 Orc of the Claw (GW)
 
-# Minion Resource (29)
+# Minion Resource (20)
 
 1 Artful Words (GW)
-1 Beaten into Submission (GW)
 3 Calm Song (GW)
 2 Crept Along Cleverly (WH)
-3 Dragon-flight (GW)
 1 Goblins of Goblin-gate (LE)
 1 Great Army of the North (BA)
-1 Honey (GW)
-2 Mating Duel (GW)
 1 Old and Cunning (GW)
 1 Orcs of Gundabad (LE)
 1 Orcs of Mirkwood (LE)
-1 Snow Trolls (NW)
 3 The Tormented Earth (AS)
 1 Thrór's Map [M] (AS)
 1 War-wolf (LE)
 1 Weigh All Things to a Nicety (LE)
-1 Wielder of old Arts (GW)
 3 Wyrm's Blood (GW)
+
+# Stage Resource (8)
+
+1 Beaten into Submission (GW)
+3 Dragon-flight (GW)
+1 Honey (GW)
+2 Mating Duel (GW)
+1 Wielder of old Arts (GW)
 
 ####
 Pool
@@ -83,12 +85,15 @@ Pool
 1 Râisha (DM)
 1 The Dragon's Disciple (GW)
 
-# Minion Resource (5)
+# Minion Resource (2)
+
+1 Flaming Torch (NE)
+1 Foul-smelling Paste (LE)
+
+# Stage Resource (3)
 
 1 Dragon Mindbend (GW)
 1 Enchanted Stare (GW)
-1 Flaming Torch (NE)
-1 Foul-smelling Paste (LE)
 1 Rumour of Treasure (GW)
 
 #########
@@ -102,27 +107,30 @@ Sideboard
 # Hazard (8)
 
 1 Cursed Treasure (GW)
-1 Devastation (WOTR)
+1 Devastation (TI)
 1 Gondring Ahunt (NW)
-1 Grima Wormtongue (TOI)
+1 Grima Wormtongue (TI)
 1 Out of Practise (DF)
-1 Siege of Gondor (WOTR)
-1 Too Much to Ask (WOTR)
+1 Siege of Gondor (WR)
+1 Too Much to Ask (WR)
 1 Wyrmsiege (DF)
 
-# Minion Resource (11)
+# Minion Resource (6)
 
-1 Dragon's Nest (GW)
-1 Dragon-king (GW)
 1 Memories of Ancalagon (GW)
-1 Scales and Jewels (GW)
-1 Spell-bound (GW)
 1 Tokens to Show (AS)
 1 Tribute Garnered (AS)
-1 Under his Spell (GW)
 1 Veil Removed (GW)
 1 Voices of Malice (LE)
 1 War-wolf (LE)
+
+# Stage Resource (5)
+
+1 Dragon's Nest (GW)
+1 Dragon-king (GW)
+1 Scales and Jewels (GW)
+1 Spell-bound (GW)
+1 Under his Spell (GW)
 
 #####
 Sites

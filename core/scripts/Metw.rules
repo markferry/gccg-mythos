@@ -22,21 +22,21 @@ deck_rules{"2-deck Hero"}{"deck"}=(
   ("RuleLimitByExpression",(3,"Attr(\"race\",#)==\"Wizard\"")),
   ("RuleDeckMinimum",60),
   ("RuleDeckMaximum",100),
-  ("RuleLimitByExpression",(0,"Attr(\"type\",#)!=\"Hero Character\" && Attr(\"type\",#)!=\"Hero Resource\" && Attr(\"type\",#)!=\"Hazard\" && Attr(\"agent\",#)!=\"yes\" && !(Attr(\"type\",#)==\"Minion Resource\" && find(\"Item\",Attr(\"class\",#))) && name(#)!=\"Tidings of Death\" && name(#)!=\"Deadly Dart\" && name(#)!=\"Sudden Call\" && name(#)!=\"Gnawed Ways\"")),
+  ("RuleLimitByExpression",(0,"Attr(\"type\",#)!=\"Hero Character\" && Attr(\"type\",#)!=\"Hero Resource\" && Attr(\"type\",#)!=\"Dual Resource\" && Attr(\"type\",#)!=\"Hazard\" && Attr(\"agent\",#)!=\"yes\" && !(Attr(\"type\",#)==\"Minion Resource\" && find(\"Item\",Attr(\"class\",#))) && name(#)!=\"Tidings of Death\" && name(#)!=\"Deadly Dart\" && name(#)!=\"Sudden Call\" && name(#)!=\"Gnawed Ways\"")),
   ("RulePass",NULL),
 );
 deck_rules{"2-deck Hero"}{"sideboard"}=(
   ("RuleDeckMinimum",0),
   ("RuleDeckMaximum",30),
   ("RuleLimitByExpression",(0,"find(\"Site\",Attr(\"type\",#)) != NULL")),
-  ("RuleLimitByExpression",(0,"Attr(\"type\",#)!=\"Hero Character\" && Attr(\"type\",#)!=\"Hero Resource\" && Attr(\"type\",#)!=\"Hazard\" && (Attr(\"keyword\",#),\"agent\")!=\"yes\" && !(Attr(\"type\",#)==\"Minion Resource\" && find(\"Item\",Attr(\"class\",#))) && name(#)!=\"Tidings of Death\" && name(#)!=\"Deadly Dart\" && name(#)!=\"Sudden Call\" && name(#)!=\"Gnawed Ways\"")),
+  ("RuleLimitByExpression",(0,"Attr(\"type\",#)!=\"Hero Character\" && Attr(\"type\",#)!=\"Dual Resource\" && Attr(\"type\",#)!=\"Hero Resource\" && Attr(\"type\",#)!=\"Hazard\" && (Attr(\"keyword\",#),\"agent\")!=\"yes\" && !(Attr(\"type\",#)==\"Minion Resource\" && find(\"Item\",Attr(\"class\",#))) && name(#)!=\"Tidings of Death\" && name(#)!=\"Deadly Dart\" && name(#)!=\"Sudden Call\" && name(#)!=\"Gnawed Ways\"")),
   ("RulePass",NULL),
 );
 deck_rules{"2-deck Hero"}{"sideboard vs. fw"}=(
   ("RuleDeckMinimum",0),
   ("RuleDeckMaximum",10),
   ("RuleLimitByExpression",(0,"find(\"Site\",Attr(\"type\",#)) != NULL")),
-  ("RuleLimitByExpression",(0,"Attr(\"type\",#)!=\"Hero Character\" && Attr(\"type\",#)!=\"Hero Resource\" && Attr(\"type\",#)!=\"Hazard\" && (Attr(\"keyword\",#),\"agent\")!=\"yes\" && !(Attr(\"type\",#)==\"Minion Resource\" && find(\"Item\",Attr(\"class\",#))) && name(#)!=\"Tidings of Death\" && name(#)!=\"Deadly Dart\" && name(#)!=\"Sudden Call\" && name(#)!=\"Gnawed Ways\"")),
+  ("RuleLimitByExpression",(0,"Attr(\"type\",#)!=\"Hero Character\" && Attr(\"type\",#)!=\"Dual Resource\" && Attr(\"type\",#)!=\"Hero Resource\" && Attr(\"type\",#)!=\"Hazard\" && (Attr(\"keyword\",#),\"agent\")!=\"yes\" && !(Attr(\"type\",#)==\"Minion Resource\" && find(\"Item\",Attr(\"class\",#))) && name(#)!=\"Tidings of Death\" && name(#)!=\"Deadly Dart\" && name(#)!=\"Sudden Call\" && name(#)!=\"Gnawed Ways\"")),
   ("RulePass",NULL),
 );
 deck_rules{"2-deck Hero"}{"pool"}=(
@@ -69,21 +69,21 @@ deck_rules{"2-deck Minion"}{"deck"}=(
   ("RuleLimitByExpression",(3,"Attr(\"race\",#)==\"Ringwraith\"")),
   ("RuleDeckMinimum",60),
   ("RuleDeckMaximum",100),
-  ("RuleLimitByExpression",(0,"Attr(\"type\",#)!=\"Minion Character\" && Attr(\"type\",#)!=\"Minion Resource\" && !(Attr(\"type\",#)==\"Hero Resource\" && find(\"Item\",Attr(\"class\",#))) && Attr(\"type\",#)!=\"Hazard\" && name(#)!=\"Beasts of the Wood\" && name(#)!=\"Wild Hounds\" && name(#)!=\"Gnawed Ways\"")),
+  ("RuleLimitByExpression",(0,"Attr(\"type\",#)!=\"Minion Character\" && Attr(\"type\",#)!=\"Dual Resource\" && Attr(\"type\",#)!=\"Minion Resource\" && !(Attr(\"type\",#)==\"Hero Resource\" && find(\"Item\",Attr(\"class\",#))) && Attr(\"type\",#)!=\"Hazard\" && name(#)!=\"Beasts of the Wood\" && name(#)!=\"Wild Hounds\" && name(#)!=\"Gnawed Ways\"")),
   ("RulePass",NULL),
 );
 deck_rules{"2-deck Minion"}{"sideboard"}=(
   ("RuleDeckMinimum",0),
   ("RuleDeckMaximum",30),
   ("RuleLimitByExpression",(0,"find(\"Site\",Attr(\"type\",#)) != NULL")),
-  ("RuleLimitByExpression",(0,"Attr(\"type\",#)!=\"Minion Character\" && Attr(\"type\",#)!=\"Minion Resource\" && !(Attr(\"type\",#)==\"Hero Resource\" && find(\"Item\",Attr(\"class\",#))) && Attr(\"type\",#)!=\"Hazard\" && name(#)!=\"Beasts of the Wood\" && name(#)!=\"Wild Hounds\" && name(#)!=\"Gnawed Ways\"")),
+  ("RuleLimitByExpression",(0,"Attr(\"type\",#)!=\"Minion Character\" && Attr(\"type\",#)!=\"Dual Resource\" && Attr(\"type\",#)!=\"Minion Resource\" && !(Attr(\"type\",#)==\"Hero Resource\" && find(\"Item\",Attr(\"class\",#))) && Attr(\"type\",#)!=\"Hazard\" && name(#)!=\"Beasts of the Wood\" && name(#)!=\"Wild Hounds\" && name(#)!=\"Gnawed Ways\"")),
   ("RulePass",NULL),
 );
 deck_rules{"2-deck Minion"}{"sideboard vs. fw"}=(
   ("RuleDeckMinimum",0),
   ("RuleDeckMaximum",10),
   ("RuleLimitByExpression",(0,"find(\"Site\",Attr(\"type\",#)) != NULL")),
-  ("RuleLimitByExpression",(0,"Attr(\"type\",#)!=\"Minion Character\" && Attr(\"type\",#)!=\"Minion Resource\" && !(Attr(\"type\",#)==\"Hero Resource\" && find(\"Item\",Attr(\"class\",#))) && Attr(\"type\",#)!=\"Hazard\" && name(#)!=\"Beasts of the Wood\" && name(#)!=\"Wild Hounds\" && name(#)!=\"Gnawed Ways\"")),
+  ("RuleLimitByExpression",(0,"Attr(\"type\",#)!=\"Minion Character\" && Attr(\"type\",#)!=\"Dual Resource\" && Attr(\"type\",#)!=\"Minion Resource\" && !(Attr(\"type\",#)==\"Hero Resource\" && find(\"Item\",Attr(\"class\",#))) && Attr(\"type\",#)!=\"Hazard\" && name(#)!=\"Beasts of the Wood\" && name(#)!=\"Wild Hounds\" && name(#)!=\"Gnawed Ways\"")),
   ("RulePass",NULL),
 );
 deck_rules{"2-deck Minion"}{"pool"}=(
@@ -126,6 +126,7 @@ deck_rules{"2-deck Fallen-wizard"}{""}=(
   ("RuleLimitEachByExpression",(2,"Attr(\"type\",#)==\"Hero Resource\"")),
   ("RuleLimitEachByExpression",(2,"Attr(\"type\",#)==\"Minion Resource\" && name(#)!=\"Sudden Call\"")),
   ("RuleLimitEachByExpression",(2,"Attr(\"type\",#)==\"Hero Character\"")),
+  ("RuleLimitEachByExpression",(2,"Attr(\"type\",#)==\"Dual Character\"")),
   ("RuleLimitEachByExpression",(2,"Attr(\"type\",#)==\"Minion Character\"")),
   ("RuleCardLimitGeneral",3),
 );
@@ -138,7 +139,7 @@ deck_rules{"2-deck Fallen-wizard"}{"deck"}=(
   ("RuleLimitByExpression",(3,"Attr(\"race\",#)==\"Fallen-wizard\"")),
   ("RuleDeckMinimum",60),
   ("RuleDeckMaximum",100),
-  ("RuleLimitByExpression",(0,"(Attr(\"type\",#)!=\"Minion Character\" && Attr(\"type\",#)!=\"Minion Resource\" && Attr(\"type\",#)!=\"Hero Character\" && Attr(\"type\",#)!=\"Hero Resource\" && Attr(\"type\",#)!=\"Stage Resource\" && Attr(\"type\",#)!=\"Hazard\" && name(#)!=\"Sudden Call\") || Attr(\"race\",#)==\"Ringwraith\"")),
+  ("RuleLimitByExpression",(0,"(Attr(\"type\",#)!=\"Minion Character\" && Attr(\"type\",#)!=\"Dual Resource\" && Attr(\"type\",#)!=\"Minion Resource\" && Attr(\"type\",#)!=\"Hero Character\" && Attr(\"type\",#)!=\"Hero Resource\" && Attr(\"type\",#)!=\"Stage Resource\" && Attr(\"type\",#)!=\"Hazard\" && name(#)!=\"Sudden Call\") || Attr(\"race\",#)==\"Ringwraith\"")),
   ("RulePass",NULL),
 );
 deck_rules{"2-deck Fallen-wizard"}{"sideboard"}=(
@@ -146,7 +147,7 @@ deck_rules{"2-deck Fallen-wizard"}{"sideboard"}=(
   ("RuleDeckMaximum",30),
   ("RuleLimitByExpression",(2,"Attr(\"race\",#)==\"Fallen-wizard\"")),
   ("RuleLimitByExpression",(0,"find(\"Site\",Attr(\"type\",#)) != NULL")),
-  ("RuleLimitByExpression",(0,"(Attr(\"type\",#)!=\"Minion Character\" && Attr(\"type\",#)!=\"Minion Resource\" && Attr(\"type\",#)!=\"Hero Character\" && Attr(\"type\",#)!=\"Hero Resource\" && Attr(\"type\",#)!=\"Stage Resource\" && Attr(\"type\",#)!=\"Hazard\" && name(#)!=\"Sudden Call\") || Attr(\"race\",#)==\"Ringwraith\"")),
+  ("RuleLimitByExpression",(0,"(Attr(\"type\",#)!=\"Minion Character\" && Attr(\"type\",#)!=\"Dual Resource\"  && Attr(\"type\",#)!=\"Minion Resource\" && Attr(\"type\",#)!=\"Hero Character\" && Attr(\"type\",#)!=\"Hero Resource\" && Attr(\"type\",#)!=\"Stage Resource\" && Attr(\"type\",#)!=\"Hazard\" && name(#)!=\"Sudden Call\") || Attr(\"race\",#)==\"Ringwraith\"")),
   ("RulePass",NULL),
 );
 deck_rules{"2-deck Fallen-wizard"}{"sideboard vs. fw"}=(
@@ -154,7 +155,7 @@ deck_rules{"2-deck Fallen-wizard"}{"sideboard vs. fw"}=(
   ("RuleDeckMaximum",10),
   ("RuleLimitByExpression",(2,"Attr(\"race\",#)==\"Fallen-wizard\"")),
   ("RuleLimitByExpression",(0,"find(\"Site\",Attr(\"type\",#)) != NULL")),
-  ("RuleLimitByExpression",(0,"(Attr(\"type\",#)!=\"Minion Character\" && Attr(\"type\",#)!=\"Minion Resource\" && Attr(\"type\",#)!=\"Hero Character\" && Attr(\"type\",#)!=\"Hero Resource\" && Attr(\"type\",#)!=\"Stage Resource\" && Attr(\"type\",#)!=\"Hazard\" && name(#)!=\"Sudden Call\") || Attr(\"race\",#)==\"Ringwraith\"")),
+  ("RuleLimitByExpression",(0,"(Attr(\"type\",#)!=\"Minion Character\" && Attr(\"type\",#)!=\"Dual Resource\"  && Attr(\"type\",#)!=\"Minion Resource\" && Attr(\"type\",#)!=\"Hero Character\" && Attr(\"type\",#)!=\"Hero Resource\" && Attr(\"type\",#)!=\"Stage Resource\" && Attr(\"type\",#)!=\"Hazard\" && name(#)!=\"Sudden Call\") || Attr(\"race\",#)==\"Ringwraith\"")),
   ("RulePass",NULL),
 );
 deck_rules{"2-deck Fallen-wizard"}{"pool"}=(

@@ -99,6 +99,9 @@ def RuleHazardResourceBalance
     hmax=2;
   h=(,);
   h{"Twilight"}=0;
+  h{"Beasts of the Wood"}=0;
+  h{"Wild Hounds"}=0;
+  h{"Tidings of Death"}=0;
   h{"Sudden Call"}=0;
   h{"Tookish Blood"}=0;
   h{"Grinding Ice"}=0;
@@ -131,7 +134,7 @@ def RuleHazardResourceBalance
       else
         t="n";
     }
-    else if((n=="Twilight" || n=="Great Secrets Buried There" || n=="Grinding Ice") && h{n} < hmax)
+    else if((n=="Twilight" || n=="Great Secrets Buried There" || n=="Grinding Ice" || n=="Beasts of the Wood" || n=="Wild Hounds" || n=="Tidings of Death") && h{n} < hmax)
     {
         h{n}=h{n}+1;
         t="n";

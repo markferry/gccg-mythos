@@ -1,7 +1,7 @@
 #
-# GCCG v0.9.6 Middle-earth deck
+# GCCG v0.9.6.3 Middle-earth deck
 #
-#      {blue}Imported Deck{white}
+#      DCCD - Fallen-wizard - Saruman - Seek for the Nine
 #
 
 ####
@@ -10,7 +10,7 @@ Deck
 
 # Dual Resource (4)
 
-2 Mighty Steed (TOI)
+2 Mighty Steed (TI)
 2 Rings of Power (NM)
 
 # Fallen-wizard Character (3)
@@ -32,20 +32,20 @@ Deck
 1 Foolish Words (LE)
 1 Frightful Guardian (GW)
 1 Great Northern Bear (GW)
-1 Grima Wormtongue (TOI)
+1 Grima Wormtongue (TI)
 1 Lord of the Eagles (DF)
 1 Lure of the Senses (LE)
 1 Marsh-drake (TD)
 1 Men of the Wood (GW)
-2 Mensharag (TOI)
+2 Mensharag (TI)
 1 Old Man Willow (TW)
 1 Out of Practise (DF)
 1 Rain-drake (TD)
 1 Shut Yer Mouth (LE)
 1 Snow in the Mountains (NW)
-1 Taint of Ambition (WOTR)
-1 Taint of Glory (WOTR)
-1 Taint of the Wilds (ROTS)
+1 Taint of Ambition (WR)
+1 Taint of Glory (WR)
+1 Taint of the Wilds (RS)
 2 Twilight (LE)
 1 Watcher in the Water (LE)
 
@@ -62,9 +62,9 @@ Deck
 1 Longbottom Leaf (BA)
 1 Lucky Strike (TW)
 1 Men of Dorwinion [H] (TW)
-2 Rumours of Danger (WOTR)
+2 Rumours of Danger (WR)
 2 Smoke Rings (DM)
-1 The Wind Is Turning (WOTR)
+1 The Wind Is Turning (WR)
 1 Trickery (TD)
 1 Wain-easterlings [H] (AS)
 1 When I Know Anything (TD)
@@ -85,7 +85,7 @@ Deck
 
 # Stage Resource (4)
 
-1 Lore of the Rings (ROTS)
+1 Lore of the Rings (RS)
 1 Never Refuse (WH)
 1 Saruman's Ring (WH)
 1 The Forge-master (WH)
@@ -102,10 +102,10 @@ Pool
 
 # Hero Character (4)
 
-1 Ceorl (TOI)
+1 Ceorl (TI)
 1 Peath (TW)
 1 Wacho (TW)
-1 Éothain (TOI)
+1 Éothain (TI)
 
 # Hero Resource (1)
 
@@ -132,15 +132,15 @@ Pool
 Sideboard
 #########
 
-# Dual Resource (1)
+# Dual Resource (2)
 
 1 King of Mighty Words (NM)
 1 Slaves to the Ring (NM)
 
 # Hazard (2)
 
-1 Many Burdens (ROTS)
-1 Too Much to Ask (WOTR)
+1 Many Burdens (RS)
+1 Too Much to Ask (WR)
 
 # Hero Resource (6)
 
@@ -180,8 +180,9 @@ Sites
 # Hero Site (23)
 
 1 Amon Hen [H] (TW)
-1 Amon Lhaw [H] (ROTS)
+1 Amon Lhaw [H] (TI)
 1 Bandit Lair [H] (TW)
+1 Barad Tathren [H] (TI)
 1 Buhr Widu [H] (TD)
 1 Caras Amarth [H] (FB)
 1 Cor Angaladh [H] (FB)
@@ -192,8 +193,6 @@ Sites
 1 Glittering Caves [H] (TW)
 1 Goblin-gate [H] (TW)
 1 Gyogorasag Sanctuary [H] (GW)
-1 Joghul's Shrine [H] (GP)
-1 Kref Masar [H] (SL)
 1 Moria [H] (TW)
 1 Raider-hold [H] (AS)
 1 Rhosgobel [H] (TW)
@@ -202,3 +201,4 @@ Sites
 1 Strayhold [H] (NE)
 1 The Carrock [H] (DF)
 1 Tol Buruth [H] (NE)
+1 Turukulon's Lair [H] (TI)

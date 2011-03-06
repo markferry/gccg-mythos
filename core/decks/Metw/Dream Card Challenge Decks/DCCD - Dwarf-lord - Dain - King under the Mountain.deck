@@ -1,5 +1,5 @@
 #
-# GCCG v0.9.6 Middle-earth deck
+# GCCG v0.9.6.3 Middle-earth deck
 #
 #      DCCD - Dwarf-lord - Dain - King under the Mountain
 #
@@ -14,9 +14,9 @@ Deck
 1 Dwarven Chain-shirt (DF)
 2 Old Grudge (DF)
 
-# Dwarf-lord Character (3)
+# Dwarf-lord Character (4)
 
-3 Dáin (DF)
+4 Dáin (DF)
 
 # Grey Agent Character (1)
 
@@ -24,7 +24,7 @@ Deck
 
 # Hazard (33)
 
-1 Ambush! (DF)
+1 Ambush! (TI)
 2 An Unexpected Outpost (DM)
 1 Angurth at Home (GW)
 1 Bardings (GW)
@@ -68,13 +68,13 @@ Deck
 1 Noble Hound (DM)
 1 Not at Home (TD)
 1 Of the Race of Dale (GW)
-1 Old Toby (TOI)
+1 Old Toby (TI)
 1 Pity Mixed with Horror (DF)
 1 Sated Beast (TD)
 1 Scabbard of Chalcedony (TD)
 2 Smoke Rings (DM)
 2 The Old Thrush (TW)
-1 The Wind Is Turning (WOTR)
+1 The Wind Is Turning (WR)
 1 Valiant Sword (TD)
 1 Wormsbane (TD)
 
@@ -133,7 +133,7 @@ Sideboard
 1 Rain-drake (TD)
 1 Slayer (TW)
 1 Slip Treacherously (AS)
-1 Too Much to Ask (WOTR)
+1 Too Much to Ask (WR)
 
 # Hero Resource (7)
 
@@ -150,19 +150,29 @@ Sideboard
 1 A Merrier World (WH)
 1 Friendship of Old Renewed (DF)
 1 Son of Dáin (DF)
-1 Strength from the Iron Hills (DF)
+1 Strength from the Ered Engrin (DF)
 
 #####
 Sites
 #####
 
+# Dual Site (3)
+
+1 The Cobalt-deeps (NW)
+1 The Rusted-deeps [D] (DF)
+1 The Wind-deeps [D] (DF)
+
 # Dwarf-lord Site (2)
 
 2 Iron Hill Dwarf-hold [D] (DF)
 
-# Hero Site (38)
+# Fallen Site (1)
 
-1 Barak-shatur [H] (DF)
+1 Thranduil's Halls [F] (FB)
+
+# Hero Site (36)
+
+1 Barak-shathur [H] (DF)
 1 Buhr Thurasig [H] (GW)
 1 Buhr Widu [H] (TD)
 1 Cave of the Urdharkonur [H] (GW)
@@ -176,6 +186,7 @@ Sites
 1 Gold Hill [H] (TD)
 1 Gondmaeglom [H] (TD)
 1 Irerock [H] (TW)
+1 Kula Dulakurth [H] (NW)
 1 Lake-town [H] (TW)
 1 Long Marish [H] (DF)
 1 Long Peak [H] (GW)
@@ -188,15 +199,16 @@ Sites
 1 Sarn Goriwing [H] (TW)
 1 Shrel-Kain [H] (TW)
 1 Sonotor's Mound [H] (DF)
-1 Steel Fall [H] (GW)
 1 The Carrock [H] (DF)
 1 The Lonely Mountain [H] (TW)
-1 The Rusted-deeps [H] (DF)
 1 The Sulfur-deeps [H] (DM)
 1 The Under-leas [H] (DM)
 1 The Wind Throne [H] (TW)
-1 The Wind-deeps [H] (DF)
 1 Thranduil's Halls [H] (TW)
 1 Thunder Cleft [H] (GW)
 1 Woodmen-town [H] (TW)
 1 Zarak Dûm [H] (TD)
+
+# Minion Site (1)
+
+1 Lugdruong [M] (ML)

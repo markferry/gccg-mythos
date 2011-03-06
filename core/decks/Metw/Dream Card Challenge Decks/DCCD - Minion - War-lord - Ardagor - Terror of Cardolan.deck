@@ -1,5 +1,5 @@
 #
-# GCCG v0.9.6 Middle-earth deck
+# GCCG v0.9.6.3 Middle-earth deck
 #
 #      DCCD - Minion - War-lord - Ardagor - Terror of Cardolan
 #
@@ -13,7 +13,7 @@ Deck
 1 Olga-wama (KN)
 1 The Dunmen's Dogs (KN)
 
-# Hazard (33)
+# Hazard (32)
 
 3 An Unexpected Outpost (DM)
 3 Doors of Night (TW)
@@ -22,10 +22,9 @@ Deck
 1 Greed (TW)
 2 Hermit Troll (DF)
 1 Hibernating Troll (NW)
-1 Left on the Field (WOTR)
+1 Left on the Field (WR)
 2 Old Man Willow (TW)
 1 Olog Warlords (BA)
-1 Politics (WOTR)
 2 Rain-drake (TD)
 2 Rats! (LE)
 1 River (TW)
@@ -35,13 +34,12 @@ Deck
 1 Wild Trolls (LE)
 2 Wound of Long Burden (DM)
 
-# Minion Character (9)
+# Minion Character (8)
 
 1 Bûrat (AS)
 2 Forest-troll (KN)
 1 Hill-troll (BA)
 1 Pôn-ora-Pôn (DM)
-1 Troll Bodyguard (KN)
 1 Troll Lout (LE)
 1 Tûma (AS)
 1 Wûluag (AS)
@@ -84,7 +82,7 @@ Pool
 
 1 Perchen (AS)
 1 Uchel (LE)
-1 Wolf (TOI)
+1 Wolf (TI)
 
 # Minion Resource (3)
 
@@ -100,20 +98,17 @@ Pool
 Sideboard
 #########
 
-# Dual Resource (3)
+# Dual Resource (4)
 
+1 Beasts of the Wood (WH)
 1 Beffraen (KN)
 1 Concealed Entrance (KN)
 1 Walls Behind Walls (KN)
 
 # Hazard (2)
 
-1 Many Burdens (ROTS)
+1 Many Burdens (RS)
 1 Ninevet (DF)
-
-# Hero Resource (1)
-
-1 Beasts of the Wood (WH)
 
 # Minion Resource (14)
 
@@ -129,7 +124,7 @@ Sideboard
 1 Origins Revealed (NE)
 1 Secrets of Their Forging (LE)
 1 Test of Fire (LE)
-1 The Great Willow (ROTS)
+1 The Great Willow (RS)
 1 War-wolf (LE)
 
 #####
@@ -140,17 +135,21 @@ Sites
 
 1 Carn Dûm [B] (BA)
 
-# Minion Site (49)
+# Dual Site (1)
 
-1 Aden Scarlet's Medical Library [M] (ROTS)
+1 The Drowning-deeps [D] (DF)
+
+# Minion Site (46)
+
+1 Aden Scarlet's Medical Library [M] (RS)
 1 Amon Lind [M] (FB)
 1 Andoloki [M] (NW)
 1 Annúminas [M] (KN)
-1 Barad Tathren [M] (TOI)
+1 Barad Tathren [M] (TI)
 1 Barrow-downs [M] (LE)
 1 Blue Mountain Dwarf-hold [M] (LE)
-1 Brandy Hall [M] (ROTS)
-1 Bywater [M] (WOTR)
+1 Brandy Hall [M] (RS)
+1 Bywater [M] (WR)
 1 Cameth Brin [M] (LE)
 1 Cirith Helkaloke [M] (GW)
 1 Creb Durga [M] (KN)
@@ -160,34 +159,31 @@ Sites
 1 Ettenmoors [M] (LE)
 1 Goblin-gate [M] (LE)
 1 Gondring's Lair [M] (NW)
-1 Helm's Deep [M] (TOI)
+1 Helm's Deep [M] (TI)
 1 Hostel of the Sisters of Nienna [M] (KN)
 1 Isengard [M] (LE)
-1 Isildur's Tomb [M] (TOI)
+1 Isildur's Tomb [M] (TI)
 1 Isle of the Ulond [M] (AS)
-1 Michel Delving [M] (ROTS)
+1 Michel Delving [M] (RS)
 1 Moria [M] (LE)
 1 Morkai [M] (KN)
 1 Mount Rerir [M] (FB)
 1 Ost-in-Edhil [M] (LE)
 1 Ruined Signal Tower [M] (LE)
-1 Ruins of Belegost [M] (DF)
 1 Sonotor's Mound [M] (DF)
 1 Stone-circle [M] (LE)
 1 Telpemár [M] (FB)
-1 Tharagrondost [M] (WOTR)
+1 Tharagrondost [M] (WR)
 1 Tharbad [M] (LE)
 1 Thaurung [M] (NW)
-1 The Drowning-deeps [M] (DF)
-1 The Last Bridge [M] (ROTS)
+1 The Last Bridge [M] (RS)
 1 The Under-Caves [M] (KN)
 1 The White Towers [M] (LE)
-1 The Willow Dingle [M] (ROTS)
+1 The Willow Dingle [M] (RS)
 1 The Worthy Hills [M] (LE)
-1 Tol Glingal [M] (SL)
 1 Tom's House [M] (FB)
 1 Traith Chefudoc [M] (KN)
-1 Turukulon's Lair [M] (TOI)
+1 Turukulon's Lair [M] (TI)
 1 Weathertop [M] (AS)
 1 Wose Passage-hold [M] (LE)
 1 Zarak Dûm [M] (LE)

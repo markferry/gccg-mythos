@@ -415,7 +415,7 @@
 			 <attr key="mind" value="2"/>
 			 <attr key="influence" value="0"/>
 			 <attr key="cp" value="-1"/>
-			 <attr key="home_site" value="any Dwarf-hold"/>
+			 <attr key="home_site" value="Any Dwarf-hold"/>
 			 <attr key="skills" value="Warrior"/>
 			 <attr key="race" value="Dwarf"/>
 		</card>
@@ -501,7 +501,7 @@
 			 <attr key="mind" value="4"/>
 			 <attr key="influence" value="0"/>
 			 <attr key="mp" value="1"/>
-			 <attr key="home_site" value="Nurunkhizdin"/>
+			 <attr key="home_site" value="Nurunkhizdín"/>
 			 <attr key="skills" value="Warrior"/>
 			 <attr key="race" value="Dwarf"/>
 			 <attr key="keyword" value="Firebeard"/>

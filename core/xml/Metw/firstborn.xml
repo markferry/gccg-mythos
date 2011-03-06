@@ -1778,7 +1778,7 @@
        <attr key="unique" value="yes"/>
        <attr key="haven" value="Rivendell"/>
        <attr key="draw" value="1"/>
-       <attr key="region" value="Old Forest*"/>
+       <attr key="region" value="Old Forest"/>
        <attr key="site_type" value="{B}"/>
        <attr key="special" value=" Only creatures with an * may be keyed to the site. Healing effects affect all characters at the site."/>
        <attr key="draw_opp" value="1"/>
@@ -1790,7 +1790,7 @@
        <attr key="unique" value="yes"/>
        <attr key="haven" value="Carn Dûm"/>
        <attr key="draw" value="2"/>
-       <attr key="region" value="Old Forest*"/>
+       <attr key="region" value="Old Forest"/>
        <attr key="site_type" value="{B}"/>
        <attr key="playable" value="Items (minor, major)"/>
        <attr key="draw_opp" value="2"/>

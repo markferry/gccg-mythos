@@ -6,7 +6,7 @@
     <card name="Alatar" graphics="Alatar.jpg" text="Unique. Hazards your companies defeat (even with *) are worth full kill marshalling points. If you have more than 7 stage points, all detainment attacks against your companies attack normally instead. If at one of his Wizardhavens when a hazard creature attacks one of your companies, he may immediately join that company. Alatar must face a strike from the creature (in all cases). Following all of the creature's attacks, Alatar must tap (if untapped) and make a corruption check.">
        <attr key="unique" value="yes"/>
        <attr key="skills" value="Warrior/Scout/Ranger/Sage"/>
-       <attr key="home_site" value="Any non-&quot;Dragon's lair&quot; Ruins and Lairs in a Wilderness"/>
+       <attr key="home_site" value="Any non-Dragon's lair Ruins and Lairs in a Wilderness"/>
        <attr key="prowess" value="7"/>
        <attr key="body" value="9"/>
        <attr key="gi" value="17"/>

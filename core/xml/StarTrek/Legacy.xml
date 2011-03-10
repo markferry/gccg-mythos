@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE ccg-setinfo SYSTEM "../gccg-set.dtd">
+<ccg-setinfo name="Legacy" dir="Legacy" abbrev="L" game="Star Trek Collectible Card Game: Second Edition">
+	<cards>
+		<card name="Chula: The Precipice" graphics="chulatheprecipice.jpg" back="1" text="If you have an even number of personnel, randomly split them in half. Unless one half has a personnel with Leadership, a second personnel with Cunning&gt;5, and a third personnel with Honor, randomly select one half to be stopped.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Dilemma"/>
+			<attr key="cost" value="2"/>
+			<attr key="zone" value="dual"/>
+		</card>
+		<card name="Left Behind" graphics="leftbehind.jpg" back="1" text="Randomly select two personnel. They cannot use their skills while facing this dilemma. Unless you have 2 Biology and 2 Medical or 2 Navigation, Transporters, and Shields&gt;8, those personnel are stopped, and your opponent places them on a planet mission in the same quadrant as this mission.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Dilemma"/>
+			<attr key="cost" value="4"/>
+			<attr key="zone" value="space"/>
+		</card>
+		<card name="Repressed Message" graphics="repressedmessage.jpg" back="1" text="Consume: 2. (Your opponent places the top two cards of his or her dilemma pile face up beneath this mission.) Reveal the top card of your dilemma pile. Your opponent may remove this dilemma from the game to replace it with the revealed the dilemma. When that dilemma is about to be overcome, remove it from the game instead.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Dilemma"/>
+			<attr key="cost" value="0"/>
+			<attr key="zone" value="dual"/>
+		</card>
+		<card name="Rogue Borg Ship" graphics="rogueborgship.jpg" back="1" text="Unless you command three or more ships or ships at this mission with total Weapons&gt;14 or more [Cmd] personnel that [Stf] personnel, your opponent may download a Damage card and place it on one of your ships at this mission, then this dilemma returns to its owner's dilemma pile.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Dilemma"/>
+			<attr key="cost" value="3"/>
+			<attr key="zone" value="space"/>
+		</card>
+		<card name="Exocomp" graphics="exocomp.jpg" text="Each of your Programming personnel present gains Engineer. When a Damage card an opponent owns is about to be placed on this ship, you may destroy this equipment to prevent that. Order- Destroy this equipment to remove a Damage card an opponent owns from this ship.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Equipment"/>
+			<attr key="cost" value="3"/>
+		</card>
+		<card name="Subtle Influence" graphics="subtleinfluence.jpg" text="To play this event, you must command six [Rom] personnel. Plays in your core. While personnel your opponent commands are attempting a mission, that opponent must discard an interrupt from hand to play an interrupt.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Event"/>
+			<attr key="cost" value="2"/>
+		</card>
+		<card name="Earth (Stop First Contact)" graphics="earthstopfirstcontact.jpg" text="Borg Queen, (Locutus or a personnel you do not own), Cunning&gt;40 and Strength&gt;40 Region: Sector 001. When your personnel complete this mission, remove a personnel involved from the game to choose five opponent's personnel at a headquarters mission to remove from the game.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Mission"/>
+			<attr key="attemptable" value="[Bor]"/>
+			<attr key="zone" value="planet"/>
+			<attr key="quadrant" value="alpha"/>
+			<attr key="points" value="40"/>
+			<attr key="span" value="2"/>
+		</card>
+		<card name="Mediate Peace Treaty" graphics="mediatepeacetreaty.jpg" text="Diplomacy, Law, Leadership and (Integrity&gt;35 or Cunning&gt;37) Players cannot begin combat nor begin an engagement at this mission.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Mission"/>
+			<attr key="attemptable" value="[Fed] [NA]"/>
+			<attr key="zone" value="space"/>
+			<attr key="quadrant" value="alpha"/>
+			<attr key="points" value="30"/>
+			<attr key="span" value="3"/>
+		</card>	
+		<card name="Evek (Agent of Cardassian Justice.)" graphics="evekagentofcardassianjustice.jpg" text="•Law •Officer •Physics •Security Gul. When you play this personnel, if you command six [Car] personnel, you may reveal the top three cards of an opponent's deck. Each revealed card that is a personnel that opponent does not command is placed in your brig. (That opponent now commands them.)">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Personel"/>
+			<attr key="affiliation" value="Cardassian"/>
+			<attr key="race" value="Cardassian"/>
+			<attr key="cost" value="4"/>
+			<attr key="icons" value="[Cmd]"/>
+			<attr key="integrity" value="4"/>
+			<attr key="cunning" value="5"/>
+			<attr key="strength" value="6"/>
+		</card>
+		<card name="Changeling Infiltrator" graphics="changelinginfiltrator.jpg" text="Founder. Infiltrator. Shape-shifter. Order - Choose a captive in your brig. While that captive is in your brig, this personnel gains all icons, skills, keywords and attributes on that personnel. These effects last until this order is executed again.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Personel"/>
+			<attr key="affiliation" value="Dominion"/>
+			<attr key="race" value="Changeling"/>
+			<attr key="cost" value="0"/>
+			<attr key="icons" value=""/>
+			<attr key="integrity" value="0"/>
+			<attr key="cunning" value="0"/>
+			<attr key="strength" value="0"/>
+		</card>
+		<card name="Pel (Profit-Seeker)" graphics="pelprofitseeker.jpg" text="•Acquisition •Anthropology •Biology •Diplomacy Waiter. While this personnel is facing a dilemma at a mission worth 40 or more points, your [Fer] personnel may meet Integrity and Strength requirements using Cunning.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Personel"/>
+			<attr key="affiliation" value="Ferengi"/>
+			<attr key="race" value="Ferengi"/>
+			<attr key="cost" value="2"/>
+			<attr key="icons" value="[Stf]"/>
+			<attr key="integrity" value="6"/>
+			<attr key="cunning" value="6"/>
+			<attr key="strength" value="4"/>
+		</card>
+		<card name="Miles O'Brien (Connelly)" graphics="milesobrienconnelly.jpg" text="•Engineer •Honor •Intelligence •Programming Infiltrator. Thief. While this personnel is present with a Thief, this personnel is Cunning +1 for each non-Artifact equipment present (limit +4). You may play equipment at cost +1 at this mission">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Personel"/>
+			<attr key="affiliation" value="Non-Aligned"/>
+			<attr key="race" value="Human"/>
+			<attr key="cost" value="4"/>
+			<attr key="icons" value="[Stf]"/>
+			<attr key="integrity" value="7"/>
+			<attr key="cunning" value="5"/>
+			<attr key="strength" value="6"/>
+		</card>
+		<card name="Romulan Impersonator ('Geordi La Forge')" graphics="romulanimpersonatorgeordilaforge.jpg" text="•Engineer •Intelligence •Programming •Treachery Infiltrator. When an opponent's personnel is about to complete this mission, you may return this personnel to his owner's hand to increase each attributes requirement of that mission by 5 until the end of the turn.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Personel"/>
+			<attr key="affiliation" value="Romulan"/>
+			<attr key="race" value="Romulan"/>
+			<attr key="cost" value="3"/>
+			<attr key="icons" value="[Stf]"/>
+			<attr key="integrity" value="4"/>
+			<attr key="cunning" value="6"/>
+			<attr key="strength" value="6"/>
+		</card>
+		<card name="Tenak'talar (Vanguard of the Occupation)" graphics="tenaktalarvanguardoftheoccupation.jpg" text="This ship is Range +1 for each unique [Car] personnel aboard (limit +3). When your unique Cardassian aboard uses a skill to complete a [Car] mission, if this ship is staffed, score 10 points. You may do this only once each turn.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Ship"/>
+			<attr key="affiliation" value="Dominion"/>
+			<attr key="class" value="Warship"/>
+			<attr key="cost" value="7"/>
+			<attr key="staff" value="[Cmd] [Stf] [Stf]"/>
+			<attr key="icons" value="[TN]"/>
+			<attr key="range" value="9"/>
+			<attr key="weapons" value="9"/>
+			<attr key="shields" value="9"/>
+		</card>
+		<card name="U.S.S. Centaur (Patrolling Ship)" graphics="usscentaurpatrollingship.jpg" text="While your [DS9] personnel aboard is attempting a mission that has three or less dilemmas beneath it, he or she is attributes +1.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Ship"/>
+			<attr key="affiliation" value="Federation"/>
+			<attr key="class" value="Centaur Class"/>
+			<attr key="cost" value="5"/>
+			<attr key="staff" value="[Stf] [Stf] [Stf]"/>
+			<attr key="icons" value="[DS9]"/>
+			<attr key="range" value="8"/>
+			<attr key="weapons" value="7"/>
+			<attr key="shields" value="7"/>
+		</card>
+	</cards>
+</ccg-setinfo>

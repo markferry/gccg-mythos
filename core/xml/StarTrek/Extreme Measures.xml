@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE ccg-setinfo SYSTEM "../gccg-set.dtd">
+<ccg-setinfo name="Extreme Measures" dir="Extreme Measures" abbrev="EM" game="Star Trek Collectible Card Game: Second Edition">
+	<cards>
+		<card name="Alien Encounter" graphics="alienencounter.jpg" back="1" text="Unless you have Anthropology, Diplomacy, Exobiology, Leadership, and Integrity&gt;34, or command one or less headquarters missions, choose five personnel to be stopped and this dilemma returns to its owner's dilemma pile.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Dilemma"/>
+			<attr key="cost" value="3"/>
+			<attr key="zone" value="dual"/>
+		</card>
+		<card name="Broken Link" graphics="brokenlink.jpg" back="1" text="Your personnel cannot gain skills while facing this dilemma. Unless you have Anthropology, Biology, and Law or Diplomacy, Leadership, and Security, randomly select a personnel to be stopped and if this dilemma's owner discards a Capture card or a Punishment card from hand, then that personnel is placed in your opponent's brig instead.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Dilemma"/>
+			<attr key="cost" value="1"/>
+			<attr key="zone" value="dual"/>
+		</card>
+		<card name="Coolant Leak" graphics="coolantleak.jpg" back="1" text="Unless you have Engineer or a personnel who has a cost of 4 or more, all your personnel are stopped. If you have two or more personnel who have Engineer or cost 1 or less, randomly select all but one of those personnel to be stopped.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Dilemma"/>
+			<attr key="cost" value="4"/>
+			<attr key="zone" value="dual"/>
+		</card>
+		<card name="Desperation" graphics="desperation.jpg" back="1" text="Unless you have 3 Security or Leadership, Treachery, and Strength&gt;28, randomly select a personnel and choose a personnel to be stopped for each different Bajoran Resistance personnel your opponent commands.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Dilemma"/>
+			<attr key="cost" value="2"/>
+			<attr key="zone" value="dual"/>
+		</card>
+		<card name="Family" graphics="family.jpg" back="1" text="Randomly select a personnel to be stopped. Unless you reveal an Honor personnel from your hand or reveal a Treachery personnel from your hand, place that personnel on the bottom of his or her owner's deck instead.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Dilemma"/>
+			<attr key="cost" value="3"/>
+			<attr key="zone" value="dual"/>
+		</card>
+		<card name="Inequitable Exchange" graphics="inequitableexchange.jpg" back="1" text="If your opponent has a captive in his or her brig, this dilemma is cost -3. Take a personnel you own from an opponent's brig (he or she joins this mission attempt). Then your opponent chooses a different personnel to be placed in his or her brig.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Dilemma"/>
+			<attr key="cost" value="6"/>
+			<attr key="zone" value="dual"/>
+		</card>
+		<card name="Information Extraction" graphics="informationextraction.jpg" back="1" text="Your personnel cannot gain skills while facing this dilemma. Unless you have Intelligence, Officer, and Programming or Exobiology, Medical, and Treachery, randomly select a personnel to be stopped and if this dilemma's owner chooses to lose 5 points, then add 10 to each attribute requirement of this mission until the end of this mission attempt.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Dilemma"/>
+			<attr key="cost" value="1"/>
+			<attr key="zone" value="dual"/>
+		</card>
+		<card name="Just Following Orders" graphics="justfollowingorders.jpg" back="1" text="Your personnel cannot gain skills while facing this dilemma. Unless you have Astrometrics, Intelligence, and Treachery or Geology, Honor, and Navigation, randomly select a personnel to be stopped and if this dilemma's owner discards an event from hand, then he or she may destroy an event.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Dilemma"/>
+			<attr key="cost" value="1"/>
+			<attr key="zone" value="dual"/>
+		</card>
+		<card name="One Step Ahead" graphics="onestepahead.jpg" back="1" text="Unless you have 2 Programming and 2 Transporters or two Hand Weapons, all your personnel are stopped. When you meet the requirements of this dilemma, you may stop a Security personnel to score 5 points.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Dilemma"/>
+			<attr key="cost" value="0"/>
+			<attr key="zone" value="space"/>
+		</card>
+		<card name="The Launching" graphics="thelaunching.jpg" back="1" text="Unless you have 2 Astrometrics and 2 Physics or two non-Hand Weapon equipment, all your personnel are stopped. When you meet the requirements of this dilemma, you may stop an Engineer personnel to score 5 points.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Dilemma"/>
+			<attr key="cost" value="0"/>
+			<attr key="zone" value="planet"/>
+		</card>
+		<card name="Trilithium Heist" graphics="trilithiumheist.jpg" back="1" text="Your personnel cannot gain skills while facing this dilemma. Unless you have Acquisition, Engineer, and Transporters or Medical, Physics, and Science, randomly select a personnel to be stopped and if this dilemma's owner discards a Crime card from hand, then he or she scores 5 points.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Dilemma"/>
+			<attr key="cost" value="1"/>
+			<attr key="zone" value="dual"/>
+		</card>
+		<card name="Earring of Li Nalas" graphics="earringoflinalas.jpg" text="Artifact. (To play this card, you must have completed a mission requiring Acquisition, Anthropology, or Archaeology.)When your Bajoran Resistance personnel present is about to be stopped by a dilemma, you may destroy your Assault event or your Hand Weapon he or she is equipped with to prevent that. You may do this only once each turn.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Equipment"/>
+			<attr key="cost" value="0"/>
+		</card>
+		<card name="Resistance Rifle" graphics="resistancerifle.jpg" text="Hand Weapon. While in combat, each of your Bajoran Resistance personnel present is Strength +1. While your Bajoran Resistance personnel present is facing a dilemma, you may add that personnel's Strength to his or her Cunning or Integrity until the end of that dilemma. You may do this only once each turn.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Equipment"/>
+			<attr key="cost" value="1"/>
+		</card>
+		<card name="Bajoran Resistance Cell" graphics="bajoranresistancecell.jpg" text="To play this event, you must command three Bajoran Resistance personnel. Choose one: download an Assault event; download a Hand Weapon; or download a Bajoran Resistance personnel and place him or her in your discard pile. Destroy this event.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Event"/>
+			<attr key="cost" value="2"/>
+		</card>
+		<card name="Ferengi Tradition" graphics="ferengitradition.jpg" text="To play this event, you must command six [Fer] personnel. Lose 10 points to score 20 points. Remove this event from the game.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Event"/>
+			<attr key="cost" value="5"/>
+		</card>
+		<card name="I Stand With My Shipmates" graphics="istandwithmyshipmates.jpg" text="Plays in your core. When you are about to lose 5 points to pay the cost of a card you own, if you have 5 points, you may destroy this card instead to pay that cost.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Event"/>
+			<attr key="cost" value="5"/>
+		</card>
+		<card name="Isabella" graphics="isabella.jpg" text="Plays in your core. While a personnel is facing a Persistent dilemma, that personnel cannot use his or her abilities.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Event"/>
+			<attr key="cost" value="2"/>
+		</card>
+		<card name="Peak Performance" graphics="peakperformance.jpg" text="Plays in your core. When you play this event, name a unique personnel. While you have 30 or more points, your personnel with that title is attributes +1. While you have 60 or more points, your personnel with that title cannot be stopped by dilemmas.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Event"/>
+			<attr key="cost" value="1"/>
+		</card>
+		<card name="Promenade School" graphics="promenadeschool.jpg" text="Stop four of your [Fed] [DS9] personnel of four different species to score 5 points. Remove this event from the game.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Event"/>
+			<attr key="cost" value="1"/>
+		</card>
+		<card name="Recruitment Tactics" graphics="recruitmenttactics.jpg" text="Assault. Plays in your core. Order - Destroy this event to begin combat involving your Bajoran Resistance personnel. If you win, randomly select an opponent's personnel to be killed and you may take a Bajoran Resistance personnel from your discard pile and place him or her on your Bajor.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Event"/>
+			<attr key="cost" value="2"/>
+		</card>
+		<card name="Event Horizon" graphics="eventhorizon.jpg" text="When an opponent's personnel complete a mission, if you command a completed mission, lose 5 points to return each Persistent dilemma beneath that opponent's mission to its owner's dilemma pile.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Interrupt"/>
+		</card>
+		<card name="Flaw in the Plan" graphics="flawintheplan.jpg" text="When an opponent plays a personnel or places a personnel from hand on a headquarters mission, discard three unique personnel from hand to kill that personnel. Order - Kill four personnel you own.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Interrupt"/>
+		</card>
+		<card name="Hate" graphics="hate.jpg" text="When a personnel gains a skill, if you command a completed mission, lose 5 points to remove that personnel from the game.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Interrupt"/>
+		</card>
+		<card name="My Patience Has Limits" graphics="mypatiencehaslimits.jpg" text="To play this interrupt, you must command three [Rom] personnel. Order - Lose 5 points to name a dilemma. Choose an opponent to reveal all copies of that dilemma from his or her dilemma pile. You may remove a copy of that dilemma from the game (or lose 5 points to remove each copy of that dilemma from the game). That opponent shuffles and replaces his or her dilemma pile.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Interrupt"/>
+		</card>
+		<card name="Quinn" graphics="quinn.jpg" text="Q. Order - Lose 5 points to make each player choose two events in play. All other events are destroyed.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Interrupt"/>
+		</card>
+		<card name="Surprise Audit" graphics="surpriseaudit.jpg" text="When your personnel aboard a ship is facing a dilemma, lose 5 points to take a [Fer] personnel from beneath your Ferenginar and place him or her aboard that ship. That personnel joins the mission attempt.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Interrupt"/>
+		</card>
+		<card name="Assess Contamination" graphics="assesscontamination.jpg" text="2 Anthropology, Law, and Cunning&gt;40 While your personnel are attempting this mission, prevent and overcome the first dilemma that has a cost of 1 or more and does not require a skill. You may do this only once each turn.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Mission"/>
+			<attr key="attemptable" value="Any affiliation"/>
+			<attr key="zone" value="planet"/>
+			<attr key="quadrant" value="alpha"/>
+			<attr key="points" value="35"/>
+			<attr key="span" value="2"/>
+		</card>
+		<card name="Falsify Distress Signal" graphics="falsifydistresssignal.jpg" text="Acquisition, Programming, Treachery, and Cunning&gt;33 Region: Ligos System. When you complete this mission, if you have six or more cards beneath your Ferenginar, you may lose 5 points to take an additional turn after this one.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Mission"/>
+			<attr key="attemptable" value="[Fer]"/>
+			<attr key="zone" value="space"/>
+			<attr key="quadrant" value="alpha"/>
+			<attr key="points" value="30"/>
+			<attr key="span" value="3"/>
+		</card>
+		<card name="Mine Vendarite" graphics="minevendarite.jpg" text="2 Security, Treachery, and Strength&gt;34 Region: Ligos System. When you complete this mission, if you command another completed Region: Ligos System mission or have a personnel in your brig, score 5 points and restore the Range of each ship you command.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Mission"/>
+			<attr key="attemptable" value="[Car] [Dom] [Fer] [Rom]"/>
+			<attr key="zone" value="planet"/>
+			<attr key="quadrant" value="alpha"/>
+			<attr key="points" value="30"/>
+			<attr key="span" value="2"/>
+		</card>
+		<card name="Off-World Raid" graphics="offworldraid.jpg" text="Geology, Leadership, Security, and (Integrity&gt;38 or Strength&gt;40) When your personnel complete this mission, each player may shuffle each Assault event and each Hand Weapon in his or her discard pile into its owner's deck.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Mission"/>
+			<attr key="attemptable" value="[Baj]"/>
+			<attr key="zone" value="planet"/>
+			<attr key="quadrant" value="alpha"/>
+			<attr key="points" value="40"/>
+			<attr key="span" value="2"/>
+		</card>
+		<card name="Furel (Resistance Scout)" graphics="furelresistancescout.jpg" text="•Astrometrics •Biology •Engineer •Security Bajoran Resistance. Order - Lose 5 points to unstop up to two stopped Bajoran Resistance personnel present. You may do this only once each turn.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Personel"/>
+			<attr key="affiliation" value="Bajoran"/>
+			<attr key="race" value="Bajoran"/>
+			<attr key="cost" value="2"/>
+			<attr key="icons" value="[Stf] [Pa]"/>
+			<attr key="integrity" value="5"/>
+			<attr key="cunning" value="6"/>
+			<attr key="strength" value="6"/>
+		</card>
+		<card name="Gantt" graphics="gantt.jpg" text="•Anthropology •Exobiology •Medical •Science Bajoran Resistance. ">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Personel"/>
+			<attr key="affiliation" value="Bajoran"/>
+			<attr key="race" value="Bajoran"/>
+			<attr key="cost" value="2"/>
+			<attr key="icons" value="[Stf] [Pa]"/>
+			<attr key="integrity" value="6"/>
+			<attr key="cunning" value="5"/>
+			<attr key="strength" value="6"/>
+		</card>
+		<card name="Halb Daier (Resistance Contact)" graphics="halbdaierresistancecontact.jpg" text="•Physics •Security •Transporters Bajoran Resistance. When you play this personnel, you may download No Love For the Spoon Heads.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Personel"/>
+			<attr key="affiliation" value="Bajoran"/>
+			<attr key="race" value="Bajoran"/>
+			<attr key="cost" value="2"/>
+			<attr key="icons" value="[Stf] [Pa]"/>
+			<attr key="integrity" value="4"/>
+			<attr key="cunning" value="5"/>
+			<attr key="strength" value="6"/>
+		</card>
+		<card name="Kira Nerys (Ih'valla)" graphics="kiranerysihvalla.jpg" text="•Honor •Leadership When you begin a mission attempt involving this personnel, you may lose 5 points to take up to two cards from your discard pile into hand.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Personel"/>
+			<attr key="affiliation" value="Bajoran"/>
+			<attr key="race" value="Bajoran"/>
+			<attr key="cost" value="1"/>
+			<attr key="icons" value="[Cmd]"/>
+			<attr key="integrity" value="6"/>
+			<attr key="cunning" value="6"/>
+			<attr key="strength" value="6"/>
+		</card>
+		<card name="Opaka (Collaborator)" graphics="opakacollaborator.jpg" text="•Anthropology •Diplomacy •Honor •2 Leadership Kai. When you play this personnel, if you command Bajor and no other headquarters mission, you may score 5 points.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Personel"/>
+			<attr key="affiliation" value="Bajoran"/>
+			<attr key="race" value="Bajoran"/>
+			<attr key="cost" value="5"/>
+			<attr key="icons" value="[Pa]"/>
+			<attr key="integrity" value="7"/>
+			<attr key="cunning" value="6"/>
+			<attr key="strength" value="3"/>
+		</card>
+		<card name="Orta (Resistance Leader)" graphics="ortaresistanceleader.jpg" text="•Geology •Leadership •Security •Treachery Bajoran Resistance. While this personnel is facing a dilemma, you may lose 5 points to make each Bajoran Resistance personnel present attributes +1 until the end of this turn. You may do this only once each turn.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Personel"/>
+			<attr key="affiliation" value="Bajoran"/>
+			<attr key="race" value="Bajoran"/>
+			<attr key="cost" value="3"/>
+			<attr key="icons" value="[Cmd]"/>
+			<attr key="integrity" value="4"/>
+			<attr key="cunning" value="6"/>
+			<attr key="strength" value="7"/>
+		</card>
+		<card name="Quen Paltra" graphics="quenpaltra.jpg" text="•Archaeology •Honor •Navigation •Programming Bajoran Resistance.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Personel"/>
+			<attr key="affiliation" value="Bajoran"/>
+			<attr key="race" value="Bajoran"/>
+			<attr key="cost" value="2"/>
+			<attr key="icons" value="[Stf]"/>
+			<attr key="integrity" value="5"/>
+			<attr key="cunning" value="5"/>
+			<attr key="strength" value="6"/>
+		</card>
+		<card name="Surmak Ren (Resistance Doctor)" graphics="surmakrenresistancedoctor.jpg" text="•Biology •Exobiology •Medical •Programming •Science Bajoran Resistance. While this personnel is facing a dilemma, if he is present with two Bajoran Resistance personnel, you may lose 5 points to download an interrupt. You may do this only once each turn.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Personel"/>
+			<attr key="affiliation" value="Bajoran"/>
+			<attr key="race" value="Bajoran"/>
+			<attr key="cost" value="2"/>
+			<attr key="icons" value="[Stf]"/>
+			<attr key="integrity" value="5"/>
+			<attr key="cunning" value="6"/>
+			<attr key="strength" value="5"/>
+		</card>
+		<card name="Broca ('Leader' of the Cardassian Union)" graphics="brocaleaderofthecardassianunion.jpg" text="•Archaeology •Officer •Physics •Treachery Legate. When you play this personnel, if you command three [Car] personnel, you may discard the top six cards of your deck to score 5 points.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Personel"/>
+			<attr key="affiliation" value="Cardassian"/>
+			<attr key="race" value="Cardassian"/>
+			<attr key="cost" value="2"/>
+			<attr key="icons" value="[Cmd]"/>
+			<attr key="integrity" value="4"/>
+			<attr key="cunning" value="5"/>
+			<attr key="strength" value="5"/>
+		</card>
+		<card name="Eris (Harbinger of the Dominion)" graphics="erisharbingerofthedominion.jpg" text="•Diplomacy •Medical •Transporters •Treachery When you play this personnel, if you command a Founder and a Vorta, you may score 5 points. When you begin combat involving this personnel, randomly select an opponent's personnel present to be excluded from that combat.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Personel"/>
+			<attr key="affiliation" value="Dominion"/>
+			<attr key="race" value="Vorta"/>
+			<attr key="cost" value="4"/>
+			<attr key="icons" value="[Cmd]"/>
+			<attr key="integrity" value="4"/>
+			<attr key="cunning" value="6"/>
+			<attr key="strength" value="4"/>
+		</card>
+		<card name="Charles Whatley (Professional Admiral)" graphics="charleswhatleyprofessionaladmiral.jpg" text="•Engineer •Law •Leadership •Officer •Security Admiral. When you play this personnel, you may lose 5 points to download up to two [E] personnel, then place them on your Mouth of the Wormhole.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Personel"/>
+			<attr key="affiliation" value="Federation"/>
+			<attr key="race" value="Human"/>
+			<attr key="cost" value="2"/>
+			<attr key="icons" value="[Cmd] [DS9]"/>
+			<attr key="integrity" value="5"/>
+			<attr key="cunning" value="6"/>
+			<attr key="strength" value="6"/>
+		</card>
+		<card name="Garth of Izar (Criminally Insane)" graphics="garthofizarcriminallyinsane.jpg" text="•Exobiology •Leadership •2 Treachery Shape-shifter. You may play this personnel at cost +5 to reveal the top card of an opponent's deck. If it is a personnel that opponent does not command, it is placed in your brig (that opponent now commands him or her) and this personnel gains each of that personnel's skills until the end of this turn.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Personel"/>
+			<attr key="affiliation" value="Federation"/>
+			<attr key="race" value="Human"/>
+			<attr key="cost" value="1"/>
+			<attr key="icons" value="[Cmd] [TOS] [Pa]"/>
+			<attr key="integrity" value="2"/>
+			<attr key="cunning" value="5"/>
+			<attr key="strength" value="6"/>
+		</card>
+		<card name="Jarseh-Inyo (Federation President)" graphics="jareshinyofederationpresident.jpg" text="•Diplomacy •2 Honor •Law •2 Leadership When you play this personnel, you may lose 5 points to download up to three [DS9] personnel, then place them on your headquarters where each personnel could be played.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Personel"/>
+			<attr key="affiliation" value="Federation"/>
+			<attr key="race" value="Grazerite"/>
+			<attr key="cost" value="3"/>
+			<attr key="icons" value="[Cmd] [E]"/>
+			<attr key="integrity" value="7"/>
+			<attr key="cunning" value="6"/>
+			<attr key="strength" value="4"/>
+		</card>
+		<card name="Luther Sloan (Man of Action)" graphics="luthersloanmanofaction.jpg" text="•Anthropology •Intelligence •Programming •2 Security •2 Treachery Order - Remove your event from the game and return this personnel to his owner's hand to destroy an opponent's event.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Personel"/>
+			<attr key="affiliation" value="Federation"/>
+			<attr key="race" value="Human"/>
+			<attr key="cost" value="3"/>
+			<attr key="icons" value="[Cmd] [DS9]"/>
+			<attr key="integrity" value="2"/>
+			<attr key="cunning" value="6"/>
+			<attr key="strength" value="5"/>
+		</card>
+		<card name="Richard Galen (Legendary Archaeologist)" graphics="richardgalenlegendaryarchaeologist.jpg" text="•2 Archaeology •Exobiology •Geology •Navigation •Science When you play this personnel, you may download an Artifact. While this personnel is facing a dilemma, you may lose 5 points to have a personnel present gain all skills that this mission has in its requirements until the end of this mission attempt.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Personel"/>
+			<attr key="affiliation" value="Federation"/>
+			<attr key="race" value="Human"/>
+			<attr key="cost" value="4"/>
+			<attr key="icons" value="[Stf] [E]"/>
+			<attr key="integrity" value="5"/>
+			<attr key="cunning" value="7"/>
+			<attr key="strength" value="4"/>
+		</card>
+		<card name="DaiMon Solok (Cargo Runner)" graphics="daimonsolokcargorunner.jpg" text="•Acquisition •Anthropology •Engineer •Navigation •Officer •Transporters Smuggler. To play this personnel, place the top card of your dilemma pile underneath a non-headquarters mission of the opponent to your right's choice. When you play this personnel, if you command three [Fer] personnel, score 5 points.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Personel"/>
+			<attr key="affiliation" value="Ferengi"/>
+			<attr key="race" value="Ferengi"/>
+			<attr key="cost" value="4"/>
+			<attr key="icons" value="[Cmd]"/>
+			<attr key="integrity" value="5"/>
+			<attr key="cunning" value="5"/>
+			<attr key="strength" value="4"/>
+		</card>
+		<card name="Croden (Dissembler)" graphics="crodendissembler.jpg" text="•Astrometrics •Geology •Navigation •Science •Treachery Thief. When you play this personnel, choose an opponent to choose one: the next card you play this turn is cost -4 or you score 5 points.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Personel"/>
+			<attr key="affiliation" value="Non-Aligned"/>
+			<attr key="race" value="Rakhari"/>
+			<attr key="cost" value="4"/>
+			<attr key="icons" value="[Stf]"/>
+			<attr key="integrity" value="3"/>
+			<attr key="cunning" value="5"/>
+			<attr key="strength" value="5"/>
+		</card>
+		<card name="Deanna Troi (Durango)" graphics="deannatroidurango.jpg" text="•Anthropology •Honor •Security •Telepathy When an opponent plays a Security personnel or places a Security personnel from hand on a headquarters mission, you may discard two cards from hand to stop that personnel.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Personel"/>
+			<attr key="affiliation" value="Non-Aligned"/>
+			<attr key="race" value="Betazoid/Human"/>
+			<attr key="cost" value="2"/>
+			<attr key="icons" value="[Stf]"/>
+			<attr key="integrity" value="6"/>
+			<attr key="cunning" value="5"/>
+			<attr key="strength" value="4"/>
+		</card>
+		<card name="Emck (Export Controller)" graphics="emckexportcontroller.jpg" text="•Acquisition •Biology •Leadership •Medical •Navigation •Physics •Treachery Commander: Eleventh Gradient. When you are about to play this personnel, you may lose 5 points to do any or all of the following: play him at cost -3, play him aboard your [NA] ship, download a [NA] personnel.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Personel"/>
+			<attr key="affiliation" value="Non-Aligned"/>
+			<attr key="race" value="Malon"/>
+			<attr key="cost" value="3"/>
+			<attr key="icons" value="[Cmd]"/>
+			<attr key="integrity" value="4"/>
+			<attr key="cunning" value="5"/>
+			<attr key="strength" value="5"/>
+		</card>
+		<card name="Kaitaama (Precious Cargo)" graphics="kaitaamapreciouscargo.jpg" text="•Anthropology •Diplomacy •Law •Ledership When this personnel is about to be placed in a brig, return her to her owner's hand. When this personnel is killed by a dilemma, score 5 points. When this personnel is stopped by a dilemma, draw a card.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Personel"/>
+			<attr key="affiliation" value="Non-Aligned"/>
+			<attr key="race" value="Kriosian"/>
+			<attr key="cost" value="4"/>
+			<attr key="icons" value="[Pa]"/>
+			<attr key="integrity" value="6"/>
+			<attr key="cunning" value="5"/>
+			<attr key="strength" value="4"/>
+		</card>
+		<card name="Donatra (Honorable Commander)" graphics="donatrahonorablecommander.jpg" text="•Diplomacy •Honor •Leadership •Navigation •Officer •Physics Commander: Valdore. While this personnel is facing a dilemma that has a cost of 1 or more and does not require a skill, you may return this personnel to her owner's hand to prevent and overcome that dilemma.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Personel"/>
+			<attr key="affiliation" value="Romulan"/>
+			<attr key="race" value="Romulan"/>
+			<attr key="cost" value="5"/>
+			<attr key="icons" value="[Cmd]"/>
+			<attr key="integrity" value="5"/>
+			<attr key="cunning" value="6"/>
+			<attr key="strength" value="5"/>
+		</card>
+		<card name="Te'nari (Resistance Flagship)" graphics="tenariresistanceflagship.jpg" text="While you command three Bajoran Resistance personnel aboard this ship, it is attributes +2. You may pay the cost of losing 5 points to use an ability on one of your Bajoran Resistance personnel at this mission by destroying your Hand Weapon he or she is equipped with or your Assault event that has a cost of 1 or more.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Ship"/>
+			<attr key="affiliation" value="Bajoran"/>
+			<attr key="class" value="Perikian Class"/>
+			<attr key="cost" value="5"/>
+			<attr key="staff" value="[Cmd] [Stf]"/>
+			<attr key="icons" value=""/>
+			<attr key="range" value="5"/>
+			<attr key="weapons" value="6"/>
+			<attr key="shields" value="5"/>
+		</card>
+		<card name="U.S.S. Enterprise-D (Diplomatic Envoy)" graphics="ussenterpriseddiplomaticenvoy.jpg" text="When you complete this mission, if this ship is staffed, score 5 points. When you complete this mission, if this ship's Commander is aboard, each player scores 5 points.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Ship"/>
+			<attr key="affiliation" value="Federation"/>
+			<attr key="class" value="Galaxy Class"/>
+			<attr key="cost" value="6"/>
+			<attr key="staff" value="[Cmd] [Stf] [Stf] [Stf]"/>
+			<attr key="icons" value="[TNG]"/>
+			<attr key="range" value="8"/>
+			<attr key="weapons" value="8"/>
+			<attr key="shields" value="9"/>
+		</card>
+		<card name="Eleventh Gradient" graphics="eleventhgradientexportvessel.jpg" text="When you are about to play this ship, you may lose 5 points to play this ship at cost -7. At the start of each of your turns, you may return your event on this mission to its owner's hand.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Ship"/>
+			<attr key="affiliation" value="Non-Aligned"/>
+			<attr key="class" value="Freighter Class"/>
+			<attr key="cost" value="7"/>
+			<attr key="staff" value="[Cmd] [Stf] [Stf] [Stf]"/>
+			<attr key="icons" value=""/>
+			<attr key="range" value="8"/>
+			<attr key="weapons" value="8"/>
+			<attr key="shields" value="9"/>
+		</card>
+	</cards>
+</ccg-setinfo>

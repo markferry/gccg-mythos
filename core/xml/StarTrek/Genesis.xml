@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE ccg-setinfo SYSTEM "../gccg-set.dtd">
+<ccg-setinfo name="Genesis" dir="Genesis" abbrev="G" game="Star Trek Collectible Card Game: Second Edition">
+	<cards>
+		<card name="Accelerated Aging" graphics="acceleratedaging.jpeg" back="1" text="Place this dilemma on this mission. Each personnel at this mission cannot use his or her first-listed skill. At the end of this turn, this dilemma is overcome.">
+			<attr key="rarity" value="P"/>
+			<attr key="type" value="Dilemma"/>
+			<attr key="cost" value="2"/>
+			<attr key="zone" value="dual"/>
+		</card>
+		<card name="Destined Journey" graphics="destinedjourney.jpeg" back="1" text="Choose a personnel who has Honor or Leadership to be stopped. If that personnel has both Honor and Leadership, you may unstop your stopped personnel present and that personnel joins the mission attempt. If you cannot choose a personnel with Honor or Leadership, all your personnel are stopped.">
+			<attr key="rarity" value="P"/>
+			<attr key="type" value="Dilemma"/>
+			<attr key="cost" value="2"/>
+			<attr key="zone" value="dual"/>
+		</card>
+		<card name="Final Triumph" graphics="finaltriumph.jpeg" back="1" text="Unless you choose to discard an event from your hand, your opponent chooses a personnel to be stopped.">
+			<attr key="rarity" value="P"/>
+			<attr key="type" value="Dilemma"/>
+			<attr key="cost" value="3"/>
+			<attr key="zone" value="dual"/>
+		</card>
+		<card name="Not Quite Domesticated Pets" graphics="notquitedomesticatedpets.jpeg" back="1" text="Unless you have Diplomacy, 2 Leadership and Integrity&gt;28 or Biology, 2 Exobiology and Cunning&gt;34, randomly select a personnel to be stopped. If your opponent has more events in his or her core than you and he or she does not command that personnel, place that personnel at his or her headquarters mission instead and that opponent now commands that personnel.">
+			<attr key="rarity" value="P"/>
+			<attr key="type" value="Dilemma"/>
+			<attr key="cost" value="3"/>
+			<attr key="zone" value="dual"/>
+		</card>
+		<card name="Subterranean Barrier" graphics="subterraneanbarrier.jpeg" back="1" text="Unless you have Biology, Exobiology, Geology and Integrity&gt;25 or Diplomacy, Leadership, Officer and Cunning&gt;32, all your personnel are stopped and this dilemma returns to its owner’s dilemma pile.">
+			<attr key="rarity" value="P"/>
+			<attr key="type" value="Dilemma"/>
+			<attr key="cost" value="3"/>
+			<attr key="zone" value="space"/>
+		</card>
+		<card name="The Caretaker's 'Guests'" graphics="thecaretakersguests.jpeg" back="1" text="Your opponent chooses a personnel. You may replace him or her with any one personnel of the same affiliation from your discard pile. Place the personnel your opponent chose on the top of his or her owner’s deck.">
+			<attr key="rarity" value="P"/>
+			<attr key="type" value="Dilemma"/>
+			<attr key="cost" value="2"/>
+			<attr key="zone" value="dual"/>
+		</card>
+		<card name="Unbelievable Emergency" graphics="unbelievableemergency.jpg" back="1" text="Your opponent names a skill. For each headquarters mission you command, randomly select two personnel to be stopped. If either of those personnel that is selected has the named skill, kill that personnel instead.">
+			<attr key="rarity" value="P"/>
+			<attr key="type" value="Dilemma"/>
+			<attr key="cost" value="4"/>
+			<attr key="zone" value="space"/>
+		</card>
+		<card name="Blow You Out of the Stars" graphics="blowyououtofthestars.jpeg" text="Maneuver. Plays in your core. Order - Begin an engagement involving your [Kli] personnel. If you win, place this event on an opponent's ship involved. That opponent may place one of his or her unique personnel involved in your brig to prevent this and destroy this event. If you do not win, destroy this event. Damage - This ship is attributes -2.">
+			<attr key="rarity" value="P"/>
+			<attr key="type" value="Event"/>
+			<attr key="cost" value="3"/>
+		</card>
+		<card name="Cellular Peptide Cake" graphics="cellularpeptidecake.jpeg" text="To play this event, you must command a Klingon. Each player returns a non-[Ref] event in an opponent's core to its owner's hand.">
+			<attr key="rarity" value="P"/>
+			<attr key="type" value="Event"/>
+			<attr key="cost" value="3"/>
+		</card>
+		<card name="Learning Curve" graphics="learningcurve.jpeg" text="Decay: 4. Plays in your core. At the end of each of your turns, if you played two or more [Maq] personnel this turn, place two cards from the top of your deck on this event. You may play cards from this event as though there were in your hand.">
+			<attr key="rarity" value="P"/>
+			<attr key="type" value="Event"/>
+			<attr key="cost" value="4"/>
+		</card>
+		<card name="No-Win Situation" graphics="nowinsituation.jpeg" text="Plays in your core. When your dilemma is prevented or its requirements are met, randomly select an opponent's personnel that was facing that dilemma to be stopped.">
+			<attr key="rarity" value="P"/>
+			<attr key="type" value="Event"/>
+			<attr key="cost" value="5"/>
+		</card>
+		<card name="The Genesis Effect" graphics="thegenesiseffect.jpeg" text="Plays on your mission. When you play this event, name a dilemma. When your personnel face that dilemma at this mission, prevent and overcome it.">
+			<attr key="rarity" value="P"/>
+			<attr key="type" value="Event"/>
+			<attr key="cost" value="4"/>
+		</card>
+		<card name="Khan!" graphics="khan.jpeg" text="When an opponent score 5 or more points, if he or she has not completed a mission, he or she loses 5 points.">
+			<attr key="rarity" value="P"/>
+			<attr key="type" value="Interrupt"/>
+			<attr key="cost" value=""/>
+		</card>
+		<card name="Genesis Planet" graphics="genesisplanet.jpeg" text="Geology, Cunning&gt;42 and (Biology, 2 Exobiology and 2 Science or 2 Security, Transporters and 2 Treachery) Order - If this mission is completed, lose 5 points to make this a space mission. Kill all personnel (and destroy all equipment) on this mission.">
+			<attr key="rarity" value="P"/>
+			<attr key="type" value="Mission"/>
+			<attr key="attemptable" value="Any affiliation"/>
+			<attr key="zone" value="planet"/>
+			<attr key="quadrant" value="alpha"/>
+			<attr key="points" value="35"/>
+			<attr key="span" value="4"/>
+		</card>
+		<card name="Kira Nerys (Outspoken Major)" graphics="kiranerysoutspokenmajor.jpeg" text="•Diplomacy •Honor •Leadership •Security While this personnel is facing a dilemma, each [Baj] personnel present is attributes +1 and gains Honor.">
+			<attr key="rarity" value="P"/>
+			<attr key="type" value="Personel"/>
+			<attr key="affiliation" value="Bajoran"/>
+			<attr key="race" value="Bajoran"/>
+			<attr key="cost" value="3"/>
+			<attr key="icons" value="[Cmd] [DS9]"/>
+			<attr key="integrity" value="6"/>
+			<attr key="cunning" value="6"/>
+			<attr key="strength" value="6"/>
+		</card>
+		<card name="Jasad" graphics="jasad.jpeg" text="•Intelligence •Navigation •Officer •Treachery Gul. While this personnel is aboard your [Car] ship, that ship is attributes +1 for each of your different Capture cards and each of your different Punishment cards.">
+			<attr key="rarity" value="P"/>
+			<attr key="type" value="Personel"/>
+			<attr key="affiliation" value="Cardassian"/>
+			<attr key="race" value="Cardassian"/>
+			<attr key="cost" value="3"/>
+			<attr key="icons" value="[Cmd]"/>
+			<attr key="integrity" value="4"/>
+			<attr key="cunning" value="6"/>
+			<attr key="strength" value="6"/>
+		</card>
+		<card name="James T. Kirk (Original Thinker)" graphics="jamestkirkoriginalthinker.jpg" text="•Diplomacy •2 Honor •Leadership •Officer Admiral. Commander: U.S.S. Enterprise. When this personnel is about to face a dilemma, you may return him to his owner's hand to prevent and overcome that dilemma.">
+			<attr key="rarity" value="P"/>
+			<attr key="type" value="Personel"/>
+			<attr key="affiliation" value="Federation"/>
+			<attr key="race" value="Human"/>
+			<attr key="cost" value="5"/>
+			<attr key="icons" value="[Cmd] [TOS] [Pa] [E]"/>
+			<attr key="integrity" value="7"/>
+			<attr key="cunning" value="6"/>
+			<attr key="strength" value="6"/>
+		</card>
+		<card name="Spock (Trainee Instructor)" graphics="spocktraineeinstructor.jpeg" text="•Biology •Honor •Leadership •Officer •Physics •Science Commander: U.S.S. Enterprise. When a Damage card is about to be placed on your ship that this personnel is aboard, you may kill him to remove it from the game instead.">
+			<attr key="rarity" value="P"/>
+			<attr key="type" value="Personel"/>
+			<attr key="affiliation" value="Federation"/>
+			<attr key="race" value="Human/Vulcan"/>
+			<attr key="cost" value="4"/>
+			<attr key="icons" value="[Cmd] [TOS] [Pa] [E]"/>
+			<attr key="integrity" value="7"/>
+			<attr key="cunning" value="8"/>
+			<attr key="strength" value="7"/>
+		</card>
+		<card name="Tom Paris (Starfleet Observer)" graphics="tomparisstarfleetobserver.jpeg" text="•Biology •Geology •Navigation •Science When this personnel is stopped by a dilemma, you may discard a card from hand to choose one: draw two cards; or take a [Maq] personnel from your discard pile into your hand.">
+			<attr key="rarity" value="P"/>
+			<attr key="type" value="Personel"/>
+			<attr key="affiliation" value="Federation"/>
+			<attr key="race" value="Human"/>
+			<attr key="cost" value="2"/>
+			<attr key="icons" value="[Stf] [Maq]"/>
+			<attr key="integrity" value="4"/>
+			<attr key="cunning" value="6"/>
+			<attr key="strength" value="5"/>
+		</card>
+		<card name="Tuvok (Undercover)" graphics="tuvokundercover.jpeg" text="•Navigation •Officer •Science •Security Infiltrator. While this personnel is facing a dilemma and you have a [Maq] personnel present, this personnel is attributes +1 and gains Intelligence.">
+			<attr key="rarity" value="P"/>
+			<attr key="type" value="Personel"/>
+			<attr key="affiliation" value="Federation"/>
+			<attr key="race" value="Vulcan"/>
+			<attr key="cost" value="5"/>
+			<attr key="icons" value="[Cmd] [Maq]"/>
+			<attr key="integrity" value="6"/>
+			<attr key="cunning" value="7"/>
+			<attr key="strength" value="7"/>
+		</card>
+		<card name="Saavik (Protégée)" graphics="saavikprotegee.jpeg" text="•Law •Leadership •Navigation •Officer When you play this personnel, if James T. Kirk is at this mission, you may download No-Win Situation.">
+			<attr key="rarity" value="P"/>
+			<attr key="type" value="Personel"/>
+			<attr key="affiliation" value="Federation"/>
+			<attr key="race" value="Vulcan"/>
+			<attr key="cost" value="3"/>
+			<attr key="icons" value="[Stf] [TOS] [Pa] [E]"/>
+			<attr key="integrity" value="5"/>
+			<attr key="cunning" value="7"/>
+			<attr key="strength" value="6"/>
+		</card>
+		<card name="Kruge (Instinctive Commander)" graphics="krugeinstinctivecommander.jpg" text="•Astrometrics •Intelligence •Officer •Treachery Commander: I.K.S. Qel'poh. When you win an engagement involving this personnel and there are four or less personnel aboard an opponent's ship involved, you may remove a damage event from that ship to place those personnel in your brig. You now command that ship (it is now a [Kli] ship).">
+			<attr key="rarity" value="P"/>
+			<attr key="type" value="Personel"/>
+			<attr key="affiliation" value="Klingon"/>
+			<attr key="race" value="Klingon"/>
+			<attr key="cost" value="2"/>
+			<attr key="icons" value="[Cmd] [Pa]"/>
+			<attr key="integrity" value="3"/>
+			<attr key="cunning" value="6"/>
+			<attr key="strength" value="7"/>
+		</card>
+		<card name="Carol Marcus (Intelligent Scientist)" graphics="carolmarcusintelligentscientist.jpeg" text="•2 Exobiology •Honor •Physics •Science This personnel is Cunning +1 for each card in an opponent's hand (limit +5).">
+			<attr key="rarity" value="P"/>
+			<attr key="type" value="Personel"/>
+			<attr key="affiliation" value="Non-Aligned"/>
+			<attr key="race" value="Human"/>
+			<attr key="cost" value="3"/>
+			<attr key="icons" value="[Pa]"/>
+			<attr key="integrity" value="6"/>
+			<attr key="cunning" value="5"/>
+			<attr key="strength" value="4"/>
+		</card>
+		<card name="David Marcus (Young Scientist)" graphics="davidmarcusyoungscientist.jpeg" text="•2 Biology •Exobiology •Physics •Programming •2 Science When this personnel is stopped by a dilemma, you may destroy an event in your core (if you do not, lose 5 points instead).">
+			<attr key="rarity" value="P"/>
+			<attr key="type" value="Personel"/>
+			<attr key="affiliation" value="Non-Aligned"/>
+			<attr key="race" value="Human"/>
+			<attr key="cost" value="1"/>
+			<attr key="icons" value="[Pa]"/>
+			<attr key="integrity" value="5"/>
+			<attr key="cunning" value="7"/>
+			<attr key="strength" value="6"/>
+		</card>
+		<card name="Khan Noonien Singh (Genetically-Engineered Nemesis)" graphics="khannooniensinghgeneticallyengineerednemesis.jpeg" text="•Exobiology •Leadership •Programming •2 Treachery Commander: U.S.S. Reliant. Genetically Enhanced. While present with an opponent's personnel, each of that opponent's personnel is attributes -1.">
+			<attr key="rarity" value="P"/>
+			<attr key="type" value="Personel"/>
+			<attr key="affiliation" value="Non-Aligned"/>
+			<attr key="race" value="Human"/>
+			<attr key="cost" value="4"/>
+			<attr key="icons" value="[Cmd] [Pa]"/>
+			<attr key="integrity" value="2"/>
+			<attr key="cunning" value="8"/>
+			<attr key="strength" value="8"/>
+		</card>
+		<card name="Queen's Borg Sphere (Contingency Vessel)" graphics="queensborgspherecontingencyvessel.jpeg" text="While this ship is at a [Bor] mission, personnel aboard it are attributes +1. While your Borg Queen is aboard this ship, it is staffed.">
+			<attr key="rarity" value="R"/>
+			<attr key="type" value="Ship"/>
+			<attr key="affiliation" value="Borg"/>
+			<attr key="class" value="Sphere"/>
+			<attr key="cost" value="6"/>
+			<attr key="staff" value="[Stf] [Stf] [Stf] [Stf]"/>
+			<attr key="icons" value=""/>
+			<attr key="range" value="9"/>
+			<attr key="weapons" value="10"/>
+			<attr key="shields" value="9"/>
+		</card>
+		<card name="U.S.S. Enterprise (Earth's Savior)" graphics="ussenterpriseearthssavior.jpeg" text="While you command a [TOS] personnel, you may play this ship at your Earth. When this ship is about to move between Earth and another mission, subtract 1 from the Range required.">
+			<attr key="rarity" value="R"/>
+			<attr key="type" value="Ship"/>
+			<attr key="affiliation" value="Federation"/>
+			<attr key="class" value="Constitution Class"/>
+			<attr key="cost" value="5"/>
+			<attr key="staff" value="[Cmd] [Stf]"/>
+			<attr key="icons" value="{TOS] [Pa]"/>
+			<attr key="range" value="8"/>
+			<attr key="weapons" value="7"/>
+			<attr key="shields" value="7"/>
+		</card>
+	</cards>
+</ccg-setinfo>

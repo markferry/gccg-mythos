@@ -1,0 +1,32 @@
+#
+# DECK RULES
+# ==========
+#
+# This file is usually generated using perl/definition2rules
+# to convert meta rule definitions to gccg script.
+#
+deck_rules=(,);
+server_description="Standard rules";
+deck_rules{"Standard"}=(,);
+deck_rules{"Standard"}{""}=(
+  ("RuleDeckMinimum",(60)),
+  ("RuleCardLimitGeneral",3),
+  ("RulePass",NULL),
+);
+deck_rules{"Standard"}{"deck"}=(
+  ("RuleDeckMinimum",(35)),
+  ("RuleLimitByExpression",(0,"Attr(\"type\",#)==\"Mission\"")),
+  ("RuleLimitByExpression",(0,"Attr(\"type\",#)==\"Dilemma\"")),
+  ("RulePass",NULL),
+);
+deck_rules{"Standard"}{"dilemmas"}=(
+  ("RuleDeckMinimum",(20)),
+  ("RuleLimitByExpression",(0,"Attr(\"type\",#)!=\"Dilemma\"")),
+  ("RulePass",NULL),
+);
+deck_rules{"Standard"}{"missions"}=(
+  ("RuleDeckMinimum",(5)),
+  ("RuleDeckMaximum",(5)),
+  ("RuleLimitByExpression",(0,"Attr(\"type\",#)!=\"Mission\"")),
+  ("RulePass",NULL),
+);

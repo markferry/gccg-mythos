@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE ccg-setinfo SYSTEM "../gccg-set.dtd">
+<ccg-setinfo name="Favor The Bold" dir="Favor The Bold" abbrev="FB" game="Star Trek Collectible Card Game: Second Edition">
+	<cards>
+		<card name="All-Consuming Evil" graphics="allconsumingevil.jpg" back="1" text="Place this dilemma on top of its owner's dilemma pile. When this dilemma is placed beneath a mission by a Consume dilemma, your opponent names a skill. Randomly select a personnel that is attempting that mission with that skill to be killed.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Dilemma"/>
+			<attr key="cost" value="2"/>
+			<attr key="zone" value="planet"/>
+		</card>
+		<card name="Artificial Wormhole" graphics="atrificialwormhole.jpg" back="1" text="Your personnel cannot gain skills while facing this dilemma. Unless you have 2 Leadership and 2 Officer, or Engineer, Programming, and Cunning&gt;33, or this ship's corresponding Commander your opponent may take a ship at a mission and place it at a different mission. That ship's Range for this turn is used.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Dilemma"/>
+			<attr key="cost" value="3"/>
+			<attr key="zone" value="space"/>
+		</card>
+		<card name="Best Interests at Heart" graphics="bestinterestsatheart.jpg" back="1" text="Randomly select three personnel. If the total cost of those personnel is 4 or less, lose 5 points and your opponent scores 5 points. Otherwise, randomly select one of those personnel to be stopped.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Dilemma"/>
+			<attr key="cost" value="3"/>
+			<attr key="zone" value="dual"/>
+		</card>
+		<card name="Bold Plan" graphics="boldplan.jpg" back="1" text="Consume: 3. (Your opponent places the top two cards of his or her dilemma pile face up beneath this mission.) Your opponent may return up to two dilemmas from beneath any of your non-headquarters missions to their owner's dilemma piles.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Dilemma"/>
+			<attr key="cost" value="0"/>
+			<attr key="zone" value="dual"/>
+		</card>
+		<card name="Chula: Unfortunate Roll" graphics="chulaunfortunateroll.jpg" back="1" text="Randomly select three personnel. If their total Integrity is odd, all three are stopped.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Dilemma"/>
+			<attr key="cost" value="1"/>
+			<attr key="zone" value="dual"/>
+		</card>
+		<card name="In-Fighting" graphics="infighting.jpg" back="1" text="Your opponent names a skill. Unless you have three or less of that skill, randomly select a personnel with that skill to be killed.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Dilemma"/>
+			<attr key="cost" value="2"/>
+			<attr key="zone" value="dual"/>
+		</card>
+		<card name="Klingon Law" graphics="klingonlaw.jpg" back="1" text="Unless you have Integrity&gt;40 or Leadership, Programming, and Cunning&gt;28, randomly select a personnel to be stopped, and your opponent may draw a card for each Chancellor personnel and High Council Member personnel he or she commands.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Dilemma"/>
+			<attr key="cost" value="2"/>
+			<attr key="zone" value="dual"/>
+		</card>
+		<card name="Let Them Worry" graphics="letthemworry.jpg" back="1" text="Unless you have 3 Honor or Medical, Physics, and Strength&gt;28, randomly select a personnel to be stopped, and if your opponent commands 3 Shape-shifter personnel, all your personnel are stopped.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Dilemma"/>
+			<attr key="cost" value="3"/>
+			<attr key="zone" value="dual"/>
+		</card>
+		<card name="One to One" graphics="onetoone.jpg" back="1" text="Randomly select two personnel. If they both are [Cmd] or both are [Stf], they are stopped.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Dilemma"/>
+			<attr key="cost" value="2"/>
+			<attr key="zone" value="dual"/>
+		</card>
+		<card name="Patriotic Spirit" graphics="patrioticspirit.jpg" back="1" text="Unless you have 3 Officer or Honor, Leadership, and Strength&gt;28, randomly select a personnel to be stopped, and randomly select a personnel to be stopped for each Glinn personnel your opponent commands.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Dilemma"/>
+			<attr key="cost" value="2"/>
+			<attr key="zone" value="planet"/>
+		</card>
+		<card name="Savagery to Match Their Numbers" graphics="savagerytomatchtheirnumbers.jpg" back="1" text="Unless you have Strength&gt;40 or Officer, Security, and Cunning&gt;28, randomly select a personnel to be stopped, and choose a number of personnel who have a total cost equal to or greater than the number of Alpha personnel your opponent commands to be killed.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Dilemma"/>
+			<attr key="cost" value="3"/>
+			<attr key="zone" value="planet"/>
+		</card>
+		<card name="Skeptical Superiors" graphics="skepticalsuperiors.jpg" back="1" text="Unless you have 3 Leadership or Astrometrics, Programming, and Cunning&gt;28, randomly select a personnel to be stopped, and randomly select a personnel to be stopped for each Admiral personnel your opponent commands.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Dilemma"/>
+			<attr key="cost" value="2"/>
+			<attr key="zone" value="space"/>
+		</card>
+		<card name="Strategic Superiority" graphics="strategicsuperiority.jpg" back="1" text="Unless you have 3 Diplomacy or Weapons&gt;8, randomly select a personnel to be stopped, and choose a number of personnel who have a total cost equal to or greater than the number of General personnel your opponent commands to be killed.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Dilemma"/>
+			<attr key="cost" value="3"/>
+			<attr key="zone" value="space"/>
+		</card>
+		<card name="The Beast at El-Adrel" graphics="thebeastateladrel.jpg" back="1" text="Your personnel cannot gain skills while facing this dilemma. Unless you have 2 Diplomacy and 2 Leadership, or Engineer, Transporters, and Cunning&gt;33 or a Hand Weapon, all your personnel are stopped.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Dilemma"/>
+			<attr key="cost" value="3"/>
+			<attr key="zone" value="planet"/>
+		</card>
+		<card name="The Clown: On His Throne" graphics="theclownonhisthrone.jpg" back="1" text="Consume: 2. (Your opponent places the top two cards of his or her dilemma pile face up beneath this mission.) Place this dilemma on this mission. Your opponent names an attribute (Integrity, Cunning, or Strength). Replace attributes in this mission's requirements (and alternate requirements in game text) with the named attribute. At the end of the turn, remove this dilemma from the game.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Dilemma"/>
+			<attr key="cost" value="4"/>
+			<attr key="zone" value="dual"/>
+		</card>
+		<card name="The Seen and the Unseen" graphics="theseenandtheunseen.jpg" back="1" text="Unless at least half your personnel are not [NA], stop all your personnel, lose 5 points, your opponent scores 5 points, and this dilemma returns to its owner's dilemma pile.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Dilemma"/>
+			<attr key="cost" value="4"/>
+			<attr key="zone" value="dual"/>
+		</card>
+		<card name="Time for Action" graphics="timeforaction.jpg" back="1" text="For each headquarters mission your opponent commands, this dilemma is cost +2. Randomly select a personnel. Unless he or she has at least one skill listed in this mission's requirements, stop that personnel, then for each headquarters mission you command, randomly select another personnel to be stopped.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Dilemma"/>
+			<attr key="cost" value="0"/>
+			<attr key="zone" value="dual"/>
+		</card>
+		<card name="Treachery Running Deep" graphics="treacheryrunningdeep.jpg" back="1" text="Unless you have 3 Anthropology or Physics, Treachery, and Cunning&gt;28, randomly select a personnel to be stopped, and discard a card from hand for each Praetor personnel and Senator personnel your opponent commands.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Dilemma"/>
+			<attr key="cost" value="4"/>
+			<attr key="zone" value="dual"/>
+		</card>
+		<card name="Unionize" graphics="unionize.jpg" back="1" text="Unless you have 3 Security or Anthropology, Diplomacy, and Integrity&gt;24, randomly select a personnel to be stopped, and you must destroy any number of events from your core that have a total cost equal to or greater than the number of Dabo Girl personnel and Waiter personnel your opponent commands.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Dilemma"/>
+			<attr key="cost" value="3"/>
+			<attr key="zone" value="dual"/>
+		</card>
+		<card name="Unwanted Guests" graphics="unwantedguests.jpg" back="1" text="Your opponent randomly discards a personnel from his or her hand. Unless you have that personnel's skills, all your personnel are stopped.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Dilemma"/>
+			<attr key="cost" value="2"/>
+			<attr key="zone" value="dual"/>
+		</card>
+		<card name="Delivery Boy" graphics="deliveryboy.jpg" text="Q.  Temporal. Plays in your core. When you are about to play a Q event or a Temporal event, you may destroy this event to play that event at cost -3.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Event"/>
+			<attr key="cost" value="0"/>
+		</card>
+		<card name="Hindrance" graphics="hindrance.jpg" text="Temporal. Plays in your core. When personnel that the player on your right commands begin a mission attempt, you may kill one of your unique [Fut] personnel who costs 3 or more to draw three extra dilemmas and spend three extra in total cost on dilemmas.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Event"/>
+			<attr key="cost" value="1"/>
+		</card>
+		<card name="Keeping Track of You" graphics="keepingtrackofyou.jpg" text="Q.  Q. When you are about to play this event, choose one: it gains the gametext of a non-unique Q event you command; or it gains the gametext of a non-unique Q event an opponent commands.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Event"/>
+			<attr key="cost" value="2"/>
+		</card>
+		<card name="Subliminal Signal" graphics="subliminalsignal.jpg" text="Temporal. Plays in your core. When a dilemma that has a cost of 3 is revealed from your dilemma stack, you may place the top card of your dilemma pile face up beneath the mission being attempted to make that dilemma cost -3.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Event"/>
+			<attr key="cost" value="3"/>
+		</card>
+		<card name="The Undiscovered Country" graphics="theundiscoveredcountry.jpg" text="Plays in your core. When a personnel that the player on your right commands begins a mission attempt, before you have drawn dilemmas, you may destroy this event to name a personnel. Each opponent's personnel with that card title is stopped.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Event"/>
+			<attr key="cost" value="4"/>
+		</card>
+		<card name="Reprogrammed" graphics="reprogrammed.jpg" text="When an opponent plays an interrupt, if one of his or her personnel is facing a dilemma you own, discard a personnel from hand to prevent that interrupt and place it in its owner's discard pile.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Interrupt"/>
+		</card>
+		<card name="Uninvited" graphics="uninvited.jpg" text="Q. When personnel that the player on your right commands begin a mission attempt, choose a dilemma that has a cost of 1 or less, and place it aside. Then shuffle and replace your dilemma pile. After you have chosen dilemmas for your dilemma stack, place that dilemma on top of your dilemma stack.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Interrupt"/>
+		</card>
+		<card name="Aid Maritime Sovereignty" graphics="aidmaritimesovereignty.jpg" text="Diplomacy, Leadership, Science, and Integrity&gt;34 or Physics, Navigation, Treachery, and Cunning&gt;36 When you complete this mission, take a dilemma you own from beneath a mission and return it to your dilemma pile.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Mission"/>
+			<attr key="attemptable" value="Any affiliation"/>
+			<attr key="zone" value="planet"/>
+			<attr key="quadrant" value="delta"/>
+			<attr key="points" value="35"/>
+			<attr key="span" value="2"/>
+		</card>
+		<card name="Inversion Mystery" graphics="inversionmystery.jpg" text="Astrometrics, Diplomacy, Engineer, and Cunning&gt;28 Nebula. When you complete this mission, name a dilemma. When your personnel face that dilemma, you may prevent it and overcome it.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Mission"/>
+			<attr key="attemptable" value="Any affiliation"/>
+			<attr key="zone" value="space"/>
+			<attr key="quadrant" value="delta"/>
+			<attr key="points" value="30"/>
+			<attr key="span" value="4"/>
+		</card>
+		<card name="Kira Nerys (Defiant Leader)" graphics="kiranerysdifiantleader.jpg" text="•Honor •Leadership •Officer •Programming Commander: U.S.S. Defiant. When you play this personnel, if you command Bajor, you may destroy an event. When an opponent plays an interrupt, if you command Mouth of the Wormhole, you may return this personnel to her owner's hand to prevent that interrupt and place it in its owner's discard pile.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Personel"/>
+			<attr key="affiliation" value="Bajoran"/>
+			<attr key="race" value="Bajoran"/>
+			<attr key="cost" value="4"/>
+			<attr key="icons" value="[Cmd] [DS9]"/>
+			<attr key="integrity" value="6"/>
+			<attr key="cunning" value="6"/>
+			<attr key="strength" value="6"/>
+		</card>
+		<card name="Tabor (Apoplectic Bajoran)" graphics="taborapoplecticbajoran.jpg" text="•Engineer •Physics •Programming •Science While you have six or more personnel in your discard pile, this personnel is Cunning +2, Strength +2, and cannot be stopped by dilemmas.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Personel"/>
+			<attr key="affiliation" value="Bajoran"/>
+			<attr key="race" value="Bajoran"/>
+			<attr key="cost" value="2"/>
+			<attr key="icons" value="[Stf] [Voy] [Maq]"/>
+			<attr key="integrity" value="5"/>
+			<attr key="cunning" value="5"/>
+			<attr key="strength" value="5"/>
+		</card>
+		<card name="Two of Two (Adaptation Drone)" graphics="twooftwoadaptationdrone.jpg" text="•Anthropology •Exobiology •Science Drone. When this personnel begins a mission attempt, you may name a dilemma that is beneath one of your missions. When he faces that dilemma, you may prevent that dilemma and overcome it. This effect lasts until the end of turn.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Personel"/>
+			<attr key="affiliation" value="Borg"/>
+			<attr key="race" value="Borg"/>
+			<attr key="cost" value="2"/>
+			<attr key="icons" value="[Stf]"/>
+			<attr key="integrity" value="5"/>
+			<attr key="cunning" value="5"/>
+			<attr key="strength" value="5"/>
+		</card>
+		<card name="Telle (Macet's Aide)" graphics="tellemacetsaide.jpg" text="•Medical •Programming •Science •Transporters •Treachery Glinn. When this personnel is about to face a dual dilemma, you may discard three cards from hand to exchange that dilemma with a dual dilemma beneath this mission that this personnel has not faced this turn.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Personel"/>
+			<attr key="affiliation" value="Cardassian"/>
+			<attr key="race" value="Cardassian"/>
+			<attr key="cost" value="2"/>
+			<attr key="icons" value="[Stf]"/>
+			<attr key="integrity" value="4"/>
+			<attr key="cunning" value="5"/>
+			<attr key="strength" value="6"/>
+		</card>
+		<card name="Arak'Taral (Suspicious Second)" graphics="araktaralsuspicioussecond.jpg" text="•Astrometrics •Officer •Physics •Transporters When this personnel is an eligible target for a random selection, you may exclude a [Cmd] personnel present from that selection.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Personel"/>
+			<attr key="affiliation" value="Dominion"/>
+			<attr key="race" value="Jem'Hadar"/>
+			<attr key="cost" value="3"/>
+			<attr key="icons" value="[Stf]"/>
+			<attr key="integrity" value="5"/>
+			<attr key="cunning" value="5"/>
+			<attr key="strength" value="8"/>
+		</card>
+		<card name="George Primmin (Starfleet Security)" graphics="georgeprimminstarfleetsecurity.jpg" text="•Anthropology •Officer •Programming •Security When this personnel is about to be stopped by a dilemma, name a unique personnel. That personnel cannot be killed or stopped by dilemmas until the end of turn.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Personel"/>
+			<attr key="affiliation" value="Federation"/>
+			<attr key="race" value="Human"/>
+			<attr key="cost" value="2"/>
+			<attr key="icons" value="[Stf] [DS9]"/>
+			<attr key="integrity" value="6"/>
+			<attr key="cunning" value="5"/>
+			<attr key="strength" value="6"/>
+		</card>
+		<card name="Helen Noel (Enterprise Psychiatrist)" graphics="helennoelenterpristpsychiatrist.jpg" text="•2 Anthropology •Biology •Diplomacy •Medical You may play this personnel at cost +3 to reveal the top four dilemmas of an opponent's dilemma pile and remove each dilemma that has a cost of 1 or more and does not require a skill from the game. The remaining dilemmas return to their owner's dilemma pile.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Personel"/>
+			<attr key="affiliation" value="Federation"/>
+			<attr key="race" value="Human"/>
+			<attr key="cost" value="2"/>
+			<attr key="icons" value="[Stf] [TOS] [Pa]"/>
+			<attr key="integrity" value="5"/>
+			<attr key="cunning" value="6"/>
+			<attr key="strength" value="4"/>
+		</card>
+		<card name="Ro Laren (Headstrong Ensign)" graphics="rolarenheadstrongensign.jpg" text="•Navigation •Officer •Programming While this personnel is facing a dual dilemma, she cannot be randomly selected by dilemmas.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Personel"/>
+			<attr key="affiliation" value="Federation"/>
+			<attr key="race" value="Bajoran"/>
+			<attr key="cost" value="2"/>
+			<attr key="icons" value="[Stf] [TNG]"/>
+			<attr key="integrity" value="4"/>
+			<attr key="cunning" value="6"/>
+			<attr key="strength" value="6"/>
+		</card>
+		<card name="Reyga (Young Scientist)" graphics="reygayoungscientist.jpg" text="•2 Astrometrics •2 Engineer •2 Science While this personnel is facing a dilemma that has a cost of 1 or more and does not require a skill, you may remove two Rule cards from beneath your Ferenginar from the game to prevent and overcome that dilemma.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Personel"/>
+			<attr key="affiliation" value="Ferengi"/>
+			<attr key="race" value="Ferengi"/>
+			<attr key="cost" value="4"/>
+			<attr key="icons" value="[Stf]"/>
+			<attr key="integrity" value="5"/>
+			<attr key="cunning" value="7"/>
+			<attr key="strength" value="5"/>
+		</card>
+		<card name="Klag (Second Officer)" graphics="klagsecondofficer.jpg" text="•Diplomacy •Honor •Navigation •Officer While this personnel is facing a dilemma that requires Honor or Officer, he and each Honor personnel present cannot be randomly selected by that dilemma.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Personel"/>
+			<attr key="affiliation" value="Klingon"/>
+			<attr key="race" value="Klingon"/>
+			<attr key="cost" value="3"/>
+			<attr key="icons" value="[Cmd]"/>
+			<attr key="integrity" value="6"/>
+			<attr key="cunning" value="6"/>
+			<attr key="strength" value="7"/>
+		</card>
+		<card name="Ajur (Temporal Thief)" graphics="ajurtemporalthief.jpg" text="•2 Anthropology •Archaeology •Treachery Thief. When you play this personnel, you may search your dilemma pile for a dilemma that costs 3 or more and set it aside. Shuffle and replace your dilemma pile and place that dilemma on top of your dilemma pile.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Personel"/>
+			<attr key="affiliation" value="Non-Aligned"/>
+			<attr key="race" value="Vorgon"/>
+			<attr key="cost" value="3"/>
+			<attr key="icons" value="[Cmd] [Fut]"/>
+			<attr key="integrity" value="3"/>
+			<attr key="cunning" value="6"/>
+			<attr key="strength" value="5"/>
+		</card>
+		<card name="Boratus (Temporal Thief)" graphics="boratustemporalthief.jpg" text="•Archaeology •2 Security •Treachery Thief. When you play this personnel, you may search your dilemma pile for a dilemma that costs 3 or more and set it aside. Shuffle and replace your dilemma pile and place that dilemma on top of your dilemma pile.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Personel"/>
+			<attr key="affiliation" value="Non-Aligned"/>
+			<attr key="race" value="Vorgon"/>
+			<attr key="cost" value="3"/>
+			<attr key="icons" value="[Cmd] [Fut]"/>
+			<attr key="integrity" value="3"/>
+			<attr key="cunning" value="6"/>
+			<attr key="strength" value="5"/>
+		</card>
+		<card name="Lore (Brother and Son)" graphics="lorebrotherandson.jpg" text="•Engineer •Navigation •2 Programming •2 Treachery While this personnel is facing a non-Consume dilemma, he cannot be killed or stopped.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Personel"/>
+			<attr key="affiliation" value="Non-Aligned"/>
+			<attr key="race" value="Android"/>
+			<attr key="cost" value="6"/>
+			<attr key="icons" value="[Cmd]"/>
+			<attr key="integrity" value="1"/>
+			<attr key="cunning" value="10"/>
+			<attr key="strength" value="10"/>
+		</card>
+		<card name="Neral (Seasoned Politician)" graphics="neralseasonedpolitician.jpg" text="•Anthropology •Archaeology •Diplomacy •2 Leadership •Treachery Praetor. While this personnel is facing a dilemma that requires Leadership or Treachery, he and each Treachery personnel present cannot be randomly selected by that dilemma.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Personel"/>
+			<attr key="affiliation" value="Romulan"/>
+			<attr key="race" value="Romulan"/>
+			<attr key="cost" value="3"/>
+			<attr key="icons" value=""/>
+			<attr key="integrity" value="3"/>
+			<attr key="cunning" value="6"/>
+			<attr key="strength" value="4"/>
+		</card>
+		<card name="Masaro (Idealistic Saboteur)" graphics="masaroidealisticsaboteur.jpg" text="•Engineer •Physics •Programming •Treachery Infiltrator. Order - If you command four different species, kill this personnel to examine the top four dilemmas of an opponent's dilemma pile and remove one from the game. The remaining dilemmas return to their owner's dilemma pile.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Personel"/>
+			<attr key="affiliation" value="Starfleet"/>
+			<attr key="race" value="Human"/>
+			<attr key="cost" value="3"/>
+			<attr key="icons" value="[Stf] [Pa]"/>
+			<attr key="integrity" value="3"/>
+			<attr key="cunning" value="6"/>
+			<attr key="strength" value="6"/>
+		</card>
+		<card name="Husnock Ship" graphics="husnockship.jpg" text="This ship does not have to be staffed to move to an opponent's mission. When this ship is about to move to an opponent's mission, subtract 4 from the span total required. When personnel that the player on your right commands begin a mission attempt at this mission, you may draw an extra dilemma and spend one extra on dilemmas.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Ship"/>
+			<attr key="affiliation" value="Non-Aligned"/>
+			<attr key="class" value="Husnock Class"/>
+			<attr key="cost" value="7"/>
+			<attr key="staff" value="[Cmd] [Stf] [Stf] [Stf]"/>
+			<attr key="icons" value="[AU]"/>
+			<attr key="range" value="4"/>
+			<attr key="weapons" value="0"/>
+			<attr key="shields" value="10"/>
+		</card>
+	</cards>
+</ccg-setinfo>

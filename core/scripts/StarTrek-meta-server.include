@@ -1,0 +1,37 @@
+#
+# Variables:
+#
+# promo.booster - remaining tenth anniversary "promo" cards to give as prizes
+
+if(!port)
+  port=29160;
+factory.port=29161;
+
+if(!load("products"))
+{
+  products=(,);
+  products{"Federation Premiere starter"}=(50000,11.00,("2E","Federation",),50000);
+  products{"Romulan Premiere starter"}=(50000,11.00,("2E","Romulan",),50000);
+  products{"Klingon Premiere starter"}=(50000,11.00,("2E","Klingon",),50000);
+  products{"DeepSpaceNine Premiere starter"}=(50000,11.00,("2E","DeepSpaceNine",),50000);
+  products{"Second Edition Booster"}=(50000,2.0,("2E","Booster"),50000);
+  products{"Energized Booster"}=(50000,2.0,("EN","Booster"),50000);
+  products{"Call to Arms Booster"}=(50000,2.0,("CA","Booster"),50000);
+  products{"Dominion starter"}=(50000,11.00,("CA","Dominion",),50000);
+  products{"Borg starter"}=(50000,11.00,("CA","Borg",),50000);
+  products{"Necessary Evil Booster"}=(50000,2.0,("NE","Booster"),50000);
+  products{"Strange New Worlds Booster"}=(50000,2.0,("SW","Booster"),50000);
+  products{"To Boldly Go Booster"}=(50000,2.0,("BG","Booster"),50000);
+  products{"Captain's Log Booster"}=(50000,2.0,("CL","Booster"),50000);
+  products{"These Are The Voyages Booster"}=(50000,2.0,("TV","Booster"),50000);
+  products{"In a Mirror Darkly Booster"}=(50000,2.0,("MD","Booster"),50000);
+  products{"What You Leave Behind Booster"}=(50000,2.0,("WB","Booster"),50000);
+  save("products");
+}
+
+INITIAL_MONEY=50.0;
+GAME_BONUS=20.0;
+BET_BONUS_MULTIPLIER=1;
+LOSER_PERCENTAGE=0.20;
+
+

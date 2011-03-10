@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE ccg-setinfo SYSTEM "../gccg-set.dtd">
+<ccg-setinfo name="Dangerous Missions" dir="Dangerous Missions" abbrev="DM" game="Star Trek Collectible Card Game: Second Edition">
+	<cards>
+		<card name="Bio-neural Computer Core" graphics="bioneuralcomputercore.jpg" back="1" text="Randomly select a personnel to be stopped. If the opponent on your left does not command that personnel and you still have nine personnel remaining, place him or her on your opponent's headquarters mission instead, then randomly select a second personnel that your opponent does not command to be placed on that opponent's mission headquarters. That opponent now commands those personnel.">
+			<attr key="rarity" value="R"/>
+			<attr key="type" value="Dilemma"/>
+			<attr key="cost" value="4"/>
+			<attr key="zone" value="dual"/>
+		</card>
+		<card name="Shields Up!" graphics="shieldsup.jpg" back="1" text="Randomly select a personnel to be stopped. If that personnel has Astrometrics or Navigation, randomly select an additional personnel to be stopped.">
+			<attr key="rarity" value="R"/>
+			<attr key="type" value="Dilemma"/>
+			<attr key="cost" value="3"/>
+			<attr key="zone" value="s[ace"/>
+		</card>
+		<card name="Maquis Vendetta" graphics="maquisvendetta.jpg" back="1" text="Randomly select a personnel to be stopped. If that personnel has Officer or Security, randomly select an additional personnel to be stopped.">
+			<attr key="rarity" value="R"/>
+			<attr key="type" value="Dilemma"/>
+			<attr key="cost" value="3"/>
+			<attr key="zone" value="planet"/>
+		</card>
+		<card name="Revelry" graphics="revelry.jpg" back="1" text="For each of your headquarters missions, randomly select a personnel to be stopped. You may place two personnel from hand in your discard pile to prevent this.">
+			<attr key="rarity" value="R"/>
+			<attr key="type" value="Dilemma"/>
+			<attr key="cost" value="2"/>
+			<attr key="zone" value="dual"/>
+		</card>
+		<card name="Avert Solar Implosion" graphics="avertsolarimplosion.jpg" text="Archaeology, Geology, Physics, Science, and Cunning&gt;34 or Anthropology, Honor, Leadership, Officer, and Strength&gt;38">
+			<attr key="rarity" value="R"/>
+			<attr key="type" value="Mission"/>
+			<attr key="attemptable" value="Any except [Bor]"/>
+			<attr key="zone" value="planet"/>
+			<attr key="quadrant" value="alpha"/>
+			<attr key="points" value="35"/>
+			<attr key="span" value="2"/>
+		</card>
+		<card name="Deliver Ancient Artifact" graphics="deliverancientartifact.jpg" text="Archaeology, Exobiology, 2 Geology, Science, and Cunning&gt;34 or Diplomacy, 2 Honor, Leadership, Security, and Strength&gt;38">
+			<attr key="rarity" value="R"/>
+			<attr key="type" value="Mission"/>
+			<attr key="attemptable" value="Any except [Bor]"/>
+			<attr key="zone" value="planet"/>
+			<attr key="quadrant" value="alpha"/>
+			<attr key="points" value="40"/>
+			<attr key="span" value="2"/>
+		</card>
+		<card name="Deliver Evidence" graphics="deliverevidence.jpg" text="Anthropology, Honor, Intelligence, Officer, and Integrity&gt;32 or Archaeology, Navigation, Science, Security, and Cunning&gt;34 Region: Bajor System. ">
+			<attr key="rarity" value="R"/>
+			<attr key="type" value="Mission"/>
+			<attr key="attemptable" value="Any except [Bor]"/>
+			<attr key="zone" value="space"/>
+			<attr key="quadrant" value="alpha"/>
+			<attr key="points" value="35"/>
+			<attr key="span" value="2"/>
+		</card>
+		<card name="Bareil Antos (Escort)" graphics="bareilantosescort.jpg" text="•Anthropology •Diplomacy •2 Honor •Leadership •Security Vedek. Order - Stop this personnel to reveal a Vedek or Kai personnel from your hand. You may discard cards from the top of your deck equal to that personnel's cost to place that personnel at your mission where he or she could be played.">
+			<attr key="rarity" value="R"/>
+			<attr key="type" value="Personel"/>
+			<attr key="affiliation" value="Bajoran"/>
+			<attr key="race" value="Bajoran"/>
+			<attr key="cost" value="4"/>
+			<attr key="icons" value=""/>
+			<attr key="integrity" value="8"/>
+			<attr key="cunning" value="6"/>
+			<attr key="strength" value="5"/>
+		</card>
+		<card name="Kira Nerys (Hero of Bajor)" graphics="kiranerysheroofbajor.jpg" text="•Archaeology •Navigation •Officer •Security Vedek. While this personnel is facing a dilemma, you may remove a card in your discard pile from the game to make her gain a skill from your Vedek present until the end of that mission attempt. You may only do this once each turn.">
+			<attr key="rarity" value="R"/>
+			<attr key="type" value="Personel"/>
+			<attr key="affiliation" value="Bajoran"/>
+			<attr key="race" value="Bajoran"/>
+			<attr key="cost" value="2"/>
+			<attr key="icons" value="[Cmd] [DS9]"/>
+			<attr key="integrity" value="6"/>
+			<attr key="cunning" value="6"/>
+			<attr key="strength" value="6"/>
+		</card>
+		<card name="Jadzia Dax (Elder)" graphics="jadziadaxelder.jpg" text="•Anthropology •Navigation •Programming •Science •Security Host. Vedek. When you play this personnel, for each Vedek you command, she is cost -1.">
+			<attr key="rarity" value="R"/>
+			<attr key="type" value="Personel"/>
+			<attr key="affiliation" value="Bajoran"/>
+			<attr key="race" value="Trill"/>
+			<attr key="cost" value="4"/>
+			<attr key="icons" value="[Cmd] [DS9]"/>
+			<attr key="integrity" value="6"/>
+			<attr key="cunning" value="7"/>
+			<attr key="strength" value="6"/>
+		</card>
+		<card name="James T. Kirk (Irrational Human Being)" graphics="jamestkirkirrationalhumanbeing.jpg" text="•Anthropology •Honor •Leadership •Security When your Leadership personnel present is selected by a dilemma, you may stop this personnel to make that personnel attributes +3 until the end of that dilemma.">
+			<attr key="rarity" value="R"/>
+			<attr key="type" value="Personel"/>
+			<attr key="affiliation" value="Federation"/>
+			<attr key="race" value="Human"/>
+			<attr key="cost" value="3"/>
+			<attr key="icons" value="[Cmd] [E] [Pa]"/>
+			<attr key="integrity" value="7"/>
+			<attr key="cunning" value="6"/>
+			<attr key="strength" value="5"/>
+		</card>
+		<card name="Jean-Luc Picard (Captain of the Enterprise)" graphics="jeanlucpicardcaptainoftheenterprise.jpg" text="•Diplomacy •Honor •Leadership •Officer •Programming •Security Commander: U.S.S. Enterprise-D. When your [Fed] personnel present is killed by a dilemma, you may make this personnel attributes +3 and gain Leadership until the end of the turn. You may do this only once each turn.">
+			<attr key="rarity" value="R"/>
+			<attr key="type" value="Personel"/>
+			<attr key="affiliation" value="Federation"/>
+			<attr key="race" value="Human"/>
+			<attr key="cost" value="4"/>
+			<attr key="icons" value="[Cmd] [TNG]"/>
+			<attr key="integrity" value="8"/>
+			<attr key="cunning" value="6"/>
+			<attr key="strength" value="6"/>
+		</card>
+		<card name="William T. Riker (Skilled Commander)" graphics="williamtrikerskilledcommander.jpg" text="•Anthropology •2 Leadership •Navigation •Officer •Programming Commander: U.S.S. Enterprise-D. When your Leadership personnel present is killed by a dilemma, you may discard two cards from your hand to download a [TNG] personnel.">
+			<attr key="rarity" value="R"/>
+			<attr key="type" value="Personel"/>
+			<attr key="affiliation" value="Federation"/>
+			<attr key="race" value="Human"/>
+			<attr key="cost" value="3"/>
+			<attr key="icons" value="[Cmd] [TNG]"/>
+			<attr key="integrity" value="6"/>
+			<attr key="cunning" value="6"/>
+			<attr key="strength" value="6"/>
+		</card>
+		<card name="Charles Tucker III (Standing In)" graphics="charlestuckeriiistandingin.jpg" text="•2 Engineer •Programming •2 Transporters Commander: Enterprise. During your Play and Draw Cards segment, you may spend 1 additional counter for each space mission you have completed.">
+			<attr key="rarity" value="R"/>
+			<attr key="type" value="Personel"/>
+			<attr key="affiliation" value="Starfleet"/>
+			<attr key="race" value="Human"/>
+			<attr key="cost" value="3"/>
+			<attr key="icons" value="[Cmd] [Pa]"/>
+			<attr key="integrity" value="6"/>
+			<attr key="cunning" value="6"/>
+			<attr key="strength" value="6"/>
+		</card>
+		<card name="Jonathan Archer (Bearer of Surak's Katra)" graphics="jonathanarcherbearerofsurakskatra.jpg" text="•Archaeology •Diplomacy •Honor •Security When your non-[SF] personnel is about to be stopped by a dilemma, you may discard a card from your hand to have this personnel gain a skill from him or her until the end of the mission attempt.">
+			<attr key="rarity" value="R"/>
+			<attr key="type" value="Personel"/>
+			<attr key="affiliation" value="Starfleet"/>
+			<attr key="race" value="Human"/>
+			<attr key="cost" value="3"/>
+			<attr key="icons" value="[Cmd] [Pa]"/>
+			<attr key="integrity" value="6"/>
+			<attr key="cunning" value="6"/>
+			<attr key="strength" value="6"/>
+		</card>
+		<card name="T'Pol (Non-believer)" graphics="tpolnonbeliever.jpg" text="•Archaeology •Honor •Leadership •Science •Security When this personnel uses a skill to complete a mission, you may take an Artifact or event from your discard pile into hand. You may do this only once each turn.">
+			<attr key="rarity" value="R"/>
+			<attr key="type" value="Personel"/>
+			<attr key="affiliation" value="Starfleet"/>
+			<attr key="race" value="Vulcan"/>
+			<attr key="cost" value="3"/>
+			<attr key="icons" value="[Cmd] [Pa]"/>
+			<attr key="integrity" value="6"/>
+			<attr key="cunning" value="7"/>
+			<attr key="strength" value="6"/>
+		</card>
+		<card name="Vedek Assembly Transport" graphics="vedekassemblytransport.jpg" text="This ship is attributes +1 for each of these keywords you have aboard: Kai, Prylar and Vedek.">
+			<attr key="rarity" value="R"/>
+			<attr key="type" value="Ship"/>
+			<attr key="affiliation" value="Bajoran"/>
+			<attr key="class" value="Bestri Class"/>
+			<attr key="cost" value="5"/>
+			<attr key="staff" value="[Stf] [Stf]"/>
+			<attr key="icons" value=""/>
+			<attr key="range" value="6"/>
+			<attr key="weapons" value="5"/>
+			<attr key="shields" value="5"/>
+		</card>
+		<card name="U.S.S. Enterprise-D (Federation Flagship)" graphics="ussenterprisedfederationflagship.jpg" text="When you complete a space mission, if this ship is at that mission and you have three [Cmd] aboard this ship, score 10 points.">
+			<attr key="rarity" value="R"/>
+			<attr key="type" value="Ship"/>
+			<attr key="affiliation" value="Federation"/>
+			<attr key="class" value="Galaxy Class"/>
+			<attr key="cost" value="6"/>
+			<attr key="staff" value="[Cmd] [Stf] [Stf] [Stf]"/>
+			<attr key="icons" value="[TNG]"/>
+			<attr key="range" value="8"/>
+			<attr key="weapons" value="8"/>
+			<attr key="shields" value="9"/>
+		</card>
+		<card name="Enterprise (Battle Hardened)" graphics="enterprisebattlehardened.jpg" text="Order - Discard a Temporal even from your hand to make this ship Range +2 until the end of this turn.">
+			<attr key="rarity" value="R"/>
+			<attr key="type" value="Ship"/>
+			<attr key="affiliation" value="Starfleet"/>
+			<attr key="class" value="NX Class"/>
+			<attr key="cost" value="4"/>
+			<attr key="staff" value="[Cmd]"/>
+			<attr key="icons" value="[Pa]"/>
+			<attr key="range" value="6"/>
+			<attr key="weapons" value="5"/>
+			<attr key="shields" value="5"/>
+		</card>
+	</cards>
+</ccg-setinfo>

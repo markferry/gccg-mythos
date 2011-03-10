@@ -1,0 +1,89 @@
+
+if(!port)
+  port=29161;
+  
+
+def InitDistributions
+{
+  distribution=(,);
+  distribution{"2E"}=(,);
+  distribution{"2E"}{"Booster"}=((7,"C"),(3,"U"),(1,"R"));
+  distribution{"2E"}{"3rares"}=((3,"R"),(0,"U"),(0,"C"));
+  distribution{"EN"}=(,);
+  distribution{"EN"}{"Booster"}=((7,"C"),(3,"U"),(1,"R"));
+  distribution{"CA"}=(,);
+  distribution{"CA"}{"Booster"}=((7,"C"),(3,"U"),(1,"R"));
+  distribution{"CA"}{"3rares"}=((3,"R"),(0,"U"),(0,"C"));
+  distribution{"NE"}=(,);
+  distribution{"NE"}{"Booster"}=((7,"C"),(3,"U"),(1,"R"));
+  distribution{"XA"}=(,);
+  distribution{"XA"}{"Booster"}=((1,"P"));
+  distribution{"SW"}=(,);
+  distribution{"SW"}{"Booster"}=((7,"C"),(3,"U"),(1,"R"));
+  distribution{"BG"}=(,);
+  distribution{"BG"}{"Booster"}=((7,"C"),(3,"U"),(1,"R"));
+  distribution{"CL"}=(,);
+  distribution{"CL"}{"Booster"}=((7,"C"),(3,"U"),(1,"R"));
+  distribution{"TV"}=(,);
+  distribution{"TV"}{"Booster"}=((7,"C"),(3,"U"),(1,"R"));
+  distribution{"MD"}=(,);
+  distribution{"MD"}{"Booster"}=((7,"C"),(3,"U"),(1,"R"));
+  distribution{"WB"}=(,);
+  distribution{"WB"}{"Booster"}=((7,"C"),(3,"U"),(1,"R"));
+}
+
+fixed=array(9);
+
+fixed[0]=FixedSet("2E",("Antedean Assassins", "Antedean Assassins", "Authenticate Artifacts", "Bynars' Password", "Bynars' Password", "Command Decisions", "Command Decisions", "Equipment Malfunction", "Kolaran Raiders", "Kolaran Raiders", "Limited Welcome", "Limited Welcome", "Ornaran Threat", "Pinned Down", "Pinned Down", "Recurring Injury", "Recurring Injury", "Systems Diagnostic", "Triage", "Wavefront", "Tricorder", "Tricorder", "Cry 'Havoc!'", "Cry 'Havoc!'", "D'Arsay Archive", "D'Arsay Archive", "Mission Briefing", "Mission Briefing", "Shady Resources", "Shady Resources", "Earth (Cradle of the Federation)", "Geological Survey", "Host Metaphasic Shielding Test", "Intercept Renegade", "Surgery Under Fire", "Andrea Brand (Academy Superintendent)", "Daniel Kwan", "Daniel Kwan", "Davies", "Elizabeth Shelby (Formidable Presence)", "Jean-Luc Picard (Explorer)", "Jean-Luc Picard (Explorer)", "Lian T'su", "Lopez", "Lopez", "Martin", "Martin", "Martin", "Rixx", "Rixx", "Robin Lefler (Mission Specialist)", "Van Orton", "Van Orton", "William T. Riker (Number One)", "Worf (Security Detail Leader)", "Pran Tainer (Atrean Seismologist)", "U.S.S. Nebula", "U.S.S. Nebula", "U.S.S. Nebula", "U.S.S. Sovereign" ));
+
+fixed[1]=FixedSet("2E",("Authenticate Artifacts", "Command Decisions", "Command Decisions", "Equipment Malfunction", "Kolaran Raiders", "Kolaran Raiders", "Limited Welcome", "Limited Welcome", "Microbrain", "Microbrain", "Ornaran Threat", "Pinned Down", "Pinned Down", "Recurring Injury", "Recurring Injury", "Stellar Core Fragment", "Stellar Core Fragment", "Systems Diagnostic", "Triage", "Wavefront", "Engineering PADD", "Cry 'Havoc!'", "Cry 'Havoc!'", "D'Arsay Archive", "D'Arsay Archive", "The Reman Mines", "Render Assistance", "Render Assistance", "Shady Resources", "Shady Resources", "Abduction Plot", "Investigate Coup", "Investigate Rogue Comet", "Romulus (Seat of Power)", "Supervise Dilithium Mine", "Etana Jol (Ktarian Operative)", "Rabal", "Chagrith", "Chagrith", "Cretak (Supporter of the Alliance)", "Dralvak", "Dralvak", "Jorvas", "Jorvas", "Jorvas", "Movar (Political General)", "Noram", "Noram", "Sabrun", "Sabrun", "Sabrun", "Shinzon (Romulan Praetor)", "Shinzon (Romulan Praetor)", "Talvin", "Talvin", "Thexor", "Thexor", "D'deridex", "D'deridex", "D'deridex" ));
+
+fixed[2]=FixedSet("2E",("Authenticate Artifacts", "Command Decisions", "Command Decisions", "Equipment Malfunction", "Kolaran Raiders", "Kolaran Raiders", "Limited Welcome", "Limited Welcome", "Microbrain", "Microbrain", "Ornaran Threat", "Pinned Down", "Pinned Down", "Stellar Core Fragment", "Stellar Core Fragment", "Systems Diagnostic", "Tense Negotiations", "Tense Negotiations", "Triage", "Wavefront", "Cry 'Havoc!'", "Cry 'Havoc!'", "D'Arsay Archive", "D'Arsay Archive", "Render Assistance", "Render Assistance", "The Promise", "The Promise", "Explore Black Cluster", "Khitomer Investigation", "Qo'noS (Heart of the Empire)", "Sensitive Search", "Study Cometary Cloud", "B'amara", "B'amara", "Dokar", "Dokar", "Dokar", "Gowron (Leader of the High Council)", "Gowron (Leader of the High Council)", "Kahlest (GhojmoH of Worf)", "Kahmis", "Kahmis", "Kahmis", "Kitrik ('The Tyrant Molor')", "K'nera (Klingon Defense Force Commander)", "Kroval", "Kroval", "Meraht", "Meraht", "T'vis", "T'vis", "Vorax", "Vorax", "Vorax", "Rabal", "I.K.S. K'Vort", "I.K.S. Vor'cha", "I.K.S. Vor'cha", "I.K.S. Vor'cha" ));
+
+fixed[3]=FixedSet("2E",("Antedean Assassins", "Antedean Assassins", "Authenticate Artifacts", "Command Decisions", "Command Decisions", "Equipment Malfunction", "Kolaran Raiders", "Kolaran Raiders", "Limited Welcome", "Limited Welcome", "Ornaran Threat", "Pinned Down", "Pinned Down", "Recurring Injury", "Recurring Injury", "Stellar Core Fragment", "Stellar Core Fragment", "Systems Diagnostic", "Triage", "Wavefront", "Medical Tricorder", "Cry 'Havoc!'", "Cry 'Havoc!'", "D'Arsay Archive", "D'Arsay Archive", "Render Assistance", "Render Assistance", "Ties of Blood and Water", "Ties of Blood and Water", "Fissure Research", "Mining Survey", "Mouth of the Wormhole (Deep Space 9)", "Search for Survivors", "Security Briefing", "Anara", "Anara", "Brilgar", "Brilgar", "Jabara", "Jabara", "Li Nalas (Legend of Bajor)", "Shandor", "Shandor", "Altman", "Bandee", "Benjamin Sisko (Defiant Captain)", "Benjamin Sisko (Defiant Captain)", "Hoya", "Hoya", "Mills", "Mills", "Paulson", "T'Lor", "Worf (Strategic Operations Officer)", "Bhavani", "Leyor", "Ty Kajada (Relentless Investigator)", "U.S.S. Akira", "U.S.S. Akira", "U.S.S. Akira" ));
+
+fixed[4]=FixedSet("CA",("DNA Analysis", "DNA Analysis", "Sokath His Eyes Uncovered!", "Inside Collaborators", "Inside Collaborators", "Psycho-Kinetic Attack", "Psycho-Kinetic Attack", "Destroy Iconian Gateway", "Founders' Homeworld (Home of the Great Link)", "Rescue Prisoners of War", "Salvage Dominion Ship", "Survey Star System", "Founder Councilor", "Founder Councilor", "Founder Councilor", "Founder Leader (Forbidding Judge)", "Founder Leader (Forbidding Judge)", "Imat'Korex", "Imat'Korex", "Imat'Korex", "Kilana (Dissembling Envoy)", "Martok Founder (Poison of the Empire)", "Noret'ikar", "Noret'ikar", "Odera'Klen", "Odera'Klen", "Rak'tazan", "Rak'tazan", "Rak'tazan", "Tozara'Kesh", "Tozara'Kesh", "Tozara'Kesh", "Varen'agor", "E'Tyshra", "E'Tyshra", "Jem'Hadar Attack Ship", "Jem'Hadar Attack Ship", "Jem'Hadar Warship", "Jem'Hadar Warship" ));
+
+fixed[5]=FixedSet("2E",("Authenticate Artifacts", "Command Decisions", "Command Decisions", "Kolaran Raiders", "Kolaran Raiders", "Limited Welcome", "Limited Welcome", "Ornaran Threat", "Pinned Down", "Pinned Down", "Systems Diagnostic", "Triage", "Wavefront", "Cry 'Havoc!'", "Cry 'Havoc!'", "D'Arsay Archive", "D'Arsay Archive", "Render Assistance", "Render Assistance", "Sunad", "Sunad" ));
+
+fixed[6]=FixedSet("CA",("An Old Debt", "An Old Debt", "Failure To Communicate", "Failure To Communicate", "Justice or Vengeance", "Justice or Vengeance", "Sokath His Eyes Uncovered!",  "Borg Cutting Beam", "Borg Cutting Beam", "Analyze", "Analyze", "Assault on Species 8472", "Battle Reconnaissance", "Hunt Alien", "Salvage Borg Ship", "Unicomplex (Root of the Hive Mind)", "Acclimation Drone", "Acclimation Drone", "Acclimation Drone", "Borg Queen (Bringer of Order)", "Borg Queen (Bringer of Order)", "Calibration Drone", "Calibration Drone", "Cartography Drone", "Cartography Drone", "Computation Drone", "Computation Drone", "Information Drone", "Information Drone", "Invasive Drone", "Invasive Drone", "Opposition Drone", "Opposition Drone", "Research Drone", "Research Drone", "Seven of Nine (Representative of the Hive)", "Transwarp Drone", "Transwarp Drone", "Borg Cube", "Borg Sphere", "Borg Sphere", "Borg Sphere" ));
+
+fixed[7]=FixedSet("2E",("Authenticate Artifacts", "Command Decisions", "Command Decisions", "Kolaran Raiders", "Kolaran Raiders", "Limited Welcome", "Limited Welcome", "Ornaran Threat", "Pinned Down", "Pinned Down", "Systems Diagnostic", "Triage", "Wavefront", "Render Assistance", "Render Assistance" ));
+
+fixed[8]=FixedSet("EN",("Salvaging the Wreckage", "Salvaging the Wreckage", "Salvaging the Wreckage" ));
+
+# Premiere Starters (Federation, Romulan, Klingon, Deep Space Nine)
+#
+
+def Produce2E_Federation
+{
+  return(RandomCardSet("2E",distribution{"2E"}{"3rares"})+fixed[0]);
+}
+
+def Produce2E_Romulan
+{
+  return(RandomCardSet("2E",distribution{"2E"}{"3rares"})+fixed[1]);
+}
+
+def Produce2E_Klingon
+{
+  return(RandomCardSet("2E",distribution{"2E"}{"3rares"})+fixed[2]);
+}
+
+def Produce2E_DeepSpaceNine
+{
+  return(RandomCardSet("2E",distribution{"2E"}{"3rares"})+fixed[3]);
+}
+
+# Call to Arms Starters (Borg, Dominion)
+#
+
+def ProduceCA_Dominion
+{
+  return(RandomCardSet("CA",distribution{"CA"}{"3rares"})+fixed[4]+fixed[5]);
+}
+
+def ProduceCA_Borg
+{
+  return(RandomCardSet("CA",distribution{"CA"}{"3rares"})+fixed[6]+fixed[7]+fixed[8]);
+}

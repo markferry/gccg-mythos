@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ccg SYSTEM "gccg-game.dtd">
+
+<ccg name="Star Trek Collectible Card Game: Second Edition" dir="StarTrek">
+
+  <option name="hand card size" value="30"/>
+  <option name="table card size" value="25"/>
+  <option name="deck card size" value="20"/>
+  <option name="book card size" value="30"/>
+
+  <cardset source="StarTrek_basecards.xml"/>
+  <cardset source="Second Edition.xml"/>
+  <cardset source="Energized.xml"/>
+  <cardset source="Call to Arms.xml"/>
+  <cardset source="Necessary Evil.xml"/>
+  <cardset source="Tenth Anniversary.xml"/>
+  <cardset source="Fractured Time.xml"/>
+  <cardset source="Reflections.xml"/>
+  <cardset source="Archive Portrait.xml"/>
+  <cardset source="Strange New Worlds.xml"/>
+  <cardset source="To Boldly Go.xml"/>
+  <cardset source="Dangerous Missions.xml"/>
+  <cardset source="Captains Log.xml"/>
+  <cardset source="Genesis.xml"/>
+  <cardset source="These Are The Voyages.xml"/>
+  <cardset source="In a Mirror Darkly.xml"/>
+  <cardset source="What You Leave Behind.xml"/>
+  <cardset source="Virtual Promos.xml"/>
+  <cardset source="The Undiscovered Country.xml"/>
+  <cardset source="Favor The Bold.xml"/>
+  <cardset source="Raise The Stakes.xml"/>
+  <cardset source="This Side of Paradise.xml"/>
+  <cardset source="Legacy.xml"/>
+  <cardset source="Allegiance.xml"/>
+  <cardset source="Infinite Diversity.xml"/>
+  <cardset source="Peak Performance.xml"/>
+  <cardset source="Extreme Measures.xml"/>
+
+  <image file="Bajoran.jpg" tag="{Baj}"/>
+  <image file="bajoran-small.jpg" tag="{baj}"/>
+  <image file="Borg.jpg" tag="{Bor}"/>
+  <image file="borg-small.jpg" tag="{bor}"/>
+  <image file="Cardassian.jpg" tag="{Car}"/>
+  <image file="cardassian-small.jpg" tag="{car}"/>
+  <image file="Dominion.jpg" tag="{Dom}"/>
+  <image file="dominion-small.jpg" tag="{dom}"/>
+  <image file="Federation.jpg" tag="{Fed}"/>
+  <image file="federation-small.jpg" tag="{fed}"/>
+  <image file="Ferengi.jpg" tag="{Fer}"/>
+  <image file="ferengi-small.jpg" tag="{fer}"/>
+  <image file="Klingon.jpg" tag="{Kli}"/>
+  <image file="klingon-small.jpg" tag="{kli}"/>
+  <image file="Non-Aligned.jpg" tag="{NA}"/>
+  <image file="nonaligned-small.jpg" tag="{na}"/>
+  <image file="Romulan.jpg" tag="{Rom}"/>
+  <image file="romulan-small.jpg" tag="{rom}"/>
+  <image file="Starfleet.jpg" tag="{SF}"/>
+  <image file="starfleet-small.jpg" tag="{sf}"/>
+  <image file="command.jpg" tag="{Cmd}"/>
+  <image file="deep space nine.jpg" tag="{DS9}"/>
+  <image file="earth.jpg" tag="{E}"/>
+  <image file="maquis.jpg" tag="{Maq}"/>
+  <image file="past.jpg" tag="{Pa}"/>
+  <image file="staff.jpg" tag="{Stf}"/>
+  <image file="terok nor.jpg" tag="{TN}"/>
+  <image file="the next generation.jpg" tag="{TNG}"/>
+
+  <option name="deck order" value="type"/>
+</ccg>

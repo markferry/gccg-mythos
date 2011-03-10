@@ -1,0 +1,236 @@
+#
+#
+# VARIABLES
+# =========
+#
+
+# Number of cards in hand.
+HANDSIZE=7;
+# Size of columns of the decklist in pixels.
+DECKBOX_SIZE=(20,220,110);
+# minor version number for filter alogrithm
+BOOK_FILTER_VERSION_MINOR=".0";
+# default book sorting criteria.
+BOOK_DEFAULT_SORT=("[age]","[type]","[affiliation]","[name]");
+
+if(!port)
+  port=29160;
+if(server.name=="NO.DEFAULT.SERVER.FOR.THIS.GAME")
+  server.name="gccg.servebeer.com";
+
+product.image=(,);
+product.image{"Federation Premiere starter"}="Federation Starter.jpg";
+product.image{"Romulan Premiere starter"}="Romulan Starter.jpg";
+product.image{"Klingon Premiere starter"}="Klingon Starter.jpg";
+product.image{"DeepSpaceNine Premiere starter"}="DeepSpaceNine Starter.jpg";
+product.image{"Second Edition Booster"}="Second Edition.jpg";
+product.image{"Energized Booster"}="Energized.jpg";
+product.image{"Call to Arms Booster"}="Call to Arms.jpg";
+product.image{"Dominion starter"}="Dominion Starter.jpg";
+product.image{"Borg starter"}="Borg Starter.jpg";
+product.image{"Necessary Evil Booster"}="Necessary Evil.jpg";
+product.image{"Strange New Worlds Booster"}="Strange New Worlds.jpg";
+product.image{"To Boldly Go Booster"}="To Boldly Go.jpg";
+product.image{"Captain's Log Booster"}="Captains Log.jpg";
+product.image{"These Are The Voyages Booster"}="These are the Voyages.jpg";
+product.image{"In a Mirror Darkly Booster"}="In a Mirror Darkly.jpg";
+product.image{"What You Leave Behind Booster"}="What you Leave Behind.jpg";
+
+game.bindings=(
+  ("KeyControlKey1","{orange}Play and Draw Cards (7 Counters)...",),
+  ("KeyControlKey2","{orange}Execute Orders...",),
+  ("KeyControlKey3","{red}Order - Beam Personel...",),
+  ("KeyControlKey4","{red}Order - Move ship...",),
+  ("KeyControlKey5","{red}Order - Attempt Mission...",),
+  ("KeyControlKey6","{red}Order - Other Orders...",),
+  ("KeyControlKey7","{orange}Discard Extra Cards...",),);
+
+# MENUS
+# =====
+def DilemmasMenu
+{
+    Menu("Dilemmas",(
+      ("Look","Ctrl+L",""),
+      ("Shuffle","Ctrl+S",""),
+      ("Reveal/Hide","Ctrl+F",""),
+      ("Touch","Ctrl+T",""),
+      ("Set Aside","End",""),
+    ));
+}
+
+def AwayTeamOneMenu
+{
+    Menu("away team one",(
+      ("Look","Ctrl+L",""),
+      ("Shuffle","Ctrl+S",""),
+      ("Reveal/Hide","Ctrl+F",""),
+      ("Touch","Ctrl+T",""),
+      ("Set Aside","End",""),
+    ));
+}
+def AwayTeamTwoMenu
+{
+    Menu("away team two",(
+      ("Look","Ctrl+L",""),
+      ("Shuffle","Ctrl+S",""),
+      ("Reveal/Hide","Ctrl+F",""),
+      ("Touch","Ctrl+T",""),
+      ("Set Aside","End",""),
+    ));
+}
+def AwayTeamThreeMenu
+{
+    Menu("away team three",(
+      ("Look","Ctrl+L",""),
+      ("Shuffle","Ctrl+S",""),
+      ("Reveal/Hide","Ctrl+F",""),
+      ("Touch","Ctrl+T",""),
+      ("Set Aside","End",""),
+    ));
+}
+
+def MissionsMenu
+{
+    Menu("Missions",(
+      ("Play a Mission","Ctrl+P",""),
+    ));
+}
+
+FILTER_OPTIONS=(
+ ("Dilemmas","Attr('type',#)=='Dilemma'","default"),
+ ("Events","Attr('type',#)=='Event'","default"),
+ ("Eqipment","Attr('type',#)=='Equipment'","default"),
+ ("Interrupts","Attr('type',#)=='Interrupt'","default"),
+ ("Missions","Attr('type',#)=='Mission'","default"),
+ ("Personel","Attr('type',#)=='Personel'","default"),
+ ("Ships","Attr('type',#)=='Ship'","default"),
+ "{hr}",
+);
+# FUNCTIONS
+# =========
+
+#
+# NewDeck() - Game specific creation of empty deck structure.
+#
+def NewDeck
+{
+  return((("deck",(,)),("dilemmas",(,)),("missions",(,)),));
+}
+
+#
+# InitializeGame() - Game specific initialization of game variables.
+#
+def InitializeGame
+{
+}
+
+#
+# StartGame() - What to do when game begins.
+#
+def StartGame
+{
+  net_send(server,("UploadDeck",decks{deck.name}));
+  net_send(server,("ShuffleDeck",deck));
+  net_send(server,("ShuffleDeck",deck.objects[me]{"dilemmas"}));
+}
+
+#
+# HOOKS
+# =====
+def TryTransferHook
+{
+  if((ARG==("deck.top",deck) || ARG==("deck.bottom",deck)) && (card_back(card.number)==1 || card.number==1))
+    return(ARG[0],deck.objects[me]{"dilemmas"});
+  else
+    return(ARG);
+}
+
+def InputHook
+{
+  return(0);
+  if(flag.playing)
+  {
+    push(s);
+    push(d);
+
+    d=NULL;
+    s=toint(score[me]);
+
+    if(left(ARG,1)=="-" && tostr(toint(ARG))==ARG)
+      d=toint(ARG);
+    else if(left(ARG,1)=="+" && tostr(toint(substr(ARG,1)))==substr(ARG,1))
+      d=toint(substr(ARG,1));
+    else if(tostr(toint(ARG))==ARG)
+      d=toint(ARG)-s;
+
+    if(d != NULL)
+    {
+      s=s+d;
+      Send("Score",(me,s));
+    
+      if(d >= 0)
+        d="+"+d;
+      Say("{orange}Current points ("+d+") : "+s);
+
+      return(1);
+    }
+
+    d=pop();
+    s=pop();
+  }
+}
+
+def SingleCardMenuHook
+{
+  return(("Put to Away Team One","Ctrl+Shift+1","TryTransferTo('deck.top',deck.objects[me]{'away team one'})"),
+("Put to Away Team Two","Ctrl+Shift+2","TryTransferTo('deck.top',deck.objects[me]{'away team two'})"),
+("Put to Away Team Three","Ctrl+Shift+1","TryTransferTo('deck.top',deck.objects[me]{'away team three'})"),
+);
+}
+#
+# REDEFINED FUNCTIONS
+# ===================
+
+#
+# Move a card to away team one Ctrl Shift A
+#
+
+def PlayKeyShiftControlKey1
+{
+  TryTransferTo("deck.top",deck.objects[Owner(object.number)]{"away team one"});
+}
+
+def PlayKeyShiftControlKey2
+{
+  TryTransferTo("deck.top",deck.objects[Owner(object.number)]{"away team two"});
+}
+
+def PlayKeyShiftControlKey3
+{
+  TryTransferTo("deck.top",deck.objects[Owner(object.number)]{"away team three"});
+}
+
+# MOUSE
+# =====
+
+
+# SPECIAL KEYS
+# ============
+
+# PLAYING CARDS
+# =============
+
+
+#
+# LOCATION TABLES
+# ===============
+
+#
+# InitializeLocationTables() - Fill tables for location algorithm (See Mtg.include for details).
+#
+def InitializeLocationTables
+{
+  rules.category=(,);
+
+  rules.coordinate=(,);
+}

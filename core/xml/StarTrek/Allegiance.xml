@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE ccg-setinfo SYSTEM "../gccg-set.dtd">
+<ccg-setinfo name="Allegiance" dir="Allegiance" abbrev="A" game="Star Trek Collectible Card Game: Second Edition">
+	<cards>
+		<card name="Virtual Reality Headset" graphics="virtualrealityheadset.jpg" text="Order - If you do not command a Dissident personnel, choose one: stop two [Car] personnel present to place a non- [TN] [Dom] personnel from hand at your Mouth of the Wormhole; or stop two [Dom] personnel present to place a non - [TN] [Car] personnel from hand at your Mouth of the Wormhole. That personnel is stopped. You may do this only once each turn.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Equipment"/>
+			<attr key="cost" value="5"/>
+		</card>
+		<card name="Firestorm" graphics="firestorm.jpg" text="Decay: 2. (When there are two cards on this event, destroy it.) Plays in your core. At the end of your turn, place a card from your hand on this event and for each headquarters mission each player commands, he or she chooses two non-Decay events he or she commands and the owners of those events shuffles them into his or her deck.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Event"/>
+			<attr key="cost" value="3"/>
+		</card>
+		<card name="Helping Hand" graphics="helpinghand.jpg" text="Maneuver. Plays in your core. While your personnel is facing a dilemma or are involved in an engagement, you may discard a ship that is the same class as the ship he or she is aboard from hand to make it Weapons +4 and Shields +4 until the end of the turn.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Event"/>
+			<attr key="cost" value="3"/>
+		</card>
+		<card name="Reman Assault Team" graphics="remanassaultteam.jpg" text="Plays on your ship. When your Reman aboard this ship is killed by a dilemma, you may place a Reman in your hand aboard this ship. (That personnel joins the mission attempt.)">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Event"/>
+			<attr key="cost" value="4"/>
+		</card>
+		<card name="Under Siege" graphics="undersiege.jpg" text="Assault. Maneuver. Plays in your opponent's core. (He or she commands this event.) When a player loses command of this event, return it to its owner's hand.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Event"/>
+			<attr key="cost" value="2"/>
+		</card>
+		<card name="Conflict" graphics="conflict.jpg" text="When personnel that the player on your right commands begin a mission attempt, discard 5 cards from hand or lose 5 points to draw three extra dilemmas and spend three extra in total cost on dilemmas.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Interrupt"/>
+		</card>
+		<card name="Forcing Their Way" graphics="forcingtheirway.jpg" text="To play this interrupt, you must not command U.S.S. Voyager. Order - Discard a Nucleogenic card from hand to place a [Voy] Treachery personnel aboard your U.S.S. Equinox.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Interrupt"/>
+		</card>
+		<card name="Genetronic Treatment" graphics="genetronictreatment.jpg" text="When one of your personnel is about to be killed by a dilemma, if he or she is present with a Medical personnel, stop that personnel instead. Then you may discard the top card of your deck to shuffle this interrupt into your deck.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Interrupt"/>
+		</card>
+		<card name="Interspatial Fissures" graphics="interspatialfissures.jpg" text="Nucleogenic. While your personnel present with three [Voy] Treachery personnel is facing a dilemma, you may discard a card from hand to make that personnel gain a skill from a Treachery personnel present until the end of that dilemma.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Interrupt"/>
+		</card>
+		<card name="Relentless Attacks" graphics="relentlessattacks.jpg" text="Nucleogenic. While your personnel present with three [Voy] Treachery personnel is facing a dilemma, you may discard a card from hand to make that personnel attributes +3 until the end of that dilemma.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Interrupt"/>
+		</card>
+		<card name="Team of Infiltrators" graphics="teamofinfiltrators.jpg" text="Infiltration. When your Infiltrator is facing a dilemma, if he or she is present with two Infiltrators, meet Integrity and Strength requirements of that dilemma using Cunning instead.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Interrupt"/>
+		</card>
+		<card name="The Central Command" graphics="thecentralcommand.jpg" text="When any number of your [Car] Officer and/or [Car] Treachery personnel are about to be stopped by a dilemma, discard the top three cards of your deck to prevent that.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Interrupt"/>
+		</card>
+		<card name="Locate Fuel Source" graphics="locatefuelsource.jpg" text="Anthropology, Exobiology, Science, 2 Treachery, and Cunning&gt;38 When your personnel complete this mission, each player may shuffle each Nucleogenic card in his or her discard pile into his or her deck.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Mission"/>
+			<attr key="attemptable" value="[Fed] [NA]"/>
+			<attr key="zone" value="planet"/>
+			<attr key="quadrant" value="delta"/>
+			<attr key="points" value="40"/>
+			<attr key="span" value="2"/>
+		</card>
+		<card name="Li Nalas (Vastly Outnumbered)" graphics="linalasvastlyoutnumbered.jpg" text="•Geology •2 Honor •Leadership •Security While an opponent commands an Assault event, this personnel and each [DS9] personnel present is Strength +1.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Personel"/>
+			<attr key="affiliation" value="Bajoran"/>
+			<attr key="race" value="Bajoran"/>
+			<attr key="cost" value="3"/>
+			<attr key="icons" value="[Cmd] [DS9]"/>
+			<attr key="integrity" value="8"/>
+			<attr key="cunning" value="5"/>
+			<attr key="strength" value="5"/>
+		</card>
+		<card name="Odo (Vastly Outnumbered)" graphics="odovastlyoutnumbered.jpg" text="•Honor •Law •Programming •Security Shape-shifter. While an opponent commands an Assault event, this personnel cannot be killed or stopped by dual dilemmas.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Personel"/>
+			<attr key="affiliation" value="Bajoran"/>
+			<attr key="race" value="Changeling"/>
+			<attr key="cost" value="3"/>
+			<attr key="icons" value="[Cmd] [DS9]"/>
+			<attr key="integrity" value="7"/>
+			<attr key="cunning" value="7"/>
+			<attr key="strength" value="8"/>
+		</card>
+		<card name="Angelo Tassoni" graphics="angelotassoni.jpg" text="•Biology •Navigation •Security •Treachery When you play this personnel you may choose one: take a Nucleogenic card from your discard pile into hand; or place a Nucleogenic card you own that has been removed from the game on top of your deck.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Personel"/>
+			<attr key="affiliation" value="Federation"/>
+			<attr key="race" value="Human"/>
+			<attr key="cost" value="2"/>
+			<attr key="icons" value="[Stf] [Voy]"/>
+			<attr key="integrity" value="4"/>
+			<attr key="cunning" value="6"/>
+			<attr key="strength" value="5"/>
+		</card>
+		<card name="Benjamin Sisko (Vastly Outnumbered)" graphics="benjaminsiskovastlyoutnumbered.jpg" text="•Diplomacy •Leadership •Navigation When this personnel begins a mission attempt, if an opponent commands a Maneuver event, you may name a dilemma. This personnel gains This personnel and each [DS9] personnel present cannot be killed or stopped by that dilemma until the end of turn.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Personel"/>
+			<attr key="affiliation" value="Federation"/>
+			<attr key="race" value="Human"/>
+			<attr key="cost" value="2"/>
+			<attr key="icons" value="[Cmd] [DS9]"/>
+			<attr key="integrity" value="6"/>
+			<attr key="cunning" value="6"/>
+			<attr key="strength" value="6"/>
+		</card>
+		<card name="Equinox Doctor (Unethical Medical Hologram)" graphics="equinoxdoctorunethicalmedicalhologram.jpg" text="•Biology •2 Exobiology •Medical •2 Treachery Infiltrator. When you are about to lose command of your [Voy] Treachery personnel present, you may lose 5 points to prevent that.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Personel"/>
+			<attr key="affiliation" value="Federation"/>
+			<attr key="race" value="Hologram"/>
+			<attr key="cost" value="3"/>
+			<attr key="icons" value="[Voy]"/>
+			<attr key="integrity" value="2"/>
+			<attr key="cunning" value="7"/>
+			<attr key="strength" value="5"/>
+		</card>
+		<card name="Hikaru Sulu (Experienced Helmsman)" graphics="hikarusuluexperiencedhelmsman.jpg" text="•Astrometrics •Biology •2 Navigation •Officer You may play this personnel at cost -2 to ignore his next ability. When you play this personnel, you may place your [TOS] ship at your mission.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Personel"/>
+			<attr key="affiliation" value="Federation"/>
+			<attr key="race" value="Human"/>
+			<attr key="cost" value="4"/>
+			<attr key="icons" value="[Stf] [TOS] [Pa]"/>
+			<attr key="integrity" value="6"/>
+			<attr key="cunning" value="6"/>
+			<attr key="strength" value="6"/>
+		</card>
+		<card name="Ilia (Finest Navigator in Starfleet)" graphics="iliafinestnavigatorinstarfleet.jpg" text="•Honor •Navigation •Officer •Telepathy You may play this personnel at cost -2 to ignore her next ability. When you play this personnel, if you command a [TOS] personnel who has a cost of 4 or more, for each headquarters mission your opponent commands, you may shuffle two cards from your discard pile into your deck.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Personel"/>
+			<attr key="affiliation" value="Federation"/>
+			<attr key="race" value="Deltan"/>
+			<attr key="cost" value="4"/>
+			<attr key="icons" value="[Stf] [TOS] [Pa]"/>
+			<attr key="integrity" value="7"/>
+			<attr key="cunning" value="5"/>
+			<attr key="strength" value="5"/>
+		</card>
+		<card name="James T. Kirk (Experienced Commander)" graphics="jamestkirkexperiencedcommander.jpg" text="•Honor •Leadership •Officer •Programming Admiral.  Commander: U.S.S. Enterprise. You may play this personnel at cost -2 to ignore his next ability. When you play this personnel, he gains This personnel and each [TOS] personnel present who has a cost of 4 or more may be excluded from random selections until the end of this turn.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Personel"/>
+			<attr key="affiliation" value="Federation"/>
+			<attr key="race" value="Human"/>
+			<attr key="cost" value="4"/>
+			<attr key="icons" value="[Cmd] [TOS] [Pa]"/>
+			<attr key="integrity" value="7"/>
+			<attr key="cunning" value="6"/>
+			<attr key="strength" value="6"/>
+		</card>
+		<card name="Julian Bashir (Vastly Outnumbered)" graphics="julianbashirvastlyoutnumbered.jpg" text="•Biology •Exobiology •Medical •Science Genetically Enhanced. When a dilemma that has a cost of 1 or more and does not require a skill is about to kill your [DS9] personnel present, if an opponent commands an Assault event, you may discard a card from hand to prevent that.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Personel"/>
+			<attr key="affiliation" value="Federation"/>
+			<attr key="race" value="Human"/>
+			<attr key="cost" value="3"/>
+			<attr key="icons" value="[Stf] [DS9]"/>
+			<attr key="integrity" value="5"/>
+			<attr key="cunning" value="8"/>
+			<attr key="strength" value="6"/>
+		</card>
+		<card name="Leonard H. McCoy (Experienced Advisor)" graphics="leonardhmccoyexperiencedadvisor.jpg" text="•Biology •Exobiology •Honor •Medical You may play this personnel at cost -2 to ignore his next ability. When you play this personnel, the next [TOS] personnel you play this turn is cost -3.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Personel"/>
+			<attr key="affiliation" value="Federation"/>
+			<attr key="race" value="Human"/>
+			<attr key="cost" value="4"/>
+			<attr key="icons" value="[Stf] [TOS] [Pa]"/>
+			<attr key="integrity" value="7"/>
+			<attr key="cunning" value="6"/>
+			<attr key="strength" value="5"/>
+		</card>
+		<card name="Marla Gilmore (Conflicted Engineer)" graphics="marlagilmoreconflictedengineer.jpg" text="•Astrometrics •Engineer •Physics •Programming •Transporters •Treachery While this personnel is facing a dilemma that requires Treachery, you may lose 5 points to exclude her and each [Voy] Treachery personnel present from being randomly selected by that dilemma.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Personel"/>
+			<attr key="affiliation" value="Federation"/>
+			<attr key="race" value="Human"/>
+			<attr key="cost" value="3"/>
+			<attr key="icons" value="[Stf] [Voy]"/>
+			<attr key="integrity" value="4"/>
+			<attr key="cunning" value="6"/>
+			<attr key="strength" value="5"/>
+		</card>
+		<card name="Maxwell Burke (Arrogant First Officer)" graphics="maxwellburkearrogantfirstofficer.jpg" text="•Anthropology •Leadership •Officer •2 Programming •Security •Treachery Commander: U.S.S. Equinox. Order - Discard two cards from hand to choose one: download a Nucleogenic card; or take a Nucleogenic card from your discard pile and place it on top of your deck.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Personel"/>
+			<attr key="affiliation" value="Federation"/>
+			<attr key="race" value="Human"/>
+			<attr key="cost" value="3"/>
+			<attr key="icons" value="[Cmd] [Voy]"/>
+			<attr key="integrity" value="3"/>
+			<attr key="cunning" value="6"/>
+			<attr key="strength" value="6"/>
+		</card>
+		<card name="Miles O'Brien (Vastly Outnumbered)" graphics="milesobrienvastlyoutnumbered.jpg" text="•Astrometrics •Engineer •Honor •Transporters While an opponent commands a Maneuver event, the ship this personnel is aboard is Shields +4.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Personel"/>
+			<attr key="affiliation" value="Federation"/>
+			<attr key="race" value="Human"/>
+			<attr key="cost" value="2"/>
+			<attr key="icons" value="[Stf] [DS9]"/>
+			<attr key="integrity" value="7"/>
+			<attr key="cunning" value="6"/>
+			<attr key="strength" value="6"/>
+		</card>
+		<card name="Montgomery Scott (Experienced Engineer)" graphics="montgomeryscottexperiencedengineer.jpg" text="•2 Engineer •Physics •2 Transporters You may play this personnel at cost -2 to ignore his next ability. When you play this personnel, if you command another [TOS] personnel who has a cost of 4 or more, you may remove an event in an opponent's core from the game.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Personel"/>
+			<attr key="affiliation" value="Federation"/>
+			<attr key="race" value="Human"/>
+			<attr key="cost" value="4"/>
+			<attr key="icons" value="[Cmd] [TOS] [Pa]"/>
+			<attr key="integrity" value="6"/>
+			<attr key="cunning" value="5"/>
+			<attr key="strength" value="5"/>
+		</card>
+		<card name="Noah Lessing (Driven Officer)" graphics="noahlessingdrivenofficer.jpg" text="•Biology •Geology •Programming •Science •Treachery While this personnel is facing a dilemma, you may lose 5 points to have him gain a skill required by that dilemma until the end of that dilemma. You may do this only once each turn.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Personel"/>
+			<attr key="affiliation" value="Federation"/>
+			<attr key="race" value="Human"/>
+			<attr key="cost" value="3"/>
+			<attr key="icons" value="[Stf] [Voy]"/>
+			<attr key="integrity" value="4"/>
+			<attr key="cunning" value="6"/>
+			<attr key="strength" value="6"/>
+		</card>
+		<card name="Rudolph Ransom (Devious Captain)" graphics="rudolphransomdeviouscaptain.jpg" text="•Diplomacy •Exobiology •Leadership •Officer •Science •Transporters •Treachery Commander: U.S.S. Equinox. While this personnel is attempting a mission, you may lose 5 points and choose two of your stopped [Voy] Treachery personnel present and stop this personnel to unstop those two personnel. Those personnel join this mission attempt.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Personel"/>
+			<attr key="affiliation" value="Federation"/>
+			<attr key="race" value="Human"/>
+			<attr key="cost" value="3"/>
+			<attr key="icons" value="[Cmd] [Voy]"/>
+			<attr key="integrity" value="3"/>
+			<attr key="cunning" value="6"/>
+			<attr key="strength" value="6"/>
+		</card>
+		<card name="Spock (Experienced Officer)" graphics="spockexperiencedofficer.jpg" text="•Anthropology •Archaeology •Engineer •Programming •Science You may play this personnel at cost -1 to ignore his next ability. You may play this personnel aboard your [TOS] ship that has a [TOS] personnel who has a cost of 4 or more aboard.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Personel"/>
+			<attr key="affiliation" value="Federation"/>
+			<attr key="race" value="Human/Vulcan"/>
+			<attr key="cost" value="4"/>
+			<attr key="icons" value="[Cmd] [TOS] [Pa]"/>
+			<attr key="integrity" value="6"/>
+			<attr key="cunning" value="8"/>
+			<attr key="strength" value="7"/>
+		</card>
+		<card name="Thompson" graphics="thompson.jpg" text="•Anthropology •Archaeology •Astrometrics •Medical •Physics •Science •Treachery When you play this personnel, you may lose 5 points to make his cost -3.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Personel"/>
+			<attr key="affiliation" value="Federation"/>
+			<attr key="race" value="Human"/>
+			<attr key="cost" value="3"/>
+			<attr key="icons" value="[Stf] [Voy]"/>
+			<attr key="integrity" value="4"/>
+			<attr key="cunning" value="6"/>
+			<attr key="strength" value="5"/>
+		</card>
+		<card name="Willard Decker (Recommended Replacement)" graphics="willarddeckerrecommendedreplacement.jpg" text="•Anthropology •Diplomacy •Leadership •Officer •Programming •Science •Security Commander: U.S.S. Enterprise. You may play this personnel at cost -1 to ignore his ability until the end of this turn. When you play this personnel, return your [TOS] personnel who has a cost of 4 or more to his or her owner's hand.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Personel"/>
+			<attr key="affiliation" value="Federation"/>
+			<attr key="race" value="Human"/>
+			<attr key="cost" value="4"/>
+			<attr key="icons" value="[Cmd] [TOS] [Pa]"/>
+			<attr key="integrity" value="6"/>
+			<attr key="cunning" value="6"/>
+			<attr key="strength" value="6"/>
+		</card>
+		<card name="Grish" graphics="grish.jpg" text="•Exobiology •Medical •Transporters •Treachery Thief. When your [Fer] personnel present is killed by a dilemma, this personnel and each [Pa] [Fer] personnel present cannot be killed by dilemmas until the end of this turn.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Personel"/>
+			<attr key="affiliation" value="Ferengi"/>
+			<attr key="race" value="Ferengi"/>
+			<attr key="cost" value="2"/>
+			<attr key="icons" value="[Stf] [Pa]"/>
+			<attr key="integrity" value="4"/>
+			<attr key="cunning" value="5"/>
+			<attr key="strength" value="5"/>
+		</card>
+		<card name="Krem (Unidentified Pirate)" graphics="kremunidentifiedpirate.jpg" text="•Archaeology •Astrometrics •Geology •Honor •Navigation •Science Commander: Quetsivoo.  Thief. When this personnel uses a skill to complete a mission, if he is present with two [Pa] [Fer] personnel, you may unstop all your stopped [Fer] personnel at this mission.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Personel"/>
+			<attr key="affiliation" value="Ferengi"/>
+			<attr key="race" value="Ferengi"/>
+			<attr key="cost" value="3"/>
+			<attr key="icons" value="[Stf] [Pa]"/>
+			<attr key="integrity" value="6"/>
+			<attr key="cunning" value="5"/>
+			<attr key="strength" value="5"/>
+		</card>
+		<card name="Muk (Unidentified Pirate)" graphics="mukunidentifiedpirate.jpg" text="•Acquisition •Archaeology •2 Physics •Security •Treachery Thief. When you play this personnel, if you command three [Pa] [Fer] personnel, you may download up to three equipment.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Personel"/>
+			<attr key="affiliation" value="Ferengi"/>
+			<attr key="race" value="Ferengi"/>
+			<attr key="cost" value="3"/>
+			<attr key="icons" value="[Stf] [Pa]"/>
+			<attr key="integrity" value="4"/>
+			<attr key="cunning" value="5"/>
+			<attr key="strength" value="5"/>
+		</card>
+		<card name="Quark (Vastly Outnumbered)" graphics="quarkvastlyoutnumbered.jpg" text="•Acquisition •Anthropology •Treachery When you play this personnel, you may download a card and place that card beneath your Ferenginar. When you play this personnel, if an opponent commands a Maneuver event, he is cost -2.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Personel"/>
+			<attr key="affiliation" value="Ferengi"/>
+			<attr key="race" value="Ferengi"/>
+			<attr key="cost" value="2"/>
+			<attr key="icons" value="[DS9]"/>
+			<attr key="integrity" value="4"/>
+			<attr key="cunning" value="6"/>
+			<attr key="strength" value="4"/>
+		</card>
+		<card name="Ulis (Unidentified Pirate)" graphics="ulisunidentifiedpirate.jpg" text="•Acquisition •Biology •Engineer •Programming •Treachery Commander: Quetsivoo.  Thief. When this personnel is facing a dilemma, you may stop him to take a [Pa] [Fer] personnel from your discard pile and place him or her present with this personnel. That personnel joins the mission attempt.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Personel"/>
+			<attr key="affiliation" value="Ferengi"/>
+			<attr key="race" value="Ferengi"/>
+			<attr key="cost" value="4"/>
+			<attr key="icons" value="[Cmd] [Pa]"/>
+			<attr key="integrity" value="4"/>
+			<attr key="cunning" value="5"/>
+			<attr key="strength" value="5"/>
+		</card>
+		<card name="Elder T'Pol (Displaced Survivor)" graphics="eldertpoldisplacedsurvivor.jpg" text="•Anthropology •Honor •2 Science When this personnel uses a skill to complete a mission, you may shuffle each non-Human [SF] personnel that you own that has been removed from the game into his or her owner's deck.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Personel"/>
+			<attr key="affiliation" value="Starfleet"/>
+			<attr key="race" value="Vulcan"/>
+			<attr key="cost" value="3"/>
+			<attr key="icons" value="[Stf] [Pa]"/>
+			<attr key="integrity" value="7"/>
+			<attr key="cunning" value="7"/>
+			<attr key="strength" value="3"/>
+		</card>
+		<card name="Greer" graphics="greer.jpg" text="•Anthropology •Astrometrics •Biology •Honor •Navigation •Officer When this personnel is about to be removed from the game, if he is present with three non-Human [SF] personnel, you may download an interrupt.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Personel"/>
+			<attr key="affiliation" value="Starfleet"/>
+			<attr key="race" value="Alien/Human"/>
+			<attr key="cost" value="3"/>
+			<attr key="icons" value="[Stf] [Pa]"/>
+			<attr key="integrity" value="6"/>
+			<attr key="cunning" value="5"/>
+			<attr key="strength" value="5"/>
+		</card>
+		<card name="Karyn Archer (Displaced Descendant)" graphics="karynarcherdisplaceddescendant.jpg" text="•Archaeology •Honor •Leadership •Programming •Science •Security When this personnel is removed from the game, each of your [SF] personnel are attributes +2 until the end of the turn.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Personel"/>
+			<attr key="affiliation" value="Starfleet"/>
+			<attr key="race" value="Alien/Human/Ikaaran"/>
+			<attr key="cost" value="3"/>
+			<attr key="icons" value="[Cmd] [Pa]"/>
+			<attr key="integrity" value="6"/>
+			<attr key="cunning" value="6"/>
+			<attr key="strength" value="5"/>
+		</card>
+		<card name="Lorian (Displaced Descendant)" graphics="loriandisplaceddescendant.jpg" text="•Engineer •Leadership •Officer •Science •Security •Transporters Commander: Future Enterprise.When this personnel is about to be removed from the game, you may unstop each stopped [SF] personnel present. (Those personnel may join the mission attempt.)">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Personel"/>
+			<attr key="affiliation" value="Starfleet"/>
+			<attr key="race" value="HumanVulcan"/>
+			<attr key="cost" value="4"/>
+			<attr key="icons" value="[Cmd] [Pa]"/>
+			<attr key="integrity" value="4"/>
+			<attr key="cunning" value="7"/>
+			<attr key="strength" value="6"/>
+		</card>
+		<card name="U.S.S. Enterprise (Where She Belongs)" graphics="ussenterprisewhereshebelongs.jpg" text="You may play this ship at cost -4 to ignore its next ability. When you play this ship, you may download a [TOS] personnel who has a cost of 4 or more and play him or her at cost -4 aboard this ship.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Ship"/>
+			<attr key="affiliation" value="Federation"/>
+			<attr key="class" value="Constitution Class"/>
+			<attr key="cost" value="7"/>
+			<attr key="staff" value="[Cmd] [Stf]"/>
+			<attr key="icons" value="[TOS] [Pa]"/>
+			<attr key="range" value="8"/>
+			<attr key="weapons" value="6"/>
+			<attr key="shields" value="6"/>
+		</card>
+		<card name="U.S.S. Equinox (Determined To Get Home)" graphics="ussequinoxdeterminedtogethome.jpg" text="While you do not command a headquarters mission, you may play this ship at Caretaker's Array. While this ship is at a [DQ] mission, you may play [Voy] Treachery personnel, [NA] personnel, and equipment aboard this ship. While you do not command U.S.S. Voyager, you may pay the cost of losing 5 points to use an ability on one of your [Voy] personnel by discarding a Nucleogenic card from hand.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Ship"/>
+			<attr key="affiliation" value="Federation"/>
+			<attr key="class" value="Nova Class"/>
+			<attr key="cost" value="4"/>
+			<attr key="staff" value="[Cmd] [Stf] [Stf]"/>
+			<attr key="icons" value="[Voy]"/>
+			<attr key="range" value="8"/>
+			<attr key="weapons" value="6"/>
+			<attr key="shields" value="7"/>
+		</card>
+		<card name="Quetsivoo (Unidentified Pirate Ship)" graphics="quetsivoounidentifiedpirateship.jpg" text="While you command three [Pa] [Fer] personnel aboard this ship, it is attributes +4 and each of your [Fer] personnel aboard this ship gains [Pa].">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Ship"/>
+			<attr key="affiliation" value="Ferengi"/>
+			<attr key="class" value="Guzah'far Class"/>
+			<attr key="cost" value="5"/>
+			<attr key="staff" value="[Stf] [Stf]"/>
+			<attr key="icons" value="[Pa]"/>
+			<attr key="range" value="4"/>
+			<attr key="weapons" value="4"/>
+			<attr key="shields" value="4"/>
+		</card>
+		<card name="Future Enterprise (Displaced Starship)" graphics="futureenterprisedisplacedstarship.jpg" text="When your non-Human [SF] personnel at this mission is about to be killed or stopped by a dilemma, you may remove that personnel from the game instead.">
+			<attr key="rarity" value="V"/>
+			<attr key="type" value="Ship"/>
+			<attr key="affiliation" value="Starfleet"/>
+			<attr key="class" value="NX Class"/>
+			<attr key="cost" value="5"/>
+			<attr key="staff" value="[Cmd]"/>
+			<attr key="icons" value="[Pa]"/>
+			<attr key="range" value="8"/>
+			<attr key="weapons" value="5"/>
+			<attr key="shields" value="5"/>
+		</card>
+	</cards>
+</ccg-setinfo>

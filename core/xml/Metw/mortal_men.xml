@@ -78,12 +78,6 @@
 			 <attr key="class" value="Permanent-event"/>
 			 <attr key="keyword" value="Stature card"/>
 		</card>
-		<card name="Gift from Sauron" graphics="Gift from Sauron.jpg" text="Playable if you are Sauron. Offering attempt. One influence attempt against a character may be modified if +4 to the influence attempt (or + double the mp the item gives on the character (may not be manifestation of The One Ring or an Elven Ring), which you reveal from your hand or have in your company. If the attempt is successful, you take control of the target character, placing this card with him and the item under his control. Discard target character if he no longer bears the item. If the influence attempt fails, target character must make a CC. If he fails, he is taken prisoner at a Dark-hold [D] (if possible) and the item is discarded. Rescue Attack: 1 automatic attack at the site must be faced again (hazard player’s choice).">
-			 <attr key="type" value="Minion Resource"/>
-			 <attr key="rarity" value="U"/>
-			 <attr key="class" value="Permanent-event"/>
-			 <attr key="keyword" value="Offering attempt"/>
-		</card>
 		<card name="Gwaith-i-Mirdain" graphics="GwaithiMirdain.jpg" text="Ost-in-Edhil is not tapped when a gold ring item is played at the site, if you have an Elf sage present at the site.">
 			 <attr key="type" value="Hero Resource"/>
 			 <attr key="rarity" value="U"/>
@@ -153,6 +147,12 @@
 			 <attr key="class" value="Permanent-event"/>
 			 <attr key="cp" value="5"/>
 			 <attr key="keyword" value="Stature card"/>
+		</card>
+		<card name="Lord of Gifts" graphics="Lord of Gifts.jpg" text="Playable if you are Sauron. Offering attempt. One influence attempt against a character may be modified if +4 to the influence attempt (or + double the mp the item gives on the character (may not be manifestation of The One Ring or an Elven Ring), which you reveal from your hand or have in your company. If the attempt is successful, you take control of the target character, placing this card with him and the item under his control. Discard target character if he no longer bears the item. If the influence attempt fails, target character must make a CC. If he fails, he is taken prisoner at a Dark-hold [D] (if possible) and the item is discarded. Rescue Attack: 1 automatic attack at the site must be faced again (hazard player’s choice).">
+			 <attr key="type" value="Minion Resource"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="keyword" value="Offering attempt"/>
 		</card>
 		     <card name="Lord of the World" graphics="Lord of the World.jpg" text="Playable if you a have either more factions, more characters, more allies, more items or more miscellaneous point cards in play than your opponent(s). This card comes into play tapped. Rotate it any time (by 90°) if you have more factions, or characters, or allies, or items or miscellaneous point cards than your opponent(s), but not for the category you choose for bringing the card into play, nor for one you choose before to rotate the card. Discard this card if your opponent(s) has ever more marshalling points in all categories. If the card is fully rotated you receive the card’s marshalling points. Cannot be duplicated.">
 		     <attr key="type" value="Minion Resource"/>

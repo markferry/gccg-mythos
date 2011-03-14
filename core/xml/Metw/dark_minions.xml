@@ -996,7 +996,7 @@
        <attr key="prowess" value="18"/>
        <attr key="strikes" value="2"/>
        <attr key="rarity" value="R2"/>
-       <attr key="subclass" value="Balrog"/>
+       <attr key="subclass" value="Balrog, Spawn"/>
        <attr key="class" value="Creature"/>
        <attr key="type" value="Hazard"/>
 	   <attr key="keyword" value="Spawn"/>

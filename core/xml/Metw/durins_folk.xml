@@ -1004,7 +1004,7 @@
 			 <attr key="body" value="8"/>
 			 <attr key="mp" value="2*"/>
 			 <attr key="strikes" value="1"/>
-			 <attr key="subclass" value="Hobbit"/>
+			 <attr key="subclass" value="Hobbits"/>
 		</card>
 		<card name="Mighty Was the Fallen" graphics="Mighty Was the Fallen.jpg" text="Playable on a company if a character from the company worth 2 mp or more was eliminated this turn and removed from the game (except by CC). This card may be stored at one of your Havens [H] for 1 mp. Discard this card if the company contains less than 2 characters. Cannot be duplicated for an eliminated character.">
 			 <attr key="type" value="Hero Resource"/>

@@ -1160,7 +1160,7 @@
        <attr key="type" value="Hero Character"/>
        <attr key="mind" value="2"/>
        <attr key="influence" value="0"/>
-	   <attr key="keyword" value="Longbeard"/>
+	   <attr key="keyword" value="Firebeard"/>
     </card>
     <card name="Bilbo" graphics="Bilbo.jpg" text="Unique. Unless he is one of the starting characters, he may only be brought into play at his home site. All of his corruption checks are modified by +4. -2 marshalling points if eliminated.">
        <attr key="unique" value="yes"/>
@@ -1187,7 +1187,7 @@
        <attr key="type" value="Hero Character"/>
        <attr key="mind" value="2"/>
        <attr key="influence" value="0"/>
-	   <attr key="keyword" value="Longbeard"/>
+	   <attr key="keyword" value="Firebeard"/>
     </card>
     <card name="Bombur" graphics="Bombur.jpg" text="Unique. +1 prowess against Orcs. -1 to all of his corruption checks. -1 to influence checks against factions.">
        <attr key="unique" value="yes"/>
@@ -1202,7 +1202,7 @@
        <attr key="type" value="Hero Character"/>
        <attr key="mind" value="1"/>
        <attr key="influence" value="0"/>
-	   <attr key="keyword" value="Longbeard"/>
+	   <attr key="keyword" value="Firebeard"/>
     </card>
     <card name="Boromir II" graphics="BoromirII.jpg" text="Unique. +2 direct influence against the Men of Anórien faction. -1 to all of his corruption checks.">
        <attr key="unique" value="yes"/>

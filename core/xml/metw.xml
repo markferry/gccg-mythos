@@ -31,7 +31,7 @@
   <cardset source="morgothslegacy.xml"/>
   <cardset source="bay_ormal.xml"/>
   <cardset source="centralplains.xml"/>
-  
+    
   <image file="b.png" tag="{b}"/>
   <image file="c.png" tag="{c}"/>
   <image file="d.png" tag="{d}"/>

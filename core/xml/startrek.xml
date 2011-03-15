@@ -36,34 +36,303 @@
   <cardset source="Peak Performance.xml"/>
   <cardset source="Extreme Measures.xml"/>
 
-  <image file="Bajoran.jpg" tag="{Baj}"/>
-  <image file="bajoran-small.jpg" tag="{baj}"/>
-  <image file="Borg.jpg" tag="{Bor}"/>
-  <image file="borg-small.jpg" tag="{bor}"/>
-  <image file="Cardassian.jpg" tag="{Car}"/>
-  <image file="cardassian-small.jpg" tag="{car}"/>
-  <image file="Dominion.jpg" tag="{Dom}"/>
-  <image file="dominion-small.jpg" tag="{dom}"/>
-  <image file="Federation.jpg" tag="{Fed}"/>
-  <image file="federation-small.jpg" tag="{fed}"/>
-  <image file="Ferengi.jpg" tag="{Fer}"/>
-  <image file="ferengi-small.jpg" tag="{fer}"/>
-  <image file="Klingon.jpg" tag="{Kli}"/>
-  <image file="klingon-small.jpg" tag="{kli}"/>
-  <image file="Non-Aligned.jpg" tag="{NA}"/>
-  <image file="nonaligned-small.jpg" tag="{na}"/>
-  <image file="Romulan.jpg" tag="{Rom}"/>
-  <image file="romulan-small.jpg" tag="{rom}"/>
-  <image file="Starfleet.jpg" tag="{SF}"/>
-  <image file="starfleet-small.jpg" tag="{sf}"/>
-  <image file="command.jpg" tag="{Cmd}"/>
-  <image file="deep space nine.jpg" tag="{DS9}"/>
-  <image file="earth.jpg" tag="{E}"/>
-  <image file="maquis.jpg" tag="{Maq}"/>
-  <image file="past.jpg" tag="{Pa}"/>
-  <image file="staff.jpg" tag="{Stf}"/>
-  <image file="terok nor.jpg" tag="{TN}"/>
-  <image file="the next generation.jpg" tag="{TNG}"/>
+  <image file="Dual.png" tag="{dual}"/>
+  <image file="Headquarters.png" tag="{HQ}"/>
+  <image file="Planet.png" tag="{planet}"/>
+  <image file="Space.png" tag="{space}"/>
+  <image file="Equipment.png" tag="{equipment}"/>
+  <image file="Event.png" tag="{event}"/>
+  <image file="Interrupt.png" tag="{interrupt}"/>
+  <image file="Alpha.png" tag="{alpha}"/>
+  <image file="Gamma.png" tag="{gamma}"/>
+  <image file="Delta.png" tag="{delta}"/>
+  <image file="skilldot.png" tag="{SD}"/>
+  <image file="Bajoran.png" tag="{Bajoran}"/>
+  <image file="Borg.png" tag="{Borg}"/>
+  <image file="Cardassian.png" tag="{Cardassian}"/>
+  <image file="Dominion.png" tag="{Dominion}"/>
+  <image file="Federation.png" tag="{Federation}"/>
+  <image file="Ferengi.png" tag="{Ferengi}"/>
+  <image file="Klingon.png" tag="{Klingon}"/>
+  <image file="Non-Aligned.png" tag="{Non-Aligned}"/>
+  <image file="Romulan.png" tag="{Romulan}"/>
+  <image file="Starfleet.png" tag="{Starfleet}"/>
+  <image file="command.png" tag="{Cmd}"/>
+  <image file="staff.png" tag="{Stf}"/>
+  <image file="deep space nine.png" tag="{DS9}"/>
+  <image file="earth.png" tag="{E}"/>
+  <image file="maquis.png" tag="{Maq}"/>
+  <image file="terok nor.png" tag="{NG}"/>
+  <image file="the next generation.png" tag="{TNG}"/>
+  <image file="the original series.png" tag="{TOS}"/>
+  <image file="voyager.png" tag="{Voy}"/>
+  <image file="past.png" tag="{Pa}"/>
+  <image file="future.png" tag="{Fut}"/>
+  <image file="alternate universe.png" tag="{AU}"/>
+  <image file="bajoran-small.png" tag="{baj}"/>
+  <image file="borg-small.png" tag="{bor}"/>
+  <image file="cardassian-small.png" tag="{car}"/>
+  <image file="dominion-small.png" tag="{dom}"/>
+  <image file="federation-small.png" tag="{fed}"/>
+  <image file="ferengi-small.png" tag="{fer}"/>
+  <image file="klingon-small.png" tag="{kli}"/>
+  <image file="nonaligned-small.png" tag="{na}"/>
+  <image file="romulan-small.png" tag="{rom}"/>
+  <image file="starfleet-small.png" tag="{sf}"/>
+  <image file="alpha-small.png" tag="{AQ}"/>
+  <image file="gamma-small.png" tag="{GQ}"/>
+  <image file="delta-small.png" tag="{DQ}"/>
+  <image file="dual-small.png" tag="{D}"/>
+  <image file="space-small.png" tag="{S}"/>
+  <image file="planet-small.png" tag="{P}"/>
+
+  <option name="draw hints" value="type"/>
+  <option name="draw hints 2" value="affiliation"/>
+
+  <option name="default border width" value="12"/>
+  <option name="default border color" value="0,0,0"/>
+
+  <option name="default back color" value="0,20,50"/>
+  <option name="Dilemma back color" value="1,79,118"/>
+  <option name="Equipment back color" value="128,88,59"/>
+  <option name="Event back color" value="48,148,140"/>
+  <option name="Interrupt back color" value="216,98,105"/>
+  <option name="Mission back color" value="76,75,80"/>
+  <option name="{Bajoran} back color" value="137,103,136"/>
+  <option name="{Borg} back color" value="127,136,152"/>
+  <option name="{Cardassian} back color" value="41,63,86"/>
+  <option name="{Dominion} back color" value="105,79,92"/>
+  <option name="{Federation} back color" value="20,153,195"/>
+  <option name="{Ferengi} back color" value="202,139,70"/>
+  <option name="{Klingon} back color" value="163,49,45"/>
+  <option name="{Non-Aligned} back color" value="217,195,70"/>
+  <option name="{Romulan} back color" value="56,133,104"/>
+  <option name="{Starfleet} back color" value="3,97,149"/>
+
+  <option name="default text box font" value="2"/>
+  <option name="default text box font size" value="20"/>
+  <option name="default text box font color" value="0,0,0"/>
+
+  <option name="default title" value="95,24,127,16"/>
+  <option name="default title font color" value="0,0,0"/>
+  <option name="default title font" value="2"/>
+  <option name="default title font size" value="20"/>
+  <option name="default title shadow" value="0"/>
+
+  <option name="Dilemma text box" value="49,321,273,120"/>
+  <option name="Dilemma text box color" value="180,180,180"/>
+  <option name="Equipment text box" value="49,321,273,120"/>
+  <option name="Equipment text box color" value="180,180,180"/>
+  <option name="Event text box" value="49,321,273,120"/>
+  <option name="Event text box color" value="180,180,180"/>
+  <option name="Interrupt text box" value="49,321,273,120"/>
+  <option name="Interrupt text box color" value="180,180,180"/>
+  <option name="Mission text box" value="45,295,283,109"/>
+  <option name="Mission text box color" value="205,205,205"/>
+  <option name="{Bajoran} text box" value="54,305,273,122"/>
+  <option name="{Bajoran} text box color" value="195,177,160"/>
+  <option name="{Borg} text box" value="54,305,273,122"/>
+  <option name="{Borg} text box color" value="187,182,191"/>
+  <option name="{Cardassian} text box" value="54,305,273,122"/>
+  <option name="{Cardassian} text box color" value="195,177,160"/>
+  <option name="{Dominion} text box" value="54,305,273,122"/>
+  <option name="{Dominion} text box color" value="196,190,186"/>
+  <option name="{Federation} text box" value="54,305,273,122"/>
+  <option name="{Federation} text box color" value="183,194,206"/>
+  <option name="{Ferengi} text box" value="54,305,273,122"/>
+  <option name="{Ferengi} text box color" value="234,193,141"/>
+  <option name="{Klingon} text box" value="54,305,273,122"/>
+  <option name="{Klingon} text box color" value="203,171,147"/>
+  <option name="{Non-Aligned} text box" value="54,305,273,122"/>
+  <option name="{Non-Aligned} text box color" value="207,202,191"/>
+  <option name="{Romulan} text box" value="54,305,273,122"/>
+  <option name="{Romulan} text box color" value="166,188,196"/>
+  <option name="{Starfleet} text box" value="54,305,273,122"/>
+  <option name="{Starfleet} text box color" value="225,211,198"/>
+
+  <option name="Dilemma box 1" value="54,262,261,26"/>
+  <option name="Dilemma box 1 color" value="110,115,129"/>
+  <option name="Dilemma text 1" value="54,262,261,26"/>
+  <option name="Dilemma text 1 font size" value="20"/>
+  <option name="Dilemma text 1 font" value="2"/>
+  <option name="Dilemma text 1 align" value="1"/>
+  <option name="Dilemma text 1 content" value="[type]"/>
+  <option name="Dilemma box 2" value="70,20,20,20"/>
+  <option name="Dilemma box 2 color" value="110,115,129"/>
+  <option name="Dilemma text 2" value="70,20,20,20"/>
+  <option name="Dilemma text 2 font size" value="15"/>
+  <option name="Dilemma text 2 align" value="1"/>
+  <option name="Dilemma text 2 content" value="[cost]"/>
+  <option name="Dilemma text 3" value="20,20,40,40"/>
+  <option name="Dilemma text 3 align" value="1"/>
+  <option name="Dilemma text 3 content" value="[zone]"/>
+
+  <option name="Equipment box 1" value="54,262,261,26"/>
+  <option name="Equipment box 1 color" value="110,115,129"/>
+  <option name="Equipment text 1" value="54,262,261,26"/>
+  <option name="Equipment text 1 font size" value="20"/>
+  <option name="Equipment text 1 font" value="2"/>
+  <option name="Equipment text 1 align" value="1"/>
+  <option name="Equipment text 1 content" value="[type]"/>
+  <option name="Equipment box 2" value="70,20,20,20"/>
+  <option name="Equipment box 2 color" value="110,115,129"/>
+  <option name="Equipment text 2" value="70,20,20,20"/>
+  <option name="Equipment text 2 font size" value="15"/>
+  <option name="Equipment text 2 align" value="1"/>
+  <option name="Equipment text 2 content" value="[cost]"/>
+  <option name="Equipment text 3" value="20,20,40,40"/>
+  <option name="Equipment text 3 align" value="1"/>
+  <option name="Equipment text 3 content" value="{equipment}"/>
+
+  <option name="Event box 1" value="54,262,261,26"/>
+  <option name="Event box 1 color" value="110,115,129"/>
+  <option name="Event text 1" value="54,262,261,26"/>
+  <option name="Event text 1 font size" value="20"/>
+  <option name="Event text 1 font" value="2"/>
+  <option name="Event text 1 align" value="1"/>
+  <option name="Event text 1 content" value="[type]"/>
+  <option name="Event box 2" value="70,20,20,20"/>
+  <option name="Event box 2 color" value="110,115,129"/>
+  <option name="Event text 2" value="70,20,20,20"/>
+  <option name="Event text 2 font size" value="15"/>
+  <option name="Event text 2 align" value="1"/>
+  <option name="Event text 2 content" value="[cost]"/>
+  <option name="Event text 3" value="20,20,40,40"/>
+  <option name="Event text 3 align" value="1"/>
+  <option name="Event text 3 content" value="{event}"/>
+
+  <option name="Interrupt box 1" value="54,262,261,26"/>
+  <option name="Interrupt box 1 color" value="110,115,129"/>
+  <option name="Interrupt text 1" value="54,262,261,26"/>
+  <option name="Interrupt text 1 font size" value="20"/>
+  <option name="Interrupt text 1 font" value="2"/>
+  <option name="Interrupt text 1 align" value="1"/>
+  <option name="Interrupt text 1 content" value="[type]"/>
+  <option name="Interrupt text 3" value="20,20,40,40"/>
+  <option name="Interrupt text 3 align" value="1"/>
+  <option name="Interrupt text 3 content" value="{interrupt}"/>
+
+  <option name="Mission text 3" value="20,20,40,40"/>
+  <option name="Mission text 3 align" value="1"/>
+  <option name="Mission text 3 content" value="[zone]"/>
+  <option name="Mission text 4" value="30,400,300,55"/>
+  <option name="Mission text 4 align" value="1"/>
+  <option name="Mission text 4 font color" value="255,255,255"/>
+  <option name="Mission text 4 font size" value="20"/>
+  <option name="Mission text 4 content" value="[attemptable]"/>
+  <option name="Mission text 5" value="20,250,40,40"/>
+  <option name="Mission text 5 align" value="1"/>
+  <option name="Mission text 5 content" value="[quadrant]"/>
+  <option name="Mission box 6" value="300,250,40,40"/>
+  <option name="Mission box 6 color" value="0,0,0"/>
+  <option name="Mission text 6" value="300,250,40,40"/>
+  <option name="Mission text 6 align" value="1"/>
+  <option name="Mission text 6 font color" value="255,255,255"/>
+  <option name="Mission text 6 font size" value="25"/>
+  <option name="Mission text 6 content" value="[points]"/>
+  <option name="Mission box 7" value="160,450,30,30"/>
+  <option name="Mission box 7 color" value="0,0,0"/>
+  <option name="Mission text 7" value="160,450,30,30"/>
+  <option name="Mission text 7 align" value="1"/>
+  <option name="Mission text 7 font color" value="255,255,255"/>
+  <option name="Mission text 7 font size" value="20"/>
+  <option name="Mission text 7 content" value="[span]"/>
+
+  <option name="Personel box 1" value="54,262,261,26"/>
+  <option name="Personel box 1 color" value="110,115,129"/>
+  <option name="Personel text 1" value="54,262,261,26"/>
+  <option name="Personel text 1 font size" value="20"/>
+  <option name="Personel text 1 font" value="2"/>
+  <option name="Personel text 1 align" value="1"/>
+  <option name="Personel text 1 content" value="[race]"/>
+  <option name="Personel box 2" value="70,20,20,20"/>
+  <option name="Personel box 2 color" value="110,115,129"/>
+  <option name="Personel text 2" value="70,20,20,20"/>
+  <option name="Personel text 2 font size" value="15"/>
+  <option name="Personel text 2 align" value="1"/>
+  <option name="Personel text 2 content" value="[cost]"/>
+  <option name="Personel text 3" value="20,20,40,40"/>
+  <option name="Personel text 3 align" value="1"/>
+  <option name="Personel text 3 content" value="[affiliation]"/>
+  <option name="Personel text 4" value="29,305,20,122"/>
+  <option name="Personel text 4 content" value="[icons]"/>
+  <option name="Personel box 5" value="55,447,88,23"/>
+  <option name="Personel box 5 color" value="110,115,129"/>
+  <option name="Personel text 5" value="55,447,88,23"/>
+  <option name="Personel text 5 font size" value="20"/>
+  <option name="Personel text 5 align" value="1"/>
+  <option name="Personel text 5 content" value="Integrity [integrity]"/>
+  <option name="Personel box 6" value="146,447,88,23"/>
+  <option name="Personel box 6 color" value="110,115,129"/>
+  <option name="Personel text 6" value="146,447,88,23"/>
+  <option name="Personel text 6 font size" value="20"/>
+  <option name="Personel text 6 align" value="1"/>
+  <option name="Personel text 6 content" value="Cunning [cunning]"/>
+  <option name="Personel box 7" value="237,447,88,23"/>
+  <option name="Personel box 7 color" value="110,115,129"/>
+  <option name="Personel text 7" value="237,447,88,23"/>
+  <option name="Personel text 7 font size" value="20"/>
+  <option name="Personel text 7 align" value="1"/>
+  <option name="Personel text 7 content" value="Strength [strength]"/>
+
+  <option name="Ship box 1" value="54,262,261,26"/>
+  <option name="Ship box 1 color" value="110,115,129"/>
+  <option name="Ship text 1" value="54,262,261,26"/>
+  <option name="Ship text 1 font size" value="20"/>
+  <option name="Ship text 1 font" value="2"/>
+  <option name="Ship text 1 align" value="1"/>
+  <option name="Ship text 1 content" value="[class]"/>
+  <option name="Ship box 2" value="70,20,20,20"/>
+  <option name="Ship box 2 color" value="110,115,129"/>
+  <option name="Ship text 2" value="70,20,20,20"/>
+  <option name="Ship text 2 font size" value="15"/>
+  <option name="Ship text 2 align" value="1"/>
+  <option name="Ship text 2 content" value="[cost]"/>
+  <option name="Ship text 3" value="20,20,40,40"/>
+  <option name="Ship text 3 align" value="1"/>
+  <option name="Ship text 3 content" value="[affiliation]"/>
+  <option name="Ship text 4" value="29,305,20,122"/>
+  <option name="Ship text 4 content" value="[icons]"/>
+  <option name="Ship box 5" value="55,447,88,23"/>
+  <option name="Ship box 5 color" value="110,115,129"/>
+  <option name="Ship text 5" value="55,447,88,23"/>
+  <option name="Ship text 5 font size" value="20"/>
+  <option name="Ship text 5 align" value="1"/>
+  <option name="Ship text 5 content" value="Range [range]"/>
+  <option name="Ship box 6" value="146,447,88,23"/>
+  <option name="Ship box 6 color" value="110,115,129"/>
+  <option name="Ship text 6" value="146,447,88,23"/>
+  <option name="Ship text 6 font size" value="20"/>
+  <option name="Ship text 6 align" value="1"/>
+  <option name="Ship text 6 content" value="Weapons [weapons]"/>
+  <option name="Ship box 7" value="237,447,88,23"/>
+  <option name="Ship box 7 color" value="110,115,129"/>
+  <option name="Ship text 7" value="237,447,88,23"/>
+  <option name="Ship text 7 font size" value="20"/>
+  <option name="Ship text 7 align" value="1"/>
+  <option name="Ship text 7 content" value="Shields [shields]"/>
+  <option name="Ship text 8" value="29,85,20,122"/>
+  <option name="Ship text 8 content" value="[staff]"/>
+
+  <option name="Dilemma image" value="35,70,305,200"/>
+  <option name="Dilemma image border color" value="44,55,59"/>
+  <option name="Equipment image" value="35,70,305,200"/>
+  <option name="Equipment image border color" value="44,55,59"/>
+  <option name="Event image" value="35,70,305,200"/>
+  <option name="Event image border color" value="44,55,59"/>
+  <option name="Interrupt image" value="35,70,305,200"/>
+  <option name="Interrupt image border color" value="44,55,59"/>
+  <option name="Mission image" value="35,70,305,200"/>
+  <option name="Mission image border color" value="44,55,59"/>
+  <option name="Personel image" value="35,70,305,200"/>
+  <option name="Personel image border color" value="44,55,59"/>
+  <option name="Ship image" value="35,70,305,200"/>
+  <option name="Ship image border color" value="44,55,59"/>
+  <option name="default image color" value="106,95,112"/>
+  <option name="default image border" value="2"/>
+  <option name="default image font size" value="100"/>
+
+
 
   <option name="deck order" value="type"/>
 </ccg>

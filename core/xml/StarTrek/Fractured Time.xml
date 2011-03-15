@@ -6,26 +6,26 @@
 			<attr key="rarity" value="P"/>
 			<attr key="type" value="Dilemma"/>
 			<attr key="cost" value="2"/>
-			<attr key="zone" value="planet"/>
+			<attr key="zone" value="{planet}"/>
 		</card>
 		<card name="The Clown: Bitter Medicine" graphics="theclownbittermedicine.jpg" back="1" text="Place this dilemma on this mission. Your opponent names a skill. Each of your personnel who has that skill is attributes-2. At the end of this turn, this dilemma returns to its owner's dilemma pile.">
 			<attr key="rarity" value="P"/>
 			<attr key="type" value="Dilemma"/>
 			<attr key="cost" value="4"/>
-			<attr key="zone" value="dual"/>
+			<attr key="zone" value="{dual}"/>
 		</card>
 		<card name="Tragic Turn" graphics="tragicturn.jpg" back="1" text="Consume: 2. (Your opponent places the top card of his or her dilemma pile face up beneath this mission.) Place this dilemma on this mission (limit one per mission). When a personnel at this mission is stopped by another dilemma, randomly select a personnel to be stopped. When a personnel at this mission is kileld by another dilemma, randomly select a personnel to be killed.">
 			<attr key="rarity" value="P"/>
 			<attr key="type" value="Dilemma"/>
 			<attr key="cost" value="3"/>
-			<attr key="zone" value="dual"/>
+			<attr key="zone" value="{dual}"/>
 		</card>
-		<card name="Cardassian Protectorate" graphics="cardassianprotectorate.jpg" text="Decay: 3. (When there are three cards on this event, destroy it.) To play this event, you must command three [Car] personnel. Plays in your core. When you spend 1 counter to draw a card, instead examine the top three cards of your deck, place one of them on this event, and take the other two into hand.">
+		<card name="Cardassian Protectorate" graphics="cardassianprotectorate.jpg" text="Decay: 3. (When there are three cards on this event, destroy it.) To play this event, you must command three {car} personnel. Plays in your core. When you spend 1 counter to draw a card, instead examine the top three cards of your deck, place one of them on this event, and take the other two into hand.">
 			<attr key="rarity" value="P"/>
 			<attr key="type" value="Event"/>
 			<attr key="cost" value="2"/>
 		</card>
-		<card name="Expand the Collective" graphics="expandthecollective.jpg" text="To play this event, you must command three [Bor] personnel. Plays on your [AQ] mission worth 35 or fewer points. You may attempt and complete it using your [Bor] personnel with these requirements: [P] - Anthropology, Biology, Security, Transporters, and Strength&gt;32; [S] - Astrometrics, Engineer, Physics, Science, and Cunning&gt;36. When you complete it, destroy this event to score 5 points.">
+		<card name="Expand the Collective" graphics="expandthecollective.jpg" text="To play this event, you must command three {bor} personnel. Plays on your {AQ} mission worth 35 or fewer points. You may attempt and complete it using your {bor} personnel with these requirements: {P} - Anthropology, Biology, Security, Transporters, and Strength&gt;32; {S} - Astrometrics, Engineer, Physics, Science, and Cunning&gt;36. When you complete it, destroy this event to score 5 points.">
 			<attr key="rarity" value="P"/>
 			<attr key="type" value="Event"/>
 			<attr key="cost" value="2"/>
@@ -35,22 +35,22 @@
 			<attr key="type" value="Event"/>
 			<attr key="cost" value="4"/>
 		</card>
-		<card name="Medical Teams" graphics="medicalteams.jpg" text="Decay: 3. (When there are three cards on this event, destroy it.) Plays in your core. When your [DS9] personnel is about to be killed by a dilemma, you may place him or her on this event instead. When this event is destroyed, you may place each personnel here at your headquarters mission.">
+		<card name="Medical Teams" graphics="medicalteams.jpg" text="Decay: 3. (When there are three cards on this event, destroy it.) Plays in your core. When your {DS9} personnel is about to be killed by a dilemma, you may place him or her on this event instead. When this event is destroyed, you may place each personnel here at your headquarters mission.">
 			<attr key="rarity" value="P"/>
 			<attr key="type" value="Event"/>
 			<attr key="cost" value="1"/>
 		</card>
-		<card name="Noble Cause" graphics="noblecause.jpg" text="Decay: 2. (When there are two cards on this event, destroy it.) To play this event, you must command three [Kli] personnel. Plays in your core. When you destroy an Assault or Maneuver event you own, you may place it on this event. When this event is destroyed, you may take each card here into your hand.">
+		<card name="Noble Cause" graphics="noblecause.jpg" text="Decay: 2. (When there are two cards on this event, destroy it.) To play this event, you must command three {kli} personnel. Plays in your core. When you destroy an Assault or Maneuver event you own, you may place it on this event. When this event is destroyed, you may take each card here into your hand.">
 			<attr key="rarity" value="P"/>
 			<attr key="type" value="Event"/>
 			<attr key="cost" value="0"/>
 		</card>
-		<card name="Out of Options" graphics="outofoptions.jpg" text="Decay: 3. (When there are three cards on this event, destroy it.) To play this event, you must command three [Rom] personnel. Plays in your core. When an opponent begins a mission attempt, examine his or her hand and choose a card to place on this event. When this event is destroyed, return each card here to its owner's hand.">
+		<card name="Out of Options" graphics="outofoptions.jpg" text="Decay: 3. (When there are three cards on this event, destroy it.) To play this event, you must command three {rom} personnel. Plays in your core. When an opponent begins a mission attempt, examine his or her hand and choose a card to place on this event. When this event is destroyed, return each card here to its owner's hand.">
 			<attr key="rarity" value="P"/>
 			<attr key="type" value="Event"/>
 			<attr key="cost" value="1"/>
 		</card>
-		<card name="Quantum Incursions" graphics="quantumincursions.jpg" text="Plays in your core. At the start of each of your turns, if you command an [AU] personnel, you may choose any number of cards in your hand and set them aside face down. Draw an equal number of cards, then put the cards you set aside on top of your deck in any order.">
+		<card name="Quantum Incursions" graphics="quantumincursions.jpg" text="Plays in your core. At the start of each of your turns, if you command an {AU} personnel, you may choose any number of cards in your hand and set them aside face down. Draw an equal number of cards, then put the cards you set aside on top of your deck in any order.">
 			<attr key="rarity" value="P"/>
 			<attr key="type" value="Event"/>
 			<attr key="cost" value="2"/>
@@ -60,7 +60,7 @@
 			<attr key="type" value="Event"/>
 			<attr key="cost" value="4"/>
 		</card>
-		<card name="Security Drills" graphics="securitydrills.jpg" text="Decay: 5. (When there are five cards on this event, destroy it.) Plays in your core. While your personnel is facing a dilemma, you may place a [Fed] card from hand on this event to make that personnel gain a skill he or she already has until the end of that dilemma.">
+		<card name="Security Drills" graphics="securitydrills.jpg" text="Decay: 5. (When there are five cards on this event, destroy it.) Plays in your core. While your personnel is facing a dilemma, you may place a {fed} card from hand on this event to make that personnel gain a skill he or she already has until the end of that dilemma.">
 			<attr key="rarity" value="P"/>
 			<attr key="type" value="Event"/>
 			<attr key="cost" value="0"/>
@@ -70,36 +70,36 @@
 			<attr key="type" value="Event"/>
 			<attr key="cost" value="3"/>
 		</card>
-		<card name="Tampering With Time" graphics="tamperingwithtime.jpg" text="Temporal. Plays in your core. At the start of each of your turns, you may choose one: stop one of your [Fut] personnel to examine the top three cards of an opponent’s dilemma pile; or stop one of your [Pa] personnel to examine the bottom three cards of an opponent’s dilemma pile. Place those cards on the top and/or bottom of that dilemma pile in any order.">
+		<card name="Tampering With Time" graphics="tamperingwithtime.jpg" text="Temporal. Plays in your core. At the start of each of your turns, you may choose one: stop one of your {Fut} personnel to examine the top three cards of an opponent’s dilemma pile; or stop one of your {Pa} personnel to examine the bottom three cards of an opponent’s dilemma pile. Place those cards on the top and/or bottom of that dilemma pile in any order.">
 			<attr key="rarity" value="P"/>
 			<attr key="type" value="Event"/>
 			<attr key="cost" value="3"/>
 		</card>
-		<card name="Temporal Test Subject" graphics="temporaltestsubject.jpg" text="Temporal. Discard an [AU], [Fut], or [Pa] personnel from hand to take an [AU], [Fut], or [Pa] personnel from your discard pile into hand. Destroy this event.">
+		<card name="Temporal Test Subject" graphics="temporaltestsubject.jpg" text="Temporal. Discard an {AU}, {Fut}, or {Pa} personnel from hand to take an {AU}, {Fut}, or {Pa} personnel from your discard pile into hand. Destroy this event.">
 			<attr key="rarity" value="P"/>
 			<attr key="type" value="Event"/>
 			<attr key="cost" value="0"/>
 		</card>
-		<card name="The Edge of Forever" graphics="theedgeofforever.jpg" text="Temporal. Plays in your core. Order - Lose 5 points to choose one: download a [Fut] card and place it at your headquarters mission where it could be played; or take a [Pa] card from your discard pile and place it at your headquarters mission where it could be played. Destroy this event.">
+		<card name="The Edge of Forever" graphics="theedgeofforever.jpg" text="Temporal. Plays in your core. Order - Lose 5 points to choose one: download a {Fut} card and place it at your headquarters mission where it could be played; or take a {Pa} card from your discard pile and place it at your headquarters mission where it could be played. Destroy this event.">
 			<attr key="rarity" value="P"/>
 			<attr key="type" value="Event"/>
 			<attr key="cost" value="0"/>
 		</card>
-		<card name="The Play's the Thing" graphics="theplaysthething.jpg" text="Decay: 3. (When there are three cards on this event, destroy it.) Plays in your core. When you play this event, chose [AU], [Fut], or [Pa]. Each personnel you own who costs 3 or more gains that icon. At the start of each of your turns, place a card from hand on this event.">
+		<card name="The Play's the Thing" graphics="theplaysthething.jpg" text="Decay: 3. (When there are three cards on this event, destroy it.) Plays in your core. When you play this event, chose {AU}, {Fut}, or {Pa}. Each personnel you own who costs 3 or more gains that icon. At the start of each of your turns, place a card from hand on this event.">
 			<attr key="rarity" value="P"/>
 			<attr key="type" value="Event"/>
 			<attr key="cost" value="0"/>
 		</card>
-		<card name="Unyielding" graphics="unyielding.jpg" text="Decay: 3. (When there are three cards on this event, destroy it.) Plays in your core. When your [Bor] personnel is about to be stopped by a dilemma, you may place a [Bor] personnel from hand on this event to prevent that.">
+		<card name="Unyielding" graphics="unyielding.jpg" text="Decay: 3. (When there are three cards on this event, destroy it.) Plays in your core. When your {bor} personnel is about to be stopped by a dilemma, you may place a {bor} personnel from hand on this event to prevent that.">
 			<attr key="rarity" value="P"/>
 			<attr key="type" value="Event"/>
 			<attr key="cost" value="2"/>
 		</card>
-		<card name="Explicit Orders" graphics="explicitorders.jpg" text="When your [Dom] personnel is attempting a mission, discard a [Dom] personnel of a different species from hand to make him or her gain the discarded personnel’s skills until the end of that mission attempt.">
+		<card name="Explicit Orders" graphics="explicitorders.jpg" text="When your {dom} personnel is attempting a mission, discard a {dom} personnel of a different species from hand to make him or her gain the discarded personnel’s skills until the end of that mission attempt.">
 			<attr key="rarity" value="P"/>
 			<attr key="type" value="Interrupt"/>
 		</card>
-		<card name="Fitting In" graphics="fittingin.jpg" text="When your personnel is facing a dilemma, choose one for him or her to gain until the end of that dilemma: an attribute from a [Fut] personnel present; or a skill from a [Pa] personnel present.">
+		<card name="Fitting In" graphics="fittingin.jpg" text="When your personnel is facing a dilemma, choose one for him or her to gain until the end of that dilemma: an attribute from a {Fut} personnel present; or a skill from a {Pa} personnel present.">
 			<attr key="rarity" value="P"/>
 			<attr key="type" value="Interrupt"/>
 		</card>
@@ -107,183 +107,183 @@
 			<attr key="rarity" value="P"/>
 			<attr key="type" value="Mission"/>
 			<attr key="attemptable" value="Any affiliation"/>
-			<attr key="zone" value="space"/>
-			<attr key="quadrant" value="alpha"/>
+			<attr key="zone" value="{space}"/>
+			<attr key="quadrant" value="{alpha}"/>
 			<attr key="points" value="35"/>
 			<attr key="span" value="3"/>
 		</card>
-		<card name="Kira Nerys (The Intendant)" graphics="kiranerystheintendant.jpg" text="•Exobiology •Intelligence •Leadership •Transporters •2 Treachery Order - Remove a card in your discard pile from the game to download a copy of that card. You may do this only once each turn.">
+		<card name="Kira Nerys (The Intendant)" graphics="kiranerystheintendant.jpg" text="{SD}Exobiology {SD}Intelligence {SD}Leadership {SD}Transporters {SD}2 Treachery Order - Remove a card in your discard pile from the game to download a copy of that card. You may do this only once each turn.">
 			<attr key="rarity" value="P"/>
 			<attr key="type" value="Personel"/>
-			<attr key="affiliation" value="Bajoran"/>
+			<attr key="affiliation" value="{Bajoran}"/>
 			<attr key="race" value="Bajoran"/>
 			<attr key="cost" value="3"/>
-			<attr key="icons" value="[Cmd] [AU]"/>
+			<attr key="icons" value="{Cmd} {AU}"/>
 			<attr key="integrity" value="2"/>
 			<attr key="cunning" value="6"/>
 			<attr key="strength" value="5"/>
 		</card>
-		<card name="Kira Taban (Husband and Father)" graphics="kiratabanhusbandandfather.jpg" text="•Biology •Honor •Medical •Physics Bajoran Resistance. When you play this personnel, if you have a lower score than each of your opponents, score 5 points.">
+		<card name="Kira Taban (Husband and Father)" graphics="kiratabanhusbandandfather.jpg" text="{SD}Biology {SD}Honor {SD}Medical {SD}Physics Bajoran Resistance. When you play this personnel, if you have a lower score than each of your opponents, score 5 points.">
 			<attr key="rarity" value="P"/>
 			<attr key="type" value="Personel"/>
-			<attr key="affiliation" value="Bajoran"/>
+			<attr key="affiliation" value="{Bajoran}"/>
 			<attr key="race" value="Bajoran"/>
 			<attr key="cost" value="2"/>
-			<attr key="icons" value="[Stf] [Pa]"/>
+			<attr key="icons" value="{Stf} {Pa}"/>
 			<attr key="integrity" value="6"/>
 			<attr key="cunning" value="5"/>
 			<attr key="strength" value="5"/>
 		</card>
-		<card name="Dukat (Prefect of Bajor)" graphics="dukatprefectofbajor.jpg" text="•Diplomacy •Exobiology •Leadership •Officer •2 Treachery Gul. When this personnel or a [Car] personnel present is about to be stopped by a dilemma, you may discard a non-[Car] personnel from hand to prevent that. You may do this only once each turn.">
+		<card name="Dukat (Prefect of Bajor)" graphics="dukatprefectofbajor.jpg" text="{SD}Diplomacy {SD}Exobiology {SD}Leadership {SD}Officer {SD}2 Treachery Gul. When this personnel or a {car} personnel present is about to be stopped by a dilemma, you may discard a non-{car} personnel from hand to prevent that. You may do this only once each turn.">
 			<attr key="rarity" value="P"/>
 			<attr key="type" value="Personel"/>
-			<attr key="affiliation" value="Cardassian"/>
+			<attr key="affiliation" value="{Cardassian}"/>
 			<attr key="race" value="Cardassian"/>
 			<attr key="cost" value="3"/>
-			<attr key="icons" value="[Cmd] [Pa]"/>
+			<attr key="icons" value="{Cmd} {Pa}"/>
 			<attr key="integrity" value="2"/>
 			<attr key="cunning" value="6"/>
 			<attr key="strength" value="6"/>
 		</card>
-		<card name="Elim Garak (First Officer of Terok Nor)" graphics="elimgarakfirstofficerofteroknor.jpg" text="•Biology •Officer •Programming •Security •2 Treachery When a personnel at this mission is about to be stopped by a dilemma, you may kill your captive to prevent that.">
+		<card name="Elim Garak (First Officer of Terok Nor)" graphics="elimgarakfirstofficerofteroknor.jpg" text="{SD}Biology {SD}Officer {SD}Programming {SD}Security {SD}2 Treachery When a personnel at this mission is about to be stopped by a dilemma, you may kill your captive to prevent that.">
 			<attr key="rarity" value="P"/>
 			<attr key="type" value="Personel"/>
-			<attr key="affiliation" value="Cardassian"/>
+			<attr key="affiliation" value="{Cardassian}"/>
 			<attr key="race" value="Cardassian"/>
 			<attr key="cost" value="2"/>
-			<attr key="icons" value="[Stf] [AU]"/>
+			<attr key="icons" value="{Stf} {AU}"/>
 			<attr key="integrity" value="2"/>
 			<attr key="cunning" value="6"/>
 			<attr key="strength" value="6"/>
 		</card>
-		<card name="Borath (Subconscious Projection)" graphics="borathsubconsciousprojection.jpg" text="•Diplomacy •Leadership •Medical •Programming •Treachery Founder. Order - Stop your Jem'Hadar present to reveal the top card of your deck and an opponent's deck. If they are the same card type, draw yours and discard the opponent's">
+		<card name="Borath (Subconscious Projection)" graphics="borathsubconsciousprojection.jpg" text="{SD}Diplomacy {SD}Leadership {SD}Medical {SD}Programming {SD}Treachery Founder. Order - Stop your Jem'Hadar present to reveal the top card of your deck and an opponent's deck. If they are the same card type, draw yours and discard the opponent's">
 			<attr key="rarity" value="P"/>
 			<attr key="type" value="Personel"/>
-			<attr key="affiliation" value="Dominion"/>
+			<attr key="affiliation" value="{Dominion}"/>
 			<attr key="race" value="Vorta"/>
 			<attr key="cost" value="4"/>
-			<attr key="icons" value="[Cmd] [AU]"/>
+			<attr key="icons" value="{Cmd} {AU}"/>
 			<attr key="integrity" value="4"/>
 			<attr key="cunning" value="6"/>
 			<attr key="strength" value="5"/>
 		</card>
-		<card name="Founder Agitator (Elusive Assassin)" graphics="founderagitatorelusiveassassin.jpg" text="•Physics •Science •Security •2 Treachery Assassin. Founder. Infiltrator. Shape-shifter. Order - Return this personnel to his owner's hand to return one opponent's non-unique personnel present to his or her owner's hand for each headquarters mission that opponent commands.">
+		<card name="Founder Agitator (Elusive Assassin)" graphics="founderagitatorelusiveassassin.jpg" text="{SD}Physics {SD}Science {SD}Security {SD}2 Treachery Assassin. Founder. Infiltrator. Shape-shifter. Order - Return this personnel to his owner's hand to return one opponent's non-unique personnel present to his or her owner's hand for each headquarters mission that opponent commands.">
 			<attr key="rarity" value="P"/>
 			<attr key="type" value="Personel"/>
-			<attr key="affiliation" value="Dominion"/>
+			<attr key="affiliation" value="{Dominion}"/>
 			<attr key="race" value="Changelineg"/>
 			<attr key="cost" value="2"/>
-			<attr key="icons" value="[Stf]"/>
+			<attr key="icons" value="{Stf}"/>
 			<attr key="integrity" value="2"/>
 			<attr key="cunning" value="6"/>
 			<attr key="strength" value="6"/>
 		</card>
-		<card name="James T. Kirk (Living Legend)" graphics="jamestkirklivinglegend.jpg" text="•2 Honor •Leadership While this personnel is facing a dilemma that has requirements you cannot meet, you may kill this personnel to prevent any further effects of that dilemma and overcome it.">
+		<card name="James T. Kirk (Living Legend)" graphics="jamestkirklivinglegend.jpg" text="{SD}2 Honor {SD}Leadership While this personnel is facing a dilemma that has requirements you cannot meet, you may kill this personnel to prevent any further effects of that dilemma and overcome it.">
 			<attr key="rarity" value="P"/>
 			<attr key="type" value="Personel"/>
-			<attr key="affiliation" value="Federation"/>
+			<attr key="affiliation" value="{Federation}"/>
 			<attr key="race" value="Human"/>
 			<attr key="cost" value="4"/>
-			<attr key="icons" value="[Cmd] [E] [Pa]"/>
+			<attr key="icons" value="{Cmd} {E} {Pa}"/>
 			<attr key="integrity" value="7"/>
 			<attr key="cunning" value="6"/>
 			<attr key="strength" value="5"/>
 		</card>
-		<card name="Tasha Yar (Tactical Officer)" graphics="tashayartacticalofficer.jpg" text="•Engineer •Honor •Leadership •Security While this personnel is attempting a mission, you may place her on top of her owner's deck to prevent one of your personnel present from being stopped by dilemmas until the end of this turn.">
+		<card name="Tasha Yar (Tactical Officer)" graphics="tashayartacticalofficer.jpg" text="{SD}Engineer {SD}Honor {SD}Leadership {SD}Security While this personnel is attempting a mission, you may place her on top of her owner's deck to prevent one of your personnel present from being stopped by dilemmas until the end of this turn.">
 			<attr key="rarity" value="P"/>
 			<attr key="type" value="Personel"/>
-			<attr key="affiliation" value="Federation"/>
+			<attr key="affiliation" value="{Federation}"/>
 			<attr key="race" value="Human"/>
 			<attr key="cost" value="3"/>
-			<attr key="icons" value="[Stf] [TNG] [AU]"/>
+			<attr key="icons" value="{Stf} {TNG} {AU}"/>
 			<attr key="integrity" value="7"/>
 			<attr key="cunning" value="5"/>
 			<attr key="strength" value="6"/>
 		</card>
-		<card name="Worf (First Officer)" graphics="worffirstofficer.jpg" text="•Honor •Leadership •Navigation •Officer While this personnel is facing a dilemma, you may discard two cards from hand to exchange a [TNG] personnel you own present with a [TNG] personnel who has the same cost from your hand.">
+		<card name="Worf (First Officer)" graphics="worffirstofficer.jpg" text="{SD}Honor {SD}Leadership {SD}Navigation {SD}Officer While this personnel is facing a dilemma, you may discard two cards from hand to exchange a {TNG} personnel you own present with a {TNG} personnel who has the same cost from your hand.">
 			<attr key="rarity" value="P"/>
 			<attr key="type" value="Personel"/>
-			<attr key="affiliation" value="Federation"/>
+			<attr key="affiliation" value="{Federation}"/>
 			<attr key="race" value="Klingon"/>
 			<attr key="cost" value="3"/>
-			<attr key="icons" value="[Cmd] [TNG] [AU]"/>
+			<attr key="icons" value="{Cmd} {TNG} {AU}"/>
 			<attr key="integrity" value="7"/>
 			<attr key="cunning" value="5"/>
 			<attr key="strength" value="8"/>
 		</card>
-		<card name="Korath (Duplicitous Tinkerer)" graphics="korathduplicitoustinkerer.jpg" text="•Diplomacy •Engineer •Leadership •Physics High Council Member. When you play a non-Hand Weapon equipment, you may destroy and event that has no cards on it.">
+		<card name="Korath (Duplicitous Tinkerer)" graphics="korathduplicitoustinkerer.jpg" text="{SD}Diplomacy {SD}Engineer {SD}Leadership {SD}Physics High Council Member. When you play a non-Hand Weapon equipment, you may destroy and event that has no cards on it.">
 			<attr key="rarity" value="P"/>
 			<attr key="type" value="Personel"/>
-			<attr key="affiliation" value="Klingon"/>
+			<attr key="affiliation" value="{Klingon}"/>
 			<attr key="race" value="Klingon"/>
 			<attr key="cost" value="4"/>
-			<attr key="icons" value="[Cmd] [Fut]"/>
+			<attr key="icons" value="{Cmd} {Fut}"/>
 			<attr key="integrity" value="4"/>
 			<attr key="cunning" value="6"/>
 			<attr key="strength" value="7"/>
 		</card>
-		<card name="Worf (Regent of the Alliance)" graphics="worfregentofthealliance.jpg" text="•Biology •Leadership •2 Treachery Chancellor. While this personnel is facing a dilemma, you may discard a [Car] or [Kli] personnel from hand to make this personnel attributes+3 until the end of that dilemma.">
+		<card name="Worf (Regent of the Alliance)" graphics="worfregentofthealliance.jpg" text="{SD}Biology {SD}Leadership {SD}2 Treachery Chancellor. While this personnel is facing a dilemma, you may discard a {car} or {kli} personnel from hand to make this personnel attributes+3 until the end of that dilemma.">
 			<attr key="rarity" value="P"/>
 			<attr key="type" value="Personel"/>
-			<attr key="affiliation" value="Klingon"/>
+			<attr key="affiliation" value="{Klingon}"/>
 			<attr key="race" value="Klingon"/>
 			<attr key="cost" value="4"/>
-			<attr key="icons" value="[Cmd] [AU]"/>
+			<attr key="icons" value="{Cmd} {AU}"/>
 			<attr key="integrity" value="2"/>
 			<attr key="cunning" value="5"/>
 			<attr key="strength" value="8"/>
 		</card>
-		<card name="Benjamin Sisko (Outlaw)" graphics="benjaminsiskooutlaw.jpg" text="•Acquisition •Anthropology •Biology •Leadership •Navigation Order - Choose one for this personnel to gain: Honor personnel present are Cunning +1; or Treachery personnel present are Cunning +1. This effect lasts until this order is executed again.">
+		<card name="Benjamin Sisko (Outlaw)" graphics="benjaminsiskooutlaw.jpg" text="{SD}Acquisition {SD}Anthropology {SD}Biology {SD}Leadership {SD}Navigation Order - Choose one for this personnel to gain: Honor personnel present are Cunning +1; or Treachery personnel present are Cunning +1. This effect lasts until this order is executed again.">
 			<attr key="rarity" value="P"/>
 			<attr key="type" value="Personel"/>
-			<attr key="affiliation" value="Non-Aligned"/>
+			<attr key="affiliation" value="{Non-Aligned}"/>
 			<attr key="race" value="Human"/>
 			<attr key="cost" value="3"/>
-			<attr key="icons" value="[Cmd] [AU]"/>
+			<attr key="icons" value="{Cmd} {AU}"/>
 			<attr key="integrity" value="5"/>
 			<attr key="cunning" value="5"/>
 			<attr key="strength" value="6"/>
 		</card>
-		<card name="Daniels (Temporal Enforcer)" graphics="danielstemporalenforcer.jpg" text="•Anthropology •Archaeology •Engineer •Intelligence •Physics •Security When this personnel is killed, shuffle him into his owner's deck.">
+		<card name="Daniels (Temporal Enforcer)" graphics="danielstemporalenforcer.jpg" text="{SD}Anthropology {SD}Archaeology {SD}Engineer {SD}Intelligence {SD}Physics {SD}Security When this personnel is killed, shuffle him into his owner's deck.">
 			<attr key="rarity" value="P"/>
 			<attr key="type" value="Personel"/>
-			<attr key="affiliation" value="Non-Aligned"/>
+			<attr key="affiliation" value="{Non-Aligned}"/>
 			<attr key="race" value="Alien/Human"/>
 			<attr key="cost" value="3"/>
-			<attr key="icons" value="[Stf] [Fut]"/>
+			<attr key="icons" value="{Stf} {Fut}"/>
 			<attr key="integrity" value="6"/>
 			<attr key="cunning" value="6"/>
 			<attr key="strength" value="6"/>
 		</card>
-		<card name="Miles O'Brien ('Smiley')" graphics="milesobriensmiley.jpg" text="•Engineer •Leadership •Physics •Transporters When you play a ship at this mission, if you have played no other ships this turn, it is cost-1 for each of your Engineer personnel at this mission.">
+		<card name="Miles O'Brien ('Smiley')" graphics="milesobriensmiley.jpg" text="{SD}Engineer {SD}Leadership {SD}Physics {SD}Transporters When you play a ship at this mission, if you have played no other ships this turn, it is cost-1 for each of your Engineer personnel at this mission.">
 			<attr key="rarity" value="P"/>
 			<attr key="type" value="Personel"/>
-			<attr key="affiliation" value="Non-Aligned"/>
+			<attr key="affiliation" value="{Non-Aligned}"/>
 			<attr key="race" value="Human"/>
 			<attr key="cost" value="4"/>
-			<attr key="icons" value="[Cmd] [AU]"/>
+			<attr key="icons" value="{Cmd} {AU}"/>
 			<attr key="integrity" value="5"/>
 			<attr key="cunning" value="6"/>
 			<attr key="strength" value="6"/>
 		</card>
-		<card name="The Traveler (Transcendent Explorer)" graphics="thetravelertranscendentexplorer.jpg" text="•Anthropology •Astrometrics •Engineer •Honor •2 Physics •Science When this personnel is stopped by a dilemma, place him on the bottom of his owner's deck.">
+		<card name="The Traveler (Transcendent Explorer)" graphics="thetravelertranscendentexplorer.jpg" text="{SD}Anthropology {SD}Astrometrics {SD}Engineer {SD}Honor {SD}2 Physics {SD}Science When this personnel is stopped by a dilemma, place him on the bottom of his owner's deck.">
 			<attr key="rarity" value="P"/>
 			<attr key="type" value="Personel"/>
-			<attr key="affiliation" value="Non-Aligned"/>
+			<attr key="affiliation" value="{Non-Aligned}"/>
 			<attr key="race" value="Alien"/>
 			<attr key="cost" value="2"/>
-			<attr key="icons" value="[Stf]"/>
+			<attr key="icons" value="{Stf}"/>
 			<attr key="integrity" value="6"/>
 			<attr key="cunning" value="8"/>
 			<attr key="strength" value="3"/>
 		</card>
-		<card name="Tomalak (Irate Commander)" graphics="tomalakiratecommander.jpg" text="•Diplomacy •Exobiology •Leadership •Officer Commander: Terix. At the start of each of your turns, you may stop your [Rom] personnel present to reveal the top card of each player's deck.">
+		<card name="Tomalak (Irate Commander)" graphics="tomalakiratecommander.jpg" text="{SD}Diplomacy {SD}Exobiology {SD}Leadership {SD}Officer Commander: Terix. At the start of each of your turns, you may stop your {rom} personnel present to reveal the top card of each player's deck.">
 			<attr key="rarity" value="P"/>
 			<attr key="type" value="Personel"/>
-			<attr key="affiliation" value="Romulan"/>
+			<attr key="affiliation" value="{Romulan}"/>
 			<attr key="race" value="Romulan"/>
 			<attr key="cost" value="2"/>
-			<attr key="icons" value="[Cmd] [AU]"/>
+			<attr key="icons" value="{Cmd} {AU}"/>
 			<attr key="integrity" value="4"/>
 			<attr key="cunning" value="6"/>
 			<attr key="strength" value="7"/>
@@ -291,22 +291,22 @@
 		<card name="B'tanay" graphics="btanay.jpg" text="When you play this ship, remove all the cards in your discard pile from the game.">
 			<attr key="rarity" value="P"/>
 			<attr key="type" value="Ship"/>
-			<attr key="affiliation" value="Bajoran"/>
+			<attr key="affiliation" value="{Bajoran}"/>
 			<attr key="class" value="Ornathia Class"/>
 			<attr key="cost" value="7"/>
-			<attr key="staff" value="[Cmd] [Cmd] [Stf] [Stf]"/>
-			<attr key="icons" value="[AU]"/>
+			<attr key="staff" value="{Cmd} {Cmd} {Stf} {Stf}"/>
+			<attr key="icons" value="{AU}"/>
 			<attr key="range" value="9"/>
 			<attr key="weapons" value="9"/>
 			<attr key="shields" value="9"/>
 		</card>
-		<card name="Sphere 634" graphics="sphere634.jpg" text="When this ship is about to move between an [AQ] mission and a [DQ] mission, do not add 2 to the span total of those missions.">
+		<card name="Sphere 634" graphics="sphere634.jpg" text="When this ship is about to move between an {AQ} mission and a {DQ} mission, do not add 2 to the span total of those missions.">
 			<attr key="rarity" value="P"/>
 			<attr key="type" value="Ship"/>
-			<attr key="affiliation" value="Borg"/>
+			<attr key="affiliation" value="{Borg}"/>
 			<attr key="class" value="Sphere"/>
 			<attr key="cost" value="6"/>
-			<attr key="staff" value="[Stf] [Stf] [Stf] [Stf]"/>
+			<attr key="staff" value="{Stf} {Stf} {Stf} {Stf}"/>
 			<attr key="icons" value=""/>
 			<attr key="range" value="9"/>
 			<attr key="weapons" value="10"/>
@@ -315,11 +315,11 @@
 		<card name="U.S.S. Enterprise-D (Personal Flagship)" graphics="ussenterprisedpersonalflagship.jpg" text="Cloaking Device. When you complete a mission requiring Honor or Leadership, if this ship is at that mission, score 5 points (or score 10 points if that mission requires both).">
 			<attr key="rarity" value="P"/>
 			<attr key="type" value="Ship"/>
-			<attr key="affiliation" value="Federation"/>
+			<attr key="affiliation" value="{Federation}"/>
 			<attr key="class" value="Galaxy Class"/>
 			<attr key="cost" value="7"/>
-			<attr key="staff" value="[Cmd] [Cmd] [Stf] [Stf] [Stf]"/>
-			<attr key="icons" value="[TNG] [Fut]"/>
+			<attr key="staff" value="{Cmd} {Cmd} {Stf} {Stf} {Stf}"/>
+			<attr key="icons" value="{TNG} {Fut}"/>
 			<attr key="range" value="10"/>
 			<attr key="weapons" value="11"/>
 			<attr key="shields" value="10"/>

@@ -2,101 +2,101 @@
 <!DOCTYPE ccg-setinfo SYSTEM "../gccg-set.dtd">
 <ccg-setinfo name="Tenth Anniversary" dir="Tenth Anniversary" abbrev="XA" game="Star Trek Collectible Card Game: Second Edition">
 	<cards>
-		<card name="Benjamin Sisko (Shipwright)" graphics="benjaminsiskoshipwright.jpg" text="•Anthropology •Astrometrics •Engineer •Honor •Navigation Commander: Baraka. While this personnel is aboard a [Baj] ship, it is Range+1.">
+		<card name="Benjamin Sisko (Shipwright)" graphics="benjaminsiskoshipwright.jpg" text="{SD}Anthropology {SD}Astrometrics {SD}Engineer {SD}Honor {SD}Navigation Commander: Baraka. While this personnel is aboard a {baj} ship, it is Range+1.">
 			<attr key="rarity" value="P"/>
 			<attr key="type" value="Personel"/>
-			<attr key="affiliation" value="Bajoran"/>
+			<attr key="affiliation" value="{Bajoran}"/>
 			<attr key="race" value="Human"/>
 			<attr key="cost" value="4"/>
-			<attr key="icons" value="[Cmd] [DS9]"/>
+			<attr key="icons" value="{Cmd} {DS9}"/>
 			<attr key="integrity" value="7"/>
 			<attr key="cunning" value="6"/>
 			<attr key="strength" value="6"/>
 		</card>
-		<card name="Borg Queen (Perfectionist)" graphics="borgqueenperfectionist.jpg" text="•3 Leadership •Treachery Commander: Queen's Borg Cube. While this personnel is facing a dilemma, each personnel you command but do not own cannot be stopped.">
+		<card name="Borg Queen (Perfectionist)" graphics="borgqueenperfectionist.jpg" text="{SD}3 Leadership {SD}Treachery Commander: Queen's Borg Cube. While this personnel is facing a dilemma, each personnel you command but do not own cannot be stopped.">
 			<attr key="rarity" value="P"/>
 			<attr key="type" value="Personel"/>
-			<attr key="affiliation" value="Borg"/>
+			<attr key="affiliation" value="{Borg}"/>
 			<attr key="race" value="Borg"/>
 			<attr key="cost" value="3"/>
-			<attr key="icons" value="[Cmd]"/>
+			<attr key="icons" value="{Cmd}"/>
 			<attr key="integrity" value="3"/>
 			<attr key="cunning" value="8"/>
 			<attr key="strength" value="6"/>
 		</card>
-		<card name="Dukat (True Cardassian)" graphics="dukattruecardassian.jpg" text="•Leadership •Navigation •Officer •Programming •Security Commander: Naprem. When an engagement involving this personnel ends, the ship he is aboard and each of your [Car] personnel aboard it are not stopped. You cannot begin any other engagements this turn.">
+		<card name="Dukat (True Cardassian)" graphics="dukattruecardassian.jpg" text="{SD}Leadership {SD}Navigation {SD}Officer {SD}Programming {SD}Security Commander: Naprem. When an engagement involving this personnel ends, the ship he is aboard and each of your {car} personnel aboard it are not stopped. You cannot begin any other engagements this turn.">
 			<attr key="rarity" value="P"/>
 			<attr key="type" value="Personel"/>
-			<attr key="affiliation" value="Cardassian"/>
+			<attr key="affiliation" value="{Cardassian}"/>
 			<attr key="race" value="Cardassian"/>
 			<attr key="cost" value="3"/>
-			<attr key="icons" value="[Cmd]"/>
+			<attr key="icons" value="{Cmd}"/>
 			<attr key="integrity" value="4"/>
 			<attr key="cunning" value="6"/>
 			<attr key="strength" value="6"/>
 		</card>
-		<card name="Kudak'Etan (Arrogant First)" graphics="kudaketanarrogantfirst.jpg" text="•Astrometrics •Leadership •Navigation •Officer Alpha. Commander: U.S.S. Defiant. Order - Discard a Vorta from hand to place this personnel and any number of your Jem'Hadar present aboard a ship at the same mission.">
+		<card name="Kudak'Etan (Arrogant First)" graphics="kudaketanarrogantfirst.jpg" text="{SD}Astrometrics {SD}Leadership {SD}Navigation {SD}Officer Alpha. Commander: U.S.S. Defiant. Order - Discard a Vorta from hand to place this personnel and any number of your Jem'Hadar present aboard a ship at the same mission.">
 			<attr key="rarity" value="P"/>
 			<attr key="type" value="Personel"/>
-			<attr key="affiliation" value="Dominion"/>
+			<attr key="affiliation" value="{Dominion}"/>
 			<attr key="race" value="Jem'Hadar"/>
 			<attr key="cost" value="3"/>
-			<attr key="icons" value="[Cmd]"/>
+			<attr key="icons" value="{Cmd}"/>
 			<attr key="integrity" value="5"/>
 			<attr key="cunning" value="5"/>
 			<attr key="strength" value="8"/>
 		</card>
-		<card name="Data (Commanding Officer)" graphics="datacommandingofficer.jpg" text="•Engineer •Leadership •Officer •Physics •Programming Commander: U.S.S. Southerland. Order - Discard a card from hand to name a card. When an opponent plays that card, score 5 points. This effect lasts until the start of your next turn. You may do this only once each turn.">
+		<card name="Data (Commanding Officer)" graphics="datacommandingofficer.jpg" text="{SD}Engineer {SD}Leadership {SD}Officer {SD}Physics {SD}Programming Commander: U.S.S. Southerland. Order - Discard a card from hand to name a card. When an opponent plays that card, score 5 points. This effect lasts until the start of your next turn. You may do this only once each turn.">
 			<attr key="rarity" value="P"/>
 			<attr key="type" value="Personel"/>
-			<attr key="affiliation" value="Federation"/>
+			<attr key="affiliation" value="{Federation}"/>
 			<attr key="race" value="Android"/>
 			<attr key="cost" value="3"/>
-			<attr key="icons" value="[Cmd] [E]"/>
+			<attr key="icons" value="{Cmd} {E}"/>
 			<attr key="integrity" value="6"/>
 			<attr key="cunning" value="10"/>
 			<attr key="strength" value="10"/>
 		</card>
-		<card name="Jean-Luc Picard (Starship Captain)" graphics="jeanlucpicardstarshipcaptain.jpg" text="•Diplomacy •Honor •Law •Leadership •Navigation •Officer Commander: U.S.S. Enterprise-D. Order - This personnel loses Diplomacy, Law and Navigation and gains Anthropology, Archaeology and Science until the end of this turn. You may do this only once each turn.">
+		<card name="Jean-Luc Picard (Starship Captain)" graphics="jeanlucpicardstarshipcaptain.jpg" text="{SD}Diplomacy {SD}Honor {SD}Law {SD}Leadership {SD}Navigation {SD}Officer Commander: U.S.S. Enterprise-D. Order - This personnel loses Diplomacy, Law and Navigation and gains Anthropology, Archaeology and Science until the end of this turn. You may do this only once each turn.">
 			<attr key="rarity" value="P"/>
 			<attr key="type" value="Personel"/>
-			<attr key="affiliation" value="Federation"/>
+			<attr key="affiliation" value="{Federation}"/>
 			<attr key="race" value="Human"/>
 			<attr key="cost" value="3"/>
-			<attr key="icons" value="[Cmd] [TNG]"/>
+			<attr key="icons" value="{Cmd} {TNG}"/>
 			<attr key="integrity" value="8"/>
 			<attr key="cunning" value="6"/>
 			<attr key="strength" value="6"/>
 		</card>
-		<card name="Gowron (Sole Leader of the Empire)" graphics="gowronsoleleaderoftheempire.jpg" text="•Honor •Law •2 Leadership •Security Chancellor. Commander: I.K.S. Bortas. When your Honor Klingon is about to be stopped or killed by a dilemma, you may discard a Treachery Klingon from hand to prevent that. You may do this only once each turn.">
+		<card name="Gowron (Sole Leader of the Empire)" graphics="gowronsoleleaderoftheempire.jpg" text="{SD}Honor {SD}Law {SD}2 Leadership {SD}Security Chancellor. Commander: I.K.S. Bortas. When your Honor Klingon is about to be stopped or killed by a dilemma, you may discard a Treachery Klingon from hand to prevent that. You may do this only once each turn.">
 			<attr key="rarity" value="P"/>
 			<attr key="type" value="Personel"/>
-			<attr key="affiliation" value="Klingon"/>
+			<attr key="affiliation" value="{Klingon}"/>
 			<attr key="race" value="Klingon"/>
 			<attr key="cost" value="3"/>
-			<attr key="icons" value="[Cmd]"/>
+			<attr key="icons" value="{Cmd}"/>
 			<attr key="integrity" value="6"/>
 			<attr key="cunning" value="5"/>
 			<attr key="strength" value="8"/>
 		</card>
-		<card name="Arctus Baran (Treasure Seeker)" graphics="arctusbarantreasureseeker.jpg" text="•Archaeology •Officer •Security •Treachery Commander: Fortune. Smuggler. Thief. When this personnel uses a skill to complete a mission, you may download an Artifact card and place it in your core (if it is an event) or present with this personnel (if it is an equipment).">
+		<card name="Arctus Baran (Treasure Seeker)" graphics="arctusbarantreasureseeker.jpg" text="{SD}Archaeology {SD}Officer {SD}Security {SD}Treachery Commander: Fortune. Smuggler. Thief. When this personnel uses a skill to complete a mission, you may download an Artifact card and place it in your core (if it is an event) or present with this personnel (if it is an equipment).">
 			<attr key="rarity" value="P"/>
 			<attr key="type" value="Personel"/>
-			<attr key="affiliation" value="Non-Aligned"/>
+			<attr key="affiliation" value="{Non-Aligned}"/>
 			<attr key="race" value="Alien"/>
 			<attr key="cost" value="2"/>
-			<attr key="icons" value="[Cmd]"/>
+			<attr key="icons" value="{Cmd}"/>
 			<attr key="integrity" value="2"/>
 			<attr key="cunning" value="5"/>
 			<attr key="strength" value="6"/>
 		</card>
-		<card name="Velal (Reluctant Aggressor)" graphics="velalreluctantaggressor.jpg" text="•Archaeology •Leadership •Officer •Security Commander: Rovaran. General. When the player on your right attempts this mission, if you command a Maneuver event, you may draw an extra dilemma and spend one extra in total cost on dilemmas.">
+		<card name="Velal (Reluctant Aggressor)" graphics="velalreluctantaggressor.jpg" text="{SD}Archaeology {SD}Leadership {SD}Officer {SD}Security Commander: Rovaran. General. When the player on your right attempts this mission, if you command a Maneuver event, you may draw an extra dilemma and spend one extra in total cost on dilemmas.">
 			<attr key="rarity" value="P"/>
 			<attr key="type" value="Personel"/>
-			<attr key="affiliation" value="Romulan"/>
+			<attr key="affiliation" value="{Romulan}"/>
 			<attr key="race" value="Romulan"/>
 			<attr key="cost" value="2"/>
-			<attr key="icons" value="[Cmd]"/>
+			<attr key="icons" value="{Cmd}"/>
 			<attr key="integrity" value="5"/>
 			<attr key="cunning" value="6"/>
 			<attr key="strength" value="6"/>
@@ -104,11 +104,11 @@
 		<card name="Baraka" graphics="baraka.jpg" text="Order - Lose 5 points to make this ship Range +10 until the end of this turn.">
 			<attr key="rarity" value="P"/>
 			<attr key="type" value="Ship"/>
-			<attr key="affiliation" value="Bajoran"/>
+			<attr key="affiliation" value="{Bajoran}"/>
 			<attr key="class" value="Shabren Class"/>
 			<attr key="cost" value="2"/>
-			<attr key="staff" value="[Stf]"/>
-			<attr key="icons" value="[DS9]"/>
+			<attr key="staff" value="{Stf}"/>
+			<attr key="icons" value="{DS9}"/>
 			<attr key="range" value="3"/>
 			<attr key="weapons" value="0"/>
 			<attr key="shields" value="3"/>
@@ -116,10 +116,10 @@
 		<card name="Queen's Borg Cube" graphics="queensborgcube.jpg" text="You may use a card which begins an engagement to begin one involving this ship even if it is at a headquarters mission.">
 			<attr key="rarity" value="P"/>
 			<attr key="type" value="Ship"/>
-			<attr key="affiliation" value="Borg"/>
+			<attr key="affiliation" value="{Borg}"/>
 			<attr key="class" value="Cube"/>
 			<attr key="cost" value="7"/>
-			<attr key="staff" value="[Stf] [Stf] [Stf] [Stf] [Stf]"/>
+			<attr key="staff" value="{Stf} {Stf} {Stf} {Stf} {Stf}"/>
 			<attr key="icons" value=""/>
 			<attr key="range" value="10"/>
 			<attr key="weapons" value="12"/>
@@ -128,22 +128,22 @@
 		<card name="Naprem" graphics="naprem.jpg" text="Cloaking Device. While this ship is at an opponent's planet mission, if your personnel is on that planet, he or she is an Infiltrator.">
 			<attr key="rarity" value="P"/>
 			<attr key="type" value="Ship"/>
-			<attr key="affiliation" value="Cardassian"/>
+			<attr key="affiliation" value="{Cardassian}"/>
 			<attr key="class" value="K'Vort Class"/>
 			<attr key="cost" value="5"/>
-			<attr key="staff" value="[Stf] [Stf] [Stf]"/>
+			<attr key="staff" value="{Stf} {Stf} {Stf}"/>
 			<attr key="icons" value=""/>
 			<attr key="range" value="7"/>
 			<attr key="weapons" value="8"/>
 			<attr key="shields" value="7"/>
 		</card>
-		<card name="U.S.S. Defiant (Commandeered Warship)" graphics="ussdefiantcommandeeredwarship.jpg" text="Cloaking Device. To staff this ship, you must have an Engineer personnel aboard. Order - If this ship is staffed and at your mission, stop this ship to take two overcome dilemmas from beneath that mission and place them face up beneath your [AQ] mission.">
+		<card name="U.S.S. Defiant (Commandeered Warship)" graphics="ussdefiantcommandeeredwarship.jpg" text="Cloaking Device. To staff this ship, you must have an Engineer personnel aboard. Order - If this ship is staffed and at your mission, stop this ship to take two overcome dilemmas from beneath that mission and place them face up beneath your {AQ} mission.">
 			<attr key="rarity" value="P"/>
 			<attr key="type" value="Ship"/>
-			<attr key="affiliation" value="Dominion"/>
+			<attr key="affiliation" value="{Dominion}"/>
 			<attr key="class" value="Defiant Class"/>
 			<attr key="cost" value="7"/>
-			<attr key="staff" value="[Cmd] [Cmd] [Stf]"/>
+			<attr key="staff" value="{Cmd} {Cmd} {Stf}"/>
 			<attr key="icons" value=""/>
 			<attr key="range" value="8"/>
 			<attr key="weapons" value="10"/>
@@ -152,11 +152,11 @@
 		<card name="U.S.S. Enterprise-D (Explorer)" graphics="ussenterprisedexplorer.jpg" text="When you complete a space mission requiring Diplomacy, if this ship is at that mission, score 10 points.">
 			<attr key="rarity" value="P"/>
 			<attr key="type" value="Ship"/>
-			<attr key="affiliation" value="Federation"/>
+			<attr key="affiliation" value="{Federation}"/>
 			<attr key="class" value="Galaxy Class"/>
 			<attr key="cost" value="6"/>
-			<attr key="staff" value="[Cmd] [Stf] [Stf] [Stf]"/>
-			<attr key="icons" value="[TNG]"/>
+			<attr key="staff" value="{Cmd} {Stf} {Stf} {Stf}"/>
+			<attr key="icons" value="{TNG}"/>
 			<attr key="range" value="8"/>
 			<attr key="weapons" value="8"/>
 			<attr key="shields" value="9"/>
@@ -164,11 +164,11 @@
 		<card name="U.S.S. Sutherland" graphics="usssutherland.jpg" text="When you fail a mission attempt at a space mission, if this ship is at that mission, you may discard three cards from hand to place the top card of an opponent's dilemma pile face up beneath this mission. If you do this, you cannot attempt this mission again this turn.">
 			<attr key="rarity" value="P"/>
 			<attr key="type" value="Ship"/>
-			<attr key="affiliation" value="Federation"/>
+			<attr key="affiliation" value="{Federation}"/>
 			<attr key="class" value="Nebula Class"/>
 			<attr key="cost" value="6"/>
-			<attr key="staff" value="[Cmd] [Stf] [Stf]"/>
-			<attr key="icons" value="[E]"/>
+			<attr key="staff" value="{Cmd} {Stf} {Stf}"/>
+			<attr key="icons" value="{E}"/>
 			<attr key="range" value="8"/>
 			<attr key="weapons" value="8"/>
 			<attr key="shields" value="8"/>
@@ -176,10 +176,10 @@
 		<card name="I.K.S. Bortas" graphics="iksbortas.jpg" text="Cloaking Device. When you win an engagement involving this ship, you may discard a card from hand to download a Maneuver event.">
 			<attr key="rarity" value="P"/>
 			<attr key="type" value="Ship"/>
-			<attr key="affiliation" value="Klingon"/>
+			<attr key="affiliation" value="{Klingon}"/>
 			<attr key="class" value="Vor'cha Class"/>
 			<attr key="cost" value="6"/>
-			<attr key="staff" value="[Cmd] [Stf] [Stf] [Stf]"/>
+			<attr key="staff" value="{Cmd} {Stf} {Stf} {Stf}"/>
 			<attr key="icons" value=""/>
 			<attr key="range" value="8"/>
 			<attr key="weapons" value="9"/>
@@ -188,10 +188,10 @@
 		<card name="Fortune (Raider for Hire)" graphics="fortuneraiderforhire.jpg" text="While your Treachery personnel is aboard this ship, he or she is attributes +1 for each Artifact you command (limit +3).">
 			<attr key="rarity" value="P"/>
 			<attr key="type" value="Ship"/>
-			<attr key="affiliation" value="Non-Aligned"/>
+			<attr key="affiliation" value="{Non-Aligned}"/>
 			<attr key="class" value="Virayllan Class"/>
 			<attr key="cost" value="6"/>
-			<attr key="staff" value="[Stf] [Stf] [Stf]"/>
+			<attr key="staff" value="{Stf} {Stf} {Stf}"/>
 			<attr key="icons" value=""/>
 			<attr key="range" value="8"/>
 			<attr key="weapons" value="7"/>
@@ -200,10 +200,10 @@
 		<card name="Rovaran" graphics="rovaran.jpg" text="Cloaking Device. When you win an engagement involving this ship, you may examine the loser's hand and choose a card to be removed from the game. Order - Discard a Maneuver card from hand to begin an engagement involving this ship.">
 			<attr key="rarity" value="P"/>
 			<attr key="type" value="Ship"/>
-			<attr key="affiliation" value="Romulan"/>
+			<attr key="affiliation" value="{Romulan}"/>
 			<attr key="class" value="D'deridex Class"/>
 			<attr key="cost" value="6"/>
-			<attr key="staff" value="[Cmd] [Stf] [Stf] [Stf]"/>
+			<attr key="staff" value="{Cmd} {Stf} {Stf} {Stf}"/>
 			<attr key="icons" value=""/>
 			<attr key="range" value="7"/>
 			<attr key="weapons" value="9"/>

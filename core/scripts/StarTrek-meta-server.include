@@ -7,6 +7,11 @@ if(!port)
   port=29160;
 factory.port=29161;
 
+INITIAL_MONEY=50.0;
+GAME_BONUS=20.0;
+BET_BONUS_MULTIPLIER=1;
+LOSER_PERCENTAGE=0.20;
+
 if(!load("products"))
 {
   products=(,);
@@ -29,9 +34,72 @@ if(!load("products"))
   save("products");
 }
 
-INITIAL_MONEY=50.0;
-GAME_BONUS=20.0;
-BET_BONUS_MULTIPLIER=1;
-LOSER_PERCENTAGE=0.20;
+#
+# HOOKS
+# =====
 
+def FetchBooster
+{
+   push(ready);
+   if(net_send(factory.server,(1,ARG,"booster")))
+   {
+     ready=0;
+     while(!ready)
+     {
+       c=net_get();
+       if(c!=NULL)
+       {
+         ready=1;
+         return(flatten(toval(c[1])));
+       }
+     }
+   }
+   ready=pop();
+}
+
+def GeneratePromo
+{
+   if(length(promo.booster) <= 0)
+   {
+      promo.booster=seq(set.data{"XA"}[1],set.data{"XA"}[2]);
+      promo.booster=promo.booster+FetchBooster("FT");
+      promo.booster=promo.booster+FetchBooster("R");
+      promo.booster=promo.booster+FetchBooster("AP");
+      promo.booster=promo.booster+FetchBooster("G");
+      promo.booster=promo.booster+FetchBooster("VP");
+      promo.booster=shuffle(promo.booster);
+   }
+
+   return(first(promo.booster));
+   promo.booster=tail(promo.booster);
+}
+
+# EndGameHook(player name who declared,result,result options,player numbers,player names,bet) - This
+#   hook is called at the beginning of the game result
+#   prosessing. Note: this hook is not called for undecided results.
+#
+def EndGameHook
+{
+  if(length(ARG[3])>1)
+  {
+    push(c);
+    for(p)(ARG[4])
+    {
+      if(users{p}[4][1][0]==0)
+      {
+        push(r);
+
+        c=GeneratePromo();
+
+        AddCard(p,c);
+        SendAll("Message","{blue}"+p+" receives{gold} #"+c+"# {blue}as a reward for the game.");
+        if(Con(p)>-1)
+          Send(Con(p),("SetCardbook",((c,users{p}[2]{c}),)));
+
+        r=pop();
+      }
+    }
+    c=pop();
+  }
+}
 

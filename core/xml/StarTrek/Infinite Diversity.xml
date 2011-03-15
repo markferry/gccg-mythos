@@ -6,62 +6,62 @@
 			<attr key="rarity" value="V"/>
 			<attr key="type" value="Dilemma"/>
 			<attr key="cost" value="4"/>
-			<attr key="zone" value="dual"/>
+			<attr key="zone" value="{dual}"/>
 		</card>
 		<card name="Dark Page" graphics="darkpage.jpg" back="1" text="Choose a personnel who has Anthropology or Exobiology to be stopped. If you cannot, randomly select a personnel to be killed.">
 			<attr key="rarity" value="V"/>
 			<attr key="type" value="Dilemma"/>
 			<attr key="cost" value="2"/>
-			<attr key="zone" value="dual"/>
+			<attr key="zone" value="{dual}"/>
 		</card>
 		<card name="In Development" graphics="indevelopment.jpg" back="1" text="For each headquarters you command, this dilemma is cost -1. Randomly select a personnel who has a cost of 2 or less. All your other personnel who have a cost of 2 or less are stopped.">
 			<attr key="rarity" value="V"/>
 			<attr key="type" value="Dilemma"/>
 			<attr key="cost" value="6"/>
-			<attr key="zone" value="dual"/>
+			<attr key="zone" value="{dual}"/>
 		</card>
 		<card name="Inhumane Interrogation" graphics="inhumaneinterrogation.jpg" back="1" text="Randomly select a personnel to be killed. You may destroy an event in your core to prevent this.">
 			<attr key="rarity" value="V"/>
 			<attr key="type" value="Dilemma"/>
 			<attr key="cost" value="4"/>
-			<attr key="zone" value="dual"/>
+			<attr key="zone" value="{dual}"/>
 		</card>
 		<card name="Mark of Gideon" graphics="markofgideon.jpg" back="1" text="Randomly select a personnel to be stopped. If you still have nine personnel remaining, return that personnel to his or her owner's hand, then your opponent chooses a second personnel to return to his or her owner's hand. If you still have ten personnel remaining, your opponent chooses a third personnel to return to his or her owner's hand.">
 			<attr key="rarity" value="V"/>
 			<attr key="type" value="Dilemma"/>
 			<attr key="cost" value="3"/>
-			<attr key="zone" value="dual"/>
+			<attr key="zone" value="{dual}"/>
 		</card>
 		<card name="Pillage and Plunder" graphics="pillageandplunder.jpg" back="1" text="Persistent. (When your personnel complete this mission, this dilemma's owner may discard a non-personnel card from hand to return this dilemma to his or her dilemma pile.) Choose a personnel who has Archaeology or Treachery to be stopped. If you cannot, randomly select a personnel to be killed.">
 			<attr key="rarity" value="V"/>
 			<attr key="type" value="Dilemma"/>
 			<attr key="cost" value="1"/>
-			<attr key="zone" value="planet"/>
+			<attr key="zone" value="{planet}"/>
 		</card>
 		<card name="Setting the Stage" graphics="settingthestage.jpg" back="1" text="Randomly select nine personnel. All your other personnel are stopped and this dilemma returns to its owner's dilemma pile.">
 			<attr key="rarity" value="V"/>
 			<attr key="type" value="Dilemma"/>
 			<attr key="cost" value="2"/>
-			<attr key="zone" value="dual"/>
+			<attr key="zone" value="{dual}"/>
 		</card>
 		<card name="The Clown: Go Away" graphics="theclowngoaway.jpg" back="1" text="Place this dilemma on this mission. At the start of each of your turns, if you command no personnel or ships at this mission, remove this dilemma from the game. When personnel begin a mission attempt at this mission, randomly select a personnel to be returned to its owner’s hand.">
 			<attr key="rarity" value="V"/>
 			<attr key="type" value="Dilemma"/>
 			<attr key="cost" value="2"/>
-			<attr key="zone" value="dual"/>
+			<attr key="zone" value="{dual}"/>
 		</card>
 		<card name="The First Duty" graphics="thefirstduty.jpg" back="1" text="Persistent. (When your personnel complete this mission, this dilemma's owner may discard a non-personnel card from hand to return this dilemma to his or her dilemma pile.) Choose a personnel who has Honor or Law to be stopped. If you cannot, randomly select a personnel to be killed.">
 			<attr key="rarity" value="V"/>
 			<attr key="type" value="Dilemma"/>
 			<attr key="cost" value="1"/>
-			<attr key="zone" value="space"/>
+			<attr key="zone" value="{space}"/>
 		</card>
 		<card name="Hypospray" graphics="hypospray.jpg" text="When your personnel present is about to be killed by a dilemma, you may stop that personnel and your Medical personnel present to prevent that. You may do this only once each turn.">
 			<attr key="rarity" value="V"/>
 			<attr key="type" value="Equipment"/>
 			<attr key="cost" value="2"/>
 		</card>
-		<card name="Persistent Strike" graphics="persistentstrike.jpg" text="Maneuver. Plays in your core. Order - Begin an engagement involving your Officer personnel. If you win, place this event on an opponent's ship involved. Otherwise, destroy this event. Damage - If this is a non- [Voy] ship, ignore its game text.">
+		<card name="Persistent Strike" graphics="persistentstrike.jpg" text="Maneuver. Plays in your core. Order - Begin an engagement involving your Officer personnel. If you win, place this event on an opponent's ship involved. Otherwise, destroy this event. Damage - If this is a non- {Voy} ship, ignore its game text.">
 			<attr key="rarity" value="V"/>
 			<attr key="type" value="Event"/>
 			<attr key="cost" value="3"/>
@@ -80,15 +80,15 @@
 			<attr key="rarity" value="V"/>
 			<attr key="type" value="Mission"/>
 			<attr key="attemptable" value="Any affiliation"/>
-			<attr key="zone" value="space"/>
-			<attr key="quadrant" value="alpha"/>
+			<attr key="zone" value="{space}"/>
+			<attr key="quadrant" value="{alpha}"/>
 			<attr key="points" value="30"/>
 			<attr key="span" value="3"/>
 		</card>
-		<card name="Automated Server" graphics="automatedserver.jpg" text="•Anthropology •Diplomacy •Exobiology •Transporters Waiter. While you command three [Fer] personnel, this personnel is attributes +1, gains Acquisition, and becomes [Fer].">
+		<card name="Automated Server" graphics="automatedserver.jpg" text="{SD}Anthropology {SD}Diplomacy {SD}Exobiology {SD}Transporters Waiter. While you command three {fer} personnel, this personnel is attributes +1, gains Acquisition, and becomes {fer}.">
 			<attr key="rarity" value="V"/>
 			<attr key="type" value="Personel"/>
-			<attr key="affiliation" value="Non-Aligned"/>
+			<attr key="affiliation" value="{Non-Aligned}"/>
 			<attr key="race" value="Hologram"/>
 			<attr key="cost" value="2"/>
 			<attr key="icons" value=""/>
@@ -96,10 +96,10 @@
 			<attr key="cunning" value="5"/>
 			<attr key="strength" value="4"/>
 		</card>
-		<card name="Doran" graphics="doran.jpg" text="•Anthropology •Engineer •Physics •Treachery While you command three [Car] personnel, this personnel is attributes +1, gains Archaeology, and becomes [Car].">
+		<card name="Doran" graphics="doran.jpg" text="{SD}Anthropology {SD}Engineer {SD}Physics {SD}Treachery While you command three {car} personnel, this personnel is attributes +1, gains Archaeology, and becomes {car}.">
 			<attr key="rarity" value="V"/>
 			<attr key="type" value="Personel"/>
-			<attr key="affiliation" value="Non-Aligned"/>
+			<attr key="affiliation" value="{Non-Aligned}"/>
 			<attr key="race" value="Hologram"/>
 			<attr key="cost" value="2"/>
 			<attr key="icons" value=""/>
@@ -107,21 +107,22 @@
 			<attr key="cunning" value="5"/>
 			<attr key="strength" value="5"/>
 		</card>
-		<card name="Garren" graphics="garren.jpg" text="•Astrometrics •Navigation •Programming •Science While you command three [Rom] personnel, this personnel is attributes +1, gains Engineer, and becomes [Rom].">
+		<card name="Garren" graphics="garren.jpg" text="{SD}Astrometrics {SD}Navigation {SD}Programming {SD}Science While you command three {rom} personnel, this personnel is attributes +1, gains Engineer, and becomes {rom}.">
 			<attr key="rarity" value="V"/>
 			<attr key="type" value="Personel"/>
-			<attr key="affiliation" value="Non-Aligned"/>
+			<attr key="affiliation" value="{Non-Aligned}"/>
 			<attr key="race" value="Hologram"/>
 			<attr key="cost" value="2"/>
 			<attr key="icons" value=""/>
 			<attr key="integrity" value="5"/>
+
 			<attr key="cunning" value="5"/>
 			<attr key="strength" value="5"/>
 		</card>
-		<card name="K'wov" graphics="kwov.jpg" text="•Exobiology •Navigation •Security While you command three [Kli] personnel, this personnel is attributes +1, gains Leadership, and becomes [Kli].">
+		<card name="K'wov" graphics="kwov.jpg" text="{SD}Exobiology {SD}Navigation {SD}Security While you command three {kli} personnel, this personnel is attributes +1, gains Leadership, and becomes {kli}.">
 			<attr key="rarity" value="V"/>
 			<attr key="type" value="Personel"/>
-			<attr key="affiliation" value="Non-Aligned"/>
+			<attr key="affiliation" value="{Non-Aligned}"/>
 			<attr key="race" value="Hologram"/>
 			<attr key="cost" value="2"/>
 			<attr key="icons" value=""/>
@@ -129,10 +130,10 @@
 			<attr key="cunning" value="4"/>
 			<attr key="strength" value="6"/>
 		</card>
-		<card name="Sumek" graphics="sumek.jpg" text="•Geology •Honor •Medical While you command three [Fed] personnel, this personnel gains Biology and Officer, and becomes [Fed].">
+		<card name="Sumek" graphics="sumek.jpg" text="{SD}Geology {SD}Honor {SD}Medical While you command three {fed} personnel, this personnel gains Biology and Officer, and becomes {fed}.">
 			<attr key="rarity" value="V"/>
 			<attr key="type" value="Personel"/>
-			<attr key="affiliation" value="Non-Aligned"/>
+			<attr key="affiliation" value="{Non-Aligned}"/>
 			<attr key="race" value="Hologram"/>
 			<attr key="cost" value="2"/>
 			<attr key="icons" value=""/>
@@ -140,14 +141,14 @@
 			<attr key="cunning" value="6"/>
 			<attr key="strength" value="6"/>
 		</card>
-		<card name="Olarra" graphics="olarra.jpg" text="While your [NA] Hologram with no staffing icons is aboard this ship, he or she gains [Stf]. While you have a lower score than each of your opponents and a Hologram personnel is aboard this ship, you may spend an additional counter this turn.">
+		<card name="Olarra" graphics="olarra.jpg" text="While your {na} Hologram with no staffing icons is aboard this ship, he or she gains {Stf}. While you have a lower score than each of your opponents and a Hologram personnel is aboard this ship, you may spend an additional counter this turn.">
 			<attr key="rarity" value="V"/>
 			<attr key="type" value="Ship"/>
-			<attr key="affiliation" value="Non-Aligned"/>
+			<attr key="affiliation" value="{Non-Aligned}"/>
 			<attr key="class" value="Transport Class"/>
 			<attr key="cost" value="5"/>
-			<attr key="staff" value="[Stf] [Stf] [Stf]"/>
-			<attr key="icons" value="[DS9]"/>
+			<attr key="staff" value="{Stf} {Stf} {Stf}"/>
+			<attr key="icons" value="{DS9}"/>
 			<attr key="range" value="8"/>
 			<attr key="weapons" value="6"/>
 			<attr key="shields" value="7"/>

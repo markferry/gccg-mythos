@@ -35,6 +35,15 @@ product.image{"Captain's Log Booster"}="Captains Log.jpg";
 product.image{"These Are The Voyages Booster"}="These are the Voyages.jpg";
 product.image{"In a Mirror Darkly Booster"}="In a Mirror Darkly.jpg";
 product.image{"What You Leave Behind Booster"}="What you Leave Behind.jpg";
+product.image{"The Undiscovered Country Virtual"}="The Undiscovered Country.jpg";
+product.image{"Favor The Bold Virtual"}="Favor The Bold.jpg";
+product.image{"Raise The Stakes Virtual"}="Raise The Stakes.jpg";
+product.image{"This Side of Paradise Virtual"}="This Side of Paradise.jpg";
+product.image{"Legacy Virtual"}="Legacy.jpg";
+product.image{"Allegiance Virtual"}="Allegiance.jpg";
+product.image{"Infinite Diversity Virtual"}="Infinite Diversity.jpg";
+product.image{"Peak Performance Virtual"}="Peak Performance.jpg";
+product.image{"Extreme Measures Virtual"}="Extreme Measures.jpg";
 
 game.bindings=(
   ("KeyControlKey1","{orange}Play and Draw Cards (7 Counters)...",),

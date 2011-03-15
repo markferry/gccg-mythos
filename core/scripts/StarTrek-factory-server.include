@@ -30,9 +30,17 @@ def InitDistributions
   distribution{"MD"}{"Booster"}=((7,"C"),(3,"U"),(1,"R"));
   distribution{"WB"}=(,);
   distribution{"WB"}{"Booster"}=((7,"C"),(3,"U"),(1,"R"));
+  distribution{"UC"}=(,);
+  distribution{"FB"}=(,);
+  distribution{"RS"}=(,);
+  distribution{"L"}=(,);
+  distribution{"A"}=(,);
+  distribution{"ID"}=(,);
+  distribution{"PP"}=(,);
+  distribution{"EM"}=(,);
 }
 
-fixed=array(9);
+fixed=array(20);
 
 fixed[0]=FixedSet("2E",("Antedean Assassins", "Antedean Assassins", "Authenticate Artifacts", "Bynars' Password", "Bynars' Password", "Command Decisions", "Command Decisions", "Equipment Malfunction", "Kolaran Raiders", "Kolaran Raiders", "Limited Welcome", "Limited Welcome", "Ornaran Threat", "Pinned Down", "Pinned Down", "Recurring Injury", "Recurring Injury", "Systems Diagnostic", "Triage", "Wavefront", "Tricorder", "Tricorder", "Cry 'Havoc!'", "Cry 'Havoc!'", "D'Arsay Archive", "D'Arsay Archive", "Mission Briefing", "Mission Briefing", "Shady Resources", "Shady Resources", "Earth (Cradle of the Federation)", "Geological Survey", "Host Metaphasic Shielding Test", "Intercept Renegade", "Surgery Under Fire", "Andrea Brand (Academy Superintendent)", "Daniel Kwan", "Daniel Kwan", "Davies", "Elizabeth Shelby (Formidable Presence)", "Jean-Luc Picard (Explorer)", "Jean-Luc Picard (Explorer)", "Lian T'su", "Lopez", "Lopez", "Martin", "Martin", "Martin", "Rixx", "Rixx", "Robin Lefler (Mission Specialist)", "Van Orton", "Van Orton", "William T. Riker (Number One)", "Worf (Security Detail Leader)", "Pran Tainer (Atrean Seismologist)", "U.S.S. Nebula", "U.S.S. Nebula", "U.S.S. Nebula", "U.S.S. Sovereign" ));
 
@@ -51,6 +59,24 @@ fixed[6]=FixedSet("CA",("An Old Debt", "An Old Debt", "Failure To Communicate", 
 fixed[7]=FixedSet("2E",("Authenticate Artifacts", "Command Decisions", "Command Decisions", "Kolaran Raiders", "Kolaran Raiders", "Limited Welcome", "Limited Welcome", "Ornaran Threat", "Pinned Down", "Pinned Down", "Systems Diagnostic", "Triage", "Wavefront", "Render Assistance", "Render Assistance" ));
 
 fixed[8]=FixedSet("EN",("Salvaging the Wreckage", "Salvaging the Wreckage", "Salvaging the Wreckage" ));
+
+fixed[9]=FixedSet("UC",("Breaking the Ice", "Curt Reprimand", "Ferengi Locator Bomb", "Instigate Dissension", "Once More Unto the Breach", "Predictable Response", "Show Trial", "The Conscience of the King", "We'll Never Know", "What Lies Beneath", "Debate Over Dinner", "Inexorable Torture", "Operation Retrieve", "Strength of Spirit", "The Cost of Freedom", "The Void Alliance", "Treasured Collectibles", "What You Leave Behind", "Shall We Not Revenge?", "Surprise Amity", "The Perils of Peacemaking", "Warrior's Resolve", "Aid Legendary Civilization", "Breach Barrier", "Kira Nerys (Rescuer)", "Vaatrik Pallra (Seductive Manipulator)", "Harvest Drone", "Synergy Drone", "Three of Twelve (Specialty Drone)", "Weyoun (Scheming Negotiator)", "Hikaru Sulu (Loyal Captain)", "Jake Sisko (Engineer's Apprentice)", "Lance Cartwright (Co-Conspirator)", "Laurence T. Stone (Portmaster)", "Nog (Eager Ensign)", "Gaila (Arms Dealer)", "Azetbur (Visionary Chancellor)", "Kerla (Military Advisor)", "Annorax (Temporal Architect)", "Kes (Experienced Ocampa)", "D'Ral (Mutinous Commander)", "Sorus", "Jonathan Archer (Heroic Diplomat)", "U.S.S. Enterprise-D (Salvaged Ship)", "Kyana's Hope (Temporal Weapon)" ));
+
+fixed[10]=FixedSet("FB",("All-Consuming Evil", "Artificial Wormhole", "Best Interests at Heart", "Bold Plan", "Chula: Unfortunate Roll", "In-Fighting", "Klingon Law", "Let Them Worry", "One to One", "Patriotic Spirit", "Savagery to Match Their Numbers", "Skeptical Superiors", "Strategic Superiority", "The Beast at El-Adrel", "The Clown: On His Throne", "The Seen and the Unseen", "Time for Action", "Treachery Running Deep", "Unionize", "Unwanted Guests", "Delivery Boy", "Hindrance", "Keeping Track of You", "Subliminal Signal", "The Undiscovered Country", "Reprogrammed", "Uninvited", "Aid Maritime Sovereignty", "Inversion Mystery", "Kira Nerys (Defiant Leader)", "Tabor (Apoplectic Bajoran)", "Two of Two (Adaptation Drone)", "Telle (Macet's Aide)", "Arak'Taral (Suspicious Second)", "George Primmin (Starfleet Security)", "Helen Noel (Enterprise Psychiatrist)", "Ro Laren (Headstrong Ensign)", "Reyga (Young Scientist)", "Klag (Second Officer)", "Ajur (Temporal Thief)", "Boratus (Temporal Thief)", "Lore (Brother and Son)", "Neral (Seasoned Politician)", "Masaro (Idealistic Saboteur)", "Husnock Ship" ));
+
+fixed[11]=FixedSet("RS",("Assassin Team", "Causal Recursion", "Covert Ambush", "Echo Papa Attack", "Full Complement", "He Wasn't Nice", "It's Only a Paper Moon", "Miner Revolt", "Occupational Hazards", "Punishment Box", "Slightly Overbooked", "Spatial Interphase", "Stupefy", "Technique of a Desperate Man", "Unfair Terms", "Unorthodox Tactics", "Well-Prepared Defenses", "You Vant to Go Back?", "Horga'hn", "Self-Sealing Stem Bolts", "Always Welcome", "B'aht Qul Challenge", "Coordinated Counterattack", "Defensive Upgrades", "Delirium", "Duranja", "Ensnared", "Favor the Bold", "For Better or For Worse", "Greed", "Imperfect Replacement", "Jem'Hadar Entrenchment", "Leverage", "Noble Intentions", "Parting Thought", "Relentless Charge", "Tenuous Alliance", "Wariness", "Alarming Rumors", "Bridge Officer's Test", "Down to Business", "Improved Scenery", "Posturing", "Rebuilding the Fleet", "Demonstrate Aggressive Intent", "Explore Extradimensional World", "Honor the Fallen", "Obtain Illegal Embryos", "Protect Wormhole", "Reestablish Neural Cooperative", "Seek Savior", "Kira Nerys (Lela)", "Shakaar Edon (First Minister of Bajor)", "Scrutiny Drone", "Madred (Persistent Inquisitor)", "Nador (Curious Commander)", "Breen Founder (Persuader)", "Dikut'ukan", "Cal Hudson (Convincing Recruiter)", "Geordi La Forge (Battleship Engineer)", "Karl Jaeger", "Kathryn Janeway (Regretful Leader)", "Nagata", "Tristan Adams (Deranged Psychiatrist)", "William Ross ('Temporary' Ally)", "Brunt (Acting Grand Nagus)", "Nilva (Lascivious Chairman)", "Uri'lash (Silent Servant)", "K'mpec (Protector of the Empire)", "Kohlar (Pilgrim Commander)", "Morak (Pilgrim Cynic)", "T'Greth (Pilgrim Contender)", "Delvok", "Syrran (Desert Wind)", "T'Les (Syrrannite)", "T'Pau (Syrrannite)", "Ptol", "Taibak (Prodigious Conditioner)", "Upexi", "A. G. Robinson (Prototype Captain)", "Nathan Samuels (Earth Minister)", "Assimilated Transport", "Rokassa (Tampering Vessel)", "Javert (Maquis Flagship)", "U.S.S. Bellerophon (Conference Host)", "I.K.S. Voq'leng (Ship of Prophecy)", "Orion Interceptor", "U.S.S. Dauntless (False Hope)", "Bird-of-Prey", "NX-Prototype" ));
+
+fixed[12]=FixedSet("TP",("Its Thinking is Chaotic", "Lending a Hand", "Losira", "Parallel Romance", "Polywater Intoxication", "The Captain's 'Guest'", "The Charismatic Mister Kor", "The Charming Mister Riker", "The Gentleman Doctor McCoy", "Warm Welcome", "Watch Your Step", "Deal With the Count Man", "Mudd's Women", "Raise the Stakes", "A Q Scorned", "A Royal Welcome", "Old Feelings", "Track Survivors", "Chalan Aroya (Accessible Restaurateur)", "Neela (Misguided Activist)", "Seven of Nine (Prodigal Daughter)", "Korinas (Observer from the Obsidian Order)", "Luaran (Critical Coordinator)", "Alynna Nechayev (Adamant Admiral)", "Jenna D'Sora (Veteran Security Officer)", "Melora Pazlar (Independent Personality)", "Naomi Wildman (Astrometrics Officer)", "Nella Daren (Head of Stellar Cartography)", "Number One (Reputable Officer)", "Valeris (Co-Conspirator)", "Watley (Recent Transfer)", "Leeta (Devoted Wife)", "Quark (Lumba)", "Ch'Regha (Open-Minded)", "Anastasia Komananov (Russian Seductress)", "Arandis (Risan Facilitator)", "M'Pella (Seductive Employee)", "Marta (Delusional Seductress)", "Rayna Kapec (Developing Android)", "Sakonna (Puzzled Interrogator)", "Ba'el (Naive Prisoner)", "Kalenna (Sentry)", "Fiona McKenzie (Experienced Corporal)", "Gannet Brooks (Undercover Operative)", "U.S.S. Sao Paulo (NCC-75633)" ));
+
+fixed[13]=FixedSet("L",("Chula: The Precipice", "Left Behind", "Repressed Message", "Rogue Borg Ship", "Exocomp", "Subtle Influence", "Earth (Stop First Contact)", "Mediate Peace Treaty", "Evek (Agent of Cardassian Justice.)", "Changeling Infiltrator", "Pel (Profit-Seeker)", "Miles O'Brien (Connelly)", "Romulan Impersonator ('Geordi La Forge')", "Tenak'talar (Vanguard of the Occupation)", "U.S.S. Centaur (Patrolling Ship)" ));
+
+fixed[14]=FixedSet("A",("Virtual Reality Headset", "Firestorm", "Helping Hand", "Reman Assault Team", "Under Siege", "Conflict", "Forcing Their Way", "Genetronic Treatment", "Interspatial Fissures", "Relentless Attacks", "Team of Infiltrators", "The Central Command", "Locate Fuel Source", "Li Nalas (Vastly Outnumbered)", "Odo (Vastly Outnumbered)", "Angelo Tassoni", "Benjamin Sisko (Vastly Outnumbered)", "Equinox Doctor (Unethical Medical Hologram)", "Hikaru Sulu (Experienced Helmsman)", "Ilia (Finest Navigator in Starfleet)", "James T. Kirk (Experienced Commander)", "Julian Bashir (Vastly Outnumbered)", "Leonard H. McCoy (Experienced Advisor)", "Marla Gilmore (Conflicted Engineer)", "Maxwell Burke (Arrogant First Officer)", "Miles O'Brien (Vastly Outnumbered)", "Montgomery Scott (Experienced Engineer)", "Noah Lessing (Driven Officer)", "Rudolph Ransom (Devious Captain)", "Spock (Experienced Officer)", "Thompson", "Willard Decker (Recommended Replacement)", "Grish", "Krem (Unidentified Pirate)", "Muk (Unidentified Pirate)", "Quark (Vastly Outnumbered)", "Ulis (Unidentified Pirate)", "Elder T'Pol (Displaced Survivor)", "Greer", "Karyn Archer (Displaced Descendant)", "Lorian (Displaced Descendant)", "U.S.S. Enterprise (Where She Belongs)", "U.S.S. Equinox (Determined To Get Home)", "Quetsivoo (Unidentified Pirate Ship)", "Future Enterprise (Displaced Starship)" ));
+
+fixed[15]=FixedSet("ID",("A Private Little War", "Dark Page", "In Development", "Inhumane Interrogation", "Mark of Gideon", "Pillage and Plunder", "Setting the Stage", "The Clown: Go Away", "The First Duty", "Hypospray", "Persistent Strike", "Product Placement", "Slightly Awkward", "Transport Crash Survivor", "Automated Server", "Doran", "Garren", "K'wov", "Sumek", "Olarra" ));
+
+fixed[16]=FixedSet("PP",("Code Forty-Seven", "Forced Into Labor", "Gravitational Anomaly", "Healing Hand", "Honorable Pursuit", "Infinite Diversity", "Legacy", "Pitching In", "Unfair Comparison", "Trellium-D", "Allegiance", "Alvera Tree Ritual", "Holding Cell", "Klingon Tea Ceremony", "Sent Back", "Spatial Reconfiguration", "This Side of Paradise", "Diversionary Tactics", "Exchange Program", "Hidden Resource", "Lustful Distraction", "Opportunity Seized", "Ruling Council", "Secret Agenda", "Superior Position", "Unrelenting", "Vorta Discipline", "Investigate Anachronism", "Investigate Refinery", "Benjamin Sisko (Man of Two Worlds)", "Kira Nerys (Liberator)", "Odo (Bajoran Representative)", "Dukat (Cardassian Representative)", "Amat'igan (Founder Bodyguard)", "Weyoun (Dominion Representative)", "Giotto (Security Chief)", "Morgan Bateson (Confident Commander)", "Farek (Distrusting Doctor)", "Amaros (Freedom Fighter)", "Berlinghoff Rasmussen (Temporal 'Historian')", "Ibboko (Kreetassan Chancellor)", "Laavros (Kreetassan Civil Servant)", "Punull", "Karina (Hindering Analyst)", "Ruwon (Hindering Analyst)", "Charles Tucker III (Damaged Engineer)", "Jonathan Archer (Damaged Captain)", "Malcolm Reed (Damaged Security Officer)", "Phlox (Damaged Doctor)", "T'Pol (Damaged Science Officer)", "Travis Mayweather (Damaged Navigator)", "U.S.S. Bozeman (Well-Preserved Antique)", "Kilhra (Hidden Threat)", "Enterprise (Damaged Starship)" ));
+
+fixed[17]=FixedSet("EM",("Alien Encounter", "Broken Link", "Coolant Leak", "Desperation", "Family", "Inequitable Exchange", "Information Extraction", "Just Following Orders", "One Step Ahead", "The Launching", "Trilithium Heist", "Earring of Li Nalas", "Resistance Rifle", "Bajoran Resistance Cell", "Ferengi Tradition", "I Stand With My Shipmates", "Isabella", "Peak Performance", "Promenade School", "Recruitment Tactics", "Event Horizon", "Flaw in the Plan", "Hate", "My Patience Has Limits", "Quinn", "Surprise Audit", "Assess Contamination", "Falsify Distress Signal", "Mine Vendarite", "Off-World Raid", "Furel (Resistance Scout)", "Gantt", "Halb Daier (Resistance Contact)", "Kira Nerys (Ih'valla)", "Opaka (Collaborator)", "Orta (Resistance Leader)", "Quen Paltra", "Surmak Ren (Resistance Doctor)", "Broca ('Leader' of the Cardassian Union)", "Eris (Harbinger of the Dominion)", "Charles Whatley (Professional Admiral)", "Garth of Izar (Criminally Insane)", "Jarseh-Inyo (Federation President)", "Luther Sloan (Man of Action)", "Richard Galen (Legendary Archaeologist)", "DaiMon Solok (Cargo Runner)", "Croden (Dissembler)", "Deanna Troi (Durango)", "Emck (Export Controller)", "Kaitaama (Precious Cargo)", "Donatra (Honorable Commander)", "Te'nari (Resistance Flagship)", "U.S.S. Enterprise-D (Diplomatic Envoy)", "Eleventh Gradient" ));
 
 # Premiere Starters (Federation, Romulan, Klingon, Deep Space Nine)
 #
@@ -86,4 +112,53 @@ def ProduceCA_Dominion
 def ProduceCA_Borg
 {
   return(RandomCardSet("CA",distribution{"CA"}{"3rares"})+fixed[6]+fixed[7]+fixed[8]);
+}
+
+#
+# Virtual Sets
+#
+
+def ProduceUC_Virtual
+{
+  return(fixed[9]);
+}
+
+def ProduceFB_Virtual
+{
+  return(fixed[10]);
+}
+
+def ProduceRS_Virtual
+{
+  return(fixed[11]);
+}
+
+def ProduceTP_Virtual
+{
+  return(fixed[12]);
+}
+
+def ProduceL_Virtual
+{
+  return(fixed[13]);
+}
+
+def ProduceA_Virtual
+{
+  return(fixed[14]);
+}
+
+def ProduceID_Virtual
+{
+  return(fixed[15]);
+}
+
+def ProducePP_Virtual
+{
+  return(fixed[16]);
+}
+
+def ProduceEM_Virtual
+{
+  return(fixed[17]);
 }

@@ -67,6 +67,18 @@ def DilemmasMenu
     ));
 }
 
+def UsedDilemmasMenu
+{
+    Menu("used dilemmas",(
+      ("Look","Ctrl+L",""),
+      ("Shuffle","Ctrl+S",""),
+      ("Reveal/Hide","Ctrl+F",""),
+      ("Touch","Ctrl+T",""),
+      ("Set Aside","End",""),
+      ("Shuffle to the deck","",'Send("Transfer",(length(deck(deck.objects[me]{"used dilemmas"})),("deck.top",(deck.objects[me]{"used dilemmas"})),("deck.top",(deck.objects[me]{"dilemmas"})))); Send("ShuffleDeck",(deck.objects[me]{"dilemmas"}));'),
+    ));
+}
+
 def AwayTeamOneMenu
 {
     Menu("away team one",(
@@ -193,7 +205,8 @@ def SingleCardMenuHook
 {
   return(("Put to Away Team One","Ctrl+Shift+1","TryTransferTo('deck.top',deck.objects[me]{'away team one'})"),
 ("Put to Away Team Two","Ctrl+Shift+2","TryTransferTo('deck.top',deck.objects[me]{'away team two'})"),
-("Put to Away Team Three","Ctrl+Shift+1","TryTransferTo('deck.top',deck.objects[me]{'away team three'})"),
+("Put to Away Team Three","Ctrl+Shift+3","TryTransferTo('deck.top',deck.objects[me]{'away team three'})"),
+("Put to Used Dilemmas","Ctrl+Shift+D","TryTransferTo('deck.top',deck.objects[me]{'used dilemmas'})"),
 );
 }
 #
@@ -218,6 +231,12 @@ def PlayKeyShiftControlKey3
 {
   TryTransferTo("deck.top",deck.objects[Owner(object.number)]{"away team three"});
 }
+
+def PlayKeyShiftControlKeyD
+{
+  TryTransferTo("deck.top",deck.objects[Owner(object.number)]{"used dilemmas"});
+}
+
 
 # MOUSE
 # =====

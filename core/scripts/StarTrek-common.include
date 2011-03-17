@@ -6,6 +6,7 @@
 
 deck_name{"deck"}="deck";
 deck_name{"dilemmas"}="dilemmas";
+deck_name{"used dilemmas"}="used dilemmas";
 deck_name{"discard pile"}="discard pile";
 deck_name{"missions"}="missions";
 deck_name{"away team one"}="away team one";
@@ -13,6 +14,7 @@ deck_name{"away team two"}="away team two";
 deck_name{"away team three"}="away team three";
 deck_name{"opponent deck"}="deck";
 deck_name{"opponent dilemmas"}="dilemmas";
+deck_name{"opponent used dilemmas"}="used dilemmas";
 deck_name{"opponent discard pile"}="discard pile";
 deck_name{"opponent missions"}="missions";
 deck_name{"opponent away team one"}="away team one";

@@ -46,6 +46,7 @@ def SetUpPlayer
   CreateDeck(ARG,"away team one",280,30);
   CreateDeck(ARG,"away team two",340,30);
   CreateDeck(ARG,"away team three",400,30);
+  CreateDeck(ARG,"used dilemmas",60,-100);
   CreateDeck(ARG,"deck",60,290);
   CreateDeck(ARG,"dilemmas",60,30);
   CreateDeck(ARG,"missions",220,30);

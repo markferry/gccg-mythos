@@ -1,5 +1,5 @@
 #
-# GCCG v0.9.6 Middle-earth deck
+# GCCG v0.9.6.3 Middle-earth deck
 #
 #      DCCD - Minion - War-lord - Ardagor - Terror of Cardolan AV
 #
@@ -22,10 +22,10 @@ Deck
 1 Greed (TW)
 2 Hermit Troll (DF)
 1 Hibernating Troll (NW)
-1 Left on the Field (WOTR)
+1 Left on the Field (WR)
 2 Old Man Willow (TW)
 1 Olog Warlords (BA)
-1 Politics (WOTR)
+1 Politics (WR)
 2 Rain-drake (TD)
 2 Rats! (LE)
 1 River (TW)
@@ -37,14 +37,14 @@ Deck
 
 # Minion Character (10)
 
+1 Brutal Retinue (KN)
 1 Bûrat (AS)
 2 Forest-troll (KN)
 1 Hill-troll (BA)
 1 Pôn-ora-Pôn (DM)
-1 Troll Bodyguard (KN)
 1 Troll Lout (LE)
 1 Tûma (AS)
-1 Wolf (TOI)
+1 Wolf (TI)
 1 Wûluag (AS)
 
 # Minion Resource (31)
@@ -100,8 +100,9 @@ Pool
 Sideboard
 #########
 
-# Dual Resource (4)
+# Dual Resource (5)
 
+1 Beasts of the Wood (WH)
 1 Beffraen (KN)
 1 Concealed Entrance (KN)
 1 Mace-master (NE)
@@ -110,13 +111,9 @@ Sideboard
 # Hazard (4)
 
 1 Drums (DM)
-1 Many Burdens (ROTS)
+1 Many Burdens (RS)
 1 Ninevet (DF)
 1 Trolls from the Mountains (AS)
-
-# Hero Resource (1)
-
-1 Beasts of the Wood (WH)
 
 # Minion Resource (11)
 
@@ -128,7 +125,7 @@ Sideboard
 1 Growing Shadow (NE)
 1 Helm of Illusions (KN)
 1 Poison of his Voice (WH)
-1 The Great Willow (ROTS)
+1 The Great Willow (RS)
 1 War-wolf (LE)
 1 Woses of the Eryn Vorn [M] (LE)
 
@@ -140,7 +137,13 @@ Sites
 
 1 Carn Dûm [B] (BA)
 
-# Minion Site (39)
+# Dual Site (3)
+
+1 Ruins of Belegost (DF)
+1 Ruins of Nogrod (DF)
+1 The Drowning-deeps [D] (DF)
+
+# Minion Site (46)
 
 1 Amon Lind [M] (FB)
 1 Andoloki [M] (NW)
@@ -148,36 +151,43 @@ Sites
 1 Barrow-downs [M] (LE)
 1 Blue Mountain Dwarf-hold [M] (LE)
 1 Bree [M] (LE)
+1 Bywater [M] (WR)
 1 Cameth Brin [M] (LE)
 1 Cirith Helkaloke [M] (GW)
 1 Creb Durga [M] (KN)
 1 Dunnish Clan-hold [M] (LE)
 1 Ettenmoors [M] (LE)
+1 Glittering Caves [M] (LE)
 1 Goblin-gate [M] (LE)
 1 Gondring's Lair [M] (NW)
-1 Helm's Deep [M] (TOI)
+1 Grey Havens [M] (AS)
+1 Helm's Deep [M] (TI)
 1 Hostel of the Sisters of Nienna [M] (KN)
 1 Isengard [M] (LE)
-1 Isildur's Tomb [M] (TOI)
+1 Isildur's Tomb [M] (TI)
 1 Isle of the Ulond [M] (AS)
-1 Michel Delving [M] (ROTS)
+1 Michel Delving [M] (RS)
 1 Moria [M] (LE)
 1 Morkai [M] (KN)
+1 Mount Rerir [M] (FB)
 1 Ost-in-Edhil [M] (LE)
+1 Rivendell [M] (AS)
 1 Ruined Signal Tower [M] (LE)
-1 Ruins of Belegost [M] (DF)
-1 Tharagrondost [M] (WOTR)
+1 Tharagrondost [M] (WR)
 1 Tharbad [M] (LE)
 1 Thaurung [M] (NW)
-1 The Drowning-deeps [M] (DF)
+1 The Gem-deeps [M] (AS)
 1 The Under-Caves [M] (KN)
+1 The Under-gates [M] (AS)
+1 The Under-grottos [M] (AS)
+1 The Under-vaults [M] (AS)
 1 The White Towers [M] (LE)
-1 The Willow Dingle [M] (ROTS)
+1 The Willow Dingle [M] (RS)
 1 The Worthy Hills [M] (LE)
-1 Tol Glingal [M] (SL)
 1 Tom's House [M] (FB)
 1 Traith Chefudoc [M] (KN)
-1 Turukulon's Lair [M] (TOI)
+1 Tuckburrow [M] (RS)
+1 Turukulon's Lair [M] (TI)
 1 Weathertop [M] (AS)
 1 Wose Passage-hold [M] (LE)
 1 Zarak Dûm [M] (LE)

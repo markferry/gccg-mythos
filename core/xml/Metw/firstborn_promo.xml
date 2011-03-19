@@ -2,7 +2,7 @@
 <!DOCTYPE ccg-setinfo SYSTEM "../gccg-set.dtd">
 <ccg-setinfo name="Firstborn Promo" dir="firstborn_promo" abbrev="FP" game="Middle-earth">
 	<cards>
-		<card name="Camthalion" graphics="Camthalion.jpg" text="Unique. Elf. Dark Elf. 1 strike. +2 prowess against Elves.May be played keyed to any Dark-domain [d] or Dark-hold [D], if there is a Nazgûl permanent-event or Ringwraith in play, or to any Shadow-hold [S] following a Nazgûl attack. Cannot be targetted by spells or magic. As a short-event, playable on a hero character moving through a Dark-domain or to/from a Dark-hold. Character loses all his skills for the rest of the turn; discard any Knowledge or Information events he controls.">
+		<card name="Camthalion" graphics="Camthalion.jpg" text="Unique. Elf. 1 strike. +2 prowess against Elves.May be played keyed to any Dark-domain [d] or Dark-hold [D], if there is a Nazgûl permanent-event or Ringwraith in play, or to any Shadow-hold [S] following a Nazgûl attack. Cannot be targetted by spells or magic. As a short-event, playable on a hero character moving through a Dark-domain or to/from a Dark-hold. Character loses all his skills for the rest of the turn; discard any Knowledge or Information events he controls.">
 			 <attr key="type" value="Hazard"/>
 			 <attr key="rarity" value="P"/>
 			 <attr key="unique" value="yes"/>
@@ -34,7 +34,7 @@
 			 <attr key="class" value="Elf Faction"/>
 			 <attr key="mp" value="1(2)"/>
 		</card>
-		<card name="Kheleglin" graphics="Kheleglin.jpg" text="Unique. Elf. Noldo. Elf-lord specific. Playable at any Dark-hold [D], if you discard (for no effect) a Stolen Knowledge card from the company. Kheleglin comes into play wounded. tap: if at an Elf-hold and discard a (stored) Reforging from his company to search your discard pile or sideboard.for a Noldo Lantern, which may be placed with a character in the company.">
+		<card name="Kheleglin" graphics="Kheleglin.jpg" text="Unique. Elf. Noldo. Playable at any Dark-hold [D], if you discard (for no effect) a Stolen Knowledge card from the company. Kheleglin comes into play wounded. tap: if at an Elf-hold and discard a (stored) Reforging from his company to search your discard pile or sideboard.for a Noldo Lantern, which may be placed with a character in the company.">
 			 <attr key="type" value="Stage Resource"/>
 			 <attr key="rarity" value="P"/>
 			 <attr key="unique" value="yes"/>
@@ -42,9 +42,7 @@
 			 <attr key="prowess" value="3/9"/>
 			 <attr key="mind" value="3"/>
 			 <attr key="mp" value="2"/>
-			 <attr key="specific" value="Elf-lord"/>
 			 <attr key="keyword" value="Noldo"/>
-			 <attr key="keyword" value="Elf-lord specific"/>
 		</card>
 		<card name="Maranya" graphics="Maranya.jpg" text="Unique. Mind Ring. Playable on Celedhring at Barad-dûr(or in your starting company in lieu of a minor item). You may play Mithril and Vein of Arda as minion resources. Celedhring only: during site phase at a Shadow-hold [S] or Dark-hold [D] you may:tap: store and/or play Dark Forges as if at a Darkhaven [K].tap: place a Vein of Arda or Mithril in the company with an item in the company: it becomes a jewel and all of its bonusses are increased by 1.Celedhring makes a corruption check at -2.">
 			 <attr key="type" value="Minion Resource"/>

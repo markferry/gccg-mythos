@@ -205,7 +205,7 @@
 		</card>
 		<card name="Odo (Curzon Odo)" graphics="odocurzonodo.jpg" text="{SD}Anthropology {SD}Diplomacy {SD}2 Law {SD}Security Host. Shape-shifter. This personnel is Cunning+1 for each Diplomacy personnel in your discard pile (limit+4). This personnel is Strength+1 for each Security personnel in your discard pile (limit+4).">
 			<attr key="rarity" value="P"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Bajoran}"/>
 			<attr key="race" value="Changeling"/>
 			<attr key="cost" value="4"/>
@@ -216,7 +216,7 @@
 		</card>
 		<card name="Yarka (Harbringer of the Prophets)" graphics="yarkaharbingeroftheprophets.jpg" text="{SD}Anthropology {SD}Archaeology {SD}Physics While each of your non-headquarters missions is a {baj} mission, each of your Bajorans present is attributes+1.">
 			<attr key="rarity" value="P"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Bajoran}"/>
 			<attr key="race" value="Bajoran"/>
 			<attr key="cost" value="2"/>
@@ -227,7 +227,7 @@
 		</card>
 		<card name="Annexation Drone" graphics="annexationdrone.jpg" text="{SD}Geology {SD}Navigation {SD}Physics {SD}Transporters Drone. When you play this personnel, if each of your non-headquarters missions is an {AQ} mission, score 5 points. When you lose command of this personnel, remove it from the game.">
 			<attr key="rarity" value="P"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Borg}"/>
 			<attr key="race" value="Borg"/>
 			<attr key="cost" value="3"/>
@@ -238,7 +238,7 @@
 		</card>
 		<card name="Requisitions Drone" graphics="requisitionsdrone.jpg" text="{SD}Archaeology {SD}Astrometrics {SD}Physics {SD}Science Drone. When you play this personnel, you may examine the top four cards of your deck and take one into hand. Place the remaining cards on the bottom of your deck in any order.">
 			<attr key="rarity" value="P"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Borg}"/>
 			<attr key="race" value="Borg"/>
 			<attr key="cost" value="2"/>
@@ -249,7 +249,7 @@
 		</card>
 		<card name="Enabran Tain ('Retired' Spymaster)" graphics="enabrantainretiredspymaster.jpg" text="{SD}Anthropology {SD}2 Intelligence {SD}Security {SD}2 Treachery When you play this personnel, if each of your non-headquarters missions requires Intelligence, you may draw up to seven cards, then discard two cards from hand.">
 			<attr key="rarity" value="P"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Cardassian}"/>
 			<attr key="race" value="Borg"/>
 			<attr key="cost" value="3"/>
@@ -260,7 +260,7 @@
 		</card>
 		<card name="Goran" graphics="goran.jpg" text="{SD}Biology {SD}Intelligence {SD}Medical {SD}Transporters Infiltrator. When you play this personnel, you may discard an equipment or event card from hand to make this personnel cost-2.">
 			<attr key="rarity" value="P"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Cardassian}"/>
 			<attr key="race" value="Changeling"/>
 			<attr key="cost" value="2"/>
@@ -271,7 +271,7 @@
 		</card>
 		<card name="Gelnon (Aloof Tactician)" graphics="gelnonalooftactician.jpg" text="{SD}Archaeology {SD}Law {SD}Leadership {SD}Science {SD}Treachery When you play this personnel, if each of your non-headquarters missions is an {AQ} mission, you may download a Jem'Hadar and place it aboard your {dom} ship.">
 			<attr key="rarity" value="P"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Dominion}"/>
 			<attr key="race" value="Vorta"/>
 			<attr key="cost" value="3"/>
@@ -282,7 +282,7 @@
 		</card>
 		<card name="Ixtana'Rax (Honored Elder)" graphics="ixtanaraxhonoredelder.jpg" text="{SD}Anthropology {SD}Astrometrics {SD}Honor {SD}Leadership {SD}Navigation {SD}Officer When this personnel uses one of his skills to solve a mission, he is killed.">
 			<attr key="rarity" value="P"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Dominion}"/>
 			<attr key="race" value="Jem'Hadar"/>
 			<attr key="cost" value="2"/>
@@ -293,7 +293,7 @@
 		</card>
 		<card name="Lamat'Ukan (Resourceful Third)" graphics="lamatukanresourcefulthird.jpg" text="{SD}Programming {SD}Security {SD}Transporters Alpha. When an engagement you began ends, you may unstop each of your personnel and ships involved and restore all Range those ships have used this turn. You cannot begin any other engagements this turn.">
 			<attr key="rarity" value="P"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Dominion}"/>
 			<attr key="race" value="Jem'Hadar"/>
 			<attr key="cost" value="3"/>
@@ -304,7 +304,7 @@
 		</card>
 		<card name="Jean-Luc Picard (Vintner)" graphics="jeanlucpicardvintner.jpg" text="{SD}Archaeology {SD}Biology {SD}Diplomacy {SD}Science When you play this personnel, if each of your non-headquarters missions requires Biology, you may download up to three {TNG} personnel.">
 			<attr key="rarity" value="P"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Federation}"/>
 			<attr key="race" value="Human"/>
 			<attr key="cost" value="2"/>
@@ -315,7 +315,7 @@
 		</card>
 		<card name="Kira Nerys (Starfleet Emissary)" graphics="kiranerysstarfleetemissary.jpg" text="{SD}Leadership {SD}Officer {SD}Security You may play this personnel at Bajor or Cardassia Prime. While this personnel is facing a dilemma, you may discard an event from hand to make a non-Bajoran present attributes+2 until the end of that dilemma.">
 			<attr key="rarity" value="P"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Federation}"/>
 			<attr key="race" value="Bajoran"/>
 			<attr key="cost" value="2"/>
@@ -326,7 +326,7 @@
 		</card>
 		<card name="Santos (Squad Leader)" graphics="santossquadleader.jpg" text="{SD}Leadership {SD}Medical {SD}Navigation {SD}Transporters While this personnel is attempting a mission, you may destroy your event to add that event's cost to this personnel's attributes until the end of that mission attempt.">
 			<attr key="rarity" value="P"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Federation}"/>
 			<attr key="race" value="Human"/>
 			<attr key="cost" value="2"/>
@@ -337,7 +337,7 @@
 		</card>
 		<card name="Shankar (Maquis Soldier)" graphics="shankarmaquissoldier.jpg" text="{SD}Archaeology {SD}Biology {SD}Geology {SD}Officer {SD}Treachery When you play this personnel, if you command at least three Region: Demilitarized Zone missions, you may make each opponent play his or her hand on the top of his or her deck in the order of his or her choice.">
 			<attr key="rarity" value="P"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Federation}"/>
 			<attr key="race" value="Human"/>
 			<attr key="cost" value="4"/>
@@ -348,7 +348,7 @@
 		</card>
 		<card name="William T. Riker (Wistful Admiral)" graphics="williantrikerwhistfuladmiral.jpg" text="{SD}Leadership {SD}Navigation {SD}Officer {SD}Security Admiral. Commander: U.S.S. Enterprise-D. While this personnel is attempting a space mission, he is attributes+1 and gains Diplomacy and Law.">
 			<attr key="rarity" value="P"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Federation}"/>
 			<attr key="race" value="Human"/>
 			<attr key="cost" value="2"/>
@@ -359,7 +359,7 @@
 		</card>
 		<card name="Alexander Rozhenko (K'mtar)" graphics="alexanderrozhenkokmtar.jpg" text="{SD}2 Diplomacy {SD}Honor {SD}Programming {SD}Transporters High Council Member. When you play this personnel, if each of your non-headquarters missions requires Diplomacy, you may download up to two events, then play each of them at cost-3.">
 			<attr key="rarity" value="P"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Klingon}"/>
 			<attr key="race" value="Human/Klingon"/>
 			<attr key="cost" value="4"/>
@@ -370,7 +370,7 @@
 		</card>
 		<card name="Worf (Son of Mogh)" graphics="worfsonofmogh.jpg" text="{SD}2 Honor {SD}Officer {SD}Physics {SD}2 Security When you play this personnel, each opponent draws a card.">
 			<attr key="rarity" value="P"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Klingon}"/>
 			<attr key="race" value="Klingon"/>
 			<attr key="cost" value="2"/>
@@ -381,7 +381,7 @@
 		</card>
 		<card name="Jean-Luc Picard (Galen)" graphics="jeanlucpicardgalen.jpg" text="{SD}Anthropology {SD}Archaeology {SD}Leadership {SD}Science Commander: Fortune. Thief. While an artifact is in your discard pile, each of your Smuggler personnel and Thief personnel is attributes+1.">
 			<attr key="rarity" value="P"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Non-Aligned}"/>
 			<attr key="race" value="Human"/>
 			<attr key="cost" value="3"/>
@@ -392,7 +392,7 @@
 		</card>
 		<card name="Vina (Orion Slave Girl)" graphics="vinaorionslavegirl.jpg" text="{SD}Honor Order - This personnel gains any one skill of your choice. She keeps that skill until this order is executed again.">
 			<attr key="rarity" value="P"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Non-Aligned}"/>
 			<attr key="race" value="Orien"/>
 			<attr key="cost" value="2"/>
@@ -403,7 +403,7 @@
 		</card>
 		<card name="Deanna Troi (Major Rakal)" graphics="deannatroimajorrakal.jpg" text="{SD}Anthropology {SD}Telepathy While this personnel is present with a {rom} Dissident personnel, she is attributes+1 and gains Intelligence, Leadership and Security.">
 			<attr key="rarity" value="P"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Romulan}"/>
 			<attr key="race" value="Betazoid/Human"/>
 			<attr key="cost" value="2"/>
@@ -414,7 +414,7 @@
 		</card>
 		<card name="Mendak (Duplicitous Admiral)" graphics="mendakduplicitousadmiral.jpg" text="{SD}Exobiology {SD}Intelligence {SD}Leadership {SD}Officer {SD}Transporters {SD}Treachery Admiral. Commander: Devoras. While each of your non-headquarters missions is not a {rom} mission, you may attempt each of them using your {rom} personnel.">
 			<attr key="rarity" value="P"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Romulan}"/>
 			<attr key="race" value="Romulan"/>
 			<attr key="cost" value="2"/>

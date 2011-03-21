@@ -175,7 +175,7 @@
 		</card>
 		<card name="Kira Nerys (Defiant Leader)" graphics="kiranerysdifiantleader.jpg" text="{SD}Honor {SD}Leadership {SD}Officer {SD}Programming Commander: U.S.S. Defiant. When you play this personnel, if you command Bajor, you may destroy an event. When an opponent plays an interrupt, if you command Mouth of the Wormhole, you may return this personnel to her owner's hand to prevent that interrupt and place it in its owner's discard pile.">
 			<attr key="rarity" value="V"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Bajoran}"/>
 			<attr key="race" value="Bajoran"/>
 			<attr key="cost" value="4"/>
@@ -186,7 +186,7 @@
 		</card>
 		<card name="Tabor (Apoplectic Bajoran)" graphics="taborapoplecticbajoran.jpg" text="{SD}Engineer {SD}Physics {SD}Programming {SD}Science While you have six or more personnel in your discard pile, this personnel is Cunning +2, Strength +2, and cannot be stopped by dilemmas.">
 			<attr key="rarity" value="V"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Bajoran}"/>
 			<attr key="race" value="Bajoran"/>
 			<attr key="cost" value="2"/>
@@ -197,7 +197,7 @@
 		</card>
 		<card name="Two of Two (Adaptation Drone)" graphics="twooftwoadaptationdrone.jpg" text="{SD}Anthropology {SD}Exobiology {SD}Science Drone. When this personnel begins a mission attempt, you may name a dilemma that is beneath one of your missions. When he faces that dilemma, you may prevent that dilemma and overcome it. This effect lasts until the end of turn.">
 			<attr key="rarity" value="V"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Borg}"/>
 			<attr key="race" value="Borg"/>
 			<attr key="cost" value="2"/>
@@ -208,7 +208,7 @@
 		</card>
 		<card name="Telle (Macet's Aide)" graphics="tellemacetsaide.jpg" text="{SD}Medical {SD}Programming {SD}Science {SD}Transporters {SD}Treachery Glinn. When this personnel is about to face a dual dilemma, you may discard three cards from hand to exchange that dilemma with a dual dilemma beneath this mission that this personnel has not faced this turn.">
 			<attr key="rarity" value="V"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Cardassian}"/>
 			<attr key="race" value="Cardassian"/>
 			<attr key="cost" value="2"/>
@@ -219,7 +219,7 @@
 		</card>
 		<card name="Arak'Taral (Suspicious Second)" graphics="araktaralsuspicioussecond.jpg" text="{SD}Astrometrics {SD}Officer {SD}Physics {SD}Transporters When this personnel is an eligible target for a random selection, you may exclude a {Cmd} personnel present from that selection.">
 			<attr key="rarity" value="V"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Dominion}"/>
 			<attr key="race" value="Jem'Hadar"/>
 			<attr key="cost" value="3"/>
@@ -230,7 +230,7 @@
 		</card>
 		<card name="George Primmin (Starfleet Security)" graphics="georgeprimminstarfleetsecurity.jpg" text="{SD}Anthropology {SD}Officer {SD}Programming {SD}Security When this personnel is about to be stopped by a dilemma, name a unique personnel. That personnel cannot be killed or stopped by dilemmas until the end of turn.">
 			<attr key="rarity" value="V"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Federation}"/>
 			<attr key="race" value="Human"/>
 			<attr key="cost" value="2"/>
@@ -241,7 +241,7 @@
 		</card>
 		<card name="Helen Noel (Enterprise Psychiatrist)" graphics="helennoelenterpristpsychiatrist.jpg" text="{SD}2 Anthropology {SD}Biology {SD}Diplomacy {SD}Medical You may play this personnel at cost +3 to reveal the top four dilemmas of an opponent's dilemma pile and remove each dilemma that has a cost of 1 or more and does not require a skill from the game. The remaining dilemmas return to their owner's dilemma pile.">
 			<attr key="rarity" value="V"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Federation}"/>
 			<attr key="race" value="Human"/>
 			<attr key="cost" value="2"/>
@@ -252,7 +252,7 @@
 		</card>
 		<card name="Ro Laren (Headstrong Ensign)" graphics="rolarenheadstrongensign.jpg" text="{SD}Navigation {SD}Officer {SD}Programming While this personnel is facing a dual dilemma, she cannot be randomly selected by dilemmas.">
 			<attr key="rarity" value="V"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Federation}"/>
 			<attr key="race" value="Bajoran"/>
 			<attr key="cost" value="2"/>
@@ -263,7 +263,7 @@
 		</card>
 		<card name="Reyga (Young Scientist)" graphics="reygayoungscientist.jpg" text="{SD}2 Astrometrics {SD}2 Engineer {SD}2 Science While this personnel is facing a dilemma that has a cost of 1 or more and does not require a skill, you may remove two Rule cards from beneath your Ferenginar from the game to prevent and overcome that dilemma.">
 			<attr key="rarity" value="V"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Ferengi}"/>
 			<attr key="race" value="Ferengi"/>
 			<attr key="cost" value="4"/>
@@ -274,7 +274,7 @@
 		</card>
 		<card name="Klag (Second Officer)" graphics="klagsecondofficer.jpg" text="{SD}Diplomacy {SD}Honor {SD}Navigation {SD}Officer While this personnel is facing a dilemma that requires Honor or Officer, he and each Honor personnel present cannot be randomly selected by that dilemma.">
 			<attr key="rarity" value="V"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Klingon}"/>
 			<attr key="race" value="Klingon"/>
 			<attr key="cost" value="3"/>
@@ -285,7 +285,7 @@
 		</card>
 		<card name="Ajur (Temporal Thief)" graphics="ajurtemporalthief.jpg" text="{SD}2 Anthropology {SD}Archaeology {SD}Treachery Thief. When you play this personnel, you may search your dilemma pile for a dilemma that costs 3 or more and set it aside. Shuffle and replace your dilemma pile and place that dilemma on top of your dilemma pile.">
 			<attr key="rarity" value="V"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Non-Aligned}"/>
 			<attr key="race" value="Vorgon"/>
 			<attr key="cost" value="3"/>
@@ -296,7 +296,7 @@
 		</card>
 		<card name="Boratus (Temporal Thief)" graphics="boratustemporalthief.jpg" text="{SD}Archaeology {SD}2 Security {SD}Treachery Thief. When you play this personnel, you may search your dilemma pile for a dilemma that costs 3 or more and set it aside. Shuffle and replace your dilemma pile and place that dilemma on top of your dilemma pile.">
 			<attr key="rarity" value="V"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Non-Aligned}"/>
 			<attr key="race" value="Vorgon"/>
 			<attr key="cost" value="3"/>
@@ -307,7 +307,7 @@
 		</card>
 		<card name="Lore (Brother and Son)" graphics="lorebrotherandson.jpg" text="{SD}Engineer {SD}Navigation {SD}2 Programming {SD}2 Treachery While this personnel is facing a non-Consume dilemma, he cannot be killed or stopped.">
 			<attr key="rarity" value="V"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Non-Aligned}"/>
 			<attr key="race" value="Android"/>
 			<attr key="cost" value="6"/>
@@ -318,7 +318,7 @@
 		</card>
 		<card name="Neral (Seasoned Politician)" graphics="neralseasonedpolitician.jpg" text="{SD}Anthropology {SD}Archaeology {SD}Diplomacy {SD}2 Leadership {SD}Treachery Praetor. While this personnel is facing a dilemma that requires Leadership or Treachery, he and each Treachery personnel present cannot be randomly selected by that dilemma.">
 			<attr key="rarity" value="V"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Romulan}"/>
 			<attr key="race" value="Romulan"/>
 			<attr key="cost" value="3"/>
@@ -329,7 +329,7 @@
 		</card>
 		<card name="Masaro (Idealistic Saboteur)" graphics="masaroidealisticsaboteur.jpg" text="{SD}Engineer {SD}Physics {SD}Programming {SD}Treachery Infiltrator. Order - If you command four different species, kill this personnel to examine the top four dilemmas of an opponent's dilemma pile and remove one from the game. The remaining dilemmas return to their owner's dilemma pile.">
 			<attr key="rarity" value="V"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Starfleet}"/>
 			<attr key="race" value="Human"/>
 			<attr key="cost" value="3"/>

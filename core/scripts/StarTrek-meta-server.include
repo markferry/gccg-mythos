@@ -2,6 +2,11 @@
 # Variables:
 #
 # promo.booster - remaining tenth anniversary "promo" cards to give as prizes
+# promo.booster2 - remaining fractured time "promo" cards to give as prizes
+# promo.booster3 - remaining reflections "promo" cards to give as prizes
+# promo.booster4 - remaining archive portrait "promo" cards to give as prizes
+# promo.booster5 - remaining genesis "promo" cards to give as prizes
+# promo.booster6 - remaining virtual promo "promo" cards to give as prizes
 
 if(!port)
   port=29160;
@@ -43,71 +48,172 @@ if(!load("products"))
   save("products");
 }
 
-#
-# HOOKS
-# =====
-
-def FetchBooster
-{
-   push(ready);
-   if(net_send(factory.server,(1,ARG,"booster")))
-   {
-     ready=0;
-     while(!ready)
-     {
-       c=net_get();
-       if(c!=NULL)
-       {
-         ready=1;
-         return(flatten(toval(c[1])));
-       }
-     }
-   }
-   ready=pop();
-}
-
-def GeneratePromo
-{
-   if(length(promo.booster) <= 0)
-   {
-      promo.booster=seq(set.data{"XA"}[1],set.data{"XA"}[2]);
-      promo.booster=promo.booster+FetchBooster("FT");
-      promo.booster=promo.booster+FetchBooster("R");
-      promo.booster=promo.booster+FetchBooster("AP");
-      promo.booster=promo.booster+FetchBooster("G");
-      promo.booster=promo.booster+FetchBooster("VP");
-      promo.booster=shuffle(promo.booster);
-   }
-
-   return(first(promo.booster));
-   promo.booster=tail(promo.booster);
-}
-
 # EndGameHook(player name who declared,result,result options,player numbers,player names,bet) - This
 #   hook is called at the beginning of the game result
 #   prosessing. Note: this hook is not called for undecided results.
 #
+
 def EndGameHook
 {
   if(length(ARG[3])>1)
   {
     push(c);
+    push(ready);
     for(p)(ARG[4])
     {
+#
+# Get tenth anniversary
+#
+      if(length(promo.booster) <= 0)
+      {
+        if(net_send(factory.server,(1,"XA","Booster")))
+        {
+          ready=0;
+          while(!ready)
+          {
+            c=net_get();
+            if(c!=NULL)
+            {
+              ready=1;
+              promo.booster=shuffle(flatten(toval(c[1])));
+            }
+          }
+        }
+      }
+#
+# Get Fractured Time
+#
+      if(length(promo.booster2) <= 0)
+      {
+        if(net_send(factory.server,(1,"FT","Booster")))
+        {
+          ready=0;
+          while(!ready)
+          {
+            c=net_get();
+            if(c!=NULL)
+            {
+              ready=1;
+              promo.booster2=shuffle(flatten(toval(c[1])));
+            }
+          }
+        }
+      }
+#
+# Get Reflections
+#
+      if(length(promo.booster3) <= 0)
+      {
+        if(net_send(factory.server,(1,"R","Booster")))
+        {
+          ready=0;
+          while(!ready)
+          {
+            c=net_get();
+            if(c!=NULL)
+            {
+              ready=1;
+              promo.booster3=shuffle(flatten(toval(c[1])));
+            }
+          }
+        }
+      }
+#
+# Get Archive Portrait
+#
+      if(length(promo.booster4) <= 0)
+      {
+        if(net_send(factory.server,(1,"AP","Booster")))
+        {
+          ready=0;
+          while(!ready)
+          {
+            c=net_get();
+            if(c!=NULL)
+            {
+              ready=1;
+              promo.booster4=shuffle(flatten(toval(c[1])));
+            }
+          }
+        }
+      }
+#
+# Get Genesis
+#
+      if(length(promo.booster5) <= 0)
+      {
+        if(net_send(factory.server,(1,"G","Booster")))
+        {
+          ready=0;
+          while(!ready)
+          {
+            c=net_get();
+            if(c!=NULL)
+            {
+              ready=1;
+              promo.booster5=shuffle(flatten(toval(c[1])));
+            }
+          }
+        }
+      }
+#
+# Get Virtual Promo
+#
+      if(length(promo.booster6) <= 0)
+      {
+        if(net_send(factory.server,(1,"VP","Booster")))
+        {
+          ready=0;
+          while(!ready)
+          {
+            c=net_get();
+            if(c!=NULL)
+            {
+              ready=1;
+              promo.booster6=shuffle(flatten(toval(c[1])));
+            }
+          }
+        }
+      }
       if(users{p}[4][1][0]==0)
       {
-        push(r);
-
-        c=GeneratePromo();
-
-        AddCard(p,c);
-        SendAll("Message","{blue}"+p+" receives{gold} #"+c+"# {blue}as a reward for the game.");
-        if(Con(p)>-1)
-          Send(Con(p),("SetCardbook",((c,users{p}[2]{c}),)));
-
-        r=pop();
+         if(count("FT",users{UserWithoutMode(p)}[3][2]))
+         {
+           c=first(promo.booster2);
+           promo.booster2=tail(promo.booster2);
+         }
+         else if(count("R",users{UserWithoutMode(p)}[3][2]))
+         {
+           c=first(promo.booster3);
+           promo.booster3=tail(promo.booster3);
+         }
+         else if(count("AP",users{UserWithoutMode(p)}[3][2]))
+         {
+           c=first(promo.booster4);
+           promo.booster4=tail(promo.booster4);
+         }
+         else if(count("G",users{UserWithoutMode(p)}[3][2]))
+         {
+           c=first(promo.booster5);
+           promo.booster5=tail(promo.booster5);
+         }
+         else if(count("VP",users{UserWithoutMode(p)}[3][2]))
+         {
+           c=first(promo.booster6);
+           promo.booster6=tail(promo.booster6);
+         }
+         else
+         {
+           c=first(promo.booster);
+           promo.booster=tail(promo.booster);
+         }
+         AddCard(p,c);
+         SendAll("Message","{blue}"+p+" receives{gold} #"+c+"# {blue}as a reward for the game.");
+         if(Con(p)>-1)
+           Send(Con(p),("SetCardbook",((c,users{p}[2]{c}),)));
       }
     }
+    ready=pop();
     c=pop();
   }
 }

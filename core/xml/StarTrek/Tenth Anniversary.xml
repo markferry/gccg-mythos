@@ -4,7 +4,7 @@
 	<cards>
 		<card name="Benjamin Sisko (Shipwright)" graphics="benjaminsiskoshipwright.jpg" text="{SD}Anthropology {SD}Astrometrics {SD}Engineer {SD}Honor {SD}Navigation Commander: Baraka. While this personnel is aboard a {baj} ship, it is Range+1.">
 			<attr key="rarity" value="P"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Bajoran}"/>
 			<attr key="race" value="Human"/>
 			<attr key="cost" value="4"/>
@@ -15,7 +15,7 @@
 		</card>
 		<card name="Borg Queen (Perfectionist)" graphics="borgqueenperfectionist.jpg" text="{SD}3 Leadership {SD}Treachery Commander: Queen's Borg Cube. While this personnel is facing a dilemma, each personnel you command but do not own cannot be stopped.">
 			<attr key="rarity" value="P"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Borg}"/>
 			<attr key="race" value="Borg"/>
 			<attr key="cost" value="3"/>
@@ -26,7 +26,7 @@
 		</card>
 		<card name="Dukat (True Cardassian)" graphics="dukattruecardassian.jpg" text="{SD}Leadership {SD}Navigation {SD}Officer {SD}Programming {SD}Security Commander: Naprem. When an engagement involving this personnel ends, the ship he is aboard and each of your {car} personnel aboard it are not stopped. You cannot begin any other engagements this turn.">
 			<attr key="rarity" value="P"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Cardassian}"/>
 			<attr key="race" value="Cardassian"/>
 			<attr key="cost" value="3"/>
@@ -37,7 +37,7 @@
 		</card>
 		<card name="Kudak'Etan (Arrogant First)" graphics="kudaketanarrogantfirst.jpg" text="{SD}Astrometrics {SD}Leadership {SD}Navigation {SD}Officer Alpha. Commander: U.S.S. Defiant. Order - Discard a Vorta from hand to place this personnel and any number of your Jem'Hadar present aboard a ship at the same mission.">
 			<attr key="rarity" value="P"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Dominion}"/>
 			<attr key="race" value="Jem'Hadar"/>
 			<attr key="cost" value="3"/>
@@ -48,7 +48,7 @@
 		</card>
 		<card name="Data (Commanding Officer)" graphics="datacommandingofficer.jpg" text="{SD}Engineer {SD}Leadership {SD}Officer {SD}Physics {SD}Programming Commander: U.S.S. Southerland. Order - Discard a card from hand to name a card. When an opponent plays that card, score 5 points. This effect lasts until the start of your next turn. You may do this only once each turn.">
 			<attr key="rarity" value="P"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Federation}"/>
 			<attr key="race" value="Android"/>
 			<attr key="cost" value="3"/>
@@ -59,7 +59,7 @@
 		</card>
 		<card name="Jean-Luc Picard (Starship Captain)" graphics="jeanlucpicardstarshipcaptain.jpg" text="{SD}Diplomacy {SD}Honor {SD}Law {SD}Leadership {SD}Navigation {SD}Officer Commander: U.S.S. Enterprise-D. Order - This personnel loses Diplomacy, Law and Navigation and gains Anthropology, Archaeology and Science until the end of this turn. You may do this only once each turn.">
 			<attr key="rarity" value="P"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Federation}"/>
 			<attr key="race" value="Human"/>
 			<attr key="cost" value="3"/>
@@ -70,7 +70,7 @@
 		</card>
 		<card name="Gowron (Sole Leader of the Empire)" graphics="gowronsoleleaderoftheempire.jpg" text="{SD}Honor {SD}Law {SD}2 Leadership {SD}Security Chancellor. Commander: I.K.S. Bortas. When your Honor Klingon is about to be stopped or killed by a dilemma, you may discard a Treachery Klingon from hand to prevent that. You may do this only once each turn.">
 			<attr key="rarity" value="P"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Klingon}"/>
 			<attr key="race" value="Klingon"/>
 			<attr key="cost" value="3"/>
@@ -81,7 +81,7 @@
 		</card>
 		<card name="Arctus Baran (Treasure Seeker)" graphics="arctusbarantreasureseeker.jpg" text="{SD}Archaeology {SD}Officer {SD}Security {SD}Treachery Commander: Fortune. Smuggler. Thief. When this personnel uses a skill to complete a mission, you may download an Artifact card and place it in your core (if it is an event) or present with this personnel (if it is an equipment).">
 			<attr key="rarity" value="P"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Non-Aligned}"/>
 			<attr key="race" value="Alien"/>
 			<attr key="cost" value="2"/>
@@ -92,7 +92,7 @@
 		</card>
 		<card name="Velal (Reluctant Aggressor)" graphics="velalreluctantaggressor.jpg" text="{SD}Archaeology {SD}Leadership {SD}Officer {SD}Security Commander: Rovaran. General. When the player on your right attempts this mission, if you command a Maneuver event, you may draw an extra dilemma and spend one extra in total cost on dilemmas.">
 			<attr key="rarity" value="P"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Romulan}"/>
 			<attr key="race" value="Romulan"/>
 			<attr key="cost" value="2"/>

@@ -138,7 +138,7 @@
 		</card>
 		<card name="Kira Nerys (Rescuer)" graphics="kiranerysrescuer.jpg" text="{SD}Honor {SD}Leadership {SD}Navigation {SD}Security When you play this personnel, you may choose one: take up to two of your {baj} personnel from your discard pile into hand; or place the bottom two cards of your deck in your discard pile.">
 			<attr key="rarity" value="V"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Bajoran}"/>
 			<attr key="race" value="Bajoran"/>
 			<attr key="cost" value="3"/>
@@ -149,7 +149,7 @@
 		</card>
 		<card name="Vaatrik Pallra (Seductive Manipulator)" graphics="vaatrikpallraseductivemanipulator.jpg" text="{SD}Acquisition {SD}Anthropology {SD}Treachery When this personnel begins a mission attempt, you may remove a non-{baj} personnel in your discard pile from the game to download a {baj} personnel.">
 			<attr key="rarity" value="V"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Bajoran}"/>
 			<attr key="race" value="Bajoran"/>
 			<attr key="cost" value="2"/>
@@ -160,7 +160,7 @@
 		</card>
 		<card name="Harvest Drone" graphics="harvestdrone.jpg" text="{SD}Engineer {SD}Exobiology {SD}Security Drone. When you take command of a personnel that you do not own, you may randomly select an opponent's personnel present with this personnel, take command of him or her, and place this personnel on the bottom of your deck.">
 			<attr key="rarity" value="V"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Borg}"/>
 			<attr key="race" value="Borg"/>
 			<attr key="cost" value="5"/>
@@ -171,7 +171,7 @@
 		</card>
 		<card name="Synergy Drone" graphics="synergydrone.jpg" text="Drone. When this personnel gains a skill he does not already have, he is attributes +1 until the end of the turn (limit +4).">
 			<attr key="rarity" value="V"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Borg}"/>
 			<attr key="race" value="Borg"/>
 			<attr key="cost" value="2"/>
@@ -182,7 +182,7 @@
 		</card>
 		<card name="Three of Twelve (Specialty Drone)" graphics="threeoftwelvespecialtydrone.jpg" text="{SD}Medical {SD}Science {SD}Security Drone. While this personnel is attempting a mission, each of your unique personnel present is attributes +1.">
 			<attr key="rarity" value="V"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Borg}"/>
 			<attr key="race" value="Borg"/>
 			<attr key="cost" value="2"/>
@@ -193,7 +193,7 @@
 		</card>
 		<card name="Weyoun (Scheming Negotiator)" graphics="weyounschemingnegotiator.jpg" text="{SD}Anthropology {SD}Diplomacy {SD}Science {SD}Treachery Commander: Tenak'talar. When you play a {dom} Treachery personnel, you may take a Jem'Hadar personnel from your discard pile and place it on the bottom of your deck.">
 			<attr key="rarity" value="V"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Dominion}"/>
 			<attr key="race" value="Vorta"/>
 			<attr key="cost" value="2"/>
@@ -204,7 +204,7 @@
 		</card>
 		<card name="Hikaru Sulu (Loyal Captain)" graphics="hikarusululoyalcaptain.jpg" text="{SD}Archaeology {SD}Astrometrics {SD}Honor {SD}Leadership {SD}Navigation {SD}Officer Commander: U.S.S. Excelsior. You may play this personnel aboard your U.S.S. Excelsior. When the ship this personnel is aboard is about to move to a mission where you command a ship, subtract 2 from the Range required.">
 			<attr key="rarity" value="V"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Federation}"/>
 			<attr key="race" value="Human"/>
 			<attr key="cost" value="5"/>
@@ -215,7 +215,7 @@
 		</card>
 		<card name="Jake Sisko (Engineer's Apprentice)" graphics="jakesiskoengineersapprentice.jpg" text="{SD}Anthropology {SD}Engineer {SD}Honor {SD}Programming When an event in your core is destroyed, if this personnel is equipped with a non-Hand Weapon equipment, you may download a {DS9} personnel. You may do this only once each turn.">
 			<attr key="rarity" value="V"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Federation}"/>
 			<attr key="race" value="Human"/>
 			<attr key="cost" value="2"/>
@@ -226,7 +226,7 @@
 		</card>
 		<card name="Lance Cartwright (Co-Conspirator)" graphics="lancecartwrightcoconspirator.jpg" text="{SD}Astrometrics {SD}Intelligence {SD}Leadership {SD}Officer {SD}Security {SD}Treachery Admiral. To play this personnel, you must destroy an event you command.">
 			<attr key="rarity" value="V"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Federation}"/>
 			<attr key="race" value="Human"/>
 			<attr key="cost" value="1"/>
@@ -237,7 +237,7 @@
 		</card>
 		<card name="Laurence T. Stone (Portmaster)" graphics="laurencetstoneportmaster.jpg" text="{SD}Diplomacy {SD}Engineer {SD}Law {SD}Leadership {SD}Officer You may play this personnel at cost +3 to place up to three of your {TOS} personnel who have a cost of 1 or less on the bottom of their owner's decks.">
 			<attr key="rarity" value="V"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Federation}"/>
 			<attr key="race" value="Human"/>
 			<attr key="cost" value="2"/>
@@ -248,7 +248,7 @@
 		</card>
 		<card name="Nog (Eager Ensign)" graphics="nogeagerensign.jpg" text="{SD}Acquisition {SD}Engineer {SD}Officer {SD}Physics When an event in your core is destroyed, if this personnel is equipped with a non-Hand Weapon equipment, you may download an event. You may do this only once each turn.">
 			<attr key="rarity" value="V"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Federation}"/>
 			<attr key="race" value="Ferengi"/>
 			<attr key="cost" value="2"/>
@@ -259,7 +259,7 @@
 		</card>
 		<card name="Gaila (Arms Dealer)" graphics="gailaarmsdealer.jpg" text="{SD}Acqusition {SD}Geology {SD}Physics {SD}Programming {SD}Treachery At the start of each of your turns, you may take an equipment from beneath your Ferenginar and place it in your discard pile to spend 4 additional counters this turn.">
 			<attr key="rarity" value="V"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Ferengi}"/>
 			<attr key="race" value="Ferengi"/>
 			<attr key="cost" value="2"/>
@@ -270,7 +270,7 @@
 		</card>
 		<card name="Azetbur (Visionary Chancellor)" graphics="azetburvisionarychancellor.jpg" text="{SD}Anthropology {SD}Diplomacy {SD}Exobiology {SD}Honor {SD}Law {SD}2 Leadership Chancellor. When this personnel uses a skill to complete a mission, you may destroy three of your Assault and/or Maneuver events to score 10 points.">
 			<attr key="rarity" value="V"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Klingon}"/>
 			<attr key="race" value="Klingon"/>
 			<attr key="cost" value="4"/>
@@ -281,7 +281,7 @@
 		</card>
 		<card name="Kerla (Military Advisor)" graphics="kerlamilitaryadvisor.jpg" text="{SD}Astrometrics {SD}Diplomacy {SD}Officer {SD}Security General. When you win an engagement involving this personnel, you may place him on the bottom of his owner's deck to choose one of your non-headquarters missions. The player on your left places the top card of his or her dilemma pile beneath that mission.">
 			<attr key="rarity" value="V"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Klingon}"/>
 			<attr key="race" value="Klingon"/>
 			<attr key="cost" value="3"/>
@@ -292,7 +292,7 @@
 		</card>
 		<card name="Annorax (Temporal Architect)" graphics="annoraxtemporalarchitect.jpg" text="{SD}Anthropology {SD}2 Engineer {SD}Leadership {SD}Physics {SD}Science {SD}2 Treachery Commander: Kyana's Hope.While this personnel is aboard your non-{fed} ship, that ship is Weapons +2. Order - Remove your Temporal event that has a cost of 3 or more from the game to name an event. Each player shuffles each copy of that event they command into its owner's deck.">
 			<attr key="rarity" value="V"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Non-Aligned}"/>
 			<attr key="race" value="Krenim"/>
 			<attr key="cost" value="5"/>
@@ -303,7 +303,7 @@
 		</card>
 		<card name="Kes (Experienced Ocampa)" graphics="kesexperiencedocampa.jpg" text="{SD}Anthropology {SD}Exobiology {SD}Honor {SD}Medical {SD}Science {SD}Telepathy When you play this personnel, you may discard an equipment or event from hand to make this personnel cost -2. When this personnel uses a skill to complete a {DQ} mission, each player may download a personnel with that skill.">
 			<attr key="rarity" value="V"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Non-Aligned}"/>
 			<attr key="race" value="Ocampa"/>
 			<attr key="cost" value="4"/>
@@ -314,7 +314,7 @@
 		</card>
 		<card name="D'Ral (Mutinous Commander)" graphics="dralmutinouscommander.jpg" text="{SD}Anthropology {SD}Engineer {SD}Officer {SD}Treachery Dissident. When your {rom} personnel present is randomly selected by a dilemma, you may replace that personnel with a {rom} personnel from hand who has the same cost as that personnel. Place the personnel you replaced in his or her owner's discard pile.">
 			<attr key="rarity" value="V"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Romulan}"/>
 			<attr key="race" value="Romulan"/>
 			<attr key="cost" value="2"/>
@@ -325,7 +325,7 @@
 		</card>
 		<card name="Sorus" graphics="sorus.jpg" text="{SD}Engineer {SD}Programming {SD}Security {SD}Treachery Order - Place this personnel on the bottom of his owner's deck to examine each opponent's hand. You may discard an event or interrupt from each examined hand.">
 			<attr key="rarity" value="V"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Romulan}"/>
 			<attr key="race" value="Roulan"/>
 			<attr key="cost" value="2"/>
@@ -336,7 +336,7 @@
 		</card>
 		<card name="Jonathan Archer (Heroic Diplomat)" graphics="jonathanarcherheroicdiplomat.jpg" text="{SD}Anthropology {SD}Diplomacy {SD}Exobiology {SD}Honor {SD}Leadership {SD}Navigation {SD}Officer Commander: Enterprise.While this personnel is facing a dilemma, if you command three non-Human personnel, you may discard the top card of your deck to make each of your Humans attributes +1 until the end of that dilemma.">
 			<attr key="rarity" value="V"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Romulan}"/>
 			<attr key="race" value="Roulan"/>
 			<attr key="cost" value="2"/>

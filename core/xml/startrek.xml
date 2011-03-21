@@ -238,42 +238,42 @@
   <option name="Mission text 7 font size" value="20"/>
   <option name="Mission text 7 content" value="[span]"/>
 
-  <option name="Personel box 1" value="54,262,261,26"/>
-  <option name="Personel box 1 color" value="110,115,129"/>
-  <option name="Personel text 1" value="54,262,261,26"/>
-  <option name="Personel text 1 font size" value="20"/>
-  <option name="Personel text 1 font" value="2"/>
-  <option name="Personel text 1 align" value="1"/>
-  <option name="Personel text 1 content" value="[race]"/>
-  <option name="Personel box 2" value="70,20,20,20"/>
-  <option name="Personel box 2 color" value="110,115,129"/>
-  <option name="Personel text 2" value="70,20,20,20"/>
-  <option name="Personel text 2 font size" value="15"/>
-  <option name="Personel text 2 align" value="1"/>
-  <option name="Personel text 2 content" value="[cost]"/>
-  <option name="Personel text 3" value="20,20,40,40"/>
-  <option name="Personel text 3 align" value="1"/>
-  <option name="Personel text 3 content" value="[affiliation]"/>
-  <option name="Personel text 4" value="29,305,20,122"/>
-  <option name="Personel text 4 content" value="[icons]"/>
-  <option name="Personel box 5" value="55,447,88,23"/>
-  <option name="Personel box 5 color" value="110,115,129"/>
-  <option name="Personel text 5" value="55,447,88,23"/>
-  <option name="Personel text 5 font size" value="20"/>
-  <option name="Personel text 5 align" value="1"/>
-  <option name="Personel text 5 content" value="Integrity [integrity]"/>
-  <option name="Personel box 6" value="146,447,88,23"/>
-  <option name="Personel box 6 color" value="110,115,129"/>
-  <option name="Personel text 6" value="146,447,88,23"/>
-  <option name="Personel text 6 font size" value="20"/>
-  <option name="Personel text 6 align" value="1"/>
-  <option name="Personel text 6 content" value="Cunning [cunning]"/>
-  <option name="Personel box 7" value="237,447,88,23"/>
-  <option name="Personel box 7 color" value="110,115,129"/>
-  <option name="Personel text 7" value="237,447,88,23"/>
-  <option name="Personel text 7 font size" value="20"/>
-  <option name="Personel text 7 align" value="1"/>
-  <option name="Personel text 7 content" value="Strength [strength]"/>
+  <option name="Personnel box 1" value="54,262,261,26"/>
+  <option name="Personnel box 1 color" value="110,115,129"/>
+  <option name="Personnel text 1" value="54,262,261,26"/>
+  <option name="Personnel text 1 font size" value="20"/>
+  <option name="Personnel text 1 font" value="2"/>
+  <option name="Personnel text 1 align" value="1"/>
+  <option name="Personnel text 1 content" value="[race]"/>
+  <option name="Personnel box 2" value="70,20,20,20"/>
+  <option name="Personnel box 2 color" value="110,115,129"/>
+  <option name="Personnel text 2" value="70,20,20,20"/>
+  <option name="Personnel text 2 font size" value="15"/>
+  <option name="Personnel text 2 align" value="1"/>
+  <option name="Personnel text 2 content" value="[cost]"/>
+  <option name="Personnel text 3" value="20,20,40,40"/>
+  <option name="Personnel text 3 align" value="1"/>
+  <option name="Personnel text 3 content" value="[affiliation]"/>
+  <option name="Personnel text 4" value="29,305,20,122"/>
+  <option name="Personnel text 4 content" value="[icons]"/>
+  <option name="Personnel box 5" value="55,447,88,23"/>
+  <option name="Personnel box 5 color" value="110,115,129"/>
+  <option name="Personnel text 5" value="55,447,88,23"/>
+  <option name="Personnel text 5 font size" value="20"/>
+  <option name="Personnel text 5 align" value="1"/>
+  <option name="Personnel text 5 content" value="Integrity [integrity]"/>
+  <option name="Personnel box 6" value="146,447,88,23"/>
+  <option name="Personnel box 6 color" value="110,115,129"/>
+  <option name="Personnel text 6" value="146,447,88,23"/>
+  <option name="Personnel text 6 font size" value="20"/>
+  <option name="Personnel text 6 align" value="1"/>
+  <option name="Personnel text 6 content" value="Cunning [cunning]"/>
+  <option name="Personnel box 7" value="237,447,88,23"/>
+  <option name="Personnel box 7 color" value="110,115,129"/>
+  <option name="Personnel text 7" value="237,447,88,23"/>
+  <option name="Personnel text 7 font size" value="20"/>
+  <option name="Personnel text 7 align" value="1"/>
+  <option name="Personnel text 7 content" value="Strength [strength]"/>
 
   <option name="Ship box 1" value="54,262,261,26"/>
   <option name="Ship box 1 color" value="110,115,129"/>
@@ -324,15 +324,17 @@
   <option name="Interrupt image border color" value="44,55,59"/>
   <option name="Mission image" value="35,70,305,200"/>
   <option name="Mission image border color" value="44,55,59"/>
-  <option name="Personel image" value="35,70,305,200"/>
-  <option name="Personel image border color" value="44,55,59"/>
+  <option name="Personnel image" value="35,70,305,200"/>
+  <option name="Personnel image border color" value="44,55,59"/>
   <option name="Ship image" value="35,70,305,200"/>
   <option name="Ship image border color" value="44,55,59"/>
   <option name="default image color" value="106,95,112"/>
   <option name="default image border" value="2"/>
   <option name="default image font size" value="100"/>
 
-
-
   <option name="deck order" value="type"/>
+
+  <trigger event="location hint" attribute="type"/>
+
+  <trigger event="play" attribute="type"/>
 </ccg>

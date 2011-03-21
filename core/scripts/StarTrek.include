@@ -48,7 +48,7 @@ product.image{"Extreme Measures Virtual"}="Extreme Measures.jpg";
 game.bindings=(
   ("KeyControlKey1","{orange}Play and Draw Cards (7 Counters)...",),
   ("KeyControlKey2","{orange}Execute Orders...",),
-  ("KeyControlKey3","{red}Order - Beam Personel...",),
+  ("KeyControlKey3","{red}Order - Beam Personnel...",),
   ("KeyControlKey4","{red}Order - Move ship...",),
   ("KeyControlKey5","{red}Order - Attempt Mission...",),
   ("KeyControlKey6","{red}Order - Other Orders...",),
@@ -123,7 +123,7 @@ FILTER_OPTIONS=(
  ("Eqipment","Attr('type',#)=='Equipment'","default"),
  ("Interrupts","Attr('type',#)=='Interrupt'","default"),
  ("Missions","Attr('type',#)=='Mission'","default"),
- ("Personel","Attr('type',#)=='Personel'","default"),
+ ("Personnel","Attr('type',#)=='Personnel'","default"),
  ("Ships","Attr('type',#)=='Ship'","default"),
  "{hr}",
 );
@@ -240,7 +240,11 @@ def PlayKeyShiftControlKeyD
 
 # MOUSE
 # =====
-
+#
+# MouseLeftClickDilemmas() - Set a dilemma aside.
+#
+def MouseLeftClickDilemmas
+  PlayKeyEnd();
 
 # SPECIAL KEYS
 # ============
@@ -258,7 +262,20 @@ def PlayKeyShiftControlKeyD
 #
 def InitializeLocationTables
 {
-  rules.category=(,);
-
-  rules.coordinate=(,);
+  rules.category=(
+    ('type=="Dilemma"',
+      '("dilemma",name(card))'),
+    ('type=="Mission"',
+      '("mission","")'),
+  );
+  rules.coordinate=(
+    (("mission",),(
+       (("LocationList",((170,card.design.height-125),(320,card.design.height-125),(470,card.design.height-125),(620,card.design.height-125),(770,card.design.height-125)),),),
+       (,)
+    )),
+  (("attach",),(
+       (("TargetCard",-w(10),0,-w(10),0),),
+     (,)
+  )),
+  );
 }

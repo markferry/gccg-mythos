@@ -231,7 +231,7 @@
 			<attr key="type" value="Event"/>
 			<attr key="cost" value="1"/>
 		</card>
-		<card name="U.S.S. Enterprise-J" graphics="ussenterprisej.jpg" text="Plays in your core. Each of your personel at a mission that is worth 40 or more points is attributes +1.">
+		<card name="U.S.S. Enterprise-J" graphics="ussenterprisej.jpg" text="Plays in your core. Each of your personnel at a mission that is worth 40 or more points is attributes +1.">
 			<attr key="rarity" value="R"/>
 			<attr key="type" value="Event"/>
 			<attr key="cost" value="1"/>
@@ -376,7 +376,7 @@
 		</card>
 		<card name="Kira Nerys (First Officer)" graphics="kiranerysfirstofficer.jpg" text="{SD}Diplomacy {SD}Honor {SD}Officer {SD}Security Order - If you command two missions worth 40 or more points, discard four cards from hand to take a {baj} personnel from your discard pile and place it on your headquarters mission.">
 			<attr key="rarity" value="U"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Bajoran}"/>
 			<attr key="race" value="Bajoran"/>
 			<attr key="cost" value="4"/>
@@ -387,7 +387,7 @@
 		</card>
 		<card name="Leeta (Union Member)" graphics="leetaunionmember.jpg" text="{SD}Diplomacy {SD}Honor {SD}Leadership Dabo Girl. When this personnel is randomly selected by a dilemma, you may take the top card of the opponent on your left's dilemma pile and place it beneath your mission that is worth 40 or more points.">
 			<attr key="rarity" value="R"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Bajoran}"/>
 			<attr key="race" value="Bajoran"/>
 			<attr key="cost" value="2"/>
@@ -398,7 +398,7 @@
 		</card>
 		<card name="Winn Adami (Religious Opportunist)" graphics="winnadamireligiousopportunist.jpg" text="{SD}Anthropology {SD}Diplomacy {SD}Law {SD}Leadership {SD}Treachery Vedek. Order - Remove an event in your discard pile from the game to take a Consume dilemma or Persistent dilemma you own from beneath an opponent's completed mission and return it to your dilemma pile.">
 			<attr key="rarity" value="U"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Bajoran}"/>
 			<attr key="race" value="Bajoran"/>
 			<attr key="cost" value="3"/>
@@ -409,7 +409,7 @@
 		</card>
 		<card name="Borg Queen (Obsessed)" graphics="borgqueneobsessed.jpg" text="{SD}Biology {SD}Diplomacy {SD}Exobiology {SD}2 Leadership {SD}Science {SD}2 Treachery When you play this personnel, if you have completed a mission requiring Exobiology or Science, she is cost -4. This personnel is the corresponding Commander of your {bor} ship that she is aboard.">
 			<attr key="rarity" value="R"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Borg}"/>
 			<attr key="race" value="Borg"/>
 			<attr key="cost" value="4"/>
@@ -420,7 +420,7 @@
 		</card>
 		<card name="Data (Tempted by Flesh)" graphics="datatemptedbyflesh.jpg" text="{SD}Astrometrics {SD}2 Engineer {SD}Exobiology {SD}2 Programming {SD}Science {SD}Treachery At the start of each of your turns, you may return this personnel to your hand. If you do not, remove this personnel from the game.">
 			<attr key="rarity" value="R"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Borg}"/>
 			<attr key="race" value="Android/Borg"/>
 			<attr key="cost" value="3"/>
@@ -431,7 +431,7 @@
 		</card>
 		<card name="Crell Moset (Notorious Exobiologist)" graphics="crellmosetnotoriousexobiologist.jpg" text="{SD}2 Exobiology {SD}2 Medical {SD}Science {SD}2 Treachery When your {car} personnel present is about to be killed or stopped by a dilemma that costs 3 or more, you may discard a non-{car} personnel from hand to prevent that.">
 			<attr key="rarity" value="R"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Cardassian}"/>
 			<attr key="race" value="Cardassian"/>
 			<attr key="cost" value="4"/>
@@ -442,7 +442,7 @@
 		</card>
 		<card name="Silaran Prin (Between Darkness and Light)" graphics="silaranprinbetweendarknessandlight.jpg" text="{SD}Anthropology {SD}Engineer {SD}Programming {SD}2 Treachery Assassin. Order - Name a personnel. When an opponent plays that personnel, you may place this personnel in his or her owner's discard pile to kill that personnel. This effect lasts until this order is executed again.">
 			<attr key="rarity" value="U"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Cardassian}"/>
 			<attr key="race" value="Cardassian"/>
 			<attr key="cost" value="3"/>
@@ -453,7 +453,7 @@
 		</card>
 		<card name="Eris (Duplicitous Vorta)" graphics="erisduplicitousvorta.jpg" text="{SD}Biology {SD}Diplomacy {SD}Medical {SD}Science {SD}Treachery When you reveal a Persistent dilemma from your dilemma stack, it is cost -1. When you begin combat involving this personnel, randomly select an opponent's personnel present to be excluded from that combat.">
 			<attr key="rarity" value="U"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Dominion}"/>
 			<attr key="race" value="Vorta"/>
 			<attr key="cost" value="3"/>
@@ -464,7 +464,7 @@
 		</card>
 		<card name="Founder Leader (Single-Minded)" graphics="founderleadersingleminded.jpg" text="{SD}Law {SD}2 Leadership {SD}Science {SD}2 Treachery Founder. Shape-shifter. While this personnel is facing a dilemma, you may discard a Morph card from hand to exchange a Founder in your hand with a Founder present.">
 			<attr key="rarity" value="R"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Dominion}"/>
 			<attr key="race" value="Changeling"/>
 			<attr key="cost" value="2"/>
@@ -475,7 +475,7 @@
 		</card>
 		<card name="Odo (The Great Link's Savior)" graphics="odothegreatlinkssaviour.jpg" text="{SD}Anthropology {SD}Exobiology {SD}Honor {SD}Law {SD}Leadership {SD}Programming {SD}2 Security Shape-shifter. When this personnel is about to be killed or stopped by a dilemma, you may have each opponent score 5 points to prevent that.">
 			<attr key="rarity" value="R"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Dominion}"/>
 			<attr key="race" value="Changeling"/>
 			<attr key="cost" value="5"/>
@@ -486,7 +486,7 @@
 		</card>
 		<card name="Talak'talan (Keen Third)" graphics="talaktalankeenthird.jpg" text="{SD}Astrometrics {SD}Diplomacy {SD}Exobiology {SD}2 Security {SD}Transporters While this personnel is attempting a mission worth 40 or more points, if he is present with a Founder and a Vorta, he is attributes +2.">
 			<attr key="rarity" value="C"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Dominion}"/>
 			<attr key="race" value="Jem'Hadar"/>
 			<attr key="cost" value="4"/>
@@ -497,7 +497,7 @@
 		</card>
 		<card name="Benjamin Finney (Bitter Records Officer)" graphics="benjaminfinneybitterrecordsofficer.jpg" text="{SD}Astrometrics {SD}Engineer {SD}Programming {SD}Treachery You may play this personnel at cost +2 to name a skill. Each player reveals his or her hand and places each revealed personnel with that skill on top of his or her owner's deck.">
 			<attr key="rarity" value="C"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Federation}"/>
 			<attr key="race" value="Human"/>
 			<attr key="cost" value="1"/>
@@ -508,7 +508,7 @@
 		</card>
 		<card name="Benjamin Sisko (Bold Captain)" graphics="benjaminsiskoboldcaptain.jpg" text="{SD}Diplomacy {SD}Engineer {SD}Leadership {SD}Officer While at a mission worth 40 or more points, this personnel cannot be stopped by dilemmas.">
 			<attr key="rarity" value="U"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Federation}"/>
 			<attr key="race" value="Human"/>
 			<attr key="cost" value="3"/>
@@ -519,7 +519,7 @@
 		</card>
 		<card name="Beverly Crusher (Captain Picard)" graphics="beverlycrushercaptainpicard.jpg" text="{SD}Exobiology {SD}Honor {SD}Leadership {SD}Medical {SD}Officer Commander: U.S.S. Pasteur. While this personnel is attempting a mission worth 40 or more points, she is attributes +1 and gains Medical.">
 			<attr key="rarity" value="C"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Federation}"/>
 			<attr key="race" value="Human"/>
 			<attr key="cost" value="2"/>
@@ -530,7 +530,7 @@
 		</card>
 		<card name="Clark Terrell (Reliant Captain)" graphics="clarkterrelreliantcaptain.jpg" text="{SD}Geology {SD}Leadership {SD}Officer {SD}Transporters Commander: U.S.S. Reliant. You may play this personnel aboard your U.S.S. Reliant. While you command a {na} ship, this personnel becomes {na}.">
 			<attr key="rarity" value="C"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Federation}"/>
 			<attr key="race" value="Human"/>
 			<attr key="cost" value="2"/>
@@ -541,7 +541,7 @@
 		</card>
 		<card name="Data (Lucasian Chair)" graphics="datalucasianchair.jpg" text="{SD}2 Astrometrics {SD}Engineer {SD}Exobiology {SD}Physics {SD}Programming {SD}2 Science When you play this personnel, if you have completed a mission requiring Diplomacy or Leadership, he is cost -4.">
 			<attr key="rarity" value="R"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Federation}"/>
 			<attr key="race" value="Android"/>
 			<attr key="cost" value="5"/>
@@ -552,7 +552,7 @@
 		</card>
 		<card name="Ezri Dax (Resourceful Counselor)" graphics="ezridaxresourcefulcounselor.jpg" text="{SD}Anthropology {SD}Diplomacy {SD}Geology Host. If you command Jadzia Dax, place this personnel in her owner's discard pile. Your {DS9} personnel and {E} personnel present cannot be killed by dilemmas that cost 3 or more.">
 			<attr key="rarity" value="R"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Federation}"/>
 			<attr key="race" value="Trill"/>
 			<attr key="cost" value="4"/>
@@ -563,7 +563,7 @@
 		</card>
 		<card name="Geordi La Forge (Retired Engineer)" graphics="geordilaforgeretiredengineer.jpg" text="{SD}Anthropology {SD}Biology {SD}Engineer {SD}Honor {SD}Physics While this personnel is facing a Damage dilemma, you may lose 5 points to prevent and overcome that dilemma.">
 			<attr key="rarity" value="C"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Federation}"/>
 			<attr key="race" value="Human"/>
 			<attr key="cost" value="3"/>
@@ -574,7 +574,7 @@
 		</card>
 		<card name="Katherine Pulaski (Chief Medical Officer)" graphics="katherinepulaskichiefmedicalofficer.jpg" text="{SD}Anthropology {SD}Biology {SD}Exobiology {SD}Honor {SD}2 Medical When any number of your personnel present are about to be killed by a dilemma, you may shuffle each of those personnel into your deck instead.">
 			<attr key="rarity" value="U"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Federation}"/>
 			<attr key="race" value="Human"/>
 			<attr key="cost" value="4"/>
@@ -585,7 +585,7 @@
 		</card>
 		<card name="Mot (The Barber)" graphics="motthebarber.jpg" text="{SD}Honor When your six personnel present attempt a mission, subtract one from the number of dilemmas your opponent may draw and one from the total cost he or she may spend on dilemmas.">
 			<attr key="rarity" value="C"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Federation}"/>
 			<attr key="race" value="Bolian"/>
 			<attr key="cost" value="0"/>
@@ -596,7 +596,7 @@
 		</card>
 		<card name="Sarek (Logical Being)" graphics="sareklogicalbeing.jpg" text="{SD}2 Diplomacy {SD}Honor {SD}Law When you play this personnel, each player takes a Consume or Persistent dilemma he or she owns from beneath a mission and returns it to his or her dilemma pile.">
 			<attr key="rarity" value="R"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Federation}"/>
 			<attr key="race" value="Vulcan"/>
 			<attr key="cost" value="3"/>
@@ -607,7 +607,7 @@
 		</card>
 		<card name="Sarek (Vulcan Delegate)" graphics="sarekvulcandelegate.jpg" text="{SD}Anthropology {SD}Astrometrics {SD}Diplomacy {SD}2 Honor {SD}Science You may play this personnel at cost +1 to draw a card for each mission you command that is worth 40 or more points.">
 			<attr key="rarity" value="C"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Federation}"/>
 			<attr key="race" value="Vulcan"/>
 			<attr key="cost" value="4"/>
@@ -618,7 +618,7 @@
 		</card>
 		<card name="Sirna Kolrami (Famed Strategist)" graphics="sirnakolramifamedstrategist.jpg" text="{SD}Security While facing a dilemma, a personnel present may lose all of his or her skills until the end of that dilemma. You may do this only once each turn.">
 			<attr key="rarity" value="C"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Federation}"/>
 			<attr key="race" value="Zakdorn"/>
 			<attr key="cost" value="2"/>
@@ -629,7 +629,7 @@
 		</card>
 		<card name="The Doctor (Emergency Command Hologram)" graphics="thedoctoremergencycommandhologram.jpg" text="{SD}Leadership {SD}Navigation {SD}2 Officer {SD}Programming {SD}2 Security Commander: U.S.S. Voyager. When you play this personnel, choose one - remove a Damage card from one of your ships, or download a Maneuver.">
 			<attr key="rarity" value="R"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Federation}"/>
 			<attr key="race" value="Hologram"/>
 			<attr key="cost" value="4"/>
@@ -640,7 +640,7 @@
 		</card>
 		<card name="Leosa (Grifter)" graphics="leosagrifter.jpg" text="{SD}Diplomacy {SD}Programming {SD}Treachery Dabo Girl. Thief. Order - Stop this personnel and choose an opponent to make that opponent choose a Hologram he or she commands and return him or her to his or her owner's hand.">
 			<attr key="rarity" value="C"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Ferengi}"/>
 			<attr key="race" value="Human"/>
 			<attr key="cost" value="1"/>
@@ -651,7 +651,7 @@
 		</card>
 		<card name="Nog (Little Green Man)" graphics="noglittlegreenman.jpg" text="{SD}Acquisition {SD}Engineer {SD}Honor {SD}Physics While this personnel is present with a {Pa} personnel, he cannot be stopped or killed by a dilemma that costs 3 or more.">
 			<attr key="rarity" value="U"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Ferengi}"/>
 			<attr key="race" value="Ferengi"/>
 			<attr key="cost" value="2"/>
@@ -662,7 +662,7 @@
 		</card>
 		<card name="Rom (Little Green Man)" graphics="romlittlegreenman.jpg" text="{SD}Engineer {SD}Navigation {SD}Programming {SD}Science While this personnel is present with a {Pa} personnel, if he is attempting a mission worth 40 or more points, he is attributes +2 and gains one of every skill he already has.">
 			<attr key="rarity" value="U"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Ferengi}"/>
 			<attr key="race" value="Ferengi"/>
 			<attr key="cost" value="2"/>
@@ -673,7 +673,7 @@
 		</card>
 		<card name="Chang (Gorkon's Chief of Staff)" graphics="changgorkonschiefofstaff.jpg" text="{SD}Leadership {SD}Officer {SD}2 Security {SD}2 Treachery Commander: I.K.S. Kla'Diyus. General. While this personnel is facing a dilemma, you may have him lose 2 Treachery to make him gain Diplomacy and Law until the end of this turn.">
 			<attr key="rarity" value="U"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Klingon}"/>
 			<attr key="race" value="Klingon"/>
 			<attr key="cost" value="3"/>
@@ -684,7 +684,7 @@
 		</card>
 		<card name="Gorkon (Visionary Chancellor)" graphics="gorkonvisionarychancellor.jpg" text="{SD}2 Diplomacy {SD}2 Honor {SD}Law {SD}2 Leadership Chancellor. Commander: Kronos One. When you play this personnel, if you have completed a mission requiring Diplomacy or Leadership, he is cost -4.">
 			<attr key="rarity" value="R"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Klingon}"/>
 			<attr key="race" value="Klingon"/>
 			<attr key="cost" value="4"/>
@@ -695,7 +695,7 @@
 		</card>
 		<card name="Gowron (Celebrated Leader)" graphics="gowroncelebratedleader.jpg" text="{SD}Honor {SD}Law {SD}2 Leadership Chancellor. When you play this personnel, if you command three events, he is cost -1. Order - Stop eight of your Honor Klingons to score 5 points.">
 			<attr key="rarity" value="R"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Klingon}"/>
 			<attr key="race" value="Klingon"/>
 			<attr key="cost" value="4"/>
@@ -706,7 +706,7 @@
 		</card>
 		<card name="Worf (Governor of H'atoria)" graphics="worfgovernorofhatoria.jpg" text="{SD}Diplomacy {SD}2 Honor {SD}Leadership {SD}Security You may play this personnel at cost +2 aboard your {TNG} ship. When your Honor personnel present is about to be killed or stopped by a dilemma that costs 3 or more, you may discard an event from hand to prevent that.">
 			<attr key="rarity" value="C"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Klingon}"/>
 			<attr key="race" value="Klingon"/>
 			<attr key="cost" value="4"/>
@@ -717,7 +717,7 @@
 		</card>
 		<card name="D'Nesh (Manipulative Gift)" graphics="dneshmanipulativegift.jpg" text="{SD}Anthropology {SD}Diplomacy {SD}Engineer {SD}Programming {SD}Treachery Thief. While a personnel present is facing a dilemma, you may destroy your event to make that personnel attributes +1 until the end of the turn.">
 			<attr key="rarity" value="C"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Non-Aligned}"/>
 			<attr key="race" value="Orion"/>
 			<attr key="cost" value="3"/>
@@ -728,7 +728,7 @@
 		</card>
 		<card name="Harrad-Sar (Slave of the Situation)" graphics="harradsarslaveofthesituation.jpg" text="{SD}Navigation {SD}Officer Commander: Devna-Lev. Smuggler. Thief. When you play this personnel, you may download up to three Thief personnel.">
 			<attr key="rarity" value="C"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Non-Aligned}"/>
 			<attr key="race" value="Orion"/>
 			<attr key="cost" value="4"/>
@@ -739,7 +739,7 @@
 		</card>
 		<card name="Hugh (Rogue Borg)" graphics="hughrogueborg.jpg" text="{SD}Anthropology {SD}Engineer {SD}Exobiology {SD}Honor {SD}Leadership {SD}Programming Dissident. While this personnel is facing a dilemma, you may destroy your equipment present to add its cost to this personnel's attributes until the end of the turn.">
 			<attr key="rarity" value="U"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Non-Aligned}"/>
 			<attr key="race" value="Borg"/>
 			<attr key="cost" value="3"/>
@@ -750,7 +750,7 @@
 		</card>
 		<card name="Kasidy Yates (Conflicted Captain)" graphics="kasidyyatesconflictedcaptain.jpg" text="{SD}Engineer {SD}Leadership {SD}Navigation {SD}Transporters Commander: Xhosa. Smuggler. While present with four {Maq} personnel, each {Maq} personnel present is Strength +2.">
 			<attr key="rarity" value="R"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Non-Aligned}"/>
 			<attr key="race" value="Human"/>
 			<attr key="cost" value="3"/>
@@ -761,7 +761,7 @@
 		</card>
 		<card name="Maras" graphics="maras.jpg" text="{SD}Diplomacy {SD}Exobiology {SD}Security {SD}Treachery Thief. While a personnel present is about to be killed by a dilemma that costs 3 or more, you may destroy your event to prevent that.">
 			<attr key="rarity" value="C"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Non-Aligned}"/>
 			<attr key="race" value="Orion"/>
 			<attr key="cost" value="2"/>
@@ -772,7 +772,7 @@
 		</card>
 		<card name="Navaar (Experienced Gift)" graphics="navaarexperiencedgift.jpg" text="{SD}Acquisition {SD}Diplomacy {SD}Exobiology {SD}2 Leadership {SD}2 Treachery Thief. While a personnel present is facing a dilemma, you may destroy your event to have that personnel gain a skill of your choice until the end of the turn.">
 			<attr key="rarity" value="C"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Non-Aligned}"/>
 			<attr key="race" value="Orion"/>
 			<attr key="cost" value="4"/>
@@ -783,7 +783,7 @@
 		</card>
 		<card name="Neras (Slave Girl)" graphics="nerasslavegirl.jpg" text="{SD}Anthropology When you play this personnel, you may draw two cards.">
 			<attr key="rarity" value="U"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Non-Aligned}"/>
 			<attr key="race" value="Orion"/>
 			<attr key="cost" value="2"/>
@@ -794,7 +794,7 @@
 		</card>
 		<card name="Persis (Loyal Daughter)" graphics="persisloyaldaughter.jpg" text="{SD}Astrometrics {SD}Engineer {SD}Programming Genetically Enhanced. ">
 			<attr key="rarity" value="C"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Non-Aligned}"/>
 			<attr key="race" value="Human"/>
 			<attr key="cost" value="2"/>
@@ -805,7 +805,7 @@
 		</card>
 		<card name="Soval (Vulcan Ambassador)" graphics="sovalvulcanambassador.jpg" text="{SD}Anthropology {SD}2 Diplomacy {SD}Honor {SD}Law {SD}Leadership {SD}Science While present with two {sf} personnel or two Vulcans, this personnel cannot be stopped or killed by dilemmas that cost 3 or more.">
 			<attr key="rarity" value="U"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Non-Aligned}"/>
 			<attr key="race" value="Vulcan"/>
 			<attr key="cost" value="4"/>
@@ -816,7 +816,7 @@
 		</card>
 		<card name="Tallera (Covert Isolationist)" graphics="talleracovertisolationist.jpg" text="{SD}Leadership {SD}Programming {SD}Science {SD}Security {SD}Treachery Smuggler. Thief. When you complete this mission, if it is worth 40 or more points, you may score 5 points.">
 			<attr key="rarity" value="R"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Non-Aligned}"/>
 			<attr key="race" value="Vulcan"/>
 			<attr key="cost" value="3"/>
@@ -827,7 +827,7 @@
 		</card>
 		<card name="Tuvix (Symbiogenesis)" graphics="tuvixsymbiogenesis.jpg" text="{SD}Anthropology {SD}Diplomacy {SD}Exobiology {SD}Honor {SD}Law {SD}Navigation {SD}Security To play this personnel, remove two of your personnel at this mission from the game. You cannot play personnel with the same title as those personnel.">
 			<attr key="rarity" value="U"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Non-Aligned}"/>
 			<attr key="race" value="Talaxian/Vulcan"/>
 			<attr key="cost" value="0"/>
@@ -838,7 +838,7 @@
 		</card>
 		<card name="Nevala" graphics="nevala.jpg" text="{SD}Astrometrics {SD}Navigation {SD}Officer {SD}Programming While aboard a ship that has four or more staffing icons, this personnel is attributes +1.">
 			<attr key="rarity" value="C"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Romulan}"/>
 			<attr key="race" value="Romulan"/>
 			<attr key="cost" value="2"/>
@@ -849,7 +849,7 @@
 		</card>
 		<card name="Nanclus (Co-Conspirator)" graphics="nancluscoconspirator.jpg" text="{SD}Diplomacy {SD}Law {SD}Treachery Order - Choose an opponent to reveal his or her hand. For each personnel revealed, this personnel is Cunning +1 and Strength +1 (if a {fed} personnel is revealed this way he may gain a skill of your choice as well) until the end of this turn. You may do this only once each turn.">
 			<attr key="rarity" value="U"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Romulan}"/>
 			<attr key="race" value="Romulan"/>
 			<attr key="cost" value="3"/>
@@ -860,7 +860,7 @@
 		</card>
 		<card name="Sela (Cunning Strategist)" graphics="selacunningstrategist.jpg" text="{SD}Intelligence {SD}Leadership {SD}Officer {SD}Security {SD}2 Treachery While this personnel is facing a dilemma, if this mission is worth 40 or more points, you may meet that dilemma's Integrity or Strength requirements using Cunning instead.">
 			<attr key="rarity" value="R"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Romulan}"/>
 			<attr key="race" value="Human/Romulan"/>
 			<attr key="cost" value="2"/>
@@ -871,7 +871,7 @@
 		</card>
 		<card name="D'Vela" graphics="dvela.jpg" text="{SD}Diplomacy {SD}Engineer {SD}Medical {SD}Navigation While a personnel present is facing a dilemma, if you have no cards in your hand, you may destroy your event to have that personnel gain a skill of your choice until the end of that dilemma.">
 			<attr key="rarity" value="C"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Starfleet}"/>
 			<attr key="race" value="Orion"/>
 			<attr key="cost" value="2"/>
@@ -882,7 +882,7 @@
 		</card>
 		<card name="Kelby (Industrious Engineer)" graphics="kelbyindustriousengineer.jpg" text="{SD}Engineer {SD}Programming {SD}Science {SD}Transporters When this personnel is about to be killed by a dilemma that costs 3 or more, if you have no cards in your hand, you may stop this personnel instead.">
 			<attr key="rarity" value="C"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Starfleet}"/>
 			<attr key="race" value="Human"/>
 			<attr key="cost" value="2"/>
@@ -893,7 +893,7 @@
 		</card>
 		<card name="Stewart Rivers (Patriotic Engineer)" graphics="stewartriverspatrioticengineer.jpg" text="{SD}Engineer {SD}Geology {SD}Physics {SD}Programming Order - Discard a Decay event from hand to download an non-Decay event or interrupt. You may do this only once each turn.">
 			<attr key="rarity" value="C"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Starfleet}"/>
 			<attr key="race" value="Human"/>
 			<attr key="cost" value="2"/>

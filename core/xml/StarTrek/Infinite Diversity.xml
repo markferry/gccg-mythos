@@ -87,7 +87,7 @@
 		</card>
 		<card name="Automated Server" graphics="automatedserver.jpg" text="{SD}Anthropology {SD}Diplomacy {SD}Exobiology {SD}Transporters Waiter. While you command three {fer} personnel, this personnel is attributes +1, gains Acquisition, and becomes {fer}.">
 			<attr key="rarity" value="V"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Non-Aligned}"/>
 			<attr key="race" value="Hologram"/>
 			<attr key="cost" value="2"/>
@@ -98,7 +98,7 @@
 		</card>
 		<card name="Doran" graphics="doran.jpg" text="{SD}Anthropology {SD}Engineer {SD}Physics {SD}Treachery While you command three {car} personnel, this personnel is attributes +1, gains Archaeology, and becomes {car}.">
 			<attr key="rarity" value="V"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Non-Aligned}"/>
 			<attr key="race" value="Hologram"/>
 			<attr key="cost" value="2"/>
@@ -109,7 +109,7 @@
 		</card>
 		<card name="Garren" graphics="garren.jpg" text="{SD}Astrometrics {SD}Navigation {SD}Programming {SD}Science While you command three {rom} personnel, this personnel is attributes +1, gains Engineer, and becomes {rom}.">
 			<attr key="rarity" value="V"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Non-Aligned}"/>
 			<attr key="race" value="Hologram"/>
 			<attr key="cost" value="2"/>
@@ -121,7 +121,7 @@
 		</card>
 		<card name="K'wov" graphics="kwov.jpg" text="{SD}Exobiology {SD}Navigation {SD}Security While you command three {kli} personnel, this personnel is attributes +1, gains Leadership, and becomes {kli}.">
 			<attr key="rarity" value="V"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Non-Aligned}"/>
 			<attr key="race" value="Hologram"/>
 			<attr key="cost" value="2"/>
@@ -132,7 +132,7 @@
 		</card>
 		<card name="Sumek" graphics="sumek.jpg" text="{SD}Geology {SD}Honor {SD}Medical While you command three {fed} personnel, this personnel gains Biology and Officer, and becomes {fed}.">
 			<attr key="rarity" value="V"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Non-Aligned}"/>
 			<attr key="race" value="Hologram"/>
 			<attr key="cost" value="2"/>

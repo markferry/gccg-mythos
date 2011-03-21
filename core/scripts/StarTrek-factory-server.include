@@ -16,8 +16,6 @@ def InitDistributions
   distribution{"CA"}{"3rares"}=((3,"R"),(0,"U"),(0,"C"));
   distribution{"NE"}=(,);
   distribution{"NE"}{"Booster"}=((7,"C"),(3,"U"),(1,"R"));
-  distribution{"XA"}=(,);
-  distribution{"XA"}{"Booster"}=((1,"P"));
   distribution{"SW"}=(,);
   distribution{"SW"}{"Booster"}=((7,"C"),(3,"U"),(1,"R"));
   distribution{"BG"}=(,);
@@ -38,6 +36,18 @@ def InitDistributions
   distribution{"ID"}=(,);
   distribution{"PP"}=(,);
   distribution{"EM"}=(,);
+  distribution{"XA"}=(,);
+  distribution{"XA"}{"Booster"}=((1,"P"),);
+  distribution{"FT"}=(,);
+  distribution{"FT"}{"Booster"}=((1,"P"),);
+  distribution{"R"}=(,);
+  distribution{"R"}{"Booster"}=((1,"P"),);
+  distribution{"AP"}=(,);
+  distribution{"AP"}{"Booster"}=((1,"AP"),);
+  distribution{"G"}=(,);
+  distribution{"G"}{"Booster"}=((1,"P"),);
+  distribution{"VP"}=(,);
+  distribution{"VP"}{"Booster"}=((1,"VP"),);
 }
 
 fixed=array(20);

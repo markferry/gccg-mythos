@@ -553,7 +553,7 @@
 		</card>
 		<card name="Akorem Laan (Revered Poet)" graphics="akoremlaanreveredpoet.jpg" text="{SD}Anthropology {SD}Law {SD}Navigation {SD}Physics When two {baj} personnel are in your discard pile, this personnel is attributes +2.">
 			<attr key="rarity" value="U"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Bajoran}"/>
 			<attr key="race" value="Bajoran"/>
 			<attr key="cost" value="2"/>
@@ -564,7 +564,7 @@
 		</card>
 		<card name="Borum (Selfless Hero)" graphics="borumselflesshero.jpg" text="{SD}Exobiology {SD}Honor {SD}Medical Bajoran Resistance. Order - Exchange this personnel with a {baj} Leadership personnel in your discard pile, then remove this personnel from the game.">
 			<attr key="rarity" value="R"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Bajoran}"/>
 			<attr key="race" value="Bajoran"/>
 			<attr key="cost" value="2"/>
@@ -575,7 +575,7 @@
 		</card>
 		<card name="Jaro Essa (Leader of the Circle)" graphics="jaroessaleaderofthecircle.jpg" text="{SD}Diplomacy {SD}Law {SD}Leadership {SD}Treachery When this personnel is facing a dilemma, you may remove a personnel in your discard pile from the game to make him gain one of the removed personnel's skills until the end of that dilemma. You may do this only once e">
 			<attr key="rarity" value="R"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Bajoran}"/>
 			<attr key="race" value="Bajoran"/>
 			<attr key="cost" value="3"/>
@@ -586,7 +586,7 @@
 		</card>
 		<card name="Kira Nerys (Impassioned Major)" graphics="kiranerysimpassionedmajor.jpg" text="{SD}Honor {SD}Leadership {SD}Officer {SD}Security Bajoran Resistance. When this personnel uses a skill to complete a mission, you may take one of your personnel from an opponent's brig or from your discard pile into hand.">
 			<attr key="rarity" value="R"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Bajoran}"/>
 			<attr key="race" value="Bajoran"/>
 			<attr key="cost" value="2"/>
@@ -597,7 +597,7 @@
 		</card>
 		<card name="Kurn (Bajoran Security Officer)" graphics="kurnbajoransecurityofficer.jpg" text="{SD}Law {SD}Navigation {SD}Officer {SD}Security When you win combat involving this personnel, you may return him to his owner's hand to kill an opponent's personnel involved.">
 			<attr key="rarity" value="R"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Bajoran}"/>
 			<attr key="race" value="Klingon"/>
 			<attr key="cost" value="3"/>
@@ -608,7 +608,7 @@
 		</card>
 		<card name="Leeta (Dabo Girl)" graphics="leetadabogirl.jpg" text="{SD}Anthropology {SD}Honor Dabo Girl. When this personnel is randomly selected during a mission attempt, you may make one of your other {baj} personnel present gain one skill he or she already has until the end of that mission attempt.">
 			<attr key="rarity" value="R"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Bajoran}"/>
 			<attr key="race" value="Bajoran"/>
 			<attr key="cost" value="1"/>
@@ -619,7 +619,7 @@
 		</card>
 		<card name="Ro Laren (Maquis Sympathizer)" graphics="rolarenmaquissympathizer.jpg" text="{SD}Leadership {SD}Navigation {SD}Programming {SD}Security {SD}Treachery When this personnel uses a skill to complete a mission, you may choose an opponent to place two random cards from hand on top of his or her deck.">
 			<attr key="rarity" value="C"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Bajoran}"/>
 			<attr key="race" value="Bajoran"/>
 			<attr key="cost" value="3"/>
@@ -630,7 +630,7 @@
 		</card>
 		<card name="The Sirah (The Storyteller)" graphics="thesirahthestoryteller.jpg" text="{SD}Anthropology {SD}2 Honor {SD}Leadership While this personnel is facing a dilemma, you may stop him to make each of your other {baj} personnel present attributes +3 until the end of that dilemma.">
 			<attr key="rarity" value="U"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Bajoran}"/>
 			<attr key="race" value="Bajoran"/>
 			<attr key="cost" value="2"/>
@@ -641,7 +641,7 @@
 		</card>
 		<card name="Varis Sul (Tetrarch of the Paqu)" graphics="varissultetrarchofthepaqu.jpg" text="{SD}Geology {SD}Honor {SD}Law While a {baj} Leadership personnel is in your discard pile, this personnel gains Diplomacy and Leadership.">
 			<attr key="rarity" value="U"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Bajoran}"/>
 			<attr key="race" value="Bajoran"/>
 			<attr key="cost" value="1"/>
@@ -652,7 +652,7 @@
 		</card>
 		<card name="Winn Adami (Devious Manipulator)" graphics="winnadamideviousmanipulator.jpg" text="{SD}Diplomacy {SD}Leadership {SD}Treachery Vedek. When you play this personnel, you may download a Treachery Bajoran.">
 			<attr key="rarity" value="R"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Bajoran}"/>
 			<attr key="race" value="Bajoran"/>
 			<attr key="cost" value="2"/>
@@ -663,7 +663,7 @@
 		</card>
 		<card name="Boheeka (Clandestine Connection)" graphics="boheekaclandestineconnection.jpg" text="{SD}Biology {SD}Engineer {SD}Officer {SD}Physics Glinn. Smuggler. When you play this personnel, you may discard any number of cards from hand, then draw an equal number of cards.">
 			<attr key="rarity" value="U"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Cardassian}"/>
 			<attr key="race" value="Cardassian"/>
 			<attr key="cost" value="3"/>
@@ -674,7 +674,7 @@
 		</card>
 		<card name="Enabran Tain (Retired Mastermind)" graphics="enabrantainretiredmastermind.jpg" text="{SD}2 Intelligence {SD}Programming {SD}Security {SD}2 Treachery When this personnel is about to be stopped, you may kill one of your other {car} personnel present to prevent that.">
 			<attr key="rarity" value="R"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Cardassian}"/>
 			<attr key="race" value="Cardassian"/>
 			<attr key="cost" value="3"/>
@@ -685,7 +685,7 @@
 		</card>
 		<card name="Evek (Harsh Interrogator)" graphics="evekharshinterrogator.jpg" text="{SD}Diplomacy {SD}Leadership {SD}Officer {SD}Security Commander: Vetar. Gul. While you have a captive, this personnel gains Biology and Law.">
 			<attr key="rarity" value="R"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Cardassian}"/>
 			<attr key="race" value="Cardassian"/>
 			<attr key="cost" value="2"/>
@@ -696,7 +696,7 @@
 		</card>
 		<card name="Jural" graphics="jural.jpg" text="{SD}Geology {SD}Science {SD}Transporters Glinn. While this personnel is present with a Gul, he gains Physics.">
 			<attr key="rarity" value="C"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Cardassian}"/>
 			<attr key="race" value="Cardassian"/>
 			<attr key="cost" value="1"/>
@@ -707,10 +707,11 @@
 		</card>
 		<card name="Natima Lang (Professor of Political Ethics)" graphics="natimalangprofessorofpoliticalethics.jpg" text="{SD}Diplomacy {SD}Honor {SD}Law {SD}Leadership {SD}Programming Dissident. When you play this personnel, discard a card from hand.">
 			<attr key="rarity" value="U"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Cardassian}"/>
 			<attr key="race" value="Cardassian"/>
 			<attr key="cost" value="1"/>
+
 			<attr key="icons" value=""/>
 			<attr key="integrity" value="6"/>
 			<attr key="cunning" value="6"/>
@@ -718,7 +719,7 @@
 		</card>
 		<card name="Benjamin Sisko (Man of Resolve)" graphics="benjaminsiskomanofresolve.jpg" text="{SD}Diplomacy {SD}Engineer {SD}Leadership {SD}Officer {SD}Security Order - This personnel loses Diplomacy and gains Treachery until the end of this turn. You may do this only once each turn.">
 			<attr key="rarity" value="U"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Federation}"/>
 			<attr key="race" value="Human"/>
 			<attr key="cost" value="2"/>
@@ -729,7 +730,7 @@
 		</card>
 		<card name="Cal Hudson (Attaché to the Demilitarized Zone)" graphics="calhudsonattachetothedemilitarizedzone.jpg" text="{SD}Diplomacy {SD}Leadership {SD}Navigation {SD}Officer {SD}Treachery When you play this personnel, you may download a {Maq} ship.">
 			<attr key="rarity" value="U"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Federation}"/>
 			<attr key="race" value="Human"/>
 			<attr key="cost" value="3"/>
@@ -740,7 +741,7 @@
 		</card>
 		<card name="Chakotay (Freedom Fighter)" graphics="chakotayfreedomfighter.jpg" text="{SD}Anthropology {SD}Archaeology {SD}Leadership {SD}Navigation {SD}Treachery Commander: Valjean. While this personnl is facing a dilemma, each of your other {Maq} personnel present is attributes +1.">
 			<attr key="rarity" value="R"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Federation}"/>
 			<attr key="race" value="Human"/>
 			<attr key="cost" value="3"/>
@@ -751,7 +752,7 @@
 		</card>
 		<card name="Ezri Dax (Station Counselor)" graphics="ezridaxstationcounselor.jpg" text="{SD}Anthropology {SD}Diplomacy {SD}Geology Host. If you command Jadzia Dax, place this personnel in her owner's discard pile. While this personnel is facing a dilemma, you may discard a card from hand to make her gain Engineer, Law, or Science until the end of tha">
 			<attr key="rarity" value="R"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Federation}"/>
 			<attr key="race" value="Trill"/>
 			<attr key="cost" value="2"/>
@@ -762,7 +763,7 @@
 		</card>
 		<card name="Jake Sisko (Temporal Anchor)" graphics="jakesiskotemporalanchor.jpg" text="{SD}Anthropology {SD}Astrometrics {SD}Biology {SD}Physics {SD}Programming {SD}Science Order - Place this personnel in his owner's discard pile to download a {fed}{DS9} personnel.">
 			<attr key="rarity" value="R"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Federation}"/>
 			<attr key="race" value="Human"/>
 			<attr key="cost" value="4"/>
@@ -773,7 +774,7 @@
 		</card>
 		<card name="Joseph Sisko (Creole Chef)" graphics="josephsiskocreolechef.jpg" text="{SD}Anthropology {SD}Biology {SD}Honor Each of your {fed}{DS9} personnel present is attributes +1.">
 			<attr key="rarity" value="U"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Federation}"/>
 			<attr key="race" value="Human"/>
 			<attr key="cost" value="2"/>
@@ -784,7 +785,7 @@
 		</card>
 		<card name="Julian Bashir ('Unnatural Freak')" graphics="julianbashirunnaturalfreak.jpg" text="{SD}Biology {SD}Exobiology {SD}3 Medical Genetically Enhanced. While this personnel is attempting a mission, you may remove two cards in your discard pile from the game to make him gain Treachery until the end of this turn. You may do this only once each turn.">
 			<attr key="rarity" value="U"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Federation}"/>
 			<attr key="race" value="Human"/>
 			<attr key="cost" value="3"/>
@@ -795,7 +796,7 @@
 		</card>
 		<card name="Keiko O'Brien (School Teacher)" graphics="keikoobrienschoolteacher.jpg" text="{SD}Biology {SD}Exobiology {SD}Honor {SD}Science When you are about to play a {baj} personnel at this mission, you may discard a card from hand to make that personnel cost -1.">
 			<attr key="rarity" value="R"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Federation}"/>
 			<attr key="race" value="Human"/>
 			<attr key="cost" value="3"/>
@@ -806,7 +807,7 @@
 		</card>
 		<card name="Kelly (Relief Tactical Officer)" graphics="kellyrelieftacticalofficer.jpg" text="{SD}Engineer {SD}Physics {SD}Security Genetically Enhanced. ">
 			<attr key="rarity" value="C"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Federation}"/>
 			<attr key="race" value="Human"/>
 			<attr key="cost" value="2"/>
@@ -817,7 +818,7 @@
 		</card>
 		<card name="Michael Eddington (Noble Hero)" graphics="michaeleddingtonnoblehero.jpg" text="{SD}Engineer {SD}Leadership {SD}Security {SD}Treachery Commander: Guingouin. While an opponent's ship is in an engagement at this mission, that opponent cannot play interrupts.">
 			<attr key="rarity" value="R"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Federation}"/>
 			<attr key="race" value="Human"/>
 			<attr key="cost" value="2"/>
@@ -828,7 +829,7 @@
 		</card>
 		<card name="Miles O'Brien (Transporter Chief)" graphics="milesobrientransporterchief.jpg" text="{SD}Engineer {SD}Honor {SD}Navigation {SD}2 Transporters While this personnel is equipped with an equipment, he gains Physics and Programming.">
 			<attr key="rarity" value="R"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Federation}"/>
 			<attr key="race" value="Human"/>
 			<attr key="cost" value="3"/>
@@ -839,7 +840,7 @@
 		</card>
 		<card name="Niles" graphics="niles.jpg" text="{SD}Navigation {SD}Security {SD}Transporters {SD}Treachery When you play this personnel, you may download Retaliation.">
 			<attr key="rarity" value="C"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Federation}"/>
 			<attr key="race" value="Human"/>
 			<attr key="cost" value="2"/>
@@ -850,7 +851,7 @@
 		</card>
 		<card name="Rebecca Sullivan (Resistance Fighter)" graphics="rebeccasullivan.jpg" text="{SD}Biology {SD}Honor {SD}Medical {SD}Science Order - Take a {Maq} personnel from your discard pile and place him or her on the bottom of your deck. You may do this only once each turn.">
 			<attr key="rarity" value="R"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Federation}"/>
 			<attr key="race" value="Human"/>
 			<attr key="cost" value="3"/>
@@ -861,7 +862,7 @@
 		</card>
 		<card name="Thomas Riker (Defiant Leader)" graphics="thomasrikerdefiantleader.jpg" text="{SD}Geology {SD}Leadership {SD}Officer {SD}Security {SD}Treachery Commander: U.S.S. Defiant. While this personnel is aboard your {fed} ship, it is Range +2.">
 			<attr key="rarity" value="R"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Federation}"/>
 			<attr key="race" value="Human"/>
 			<attr key="cost" value="3"/>
@@ -872,7 +873,7 @@
 		</card>
 		<card name="William Patrick Samuels (Maquis Saboteur)" graphics="williampatricksamuelsmaquissaboteur.jpg" text="{SD}Astrometrics {SD}Engineer {SD}Treachery Order - If this personnel is on a planet mission, stop him to place a Damage card from hand on an opponent's undamaged ship at this mission.">
 			<attr key="rarity" value="U"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Federation}"/>
 			<attr key="race" value="Human"/>
 			<attr key="cost" value="4"/>
@@ -883,7 +884,7 @@
 		</card>
 		<card name="Bregath" graphics="bregath.jpg" text="{SD}Archaeology {SD}Engineer {SD}Security {SD}Treachery While an opponent commands a ship that has a Damage card on it, this personnel is attributes +2.">
 			<attr key="rarity" value="C"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Klingon}"/>
 			<attr key="race" value="Klingon"/>
 			<attr key="cost" value="2"/>
@@ -894,7 +895,7 @@
 		</card>
 		<card name="Divok" graphics="divok.jpg" text="{SD}Biology {SD}Honor {SD}Medical {SD}Physics When you play this personnel, if you command Kahless, you may draw a card.">
 			<attr key="rarity" value="C"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Klingon}"/>
 			<attr key="race" value="Klingon"/>
 			<attr key="cost" value="2"/>
@@ -905,7 +906,7 @@
 		</card>
 		<card name="Drex (Arrogant Warrior)" graphics="drezarrogantwarrior.jpg" text="{SD}Astrometrics {SD}Officer {SD}Security Order - Return this personnel to his owner's hand to kill an opponent's personnel present who costs 2 or less.">
 			<attr key="rarity" value="R"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Klingon}"/>
 			<attr key="race" value="Klingon"/>
 			<attr key="cost" value="2"/>
@@ -916,7 +917,7 @@
 		</card>
 		<card name="K'mpec (Klingon Supreme Commander)" graphics="kmpecklingonsupremecommander.jpg" text="{SD}2 Leadership {SD}Officer {SD}Security Chancellor. Commander: I.K.S. Qam-Chee. When you play an Honor Klingon at this mission, you may place a card from hand on the bottom of your deck to draw a card. You may do this only once each turn.">
 			<attr key="rarity" value="R"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Klingon}"/>
 			<attr key="race" value="Klingon"/>
 			<attr key="cost" value="3"/>
@@ -927,7 +928,7 @@
 		</card>
 		<card name="Kahless (The Greatest Warrior of Them All)" graphics="kahlessthegreatestwarriorofthemall.jpg" text="{SD}Anthropology {SD}2 Honor {SD}3 Leadership While this personnel is facing a dilemma, you may meet Integrity and Cunning requirements of that dilemma using Strength instead.">
 			<attr key="rarity" value="U"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Klingon}"/>
 			<attr key="race" value="Klingon"/>
 			<attr key="cost" value="5"/>
@@ -938,7 +939,7 @@
 		</card>
 		<card name="Kahless (The Unforgettable)" graphics="kahlesstheunforgettable.jpg" text="{SD}2 Honor {SD}3 Leadership When you kill an opponent's personnel in combat or an engagement, if you command a {kli} ship, you may place a {kli} personnel who costs 3 or less from hand aboard that ship.">
 			<attr key="rarity" value="R"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Klingon}"/>
 			<attr key="race" value="Klingon"/>
 			<attr key="cost" value="5"/>
@@ -949,7 +950,7 @@
 		</card>
 		<card name="Kargan (Rash Captain)" graphics="karganrashcaptain.jpg" text="{SD}Leadership {SD}Officer {SD}Programming Commander: I.K.S. Pagh. When you play this personnel, you may download a Maneuver card.">
 			<attr key="rarity" value="R"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Klingon}"/>
 			<attr key="race" value="Klingon"/>
 			<attr key="cost" value="2"/>
@@ -960,7 +961,7 @@
 		</card>
 		<card name="Khar" graphics="khar.jpg" text="{SD}Exobiology {SD}Honor {SD}Officer {SD}Security When you play this personnel, if you command Kahless, this personnel's cost is -1.">
 			<attr key="rarity" value="C"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Klingon}"/>
 			<attr key="race" value="Klingon"/>
 			<attr key="cost" value="2"/>
@@ -971,7 +972,7 @@
 		</card>
 		<card name="Khos" graphics="khos.jpg" text="{SD}Biology {SD}Medical {SD}Navigation {SD}Officer When an opponent's personnel is killed, this personnel is attributes +2 until the end of this turn (limit +4).">
 			<attr key="rarity" value="C"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Klingon}"/>
 			<attr key="race" value="Klingon"/>
 			<attr key="cost" value="2"/>
@@ -982,7 +983,7 @@
 		</card>
 		<card name="Konmel (Renegade Warrior)" graphics="konmelrenegadewarrior.jpg" text="{SD}Astrometrics {SD}Honor {SD}Navigation {SD}Officer When your other Klingon present is killed during a mission attempt, this personnel may gain one of his or her skills until the end of that mission attempt. You may do this only once each turn.">
 			<attr key="rarity" value="R"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Klingon}"/>
 			<attr key="race" value="Klingon"/>
 			<attr key="cost" value="3"/>
@@ -993,7 +994,7 @@
 		</card>
 		<card name="Koral (Dour Smuggler)" graphics="koraldoursmuggler.jpg" text="{SD}Archaeology {SD}Astrometrics {SD}Navigation {SD}Treachery Smuggler. When you play this personnel, he is attributes +2 until the end of this turn.">
 			<attr key="rarity" value="C"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Klingon}"/>
 			<attr key="race" value="Klingon"/>
 			<attr key="cost" value="2"/>
@@ -1004,7 +1005,7 @@
 		</card>
 		<card name="Korris (Renegade Captain)" graphics="korrisrenegadecaptain.jpg" text="{SD}Engineer {SD}Honor {SD}Officer {SD}Security When your other Klingon present is killed during a mission attempt, this personnel is Strength +3 until the end of that mission attempt (limit +3).">
 			<attr key="rarity" value="R"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 
 			<attr key="affiliation" value="{Klingon}"/>
 			<attr key="race" value="Klingon"/>
@@ -1016,7 +1017,7 @@
 		</card>
 		<card name="Losta" graphics="losta.jpg" text="{SD}Geology {SD}Navigation {SD}Officer While you command Kahless, this personnel is attributes +2.">
 			<attr key="rarity" value="C"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Klingon}"/>
 			<attr key="race" value="Klingon"/>
 			<attr key="cost" value="2"/>
@@ -1027,7 +1028,7 @@
 		</card>
 		<card name="M'vil" graphics="mvil.jpg" text="{SD}Archaeology {SD}Astrometrics {SD}Biology {SD}Medical When you play this personnel, you may destroy an opponent's event. That opponent may place two cards from hand on top of his or her deck in any order to prevent this.">
 			<attr key="rarity" value="U"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Klingon}"/>
 			<attr key="race" value="Klingon"/>
 			<attr key="cost" value="3"/>
@@ -1038,7 +1039,7 @@
 		</card>
 		<card name="Amaros (Earnest Vanguard)" graphics="amarosearnestvanguard.jpg" text="{SD}Engineer {SD}Leadership {SD}Navigation {SD}Physics {SD}Treachery When an engagement involving your {Maq} ship begins at this mission, if this personnel is aboard a {Maq} ship, that ship may join that engagement.">
 			<attr key="rarity" value="U"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Non-Aligned}"/>
 			<attr key="race" value="Human"/>
 			<attr key="cost" value="3"/>
@@ -1049,7 +1050,7 @@
 		</card>
 		<card name="Arctus Baran (Mercenary Captain)" graphics="arctusbaranmercenarycaptain.jpg" text="{SD}Archaeology {SD}Biology {SD}Officer {SD}Treachery Commander: Fortune. Smuggler. Thief. While this personnel is facing a dilemma, you may discard a card from hand to download Shady Resources.">
 			<attr key="rarity" value="C"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Non-Aligned}"/>
 			<attr key="race" value="Alien"/>
 			<attr key="cost" value="2"/>
@@ -1060,7 +1061,7 @@
 		</card>
 		<card name="Harana" graphics="harana.jpg" text="{SD}Anthropology {SD}Geology {SD}Medical {SD}Physics When this personnel is killed by a dilemma, in combat, or in an engagement, you may destroy a non-Maneuver event.">
 			<attr key="rarity" value="C"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Non-Aligned}"/>
 			<attr key="race" value="Human"/>
 			<attr key="cost" value="2"/>
@@ -1071,7 +1072,7 @@
 		</card>
 		<card name="Jaglom Shrek" graphics="jaglomshrek.jpg" text="{SD}Navigation {SD}Physics {SD}Transporters When you play this personnel, you may examine the top card of any player's deck.">
 			<attr key="rarity" value="C"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Non-Aligned}"/>
 			<attr key="race" value="Yridian"/>
 			<attr key="cost" value="1"/>
@@ -1082,7 +1083,7 @@
 		</card>
 		<card name="Kobb" graphics="kobb.jpg" text="{SD}Diplomacy {SD}Law {SD}Science When you play this personnel at Athos IV, choose an opponent to place a card from hand on top of his or her deck.">
 			<attr key="rarity" value="C"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Non-Aligned}"/>
 			<attr key="race" value="Human"/>
 			<attr key="cost" value="2"/>
@@ -1093,7 +1094,7 @@
 		</card>
 		<card name="Liam Bilby (Family Man)" graphics="liambilbyfamilyman.jpg" text="{SD}Geology {SD}Leadership {SD}Treachery Thief. While this personnel is facing a dilemma, you may place a card from hand on top of your deck to download Bank Heist.">
 			<attr key="rarity" value="C"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Non-Aligned}"/>
 			<attr key="race" value="Human"/>
 			<attr key="cost" value="1"/>
@@ -1104,7 +1105,7 @@
 		</card>
 		<card name="Macius" graphics="macius.jpg" text="{SD}Exobiology {SD}Leadership {SD}Medical Order - Place this personnel in your discard pile to take a {Maq} personnel or For the Cause from your discard pile into hand.">
 			<attr key="rarity" value="C"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Non-Aligned}"/>
 			<attr key="race" value="Human"/>
 			<attr key="cost" value="1"/>
@@ -1115,7 +1116,7 @@
 		</card>
 		<card name="Maques (Cairn Delegate)" graphics="maquescairndelegate.jpg" text="{SD}Diplomacy {SD}Honor {SD}2 Telepathy">
 			<attr key="rarity" value="C"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Non-Aligned}"/>
 			<attr key="race" value="Cairn"/>
 			<attr key="cost" value="2"/>
@@ -1126,7 +1127,7 @@
 		</card>
 		<card name="Narik" graphics="narik.jpg" text="{SD}Engineer {SD}Physics {SD}Programming Smuggler. ">
 			<attr key="rarity" value="C"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Non-Aligned}"/>
 			<attr key="race" value="Alien"/>
 			<attr key="cost" value="1"/>
@@ -1137,7 +1138,7 @@
 		</card>
 		<card name="Raimus (Criminal Master)" graphics="raimuscriminalmaster.jpg" text="{SD}Acquisition {SD}Engineer {SD}Leadership {SD}2 Treachery Thief. Order - Place a card from hand on top of your deck to download a Crime card. You may do this only once each turn.">
 			<attr key="rarity" value="U"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Non-Aligned}"/>
 			<attr key="race" value="Farian"/>
 			<attr key="cost" value="3"/>
@@ -1148,7 +1149,7 @@
 		</card>
 		<card name="Roga Danar (Decorated Subhadar)" graphics="rogadanardecoratedsubhadar.jpg" text="{SD}Biology {SD}Engineer {SD}Leadership {SD}Navigation {SD}Programming {SD}Security Genetically Enhanced. When this personnel is about to be placed in a brig, place him on top of his owner's deck instead.">
 			<attr key="rarity" value="R"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Non-Aligned}"/>
 			<attr key="race" value="Angosian"/>
 			<attr key="cost" value="4"/>
@@ -1159,7 +1160,7 @@
 		</card>
 		<card name="Sakonna (Gunrunner)" graphics="sakonnagunrunner.jpg" text="{SD}Acquisition {SD}Engineer {SD}Physics {SD}Treachery Smuggler. Order - This personnel gains one skill from one of your captives. She keeps this skill until the start of your next turn. You may do this only once each turn.">
 			<attr key="rarity" value="R"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 
 			<attr key="affiliation" value="{Non-Aligned}"/>
 			<attr key="race" value="Vulcan"/>
@@ -1171,7 +1172,7 @@
 		</card>
 		<card name="Sark" graphics="sark.jpg" text="{SD}Exobiology {SD}Science {SD}Transporters">
 			<attr key="rarity" value="C"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Non-Aligned}"/>
 			<attr key="race" value="Bolian"/>
 			<attr key="cost" value="1"/>
@@ -1182,7 +1183,7 @@
 		</card>
 		<card name="Vekor" graphics="vekor.jpg" text="{SD}Medical {SD}Navigation {SD}Science Thief. ">
 			<attr key="rarity" value="C"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Non-Aligned}"/>
 			<attr key="race" value="Alien"/>
 			<attr key="cost" value="1"/>
@@ -1193,7 +1194,7 @@
 		</card>
 		<card name="Galathon (Steadfast Rival)" graphics="galathonsteadfastrival.jpg" text="{SD}Archaeology {SD}Geology {SD}Law {SD}Leadership {SD}Officer Commander: Trolarak. When you play this personnel, you make take Engage Cloak or a Pursuit card from your discard pile into hand.">
 			<attr key="rarity" value="R"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Romulan}"/>
 			<attr key="race" value="Romulan"/>
 			<attr key="cost" value="3"/>
@@ -1204,7 +1205,7 @@
 		</card>
 		<card name="Mirok (Interphase Researcher)" graphics="mirokinterphaseresearcher.jpg" text="{SD}Engineer {SD}Physics {SD}Science {SD}Treachery When an opponent attempts this mission with an Engineer personnel, that opponent discards a card from hand.">
 			<attr key="rarity" value="U"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Romulan}"/>
 			<attr key="race" value="Romulan"/>
 			<attr key="cost" value="2"/>
@@ -1215,7 +1216,7 @@
 		</card>
 		<card name="Neral (Senate Proconsul)" graphics="neralsenateproconsul.jpg" text="{SD}Diplomacy {SD}Law {SD}Leadership {SD}Treachery Senator. While this personnel is facing a dilemma, you may discard a card from hand to download Diplomatic Masquerade.">
 			<attr key="rarity" value="R"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Romulan}"/>
 			<attr key="race" value="Romulan"/>
 			<attr key="cost" value="2"/>
@@ -1226,7 +1227,7 @@
 		</card>
 		<card name="Palteth" graphics="palteth.jpg" text="{SD}Astrometrics {SD}Engineer {SD}Navigation {SD}Officer {SD}Programming">
 			<attr key="rarity" value="C"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Romulan}"/>
 			<attr key="race" value="Romulan"/>
 			<attr key="cost" value="2"/>
@@ -1237,7 +1238,7 @@
 		</card>
 		<card name="Sirol (Diplomatic Adversary)" graphics="siroldiplomaticadversary.jpg" text="{SD}Astrometrics {SD}Diplomacy {SD}Leadership {SD}Navigation {SD}Officer {SD}Treachery Commander: Terix. While an opponent's Treachery personnel is at this mission, that opponent must discard a card from hand to use that Treachery.">
 			<attr key="rarity" value="R"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Romulan}"/>
 			<attr key="race" value="Romulan"/>
 			<attr key="cost" value="3"/>
@@ -1248,7 +1249,7 @@
 		</card>
 		<card name="T'Rul (Curt Subcommander)" graphics="trulcurtsubcommander.jpg" text="{SD}Engineer {SD}Physics {SD}Programming {SD}Security Order - If this personnel is aboard a ship on your Engage Cloak, examine the top card of an opponent's deck.">
 			<attr key="rarity" value="U"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Romulan}"/>
 			<attr key="race" value="Romulan"/>
 			<attr key="cost" value="2"/>
@@ -1259,7 +1260,7 @@
 		</card>
 		<card name="Toraan" graphics="toraan.jpg" text="{SD}Intelligence {SD}Security {SD}Transporters When you play this personnel, choose an opponent to discard a card from hand.">
 			<attr key="rarity" value="C"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Romulan}"/>
 			<attr key="race" value="Romulan"/>
 			<attr key="cost" value="2"/>
@@ -1270,7 +1271,7 @@
 		</card>
 		<card name="Toreth (Cautious Commander)" graphics="torethcautiouscommander.jpg" text="{SD}Honor {SD}Leadership {SD}Navigation {SD}Officer Commander: Khazara. When this personnel uses a skill to complete a mission, you may examine an opponent's hand and choose one of those cards to be discarded. You may do this only once each turn.">
 			<attr key="rarity" value="R"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Romulan}"/>
 			<attr key="race" value="Romulan"/>
 			<attr key="cost" value="2"/>

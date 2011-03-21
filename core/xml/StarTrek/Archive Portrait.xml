@@ -4,7 +4,7 @@
 	<cards>
 		<card name="Seven of Nine (Reclaimed Drone)" graphics="sevenofninereclaimeddrone.jpg" text="{SD}Astrometrics {SD}Engineer {SD}Exobiology {SD}Physics {SD}Programming">
 			<attr key="rarity" value="AP"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Federation}"/>
 			<attr key="race" value="Borg"/>
 			<attr key="cost" value="2"/>
@@ -15,7 +15,7 @@
 		</card>
 		<card name="T'Pol (Austere Commander)" graphics="tpolausterecommander.jpg" text="{SD}Astrometrics {SD}Diplomacy {SD}Officer {SD}Science">
 			<attr key="rarity" value="AP"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Starfleet}"/>
 			<attr key="race" value="Vulcan"/>
 			<attr key="cost" value="2"/>
@@ -26,7 +26,7 @@
 		</card>
 		<card name="Borg Queen (The One Who Is Many)" graphics="borgqueentheonewhoismany.jpg" text="{SD}Diplomacy {SD}2 Leadership {SD}Treachery">
 			<attr key="rarity" value="AP"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Borg}"/>
 			<attr key="race" value="Borg"/>
 			<attr key="cost" value="2"/>
@@ -37,7 +37,7 @@
 		</card>
 		<card name="Shinzon (Reman Leader)" graphics="shinzonremanleader.jpg" text="{SD}Geology {SD}Leadership {SD}Officer {SD}Security {SD}2 Treachery">
 			<attr key="rarity" value="AP"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Romulan}"/>
 			<attr key="race" value="Human"/>
 			<attr key="cost" value="2"/>
@@ -48,7 +48,7 @@
 		</card>
 		<card name="James T. Kirk (Youngest Captain in Starfleet)" graphics="jamestkirkyoungestcaptaininstarfleet.jpg" text="{SD}Diplomacy {SD}2 Honor {SD}Leadership">
 			<attr key="rarity" value="AP"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Federation}"/>
 			<attr key="race" value="Human"/>
 			<attr key="cost" value="2"/>
@@ -59,7 +59,7 @@
 		</card>
 		<card name="Kathryn Janeway (Clever Captain)" graphics="kathrynjanewayclevercaptain.jpg" text="{SD}Diplomacy {SD}Engineer {SD}2 Leadership {SD}Science">
 			<attr key="rarity" value="AP"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Federation}"/>
 			<attr key="race" value="Human"/>
 			<attr key="cost" value="2"/>
@@ -70,7 +70,7 @@
 		</card>
 		<card name="Charvanek (Fleet Commander)" graphics="charvanekfleetcommander.jpg" text="{SD}Archaeology {SD}Diplomacy {SD}Officer {SD}Physics {SD}Science">
 			<attr key="rarity" value="AP"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Romulan}"/>
 			<attr key="race" value="Romulan"/>
 			<attr key="cost" value="2"/>
@@ -81,7 +81,7 @@
 		</card>
 		<card name="Hoshi Sato (Empress)" graphics="hoshisatoempress.jpg" text="{SD}Anthropology {SD}Diplomacy {SD}Officer {SD}Programming {SD}2 Treachery">
 			<attr key="rarity" value="AP"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Starfleet}"/>
 			<attr key="race" value="Human"/>
 			<attr key="cost" value="2"/>
@@ -92,7 +92,7 @@
 		</card>
 		<card name="Persis (Loyal Daughter)" graphics="persisloyaldaughter.jpg" text="{SD}Astrometrics {SD}Engineer {SD}Programming Genetically Enhanced. ">
 			<attr key="rarity" value="AP"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Non-Aligned}"/>
 			<attr key="race" value="Borg"/>
 			<attr key="cost" value="2"/>
@@ -103,7 +103,7 @@
 		</card>
 		<card name="T'Pol (Dutiful Commander)" graphics="tpoldutifulcommander.jpg" text="{SD}Engineer {SD}Officer {SD}Science {SD}Security {SD}Treachery">
 			<attr key="rarity" value="AP"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Starfleet}"/>
 			<attr key="race" value="Vulcan"/>
 			<attr key="cost" value="2"/>
@@ -120,7 +120,7 @@
 		</card>
 		<card name="Neras (Slave Girl)" graphics="nerasslavegirl.jpg" text="{SD}Anthropology When you play this personnel, you may draw two cards.">
 			<attr key="rarity" value="AP"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Non-Aligned}"/>
 			<attr key="race" value="Orion"/>
 			<attr key="cost" value="2"/>
@@ -135,7 +135,7 @@
 		</card>
 		<card name="Ishara Yar (Deceitful Soldier)" graphics="isharayardeceitfulsoldier.jpg" text="{SD}Engineer {SD}Programming {SD}Treachery Infiltrator. ">
 			<attr key="rarity" value="AP"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Non-Aligned}"/>
 			<attr key="race" value="Human"/>
 			<attr key="cost" value="1"/>
@@ -146,7 +146,7 @@
 		</card>
 		<card name="Mona Luvsitt (Valet)" graphics="monaluvsittvalet.jpg" text="{SD}Biology {SD}Honor {SD}Physics {SD}Science">
 			<attr key="rarity" value="AP"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Non-Aligned}"/>
 			<attr key="race" value="Hologram"/>
 			<attr key="cost" value="2"/>
@@ -157,7 +157,7 @@
 		</card>
 		<card name="Elim Garak (Federation Agent)" graphics="elimgarakfederationagent.jpg" text="{SD}Anthropology {SD}Diplomacy {SD}Programming Your Intelligence personnel present are each attributes +1.">
 			<attr key="rarity" value="AP"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Federation}"/>
 			<attr key="race" value="Cardassian"/>
 			<attr key="cost" value="2"/>

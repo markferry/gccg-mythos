@@ -56,7 +56,7 @@
 		</card>	
 		<card name="Evek (Agent of Cardassian Justice.)" graphics="evekagentofcardassianjustice.jpg" text="{SD}Law {SD}Officer {SD}Physics {SD}Security Gul. When you play this personnel, if you command six {car} personnel, you may reveal the top three cards of an opponent's deck. Each revealed card that is a personnel that opponent does not command is placed in your brig. (That opponent now commands them.)">
 			<attr key="rarity" value="V"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Cardassian}"/>
 			<attr key="race" value="Cardassian"/>
 			<attr key="cost" value="4"/>
@@ -67,7 +67,7 @@
 		</card>
 		<card name="Changeling Infiltrator" graphics="changelinginfiltrator.jpg" text="Founder. Infiltrator. Shape-shifter. Order - Choose a captive in your brig. While that captive is in your brig, this personnel gains all icons, skills, keywords and attributes on that personnel. These effects last until this order is executed again.">
 			<attr key="rarity" value="V"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Dominion}"/>
 			<attr key="race" value="Changeling"/>
 			<attr key="cost" value="0"/>
@@ -78,7 +78,7 @@
 		</card>
 		<card name="Pel (Profit-Seeker)" graphics="pelprofitseeker.jpg" text="{SD}Acquisition {SD}Anthropology {SD}Biology {SD}Diplomacy Waiter. While this personnel is facing a dilemma at a mission worth 40 or more points, your {fer} personnel may meet Integrity and Strength requirements using Cunning.">
 			<attr key="rarity" value="V"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Ferengi}"/>
 			<attr key="race" value="Ferengi"/>
 			<attr key="cost" value="2"/>
@@ -89,7 +89,7 @@
 		</card>
 		<card name="Miles O'Brien (Connelly)" graphics="milesobrienconnelly.jpg" text="{SD}Engineer {SD}Honor {SD}Intelligence {SD}Programming Infiltrator. Thief. While this personnel is present with a Thief, this personnel is Cunning +1 for each non-Artifact equipment present (limit +4). You may play equipment at cost +1 at this mission">
 			<attr key="rarity" value="V"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Non-Aligned}"/>
 			<attr key="race" value="Human"/>
 			<attr key="cost" value="4"/>
@@ -100,7 +100,7 @@
 		</card>
 		<card name="Romulan Impersonator ('Geordi La Forge')" graphics="romulanimpersonatorgeordilaforge.jpg" text="{SD}Engineer {SD}Intelligence {SD}Programming {SD}Treachery Infiltrator. When an opponent's personnel is about to complete this mission, you may return this personnel to his owner's hand to increase each attributes requirement of that mission by 5 until the end of the turn.">
 			<attr key="rarity" value="V"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Romulan}"/>
 			<attr key="race" value="Romulan"/>
 			<attr key="cost" value="3"/>

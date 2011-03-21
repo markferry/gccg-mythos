@@ -85,7 +85,7 @@
 		</card>
 		<card name="Kira Nerys (Outspoken Major)" graphics="kiranerysoutspokenmajor.jpeg" text="{SD}Diplomacy {SD}Honor {SD}Leadership {SD}Security While this personnel is facing a dilemma, each {baj} personnel present is attributes +1 and gains Honor.">
 			<attr key="rarity" value="P"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Bajoran}"/>
 			<attr key="race" value="Bajoran"/>
 			<attr key="cost" value="3"/>
@@ -96,7 +96,7 @@
 		</card>
 		<card name="Jasad" graphics="jasad.jpeg" text="{SD}Intelligence {SD}Navigation {SD}Officer {SD}Treachery Gul. While this personnel is aboard your {car} ship, that ship is attributes +1 for each of your different Capture cards and each of your different Punishment cards.">
 			<attr key="rarity" value="P"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Cardassian}"/>
 			<attr key="race" value="Cardassian"/>
 			<attr key="cost" value="3"/>
@@ -107,7 +107,7 @@
 		</card>
 		<card name="James T. Kirk (Original Thinker)" graphics="jamestkirkoriginalthinker.jpg" text="{SD}Diplomacy {SD}2 Honor {SD}Leadership {SD}Officer Admiral. Commander: U.S.S. Enterprise. When this personnel is about to face a dilemma, you may return him to his owner's hand to prevent and overcome that dilemma.">
 			<attr key="rarity" value="P"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Federation}"/>
 			<attr key="race" value="Human"/>
 			<attr key="cost" value="5"/>
@@ -118,7 +118,7 @@
 		</card>
 		<card name="Spock (Trainee Instructor)" graphics="spocktraineeinstructor.jpeg" text="{SD}Biology {SD}Honor {SD}Leadership {SD}Officer {SD}Physics {SD}Science Commander: U.S.S. Enterprise. When a Damage card is about to be placed on your ship that this personnel is aboard, you may kill him to remove it from the game instead.">
 			<attr key="rarity" value="P"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Federation}"/>
 			<attr key="race" value="Human/Vulcan"/>
 			<attr key="cost" value="4"/>
@@ -129,7 +129,7 @@
 		</card>
 		<card name="Tom Paris (Starfleet Observer)" graphics="tomparisstarfleetobserver.jpeg" text="{SD}Biology {SD}Geology {SD}Navigation {SD}Science When this personnel is stopped by a dilemma, you may discard a card from hand to choose one: draw two cards; or take a {Maq} personnel from your discard pile into your hand.">
 			<attr key="rarity" value="P"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Federation}"/>
 			<attr key="race" value="Human"/>
 			<attr key="cost" value="2"/>
@@ -140,7 +140,7 @@
 		</card>
 		<card name="Tuvok (Undercover)" graphics="tuvokundercover.jpeg" text="{SD}Navigation {SD}Officer {SD}Science {SD}Security Infiltrator. While this personnel is facing a dilemma and you have a {Maq} personnel present, this personnel is attributes +1 and gains Intelligence.">
 			<attr key="rarity" value="P"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Federation}"/>
 			<attr key="race" value="Vulcan"/>
 			<attr key="cost" value="5"/>
@@ -151,7 +151,7 @@
 		</card>
 		<card name="Saavik (Protégée)" graphics="saavikprotegee.jpeg" text="{SD}Law {SD}Leadership {SD}Navigation {SD}Officer When you play this personnel, if James T. Kirk is at this mission, you may download No-Win Situation.">
 			<attr key="rarity" value="P"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Federation}"/>
 			<attr key="race" value="Vulcan"/>
 			<attr key="cost" value="3"/>
@@ -162,7 +162,7 @@
 		</card>
 		<card name="Kruge (Instinctive Commander)" graphics="krugeinstinctivecommander.jpg" text="{SD}Astrometrics {SD}Intelligence {SD}Officer {SD}Treachery Commander: I.K.S. Qel'poh. When you win an engagement involving this personnel and there are four or less personnel aboard an opponent's ship involved, you may remove a damage event from that ship to place those personnel in your brig. You now command that ship (it is now a {kli} ship).">
 			<attr key="rarity" value="P"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Klingon}"/>
 			<attr key="race" value="Klingon"/>
 			<attr key="cost" value="2"/>
@@ -173,7 +173,7 @@
 		</card>
 		<card name="Carol Marcus (Intelligent Scientist)" graphics="carolmarcusintelligentscientist.jpeg" text="{SD}2 Exobiology {SD}Honor {SD}Physics {SD}Science This personnel is Cunning +1 for each card in an opponent's hand (limit +5).">
 			<attr key="rarity" value="P"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Non-Aligned}"/>
 			<attr key="race" value="Human"/>
 			<attr key="cost" value="3"/>
@@ -184,7 +184,7 @@
 		</card>
 		<card name="David Marcus (Young Scientist)" graphics="davidmarcusyoungscientist.jpeg" text="{SD}2 Biology {SD}Exobiology {SD}Physics {SD}Programming {SD}2 Science When this personnel is stopped by a dilemma, you may destroy an event in your core (if you do not, lose 5 points instead).">
 			<attr key="rarity" value="P"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Non-Aligned}"/>
 			<attr key="race" value="Human"/>
 			<attr key="cost" value="1"/>
@@ -195,7 +195,7 @@
 		</card>
 		<card name="Khan Noonien Singh (Genetically-Engineered Nemesis)" graphics="khannooniensinghgeneticallyengineerednemesis.jpeg" text="{SD}Exobiology {SD}Leadership {SD}Programming {SD}2 Treachery Commander: U.S.S. Reliant. Genetically Enhanced. While present with an opponent's personnel, each of that opponent's personnel is attributes -1.">
 			<attr key="rarity" value="P"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Non-Aligned}"/>
 			<attr key="race" value="Human"/>
 			<attr key="cost" value="4"/>

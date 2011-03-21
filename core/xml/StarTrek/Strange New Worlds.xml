@@ -311,7 +311,7 @@
 		</card>
 		<card name="Kira Nerys (Pious Major)" graphics="kiraneryspiousmajor.jpg" text="{SD}Anthropology {SD}Diplomacy {SD}Leadership {SD}Navigation When this personnel uses a skill to complete a {baj} mission, score 5 points. You may do this only once each turn.">
 			<attr key="rarity" value="U"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Bajoran}"/>
 			<attr key="race" value="Bajoran"/>
 			<attr key="cost" value="4"/>
@@ -322,7 +322,7 @@
 		</card>
 		<card name="Lenaris Holem (Bold Veteran)" graphics="lenarisholemboldveteran.jpg" text="{SD}Honor {SD}Leadership {SD}Officer Bajoran Resistance. While this personnel is facing a dilemma, if you have ten or more cards in your discard pile, you may meet Cunning and Strength requirements of that dilemma using Integrity instead.">
 			<attr key="rarity" value="U"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Bajoran}"/>
 			<attr key="race" value="Bajoran"/>
 			<attr key="cost" value="3"/>
@@ -333,7 +333,7 @@
 		</card>
 		<card name="Observation Drone" graphics="observationdrone.jpg" text="{SD}Astrometrics {SD}Biology {SD}Engineer {SD}Medical Drone. When this personnel uses a skill to complete an {AQ} mission, you may exchange up to three cards in your discard pile with the same number of cards from your deck. Then shuffle your deck.">
 			<attr key="rarity" value="U"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Borg}"/>
 			<attr key="race" value="Borg"/>
 			<attr key="cost" value="2"/>
@@ -344,7 +344,7 @@
 		</card>
 		<card name="Reinforcement Drone" graphics="reinforcementdrone.jpg" text="{SD}Anthropology {SD}Archaeology {SD}Geology Drone. You may play this personnel at cost +1 where you have three {bor} personnel present together.">
 			<attr key="rarity" value="U"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Borg}"/>
 			<attr key="race" value="Borg"/>
 			<attr key="cost" value="1"/>
@@ -355,7 +355,7 @@
 		</card>
 		<card name="Dejar (Cunning Saboteur)" graphics="dejarcunningsaboteur.jpg" text="{SD}Engineer {SD}Intelligence {SD}Science {SD}Treachery When this personnel uses her Intelligence to complete a mission, score 5 points.">
 			<attr key="rarity" value="U"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Cardassian}"/>
 			<attr key="race" value="Cardassian"/>
 			<attr key="cost" value="4"/>
@@ -366,7 +366,7 @@
 		</card>
 		<card name="Tekeny Ghemor (Prominent Official)" graphics="tekenyghemorprominentofficial.jpg" text="{SD}Diplomacy {SD}Engineer {SD}Honor {SD}Law {SD}Leadership {SD}Programming {SD}Transporters Dissident. Legate. When you play this personnel, discard a card from hand. When this personnel is about to be stopped by a dilemma, you may stop your Dissident present instead.">
 			<attr key="rarity" value="R"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Cardassian}"/>
 			<attr key="race" value="Cardassian"/>
 			<attr key="cost" value="3"/>
@@ -377,7 +377,7 @@
 		</card>
 		<card name="Duran'Adar (Attentive Sixth)" graphics="duranadarattentivesixth.jpg" text="{SD}Engineer {SD}Programming {SD}Security Alpha. When this personnel uses a skill to complete an {AQ} mission, score 5 points. You may do this only once each turn.">
 			<attr key="rarity" value="U"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Dominion}"/>
 			<attr key="race" value="Jem'Hadar"/>
 			<attr key="cost" value="4"/>
@@ -388,7 +388,7 @@
 		</card>
 		<card name="Goran'Agar (Trusted Commander)" graphics="goranagartrustedcommander.jpg" text="{SD}Honor {SD}Leadership {SD}Officer {SD}Physics While this personnel is facing a dilemma, each of your Jem'Hadar present is Cunning +1 Order - Stop one of your Jem'Hadar present to draw a card. You may only do this once each turn.">
 			<attr key="rarity" value="R"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Dominion}"/>
 			<attr key="race" value="Jem'Hadar"/>
 			<attr key="cost" value="4"/>
@@ -399,7 +399,7 @@
 		</card>
 		<card name="Omet'iklan (Steely Disciplinarian)" graphics="ometiklan.jpg" text="{SD}Biology {SD}Geology {SD}Leadership {SD}Officer When you lose 5 points, you may place two of your Jem'Hadar present in their owner's discard pile to score 5 points. You may do this only once per turn.">
 			<attr key="rarity" value="R"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Dominion}"/>
 			<attr key="race" value="Jem'Hadar"/>
 			<attr key="cost" value="3"/>
@@ -410,7 +410,7 @@
 		</card>
 		<card name="Bruce Maddox (Chair of Robotics)" graphics="brucemaddoxchairofrobotics.jpg" text="{SD}Engineer {SD}Officer {SD}Programming While this personnel is present with an Android, he is attributes +1 and gains Exobiology and Science.">
 			<attr key="rarity" value="C"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Federation}"/>
 			<attr key="race" value="Human"/>
 			<attr key="cost" value="2"/>
@@ -421,7 +421,7 @@
 		</card>
 		<card name="Daneeka (Reassuring Physician)" graphics="daneekareassuringphysician.jpg" text="{SD}Anthropology {SD}Biology {SD}Medical {SD}Science When this personnel uses Biology to complete a mission, score 5 points.">
 			<attr key="rarity" value="U"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Federation}"/>
 			<attr key="race" value="Human"/>
 			<attr key="cost" value="4"/>
@@ -432,7 +432,7 @@
 		</card>
 		<card name="Dr. Leah Brahms (Holographic Representation)" graphics="drleahbrahmsholographicrepresentation.jpg" text="{SD}Astrometrics {SD}Engineer {SD}Physics {SD}Programming While this personnel is attempting a space mission, she is attributes +1 and gains Engineer.">
 			<attr key="rarity" value="C"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Federation}"/>
 			<attr key="race" value="Hologram"/>
 			<attr key="cost" value="2"/>
@@ -443,7 +443,7 @@
 		</card>
 		<card name="E.M.H. Program" graphics="emhprogram.jpg" text="{SD}Biology {SD}Exobiology {SD}Medical">
 			<attr key="rarity" value="C"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Federation}"/>
 			<attr key="race" value="Hologram"/>
 			<attr key="cost" value="1"/>
@@ -454,7 +454,7 @@
 		</card>
 		<card name="Leonard H. McCoy (Remarkable Man)" graphics="leonardhmccoyremarkableman.jpg" text="{SD}Biology {SD}Exobiology {SD}Leadership {SD}Medical Admiral. While this personnel is attempting a mission, if you have completed no missions, each of your personnel present is attributes +2.">
 			<attr key="rarity" value="R"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Federation}"/>
 			<attr key="race" value="Human"/>
 			<attr key="cost" value="3"/>
@@ -465,7 +465,7 @@
 		</card>
 		<card name="Michael Eddington (Loyal Leader)" graphics="michaeleddingtonloyalleader.jpg" text="{SD}Navigation {SD}Programming {SD}Security While this personnel is attempting a mission, you may make him attributes +3 and gain Honor and Leadership. If you do, he is killed at the end of this turn. You may do this only once each turn.">
 			<attr key="rarity" value="C"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Federation}"/>
 			<attr key="race" value="Human"/>
 			<attr key="cost" value="2"/>
@@ -476,7 +476,7 @@
 		</card>
 		<card name="Montgomery Scott (Relic)" graphics="montgomeryscottrelic.jpg" text="{SD}Engineer {SD}Honor {SD}Programming {SD}Transporters While this personnel is equipped with an equipment, each dilemma he faces that requires Programming or Transporters is overcome and its effects are prevented.">
 			<attr key="rarity" value="R"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Federation}"/>
 			<attr key="race" value="Human"/>
 			<attr key="cost" value="4"/>
@@ -487,7 +487,7 @@
 		</card>
 		<card name="Arridor ('Great Sage')" graphics="arridorgreatsage.jpg" text="{SD}Acquisition {SD}Anthropology {SD}Exobiology {SD}Leadership {SD}Medical {SD}Physics {SD}Treachery When you begin a mission attempt involving this personnel, you may reveal the top card of your deck. If it is a personnel, make this personnel gain all of the revealed personnel's skills until the end of that mission attempt.">
 			<attr key="rarity" value="R"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Ferengi}"/>
 			<attr key="race" value="Ferengi"/>
 			<attr key="cost" value="3"/>
@@ -498,7 +498,7 @@
 		</card>
 		<card name="Birta ('Helpful' DaiMon)" graphics="birtahelpfuldaimon.jpg" text="{SD}Diplomacy {SD}Law {SD}Navigation {SD}Security When you play an Acquisition personnel at this mission, you may examine the top card of your deck, then place it on the top or bottom of your deck.">
 			<attr key="rarity" value="U"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Ferengi}"/>
 			<attr key="race" value="Ferengi"/>
 			<attr key="cost" value="2"/>
@@ -509,7 +509,7 @@
 		</card>
 		<card name="Bok (Vengeful DaiMon)" graphics="bokvengefuldaimon.jpg" text="{SD}Biology {SD}Engineer {SD}Officer {SD}2 Treachery Commander: Kurdon . While you command an event that has a higher cost than every other opponent's event, this personnel is attributes +1 and gains Programming.">
 			<attr key="rarity" value="U"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Ferengi}"/>
 			<attr key="race" value="Ferengi"/>
 			<attr key="cost" value="2"/>
@@ -520,7 +520,7 @@
 		</card>
 		<card name="Borts" graphics="borts.jpg" text="{SD}Exobiology {SD}Medical {SD}Programming {SD}Treachery">
 			<attr key="rarity" value="C"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Ferengi}"/>
 			<attr key="race" value="Ferengi"/>
 			<attr key="cost" value="1"/>
@@ -531,7 +531,7 @@
 		</card>
 		<card name="Brunt (FCA Liquidator)" graphics="bruntfcaliquidator.jpg" text="{SD}Acquisition {SD}Law {SD}Navigation {SD}Programming {SD}Treachery Commander: Audit's Spoils. Order - If an opponent commands more events in his or her core than you, return this personnel to his owner's hand to destroy an event.">
 			<attr key="rarity" value="R"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Ferengi}"/>
 			<attr key="race" value="Ferengi"/>
 			<attr key="cost" value="2"/>
@@ -542,7 +542,7 @@
 		</card>
 		<card name="Goss (Direct Negotiator)" graphics="gossdirectnegotiator.jpg" text="{SD}Acquisition {SD}Medical {SD}Officer {SD}Treachery While you have six or more cards in hand, this personnel gains Diplomacy, Transporters, and Treachery.">
 			<attr key="rarity" value="C"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Ferengi}"/>
 			<attr key="race" value="Ferengi"/>
 			<attr key="cost" value="2"/>
@@ -553,7 +553,7 @@
 		</card>
 		<card name="Gozar" graphics="gozar.jpg" text="{SD}Acquisition {SD}Archaeology {SD}Leadership {SD}Navigation {SD}Officer {SD}Treachery">
 			<attr key="rarity" value="C"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Ferengi}"/>
 			<attr key="race" value="Ferengi"/>
 			<attr key="cost" value="2"/>
@@ -564,7 +564,7 @@
 		</card>
 		<card name="Ishka (Moogie)" graphics="ishkamoogle.jpg" text="{SD}2 Acquisition {SD}Biology {SD}Honor Order - Examine the top card of your deck and exchange it with a card beneath your Ferenginar.">
 			<attr key="rarity" value="R"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Ferengi}"/>
 			<attr key="race" value="Ferengi"/>
 			<attr key="cost" value="2"/>
@@ -575,7 +575,7 @@
 		</card>
 		<card name="Kazago (First Officer)" graphics="kazagofirstofficer.jpg" text="{SD}Archaeology {SD}Engineer {SD}Honor {SD}Navigation {SD}Officer For each card beneath your Ferenginar, this personnel is attributes +1 (limit +3).">
 			<attr key="rarity" value="R"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Ferengi}"/>
 			<attr key="race" value="Ferengi"/>
 			<attr key="cost" value="3"/>
@@ -586,7 +586,7 @@
 		</card>
 		<card name="Kol" graphics="kol.jpg" text="{SD}Acquisition {SD}Astrometrics {SD}Navigation {SD}Science {SD}Treachery When you play this personnel, you may place the top card of your deck beneath your Ferenginar.">
 			<attr key="rarity" value="U"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Ferengi}"/>
 			<attr key="race" value="Ferengi"/>
 			<attr key="cost" value="2"/>
@@ -597,7 +597,7 @@
 		</card>
 		<card name="Krunk" graphics="krunk.jpg" text="{SD}Engineer {SD}Physics {SD}Transporters">
 			<attr key="rarity" value="C"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Ferengi}"/>
 			<attr key="race" value="Ferengi"/>
 			<attr key="cost" value="1"/>
@@ -608,7 +608,7 @@
 		</card>
 		<card name="Leck (Eliminator)" graphics="leckeliminator.jpg" text="{SD}Biology {SD}Exobiology {SD}Security {SD}2 Treachery Assassin. Order - Discard any number of cards from hand and return this personnel to his owner's hand to randomly kill an opponent's personnel present whose cost equals the number of cards you discarded.">
 			<attr key="rarity" value="R"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Ferengi}"/>
 			<attr key="race" value="Ferengi"/>
 			<attr key="cost" value="2"/>
@@ -619,7 +619,7 @@
 		</card>
 		<card name="Letek" graphics="letek.jpg" text="{SD}Biology {SD}Geology {SD}Officer {SD}Treachery While you have a higher score than each of your opponents, this personnel is attributes +1 and gains Medical and Treachery.">
 			<attr key="rarity" value="C"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Ferengi}"/>
 			<attr key="race" value="Ferengi"/>
 			<attr key="cost" value="2"/>
@@ -630,7 +630,7 @@
 		</card>
 		<card name="Lurin (Renegade DaiMon)" graphics="lurinrenegadedaimon.jpg" text="{SD}Acquisition {SD}Geology {SD}Leadership {SD}Officer {SD}Transporters {SD}2 Treachery At the start of each of your turns, you may discard a ship or equipment from hand to spend 2 additional counters this turn.">
 			<attr key="rarity" value="R"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Ferengi}"/>
 			<attr key="race" value="Ferengi"/>
 			<attr key="cost" value="3"/>
@@ -641,7 +641,7 @@
 		</card>
 		<card name="Lwaxana Troi (Telepathic Asset)" graphics="lwaxanatroitelepathicasset.jpg" text="{SD}Diplomacy {SD}Telepathy Order - One of your {fer} Leadership personnel present gains any skill. This effect lasts until this order is executed again.">
 			<attr key="rarity" value="U"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Ferengi}"/>
 			<attr key="race" value="Betazoid"/>
 			<attr key="cost" value="2"/>
@@ -652,7 +652,7 @@
 		</card>
 		<card name="Maihar'du (Silent Servent)" graphics="maihardu.jpg" text="{SD}Exobiology {SD}Honor {SD}Navigation {SD}Security Order - Stop your {fer} Leadership personnel present to take a card from beneath your Ferenginar into hand.">
 			<attr key="rarity" value="U"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Ferengi}"/>
 			<attr key="race" value="Hupyrian"/>
 			<attr key="cost" value="3"/>
@@ -663,7 +663,7 @@
 		</card>
 		<card name="Mordoc" graphics="mordoc.jpg" text="{SD}Astrometrics {SD}Security {SD}Treachery While you have more cards in hand than any of your opponents, this personnel is attributes +1 and gains Transporters.">
 			<attr key="rarity" value="C"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Ferengi}"/>
 			<attr key="race" value="Ferengi"/>
 			<attr key="cost" value="1"/>
@@ -674,7 +674,7 @@
 		</card>
 		<card name="Nava" graphics="nava.jpg" text="{SD}Acquisition {SD}Anthropology {SD}Geology {SD}Science {SD}Treachery When you play this personnel, you may take a card from beneath your Ferenginar into hand.">
 			<attr key="rarity" value="U"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Ferengi}"/>
 			<attr key="race" value="Ferengi"/>
 			<attr key="cost" value="2"/>
@@ -685,7 +685,7 @@
 		</card>
 		<card name="Par Lenor (Lascivious Emissary)" graphics="parlenorlasciviousemissary.jpg" text="{SD}Acquisition {SD}Diplomacy {SD}Exobiology {SD}Geology At the start of each of your turns, you may destroy one of your events to spend additional counters this turn equal to that event's cost.">
 			<attr key="rarity" value="U"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Ferengi}"/>
 			<attr key="race" value="Ferengi"/>
 			<attr key="cost" value="3"/>
@@ -696,7 +696,7 @@
 		</card>
 		<card name="Quark (True Ferengi)" graphics="quarktrueferengi.jpg" text="{SD}Acquisition {SD}Anthropology {SD}Diplomacy {SD}Programming {SD}Treachery When you play this personnel, you may download a card and place that card beneath your Ferenginar. This personnel is Cunning+1 for each Rule you command that has a different card title.">
 			<attr key="rarity" value="R"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Ferengi}"/>
 			<attr key="race" value="Ferengi"/>
 			<attr key="cost" value="4"/>
@@ -707,7 +707,7 @@
 		</card>
 		<card name="Rom (Younger Brother)" graphics="romyoungerbrother.jpg" text="{SD}Engineer {SD}Honor {SD}Physics {SD}Programming Waiter. When a {fer} personnel present is randomly selected by a dilemma, you may make that personnel attributes +1 until the end of the dilemma.">
 			<attr key="rarity" value="U"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Ferengi}"/>
 			<attr key="race" value="Ferengi"/>
 			<attr key="cost" value="2"/>
@@ -718,7 +718,7 @@
 		</card>
 		<card name="Skron" graphics="skron.jpg" text="{SD}Acquisition {SD}Diplomacy {SD}Law {SD}Programming">
 			<attr key="rarity" value="C"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Ferengi}"/>
 			<attr key="race" value="Ferengi"/>
 			<attr key="cost" value="1"/>
@@ -729,7 +729,7 @@
 		</card>
 		<card name="Sovak (Treasure Hunter)" graphics="sovaktreasurehunter.jpg" text="{SD}Acquisition {SD}Archaeology {SD}Programming {SD}Science {SD}Treachery Order - Discard a card from hand to examine a number of cards from the top of your deck equal to the discarded card's cost, then replace them in any order.">
 			<attr key="rarity" value="R"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Ferengi}"/>
 			<attr key="race" value="Ferengi"/>
 			<attr key="cost" value="2"/>
@@ -740,7 +740,7 @@
 		</card>
 		<card name="Taar (Bristling DaiMon)" graphics="taarbristlingdaimon.jpg" text="{SD}Acquisition {SD}Astrometrics {SD}Engineer {SD}Officer {SD}Treachery This personnel is attributes+2 for each of these categories in which you have more than any of your opponents: cards in hand, events in core, and points scored.">
 			<attr key="rarity" value="R"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Ferengi}"/>
 			<attr key="race" value="Ferengi"/>
 			<attr key="cost" value="3"/>
@@ -751,7 +751,7 @@
 		</card>
 		<card name="Zek (The Grand Nagus)" graphics="zekthegrandnagus.jpg" text="{SD}2 Acquisition {SD}Diplomacy {SD}Law {SD}2 Leadership Commander: Aurulent . Order - Stop this card to reveal the top card of your deck. If it is a {fer} personnel, draw it; otherwise, place it beneath your Ferenginar.">
 			<attr key="rarity" value="R"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Ferengi}"/>
 			<attr key="race" value="Ferengi"/>
 			<attr key="cost" value="3"/>
@@ -762,7 +762,7 @@
 		</card>
 		<card name="Jean-Luc Picard (Worf's cha'Dich)" graphics="jeanlucpicardworfschadich.jpg" text="{SD}Diplomacy {SD}Honor {SD}Law {SD}Security When your Klingon personnel present is selected by a dilemma, you may replace him or her with this personnel.">
 			<attr key="rarity" value="R"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Klingon}"/>
 			<attr key="race" value="Human"/>
 			<attr key="cost" value="4"/>
@@ -773,7 +773,7 @@
 		</card>
 		<card name="K'Ehleyr (Diplomatic Advisor)" graphics="kehleyrdiplomaticadvisor.jpg" text="{SD}Anthropology {SD}Diplomacy {SD}Honor {SD}Law When this personnel uses her Diplomacy to complete a mission, score 5 points.">
 			<attr key="rarity" value="U"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Klingon}"/>
 			<attr key="race" value="Human/Klingon"/>
 			<attr key="cost" value="4"/>
@@ -784,7 +784,7 @@
 		</card>
 		<card name="Aikido" graphics="aikido.jpg" text="{SD}Honor {SD}Physics {SD}Security When a non-Hologram personnel present is randomly selected by a dilemma, you may make that personnel Strength +1 until the end of that dilemma.">
 			<attr key="rarity" value="C"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Non-Aligned}"/>
 			<attr key="race" value="Hologram"/>
 			<attr key="cost" value="2"/>
@@ -795,7 +795,7 @@
 		</card>
 		<card name="B-4 (Dangerous Simpleton)" graphics="b4dangeroussimpleton.jpg" text="{SD}Programming Infiltrator. While this personnel is attempting a mission, you may reveal three Androids from hand to make him Cunning +7 and gain Intelligence and Treachery. These effects last until the end of the mission attempt. You may only do this once each turn.">
 			<attr key="rarity" value="R"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Non-Aligned}"/>
 			<attr key="race" value="Android"/>
 			<attr key="cost" value="2"/>
@@ -806,7 +806,7 @@
 		</card>
 		<card name="Calisthenics Opponent" graphics="calisthenicsopponent.jpg" text="{SD}Anthropology {SD}Geology {SD}Security This personnel is attributes +1 for each of your Security personnel present.">
 			<attr key="rarity" value="U"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Non-Aligned}"/>
 			<attr key="race" value="Hologram"/>
 			<attr key="cost" value="2"/>
@@ -817,7 +817,7 @@
 		</card>
 		<card name="Flink" graphics="flink.jpg" text="{SD}Astrometrics {SD}Engineer {SD}Medical">
 			<attr key="rarity" value="C"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Non-Aligned}"/>
 			<attr key="race" value="Alien"/>
 			<attr key="cost" value="2"/>
@@ -828,7 +828,7 @@
 		</card>
 		<card name="Ira Graves (Noted Molecular Cyberneticist)" graphics="iragravesnotenmolecularcyberneticist.jpg" text="{SD}Biology {SD}Engineer {SD}Exobiology {SD}2 Programming {SD}Treachery When this personnel or your Android present is about to be stopped by a dilemma, you may discard an Android from hand to prevent that. You may do this only once each turn.">
 			<attr key="rarity" value="R"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Non-Aligned}"/>
 			<attr key="race" value="Human"/>
 			<attr key="cost" value="4"/>
@@ -839,7 +839,7 @@
 		</card>
 		<card name="Kivas Fajo (Collector)" graphics="kivasfajocollector.jpg" text="{SD}2 Acquisition {SD}Archaeology {SD}Exobiology {SD}Science {SD}2 Treachery Commander: Jovis. Thief. While this personnel is facing a dilemma, you may meet Diplomacy and Honor requirements of that dilemma using Acquisition instead.">
 			<attr key="rarity" value="R"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Non-Aligned}"/>
 			<attr key="race" value="Zibalian"/>
 			<attr key="cost" value="3"/>
@@ -850,7 +850,7 @@
 		</card>
 		<card name="Minuet (Jazz Lover)" graphics="minuetjazzlover.jpg" text="{SD}Anthropology {SD}Exobiology When this personnel is facing a dilemma, you may stop a non-Hologram personnel present to make this personnel attributes +1 and gain Programming and Security. These effects last until the end of the mission attempt.">
 			<attr key="rarity" value="C"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Non-Aligned}"/>
 			<attr key="race" value="Hologram"/>
 			<attr key="cost" value="1"/>
@@ -861,7 +861,7 @@
 		</card>
 		<card name="Noonien Soong (Often-Wrong)" graphics="nooniensoongoftenwrong.jpg" text="{SD}Engineer {SD}Physics {SD}2 Programming {SD}Science While this personnel is on a planet or aboard a ship, you may play Androids on that planet or ship. When you play an Android, you may discard a card from hand to download an Android.">
 			<attr key="rarity" value="R"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Non-Aligned}"/>
 			<attr key="race" value="Human"/>
 			<attr key="cost" value="3"/>
@@ -872,7 +872,7 @@
 		</card>
 		<card name="Palor Toff (Trader)" graphics="palortofftrader.jpg" text="{SD}Anthropology {SD}Biology {SD}Diplomacy {SD}Law This personnel is attributes +1 for each Artifact you command.">
 			<attr key="rarity" value="C"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Non-Aligned}"/>
 			<attr key="race" value="Alien"/>
 			<attr key="cost" value="2"/>
@@ -883,7 +883,7 @@
 		</card>
 		<card name="Ruk (Old One Servitor)" graphics="rukoldoneservitor.jpg" text="{SD}Exobiology {SD}Geology {SD}Security When you play this personnel, each Android you command is attributes+1 until end of turn.">
 			<attr key="rarity" value="C"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Non-Aligned}"/>
 			<attr key="race" value="Android"/>
 			<attr key="cost" value="4"/>
@@ -894,7 +894,7 @@
 		</card>
 		<card name="Sigmund Freud (Father of Psychoanalysis)" graphics="sigmundfreudfatherofpsychoanalysis.jpg" text="{SD}Anthropology {SD}Biology {SD}Medical">
 			<attr key="rarity" value="C"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Non-Aligned}"/>
 			<attr key="race" value="Hologram"/>
 			<attr key="cost" value="1"/>
@@ -905,7 +905,7 @@
 		</card>
 		<card name="Soong-type Android" graphics="soontypeandroid.jpg" text="While this personnel is facing a dilemma, you may reveal three Androids from hand to make it attributes +4 and gain a skill of your choice. These effects last until the end of the dilemma. You may do this only once each mission attempt.">
 			<attr key="rarity" value="C"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Non-Aligned}"/>
 			<attr key="race" value="Android"/>
 			<attr key="cost" value="2"/>
@@ -916,7 +916,7 @@
 		</card>
 		<card name="Tolian Soran (Renegade Scientist)" graphics="tolliansoranrenegadescientist.jpg" text="{SD}Astrometrics {SD}Engineer {SD}2 Physics {SD}Programming {SD}Transporters {SD}2 Treachery When this personnel uses a skill, randomly stop one of your personnel present.">
 			<attr key="rarity" value="R"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Non-Aligned}"/>
 			<attr key="race" value="El-Aurian"/>
 			<attr key="cost" value="0"/>
@@ -927,7 +927,7 @@
 		</card>
 		<card name="Varria (Lavishly Rewarded Aide)" graphics="varrialavishlyrewardedaide.jpg" text="{SD}Geology {SD}Honor {SD}Navigation {SD}Security {SD}Transporters">
 			<attr key="rarity" value="C"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Non-Aligned}"/>
 			<attr key="race" value="Alien"/>
 			<attr key="cost" value="2"/>
@@ -938,7 +938,7 @@
 		</card>
 		<card name="Vic Fontaine (Vegas Crooner)" graphics="vicfontainevegascrooner.jpg" text="{SD}Anthropology {SD}Diplomacy {SD}Honor When you begin a mission attempt involving this personnel, you may discard a card from hand to subtract one from the total cost your opponent may spend on dilemmas.">
 			<attr key="rarity" value="R"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Non-Aligned}"/>
 			<attr key="race" value="Hologram"/>
 			<attr key="cost" value="3"/>
@@ -949,7 +949,7 @@
 		</card>
 		<card name="Kassem (Stern Operative)" graphics="kassemsternoperative.jpg" text="{SD}Intelligence {SD}Medical {SD}Officer {SD}Treachery When this personnel uses a skill to complete a non-{rom} mission, score 5 points. You may do this only once each turn.">
 			<attr key="rarity" value="U"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Romulan}"/>
 			<attr key="race" value="Romulan"/>
 			<attr key="cost" value="4"/>
@@ -960,7 +960,7 @@
 		</card>
 		<card name="Spock (Celebrated Ambassador)" graphics="spockcelebratedambassador.jpg" text="{SD}Archaeology {SD}2 Diplomacy {SD}Honor {SD}Science Dissident. While this personnel is present with a Dissident, each of your Romulan personnel present is attributes +1.">
 			<attr key="rarity" value="R"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Romulan}"/>
 			<attr key="race" value="Human/Vulcan"/>
 			<attr key="cost" value="4"/>
@@ -971,7 +971,7 @@
 		</card>
 		<card name="Tebok (Posturing Commander)" graphics="tebokposturingcommander.jpg" text="{SD}Astrometrics {SD}Diplomacy {SD}Navigation {SD}Officer You may play this personnel at cost+1 to reveal the top three cards of an opponent's deck and replace them in any order.">
 			<attr key="rarity" value="C"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Romulan}"/>
 			<attr key="race" value="Romulan"/>
 			<attr key="cost" value="2"/>

@@ -175,7 +175,7 @@
 		</card>
 		<card name="Furel (Resistance Scout)" graphics="furelresistancescout.jpg" text="{SD}Astrometrics {SD}Biology {SD}Engineer {SD}Security Bajoran Resistance. Order - Lose 5 points to unstop up to two stopped Bajoran Resistance personnel present. You may do this only once each turn.">
 			<attr key="rarity" value="V"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Bajoran}"/>
 			<attr key="race" value="Bajoran"/>
 			<attr key="cost" value="2"/>
@@ -186,7 +186,7 @@
 		</card>
 		<card name="Gantt" graphics="gantt.jpg" text="{SD}Anthropology {SD}Exobiology {SD}Medical {SD}Science Bajoran Resistance. ">
 			<attr key="rarity" value="V"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Bajoran}"/>
 			<attr key="race" value="Bajoran"/>
 			<attr key="cost" value="2"/>
@@ -197,7 +197,7 @@
 		</card>
 		<card name="Halb Daier (Resistance Contact)" graphics="halbdaierresistancecontact.jpg" text="{SD}Physics {SD}Security {SD}Transporters Bajoran Resistance. When you play this personnel, you may download No Love For the Spoon Heads.">
 			<attr key="rarity" value="V"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Bajoran}"/>
 			<attr key="race" value="Bajoran"/>
 			<attr key="cost" value="2"/>
@@ -208,7 +208,7 @@
 		</card>
 		<card name="Kira Nerys (Ih'valla)" graphics="kiranerysihvalla.jpg" text="{SD}Honor {SD}Leadership When you begin a mission attempt involving this personnel, you may lose 5 points to take up to two cards from your discard pile into hand.">
 			<attr key="rarity" value="V"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Bajoran}"/>
 			<attr key="race" value="Bajoran"/>
 			<attr key="cost" value="1"/>
@@ -219,7 +219,7 @@
 		</card>
 		<card name="Opaka (Collaborator)" graphics="opakacollaborator.jpg" text="{SD}Anthropology {SD}Diplomacy {SD}Honor {SD}2 Leadership Kai. When you play this personnel, if you command Bajor and no other headquarters mission, you may score 5 points.">
 			<attr key="rarity" value="V"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Bajoran}"/>
 			<attr key="race" value="Bajoran"/>
 			<attr key="cost" value="5"/>
@@ -230,7 +230,7 @@
 		</card>
 		<card name="Orta (Resistance Leader)" graphics="ortaresistanceleader.jpg" text="{SD}Geology {SD}Leadership {SD}Security {SD}Treachery Bajoran Resistance. While this personnel is facing a dilemma, you may lose 5 points to make each Bajoran Resistance personnel present attributes +1 until the end of this turn. You may do this only once each turn.">
 			<attr key="rarity" value="V"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Bajoran}"/>
 			<attr key="race" value="Bajoran"/>
 			<attr key="cost" value="3"/>
@@ -241,7 +241,7 @@
 		</card>
 		<card name="Quen Paltra" graphics="quenpaltra.jpg" text="{SD}Archaeology {SD}Honor {SD}Navigation {SD}Programming Bajoran Resistance.">
 			<attr key="rarity" value="V"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Bajoran}"/>
 			<attr key="race" value="Bajoran"/>
 			<attr key="cost" value="2"/>
@@ -252,7 +252,7 @@
 		</card>
 		<card name="Surmak Ren (Resistance Doctor)" graphics="surmakrenresistancedoctor.jpg" text="{SD}Biology {SD}Exobiology {SD}Medical {SD}Programming {SD}Science Bajoran Resistance. While this personnel is facing a dilemma, if he is present with two Bajoran Resistance personnel, you may lose 5 points to download an interrupt. You may do this only once each turn.">
 			<attr key="rarity" value="V"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Bajoran}"/>
 			<attr key="race" value="Bajoran"/>
 			<attr key="cost" value="2"/>
@@ -263,7 +263,7 @@
 		</card>
 		<card name="Broca ('Leader' of the Cardassian Union)" graphics="brocaleaderofthecardassianunion.jpg" text="{SD}Archaeology {SD}Officer {SD}Physics {SD}Treachery Legate. When you play this personnel, if you command three {car} personnel, you may discard the top six cards of your deck to score 5 points.">
 			<attr key="rarity" value="V"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Cardassian}"/>
 			<attr key="race" value="Cardassian"/>
 			<attr key="cost" value="2"/>
@@ -274,7 +274,7 @@
 		</card>
 		<card name="Eris (Harbinger of the Dominion)" graphics="erisharbingerofthedominion.jpg" text="{SD}Diplomacy {SD}Medical {SD}Transporters {SD}Treachery When you play this personnel, if you command a Founder and a Vorta, you may score 5 points. When you begin combat involving this personnel, randomly select an opponent's personnel present to be excluded from that combat.">
 			<attr key="rarity" value="V"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Dominion}"/>
 			<attr key="race" value="Vorta"/>
 			<attr key="cost" value="4"/>
@@ -285,7 +285,7 @@
 		</card>
 		<card name="Charles Whatley (Professional Admiral)" graphics="charleswhatleyprofessionaladmiral.jpg" text="{SD}Engineer {SD}Law {SD}Leadership {SD}Officer {SD}Security Admiral. When you play this personnel, you may lose 5 points to download up to two {E} personnel, then place them on your Mouth of the Wormhole.">
 			<attr key="rarity" value="V"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Federation}"/>
 			<attr key="race" value="Human"/>
 			<attr key="cost" value="2"/>
@@ -296,7 +296,7 @@
 		</card>
 		<card name="Garth of Izar (Criminally Insane)" graphics="garthofizarcriminallyinsane.jpg" text="{SD}Exobiology {SD}Leadership {SD}2 Treachery Shape-shifter. You may play this personnel at cost +5 to reveal the top card of an opponent's deck. If it is a personnel that opponent does not command, it is placed in your brig (that opponent now commands him or her) and this personnel gains each of that personnel's skills until the end of this turn.">
 			<attr key="rarity" value="V"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Federation}"/>
 			<attr key="race" value="Human"/>
 			<attr key="cost" value="1"/>
@@ -307,7 +307,7 @@
 		</card>
 		<card name="Jarseh-Inyo (Federation President)" graphics="jareshinyofederationpresident.jpg" text="{SD}Diplomacy {SD}2 Honor {SD}Law {SD}2 Leadership When you play this personnel, you may lose 5 points to download up to three {DS9} personnel, then place them on your headquarters where each personnel could be played.">
 			<attr key="rarity" value="V"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Federation}"/>
 			<attr key="race" value="Grazerite"/>
 			<attr key="cost" value="3"/>
@@ -318,7 +318,7 @@
 		</card>
 		<card name="Luther Sloan (Man of Action)" graphics="luthersloanmanofaction.jpg" text="{SD}Anthropology {SD}Intelligence {SD}Programming {SD}2 Security {SD}2 Treachery Order - Remove your event from the game and return this personnel to his owner's hand to destroy an opponent's event.">
 			<attr key="rarity" value="V"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Federation}"/>
 			<attr key="race" value="Human"/>
 			<attr key="cost" value="3"/>
@@ -329,7 +329,7 @@
 		</card>
 		<card name="Richard Galen (Legendary Archaeologist)" graphics="richardgalenlegendaryarchaeologist.jpg" text="{SD}2 Archaeology {SD}Exobiology {SD}Geology {SD}Navigation {SD}Science When you play this personnel, you may download an Artifact. While this personnel is facing a dilemma, you may lose 5 points to have a personnel present gain all skills that this mission has in its requirements until the end of this mission attempt.">
 			<attr key="rarity" value="V"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Federation}"/>
 			<attr key="race" value="Human"/>
 			<attr key="cost" value="4"/>
@@ -340,7 +340,7 @@
 		</card>
 		<card name="DaiMon Solok (Cargo Runner)" graphics="daimonsolokcargorunner.jpg" text="{SD}Acquisition {SD}Anthropology {SD}Engineer {SD}Navigation {SD}Officer {SD}Transporters Smuggler. To play this personnel, place the top card of your dilemma pile underneath a non-headquarters mission of the opponent to your right's choice. When you play this personnel, if you command three {fer} personnel, score 5 points.">
 			<attr key="rarity" value="V"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Ferengi}"/>
 			<attr key="race" value="Ferengi"/>
 			<attr key="cost" value="4"/>
@@ -351,7 +351,7 @@
 		</card>
 		<card name="Croden (Dissembler)" graphics="crodendissembler.jpg" text="{SD}Astrometrics {SD}Geology {SD}Navigation {SD}Science {SD}Treachery Thief. When you play this personnel, choose an opponent to choose one: the next card you play this turn is cost -4 or you score 5 points.">
 			<attr key="rarity" value="V"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Non-Aligned}"/>
 			<attr key="race" value="Rakhari"/>
 			<attr key="cost" value="4"/>
@@ -362,7 +362,7 @@
 		</card>
 		<card name="Deanna Troi (Durango)" graphics="deannatroidurango.jpg" text="{SD}Anthropology {SD}Honor {SD}Security {SD}Telepathy When an opponent plays a Security personnel or places a Security personnel from hand on a headquarters mission, you may discard two cards from hand to stop that personnel.">
 			<attr key="rarity" value="V"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Non-Aligned}"/>
 			<attr key="race" value="Betazoid/Human"/>
 			<attr key="cost" value="2"/>
@@ -373,7 +373,7 @@
 		</card>
 		<card name="Emck (Export Controller)" graphics="emckexportcontroller.jpg" text="{SD}Acquisition {SD}Biology {SD}Leadership {SD}Medical {SD}Navigation {SD}Physics {SD}Treachery Commander: Eleventh Gradient. When you are about to play this personnel, you may lose 5 points to do any or all of the following: play him at cost -3, play him aboard your {na} ship, download a {na} personnel.">
 			<attr key="rarity" value="V"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Non-Aligned}"/>
 			<attr key="race" value="Malon"/>
 			<attr key="cost" value="3"/>
@@ -384,7 +384,7 @@
 		</card>
 		<card name="Kaitaama (Precious Cargo)" graphics="kaitaamapreciouscargo.jpg" text="{SD}Anthropology {SD}Diplomacy {SD}Law {SD}Ledership When this personnel is about to be placed in a brig, return her to her owner's hand. When this personnel is killed by a dilemma, score 5 points. When this personnel is stopped by a dilemma, draw a card.">
 			<attr key="rarity" value="V"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Non-Aligned}"/>
 			<attr key="race" value="Kriosian"/>
 			<attr key="cost" value="4"/>
@@ -395,7 +395,7 @@
 		</card>
 		<card name="Donatra (Honorable Commander)" graphics="donatrahonorablecommander.jpg" text="{SD}Diplomacy {SD}Honor {SD}Leadership {SD}Navigation {SD}Officer {SD}Physics Commander: Valdore. While this personnel is facing a dilemma that has a cost of 1 or more and does not require a skill, you may return this personnel to her owner's hand to prevent and overcome that dilemma.">
 			<attr key="rarity" value="V"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Romulan}"/>
 			<attr key="race" value="Romulan"/>
 			<attr key="cost" value="5"/>

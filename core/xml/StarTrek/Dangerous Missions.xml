@@ -55,7 +55,7 @@
 		</card>
 		<card name="Bareil Antos (Escort)" graphics="bareilantosescort.jpg" text="{SD}Anthropology {SD}Diplomacy {SD}2 Honor {SD}Leadership {SD}Security Vedek. Order - Stop this personnel to reveal a Vedek or Kai personnel from your hand. You may discard cards from the top of your deck equal to that personnel's cost to place that personnel at your mission where he or she could be played.">
 			<attr key="rarity" value="R"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Bajoran}"/>
 			<attr key="race" value="Bajoran"/>
 			<attr key="cost" value="4"/>
@@ -66,7 +66,7 @@
 		</card>
 		<card name="Kira Nerys (Hero of Bajor)" graphics="kiranerysheroofbajor.jpg" text="{SD}Archaeology {SD}Navigation {SD}Officer {SD}Security Vedek. While this personnel is facing a dilemma, you may remove a card in your discard pile from the game to make her gain a skill from your Vedek present until the end of that mission attempt. You may only do this once each turn.">
 			<attr key="rarity" value="R"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Bajoran}"/>
 			<attr key="race" value="Bajoran"/>
 			<attr key="cost" value="2"/>
@@ -77,7 +77,7 @@
 		</card>
 		<card name="Jadzia Dax (Elder)" graphics="jadziadaxelder.jpg" text="{SD}Anthropology {SD}Navigation {SD}Programming {SD}Science {SD}Security Host. Vedek. When you play this personnel, for each Vedek you command, she is cost -1.">
 			<attr key="rarity" value="R"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Bajoran}"/>
 			<attr key="race" value="Trill"/>
 			<attr key="cost" value="4"/>
@@ -88,7 +88,7 @@
 		</card>
 		<card name="James T. Kirk (Irrational Human Being)" graphics="jamestkirkirrationalhumanbeing.jpg" text="{SD}Anthropology {SD}Honor {SD}Leadership {SD}Security When your Leadership personnel present is selected by a dilemma, you may stop this personnel to make that personnel attributes +3 until the end of that dilemma.">
 			<attr key="rarity" value="R"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Federation}"/>
 			<attr key="race" value="Human"/>
 			<attr key="cost" value="3"/>
@@ -99,7 +99,7 @@
 		</card>
 		<card name="Jean-Luc Picard (Captain of the Enterprise)" graphics="jeanlucpicardcaptainoftheenterprise.jpg" text="{SD}Diplomacy {SD}Honor {SD}Leadership {SD}Officer {SD}Programming {SD}Security Commander: U.S.S. Enterprise-D. When your {fed} personnel present is killed by a dilemma, you may make this personnel attributes +3 and gain Leadership until the end of the turn. You may do this only once each turn.">
 			<attr key="rarity" value="R"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Federation}"/>
 			<attr key="race" value="Human"/>
 			<attr key="cost" value="4"/>
@@ -110,7 +110,7 @@
 		</card>
 		<card name="William T. Riker (Skilled Commander)" graphics="williamtrikerskilledcommander.jpg" text="{SD}Anthropology {SD}2 Leadership {SD}Navigation {SD}Officer {SD}Programming Commander: U.S.S. Enterprise-D. When your Leadership personnel present is killed by a dilemma, you may discard two cards from your hand to download a {TNG} personnel.">
 			<attr key="rarity" value="R"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Federation}"/>
 			<attr key="race" value="Human"/>
 			<attr key="cost" value="3"/>
@@ -121,7 +121,7 @@
 		</card>
 		<card name="Charles Tucker III (Standing In)" graphics="charlestuckeriiistandingin.jpg" text="{SD}2 Engineer {SD}Programming {SD}2 Transporters Commander: Enterprise. During your Play and Draw Cards segment, you may spend 1 additional counter for each space mission you have completed.">
 			<attr key="rarity" value="R"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Starfleet}"/>
 			<attr key="race" value="Human"/>
 			<attr key="cost" value="3"/>
@@ -132,7 +132,7 @@
 		</card>
 		<card name="Jonathan Archer (Bearer of Surak's Katra)" graphics="jonathanarcherbearerofsurakskatra.jpg" text="{SD}Archaeology {SD}Diplomacy {SD}Honor {SD}Security When your non-{sf} personnel is about to be stopped by a dilemma, you may discard a card from your hand to have this personnel gain a skill from him or her until the end of the mission attempt.">
 			<attr key="rarity" value="R"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Starfleet}"/>
 			<attr key="race" value="Human"/>
 			<attr key="cost" value="3"/>
@@ -143,7 +143,7 @@
 		</card>
 		<card name="T'Pol (Non-believer)" graphics="tpolnonbeliever.jpg" text="{SD}Archaeology {SD}Honor {SD}Leadership {SD}Science {SD}Security When this personnel uses a skill to complete a mission, you may take an Artifact or event from your discard pile into hand. You may do this only once each turn.">
 			<attr key="rarity" value="R"/>
-			<attr key="type" value="Personel"/>
+			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Starfleet}"/>
 			<attr key="race" value="Vulcan"/>
 			<attr key="cost" value="3"/>

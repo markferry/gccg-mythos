@@ -111,7 +111,6 @@
 		</card>
 		<card name="Tenak'talar (Vanguard of the Occupation)" graphics="tenaktalarvanguardoftheoccupation.jpg" text="This ship is Range +1 for each unique {car} personnel aboard (limit +3). When your unique Cardassian aboard uses a skill to complete a {car} mission, if this ship is staffed, score 10 points. You may do this only once each turn.">
 			<attr key="rarity" value="V"/>
-
 			<attr key="type" value="Ship"/>
 			<attr key="affiliation" value="{Dominion}"/>
 			<attr key="class" value="Warship"/>

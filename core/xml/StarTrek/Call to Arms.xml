@@ -120,10 +120,6 @@
 			<attr key="rarity" value="U"/>
 			<attr key="type" value="Dilemma"/>
 			<attr key="cost" value="2"/>
-
-
-
-
 			<attr key="zone" value="{dual}"/>
 		</card>
 		<card name="Psycho-Kinetic Attack" graphics="psychokineticattack.jpg" back="1" text="Unless you have Exobiology and 2 Medical or Honor and Telepathy, randomly select a Security personnel to be killed.">
@@ -470,7 +466,7 @@
 			<attr key="points" value="35"/>
 			<attr key="span" value="3"/>
 		</card>
-		<card name="Destroy Iconian Gateway" graphics="destroyiconiangateway.jpg" text="Engineer, Leadership, Physics, Security, and Strength&gt;34 ">
+		<card name="Destroy Iconian Gateway" graphics="destroyiconiangateway.jpg" text="Engineer, Leadership, Physics, Security, and Strength&gt;34">
 			<attr key="rarity" value="S"/>
 			<attr key="type" value="Mission"/>
 			<attr key="attemptable" value="{Dominion} {Federation}"/>
@@ -560,7 +556,7 @@
 			<attr key="points" value="40"/>
 			<attr key="span" value="2"/>
 		</card>
-		<card name="Mouth of the Wormhole (Terok Nor)" graphics="mouthofthewormholeteroknor.jpg" text="You may play {TN} cards, {na} cards, and equipment at this mission. Region: Bajor System. ">
+		<card name="Mouth of the Wormhole (Terok Nor)" graphics="mouthofthewormholeteroknor.jpg" text="You may play {TN} cards, {na} cards, and equipment at this mission. Region: Bajor System.">
 			<attr key="rarity" value="U"/>
 			<attr key="type" value="Mission"/>
 			<attr key="attemptable" value="Cardassian/Dominion Headquarters"/>
@@ -783,7 +779,7 @@
 			<attr key="cunning" value="5"/>
 			<attr key="strength" value="5"/>
 		</card>
-		<card name="Allocation Drone" graphics="allocationdrone.jpg" text="{SD}Science Drone. Interlink: Geology. ">
+		<card name="Allocation Drone" graphics="allocationdrone.jpg" text="{SD}Science Drone. Interlink: Geology.">
 			<attr key="rarity" value="C"/>
 			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Borg}"/>
@@ -849,7 +845,7 @@
 			<attr key="cunning" value="5"/>
 			<attr key="strength" value="5"/>
 		</card>
-		<card name="Cartography Drone" graphics="cartographydrone.jpg" text="{SD}Engineer Drone. Interlink: Astrometrics. ">
+		<card name="Cartography Drone" graphics="cartographydrone.jpg" text="{SD}Engineer Drone. Interlink: Astrometrics.">
 			<attr key="rarity" value="C"/>
 			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Borg}"/>
@@ -871,7 +867,7 @@
 			<attr key="cunning" value="6"/>
 			<attr key="strength" value="5"/>
 		</card>
-		<card name="Continuity Drone" graphics="continuitydrone.jpg" text="{SD}Science Drone. Interlink: Programming. ">
+		<card name="Continuity Drone" graphics="continuitydrone.jpg" text="{SD}Science Drone. Interlink: Programming.">
 			<attr key="rarity" value="C"/>
 			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Borg}"/>
@@ -882,7 +878,7 @@
 			<attr key="cunning" value="5"/>
 			<attr key="strength" value="5"/>
 		</card>
-		<card name="Evaluation Drone" graphics="evaluationdrone.jpg" text="{SD}Security Drone. Interlink: Exobiology. ">
+		<card name="Evaluation Drone" graphics="evaluationdrone.jpg" text="{SD}Security Drone. Interlink: Exobiology.">
 			<attr key="rarity" value="C"/>
 			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Borg}"/>
@@ -893,7 +889,7 @@
 			<attr key="cunning" value="5"/>
 			<attr key="strength" value="5"/>
 		</card>
-		<card name="Guidance Drone" graphics="guidancedrone.jpg" text="{SD}Engineer Drone. Interlink: Navigation. ">
+		<card name="Guidance Drone" graphics="guidancedrone.jpg" text="{SD}Engineer Drone. Interlink: Navigation.">
 			<attr key="rarity" value="C"/>
 			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Borg}"/>
@@ -904,7 +900,7 @@
 			<attr key="cunning" value="5"/>
 			<attr key="strength" value="5"/>
 		</card>
-		<card name="Information Drone" graphics="informationdrone.jpg" text="{SD}Exobiology {SD}Science {SD}Transporters Drone. Interlink: a skill on your non-{bor} personnel present.. ">
+		<card name="Information Drone" graphics="informationdrone.jpg" text="{SD}Exobiology {SD}Science {SD}Transporters Drone. Interlink: a skill on your non-{bor} personnel present..">
 			<attr key="rarity" value="C"/>
 			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Borg}"/>
@@ -959,7 +955,7 @@
 			<attr key="cunning" value="5"/>
 			<attr key="strength" value="6"/>
 		</card>
-		<card name="Preservation Drone" graphics="preservationdrone.jpg" text="{SD}Medical Drone. Interlink: Biology. ">
+		<card name="Preservation Drone" graphics="preservationdrone.jpg" text="{SD}Medical Drone. Interlink: Biology.">
 			<attr key="rarity" value="C"/>
 			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Borg}"/>
@@ -981,7 +977,7 @@
 			<attr key="cunning" value="5"/>
 			<attr key="strength" value="5"/>
 		</card>
-		<card name="Research Drone" graphics="researchdrone.jpg" text="{SD}Medical Drone. Interlink: Physics. ">
+		<card name="Research Drone" graphics="researchdrone.jpg" text="{SD}Medical Drone. Interlink: Physics.">
 			<attr key="rarity" value="C"/>
 			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Borg}"/>
@@ -1738,7 +1734,7 @@
 			<attr key="weapons" value="9"/>
 			<attr key="shields" value="9"/>
 		</card>
-		<card name="U.S.S. Defiant (Stolen Warship)" graphics="ussdefiantstolenwarship.jpg" text="Cloaking Device. Order - If this ship is staffed and at a non-headquarters mission, this mission's owner places two cards from hand on top of his or her deck. You may do this only once each turn. ">
+		<card name="U.S.S. Defiant (Stolen Warship)" graphics="ussdefiantstolenwarship.jpg" text="Cloaking Device. Order - If this ship is staffed and at a non-headquarters mission, this mission's owner places two cards from hand on top of his or her deck. You may do this only once each turn.">
 			<attr key="rarity" value="R"/>
 			<attr key="type" value="Ship"/>
 			<attr key="affiliation" value="{Federation}"/>

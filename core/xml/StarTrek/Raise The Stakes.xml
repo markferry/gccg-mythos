@@ -104,10 +104,6 @@
 			<attr key="cost" value="2"/>
 			<attr key="zone" value="{dual}"/>
 		</card>
-
-
-
-
 		<card name="You Vant to Go Back?" graphics="youvanttogoback.jpg" back="1" text="This dilemma is cost +3. Reveal the top card of your deck. Unless the cost of that card is odd, your opponent chooses a personnel to be returned to his or her owner's hand.">
 			<attr key="rarity" value="V"/>
 			<attr key="type" value="Dilemma"/>
@@ -691,7 +687,7 @@
 			<attr key="weapons" value="7"/>
 			<attr key="shields" value="6"/>
 		</card>
-		<card name="Orion Interceptor" graphics="orioninterceptor.jpg" text="While you command another ship that has a cost of 6 or more, this ship is Range +2. While this ship is at a {na} mission or a mission worth 40 or more points, it is Weapons +4 and Shields ">
+		<card name="Orion Interceptor" graphics="orioninterceptor.jpg" text="While you command another ship that has a cost of 6 or more, this ship is Range +2. While this ship is at a {na} mission or a mission worth 40 or more points, it is Weapons +4 and Shields +4.">
 			<attr key="rarity" value="V"/>
 			<attr key="type" value="Ship"/>
 			<attr key="affiliation" value="{Non-Aligned}"/>

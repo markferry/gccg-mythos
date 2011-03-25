@@ -1180,7 +1180,7 @@
 			<attr key="cunning" value="5"/>
 			<attr key="strength" value="5"/>
 		</card>
-		<card name="Hannah Bates (Biosphere Expert)" graphics="hannahbatesbiosphereexpert.jpg" text="{SD}Engineer {SD}Physics {SD}Programming {SD}Science Genetically Enhanced. ">
+		<card name="Hannah Bates (Biosphere Expert)" graphics="hannahbatesbiosphereexpert.jpg" text="{SD}Engineer {SD}Physics {SD}Programming {SD}Science Genetically Enhanced.">
 			<attr key="rarity" value="C"/>
 			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Non-Aligned}"/>

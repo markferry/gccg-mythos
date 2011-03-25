@@ -264,7 +264,7 @@
 			<attr key="points" value="0"/>
 			<attr key="span" value="2"/>
 		</card>
-		<card name="Investigate Destruction" graphics="investigatedestruction.jpg" text="Astrometrics, Diplomacy, Officer, and Integrity&gt;25 or Navigation, Security, Treachery, and Cunning&gt;28 Region: Neutral Zone. ">
+		<card name="Investigate Destruction" graphics="investigatedestruction.jpg" text="Astrometrics, Diplomacy, Officer, and Integrity&gt;25 or Navigation, Security, Treachery, and Cunning&gt;28 Region: Neutral Zone.">
 			<attr key="rarity" value="U"/>
 			<attr key="type" value="Mission"/>
 			<attr key="attemptable" value="{Federation} {Romulan}"/>

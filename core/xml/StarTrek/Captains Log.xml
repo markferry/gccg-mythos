@@ -182,7 +182,7 @@
 			<attr key="type" value="Event"/>
 			<attr key="cost" value="1"/>
 		</card>
-		<card name="Rule of Acquisition #16" graphics="ruleofacquisition16.jpeg" text="Rule. To play this event, you must command three {fer} personnel. Plays in your core. At the start of each of your turns, you may destroy this event to spend an additional counter this turn for each card on this event. Order - Stop your {fer} personnel to place a card from hand on this event. ">
+		<card name="Rule of Acquisition #16" graphics="ruleofacquisition16.jpeg" text="Rule. To play this event, you must command three {fer} personnel. Plays in your core. At the start of each of your turns, you may destroy this event to spend an additional counter this turn for each card on this event. Order - Stop your {fer} personnel to place a card from hand on this event.">
 			<attr key="rarity" value="R"/>
 			<attr key="type" value="Event"/>
 			<attr key="cost" value="0"/>

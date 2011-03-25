@@ -792,7 +792,7 @@
 			<attr key="cunning" value="5"/>
 			<attr key="strength" value="5"/>
 		</card>
-		<card name="Persis (Loyal Daughter)" graphics="persisloyaldaughter.jpg" text="{SD}Astrometrics {SD}Engineer {SD}Programming Genetically Enhanced. ">
+		<card name="Persis (Loyal Daughter)" graphics="persisloyaldaughter.jpg" text="{SD}Astrometrics {SD}Engineer {SD}Programming Genetically Enhanced.">
 			<attr key="rarity" value="C"/>
 			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Non-Aligned}"/>

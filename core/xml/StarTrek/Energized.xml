@@ -44,7 +44,7 @@
 			<attr key="cost" value="4"/>
 			<attr key="zone" value="{dual}"/>
 		</card>
-		<card name="Exposed Power Relay" graphics="exposedpowerrelay.jpg" back="1" text="Randomly select a personnel to be stopped. If you still have nine personnel remaining, that personnel is killed instead, then randomly select a second personnel to be killed. If you still have ten personnel remaining, your opponent chooses a third personn">
+		<card name="Exposed Power Relay" graphics="exposedpowerrelay.jpg" back="1" text="Randomly select a personnel to be stopped. If you still have nine personnel remaining, that personnel is killed instead, then randomly select a second personnel to be killed. If you still have ten personnel remaining, your opponent chooses a third personnel to be killed.">
 			<attr key="rarity" value="U"/>
 			<attr key="type" value="Dilemma"/>
 			<attr key="cost" value="3"/>
@@ -240,7 +240,7 @@
 			<attr key="type" value="Event"/>
 			<attr key="cost" value="1"/>
 		</card>
-		<card name="For the Cause" graphics="forthecause.jpg" text="Plays on Athos IV. You may attempt and complete Region: Demilitarized Zone missions using your {Maq} personnel (and a ship they are aboard at a space mission), regardless of effects preventing {Maq} personnel (or ships those personnel are aboard) from doi">
+		<card name="For the Cause" graphics="forthecause.jpg" text="Plays on Athos IV. You may attempt and complete Region: Demilitarized Zone missions using your {Maq} personnel (and a ship they are aboard at a space mission), regardless of effects preventing {Maq} personnel (or ships those personnel are aboard) from doiing so, with these requirements: Leadership, Security, Treachery, and Strength&gt;36.">
 			<attr key="rarity" value="C"/>
 			<attr key="type" value="Event"/>
 			<attr key="cost" value="3"/>
@@ -270,7 +270,7 @@
 			<attr key="type" value="Event"/>
 			<attr key="cost" value="3"/>
 		</card>
-		<card name="Machinations" graphics="machinations.jpg" text="Temporal. Plays in your core. When you have drawn dilemmas, you may remove this event and those dilemmas from the game to search your dilemma pile and choose a dilemma for your opponent's personnel to face that costs no more than the number of dilemmas yo">
+		<card name="Machinations" graphics="machinations.jpg" text="Temporal. Plays in your core. When you have drawn dilemmas, you may remove this event and those dilemmas from the game to search your dilemma pile and choose a dilemma for your opponent's personnel to face that costs no more than the number of dilemmas you removed. Shuffle and replace your dilemma pile face down.">
 			<attr key="rarity" value="R"/>
 			<attr key="type" value="Event"/>
 			<attr key="cost" value="2"/>
@@ -280,7 +280,7 @@
 			<attr key="type" value="Event"/>
 			<attr key="cost" value="1"/>
 		</card>
-		<card name="Peldor Joi" graphics="peldorjoi.jpg" text="To play this event, you must command three {baj} personnel. Take a {baj} personnel from your discard pile and place him or her on you headquarters mission where that personnel could be played. Each of your opponents may take a personnel from his or her di">
+		<card name="Peldor Joi" graphics="peldorjoi.jpg" text="To play this event, you must command three {baj} personnel. Take a {baj} personnel from your discard pile and place him or her on you headquarters mission where that personnel could be played. Each of your opponents may take a personnel from his or her discard pile into hand.">
 			<attr key="rarity" value="U"/>
 			<attr key="type" value="Event"/>
 			<attr key="cost" value="3"/>
@@ -295,7 +295,7 @@
 			<attr key="type" value="Event"/>
 			<attr key="cost" value="1"/>
 		</card>
-		<card name="Pickpocket" graphics="pickpocket.jpg" text="Crime. To play this event, you must command a Thief. Plays in your core. Order - Reveal the top card of an opponent's deck. If it is not a personnel, destroy this event. Otherwise, each of your Thieves is attributes +2 until the end of this turn. You may ">
+		<card name="Pickpocket" graphics="pickpocket.jpg" text="Crime. To play this event, you must command a Thief. Plays in your core. Order - Reveal the top card of an opponent's deck. If it is not a personnel, destroy this event. Otherwise, each of your Thieves is attributes +2 until the end of this turn. You may only do this once each turn.">
 			<attr key="rarity" value="C"/>
 			<attr key="type" value="Event"/>
 			<attr key="cost" value="1"/>
@@ -330,17 +330,17 @@
 			<attr key="type" value="Event"/>
 			<attr key="cost" value="3"/>
 		</card>
-		<card name="Shadow Operation" graphics="shadowoperation.jpg" text="To play this event, you must command two {rom} Intelligence personnel. Plays in your core. When you are about to play a {rom} personnel who costs 3, if you have played no other personnel this turn and your staffed ship is at an opponent's non-headquarters">
+		<card name="Shadow Operation" graphics="shadowoperation.jpg" text="To play this event, you must command two {rom} Intelligence personnel. Plays in your core. When you are about to play a {rom} personnel who costs 3, if you have played no other personnel this turn and your staffed ship is at an opponent's non-headquarters mission, that personnel is cost -2.">
 			<attr key="rarity" value="R"/>
 			<attr key="type" value="Event"/>
 			<attr key="cost" value="1"/>
 		</card>
-		<card name="Sickbay" graphics="sickbay.jpg" text="To play this event, you must command a Medical personnel. Plays in your core. At the end of your turn, destroy this event. When your personnel is about to be killed by a dilemma, if you command a ship at the same mission, place that personnel on top of hi">
+		<card name="Sickbay" graphics="sickbay.jpg" text="To play this event, you must command a Medical personnel. Plays in your core. At the end of your turn, destroy this event. When your personnel is about to be killed by a dilemma, if you command a ship at the same mission, place that personnel on top of his or her owner's deck instead.">
 			<attr key="rarity" value="U"/>
 			<attr key="type" value="Event"/>
 			<attr key="cost" value="1"/>
 		</card>
-		<card name="Smuggling Run" graphics="smugglingrun.jpg" text="Crime. Plays in your core. At the start of each of your turns, if your Smuggler is at an opponent's non-headquarters mission, that opponent has no ship at that mission, and your personnel at that mission have its requirements, you may destroy this event t">
+		<card name="Smuggling Run" graphics="smugglingrun.jpg" text="Crime. Plays in your core. At the start of each of your turns, if your Smuggler is at an opponent's non-headquarters mission, that opponent has no ship at that mission, and your personnel at that mission have its requirements, you may destroy this event to score 10 points.">
 			<attr key="rarity" value="U"/>
 			<attr key="type" value="Event"/>
 			<attr key="cost" value="2"/>
@@ -360,12 +360,12 @@
 			<attr key="type" value="Event"/>
 			<attr key="cost" value="2"/>
 		</card>
-		<card name="The Text of the Kosst Amojan" graphics="thetextofthekosstamojan.jpg" text="Pah-wraith. Plays in your core. Order - Stop your Kai or one of your {baj} Treachery personnel to choose two non-Prophet cards from your discard pile. Choose an opponent to choose one of those cards to place in your hand and one to remove from the game. Y">
+		<card name="The Text of the Kosst Amojan" graphics="thetextofthekosstamojan.jpg" text="Pah-wraith. Plays in your core. Order - Stop your Kai or one of your {baj} Treachery personnel to choose two non-Prophet cards from your discard pile. Choose an opponent to choose one of those cards to place in your hand and one to remove from the game. You may do this only once each turn.">
 			<attr key="rarity" value="R"/>
 			<attr key="type" value="Event"/>
 			<attr key="cost" value="1"/>
 		</card>
-		<card name="Under Scrutiny" graphics="underscrutiny.jpg" text="Plays in your core. When you play this event, name a personnel. While that personnel is attempting a mission, his or her owner must discard a card from hand to use his or her sk">
+		<card name="Under Scrutiny" graphics="underscrutiny.jpg" text="Plays in your core. When you play this event, name a personnel. While that personnel is attempting a mission, his or her owner must discard a card from hand to use his or her skills.">
 			<attr key="rarity" value="R"/>
 			<attr key="type" value="Event"/>
 			<attr key="cost" value="3"/>
@@ -375,7 +375,7 @@
 			<attr key="type" value="Event"/>
 			<attr key="cost" value="0"/>
 		</card>
-		<card name="Unseen Manipulations" graphics="unseenmanipulations.jpg" text="To play this event, you must command three {rom} Treachery personnel. Plays in your core. When an opponent begins the Execute Orders segment of his or her turn, if that opponent has not drawn two cards or played a ship this turn, he or she discards the to">
+		<card name="Unseen Manipulations" graphics="unseenmanipulations.jpg" text="To play this event, you must command three {rom} Treachery personnel. Plays in your core. When an opponent begins the Execute Orders segment of his or her turn, if that opponent has not drawn two cards or played a ship this turn, he or she discards the top two cards of his or her deck.">
 			<attr key="rarity" value="U"/>
 			<attr key="type" value="Event"/>
 			<attr key="cost" value="3"/>
@@ -427,7 +427,7 @@
 			<attr key="rarity" value="R"/>
 			<attr key="type" value="Interrupt"/>
 		</card>
-		<card name="Ja'chuq" graphics="jachuq.jpg" text="When you win combat or an engagement involving your {kli} Leadership personnel, choose one of your missions. The player to your left places the top card of his or her dilemma pile face up beneath that mission (that dilemma is overcome). Remove this interr">
+		<card name="Ja'chuq" graphics="jachuq.jpg" text="When you win combat or an engagement involving your {kli} Leadership personnel, choose one of your missions. The player to your left places the top card of his or her dilemma pile face up beneath that mission (that dilemma is overcome). Remove this interrupt from the game.">
 			<attr key="rarity" value="R"/>
 			<attr key="type" value="Interrupt"/>
 		</card>
@@ -463,7 +463,7 @@
 			<attr key="rarity" value="C"/>
 			<attr key="type" value="Interrupt"/>
 		</card>
-		<card name="Vile of Deception" graphics="viledeception.jpg" text="When an opponent’s personnel is attempting a mission, if your Romulan is at that mission, that opponent chooses to reveal his or her hand and discard all interrupts revealed or chooses two of his or her personnel involved in that mission attempt to be sto">
+		<card name="Vile Deception" graphics="viledeception.jpg" text="When an opponent’s personnel is attempting a mission, if your Romulan is at that mission, that opponent chooses to reveal his or her hand and discard all interrupts revealed or chooses two of his or her personnel involved in that mission attempt to be stopped.">
 			<attr key="rarity" value="R"/>
 			<attr key="type" value="Interrupt"/>
 		</card>
@@ -475,7 +475,7 @@
 			<attr key="rarity" value="U"/>
 			<attr key="type" value="Interrupt"/>
 		</card>
-		<card name="Well-Crafted Lure" graphics="wellcraftedlure.jpg" text="Capture. To play this interrupt, you must command a {car} Law personnel at a non-headquarters mission. Order - Randomly select an opponent’s non-unique personnel present. You may discard a number of cards from hand equal to that personnel’s cost to place ">
+		<card name="Well-Crafted Lure" graphics="wellcraftedlure.jpg" text="Capture. To play this interrupt, you must command a {car} Law personnel at a non-headquarters mission. Order - Randomly select an opponent’s non-unique personnel present. You may discard a number of cards from hand equal to that personnel’s cost to place him or her in your brig.">
 			<attr key="rarity" value="U"/>
 			<attr key="type" value="Interrupt"/>
 		</card>
@@ -573,7 +573,7 @@
 			<attr key="cunning" value="5"/>
 			<attr key="strength" value="4"/>
 		</card>
-		<card name="Jaro Essa (Leader of the Circle)" graphics="jaroessaleaderofthecircle.jpg" text="{SD}Diplomacy {SD}Law {SD}Leadership {SD}Treachery When this personnel is facing a dilemma, you may remove a personnel in your discard pile from the game to make him gain one of the removed personnel's skills until the end of that dilemma. You may do this only once e">
+		<card name="Jaro Essa (Leader of the Circle)" graphics="jaroessaleaderofthecircle.jpg" text="{SD}Diplomacy {SD}Law {SD}Leadership {SD}Treachery When this personnel is facing a dilemma, you may remove a personnel in your discard pile from the game to make him gain one of the removed personnel's skills until the end of that dilemma. You may do this only once each dilemma.">
 			<attr key="rarity" value="R"/>
 			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Bajoran}"/>
@@ -711,7 +711,6 @@
 			<attr key="affiliation" value="{Cardassian}"/>
 			<attr key="race" value="Cardassian"/>
 			<attr key="cost" value="1"/>
-
 			<attr key="icons" value=""/>
 			<attr key="integrity" value="6"/>
 			<attr key="cunning" value="6"/>
@@ -750,7 +749,7 @@
 			<attr key="cunning" value="6"/>
 			<attr key="strength" value="6"/>
 		</card>
-		<card name="Ezri Dax (Station Counselor)" graphics="ezridaxstationcounselor.jpg" text="{SD}Anthropology {SD}Diplomacy {SD}Geology Host. If you command Jadzia Dax, place this personnel in her owner's discard pile. While this personnel is facing a dilemma, you may discard a card from hand to make her gain Engineer, Law, or Science until the end of tha">
+		<card name="Ezri Dax (Station Counselor)" graphics="ezridaxstationcounselor.jpg" text="{SD}Anthropology {SD}Diplomacy {SD}Geology Host. If you command Jadzia Dax, place this personnel in her owner's discard pile. While this personnel is facing a dilemma, you may discard a card from hand to make her gain Engineer, Law, or Science until the end of that dilemma.">
 			<attr key="rarity" value="R"/>
 			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Federation}"/>
@@ -805,7 +804,7 @@
 			<attr key="cunning" value="5"/>
 			<attr key="strength" value="4"/>
 		</card>
-		<card name="Kelly (Relief Tactical Officer)" graphics="kellyrelieftacticalofficer.jpg" text="{SD}Engineer {SD}Physics {SD}Security Genetically Enhanced. ">
+		<card name="Kelly (Relief Tactical Officer)" graphics="kellyrelieftacticalofficer.jpg" text="{SD}Engineer {SD}Physics {SD}Security Genetically Enhanced.">
 			<attr key="rarity" value="C"/>
 			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Federation}"/>
@@ -1006,7 +1005,6 @@
 		<card name="Korris (Renegade Captain)" graphics="korrisrenegadecaptain.jpg" text="{SD}Engineer {SD}Honor {SD}Officer {SD}Security When your other Klingon present is killed during a mission attempt, this personnel is Strength +3 until the end of that mission attempt (limit +3).">
 			<attr key="rarity" value="R"/>
 			<attr key="type" value="Personnel"/>
-
 			<attr key="affiliation" value="{Klingon}"/>
 			<attr key="race" value="Klingon"/>
 			<attr key="cost" value="3"/>
@@ -1125,7 +1123,7 @@
 			<attr key="cunning" value="5"/>
 			<attr key="strength" value="4"/>
 		</card>
-		<card name="Narik" graphics="narik.jpg" text="{SD}Engineer {SD}Physics {SD}Programming Smuggler. ">
+		<card name="Narik" graphics="narik.jpg" text="{SD}Engineer {SD}Physics {SD}Programming Smuggler.">
 			<attr key="rarity" value="C"/>
 			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Non-Aligned}"/>
@@ -1181,7 +1179,7 @@
 			<attr key="cunning" value="6"/>
 			<attr key="strength" value="6"/>
 		</card>
-		<card name="Vekor" graphics="vekor.jpg" text="{SD}Medical {SD}Navigation {SD}Science Thief. ">
+		<card name="Vekor" graphics="vekor.jpg" text="{SD}Medical {SD}Navigation {SD}Science Thief.">
 			<attr key="rarity" value="C"/>
 			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Non-Aligned}"/>

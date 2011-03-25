@@ -136,7 +136,7 @@
 			<attr key="rarity" value="V"/>
 			<attr key="type" value="Interrupt"/>
 		</card>
-		<card name="Investigate Anachronism" graphics="investigateanachronism.jpg" text="Diplomacy, Leadership, 2 Security, and Strength&gt;30 or 2 Anthropology, Biology, Honor, and Cunning&gt;30 Region: Delphic Expanse. ">
+		<card name="Investigate Anachronism" graphics="investigateanachronism.jpg" text="Diplomacy, Leadership, 2 Security, and Strength&gt;30 or 2 Anthropology, Biology, Honor, and Cunning&gt;30 Region: Delphic Expanse.">
 			<attr key="rarity" value="V"/>
 			<attr key="type" value="Mission"/>
 			<attr key="attemptable" value="{Starfleet}"/>
@@ -145,7 +145,7 @@
 			<attr key="points" value="30"/>
 			<attr key="span" value="2"/>
 		</card>
-		<card name="Investigate Refinery" graphics="investigaterefinery.jpg" text="2 Physics, Security, Treachery, and Strength&gt;31 or Engineer, Leadership, Science, and Cunning&gt;34 Region: Delphic Expanse. ">
+		<card name="Investigate Refinery" graphics="investigaterefinery.jpg" text="2 Physics, Security, Treachery, and Strength&gt;31 or Engineer, Leadership, Science, and Cunning&gt;34 Region: Delphic Expanse.">
 			<attr key="rarity" value="V"/>
 			<attr key="type" value="Mission"/>
 			<attr key="attemptable" value="{Starfleet}"/>

@@ -468,7 +468,6 @@
 			<attr key="race" value="Human"/>
 			<attr key="cost" value="2"/>
 			<attr key="icons" value="{Cmd} {TOS} {Pa} {AU}"/>
-
 			<attr key="integrity" value="2"/>
 			<attr key="cunning" value="6"/>
 			<attr key="strength" value="6"/>
@@ -561,7 +560,7 @@
 			<attr key="cunning" value="8"/>
 			<attr key="strength" value="4"/>
 		</card>
-		<card name="Revised Janeway (Cold-Blooded Killer)" graphics="revisedjanewaycoldbloodedkiller.jpg" text="{SD}Leadership {SD}Officer {SD}Science {SD}2 Treachery While this personnel is facing a dilemma, you may discard a card titled Kathryn Janeway or Revised Janeway from hand to make her Cunning +5 and Strength +5 until the end of that dilemma. ">
+		<card name="Revised Janeway (Cold-Blooded Killer)" graphics="revisedjanewaycoldbloodedkiller.jpg" text="{SD}Leadership {SD}Officer {SD}Science {SD}2 Treachery While this personnel is facing a dilemma, you may discard a card titled Kathryn Janeway or Revised Janeway from hand to make her Cunning +5 and Strength +5 until the end of that dilemma.">
 			<attr key="rarity" value="U"/>
 			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Federation}"/>
@@ -902,7 +901,7 @@
 			<attr key="cunning" value="5"/>
 			<attr key="strength" value="6"/>
 		</card>
-		<card name="Hoshi Sato (Captain's Woman)" graphics="hoshisatocaptainswoman.jpg" text="{SD}Anthropology {SD}Programming {SD}2 Treachery While you have no cards in hand, this personnel and each of your Leadership personnel present are attributes +">
+		<card name="Hoshi Sato (Captain's Woman)" graphics="hoshisatocaptainswoman.jpg" text="{SD}Anthropology {SD}Programming {SD}2 Treachery While you have no cards in hand, this personnel and each of your Leadership personnel present are attributes +1.">
 			<attr key="rarity" value="U"/>
 			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Starfleet}"/>

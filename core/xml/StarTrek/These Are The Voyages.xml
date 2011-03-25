@@ -56,7 +56,7 @@
 			<attr key="cost" value="4"/>
 			<attr key="zone" value="{planet}"/>
 		</card>
-		<card name="Mark of Gideon" graphics="markofgideon.jpg" back="1" text="Randomly select a personnel to be stopped. If you still have nine personnel remaining, return that personnel to his or her owner's hand, then your opponent chooses a second personnel to return to his or her owner's hand. If you still have ten personnel re">
+		<card name="Mark of Gideon" graphics="markofgideon.jpg" back="1" text="Randomly select a personnel to be stopped. If you still have nine personnel remaining, return that personnel to his or her owner's hand, then your opponent chooses a second personnel to return to his or her owner's hand. If you still have ten personnel remaining, your opponent chooses a third personnel to return to his or her owner's hand.">
 			<attr key="rarity" value="C"/>
 			<attr key="type" value="Dilemma"/>
 			<attr key="cost" value="3"/>
@@ -86,13 +86,13 @@
 			<attr key="cost" value="2"/>
 			<attr key="zone" value="{planet}"/>
 		</card>
-		<card name="Psychokinetic Control" graphics="psychokineticcontrol.jpg" back="1" text="Place this dilemma on this mission. Each personnel at this mission loses each skill he or she has gained. Each personnel cannot gain skills. Each personnel cannot increase his or her attributes. At the end of this mission attempt, this dilemma is overcome">
+		<card name="Psychokinetic Control" graphics="psychokineticcontrol.jpg" back="1" text="Place this dilemma on this mission. Each personnel at this mission loses each skill he or she has gained. Each personnel cannot gain skills. Each personnel cannot increase his or her attributes. At the end of this mission attempt, this dilemma is overcome.">
 			<attr key="rarity" value="R"/>
 			<attr key="type" value="Dilemma"/>
 			<attr key="cost" value="0"/>
 			<attr key="zone" value="{dual}"/>
 		</card>
-		<card name="Silent Attack" graphics="silentattack.jpg" back="1" text="Randomly select three personnel. If the total cost of those personnel is 4 or less, they are stopped and this dilemma is placed in your core. Otherwise, randomly select one of those personnel to be stopped. When you play a non-unique personnel, he or she ">
+		<card name="Silent Attack" graphics="silentattack.jpg" back="1" text="Randomly select three personnel. If the total cost of those personnel is 4 or less, they are stopped and this dilemma is placed in your core. Otherwise, randomly select one of those personnel to be stopped. When you play a non-unique personnel, he or she is cost +1.">
 			<attr key="rarity" value="C"/>
 			<attr key="type" value="Dilemma"/>
 			<attr key="cost" value="3"/>
@@ -122,7 +122,7 @@
 			<attr key="cost" value="5"/>
 			<attr key="zone" value="{planet}"/>
 		</card>
-		<card name="Tox Uthat" graphics="toxuthat.jpg" text="Artifact. (To play this card, you must have completed a mission requiring Acquisition, Anthropology, or Archaeology.) While your personnel present is facing a dilemma, you may place this equipment on the bottom of your deck to end your mission attempt. Th">
+		<card name="Tox Uthat" graphics="toxuthat.jpg" text="Artifact. (To play this card, you must have completed a mission requiring Acquisition, Anthropology, or Archaeology.) While your personnel present is facing a dilemma, you may place this equipment on the bottom of your deck to end your mission attempt. That dilemma and all remaining dilemmas in the dilemma stack are returned to their owner's dilemma pile.">
 			<attr key="rarity" value="R"/>
 			<attr key="type" value="Equipment"/>
 			<attr key="cost" value="3"/>
@@ -132,7 +132,7 @@
 			<attr key="type" value="Event"/>
 			<attr key="cost" value="2"/>
 		</card>
-		<card name="Discovered" graphics="discovered.jpg" text="To play this event, you must command three {rom} personnel. Search an opponent's deck and place up to two of those cards in that opponent's discard pile. Those cards cannot be personnel or ships. Then that opponent shuffles and replaces his or her deck. R">
+		<card name="Discovered" graphics="discovered.jpg" text="To play this event, you must command three {rom} personnel. Search an opponent's deck and place up to two of those cards in that opponent's discard pile. Those cards cannot be personnel or ships. Then that opponent shuffles and replaces his or her deck. Remove this event from the game.">
 			<attr key="rarity" value="U"/>
 			<attr key="type" value="Event"/>
 			<attr key="cost" value="5"/>
@@ -147,12 +147,12 @@
 			<attr key="type" value="Event"/>
 			<attr key="cost" value="2"/>
 		</card>
-		<card name="Not Easily Avoided" graphics="noteasilyavoided.jpg" text="Q. Plays in your core. When you are about to draw dilemmas, you may discard two cards (or an equipment) from hand to search your dilemma pile, choose a dilemma, and place it aside. Then shuffle and replace your dilemma pile and place that dilemma on top o">
+		<card name="Not Easily Avoided" graphics="noteasilyavoided.jpg" text="Q. Plays in your core. When you are about to draw dilemmas, you may discard two cards (or an equipment) from hand to search your dilemma pile, choose a dilemma, and place it aside. Then shuffle and replace your dilemma pile and place that dilemma on top of your dilemma pile.">
 			<attr key="rarity" value="U"/>
 			<attr key="type" value="Event"/>
 			<attr key="cost" value="4"/>
 		</card>
-		<card name="Obstacle to Opportunity" graphics="obstacletoopportunity.jpg" text="To play this event, you must command three {fer} personnel. Plays in your core. When you play an Acquisition personnel, you may discard a card from hand to choose an opponent and examine the top card of his or her dilemma pile. Place that dilemma on the t">
+		<card name="Obstacle to Opportunity" graphics="obstacletoopportunity.jpg" text="To play this event, you must command three {fer} personnel. Plays in your core. When you play an Acquisition personnel, you may discard a card from hand to choose an opponent and examine the top card of his or her dilemma pile. Place that dilemma on the top or bottom of that dilemma pile.">
 			<attr key="rarity" value="U"/>
 			<attr key="type" value="Event"/>
 			<attr key="cost" value="1"/>
@@ -162,7 +162,7 @@
 			<attr key="type" value="Event"/>
 			<attr key="cost" value="3"/>
 		</card>
-		<card name="Plasma Energy Weapon" graphics="plasmaenergyweapon.jpg" text="To play this event, you must command three {rom} personnel. Plays in your core. At the start of each of your turns, you may make each opponent draw five cards. At the end of each of your turns, each opponent that drew cards this turn this way places five ">
+		<card name="Plasma Energy Weapon" graphics="plasmaenergyweapon.jpg" text="To play this event, you must command three {rom} personnel. Plays in your core. At the start of each of your turns, you may make each opponent draw five cards. At the end of each of your turns, each opponent that drew cards this turn this way places five cards from hand on the bottom of his or her deck in any order.">
 			<attr key="rarity" value="U"/>
 			<attr key="type" value="Event"/>
 			<attr key="cost" value="1"/>
@@ -177,12 +177,12 @@
 			<attr key="type" value="Event"/>
 			<attr key="cost" value="0"/>
 		</card>
-		<card name="You Have a Disease" graphics="youhaveadisease.jpg" text="Plays in your core. When your unique {bor} personnel uses a skill to meet a requirement on a dilemma or mission, you may choose an opponent to discard a card from hand. Then you may draw a card for each headquarters mission that opponent commands. You may">
+		<card name="You Have a Disease" graphics="youhaveadisease.jpg" text="Plays in your core. When your unique {bor} personnel uses a skill to meet a requirement on a dilemma or mission, you may choose an opponent to discard a card from hand. Then you may draw a card for each headquarters mission that opponent commands. You may do this only once each turn.">
 			<attr key="rarity" value="U"/>
 			<attr key="type" value="Event"/>
 			<attr key="cost" value="2"/>
 		</card>
-		<card name="Cascade Virus" graphics="cascadevirus.jpg" text="To play this interrupt you must command Athos IV and three {Maq} personnel. When an opponent plays a non-unique personnel or a personnel who costs 2 or less, ignore effects from playing that personnel and place him or her in his or her owner's discard pil">
+		<card name="Cascade Virus" graphics="cascadevirus.jpg" text="To play this interrupt you must command Athos IV and three {Maq} personnel. When an opponent plays a non-unique personnel or a personnel who costs 2 or less, ignore effects from playing that personnel and place him or her in his or her owner's discard pile.">
 			<attr key="rarity" value="R"/>
 			<attr key="type" value="Interrupt"/>
 		</card>
@@ -330,7 +330,7 @@
 			<attr key="cunning" value="6"/>
 			<attr key="strength" value="5"/>
 		</card>
-		<card name="Bashir Founder (Imperturbable Infiltrator)" graphics="bashirfounderimperturbableinfiltrator.jpg" text="{SD}Intelligence {SD}Medical {SD}Physics {SD}2 Treachery Founder. Infiltrator. Shape-shifter. While you command two Founders, you may play this personnel at cost +2 aboard an opponent's ship. If you do this, that opponent now commands him. While you command but do no">
+		<card name="Bashir Founder (Imperturbable Infiltrator)" graphics="bashirfounderimperturbableinfiltrator.jpg" text="{SD}Intelligence {SD}Medical {SD}Physics {SD}2 Treachery Founder. Infiltrator. Shape-shifter. While you command two Founders, you may play this personnel at cost +2 aboard an opponent's ship. If you do this, that opponent now commands him. While you command but do not own this personnel, each of your personnel is attributes -1 (even if this personnel is stopped).">
 			<attr key="rarity" value="R"/>
 			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Dominion}"/>
@@ -341,7 +341,7 @@
 			<attr key="cunning" value="7"/>
 			<attr key="strength" value="6"/>
 		</card>
-		<card name="Krajensky Founder (Adversary)" graphics="krajenskyfounderadversary.jpg" text="{SD}Diplomacy {SD}Intelligence {SD}Law {SD}Treachery Founder. Infiltrator. Shape-shifter. When a personnel the opponent on your right commands attempts this mission, if this mission has two or more dilemmas overcome beneath it, you may draw two extra dilemmas and spe">
+		<card name="Krajensky Founder (Adversary)" graphics="krajenskyfounderadversary.jpg" text="{SD}Diplomacy {SD}Intelligence {SD}Law {SD}Treachery Founder. Infiltrator. Shape-shifter. When a personnel the opponent on your right commands attempts this mission, if this mission has two or more dilemmas overcome beneath it, you may draw two extra dilemmas and spend two extra on total cost for dilemmas.">
 			<attr key="rarity" value="R"/>
 			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Dominion}"/>
@@ -374,7 +374,7 @@
 			<attr key="cunning" value="5"/>
 			<attr key="strength" value="4"/>
 		</card>
-		<card name="Areel Shaw" graphics="areelshaw.jpg" text="{SD}Diplomacy {SD}Law {SD}Officer You may play this personnel at cost +2 to examine a number of cards from the top of your deck equal to the number of {TOS} personnel you command who have Honor or Officer. Take one of those cards into hand and shuffle the rest int">
+		<card name="Areel Shaw" graphics="areelshaw.jpg" text="{SD}Diplomacy {SD}Law {SD}Officer You may play this personnel at cost +2 to examine a number of cards from the top of your deck equal to the number of {TOS} personnel you command who have Honor or Officer. Take one of those cards into hand and shuffle the rest into your deck.">
 			<attr key="rarity" value="C"/>
 			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Federation}"/>
@@ -407,7 +407,7 @@
 			<attr key="cunning" value="6"/>
 			<attr key="strength" value="5"/>
 		</card>
-		<card name="Benjamin Sisko (Command Staffer)" graphics="benjaminsiskocommandstaffer.jpg" text="{SD}Engineer {SD}Leadership {SD}Officer {SD}Security You may play this personnel aboard your {TOS} ship. When an opponent plays an interrupt, if this personnel is present with three {Pa} personnel, you may return this personnel to his owner's hand to prevent that int">
+		<card name="Benjamin Sisko (Command Staffer)" graphics="benjaminsiskocommandstaffer.jpg" text="{SD}Engineer {SD}Leadership {SD}Officer {SD}Security You may play this personnel aboard your {TOS} ship. When an opponent plays an interrupt, if this personnel is present with three {Pa} personnel, you may return this personnel to his owner's hand to prevent that interrupt and place it in its owner's discard pile.">
 			<attr key="rarity" value="R"/>
 			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Federation}"/>
@@ -418,7 +418,7 @@
 			<attr key="cunning" value="6"/>
 			<attr key="strength" value="6"/>
 		</card>
-		<card name="Carolyn Palamas" graphics="carolynpalamas.jpg" text="{SD}Anthropology {SD}Archaeology {SD}Science You may play this personnel at cost +2 to reveal the top card of your deck. If that card's cost is odd, you may subtract one from the number of dilemmas your opponent may draw this turn. Otherwise, add one to the number">
+		<card name="Carolyn Palamas" graphics="carolynpalamas.jpg" text="{SD}Anthropology {SD}Archaeology {SD}Science You may play this personnel at cost +2 to reveal the top card of your deck. If that card's cost is odd, you may subtract one from the number of dilemmas your opponent may draw this turn. Otherwise, add one to the number of dilemmas your opponent may draw this turn.">
 			<attr key="rarity" value="C"/>
 			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Federation}"/>
@@ -550,7 +550,7 @@
 			<attr key="cunning" value="5"/>
 			<attr key="strength" value="6"/>
 		</card>
-		<card name="Julian Bashir (Medical Staffer)" graphics="julianbashirmedicalstaffer.jpg" text="{SD}Biology {SD}Exobiology {SD}2 Medical Genetically Enhanced. You may play this personnel aboard your {TOS} ship. At the start of each of your turns, you may take a personnel in your discard pile and place that personnel on the bottom of your deck. When you do th">
+		<card name="Julian Bashir (Medical Staffer)" graphics="julianbashirmedicalstaffer.jpg" text="{SD}Biology {SD}Exobiology {SD}2 Medical Genetically Enhanced. You may play this personnel aboard your {TOS} ship. At the start of each of your turns, you may take a personnel in your discard pile and place that personnel on the bottom of your deck. When you do this, each opponent may do the same with his or her discard pile and deck.">
 			<attr key="rarity" value="R"/>
 			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Federation}"/>
@@ -583,7 +583,7 @@
 			<attr key="cunning" value="6"/>
 			<attr key="strength" value="5"/>
 		</card>
-		<card name="Marlena Moreau" graphics="marlenamoreau.jpg" text="{SD}Biology {SD}Honor {SD}Officer {SD}Physics {SD}Science You may play this personnel at cost +1 to make each player count the number of cards in his or her discard pile, shuffle those cards into his or her deck, and discard from the top of his or her deck an equal numb">
+		<card name="Marlena Moreau" graphics="marlenamoreau.jpg" text="{SD}Biology {SD}Honor {SD}Officer {SD}Physics {SD}Science You may play this personnel at cost +1 to make each player count the number of cards in his or her discard pile, shuffle those cards into his or her deck, and discard from the top of his or her deck an equal number of cards.">
 			<attr key="rarity" value="C"/>
 			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Federation}"/>
@@ -847,7 +847,7 @@
 			<attr key="cunning" value="6"/>
 			<attr key="strength" value="4"/>
 		</card>
-		<card name="Dukat (Pah-Wraith Puppet)" graphics="dukatpahwraithpuppet.jpg" text="{SD}Transporters {SD}2 Treachery While you have no cards in your discard pile, this personnel is Cunning +4, Strength +4, and cannot be killed by dilemmas. Order - Examine and remove two cards in a player's discard pile from the game. You may do this only once ">
+		<card name="Dukat (Pah-Wraith Puppet)" graphics="dukatpahwraithpuppet.jpg" text="{SD}Transporters {SD}2 Treachery While you have no cards in your discard pile, this personnel is Cunning +4, Strength +4, and cannot be killed by dilemmas. Order - Examine and remove two cards in a player's discard pile from the game. You may only do this once each turn.">
 			<attr key="rarity" value="R"/>
 			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Non-Aligned}"/>
@@ -869,7 +869,7 @@
 			<attr key="cunning" value="5"/>
 			<attr key="strength" value="6"/>
 		</card>
-		<card name="Gav (Diplomat)" graphics="gavdiplomat.jpg" text="{SD}Anthropology {SD}Archaeology {SD}Diplomacy {SD}Geology {SD}Science {SD}Transporters While this personnel is facing a dilemma, you may choose an opponent to score 5 points to have this personnel gain a skill of your choice until the end of that dilemma. You may do this ">
+		<card name="Gav (Diplomat)" graphics="gavdiplomat.jpg" text="{SD}Anthropology {SD}Archaeology {SD}Diplomacy {SD}Geology {SD}Science {SD}Transporters While this personnel is facing a dilemma, you may choose an opponent to score 5 points to have this personnel gain a skill of your choice until the end of that dilemma. You may only do this once each dilemma.">
 			<attr key="rarity" value="C"/>
 			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Non-Aligned}"/>
@@ -880,7 +880,7 @@
 			<attr key="cunning" value="7"/>
 			<attr key="strength" value="5"/>
 		</card>
-		<card name="Gem" graphics="gem.jpg" text="{SD}Honor {SD}Telepathy When this personnel begins a mission attempt, you may remove her from the game to name a dilemma and choose an opponent to remove a copy of that dilemma in his or her dilemma pile from the game. That opponent shuffles and replaces his or">
+		<card name="Gem" graphics="gem.jpg" text="{SD}Honor {SD}Telepathy When this personnel begins a mission attempt, you may remove her from the game to name a dilemma and choose an opponent to remove a copy of that dilemma in his or her dilemma pile from the game. That opponent shuffles and replaces his or her dilemma pile.">
 			<attr key="rarity" value="U"/>
 			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Non-Aligned}"/>
@@ -935,7 +935,7 @@
 			<attr key="cunning" value="6"/>
 			<attr key="strength" value="5"/>
 		</card>
-		<card name="Charvanek (Neutral Zone Commander)" graphics="charvanekneutralzonecommander.jpg" text="{SD}Diplomacy {SD}Leadership {SD}Officer {SD}Science When you play this personnel, reveal an opponent's hand. For each personnel revealed, this personne is cost -1. When this personnel is an eligible target for a random selection, you may choose one: exclude her from">
+		<card name="Charvanek (Neutral Zone Commander)" graphics="charvanekneutralzonecommander.jpg" text="{SD}Diplomacy {SD}Leadership {SD}Officer {SD}Science When you play this personnel, reveal an opponent's hand. For each personnel revealed, this personne is cost -1. When this personnel is an eligible target for a random selection, you may choose one: exclude her from that selection; or exclude a {Pa} {rom} personnel present from that selection.">
 			<attr key="rarity" value="R"/>
 			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Romulan}"/>
@@ -946,7 +946,7 @@
 			<attr key="cunning" value="6"/>
 			<attr key="strength" value="5"/>
 		</card>
-		<card name="Keras (Creature of Duty)" graphics="kerascreatureofduty.jpg" text="{SD}Anthropology {SD}Honor {SD}Leadership {SD}Security Commander: Gal Gath'thong. At the start of each of your turns, you may choose an opponent and name a card. That opponent searches his or her deck, places the named card in his or her hand, and shuffles his or her">
+		<card name="Keras (Creature of Duty)" graphics="kerascreatureofduty.jpg" text="{SD}Anthropology {SD}Honor {SD}Leadership {SD}Security Commander: Gal Gath'thong. At the start of each of your turns, you may choose an opponent and name a card. That opponent searches his or her deck, places the named card in his or her hand, and shuffles his or her deck.">
 			<attr key="rarity" value="R"/>
 			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Romulan}"/>
@@ -957,7 +957,7 @@
 			<attr key="cunning" value="6"/>
 			<attr key="strength" value="6"/>
 		</card>
-		<card name="T'Auethn (Obedient Centurian)" graphics="tauethnobedientcenturion.jpg" text="{SD}Astrometrics {SD}Law {SD}Navigation {SD}Physics When you play this personnel, reveal an opponent's hand. For each event revealed, this personnel is cost -1. Then you may choose a non-ship card revealed and remove it from the game. Order - Kill this personnel to d">
+		<card name="T'Auethn (Obedient Centurian)" graphics="tauethnobedientcenturion.jpg" text="{SD}Astrometrics {SD}Law {SD}Navigation {SD}Physics When you play this personnel, reveal an opponent's hand. For each event revealed, this personnel is cost -1. Then you may choose a non-ship card revealed and remove it from the game. Order - Kill this personnel to discard a card from hand.">
 			<attr key="rarity" value="R"/>
 			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Romulan}"/>
@@ -1001,7 +1001,7 @@
 			<attr key="cunning" value="5"/>
 			<attr key="strength" value="6"/>
 		</card>
-		<card name="Jeremiah Hayes (Diligent Major)" graphics="jeremiahhayesdiligentmajor.jpg" text="{SD}Honor {SD}Leadership {SD}Officer {SD}Security MACO. While your MACO is facing a dilemma at a planet mission and you command a completed space mission, you may place this personnel on that planet mission and have him join that attempt. You may use this ability onl">
+		<card name="Jeremiah Hayes (Diligent Major)" graphics="jeremiahhayesdiligentmajor.jpg" text="{SD}Honor {SD}Leadership {SD}Officer {SD}Security MACO. While your MACO is facing a dilemma at a planet mission and you command a completed space mission, you may place this personnel on that planet mission and have him join that attempt. You may use this ability only if this personnel is at another mission.">
 			<attr key="rarity" value="R"/>
 			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Starfleet}"/>

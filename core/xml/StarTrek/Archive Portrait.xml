@@ -90,7 +90,7 @@
 			<attr key="cunning" value="6"/>
 			<attr key="strength" value="5"/>
 		</card>
-		<card name="Persis (Loyal Daughter)" graphics="persisloyaldaughter.jpg" text="{SD}Astrometrics {SD}Engineer {SD}Programming Genetically Enhanced. ">
+		<card name="Persis (Loyal Daughter)" graphics="persisloyaldaughter.jpg" text="{SD}Astrometrics {SD}Engineer {SD}Programming Genetically Enhanced.">
 			<attr key="rarity" value="AP"/>
 			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Non-Aligned}"/>
@@ -133,7 +133,7 @@
 			<attr key="rarity" value="AP"/>
 			<attr key="type" value="Interrupt"/>
 		</card>
-		<card name="Ishara Yar (Deceitful Soldier)" graphics="isharayardeceitfulsoldier.jpg" text="{SD}Engineer {SD}Programming {SD}Treachery Infiltrator. ">
+		<card name="Ishara Yar (Deceitful Soldier)" graphics="isharayardeceitfulsoldier.jpg" text="{SD}Engineer {SD}Programming {SD}Treachery Infiltrator.">
 			<attr key="rarity" value="AP"/>
 			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Non-Aligned}"/>

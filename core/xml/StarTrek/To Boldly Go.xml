@@ -198,10 +198,6 @@
 			<attr key="cost" value="1"/>
 		</card>
 		<card name="Not Easily Destroyed" graphics="noteasilydestroyed.jpg" text="Plays in your core. When your Hologram is about to be killed by a dilemma, you may discard a card from hand to stop him or her instead.">
-
-
-
-
 			<attr key="rarity" value="C"/>
 			<attr key="type" value="Event"/>
 			<attr key="cost" value="2"/>

@@ -184,7 +184,7 @@
 			<attr key="cunning" value="6"/>
 			<attr key="strength" value="6"/>
 		</card>
-		<card name="Gantt" graphics="gantt.jpg" text="{SD}Anthropology {SD}Exobiology {SD}Medical {SD}Science Bajoran Resistance. ">
+		<card name="Gantt" graphics="gantt.jpg" text="{SD}Anthropology {SD}Exobiology {SD}Medical {SD}Science Bajoran Resistance.">
 			<attr key="rarity" value="V"/>
 			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Bajoran}"/>

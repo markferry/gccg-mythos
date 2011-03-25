@@ -52,7 +52,7 @@
 			<attr key="cunning" value="6"/>
 			<attr key="strength" value="7"/>
 		</card>
-		<card name="Earth (Cradle of the Federation)" graphics="earthcradleofthefederation.jpg" text="You may play {TNG} cards, {E} cards, {na} cards, and equipment at this mission. Region: Sector 001. ">
+		<card name="Earth (Cradle of the Federation)" graphics="earthcradleofthefederation.jpg" text="You may play {TNG} cards, {E} cards, {na} cards, and equipment at this mission. Region: Sector 001.">
 			<attr key="rarity" value="VP"/>
 			<attr key="type" value="Mission"/>
 			<attr key="attemptable" value="Federation Headquarters"/>
@@ -236,7 +236,7 @@
 			<attr key="cunning" value="6"/>
 			<attr key="strength" value="4"/>
 		</card>
-		<card name="Ishara Yar (Deceitful Soldier)" graphics="isharayardeceitfulsoldier.jpg" text="{SD}Engineer {SD}Programming {SD}Treachery Infiltrator. ">
+		<card name="Ishara Yar (Deceitful Soldier)" graphics="isharayardeceitfulsoldier.jpg" text="{SD}Engineer {SD}Programming {SD}Treachery Infiltrator.">
 			<attr key="rarity" value="VP"/>
 			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Non-Aligned}"/>

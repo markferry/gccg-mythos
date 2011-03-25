@@ -20,7 +20,7 @@
 			<attr key="cost" value="1"/>
 			<attr key="zone" value="{space}"/>
 		</card>
-		<card name="Antedean Assassins" graphics="antedeanassassins.jpg" back="1" back="1" text="Unless you have a personnel who has 2 Anthropology or a personnel who has 2 Telepathy, your opponent chooses an Anthropology or Telepathy personnel to be stopped. If your opponent cannot, all your personnel are stopped and this dilemma returns to it's dil">
+		<card name="Antedean Assassins" graphics="antedeanassassins.jpg" back="1" back="1" text="Unless you have a personnel who has 2 Anthropology or a personnel who has 2 Telepathy, your opponent chooses an Anthropology or Telepathy personnel to be stopped. If your opponent cannot, all your personnel are stopped and this dilemma returns to it's owner's dilemma pile.">
 			<attr key="rarity" value="C"/>
 			<attr key="type" value="Dilemma"/>
 			<attr key="cost" value="3"/>
@@ -44,7 +44,7 @@
 			<attr key="cost" value="4"/>
 			<attr key="zone" value="{planet}"/>
 		</card>
-		<card name="Authenticate Artifacts" graphics="authenticateartifacts.jpg" back="1" text="Unless you have a personnel who has 2 Anthropology or a personnel who has 2 Archaeology, your opponent chooses an Anthropology or Archaeology personnel to be stopped. If your opponent cannot, all your personnel are stopped and this dilemma returns to its ">
+		<card name="Authenticate Artifacts" graphics="authenticateartifacts.jpg" back="1" text="Unless you have a personnel who has 2 Anthropology or a personnel who has 2 Archaeology, your opponent chooses an Anthropology or Archaeology personnel to be stopped. If your opponent cannot, all your personnel are stopped and this dilemma returns to its owner's dilemma pile.">
 			<attr key="rarity" value="C"/>
 			<attr key="type" value="Dilemma"/>
 			<attr key="cost" value="2"/>
@@ -68,7 +68,7 @@
 			<attr key="cost" value="2"/>
 			<attr key="zone" value="{planet}"/>
 		</card>
-		<card name="Bynars' Password" graphics="bynarspassword.jpg" back="1" text="Unless you have a personnel who has 2 Engineer or a personnel who has 2 Programming, your opponent chooses an Engineer or Programming personnel to be stopped. If your opponent cannot, all your personnel are stopped and this dilemma returns to its owner's ">
+		<card name="Bynars' Password" graphics="bynarspassword.jpg" back="1" text="Unless you have a personnel who has 2 Engineer or a personnel who has 2 Programming, your opponent chooses an Engineer or Programming personnel to be stopped. If your opponent cannot, all your personnel are stopped and this dilemma returns to its owner's dilemma pile.">
 			<attr key="rarity" value="C"/>
 			<attr key="type" value="Dilemma"/>
 			<attr key="cost" value="3"/>
@@ -218,7 +218,7 @@
 			<attr key="cost" value="1"/>
 			<attr key="zone" value="{space}"/>
 		</card>
-		<card name="Microbrain" graphics="microbrain.jpg" back="1" text="Unless you have a personnel who has 2 Exobiology or a personnel who has 2 Geology, your opponent chooses an Exobiology or Geology personnel to be stopped. If your opponent cannot, all your personnel are stopped and this dilemma returns to its owner's dile">
+		<card name="Microbrain" graphics="microbrain.jpg" back="1" text="Unless you have a personnel who has 2 Exobiology or a personnel who has 2 Geology, your opponent chooses an Exobiology or Geology personnel to be stopped. If your opponent cannot, all your personnel are stopped and this dilemma returns to its owner's dilemma pile.">
 			<attr key="rarity" value="C"/>
 			<attr key="type" value="Dilemma"/>
 			<attr key="cost" value="3"/>
@@ -246,7 +246,6 @@
 			<attr key="rarity" value="C"/>
 			<attr key="type" value="Dilemma"/>
 			<attr key="cost" value="4"/>
-
 			<attr key="zone" value="{dual}"/>
 		</card>
 		<card name="Personal Duty" graphics="personalduty.jpg" back="1" text="Unless you have Leadership or Officer, all your personnel are stopped. If you have two more personnel who have Leadership or Officer, randomly select all but one of those personnel to be stopped.">
@@ -285,7 +284,7 @@
 			<attr key="cost" value="2"/>
 			<attr key="zone" value="{dual}"/>
 		</card>
-		<card name="Recurring Injury" graphics="recurringinjury.jpg" back="1" text="Unless you have a personnel who has 2 Biology or a personnel who has 2 Medical, your opponent chooses an Biology or Medical personnel to be stopped. If your opponent cannot, all your personnel are stopped and this dilemma returns to its owner's dilemma pi">
+		<card name="Recurring Injury" graphics="recurringinjury.jpg" back="1" text="Unless you have a personnel who has 2 Biology or a personnel who has 2 Medical, your opponent chooses an Biology or Medical personnel to be stopped. If your opponent cannot, all your personnel are stopped and this dilemma returns to its owner's dilemma pile.">
 			<attr key="rarity" value="C"/>
 			<attr key="type" value="Dilemma"/>
 			<attr key="cost" value="3"/>
@@ -297,7 +296,7 @@
 			<attr key="cost" value="4"/>
 			<attr key="zone" value="{dual}"/>
 		</card>
-		<card name="Stellar Core Fragment" graphics="stellarcorefragment.jpg" back="1" text="Unless you have a personnel who has 2 Physics or a personnel who has 2 Science, your opponent chooses an Physics or Science personnel to be stopped. If your opponent cannot, all your personnel are stopped and this dilemma returns to its owner's dilemma pi">
+		<card name="Stellar Core Fragment" graphics="stellarcorefragment.jpg" back="1" text="Unless you have a personnel who has 2 Physics or a personnel who has 2 Science, your opponent chooses an Physics or Science personnel to be stopped. If your opponent cannot, all your personnel are stopped and this dilemma returns to its owner's dilemma pile.">
 			<attr key="rarity" value="C"/>
 			<attr key="type" value="Dilemma"/>
 			<attr key="cost" value="3"/>
@@ -321,7 +320,7 @@
 			<attr key="cost" value="3"/>
 			<attr key="zone" value="{dual}"/>
 		</card>
-		<card name="Tense Negotiations" graphics="tensenegotiations.jpg" back="1" text="Unless you have a personnel who has 2 Diplomacy or a personnel who has 2 Leadership, your opponent chooses an Diplomacy or Leadership personnel to be stopped. If your opponent cannot, all your personnel are stopped and this dilemma returns to its owner's ">
+		<card name="Tense Negotiations" graphics="tensenegotiations.jpg" back="1" text="Unless you have a personnel who has 2 Diplomacy or a personnel who has 2 Leadership, your opponent chooses an Diplomacy or Leadership personnel to be stopped. If your opponent cannot, all your personnel are stopped and this dilemma returns to its owner's dilemma pile.">
 			<attr key="rarity" value="C"/>
 			<attr key="type" value="Dilemma"/>
 			<attr key="cost" value="3"/>
@@ -357,7 +356,7 @@
 			<attr key="cost" value="3"/>
 			<attr key="zone" value="{space}"/>
 		</card>
-		<card name="Wavefront" graphics="wavefront.jpg" back="1" text="Unless you have a personnel who has 2 Astrometrics or a personnel who has 2 Navigation, your opponent chooses an Astrometrics or Navigation personnel to be stopped. If your opponent cannot, all your personnel are stopped and this dilemma returns to its ow">
+		<card name="Wavefront" graphics="wavefront.jpg" back="1" text="Unless you have a personnel who has 2 Astrometrics or a personnel who has 2 Navigation, your opponent chooses an Astrometrics or Navigation personnel to be stopped. If your opponent cannot, all your personnel are stopped and this dilemma returns to its owner's dilemma pile.">
 			<attr key="rarity" value="C"/>
 			<attr key="type" value="Dilemma"/>
 			<attr key="cost" value="2"/>
@@ -493,7 +492,7 @@
 			<attr key="type" value="Event"/>
 			<attr key="cost" value="3"/>
 		</card>
-		<card name="Engage Cloak" graphics="engagecloak.jpg" text="Plays in your core. You may exectue only one order using this event each turn. Order - If there is no ship on this event, place your staffed ship that has a Cloaking Device on this event (While a ship is here, this event cannot leave play.) Order - If a s">
+		<card name="Engage Cloak" graphics="engagecloak.jpg" text="Plays in your core. You may exectue only one order using this event each turn. Order - If there is no ship on this event, place your staffed ship that has a Cloaking Device on this event (While a ship is here, this event cannot leave play.) Order - If a ship is on this event, place that ship at any mission. That ship's Range for this turn is used.">
 			<attr key="rarity" value="R"/>
 			<attr key="type" value="Event"/>
 			<attr key="cost" value="2"/>
@@ -538,7 +537,7 @@
 			<attr key="type" value="Event"/>
 			<attr key="cost" value="2"/>
 		</card>
-		<card name="Nelvana Trap" graphics="nelvanatrap.jpg" text="Maneuver. Plays on an opponent's mission. When an opponent moves a ship to this mission, you may destroy this event to take each {rom} ship from your copies of Engage Cloak, place them at this mission, and begin an engagement involving them. If you win, r">
+		<card name="Nelvana Trap" graphics="nelvanatrap.jpg" text="Maneuver. Plays on an opponent's mission. When an opponent moves a ship to this mission, you may destroy this event to take each {rom} ship from your copies of Engage Cloak, place them at this mission, and begin an engagement involving them. If you win, randomly kill an opponent's personnel involved.">
 			<attr key="rarity" value="R"/>
 			<attr key="type" value="Event"/>
 			<attr key="cost" value="2"/>
@@ -573,22 +572,22 @@
 			<attr key="type" value="Event"/>
 			<attr key="cost" value="1"/>
 		</card>
-		<card name="Pierce Their Defenses" graphics="piercetheirdefenses.jpg" text="Maneuver. Plays in your core. Order - Begin an engagement involving your ship with your Leadership personnel aboard. That ship is Weapons +2. If you win, place this event on an opponent's ship involved. Otherwise, destroy this event. Damage - This ship is">
+		<card name="Pierce Their Defenses" graphics="piercetheirdefenses.jpg" text="Maneuver. Plays in your core. Order - Begin an engagement involving your ship with your Leadership personnel aboard. That ship is Weapons +2. If you win, place this event on an opponent's ship involved. Otherwise, destroy this event. Damage - This ship is shields -2.">
 			<attr key="rarity" value="U"/>
 			<attr key="type" value="Event"/>
 			<attr key="cost" value="2"/>
 		</card>
-		<card name="Point Blank Strike" graphics="pointblankstrike.jpg" text="Maneuver. Plays in your core. Order - Begin an engagement involving your ship with your Leadership personnel aboard. That ship is Weapons +4. If you win, place this event on an opponent's ship involved. Otherwise, destroy this event. Damage - This ship is">
+		<card name="Point Blank Strike" graphics="pointblankstrike.jpg" text="Maneuver. Plays in your core. Order - Begin an engagement involving your ship with your Leadership personnel aboard. That ship is Weapons +4. If you win, place this event on an opponent's ship involved. Otherwise, destroy this event. Damage - This ship is Weapons -2.">
 			<attr key="rarity" value="U"/>
 			<attr key="type" value="Event"/>
 			<attr key="cost" value="2"/>
 		</card>
-		<card name="Precise Attack" graphics="preciseattack.jpg" text="Maneuver. Plays in your core. Order - Begin an engagement involving your ship with your Leadership personnel aboard. That ship is Weapons +2. If you win, place this event on an opponent's ship involved. Otherwise, destroy this event. Damage - This ship is">
+		<card name="Precise Attack" graphics="preciseattack.jpg" text="Maneuver. Plays in your core. Order - Begin an engagement involving your ship with your Leadership personnel aboard. That ship is Weapons +2. If you win, place this event on an opponent's ship involved. Otherwise, destroy this event. Damage - This ship is Range -2.">
 			<attr key="rarity" value="U"/>
 			<attr key="type" value="Event"/>
 			<attr key="cost" value="2"/>
 		</card>
-		<card name="Prejudice and Politics" graphics="prejudiceandpolitics.jpg" text="Plays in your core. Order - If your Praetor or Senator is on Romulus, reveal the top card of an opponent's deck. If it is a personnel, that opponent places that card in his or her hand. Otherwise, score 5 points, and that opponent places that card on the ">
+		<card name="Prejudice and Politics" graphics="prejudiceandpolitics.jpg" text="Plays in your core. Order - If your Praetor or Senator is on Romulus, reveal the top card of an opponent's deck. If it is a personnel, that opponent places that card in his or her hand. Otherwise, score 5 points, and that opponent places that card on the bottom of his or her deck. You may do this only once each turn.">
 			<attr key="rarity" value="U"/>
 			<attr key="type" value="Event"/>
 			<attr key="cost" value="2"/>
@@ -788,7 +787,7 @@
 			<attr key="points" value="35"/>
 			<attr key="span" value="3"/>
 		</card>
-		<card name="Acquire Illicit Explosives" graphics="acquireillicitexplosives.jpg" text="Physics, Treachery, Cunning&gt;30, and (Astrometrics or Engineer) Region: Bajor System. ">
+		<card name="Acquire Illicit Explosives" graphics="acquireillicitexplosives.jpg" text="Physics, Treachery, Cunning&gt;30, and (Astrometrics or Engineer) Region: Bajor System.">
 			<attr key="rarity" value="U"/>
 			<attr key="type" value="Mission"/>
 			<attr key="attemptable" value="{Bajoran} {Cardassian} {Ferengi}"/>
@@ -806,7 +805,7 @@
 			<attr key="points" value="35"/>
 			<attr key="span" value="3"/>
 		</card>
-		<card name="Bajor (Gift of the Prophets)" graphics="bajor.jpg" text="You may play {baj} cards, {na} cards, and equipment at this mission. Region: Bajor System. ">
+		<card name="Bajor (Gift of the Prophets)" graphics="bajor.jpg" text="You may play {baj} cards, {na} cards, and equipment at this mission. Region: Bajor System.">
 			<attr key="rarity" value="U"/>
 			<attr key="type" value="Mission"/>
 			<attr key="attemptable" value="Bajoran Headquarters"/>
@@ -815,7 +814,7 @@
 			<attr key="points" value="0"/>
 			<attr key="span" value="2"/>
 		</card>
-		<card name="Cardassia Prime (Hardscrabble World)" graphics="cardassiaprime.jpg" text="You may play {car} cards, {na} cards, and equipment at this mission. Region: Cardassia System. ">
+		<card name="Cardassia Prime (Hardscrabble World)" graphics="cardassiaprime.jpg" text="You may play {car} cards, {na} cards, and equipment at this mission. Region: Cardassia System.">
 			<attr key="rarity" value="U"/>
 			<attr key="type" value="Mission"/>
 			<attr key="attemptable" value="Cardassian Headquarters"/>
@@ -887,7 +886,7 @@
 			<attr key="points" value="30"/>
 			<attr key="span" value="2"/>
 		</card>
-		<card name="Earth (Cradle of the Federation)" graphics="earthcradleofthefederation.jpg" text="You may play {TNG} cards, {E} cards, {na} cards, and equipment at this mission. Region: Sector 001. ">
+		<card name="Earth (Cradle of the Federation)" graphics="earthcradleofthefederation.jpg" text="You may play {TNG} cards, {E} cards, {na} cards, and equipment at this mission. Region: Sector 001.">
 			<attr key="rarity" value="S"/>
 			<attr key="type" value="Mission"/>
 			<attr key="attemptable" value="Federation Headquarters"/>
@@ -896,7 +895,7 @@
 			<attr key="points" value="0"/>
 			<attr key="span" value="2"/>
 		</card>
-		<card name="Earth (Home of Starfleet Command)" graphics="earthhomeofstarfleetcommand.jpg" text="You may play {fed}{DS9} cards, {E} cards, {na} cards, and equipment at this mission. Region: Sector 001. ">
+		<card name="Earth (Home of Starfleet Command)" graphics="earthhomeofstarfleetcommand.jpg" text="You may play {fed}{DS9} cards, {E} cards, {na} cards, and equipment at this mission. Region: Sector 001.">
 			<attr key="rarity" value="U"/>
 			<attr key="type" value="Mission"/>
 			<attr key="attemptable" value="Federation Headquarters"/>
@@ -1004,7 +1003,7 @@
 			<attr key="points" value="50"/>
 			<attr key="span" value="2"/>
 		</card>
-		<card name="Iconia Investigation" graphics="iconiainvestigation.jpg" text="2 Archaeology, 2 Programming, and Cunning&gt;32 Region: Neutral Zone. ">
+		<card name="Iconia Investigation" graphics="iconiainvestigation.jpg" text="2 Archaeology, 2 Programming, and Cunning&gt;32 Region: Neutral Zone.">
 			<attr key="rarity" value="U"/>
 			<attr key="type" value="Mission"/>
 			<attr key="attemptable" value="{Dominion} {Federation} {Romulan}"/>
@@ -1049,7 +1048,7 @@
 			<attr key="points" value="35"/>
 			<attr key="span" value="2"/>
 		</card>
-		<card name="Investigate Massacre" graphics="investigatemassacre.jpg" text="Diplomacy, 2 Science, and Cunning&gt;28 Region: Neutral Zone. ">
+		<card name="Investigate Massacre" graphics="investigatemassacre.jpg" text="Diplomacy, 2 Science, and Cunning&gt;28 Region: Neutral Zone.">
 			<attr key="rarity" value="U"/>
 			<attr key="type" value="Mission"/>
 			<attr key="attemptable" value="{Federation} {Romulan}"/>
@@ -1067,7 +1066,7 @@
 			<attr key="points" value="35"/>
 			<attr key="span" value="3"/>
 		</card>
-		<card name="Investigate Rumors" graphics="investigaterumors.jpg" text="Astrometrics, Navigation, Science, and Cunning&gt;30 Nebula. ">
+		<card name="Investigate Rumors" graphics="investigaterumors.jpg" text="Astrometrics, Navigation, Science, and Cunning&gt;30 Nebula.">
 			<attr key="rarity" value="U"/>
 			<attr key="type" value="Mission"/>
 			<attr key="attemptable" value="{Bajoran} {Cardassian} {Federation} {Romulan}"/>
@@ -1127,7 +1126,6 @@
 			<attr key="attemptable" value="Any except {Borg}"/>
 			<attr key="zone" value="{space}"/>
 			<attr key="quadrant" value="{alpha}"/>
-
 			<attr key="points" value="35"/>
 			<attr key="span" value="3"/>
 		</card>
@@ -1194,7 +1192,7 @@
 			<attr key="points" value="30"/>
 			<attr key="span" value="1"/>
 		</card>
-		<card name="Romulus (Seat of Power)" graphics="romulusseatofpower.jpg" text="You may play {rom} cards, {na} cards, and equipment at this mission. Region: Romulus System. ">
+		<card name="Romulus (Seat of Power)" graphics="romulusseatofpower.jpg" text="You may play {rom} cards, {na} cards, and equipment at this mission. Region: Romulus System.">
 			<attr key="rarity" value="S"/>
 			<attr key="type" value="Mission"/>
 			<attr key="attemptable" value="Romulan Headquarters"/>
@@ -1257,7 +1255,7 @@
 			<attr key="points" value="35"/>
 			<attr key="span" value="2"/>
 		</card>
-		<card name="Supervise Dilithium Mine" graphics="supervisedilithiummine.jpg" text="2 Geology, Leadership, Security, and Strength&gt;34 Region: Romulus System. ">
+		<card name="Supervise Dilithium Mine" graphics="supervisedilithiummine.jpg" text="2 Geology, Leadership, Security, and Strength&gt;34 Region: Romulus System.">
 			<attr key="rarity" value="S"/>
 			<attr key="type" value="Mission"/>
 			<attr key="attemptable" value="{Romulan}"/>
@@ -1284,7 +1282,7 @@
 			<attr key="points" value="30"/>
 			<attr key="span" value="2"/>
 		</card>
-		<card name="Verify Evidence" graphics="verifyevidence.jpg" text="Leadership, 2 Navigation, Science, and Cunning&gt;34 Region: Badlands. ">
+		<card name="Verify Evidence" graphics="verifyevidence.jpg" text="Leadership, 2 Navigation, Science, and Cunning&gt;34 Region: Badlands.">
 			<attr key="rarity" value="U"/>
 			<attr key="type" value="Mission"/>
 			<attr key="attemptable" value="{Bajoran} {Cardassian}"/>
@@ -1500,7 +1498,7 @@
 			<attr key="cunning" value="6"/>
 			<attr key="strength" value="6"/>
 		</card>
-		<card name="Shandor" graphics="shandor.jpg" text="{SD}Archaeology {SD}Diplomacy {SD}Honor Prylar. ">
+		<card name="Shandor" graphics="shandor.jpg" text="{SD}Archaeology {SD}Diplomacy {SD}Honor Prylar.">
 			<attr key="rarity" value="C"/>
 			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Bajoran}"/>
@@ -1577,7 +1575,7 @@
 			<attr key="cunning" value="5"/>
 			<attr key="strength" value="6"/>
 		</card>
-		<card name="Danar (Irascible Gul)" graphics="danarirasciblegul.jpg" text="{SD}Astrometrics {SD}Engineer {SD}Leadership {SD}Navigation {SD}Officer Commander: Aldara. Gul. ">
+		<card name="Danar (Irascible Gul)" graphics="danarirasciblegul.jpg" text="{SD}Astrometrics {SD}Engineer {SD}Leadership {SD}Navigation {SD}Officer Commander: Aldara. Gul.">
 			<attr key="rarity" value="U"/>
 			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Cardassian}"/>
@@ -1599,7 +1597,7 @@
 			<attr key="cunning" value="6"/>
 			<attr key="strength" value="5"/>
 		</card>
-		<card name="Daro" graphics="daro.jpg" text="{SD}Astrometrics {SD}Engineer {SD}Transporters Glinn. ">
+		<card name="Daro" graphics="daro.jpg" text="{SD}Astrometrics {SD}Engineer {SD}Transporters Glinn.">
 			<attr key="rarity" value="C"/>
 			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Cardassian}"/>
@@ -1676,7 +1674,7 @@
 			<attr key="cunning" value="6"/>
 			<attr key="strength" value="4"/>
 		</card>
-		<card name="Jerax" graphics="jerax.jpg" text="{SD}Biology {SD}Geology {SD}Security Glinn. ">
+		<card name="Jerax" graphics="jerax.jpg" text="{SD}Biology {SD}Geology {SD}Security Glinn.">
 			<attr key="rarity" value="C"/>
 			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Cardassian}"/>
@@ -1764,7 +1762,7 @@
 			<attr key="cunning" value="6"/>
 			<attr key="strength" value="5"/>
 		</card>
-		<card name="Parn" graphics="parn.jpg" text="{SD}Archaeology {SD}Diplomacy {SD}Leadership {SD}Officer {SD}Treachery Legate. ">
+		<card name="Parn" graphics="parn.jpg" text="{SD}Archaeology {SD}Diplomacy {SD}Leadership {SD}Officer {SD}Treachery Legate.">
 			<attr key="rarity" value="C"/>
 			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Cardassian}"/>
@@ -1808,7 +1806,7 @@
 			<attr key="cunning" value="5"/>
 			<attr key="strength" value="4"/>
 		</card>
-		<card name="Andrea Brand (Academy Superintendent)" graphics="andreabrandacademysuperintendant.jpg" text="{SD}Law {SD}2 Leadership {SD}Navigation {SD}Officer {SD}Transporters Admiral. ">
+		<card name="Andrea Brand (Academy Superintendent)" graphics="andreabrandacademysuperintendant.jpg" text="{SD}Law {SD}2 Leadership {SD}Navigation {SD}Officer {SD}Transporters Admiral.">
 			<attr key="rarity" value="U"/>
 			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Federation}"/>
@@ -2149,7 +2147,7 @@
 			<attr key="cunning" value="5"/>
 			<attr key="strength" value="4"/>
 		</card>
-		<card name="T'Lara" graphics="tlara.jpg" text="{SD}Exobiology {SD}Law {SD}Leadership {SD}Officer Admiral. ">
+		<card name="T'Lara" graphics="tlara.jpg" text="{SD}Exobiology {SD}Law {SD}Leadership {SD}Officer Admiral.">
 			<attr key="rarity" value="C"/>
 			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Federation}"/>
@@ -2215,7 +2213,7 @@
 			<attr key="cunning" value="6"/>
 			<attr key="strength" value="6"/>
 		</card>
-		<card name="Worf (Security Detail Leader)" graphics="worfsecuritydetailleader.jpg" text="{SD}2 Honor {SD}Leadership {SD}Officer {SD}Security Order - Examine a number of cards from the top of an opponent's dilemma pile equal to the number of other {fed} Security personnel you command (limit three). Then replace them in the same order. You may do this only">
+		<card name="Worf (Security Detail Leader)" graphics="worfsecuritydetailleader.jpg" text="{SD}2 Honor {SD}Leadership {SD}Officer {SD}Security Order - Examine a number of cards from the top of an opponent's dilemma pile equal to the number of other {fed} Security personnel you command (limit three). Then replace them in the same order. You may only do this once each turn.">
 			<attr key="rarity" value="S"/>
 			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Federation}"/>
@@ -2390,6 +2388,7 @@
 			<attr key="integrity" value="6"/>
 			<attr key="cunning" value="6"/>
 			<attr key="strength" value="6"/>
+
 		</card>
 		<card name="Koroth (High Cleric of Boreth)" graphics="korothhighclericofboreth.jpg" text="{SD}Anthropology {SD}Archaeology {SD}Biology {SD}Leadership {SD}Science">
 			<attr key="rarity" value="U"/>
@@ -2556,7 +2555,7 @@
 			<attr key="cunning" value="5"/>
 			<attr key="strength" value="4"/>
 		</card>
-		<card name="Brull (Encampment Leader)" graphics="brullencampmentleader.jpg" text="{SD}Astrometrics {SD}Diplomacy {SD}Honor {SD}Leadership {SD}Navigation Gatherer. Thief. ">
+		<card name="Brull (Encampment Leader)" graphics="brullencampmentleader.jpg" text="{SD}Astrometrics {SD}Diplomacy {SD}Honor {SD}Leadership {SD}Navigation Gatherer. Thief.">
 			<attr key="rarity" value="U"/>
 			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Non-Aligned}"/>
@@ -2578,7 +2577,7 @@
 			<attr key="cunning" value="5"/>
 			<attr key="strength" value="6"/>
 		</card>
-		<card name="Dallan" graphics="dallan.jpg" text="{SD}Medical {SD}Navigation {SD}Physics Gatherer. Thief. ">
+		<card name="Dallan" graphics="dallan.jpg" text="{SD}Medical {SD}Navigation {SD}Physics Gatherer. Thief.">
 			<attr key="rarity" value="C"/>
 			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Non-Aligned}"/>
@@ -2600,7 +2599,7 @@
 			<attr key="cunning" value="6"/>
 			<attr key="strength" value="6"/>
 		</card>
-		<card name="Durg" graphics="durg.jpg" text="{SD}Acquisition {SD}Exobiology {SD}Medical {SD}Navigation {SD}Treachery Smuggler. ">
+		<card name="Durg" graphics="durg.jpg" text="{SD}Acquisition {SD}Exobiology {SD}Medical {SD}Navigation {SD}Treachery Smuggler.">
 			<attr key="rarity" value="C"/>
 			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Non-Aligned}"/>
@@ -2622,7 +2621,7 @@
 			<attr key="cunning" value="6"/>
 			<attr key="strength" value="4"/>
 		</card>
-		<card name="Galnar" graphics="galnar.jpg" text="{SD}Navigation {SD}Programming {SD}Science Gatherer. Thief. ">
+		<card name="Galnar" graphics="galnar.jpg" text="{SD}Navigation {SD}Programming {SD}Science Gatherer. Thief.">
 			<attr key="rarity" value="C"/>
 			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Non-Aligned}"/>
@@ -2820,7 +2819,7 @@
 			<attr key="cunning" value="7"/>
 			<attr key="strength" value="4"/>
 		</card>
-		<card name="Soto" graphics="soto.jpg" text="{SD}Security {SD}Telepathy {SD}Treachery Thief. ">
+		<card name="Soto" graphics="soto.jpg" text="{SD}Security {SD}Telepathy {SD}Treachery Thief.">
 			<attr key="rarity" value="C"/>
 			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Non-Aligned}"/>
@@ -2842,7 +2841,7 @@
 			<attr key="cunning" value="5"/>
 			<attr key="strength" value="4"/>
 		</card>
-		<card name="Temarek" graphics="temerek.jpg" text="{SD}Biology {SD}Geology {SD}Security Gatherer. Thief. ">
+		<card name="Temarek" graphics="temerek.jpg" text="{SD}Biology {SD}Geology {SD}Security Gatherer. Thief.">
 			<attr key="rarity" value="C"/>
 			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Non-Aligned}"/>
@@ -2904,12 +2903,11 @@
 			<attr key="race" value="Human"/>
 			<attr key="cost" value="2"/>
 			<attr key="icons" value=""/>
-
 			<attr key="integrity" value="3"/>
 			<attr key="cunning" value="6"/>
 			<attr key="strength" value="4"/>
 		</card>
-		<card name="Volnoth" graphics="volnoth.jpg" text="{SD}Anthropology {SD}Archaeology {SD}Engineer {SD}Exobiology Gatherer. Thief. ">
+		<card name="Volnoth" graphics="volnoth.jpg" text="{SD}Anthropology {SD}Archaeology {SD}Engineer {SD}Exobiology Gatherer. Thief.">
 			<attr key="rarity" value="C"/>
 			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Non-Aligned}"/>
@@ -3030,7 +3028,7 @@
 			<attr key="cunning" value="5"/>
 			<attr key="strength" value="6"/>
 		</card>
-		<card name="N'Vek (Soldier of the Underground)" graphics="nveksoldieroftheunderground.jpg" text="{SD}Astrometrics {SD}Biology {SD}Programming {SD}Science Dissident. Order - If this personnel is present with another non-Treachery Romulan, place that Romulan on the bottom of its owner's deck to draw a number of cards equal to his or her cost. You may do this only ">
+		<card name="N'Vek (Soldier of the Underground)" graphics="nveksoldieroftheunderground.jpg" text="{SD}Astrometrics {SD}Biology {SD}Programming {SD}Science Dissident. Order - If this personnel is present with another non-Treachery Romulan, place that Romulan on the bottom of its owner's deck to draw a number of cards equal to his or her cost. You may do this only once each turn.">
 			<attr key="rarity" value="R"/>
 			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Romulan}"/>
@@ -3041,7 +3039,7 @@
 			<attr key="cunning" value="5"/>
 			<attr key="strength" value="6"/>
 		</card>
-		<card name="Noram" graphics="noram.jpg" text="{SD}Exobiology {SD}Leadership {SD}Officer Dissident. ">
+		<card name="Noram" graphics="noram.jpg" text="{SD}Exobiology {SD}Leadership {SD}Officer Dissident.">
 			<attr key="rarity" value="C"/>
 			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Romulan}"/>
@@ -3052,7 +3050,7 @@
 			<attr key="cunning" value="6"/>
 			<attr key="strength" value="5"/>
 		</card>
-		<card name="Sabrun" graphics="sabrun.jpg" text="{SD}Diplomacy {SD}Exobiology {SD}Law Senator. ">
+		<card name="Sabrun" graphics="sabrun.jpg" text="{SD}Diplomacy {SD}Exobiology {SD}Law Senator.">
 			<attr key="rarity" value="C"/>
 			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Romulan}"/>
@@ -3129,7 +3127,7 @@
 			<attr key="cunning" value="6"/>
 			<attr key="strength" value="4"/>
 		</card>
-		<card name="Talvin" graphics="talvin.jpg" text="{SD}Anthropology {SD}Geology {SD}Officer Dissident. ">
+		<card name="Talvin" graphics="talvin.jpg" text="{SD}Anthropology {SD}Geology {SD}Officer Dissident.">
 			<attr key="rarity" value="C"/>
 			<attr key="type" value="Personnel"/>
 			<attr key="affiliation" value="{Romulan}"/>
@@ -3422,7 +3420,7 @@
 			<attr key="weapons" value="8"/>
 			<attr key="shields" value="7"/>
 		</card>
-		<card name="I.K.S. K't'inga" graphics="iksktinga.jpg" text="Cloaking Device. ">
+		<card name="I.K.S. K't'inga" graphics="iksktinga.jpg" text="Cloaking Device.">
 			<attr key="rarity" value="C"/>
 			<attr key="type" value="Ship"/>
 			<attr key="affiliation" value="{Klingon}"/>
@@ -3434,7 +3432,7 @@
 			<attr key="weapons" value="7"/>
 			<attr key="shields" value="7"/>
 		</card>
-		<card name="I.K.S. K'Vort" graphics="ikskvort.jpg" text="Cloaking Device. ">
+		<card name="I.K.S. K'Vort" graphics="ikskvort.jpg" text="Cloaking Device.">
 			<attr key="rarity" value="U"/>
 			<attr key="type" value="Ship"/>
 			<attr key="affiliation" value="{Klingon}"/>
@@ -3482,7 +3480,7 @@
 			<attr key="weapons" value="8"/>
 			<attr key="shields" value="7"/>
 		</card>
-		<card name="I.K.S. Vor'cha" graphics="iksvorcha.jpg" text="Cloaking Device. ">
+		<card name="I.K.S. Vor'cha" graphics="iksvorcha.jpg" text="Cloaking Device.">
 			<attr key="rarity" value="S"/>
 			<attr key="type" value="Ship"/>
 			<attr key="affiliation" value="{Klingon}"/>
@@ -3542,7 +3540,7 @@
 			<attr key="weapons" value="8"/>
 			<attr key="shields" value="9"/>
 		</card>
-		<card name="D'deridex" graphics="dderidex.jpg" text="Cloaking Device. ">
+		<card name="D'deridex" graphics="dderidex.jpg" text="Cloaking Device.">
 			<attr key="rarity" value="S"/>
 			<attr key="type" value="Ship"/>
 			<attr key="affiliation" value="{Romulan}"/>

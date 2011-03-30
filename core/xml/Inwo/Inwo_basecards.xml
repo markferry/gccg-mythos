@@ -3,9 +3,9 @@
 <ccg-setinfo name="" game="Illuminati: New World Order">
 
   <cards>
-    <card name="Group Card" text="" graphics="back_group.png">
+    <card name="Group Card" text="" graphics="backgroup.png">
     </card>
-    <card name="Plot Card" text="" back="1" graphics="back_plot.png">
+    <card name="Plot Card" text="" back="1" graphics="backplot.png">
     </card>
     <card name="_unknown_" text="" graphics="">
     </card>

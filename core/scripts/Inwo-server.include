@@ -17,6 +17,11 @@ meta.port=29112;
 #
 def InitServerHook
 {
+  for(i)(ARG)
+  {
+    visible.me[i]{"plots"}=0;
+    visible.opp[i]{"plots"}=0;
+  }
 }
 
 #

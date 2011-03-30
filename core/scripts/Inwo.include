@@ -11,7 +11,7 @@ DECKBOX_SIZE=(20,220,110);
 # minor version number for filter alogrithm
 BOOK_FILTER_VERSION_MINOR=".0";
 # default book sorting criteria.
-BOOK_DEFAULT_SORT=("[age]","N[card_number]");
+BOOK_DEFAULT_SORT=("[age]","[type]","[subtype]","[name]");
 
 if(!port)
   port=29112;
@@ -20,6 +20,8 @@ if(server.name=="NO.DEFAULT.SERVER.FOR.THIS.GAME")
 
 product.image=(,);
 product.image{"Unlimited Booster"}="ul.prod.jpg";
+product.image{"Assassins Booster"}="assassin.prod.jpg";
+product.image{"Subgenius Booster"}="subg.prod.jpg";
 
 game.bindings=(
   ("KeyControlKey1","{orange}Draw Plots...",),
@@ -33,13 +35,83 @@ game.bindings=(
 
 def PlotsMenu
 {
-    Menu("Plots",(
-      ("Look","Ctrl+L",""),
-      ("Shuffle","Ctrl+S",""),
-      ("Reveal/Hide","Ctrl+F",""),
-      ("Touch","Ctrl+T",""),
-      ("Set aside from bottom","Ctrl+End",""),
-    ));
+  push(m);
+  m=(,);
+  if(card.number!=NULL)
+  {
+    if(length(ConstructMenu("Deck Draw")))
+	{
+		m=m+ConstructMenu("Deck Draw");
+	}
+	else
+	{
+      m=m+(
+	    ("Draw a card","left click",""),
+	    ("Draw "+HANDSIZE+" cards","",'Send("Transfer",(HANDSIZE,("deck.top",deck),("hand",me)))'),
+        );
+	}
+	
+    m=m+(
+      ("{hr}","",""),
+      );
+
+   m=m+SingleCardMenu("deck");
+
+   m=m+(
+      ("{hr}","",""),
+	  ("Look","Ctrl+L",""),
+	  ("Shuffle","Ctrl+S",""),
+          ("Set Aside from Bottom","Ctrl+End",""),
+      );
+  }
+
+  m=m+(
+	("Reveal/Hide deck","Ctrl+F",""),
+    ("Touch","Ctrl+T",""),
+	);
+
+  Menu(ucfirst(object.name),m);
+  m=pop();
+}
+def DeckMenu
+{
+  push(m);
+  m=(,);
+  if(card.number!=NULL)
+  {
+    if(length(ConstructMenu("Deck Draw")))
+	{
+		m=m+ConstructMenu("Deck Draw");
+	}
+	else
+	{
+      m=m+(
+	    ("Draw a card","left click",""),
+	    ("Draw "+HANDSIZE+" cards","",'Send("Transfer",(HANDSIZE,("deck.top",deck),("hand",me)))'),
+        );
+	}
+	
+    m=m+(
+      ("{hr}","",""),
+      );
+
+   m=m+SingleCardMenu("deck");
+
+   m=m+(
+      ("{hr}","",""),
+	  ("Look","Ctrl+L",""),
+	  ("Shuffle","Ctrl+S",""),
+          ("Set Aside from Bottom","Ctrl+End",""),
+      );
+  }
+
+  m=m+(
+	("Reveal/Hide deck","Ctrl+F",""),
+    ("Touch","Ctrl+T",""),
+	);
+
+  Menu(ucfirst(object.name),m);
+  m=pop();
 }
 
 GAME_MENU{"Tap a card"}=(
@@ -50,15 +122,48 @@ GAME_MENU{"Tap a card"}=(
 );
 
 FILTER_OPTIONS=(
- ("Illuminati","Attr('subtype',#)=='Ill.'","default"),
- ("Groups","Attr('subtype',#)=='Grp.'","default"),
- ("Resources","Attr('subtype',#)=='Res.'","default"),
- ("Plots","Attr('subtype',#)=='Plot'","default"),
- ("Personalities","Attr('subtype',#)=='Per.'","default"),
- ("Places","Attr('subtype',#)=='Plc.'","default"),
- ("Assassinations","Attr('subtype',#)=='Ass.'","default"),
- ("Disasters","Attr('subtype',#)=='Dis.'","default"),
+ ("All Groups","Attr('type',#)=='Group'","default"),
+ ("All Plots","Attr('type',#)=='Plot'","default"),
  "{hr}",
+ ("Illuminati","Attr('subtype',#)=='Illuminati'","default"),
+ ("Plots","Attr('subtype',#)=='Plot'","default"),
+ ("Assassinations","Attr('subtype',#)=='Assassination'","default"),
+ ("Disasters","Attr('subtype',#)=='Disaster'","default"),
+ ("Goals","Attr('subtype',#)=='Goal'","default"),
+ ("Freezes","Attr('subtype',#)=='Freeze'","default"),
+ ("Paralysis","Attr('subtype',#)=='Paralysis'","default"),
+ ("Zaps","Attr('subtype',#)=='Zap'","default"),
+ ("New World Orders","Attr('subtype',#)=='NWO'","default"),
+ ("Resources","Attr('subtype',#)=='Resource'","default"),
+ ("Organizations","Attr('subtype',#)=='Organization'","default"),
+ ("Personalities","Attr('subtype',#)=='Personality'","default"),
+ ("Places","Attr('subtype',#)=='Place'","default"),
+ "{hr}",
+ ("Conservative","Attr('alignment1',#)=='Conservative'||Attr('alignment2',#)=='Conservative'||Attr('alignment3',#)=='Conservative'||Attr('alignment4',#)=='Conservative'","default"),
+ ("Corporate","Attr('alignment1',#)=='Corporate'||Attr('alignment2',#)=='Corporate'||Attr('alignment3',#)=='Corporate'||Attr('alignment4',#)=='Corporate'","default"),
+ ("Criminal","Attr('alignment1',#)=='Criminal'||Attr('alignment2',#)=='Criminal'||Attr('alignment3',#)=='Criminal'||Attr('alignment4',#)=='Criminal'","default"),
+ ("Fanatic","Attr('alignment1',#)=='Fanatic'||Attr('alignment2',#)=='Fanatic'||Attr('alignment3',#)=='Fanatic'||Attr('alignment4',#)=='Fanatic'","default"),
+ ("Government","Attr('alignment1',#)=='Government'||Attr('alignment2',#)=='Government'||Attr('alignment3',#)=='Government'||Attr('alignment4',#)=='Government'","default"),
+ ("Liberal","Attr('alignment1',#)=='Liberal'||Attr('alignment2',#)=='Liberal'||Attr('alignment3',#)=='Liberal'||Attr('alignment4',#)=='Liberal'","default"),
+ ("Peaceful","Attr('alignment1',#)=='Peaceful'||Attr('alignment2',#)=='Peaceful'||Attr('alignment3',#)=='Peaceful'||Attr('alignment4',#)=='Peaceful'","default"),
+ ("Straight","Attr('alignment1',#)=='Straight'||Attr('alignment2',#)=='Straight'||Attr('alignment3',#)=='Straight'||Attr('alignment4',#)=='Straight'","default"),
+ ("Violent","Attr('alignment1',#)=='Violent'||Attr('alignment2',#)=='Violent'||Attr('alignment3',#)=='Violent'||Attr('alignment4',#)=='Violent'","default"),
+ ("Weird","Attr('alignment1',#)=='Weird'||Attr('alignment2',#)=='Weird'||Attr('alignment3',#)=='Weird'||Attr('alignment4',#)=='Weird'","default"),
+ "{hr}",
+ ("Bank","Attr('attribute1',#)=='Bank'||Attr('attribute2',#)=='Bank'||Attr('attribute3',#)=='Bank'||Attr('attribute4',#)=='Bank'","default"),
+ ("Church","Attr('attribute1',#)=='Church'||Attr('attribute2',#)=='Church'||Attr('attribute3',#)=='Church'||Attr('attribute4',#)=='Church'","default"),
+ ("Coastal","Attr('attribute1',#)=='Coastal'||Attr('attribute2',#)=='Coastal'||Attr('attribute3',#)=='Coastal'||Attr('attribute4',#)=='Coastal'","default"),
+ ("Communist","Attr('attribute1',#)=='Communist'||Attr('attribute2',#)=='Communist'||Attr('attribute3',#)=='Communist'||Attr('attribute4',#)=='Communist'","default"),
+ ("Computer","Attr('attribute1',#)=='Computer'||Attr('attribute2',#)=='Computer'||Attr('attribute3',#)=='Computer'||Attr('attribute4',#)=='Computer'","default"),
+ ("Green","Attr('attribute1',#)=='Green'||Attr('attribute2',#)=='Green'||Attr('attribute3',#)=='Green'||Attr('attribute4',#)=='Green'","default"),
+ ("Huge","Attr('attribute1',#)=='Huge'||Attr('attribute2',#)=='Huge'||Attr('attribute3',#)=='Huge'||Attr('attribute4',#)=='Huge'","default"),
+ ("Magic","Attr('attribute1',#)=='Magic'||Attr('attribute2',#)=='Magic'||Attr('attribute3',#)=='Magic'||Attr('attribute4',#)=='Magic'","default"),
+ ("Media","Attr('attribute1',#)=='Media'||Attr('attribute2',#)=='Media'||Attr('attribute3',#)=='Media'||Attr('attribute4',#)=='Media'","default"),
+ ("Nation","Attr('attribute1',#)=='Nation'||Attr('attribute2',#)=='Nation'||Attr('attribute3',#)=='Nation'||Attr('attribute4',#)=='Nation'","default"),
+ ("Science","Attr('attribute1',#)=='Science'||Attr('attribute2',#)=='Science'||Attr('attribute3',#)=='Science'||Attr('attribute4',#)=='Science'","default"),
+ ("Secret","Attr('attribute1',#)=='Secret'||Attr('attribute2',#)=='Secret'||Attr('attribute3',#)=='Secret'||Attr('attribute4',#)=='Secret'","default"),
+ ("Space","Attr('attribute1',#)=='Space'||Attr('attribute2',#)=='Space'||Attr('attribute3',#)=='Space'||Attr('attribute4',#)=='Space'","default"),
+ ("SubGenius","Attr('attribute1',#)=='SubGenius'||Attr('attribute2',#)=='SubGenius'||Attr('attribute3',#)=='SubGenius'||Attr('attribute4',#)=='SubGenius'","default"),
 );
 
 # FUNCTIONS
@@ -94,7 +199,6 @@ def StartGame
 #
 # HOOKS
 # =====
-
 def TryTransferHook
 {
   if((ARG==("deck.top",deck) || ARG==("deck.bottom",deck)) && (card_back(card.number)==1 || card.number==1))
@@ -102,7 +206,6 @@ def TryTransferHook
   else
     return(ARG);
 }
-
 #
 # REDEFINED FUNCTIONS
 # ===================
@@ -112,7 +215,9 @@ def TryTransferHook
 #
 def PlayKeyControlKeyEnd
 {
-  Send("Transfer",(1,("deck",deck,length(deck(deck))-1),("active",me)))
+  if(object.name=="plots")
+    Send("Transfer",(1,("deck",object.number,length(deck(object.number))-1),("active",me)));
+  else  Send("Transfer",(1,("deck",deck,length(deck(deck))-1),("active",me)));
 }
 
 

@@ -8,6 +8,17 @@
 deck_rules=(,);
 server_description="Standard rules";
 deck_rules{"Tournament"}=(,);
-deck_rules{"Tournament"}{"deck"}=(
+deck_rules{"Tournament"}{""}=(
+  ("RuleDeckSizes",(45,)),
   ("RulePass",NULL),
 );
+deck_rules{"Tournament"}{"plots"}=(
+  ("RuleLimitByExpression",(0,"Attr(\"type\",#)==\"Group\"")),
+  ("RulePass",NULL),
+);
+deck_rules{"Tournament"}{"deck"}=(
+  ("RuleLimitByExpression",(0,"Attr(\"type\",#)==\"Plot\"")),
+  ("RuleLimitByExpression",(0,"Attr(\"type\",#)==\"Illuminati\"")),
+  ("RulePass",NULL),
+);
+

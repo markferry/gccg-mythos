@@ -1,0 +1,905 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE ccg-setinfo SYSTEM "../gccg-set.dtd">
+<ccg-setinfo name="Assassins" dir="Assassins" abbrev="AS" game="Illuminati: New World Order">
+	<cards>
+		<card name="Arms Dealers" graphics="armsdealers.jpg" text="By spending the Arms Dealers' action, you may trade any number of your Plots for the same number of exposed Plots belonging to one rival. You may hide any or all of the Plots you receive; if you give away any exposed Plots, they stay exposed.">
+			<attr key="rarity" value="R"/> 
+			<attr key="subtype" value="Organization"/>
+			<attr key="type" value="Group"/> 
+			<attr key="power" value="2"/>
+			<attr key="globalpower" value="0"/>
+			<attr key="resistance" value="4"/>
+			<attr key="alignment1" value="Violent"/>
+			<attr key="alignment2" value="Criminal"/>
+			<attr key="arrowright" value="{OUTRIGHT}"/>
+			<attr key="arrowbot" value="{INCBOT}"/>
+		</card>
+		<card name="Church of Violentology" graphics="churchofviolentology.jpg" text="Any group which participates in the destruction of the Church may draw a Plot card. However, if any attempt to destroy this group should fail, you may draw one Plot card for each group that participated in the attack... and the lowest-Power attacking group (except Illuminati) is automatically destroyed by your vengeful minions. (Roll randomly in case of ties; the destroyed group counts as a kill for you.)">
+			<attr key="rarity" value="R"/> 
+			<attr key="subtype" value="Organization"/>
+			<attr key="type" value="Group"/> 
+			<attr key="power" value="2"/>
+			<attr key="globalpower" value="0"/>
+			<attr key="resistance" value="6"/>
+			<attr key="alignment1" value="Violent"/>
+			<attr key="alignment2" value="Corporate"/>
+			<attr key="alignment3" value="Fanatic"/>
+			<attr key="attribute1" value="Church"/>
+			<attr key="arrowtop" value="{OUTTOP}"/>
+			<attr key="arrowleft" value="{OUTLEFT}"/>
+			<attr key="arrowbot" value="{INCBOT}"/>
+		</card>
+		<card name="Convenience Stores" graphics="conveniencestores.jpg" text="There's one on every corner... a worldwide network of informers. Any group card you play as an 'agents' card gets an extra +5 for either attack or defense. If anyone else plays an 'agent' card, you may give them the +5 at no cost. The Convenience Stores have no effect on the power of duplicate Illuminati cards. This group has +10 against any Attack to Destroy.">
+			<attr key="rarity" value="S"/> 
+			<attr key="subtype" value="Organization"/>
+			<attr key="type" value="Group"/> 
+			<attr key="power" value="1"/>
+			<attr key="globalpower" value="0"/>
+			<attr key="resistance" value="2"/>
+			<attr key="alignment1" value="Corporate"/>
+			<attr key="arrowtop" value="{INCTOP}"/>
+			<attr key="arrowright" value="{OUTRIGHT}"/>
+		</card>
+		<card name="Copy Shops" graphics="copyshops.jpg" text="You may spend this group's action at any time, along with any Plot card from your hand, to copy any exposed Plot belonging to a rival. This 'copied' Plot must be one that you can legally use immediately, and must use it immediately, paying the normal cost. If it is nullified in any way, it is lost; no one can save or 'scavenge' it for further use in any way. If it's a Goal, you must be able to win with it immediately, or it doesn't count. If the copied Plot is one that would normally be kept on the table as a link, fake it... The actual Plot belonging to your rival is completely unaffected.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Organization"/>
+			<attr key="type" value="Group"/> 
+			<attr key="power" value="1"/>
+			<attr key="globalpower" value="0"/>
+			<attr key="resistance" value="4"/>
+			<attr key="arrowright" value="{OUTRIGHT}"/>
+			<attr key="arrowbot" value="{INCBOT}"/>
+		</card>
+		<card name="Day Care Centers" graphics="daycarecenters.jpg" text="This group has the exact same alignments that its master has, and nothing can change those alignments unless the master changes! If the master is Fanatic, the fanaticism of the Day Care Centers is considered to be the same alignment for all purposes. If the Day Care Centers are destroyed, they count as having the alignments they had at the moment they were destroyed.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Organization"/>
+			<attr key="type" value="Group"/> 
+			<attr key="power" value="1"/>
+			<attr key="globalpower" value="0"/>
+			<attr key="resistance" value="2"/>
+			<attr key="arrowtop" value="{INCTOP}"/>
+		</card>
+		<card name="Dittoheads" graphics="dittoheads.jpg" text="This group may only be controlled by a Personality. Place it on any side of its master's card, even if there is not Control Arrow there. The master gets +2 Power, and his Resistance is tripled! Any number of Dittoheads may be in play, but no Personality can control more than one. A Dittohead card may not be used as an 'agents' card. This card always has the same alignments as its Personality, plus 'Fanatic.' If the Personality is already Fanatic, the fanaticism of the Dittoheads is considered the same alignment for all purposes.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Organization"/>
+			<attr key="type" value="Group"/> 
+			<attr key="power" value="1"/>
+			<attr key="globalpower" value="0"/>
+			<attr key="resistance" value="4"/>
+			<attr key="alignment1" value="Fanatic"/>
+			<attr key="arrowbot" value="{INCBOT}"/>
+		</card>
+		<card name="Drug Companies" graphics="drugcompanies.jpg" text="The Drug Companies may attack to permanently remove one alignment from any group in play. Roll exactly as for an Attack to Control, with a +10 bonus, but if it succeeds, the only result is the loss of whichever alignment the attacker chooses. Indicate this in whatever Illuminated manner you choose; a solid-gold engraved plaque is good, but so is a sticky note.">
+			<attr key="rarity" value="V"/> 
+			<attr key="subtype" value="Organization"/>
+			<attr key="type" value="Group"/> 
+			<attr key="power" value="3"/>
+			<attr key="globalpower" value="3"/>
+			<attr key="resistance" value="3"/>
+			<attr key="alignment1" value="Corporate"/>
+			<attr key="attribute1" value="Science"/>
+			<attr key="arrowtop" value="{INCTOP}"/>
+			<attr key="arrowleft" value="{OUTLEFT}"/>
+			<attr key="arrowright" value="{OUTRIGHT}"/>
+		</card>
+		<card name="EPA" graphics="epa.jpg" text="As long as there is a token on the EPA, the Nuclear Power Companies cannot use their special ability.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Organization"/>
+			<attr key="type" value="Group"/> 
+			<attr key="power" value="3"/>
+			<attr key="globalpower" value="0"/>
+			<attr key="resistance" value="3"/>
+			<attr key="alignment1" value="Government"/>
+			<attr key="attribute1" value="Green"/>
+			<attr key="attribute2" value="Science"/>
+			<attr key="arrowright" value="{OUTRIGHT}"/>
+			<attr key="arrowbot" value="{INCBOT}"/>
+		</card>
+		<card name="Militia" graphics="militia.jpg" text="Every time the Militia makes or aids a successful Attack to Destroy, its printed Power is increased by 1. Participation in a failed Attack to Destroy reduces its Power by 1, but never to less than 1. (Use one or more 6-sided dice on the Militia to keep track of their Power.)">
+			<attr key="rarity" value="V"/> 
+			<attr key="subtype" value="Organization"/>
+			<attr key="type" value="Group"/> 
+			<attr key="power" value="1"/>
+			<attr key="globalpower" value="0"/>
+			<attr key="resistance" value="6"/>
+			<attr key="alignment1" value="Violent"/>
+			<attr key="alignment2" value="Conservative"/>
+			<attr key="alignment3" value="Fanatic"/>
+			<attr key="arrowtop" value="{INCTOP}"/>
+			<attr key="arrowright" value="{OUTRIGHT}"/>
+		</card>
+		<card name="Nutrition Nazis" graphics="nutritionnazis.jpg" text="If the Nutrition Nazis are involved in an attack, any Science group may aid their side, regardless of alignments. Or this card may be played from its owner's hand like a Plot card to give the Science attribute to any group. Link the group to this card, and treat this card as a Plot for all purposes. (This may only happen once per game, and is not allowed if the Nutrition Nazis are already in play as a group.)">
+			<attr key="rarity" value="R"/> 
+			<attr key="subtype" value="Organization"/>
+			<attr key="type" value="Group"/> 
+			<attr key="power" value="1"/>
+			<attr key="globalpower" value="0"/>
+			<attr key="resistance" value="4"/>
+			<attr key="alignment1" value="Straight"/>
+			<attr key="attribute1" value="Science"/>
+			<attr key="arrowleft" value="{OUTLEFT}"/>
+			<attr key="arrowbot" value="{INCBOT}"/>
+		</card>
+		<card name="Pale People In Black" graphics="palepeopleinblack.jpg" text="If the Pale People participate in an attack to control, their target becomes infected with boredom, depression and disgust, and all effects of opposed alignment may be ignored. This group cannot be destroyed; for every Pale Person in Black who becomes an insurance salesman, another one graduates from high school.">
+			<attr key="rarity" value="R"/> 
+			<attr key="subtype" value="Organization"/>
+			<attr key="type" value="Group"/> 
+			<attr key="power" value="1"/>
+			<attr key="globalpower" value="1"/>
+			<attr key="resistance" value="2"/>
+			<attr key="alignment1" value="Weird"/>
+			<attr key="arrowtop" value="{INCTOP}"/>
+		</card>
+		<card name="Recycling Centers" graphics="recyclingcenters.jpg" text="By spending their action, the Recycling Centers may salvage any Group card, or any Gadget Resource, which is discarded for any reason. A card can only be salvaged on the turn it was discarded. The salvaged card goes into its owner's hand. Remember: if two or more players try to use special abilities or Plot cards to claim the same discarded card, whoever speaks first gets it!">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Organization"/>
+			<attr key="type" value="Group"/> 
+			<attr key="power" value="1"/>
+			<attr key="globalpower" value="0"/>
+			<attr key="resistance" value="3"/>
+			<attr key="attribute1" value="Green"/>
+			<attr key="arrowbot" value="{INCBOT}"/>
+		</card>
+		<card name="Science Alarmists" graphics="sciencealarmists.jpg" text="Don't worry about the details. You're not a scientist; you wouldn't understand them. Just take their word for it and panic now. If you control the Science Alarmists, no rival may make an automatic takeover of any Science or Green group without your permission.">
+			<attr key="rarity" value="R"/> 
+			<attr key="subtype" value="Organization"/>
+			<attr key="type" value="Group"/> 
+			<attr key="power" value="1"/>
+			<attr key="globalpower" value="0"/>
+			<attr key="resistance" value="4"/>
+			<attr key="attribute1" value="Green"/>
+			<attr key="attribute2" value="Science"/>
+			<attr key="arrowright" value="{OUTRIGHT}"/>
+			<attr key="arrowbot" value="{INCBOT}"/>
+		</card>
+		<card name="Shock Jocks" graphics="shockjocks.jpg" text="Bad taste is better than no taste at all... and most of their fans look so normal... The Shock Jocks are Weird, but they are treated as Straight when they attack to control a Straight group. And they and their master can interfere in any attack involving a Straight group on either side.">
+			<attr key="rarity" value="R"/> 
+			<attr key="subtype" value="Organization"/>
+			<attr key="type" value="Group"/> 
+			<attr key="power" value="1"/>
+			<attr key="globalpower" value="0"/>
+			<attr key="resistance" value="5"/>
+			<attr key="alignment1" value="Weird"/>
+			<attr key="attribute1" value="Media"/>
+			<attr key="arrowtop" value="{INCTOP}"/>
+			<attr key="arrowbot" value="{OUTBOT}"/>
+		</card>
+		<card name="State Lotteries" graphics="statelotteries.jpg" text="Pay your money and take your chances. By spending this group's action, you may return all your Groups or Plots to the appropriate deck, reshuffle, and draw one less card than you returned. You may do this at any time.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Organization"/>
+			<attr key="type" value="Group"/> 
+			<attr key="power" value="2"/>
+			<attr key="globalpower" value="0"/>
+			<attr key="resistance" value="0"/>
+			<attr key="alignment1" value="Government"/>
+			<attr key="arrowbot" value="{INCBOT}"/>
+		</card>
+		<card name="Swingers" graphics="swingers.jpg" text="They've got friends everywhere. Lots of friends. The Power of the Swingers is increased by 1 for every Liberal group in your Power Structure.">
+			<attr key="rarity" value="R"/> 
+			<attr key="subtype" value="Organization"/>
+			<attr key="type" value="Group"/> 
+			<attr key="power" value="1"/>
+			<attr key="globalpower" value="0"/>
+			<attr key="resistance" value="1"/>
+			<attr key="alignment1" value="Weird"/>
+			<attr key="alignment2" value="Liberal"/>
+			<attr key="arrowleft" value="{OUTLEFT}"/>
+			<attr key="arrowbot" value="{INCBOT}"/>
+		</card>
+		<card name="The Green Party" graphics="thegreenparty.jpg" text="Gives +4 for control of Green groups. All your other Green groups get +1 Power.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Organization"/>
+			<attr key="type" value="Group"/> 
+			<attr key="power" value="4"/>
+			<attr key="globalpower" value="2"/>
+			<attr key="resistance" value="5"/>
+			<attr key="alignment1" value="Liberal"/>
+			<attr key="attribute1" value="Green"/>
+			<attr key="arrowtop" value="{INCTOP}"/>
+			<attr key="arrowleft" value="{OUTLEFT}"/>
+			<attr key="arrowright" value="{OUTRIGHT}"/>
+		</card>
+		<card name="The Thule Group" graphics="thethulegroup.jpg" text="You may spend this group's action at any time to let you discard any number of Groups from your hand. You may then use the printed Power of those Groups as Power or Resistance bonuses for any attack or defense, even an Instant... ignoring alignments and attributes. If Hitler's Brain is linked to this group, the cannot be captured or destroyed.">
+			<attr key="rarity" value="V"/> 
+			<attr key="subtype" value="Organization"/>
+			<attr key="type" value="Group"/> 
+			<attr key="power" value="1"/>
+			<attr key="globalpower" value="0"/>
+			<attr key="resistance" value="6"/>
+			<attr key="attribute1" value="Secret"/>
+			<attr key="attribute2" value="Magic"/>
+			<attr key="arrowtop" value="{INCTOP}"/>
+		</card>
+		<card name="General Disorder" graphics="generaldisorder.jpg" text="Spend his action to give +10 to any Disaster... but it cannot destroy its target, only Devastate. General Disorder has been assassinated repeatedly, but he doesn't stay dead. If he is killed or destroyed, he counts as 'destroyed' only until the end of the current turn. If no one has won, the General comes back to life on any arrow of his former master (if none are available, he returns to your hand). His puppets return to your hand whenever he is destroyed. He keeps any linked Plots of other changes, good or bad.">
+			<attr key="rarity" value="R"/> 
+			<attr key="subtype" value="Personality"/>
+			<attr key="type" value="Group"/> 
+			<attr key="power" value="1"/>
+			<attr key="globalpower" value="0"/>
+			<attr key="resistance" value="6"/>
+			<attr key="alignment1" value="Weird"/>
+			<attr key="alignment2" value="Violent"/>
+			<attr key="attribute1" value="Science"/>
+			<attr key="arrowtop" value="{INCTOP}"/>
+			<attr key="arrowbot" value="{OUTBOT}"/>
+		</card>
+		<card name="Lama Ramadingdong" graphics="lamaramadingdong.jpg" text="His Power increases by 1 for every other Green group in play, and may be used to defend any Green group at any time. This does not require an action.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Personality"/>
+			<attr key="type" value="Group"/> 
+			<attr key="power" value="1"/>
+			<attr key="globalpower" value="0"/>
+			<attr key="resistance" value="1"/>
+			<attr key="alignment1" value="Peaceful"/>
+			<attr key="alignment2" value="Weird"/>
+			<attr key="alignment3" value="Corporate"/>
+			<attr key="attribute1" value="Green"/>
+			<attr key="arrowtop" value="{INCTOP}"/>
+			<attr key="arrowright" value="{OUTRIGHT}"/>
+		</card>
+		<card name="Lyndon LaRouche" graphics="lyndonlarouche.jpg" text="If LaRouche controls a political party (Republican, Democrat, Libertarian or the Green Party) or Government group, his Power becomes the printed Power of his most powerful such puppet. However, at the beginning of each turn, roll one die. On a 1 through 3, LaRouche is receiving etheric vibrations from the dark side of Venus, and gets no Action token. Also, his alignments do not count toward any Goal!">
+			<attr key="rarity" value="R"/> 
+			<attr key="subtype" value="Personality"/>
+			<attr key="type" value="Group"/> 
+			<attr key="power" value="1"/>
+			<attr key="globalpower" value="0"/>
+			<attr key="resistance" value="8"/>
+			<attr key="alignment1" value="Weird"/>
+			<attr key="alignment2" value="Conservative"/>
+			<attr key="alignment3" value="Criminal"/>
+			<attr key="alignment4" value="Fanatic"/>
+			<attr key="arrowtop" value="{INCTOP}"/>
+			<attr key="arrowleft" value="{OUTLEFT}"/>
+		</card>
+		<card name="Newt Gingrich" graphics="newtgingrich.jpg" text="As long as Newt is part of any Power Structure, the 'Newt World Order' is in effect: any attack anyone makes to destroy any Liberal group gets a +5 bonus. Newt's direct attacks to destroy Liberal groups get an extra +5.">
+			<attr key="rarity" value="R"/> 
+			<attr key="subtype" value="Personality"/>
+			<attr key="type" value="Group"/> 
+			<attr key="power" value="3"/>
+			<attr key="globalpower" value="0"/>
+			<attr key="resistance" value="6"/>
+			<attr key="alignment1" value="Conservative"/>
+			<attr key="alignment2" value="Government"/>
+			<attr key="attribute1" value="Space"/>
+			<attr key="attribute2" value="Science"/>
+			<attr key="arrowleft" value="{OUTLEFT}"/>
+			<attr key="arrowright" value="{OUTRIGHT}"/>
+			<attr key="arrowbot" value="{INCBOT}"/>
+		</card>
+		<card name="Teddy Kennedy" graphics="teddykennedy.jpg" text="Teddy's Liberal puppets can be destroyed, but only with difficulty – they defend at an extra +5 – and they can never be taken away from him. Any Liberal group he control is immune to Attacks to Control.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Personality"/>
+			<attr key="type" value="Group"/> 
+			<attr key="power" value="4"/>
+			<attr key="globalpower" value="0"/>
+			<attr key="resistance" value="4"/>
+			<attr key="alignment1" value="Liberal"/>
+			<attr key="alignment2" value="Government"/>
+			<attr key="arrowtop" value="{INCTOP}"/>
+			<attr key="arrowright" value="{OUTRIGHT}"/>
+			<attr key="arrowbot" value="{OUTBOT}"/>
+		</card>
+		<card name="Vladimir Zhirinovsky" graphics="vladimirzhirinovsky.jpg" text="Has +10 for direct control of Russia, or +5 for direct control of any other Communist group.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Personality"/>
+			<attr key="type" value="Group"/> 
+			<attr key="power" value="2"/>
+			<attr key="globalpower" value="0"/>
+			<attr key="resistance" value="6"/>
+			<attr key="alignment1" value="Violent"/>
+			<attr key="alignment2" value="Conservative"/>
+			<attr key="attribute1" value="Communist"/>
+			<attr key="arrowright" value="{OUTRIGHT}"/>
+			<attr key="arrowbot" value="{INCBOT}"/>
+		</card>
+		<card name="Al Amarja" graphics="alamarja.jpg" text="Conspiracy is in the very air of Al Amarja. Its owner is immune to the 'I Lied' card. However, its rulers use their arcane powers mainly to guard themselves; if Al Amarja, or its master or a puppet, is struck by a Disaster, each undrawn Plot card you discard (before the die roll) adds +4 to your defense.">
+			<attr key="rarity" value="R"/> 
+			<attr key="subtype" value="Place"/>
+			<attr key="type" value="Group"/> 
+			<attr key="power" value="2"/>
+			<attr key="globalpower" value="0"/>
+			<attr key="resistance" value="8"/>
+			<attr key="alignment1" value="Weird"/>
+			<attr key="attribute1" value="Coastal"/>
+			<attr key="attribute2" value="Nation"/>
+			<attr key="arrowleft" value="{OUTLEFT}"/>
+			<attr key="arrowbot" value="{INCBOT}"/>
+		</card>
+		<card name="Australia" graphics="australia.jpg" text="Once Australians make up their minds, that's the way it is. Especially after a few beers. While they are controlled, double their printed Resistance... unless it is the weekend, a national holiday in the country where you are playing, or after 5 p.m. In that case have another coldie and multiply Resistance by four! Australia has +10 against any Attack to Destroy, and gives all your other Organizations +4 against any Attack to Destroy, because of its remoteness.">
+			<attr key="rarity" value="R"/> 
+			<attr key="subtype" value="Place"/>
+			<attr key="type" value="Group"/> 
+			<attr key="power" value="3"/>
+			<attr key="globalpower" value="0"/>
+			<attr key="resistance" value="6"/>
+			<attr key="alignment1" value="Conservative"/>
+			<attr key="alignment2" value="Government"/>
+			<attr key="attribute1" value="Huge"/>
+			<attr key="attribute2" value="Coastal"/>
+			<attr key="attribute3" value="Nation"/>
+			<attr key="arrowtop" value="{INCTOP}"/>
+			<attr key="arrowbot" value="{OUTBOT}"/>
+		</card>
+		<card name="Illuminati University" graphics="illuminatiuniversity.jpg" text="You must pay 'tuition' as long as you control IOU. At the end of each turn, you must discard one Plot or Group from your hand or the top of your deck, or discard IOU and return its puppets to your hand. But IOU, and its master, and its puppets, are all completely immune to Disasters and to Straight and Government groups.">
+			<attr key="rarity" value="V"/> 
+			<attr key="subtype" value="Place"/>
+			<attr key="type" value="Group"/> 
+			<attr key="power" value="2"/>
+			<attr key="globalpower" value="0"/>
+			<attr key="resistance" value="6"/>
+			<attr key="alignment1" value="Weird"/>
+			<attr key="attribute1" value="Science"/>
+			<attr key="attribute2" value="Magic"/>
+			<attr key="arrowleft" value="{OUTLEFT}"/>
+			<attr key="arrowbot" value="{INCBOT}"/>
+		</card>
+		<card name="Black Helicopters" graphics="blackhelicopters.jpg" text="Link this Resource permanently to any Secret and/or Government group. All that group's attacks are now privileged. If the group ever becomes neither Secret nor Government, the Helicopters are lost.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Resource"/>
+			<attr key="type" value="Group"/> 
+			<attr key="textbot" value="Unique"/>
+		</card>
+		<card name="Blivit" graphics="blivit.jpg" text="The action of the Blivit can be used to cancel the action of any other Resource. If a Resource does not have Action tokens, the Blivit cannot affect it. The owner of the Blivit is immune to the Nuclear Power Companies. Although only one Blivit can exist at a time, it is not Unique. Any other player can play a new Blivit, and the old one is destroyed and discarded. If it has just used its action, that action is canceled.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Resource"/>
+			<attr key="type" value="Group"/> 
+			<attr key="textbot" value="Gadget         ACTION"/>
+		</card>
+		<card name="Killer Satellite" graphics="killersatellite.jpg" text="As its action, the Killer Satellite may attempt, at any time, to destroy any 'Satellite' Resource, or the Orbital Mind Control Lasers. If a target is destroyed, any action it had just announced is canceled! For a sure kill discard the Killer Satellite. Or roll one die: 1-3: Target is destroyed. 4: Any target but the OMCL is destroyed. If the target is the OMCL, the Killer Satellite is destroyed! 5: Target and Killer Satellite is destroyed! 6: Killer Satellite is destroyed. Alternatively, the Killer Satellite may use its action to give +5 to any attack on a Space Place, or it may be discarded (with its Action token) for a +15 on any attack to destroy one.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Resource"/>
+			<attr key="type" value="Group"/> 
+			<attr key="textbot" value="Gadget         ACTION"/>
+		</card>
+		<card name="Lenin's Body" graphics="leninsbody.jpg" text="Link this card to any Group. That group gains +5 for direct control of Communist groups. If the linked group is itself Communist, it also gains Global Power equal to its current regular Power.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Resource"/>
+			<attr key="type" value="Group"/> 
+			<attr key="textbot" value="Unique"/>
+		</card>
+		<card name="Orgone Grinder" graphics="orgonegrinder.jpg" text="Link this Resource to any Personality you control. That Personality now becomes 'all things to all people,' with Power increased to 6 and Resistance to 10. However, the Personality now has no alignments or attributes and may not be given any. This takes precedence over any other card that would normally add an alignment or attribute!">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Resource"/>
+			<attr key="type" value="Group"/> 
+			<attr key="textbot" value="Unique Gadget"/>
+		</card>
+		<card name="Power Satellite" graphics="powersatellite.jpg" text="May be linked to any Space Place or to any Nation to increase that group's Power by 2 and to give a +5 bonus to all defenses (including against Disasters). Only one Power Satellite may be linked to any one Place.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Resource"/>
+			<attr key="type" value="Group"/> 
+			<attr key="textbot" value="Gadget"/>
+		</card>
+		<card name="Screaming Meme" graphics="screamingmeme.jpg" text="Link this card to any Organization except an Illuminati. The Resource cannot be stolen or relinked elsewhere. An Organization with a Screaming Meme cannot be destroyed by any means. This Resource is not Unique, but only one can exist at a time. If a new Screaming Meme is brought into play, the old one is instantly forgotten; discard it.">
+			<attr key="rarity" value="R"/> 
+			<attr key="subtype" value="Resource"/>
+			<attr key="type" value="Group"/> 
+		</card>
+		<card name="Spy Satellite" graphics="spysatellite.jpg" text="Spend its action at any time to pick three Groups randomly from any rival's hand, show them to all players if you wish, and return them. Or just expose one random Plot from his hand instead. ">
+			<attr key="rarity" value="R"/> 
+			<attr key="subtype" value="Resource"/>
+			<attr key="type" value="Group"/> 
+			<attr key="textbot" value="Gadget         ACTION"/>
+		</card>
+		<card name="The Big Prawn" graphics="thebigprawn.jpg" text="The Big Prawn is the ultimate tourist attraction. It doubles the Power of the Coastal Place it is linked to. It cannot be stolen or moved in any way once linked. You may also permanently add, subtract, or reverse any one alignment of the Place at the moment the Big Prawn is linked. If the Big Prawn is destroyed, it cannot be rebuilt. The local economy will collapse and the host Place is Devastated. If the host Place is devastated or destroyed, the Big Prawn is destroyed.">
+			<attr key="rarity" value="R"/> 
+			<attr key="subtype" value="Resource"/>
+			<attr key="type" value="Group"/> 
+			<attr key="textbot" value="Unique Gadget"/>
+		</card>
+		<card name="X-Ray Specs" graphics="xrayspecs.jpg" text="Link this card to any Science group. That group gains the special ability to spend its action to examine the top three undrawn cards form any deck in play. If the linked group is Weird Science, you may examine the top three cards from any two decks, or the top six on any one deck.">
+			<attr key="rarity" value="R"/> 
+			<attr key="subtype" value="Resource"/>
+			<attr key="type" value="Group"/> 
+			<attr key="textbot" value="Unique Gadget"/>
+		</card>
+		<card name="Society of Assassins" graphics="societyofassassins.png" back="1" text="When one of your Fanatic groups attacks or defends, you may treat its Fanatic alignment as the same as that of any other Fanatic group. Your Fanatic groups also have Global Power equal to their Power. Any Secret group counts double for you as long as none of your rivals control a Secret group with more power.">
+			<attr key="rarity" value="I"/> 
+			<attr key="subtype" value="Illuminati"/>
+			<attr key="type" value="Illuminati"/>
+			<attr key="power" value="7"/>
+			<attr key="globalpower" value="7"/>
+			<attr key="arrowtop" value="{OUTTOP}"/>
+			<attr key="arrowleft" value="{OUTLEFT}"/>
+			<attr key="arrowright" value="{OUTRIGHT}"/>
+			<attr key="arrowbot" value="{OUTBOT}"/>
+		</card>
+		<card name="Spontaneous Combustion " graphics="spontaneouscombustion.jpg" back="1" text="Assassination! This is an Instant Attack to Destroy any Personality, at any time. It does not require an action. Its Power is 10, or 15 if the target is Magic. A single Magic group may use its action for this attack, and add its own Power.">
+			<attr key="rarity" value="V"/> 
+			<attr key="subtype" value="Assassination"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="textbot" value="Assassination!"/>
+		</card>
+		<card name="Drought" graphics="drought.jpg" back="1" text="Disaster! This is an Attack to Destroy any Huge Place. It does not require an action. Its Power is 24 if the target is Coastal, 28 if it is not. This is not an Instant attack. Any Coastal Place, or any group with a special ability that mentions giving Relief, can aid the target Place with its current Power. If the attack succeeds, the target is Devastated. If the die roll succeeds by more than 10, the target is destroyed!">
+			<attr key="rarity" value="R"/> 
+			<attr key="subtype" value="Disaster"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="textbot" value="Disaster!"/>
+		</card>
+		<card name="Flesh-Eating Bacteria" graphics="flesheatingbacteria.jpg" back="1" text="Disaster! This is an Attack to Destroy any Place. It does not require an action. Its Power is 20. This is not an Instant attack. Any Science group can aid the target Place. The Center for Disease Control has triple power to aid the target Place. If the attack succeeds, the target is Devastated. If the die roll succeeds by more than 8, the target is destroyed, and this card returns to the hand of the fiend who played it.">
+			<attr key="rarity" value="V"/> 
+			<attr key="subtype" value="Disaster"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="textbot" value="Disaster!"/>
+		</card>
+		<card name="No Beer!" graphics="nobeer.jpg" back="1" text="Disaster! This is an Instant Attack to Destroy any Place. It does not require an action. Its Power is 16 normally. Against Australia, Germany or Texas, its Power is 24. Against France and Italy its Power is only 8. By spending their action, the Liquor Companies can either halve this attack's Power or double it! If the attack succeeds, the target is Devastated. This attack cannot actually destroy its target.">
+			<attr key="rarity" value="V"/> 
+			<attr key="subtype" value="Disaster"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="textbot" value="Disaster!"/>
+		</card>
+		<card name="Oil Spill" graphics="oilspill.jpg" back="1" text="Disaster! This is an Instant Attack to Destroy any Coastal Place. It does not require an action. Its Power is 14 against a Huge Place, 18 against any other. If the attack succeeds, the target is Devastated. If the die roll succeeds by more than 6, the target is destroyed. You may place an extra Action token on every Green Group in play immediately after this attack succeeds. No player may do this more than once per game. Alternatively, this card may be played to add +10 to any attack against OPEC or the Multinational Oil Companies.">
+			<attr key="rarity" value="R"/> 
+			<attr key="subtype" value="Disaster"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="textbot" value="Disaster!"/>
+		</card>
+		<card name="Backfire " graphics="backfire.jpg" back="1" text="The tides of magic are stirred by strange forces. No Magic group, no matter who owns it, may use its Action token(s) until the end of the present turn, except to defend itself against an attack. Alternatively, if this card is played immediately after a Magic action, that action is canceled. This card requires an Illuminati or Magic action.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Freeze"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="textbot" value="Attribute Freeze! Requires Illuminati or Magic Action"/>
+		</card>
+		<card name="Bite the Wax Tadpole" graphics="bitethewaxtadpole.jpg" back="1" text="No Media group, no matter who owns it, may use its Action token(s) until the end of the present turn, except to defend itself against an attack. Alternatively, if this card is played immediately after a Media action, that action is canceled. This card requires an Illuminati or Media action.">
+			<attr key="rarity" value="C"/> 
+			<attr key="subtype" value="Freeze"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="textbot" value="Attribute Freeze! Requires Illuminati or Media Action"/>
+		</card>
+		<card name="Five-Year Plan" graphics="fiveyearplan.jpg" back="1" text="No Communist group, no matter who owns it, may use its Action token(s) until the end of the present turn, except to defend itself against an attack. Alternatively, if this card is played immediately after a Communist action, that action is canceled. This card requires an Illuminati or Communist action.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Freeze"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="textbot" value="Attribute Freeze! Requires Illuminati or Communist Action"/>
+		</card>
+		<card name="Floating Point Error" graphics="floatingpointerror.jpg" back="1" text="All over the world, computers get weird. No Computer group, no matter who owns it, may use its Action token(s) until the end of the present turn, except to defend itself against an attack. Alternatively, if this card is played immediately after a Computer action, that action is canceled. This card requires an Illuminati or Computer action.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Freeze"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="textbot" value="Attribute Freeze! Requires Illuminati or Computer Action"/>
+		</card>
+		<card name="Hubble Trouble" graphics="hubbletrouble.jpg" back="1" text="No Space or Science group, no matter who owns it, may use its Action token(s) until the end of the present turn, except to defend itself against an attack. Alternatively, if this card is played immediately after a Space or Science action, that action is canceled. This card requires an Illuminati, Space or Science action.">
+			<attr key="rarity" value="C"/> 
+			<attr key="subtype" value="Freeze"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="textbot" value="Attribute Freeze! Requires Illuminati or Science Action"/>
+		</card>
+		<card name="Junk Bonds" graphics="junkbonds.jpg" back="1" text="No Bank group, no matter who owns it, may use its Action token(s) until the end of the present turn, except to defend itself against an attack. Alternatively, if this card is played immediately after a Bank action, that action is canceled. This card requires an Illuminati or Bank action.">
+			<attr key="rarity" value="C"/> 
+			<attr key="subtype" value="Freeze"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="textbot" value="Attribute Freeze! Requires Illuminati or Bank Action"/>
+		</card>
+		<card name="Let the Sunshine In" graphics="letthesunshinein.jpg" back="1" text="No Secret group, no matter who owns it, may use its Action token(s) until the end of the present turn, except to defend itself against an attack. Alternatively, if this card is played immediately after a Secret action, that action is canceled. This card requires an Illuminati or Secret action.">
+			<attr key="rarity" value="C"/> 
+			<attr key="subtype" value="Freeze"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="textbot" value="Attribute Freeze! Requires Illuminati or Secret Action"/>
+		</card>
+		<card name="Pave the Earth!" graphics="pavetheearth.jpg" back="1" text="Environmental groups are torn by infighting. No Green group, no matter who owns it, may use its Action token(s) until the end of the present turn, except to defend itself against an attack. Alternatively, if this card is played immediately after a Green action, that action is canceled. This card requires an Illuminati or Green action.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Freeze"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="textbot" value="Attribute Freeze! Requires Illuminati or Green Action"/>
+		</card>
+		<card name="School Prayer" graphics="schoolprayer.jpg" back="1" text="No Church, Liberal or Conservative group, no matter who owns it, may use its Action token(s) until the end of the present turn, except to defend itself against an attack. Alternatively, if this card is played immediately after a Church action, that action is canceled. This card requires an Illuminati, Church, Liberal or Conservative action. Almost anybody can start the fun...">
+			<attr key="rarity" value="C"/> 
+			<attr key="subtype" value="Freeze"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="textbot" value="Attribute Freeze! Requires Illuminati, Church, Liberal or Conservative Action"/>
+		</card>
+		<card name="Blinded by Science" graphics="blindedbyscience.jpg" back="1" text="Control six Science groups. This Goal cannot be combined with other Goals in any way.">
+			<attr key="rarity" value="C"/> 
+			<attr key="subtype" value="Goal"/>
+			<attr key="type" value="Plot"/> 
+		</card>
+		<card name="Earth First!" graphics="earthfirst.jpg" back="1" text="Destroy Corporate groups, and control Green groups, in any of the following combinations; Destroy 2 Corporate, control 6 Green, Destroy 3 Corporate, control 5 Green, Destroy 4 Corporate, control 4 Green, Destroy 5 Corporate, control 3 Green, Destroy 6 Corporate, control 1 Green. This Goal cannot be combined with other Goals in any way.">
+			<attr key="rarity" value="R"/> 
+			<attr key="subtype" value="Goal"/>
+			<attr key="type" value="Plot"/> 
+		</card>
+		<card name="Population Reduction" graphics="populationreduction.jpg" back="1" text="Destruction of up to three Huge Places counts two groups each toward your Basic Goal (or as two destroyed groups each for Cthulhu), but you may not count any other destroyed groups toward that goal. (And remember, no matter what, you can only count three cards double toward your Basic Goal.) However, if you can destroy five Huge Places without recourse to World War III, you may claim victory on that basis alone.">
+			<attr key="rarity" value="R"/> 
+			<attr key="subtype" value="Goal"/>
+			<attr key="type" value="Plot"/> 
+		</card>
+		<card name="Antitrust Legislation" graphics="antitrustlegislation.jpg" back="1" text="When this card comes into play, all players must reorganize their Power Structures in any way they like... as long as no Corporate group is controlled by another Corporate group. Any group that cannot follow this rule must be discarded. No Corporate group may take control of another Corporate group while this N.W.O is in effect. If an alignment change creates a condition where one Corporate group controls another, the owner must immediately move the puppet to a non-Corporate master (at no cost) or discard it. This card replaces any Yellow N.W.O card in play.">
+			<attr key="rarity" value="R"/> 
+			<attr key="subtype" value="NWO"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="color" value="Yellow"/> 
+		</card>
+		<card name="Apathy" graphics="apathy.jpg" back="1" text="No group may aid an attack made by another group, regardless of who owns it. This card replaces any Red N.W.O card in play.">
+			<attr key="rarity" value="R"/> 
+			<attr key="subtype" value="NWO"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="color" value="Red"/> 
+		</card>
+		<card name="Australian Rules" graphics="australianrules.jpg" back="1" text="Any player who attacks a rival, or aids in an attack on a rival, may draw a Plot. Anyone who successfully captures or destroys a group belonging to a rival may draw a Group. These are all in addition to any cards the players may be entitled to draw for other reasons. This card replaces and Red N.W.O card in play.">
+			<attr key="rarity" value="C"/> 
+			<attr key="subtype" value="NWO"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="color" value="Red"/> 
+		</card>
+		<card name="End of the World" graphics="endoftheworld.jpg" back="1" text="All Church or Fanatic groups get +2 power; Fanatic Churches get +3. All Corporate and Government groups lose credibility, and their Power is reduced by 2. This card replaces any Yellow N.W.O card in play.">
+			<attr key="rarity" value="C"/> 
+			<attr key="subtype" value="NWO"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="color" value="Yellow"/> 
+		</card>
+		<card name="Global Warming" graphics="globalwarming.jpg" back="1" text="The seas rise. All currently Coastal Places lose 2 Power (though non are reduced below 1). All non-Coastal Places become Coastal. All Green groups get +2 to their Power. This card replaces any Blue N.W.O card in play.">
+			<attr key="rarity" value="C"/> 
+			<attr key="subtype" value="NWO"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="color" value="Blue"/> 
+		</card>
+		<card name="Interesting Times" graphics="interestingtimes.jpg" back="1" text="This card may have either of two effects; the person who plays it must choose one and declare it when the card is played (a) No Goal card is valid except the Basic Goal, 'number of groups controlled.' Illuminati goals, and goals from Goal cards, cannot be used to win. (b) The number of groups required for the Basic Goal is increased by 2. This card replaces any Blue NWO card in play.">
+			<attr key="rarity" value="R"/> 
+			<attr key="subtype" value="NWO"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="color" value="Blue"/> 
+		</card>
+		<card name="The Magic Goes Away" graphics="themagicgoesaway.jpg" back="1" text="Magic devices stop working. Nobody knows why. No Magic Resources have any effect while this N.W.O is in play. All Magic groups have their Power reduced by 1. Magic Resources and Groups still count normally for all Goals. Since all the Illuminati use magic to some extent, their powers are also reduced. All Illuminati lose the 'automatic takeover' phase of their turn. This card replaces any Red N.W.O card in play.">
+			<attr key="rarity" value="R"/> 
+			<attr key="subtype" value="NWO"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="color" value="Red"/> 
+		</card>
+		<card name="Visualize Whirled Peas" graphics="visualizewhirledpeas.jpg" back="1" text="Fanatic is no longer the opposite of Fanatic; all Fanatic groups are now considered to have the same allignment for all purposes! Fanatic groups that are not weird get + 2 Power. Weird Fanatic groups are still on the fringe and get no bonus – sorry guys. ">
+			<attr key="rarity" value="R"/> 
+			<attr key="subtype" value="NWO"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="color" value="Yellow"/> 
+		</card>
+		<card name="Watermelons" graphics="watermelons.jpg" back="1" text="One-time Communists, looking for a new cause, drift into Green movements. All Green groups are considered Communist and vice versa. Alternatively, instead of using this card as an NWO, link it to one group which is already either Green or Communist, and m">
+			<attr key="rarity" value="R"/> 
+			<attr key="subtype" value="NWO"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="color" value="Blue"/> 
+		</card>
+		<card name="Cat Juggling" graphics="catjuggling.jpg" back="1" text="Play this card at any time except during a privileged attack, placing it over any Peacful group. The target is paralyzed immediately. It cannot spend Action tokens, and cannot use any special ability or linked Resource. Its puppets are unaffected, but it cannot get new ones. Control of the target does not count toward any Goal. To free the target, either remove its Peaceful alignment or spend an action from its master or any Illuminati. Playing the card requires an Illuminati action, or Violent action(s) of Power equal to the target's current Resistance.">
+			<attr key="rarity" value="C"/> 
+			<attr key="subtype" value="Paralysis"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="textbot" value="Requires Illuminati or Violent Action(s)"/>
+		</card>
+		<card name="Chain Letter" graphics="chainletter.jpg" back="1" text="Play this card at any time except during a privileged attack, placing it over any Straight group. The target is paralyzed immediately. It cannot spend Action tokens, and cannot use any special ability or linked Resource. Its puppets are unaffected, but it cannot get new ones. Control of the target does not count toward any Goal. To free the target, either remove its Straight alignment or spend an action from its master or any Illuminati. Playing the card requires an Illuminati action, or Weird action(s) of Power equal to the target's current Resistance.">
+			<attr key="rarity" value="C"/> 
+			<attr key="subtype" value="Paralysis"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="textbot" value="Requires Illuminati or Weird Action(s)"/>
+		</card>
+		<card name="Contract on America" graphics="contractonamerica.jpg" back="1" text="Play this card at any time except during a privileged attack, placing it over any Liberal group. The target is paralyzed immediately. It cannot spend Action tokens, and cannot use any special ability or linked Resource. Its puppets are unaffected, but it cannot get new ones. Control of the target does not count toward any Goal. To free the target, either remove its Liberal alignment or spend an action from its master or any Illuminati. Playing the card requires an Illuminati action, or Conservative action(s) of Power equal to the target's current Resistance.">
+			<attr key="rarity" value="C"/> 
+			<attr key="subtype" value="Paralysis"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="textbot" value="Requires Illuminati or Conservative Action(s)"/>
+		</card>
+		<card name="Crackdown on Crime" graphics="crackdownoncrime.jpg" back="1" text="Play this card at any time except during a privileged attack, placing it over any Criminal group. The target is paralyzed immediately. It cannot spend Action tokens, and cannot use any special ability or linked Resource. Its puppets are unaffected, but it cannot get new ones. Control of the target does not count toward any Goal. To free the target, either remove its Criminal alignment or spend an action from its master or any Illuminati. Playing the card requires an Illuminati action, or Government action(s) of Power equal to the target's current Resistance.">
+			<attr key="rarity" value="C"/> 
+			<attr key="subtype" value="Paralysis"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="textbot" value="Requires Illuminati or Government Action(s)"/>
+		</card>
+		<card name="Death To All Fanatics" graphics="deathtoallfanatics.jpg" back="1" text="Play this card at any time except during a privileged attack, placing it over any Fanatic group. The target is paralyzed immediately. It cannot spend Action tokens, and cannot use any special ability or linked Resource. Its puppets are unaffected, but it cannot get new ones. Control of the target does not count toward any Goal. To free the target, either remove its Fanatic alignment or spend an action from its master or any Illuminati. Playing the card requires an Illuminati action, or Fanatic action(s) of Power equal to the target's current Resistance.">
+			<attr key="rarity" value="C"/> 
+			<attr key="subtype" value="Paralysis"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="textbot" value="Requires Illuminati or Fanatic Action(s)"/>
+		</card>
+		<card name="Enough is Enough" graphics="enoughisenough.jpg" back="1" text="Play this card on your own turn, before drawing any Plots. You may remove all Zap, Paralysis or Attribute Freeze cards that are affecting your Power Structure. However, preoccupied with your housecleaning, you may draw no Plots this turn.">
+			<attr key="rarity" value="C"/> 
+			<attr key="subtype" value="Paralysis"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="textbot" value="Draw No Plot Cards This Turn"/>
+		</card>
+		<card name="Every Year is Worse" graphics="everyyearisworse.jpg" back="1" text="Play this card at any time except during a privileged attack, placing it over any Conservative group. The target is paralyzed immediately. It cannot spend Action tokens, and cannot use any special ability or linked Resource. Its puppets are unaffected, but it cannot get new ones. Control of the target does not count toward any Goal. To free the target, either remove its Conservative alignment or spend an action from its master or any Illuminati. Playing the card requires an Illuminati action, or Liberal action(s) of Power equal to the target's current Resistance.">
+			<attr key="rarity" value="C"/> 
+			<attr key="subtype" value="Paralysis"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="textbot" value="Requires Illuminati or Liberal Action(s)"/>
+		</card>
+		<card name="Metric System" graphics="metricsystem.jpg" back="1" text="Play this card at any time except during a privileged attack, placing it over any Corporate group. The target is paralyzed immediately. It cannot spend Action tokens, and cannot use any special ability or linked Resource. Its puppets are unaffected, but it cannot get new ones. Control of the target does not count toward any Goal. To free the target, either remove its Corporate alignment or spend an action from its master or any Illuminati. Playing the card requires an Illuminati action, or Government action(s) of Power equal to the target's current Resistance.">
+			<attr key="rarity" value="C"/> 
+			<attr key="subtype" value="Paralysis"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="textbot" value="Requires Illuminati or Government Action(s)"/>
+		</card>
+		<card name="Vile Secretions" graphics="vilesecretions.jpg" back="1" text="Play this card at any time except during a privileged attack, placing it over any Weird group. The target is paralyzed immediately. It cannot spend Action tokens, and cannot use any special ability or linked Resource. Its puppets are unaffected, but it cannot get new ones. Control of the target does not count toward any Goal. To free the target, either remove its Straight alignment or spend an action from its master or any Illuminati. Playing the card requires an Illuminati action, or Straight action(s) of Power equal to the target's current Resistance.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Paralysis"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="textbot" value="Requires Illuminati or Straight Action(s)"/>
+		</card>
+		<card name="Waiting Period" graphics="waitingperiod.jpg" back="1" text="Play this card at any time except during a privileged attack, placing it over any Violent group. The target is paralyzed immediately. It cannot spend Action tokens, and cannot use any special ability or linked Resource. Its puppets are unaffected, but it cannot get new ones. Control of the target does not count toward any Goal. To free the target, either remove its Violent alignment or spend an action from its master or any Illuminati. Playing the card requires an Illuminati action, or Peaceful action(s) of Power equal to the target's current Resistance.">
+			<attr key="rarity" value="C"/> 
+			<attr key="subtype" value="Paralysis"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="textbot" value="Requires Illuminati or Peaceful Action(s)"/>
+		</card>
+		<card name="Whistle Blowers" graphics="whistleblowers.jpg" back="1" text="Play this card at any time except during a privileged attack, placing it over any Government group. The target is paralyzed immediately. It cannot spend Action tokens, and cannot use any special ability or linked Resource. Its puppets are unaffected, but it cannot get new ones. Control of the target does not count toward any Goal. To free the target, either remove its Government alignment or spend an action from its master or any Illuminati. Playing the card requires an Illuminati action, or Corporate action(s) of Power equal to the target's current Resistance.">
+			<attr key="rarity" value="C"/> 
+			<attr key="subtype" value="Paralysis"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="textbot" value="Requires Illuminati or Corporate Action(s)"/>
+		</card>
+		<card name="Alien Abduction" graphics="alienabduction.jpg" back="1" text="Play this card on any Personality at any time. Until the end of the current turn, that Personality has no alignments at all. Furthermore, it cannot get any alignments until the end of the current turn, for any reason! Alternatively, play this card on a Personality in your hand (or in play but uncontrolled) to take control of them automatically.">
+			<attr key="rarity" value="R"/> 
+			<attr key="subtype" value="Plot"/>
+			<attr key="type" value="Plot"/> 
+		</card>
+		<card name="Back to the Salt Mines" graphics="backtothesaltmines.jpg" back="1" text="This card may be played when a Place is attacked in a non-instant way, for +10 either to the attack or to the defense. Only one such card may be played during any attack; if a defender plays this card, an attacker must take his back if he has played one. ">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Plot"/>
+			<attr key="type" value="Plot"/> 
+		</card>
+		<card name="Backmasquerade" graphics="backmasquerade.jpg" back="1" text="Link this card to any Magic group. That group can now spend its action at any time to remove one Zap from any Illuminati. This link cannot be moved. Only one Backmasquerade can be in play at a time. When a new one is played, the old one is immediately removed.">
+			<attr key="rarity" value="C"/> 
+			<attr key="subtype" value="Plot"/>
+			<attr key="type" value="Plot"/> 
+		</card>
+		<card name="Bar Codes" graphics="barcodes.jpg" back="1" text="By spending the action from any Computer group, this card may be used at any time to look through the Group deck of a rival. You have only ten seconds to look at his cards. You may not change their order or show them to anyone else. Your rival may choose to shuffle the deck after you return it.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Plot"/>
+			<attr key="type" value="Plot"/> 
+		</card>
+		<card name="Beach Party" graphics="beachparty.jpg" back="1" text="Play this card at any time to give immediate Relief, and an Action token, to any Coastal Place which has been Devastated. Leave it linked to that Place for a +5 against any further Disaster.">
+			<attr key="rarity" value="C"/> 
+			<attr key="subtype" value="Plot"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="textbot" value="Requires Computer Action"/>
+		</card>
+		<card name="Cease-Fire" graphics="ceasefire.jpg" back="1" text="Play this card at any time to remove all Zaps in play, as long as more than one player is currently Zapped. If only one players is currently Zapped, this card has no effect. You must discard your top undrawn Plot or Group.">
+			<attr key="rarity" value="C"/> 
+			<attr key="subtype" value="Plot"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="textbot" value="Requires Discard"/>
+		</card>
+		<card name="Crusade" graphics="crusade.jpg" back="1" text="Play this card at any time to give +10 Power or Resistance (your choice) to any Church group you control. If used with an action, it must be played when that action is first declared, and counts only for that action. If used for defense, the bonus lasts until the end of the current turn, is good for defense only, and does not count toward Goals.">
+			<attr key="rarity" value="C"/> 
+			<attr key="subtype" value="Plot"/>
+			<attr key="type" value="Plot"/> 
+		</card>
+		<card name="Defection" graphics="defection.jpg" back="1" text="Go through your Groups deck and choose one non-unique Gadget Resource (or a Clipper Chip) that duplicates a Resource already owned by a rival. You may bring your duplicate Resource into play immediately, with its full compliment of Action tokens. The rival Resource is not affected. You may use this card at any time. A Nation action is required.">
+			<attr key="rarity" value="C"/> 
+			<attr key="subtype" value="Plot"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="textbot" value="Requires Nation Action"/>
+		</card>
+		<card name="Dolphins" graphics="dolphins.jpg" back="1" text="Place an Action token on any one Green group, or on two or more Green groups whose current Power adds up to 5 or less. This card may not benefit a group that already has any tokens, or a group which is suffering from any effect that prevents it from getting Action tokens. This card may be played at any time. It requires an action from your Illuminati.">
+			<attr key="rarity" value="C"/> 
+			<attr key="subtype" value="Plot"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="textbot" value="Requires Illuminati Action"/>
+		</card>
+		<card name="Don't Touch That Dial!" graphics="donttouchthatdial.jpg" back="1" text="Play this card at any time a Media group is attacked unsuccessfully. The attacker's turn ends immediately. An action from any Media group is required to play this card.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Plot"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="textbot" value="Requires Media Action"/>
+		</card>
+		<card name="Exorcism" graphics="exorcism.jpg" back="1" text="Remove all Zaps from one player (not necessarily yourself). You must discard your top undrawn Plot or Group.">
+			<attr key="rarity" value="C"/> 
+			<attr key="subtype" value="Plot"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="textbot" value="Requires Discard"/>
+		</card>
+		<card name="Frankenfood" graphics="frankenfood.jpg" back="1" text="Genetic manipulation creates a tangy taste treat with a special side effect! Add one alignment of your choice to any Place you control, as long as it doesn't have the opposite alignment already. You may not remove or reverse an alignment with this card. This requires an action from a Science group. The new alignment is permanent until you remove it – you may do this at any time. Your rival(s) may remove it at any time by spending Science actions with a total Power of 6.">
+			<attr key="rarity" value="C"/> 
+			<attr key="subtype" value="Plot"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="textbot" value="Requires Science Action"/>
+		</card>
+		<card name="Go Fish" graphics="gofish.jpg" back="1" text="Ask any rival for a specific Plot. He must show you all his hidden Plots, give you all instances of the Plot you named and discard two undrawn Plots for each one. But if he has none of the Plot you named, all your Plots are exposed. Note: Once anyone has actually looked at a rival's hidden Plots or Plot deck by means of any Plot or special ability, Go Fish may not be played against that rival during the remainder of that turn.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Plot"/>
+			<attr key="type" value="Plot"/> 
+		</card>
+		<card name="Go, Lemmings, Go!" graphics="golemmingsgo.jpg" back="1" text="Play this card whenever a rival discards Plots of Groups, from either his hand or his deck, in order to power a Plot card or a group's special ability. If he discarded one card, he must discard two more of the same type. If he discarded more than one, he must discard as many again of the same type or types. If the original discards where from his hand, the extras must be from his hand; if he does not have enough, he must make up the difference from his deck. If the original discards were from his deck, the extras must be from his deck; he does not have to discard from his hand, even if his deck runs out! He gets no benefit of any kind for the extra discards.">
+			<attr key="rarity" value="V"/> 
+			<attr key="subtype" value="Plot"/>
+			<attr key="type" value="Plot"/> 
+		</card>
+		<card name="Grave Robbers" graphics="graverobbers.jpg" back="1" text="Use this card when you are entitled to take over a Resource. You have 30 seconds to look through your Groups deck and choose an Artifact Resource. You may bring it directly into play; if it has actions, it starts with a full complement of Action tokens. If the Resource is Magic, you must spend Magic Action(s) worth 6 Power to use this card.">
+			<attr key="rarity" value="R"/> 
+			<attr key="subtype" value="Plot"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="textbot" value="May Require Magic Action (s)"/>
+		</card>
+		<card name="May Day" graphics="mayday.jpg" back="1" text="Place an Action token on any one Communist group, or on two or more Communist groups whose current Power adds up to 5 or less. This card may not benefit a group that already has any tokens, or a group which is suffering from any effect that prevents it from getting Action tokens. This card may be played at any time. It requires an action from your Illuminati.">
+			<attr key="rarity" value="C"/> 
+			<attr key="subtype" value="Plot"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="textbot" value="Requires Illuminati Action"/>
+		</card>
+		<card name="Near Miss" graphics="nearmiss.jpg" back="1" text="Play this card when a Place is destroyed (with or without a Disaster). The destruction becomes mere Devastation. Or, if a place is Devastated, play this card to cancel the Devastation. However, you may not use two Near Miss cards together to turn destruction into a complete miss.">
+			<attr key="rarity" value="C"/> 
+			<attr key="subtype" value="Plot"/>
+			<attr key="type" value="Plot"/> 
+		</card>
+		<card name="Nevermore!" graphics="nevermore.jpg" back="1" text="Play this card immediately after any Plot takes effect. For the rest of the game, no duplicate of that Plot may be played. Place this card with the NWOs, with the Nevermored Plot removed from the discard pile and placed under it. If a Plot is not discarded when played, it may still be Nevermored; write its name on a sticky note and put it on or beside this card. If not canceled when first played, Nevermore! Cannot be removed, and any player can then Nevermore any Plot immediately after it is played. Playing this card, or Nevermoring another Plot after this card is already down, requires an Illuminati action or two Plot discards from your hand or deck.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Plot"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="textbot" value="Requires Illuminati Action or Discards"/>
+		</card>
+		<card name="Partition" graphics="partition.jpg" back="1" text="Play this Plot on your turn. You may then play a card which duplicates an existing Huge Place, and make an automatic takeover or attack to control. If your attack succeeds, there are now two non-Huge Places, each with half the original printed Power (rounded up). Other characteristics are unchanged. Name then whatever you want – e.g., North and South Russia. 'Agents' cards may be used normally against either Place. Either Place now has +10 on any attack against the other. If one ever controls the other, the controlling player may declare them reunited at any time. Remove the puppet. The reunited group gets all cards linked to either group. If this produces a contradictory or illegal result, the owner chooses which links to discard.">
+			<attr key="rarity" value="C"/> 
+			<attr key="subtype" value="Plot"/>
+			<attr key="type" value="Plot"/> 
+		</card>
+		<card name="Pizza for the Secret Meeting" graphics="pizzaforthesecretmeeting.jpg" back="1" text="Play this card at any time. Pick one Secret group to lose its Secret status for the rest of the current turn.">
+			<attr key="rarity" value="C"/> 
+			<attr key="subtype" value="Plot"/>
+			<attr key="type" value="Plot"/> 
+		</card>
+		<card name="Regi$tered Trademark" graphics="registeredtrademark.jpg" back="1" text="Play this card at any time, linking it to any Group in play. This link cannot be moved or removed. All players must now refer to that Group by its full name, exactly as printed on its card, whenever they mention it (either in game play or table talk). Circumlocutions, pronouns, references to 'that card,' pointing, ect. Are not acceptable. A player who fails to refer to the card properly must discard one Plot, from his deck or from his hand, as soon as the error is pointed out. If the owner of the Group refers to it incorrectly, and a rival points it out before the owner does, the owner must give that rival his top undrawn Plot.">
+			<attr key="rarity" value="R"/> 
+			<attr key="subtype" value="Plot"/>
+			<attr key="type" value="Plot"/> 
+		</card>
+		<card name="Reverse Whammy" graphics="reversewhammy.jpg" back="1" text="Play this when a Zap is played on you. The Zap applies to the one who used it instead! You must discard your top undrawn Group card, or one from your hand.">
+			<attr key="rarity" value="C"/> 
+			<attr key="subtype" value="Plot"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="textbot" value="Requires Discard"/>
+		</card>
+		<card name="Secret Master" graphics="secretmaster.jpg" back="1" text="Link this card to one Personality who is directly controlled by your Illuminati. That person is now a member of the Illuminati. He cannot be captured at all, or destroyed except by Assassination or by the direct attack of another Illuminati. And he has an extra +20 against an Assassination. However, he loses all alignments and attributes.">
+			<attr key="rarity" value="V"/> 
+			<attr key="subtype" value="Plot"/>
+			<attr key="type" value="Plot"/> 
+		</card>
+		<card name="Strange Bedfellows" graphics="strangebedfellows.jpg" text="Play this card at any time. Pick one group that you control, and reverse any or all of its alignments. This effect lasts for only one action. It may also be used during the Action token placement phase. If so, its effect lasts only during that phase. Alignments changed by this card do not count toward any Goal.">
+			<attr key="rarity" value="S"/> 
+			<attr key="subtype" value="Plot"/>
+			<attr key="type" value="Plot"/> 
+		</card>
+		<card name="Sudden European Vacation" graphics="suddeneuropeanvacation.jpg" back="1" text="Play this card on any Personality you control, at any time, and move it so that it is controlled by a different master (in any power structure). Any hostile Plot cards just played on that Personality are canceled (including instants), no other hostile Plots may be played against that Personality for the remainder of the turn.">
+			<attr key="rarity" value="R"/> 
+			<attr key="subtype" value="Plot"/>
+			<attr key="type" value="Plot"/> 
+		</card>
+		<card name="Sufficiently Advanced Technology" graphics="sufficientlyadvancetechnology.jpg" back="1" text="Place this card with your Resources and link it to a Science group you control. As long as that group remains Science, it is also Magic for all purposes. Or... if this card is linked to a Magic group, then as long as that group remains Magic, it is also Science for all purposes.">
+			<attr key="rarity" value="C"/> 
+			<attr key="subtype" value="Plot"/>
+			<attr key="type" value="Plot"/> 
+		</card>
+		<card name="Supernova" graphics="supernova.jpg" back="1" text="Play this card during your turn. You may take over one or two Gadget Resources by spending one Space action for each Resource. If those Resources normally get action tokens, they start with a full set.">
+			<attr key="rarity" value="C"/> 
+			<attr key="subtype" value="Plot"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="textbot" value="Requires Space Action(s)"/>
+		</card>
+		<card name="Supreme Court Nomination" graphics="supremecourtnomination.jpg" back="1" text="This is an Attack to Destroy any Personality, at any time. It does not require an action. Its Power is 15. This attack cannot be made instant or Privileged. Any group can aid either side. Republicans, Democrats and Media groups count double. If the attack succeeds, the target is destroyed (thought not killed!) by the nomination process. If the attack fails, the target has become Chief justice. His printed Power is increase to 4; he gains the alignment Government (and loses Corporate if he had it). While he remains in play, no further Supreme Court Nomination card may be played.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Plot"/>
+			<attr key="type" value="Plot"/> 
+		</card>
+		<card name="Teflon Coating" graphics="tefloncoating.jpg" back="1" text="Play this card when a Personality is attacked and enemy Media groups are involved. All Media attacks announced so far are canceled, and no other Media groups may aid the attackers.">
+			<attr key="rarity" value="C"/> 
+			<attr key="subtype" value="Plot"/>
+			<attr key="type" value="Plot"/> 
+		</card>
+		<card name="The Irish Flu" graphics="theirishflu.jpg" back="1" text="Put this card on top of any Personality in play. The victim loses its Action token and cannot get another one this turn. Killing the victim gets rid of the Flu. Otherwise, at the beginning of the next turn, the victim becomes immune, and its owner passes the Flu to any non-immune Personality in play. The Flu moves each turn, until every Personality in play is immune; then it is discarded. Use markers to show who is immune. The Center for Disease Control makes its whole Power Structure immune to the Flu. Note that there are many strains of the Flu. A Personality who has suffered through one Flu card is not immune to the Flu from another card!">
+			<attr key="rarity" value="V"/> 
+			<attr key="subtype" value="Plot"/>
+			<attr key="type" value="Plot"/> 
+		</card>
+		<card name="This Was Only A Test" graphics="thiswasonlyatest.jpg" back="1" text="Play this card when a Disaster is played. That Disaster is canceled. It is returned to the hand of whoever played it, and is exposed. It may not be used again until after the end of its owner's next turn.">
+			<attr key="rarity" value="C"/> 
+			<attr key="subtype" value="Plot"/>
+			<attr key="type" value="Plot"/> 
+		</card>
+		<card name="Truck Bomb" graphics="truckbomb.jpg" back="1" text="Play this card when you attack to destroy any Organization. The attack becomes Instant. However, the attack must be made by a single Violent group, either with or without the help of your Illuminati, and no bonuses to destroy count for this attack except those of your Illuminati and the attacking group.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Plot"/>
+			<attr key="type" value="Plot"/> 
+		</card>		
+		<card name="Witch Hunt" graphics="witchhunt.jpg" back="1" text="Place an Action token on any one Church group, or on two or more Church groups whose current Power adds up to 5 or less. This card may not benefit a group that already has any tokens, or a group which is suffering from any effect that prevents it from getting Action tokens. This card may be played at any time. It requires an action from your Illuminati.">
+			<attr key="rarity" value="C"/> 
+			<attr key="subtype" value="Plot"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="textbot" value="Requires Illuminati Action"/>
+		</card>
+		<card name="You Are What You Eat " graphics="youarewhatyoueat.jpg" back="1" text="Play this card after you destroy any group with an attack from a group other than your Illuminati. Discard the group that made the attack; it is considered destroyed but does not count for any Goals. Substitute the (formerly) destroyed on in its place in your Power Structure. Puppets of the discarded group may be placed in any position on the new card, or discarded, or returned to your hand.">
+			<attr key="rarity" value="C"/> 
+			<attr key="subtype" value="Plot"/>
+			<attr key="type" value="Plot"/> 
+		</card>
+		<card name="A Brief Attack of Conscience" graphics="abriefattackofconscience.jpg" back="1" text="The target Illuminati cannot use Assassinations or Disasters. An Illuminati action is required to play this Zap. (Play on a rival Illuminati at any time except during a privileged attack. A Zap stays on its victim until it is removed. Spending an Illuminati action, at any time, will remove all Zaps from any one player.)">
+			<attr key="rarity" value="C"/> 
+			<attr key="subtype" value="Zap"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="textbot" value="Zap! Requires Illuminati Action"/>
+		</card>
+		<card name="Anarchists Unite!" graphics="anarchistsunite.jpg" back="1" text="The target Illuminati cannot take over Government groups. An Illuminati action is required to play this Zap. (Play on a rival Illuminati at any time except during a privileged attack. A Zap stays on its victim until it is removed. Spending an Illuminati action, at any time, will remove all Zaps from any one player.)">
+			<attr key="rarity" value="C"/> 
+			<attr key="subtype" value="Zap"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="textbot" value="Zap! Requires Illuminati Action"/>
+		</card>
+		<card name="Anything Worth Doing Is Worth Overdoing" graphics="anythingworthdoingisworthoverdoing.jpg" back="1" text="The target Illuminati cannot take over Conservative groups. An Illuminati action is required to play this Zap. (Play on a rival Illuminati at any time except during a privileged attack. A Zap stays on its victim until it is removed. Spending an Illuminati action, at any time, will remove all Zaps from any one player.)">
+			<attr key="rarity" value="C"/> 
+			<attr key="subtype" value="Zap"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="textbot" value="Zap! Requires Illuminati Action"/>
+		</card>
+		<card name="Back to the Drawing Board" graphics="backtothedrawingboard.jpg" back="1" text="Whenever the target Illuminati would be entitled to draw a Group, they must draw a Plot instead. An Illuminati action is required to play this Zap. (Play on a rival Illuminati at any time except during a privileged attack. A Zap stays on its victim until it is removed. Spending an Illuminati action, at any time, will remove all Zaps from any one player.)">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Zap"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="textbot" value="Zap! Requires Illuminati Action"/>
+		</card>
+		<card name="Bait and Switch" graphics="baitandswitch.jpg" back="1" text="The target Illuminati cannot take over Corporate groups. An Illuminati action is required to play this Zap. (Play on a rival Illuminati at any time except during a privileged attack. A Zap stays on its victim until it is removed. Spending an Illuminati action, at any time, will remove all Zaps from any one player.)">
+			<attr key="rarity" value="C"/> 
+			<attr key="subtype" value="Zap"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="textbot" value="Zap! Requires Illuminati Action"/>
+		</card>
+		<card name="Brushfire War" graphics="brushfirewar.jpg" back="1" text="The target Illuminati cannot take over Peaceful groups. An Illuminati action is required to play this Zap. (Play on a rival Illuminati at any time except during a privileged attack. A Zap stays on its victim until it is removed. Spending an Illuminati action, at any time, will remove all Zaps from any one player.)">
+			<attr key="rarity" value="C"/> 
+			<attr key="subtype" value="Zap"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="textbot" value="Zap! Requires Illuminati Action"/>
+		</card>
+		<card name="Don't Rock The Boat" graphics="dontrocktheboat.jpg" back="1" text="The target Illuminati cannot take over Fanatic groups. An Illuminati action is required to play this Zap. (Play on a rival Illuminati at any time except during a privileged attack. A Zap stays on its victim until it is removed. Spending an Illuminati action, at any time, will remove all Zaps from any one player.)">
+			<attr key="rarity" value="C"/> 
+			<attr key="subtype" value="Zap"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="textbot" value="Zap! Requires Illuminati Action"/>
+		</card>
+		<card name="Family Values" graphics="familyvalues.jpg" back="1" text="The target Illuminati cannot take over Weird groups. Discordia is immune to this Zap. An Illuminati action is required to play this Zap. (Play on a rival Illuminati at any time except during a privileged attack. A Zap stays on its victim until it is removed. Spending an Illuminati action, at any time, will remove all Zaps from any one player.)">
+			<attr key="rarity" value="C"/> 
+			<attr key="subtype" value="Zap"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="textbot" value="Zap! Requires Illuminati Action"/>
+		</card>
+		<card name="Fickle Finger of Fate" graphics="ficklefingeroffate.jpg" back="1" text="The target Illuminati lose their automatic takeover. Instead they get +10 to their Power for any one attack each turn. (This card is prohibited in a game using two-players rules.) An Illuminati action is required to play this Zap. (Play on a rival Illuminati at any time except during a privileged attack. A Zap stays on its victim until it is removed. Spending an Illuminati action, at any time, will remove all Zaps from any one player.)">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Zap"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="textbot" value="Zap! Requires Illuminati Action"/>
+		</card>
+		<card name="Lab Explosion" graphics="labexplosion.jpg" back="1" text="The target Illuminati cannot take new Resources. An Illuminati action is required to play this Zap. (Play on a rival Illuminati at any time except during a privileged attack. A Zap stays on its victim until it is removed. Spending an Illuminati action, at any time, will remove all Zaps from any one player.)">
+			<attr key="rarity" value="C"/> 
+			<attr key="subtype" value="Zap"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="textbot" value="Zap! Requires Illuminati Action"/>
+		</card>
+		<card name="My Karma Ran Over Your Dogma" graphics="mykarmaranoveryourdogma.jpg" back="1" text="The target Illuminati cannot take over Straight groups. An Illuminati action is required to play this Zap. (Play on a rival Illuminati at any time except during a privileged attack. A Zap stays on its victim until it is removed. Spending an Illuminati action, at any time, will remove all Zaps from any one player.)">
+			<attr key="rarity" value="C"/> 
+			<attr key="subtype" value="Zap"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="textbot" value="Zap! Requires Illuminati Action"/>
+		</card>
+		<card name="Security Leak" graphics="securityleak.jpg" back="1" text="All new Plots drawn by the target Illuminati are automatically exposed as soon as they are drawn. An Illuminati action is required to play this Zap. (Play on a rival Illuminati at any time except during a privileged attack. A Zap stays on its victim until it is removed. Spending an Illuminati action, at any time, will remove all Zaps from any one player.)">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Zap"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="textbot" value="Zap! Requires Illuminati Action"/>
+		</card>
+		<card name="Sorry, Wrong Number" graphics="sorrywrongnumber.jpg" back="1" text="Groups in the target Power Structure get no defensive bonus for being close to the Illuminati. An Illuminati action is required to play this Zap. (Play on a rival Illuminati at any time except during a privileged attack. A Zap stays on its victim until it is removed. Spending an Illuminati action, at any time, will remove all Zaps from any one player.)">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Zap"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="textbot" value="Zap! Requires Illuminati Action"/>
+		</card>
+		<card name="Take The Money And Run" graphics="takethemoneyandrun.jpg" back="1" text="The underworld perceives the target Illuminati as patsies rather than Secret Masters. The target Illuminati cannot take over Criminal groups. An Illuminati action is required to play this Zap. (Play on a rival Illuminati at any time except during a privileged attack. A Zap stays on its victim until it is removed. Spending an Illuminati action, at any time, will remove all Zaps from any one player.)">
+			<attr key="rarity" value="C"/> 
+			<attr key="subtype" value="Zap"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="textbot" value="Zap! Requires Illuminati Action"/>
+		</card>
+		<card name="TANSTAAFL" graphics="tanstaafl.jpg" back="1" text="The target Illuminati cannot take over Liberal groups. An Illuminati action is required to play this Zap. (Play on a rival Illuminati at any time except during a privileged attack. A Zap stays on its victim until it is removed. Spending an Illuminati action, at any time, will remove all Zaps from any one player.)">
+			<attr key="rarity" value="C"/> 
+			<attr key="subtype" value="Zap"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="textbot" value="Zap! Requires Illuminati Action"/>
+		</card>
+		<card name="The Meek Shall Inherit" graphics="themeekshallinherit.jpg" back="1" text="The target Illuminati cannot take over Violent groups. An Illuminati action is required to play this Zap. (Play on a rival Illuminati at any time except during a privileged attack. A Zap stays on its victim until it is removed. Spending an Illuminati action, at any time, will remove all Zaps from any one player.)">
+			<attr key="rarity" value="C"/> 
+			<attr key="subtype" value="Zap"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="textbot" value="Zap! Requires Illuminati Action"/>
+		</card>
+	</cards>
+</ccg-setinfo>

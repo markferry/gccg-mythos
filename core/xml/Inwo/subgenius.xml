@@ -1,0 +1,818 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE ccg-setinfo SYSTEM "../gccg-set.dtd">
+<ccg-setinfo name="Subgenius" dir="Subgenius" abbrev="SG" game="Illuminati: New World Order">
+	<cards>
+		<card name="Advanced Supersonic Aluminum Nazi Hell Creatures from Beneath the Hollow Earth" graphics="advancednazihellcreatures.jpg" text="Whenever the Advanced Supersonic Aluminum Nazi Hell Creatures from Beneath the Hollow Earth participate in a successful Attack to Destroy a rival's group, you may draw another Plot.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Organization"/>
+			<attr key="type" value="Group"/> 
+			<attr key="power" value="4"/>
+			<attr key="globalpower" value="2"/>
+			<attr key="resistance" value="6"/>
+			<attr key="alignment1" value="Violent"/>
+			<attr key="attribute1" value="Secret"/>
+			<attr key="attribute2" value="Science"/>
+			<attr key="arrowtop" value="{INCTOP}"/>
+			<attr key="arrowright" value="{OUTRIGHT}"/>
+			<attr key="arrowbot" value="{OUTBOT}"/>
+		</card>
+		<card name="Bobbies" graphics="bobbies.jpg" text="When you take over the 'Bobbies,' you may place them on any rival's open control arrow. They do not count toward any Goal - they increase their owner's Basic Goal by one Group. When an Attack to Control or Destroy succeeds against the 'Bobbies,' the attacker must either discard them or give them to a rival. This is the only way to get rid of them or move them, aside from destroying their master.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Organization"/>
+			<attr key="type" value="Group"/> 
+			<attr key="power" value="1"/>
+			<attr key="globalpower" value="0"/>
+			<attr key="resistance" value="0"/>
+			<attr key="alignment1" value="Straight"/>
+			<attr key="alignment2" value="Fanatic"/>
+			<attr key="arrowtop" value="{INCTOP}"/>
+		</card>
+		<card name="Church of Middle America" graphics="churchofmiddleamerica.jpg" text="Any SubGenius group that controls the Church gets +2 to its Power (and Global Power, if it already has Global Power), just out of sheer glee.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Organization"/>
+			<attr key="type" value="Group"/> 
+			<attr key="power" value="3"/>
+			<attr key="globalpower" value="1"/>
+			<attr key="resistance" value="4"/>
+			<attr key="alignment1" value="Straight"/>
+			<attr key="alignment2" value="Peaceful"/>
+			<attr key="alignment3" value="Conservative"/>
+			<attr key="attribute1" value="Church"/>
+			<attr key="arrowtop" value="{INCTOP}"/>
+			<attr key="arrowleft" value="{OUTLEFT}"/>
+			<attr key="arrowright" value="{OUTRIGHT}"/>
+		</card>
+		<card name="Citizens for Normalcy" graphics="citizensfornormalcy.jpg" text="Secret control of these foes is a real coup for any servant of 'Bob.' They are immune to direct attacks to control by the Church of the SubGenius, The Discordian Society, or any Weird or SubGenius group. Likewise, they may never be made a puppet of any of these groups through an automatic takeover or by moving them. The ownder of the Citizens can spend their token and an Illuminati token to cancel any Plot.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Organization"/>
+			<attr key="type" value="Group"/> 
+			<attr key="power" value="2"/>
+			<attr key="globalpower" value="0"/>
+			<attr key="resistance" value="2"/>
+			<attr key="alignment1" value="Straight"/>
+			<attr key="alignment2" value="Conservative"/>
+			<attr key="alignment3" value="Fanatic"/>
+			<attr key="arrowtop" value="{INCTOP}"/>
+			<attr key="arrowright" value="{OUTRIGHT}"/>
+		</card>
+		<card name="Corrective Phrenologists" graphics="correctivephrenologists.jpg" text="The Society for Corrective Phrenology believes that whacking people on the head can make them smarter and nicer. So they whack anyone who annoys them. It often works. When the Corrective Phrenologists participate in any attack or defense against a rival's Violent group, they get a new Action token as soon as the dice are rolled.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Organization"/>
+			<attr key="type" value="Group"/> 
+			<attr key="power" value="2"/>
+			<attr key="globalpower" value="0"/>
+			<attr key="resistance" value="3"/>
+			<attr key="alignment1" value="Violent"/>
+			<attr key="alignment2" value="Criminal"/>
+			<attr key="attribute1" value="Science"/>
+			<attr key="arrowtop" value="{INCTOP}"/>
+			<attr key="arrowright" value="{OUTRIGHT}"/>
+		</card>
+		<card name="Divine Mail Order" graphics="divinemailorder.jpg" text="The holy Mail Order Department of the SubGenius Foundation spreads Slack and Dobbsheads to the masses... and brings in serious bucks. You may spend its action to draw a Plot card. You may spend its action and an Illuminati action to draw three Plot cards!">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Organization"/>
+			<attr key="type" value="Group"/> 
+			<attr key="power" value="2"/>
+			<attr key="globalpower" value="0"/>
+			<attr key="resistance" value="3"/>
+			<attr key="alignment1" value="Corporate"/>
+			<attr key="attribute1" value="Media"/>
+			<attr key="attribute2" value="SubGenius"/>
+			<attr key="arrowtop" value="{INCTOP}"/>
+			<attr key="arrowbot" value="{OUTBOT}"/>
+		</card>
+		<card name="Drs. for 'Bob'" graphics="drsforbob.jpg" text="Their Power can be used to defend any SubGenius group you control, as a free move, without using a token.">
+			<attr key="rarity" value="C"/> 
+			<attr key="subtype" value="Organization"/>
+			<attr key="type" value="Group"/> 
+			<attr key="power" value="2"/>
+			<attr key="globalpower" value="0"/>
+			<attr key="resistance" value="4"/>
+			<attr key="alignment1" value="Weird"/>
+			<attr key="attribute1" value="SubGenius"/>
+			<attr key="arrowtop" value="{OUTTOP}"/>
+			<attr key="arrowright" value="{OUTRIGHT}"/>
+			<attr key="arrowbot" value="{INCBOT}"/>
+		</card>
+		<card name="False Prophets" graphics="falseprophets.jpg" text="Control of the False Prophets gives a +4 on any attempt to control or destroy a rival's Church group.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Organization"/>
+			<attr key="type" value="Group"/> 
+			<attr key="power" value="2"/>
+			<attr key="globalpower" value="2"/>
+			<attr key="resistance" value="2"/>
+			<attr key="alignment1" value="Straight"/>
+			<attr key="alignment2" value="Fanatic"/>
+			<attr key="attribute1" value="Church"/>
+			<attr key="arrowtop" value="{INCTOP}"/>
+			<attr key="arrowleft" value="{OUTLEFT}"/>
+		</card>
+		<card name="Glorps" graphics="glorps.jpg" text="Double their Power to Attack to Destroy a SubGenius group, or to aid such an attack. Triple it for any such attack if they are also controlled by a player who has become the Anti'Bob' by exposing the Anti'Bob' Goal.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Organization"/>
+			<attr key="type" value="Group"/> 
+			<attr key="power" value="3"/>
+			<attr key="globalpower" value="0"/>
+			<attr key="resistance" value="3"/>
+			<attr key="alignment1" value="Straight"/>
+			<attr key="alignment2" value="Fanatic"/>
+			<attr key="arrowtop" value="{INCTOP}"/>
+			<attr key="arrowright" value="{OUTRIGHT}"/>
+		</card>
+		<card name="Good Sex for Mutants Dating League" graphics="goodsexformutants.jpg" text="The League matches up those hard-to-match people (et cetera). In the process, they improve the morale of the whole Weird community. All your rivals suffer an automatic -2 on any attempt to control a Weird group, because they'd rather join you.">
+			<attr key="rarity" value="C"/> 
+			<attr key="subtype" value="Organization"/>
+			<attr key="type" value="Group"/> 
+			<attr key="power" value="1"/>
+			<attr key="globalpower" value="0"/>
+			<attr key="resistance" value="3"/>
+			<attr key="alignment1" value="Weird"/>
+			<attr key="alignment2" value="Liberal"/>
+			<attr key="attribute1" value="SubGenius"/>
+			<attr key="arrowtop" value="{INCTOP}"/>
+			<attr key="arrowleft" value="{OUTLEFT}"/>
+			<attr key="arrowright" value="{OUTRIGHT}"/>
+		</card>
+		<card name="League for Obvious Decency" graphics="leagueforobviousdecency.jpg" text="You may spend the League's action to return up to two exposed Plots to the top of the Plot deck (or to their owner's Plot deck in standard INWO).">
+			<attr key="rarity" value="C"/> 
+			<attr key="subtype" value="Organization"/>
+			<attr key="type" value="Group"/> 
+			<attr key="power" value="1"/>
+			<attr key="globalpower" value="0"/>
+			<attr key="resistance" value="3"/>
+			<attr key="alignment1" value="Weird"/>
+			<attr key="alignment2" value="Conservative"/>
+			<attr key="arrowtop" value="{INCTOP}"/>
+		</card>
+		<card name="Local Clenches" graphics="localclenches.jpg" text="Though they are wildly different in style, and seemingly powerless as individuals, control of the Local Clenches gives an extra Action token to their master each turn, if that group is SubGenius.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Organization"/>
+			<attr key="type" value="Group"/> 
+			<attr key="power" value="0"/>
+			<attr key="globalpower" value="0"/>
+			<attr key="resistance" value="2"/>
+			<attr key="attribute1" value="SubGenius"/>
+			<attr key="attribute2" value="Church"/>
+			<attr key="arrowtop" value="{INCTOP}"/>
+		</card>
+		<card name="MWOWM" graphics="mwowm.jpg" text="MWOWM is the computer that will control the Last Days. Whenever any Plot is discarded, you may spend the action of MWOWM to roll one die. If you roll a 3 or less, you get that Plot!">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Organization"/>
+			<attr key="type" value="Group"/> 
+			<attr key="power" value="2"/>
+			<attr key="globalpower" value="1"/>
+			<attr key="resistance" value="4"/>
+			<attr key="attribute1" value="Science"/>
+			<attr key="attribute2" value="Computer"/>
+			<attr key="arrowtop" value="{INCTOP}"/>
+			<attr key="arrowleft" value="{OUTLEFT}"/>
+		</card>
+		<card name="Phlegm Elementals" graphics="phlegmelementals.jpg" text="When the Phlegm Elementals participate in an attack, place a marker on the target group as soon as the dice are rolled, regardless of the outcome. That group is befouled. Befouled groups miss their next chance to get new Action tokens, but may then remove a befouled marker.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Organization"/>
+			<attr key="type" value="Group"/> 
+			<attr key="power" value="2"/>
+			<attr key="globalpower" value="1"/>
+			<attr key="resistance" value="4"/>
+			<attr key="alignment1" value="Violent"/>
+			<attr key="attribute1" value="Secret"/>
+			<attr key="arrowtop" value="{INCTOP}"/>
+		</card>
+		<card name="Pinks " graphics="pinks.jpg" text="Control of this card merely means that you have the attention of the Pinks for the moment. They won't really remember anything you say. Any time the Pinks have no Action token, they may take one from any other Straight group you control.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Organization"/>
+			<attr key="type" value="Group"/> 
+			<attr key="power" value="3"/>
+			<attr key="globalpower" value="1"/>
+			<attr key="resistance" value="0"/>
+			<attr key="alignment1" value="Straight"/>
+			<attr key="arrowtop" value="{INCTOP}"/>
+		</card>
+		<card name="Rogue SubGenii" graphics="roguesubgenii.jpg" text="They acknowledge no leader, they can't even agree on what DAY it is, nor do they CARE! If this group has no Action token, you may discard one Plot card at any time to get one. You may do this only once per any player's turn.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Organization"/>
+			<attr key="type" value="Group"/> 
+			<attr key="power" value="2"/>
+			<attr key="globalpower" value="2"/>
+			<attr key="resistance" value="5"/>
+			<attr key="alignment1" value="Criminal"/>
+			<attr key="attribute1" value="SubGenius"/>
+			<attr key="arrowtop" value="{INCTOP}"/>
+			<attr key="arrowleft" value="{OUTLEFT}"/>
+		</card>
+		<card name="S.L.A.K." graphics="slak.jpg" text="S.L.A.K. Never rests; its members are always eager to do the bidding of 'Bob.' Whenever S.L.A.K. Has no Action token during the token placement phase of a rival's turn, it gets one.">
+			<attr key="rarity" value="C"/> 
+			<attr key="subtype" value="Organization"/>
+			<attr key="type" value="Group"/> 
+			<attr key="power" value="2"/>
+			<attr key="globalpower" value="0"/>
+			<attr key="resistance" value="5"/>
+			<attr key="alignment1" value="Violent"/>
+			<attr key="alignment2" value="Fanatic"/>
+			<attr key="attribute1" value="SubGenius"/>
+			<attr key="arrowtop" value="{INCTOP}"/>
+			<attr key="arrowbot" value="{OUTBOT}"/>
+		</card>
+		<card name="S.P.U.T.U.M." graphics="sputum.jpg" text="When they participate in an attack against a Personality, the Power of S.P.U.T.U.M. Is multiplied by 3.">
+			<attr key="rarity" value="C"/> 
+			<attr key="subtype" value="Organization"/>
+			<attr key="type" value="Group"/> 
+			<attr key="power" value="1"/>
+			<attr key="globalpower" value="0"/>
+			<attr key="resistance" value="2"/>
+			<attr key="alignment1" value="Weird"/>
+			<attr key="alignment2" value="Violent"/>
+			<attr key="attribute1" value="SubGenius"/>
+			<attr key="attribute2" value="Computer"/>
+			<attr key="arrowtop" value="{INCTOP}"/>
+			<attr key="arrowright" value="{OUTRIGHT}"/>
+		</card>
+		<card name="Secret FisTemple" graphics="secretfistemple.jpg" text="The Secret FisTemple may only control Personalities, but any Personality it controls is considered SubGenius. It may give its Action token to its master or puppet, if that group is naturally SubGenius. The Secret FisTemple automatically has all the same alignments that its master has.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Organization"/>
+			<attr key="type" value="Group"/> 
+			<attr key="power" value="2"/>
+			<attr key="globalpower" value="0"/>
+			<attr key="resistance" value="4"/>
+			<attr key="attribute1" value="Secret"/>
+			<attr key="attribute2" value="SubGenius"/>
+			<attr key="attribute3" value="Church"/>
+			<attr key="arrowtop" value="{INCTOP}"/>
+			<attr key="arrowleft" value="{OUTLEFT}"/>
+			<attr key="arrowright" value="{OUTRIGHT}"/>
+			<attr key="arrowbot" value="{OUTBOT}"/>
+		</card>
+		<card name="Speakers in Tongues" graphics="speakersintongues.jpg" text="You get +3 for any attempt to control a Church group.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Organization"/>
+			<attr key="type" value="Group"/> 
+			<attr key="power" value="1"/>
+			<attr key="globalpower" value="0"/>
+			<attr key="resistance" value="3"/>
+			<attr key="alignment1" value="Weird"/>
+			<attr key="alignment2" value="Conservative"/>
+			<attr key="alignment3" value="Fanatic"/>
+			<attr key="arrowtop" value="{INCTOP}"/>
+		</card>
+		<card name="SubGenius FisTemples" graphics="subgeniusfistemples.jpg" text="Any groups controlled by the FisTemples gets +5 to its Resistance.">
+			<attr key="rarity" value="R"/> 
+			<attr key="subtype" value="Organization"/>
+			<attr key="type" value="Group"/> 
+			<attr key="power" value="2"/>
+			<attr key="globalpower" value="0"/>
+			<attr key="resistance" value="3"/>
+			<attr key="alignment1" value="Weird"/>
+			<attr key="attribute1" value="SubGenius"/>
+			<attr key="attribute2" value="Church"/>
+			<attr key="arrowtop" value="{INCTOP}"/>
+			<attr key="arrowleft" value="{OUTLEFT}"/>
+			<attr key="arrowright" value="{OUTRIGHT}"/>
+		</card>
+		<card name="The Hour of Slack" graphics="thehourofslack.jpg" text="He shows you how to find Slack even in misfortune. Or to fake it, anyway. Whenever a group in your Power Structure is attacked by a rival, you may draw one Plot as soon as the attack is committed.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Organization"/>
+			<attr key="type" value="Group"/> 
+			<attr key="power" value="2"/>
+			<attr key="globalpower" value="1"/>
+			<attr key="resistance" value="3"/>
+			<attr key="alignment1" value="Weird"/>
+			<attr key="attribute1" value="Media"/>
+			<attr key="attribute2" value="SubGenius"/>
+			<attr key="arrowtop" value="{INCTOP}"/>
+			<attr key="arrowright" value="{OUTRIGHT}"/>
+			<attr key="arrowbot" value="{OUTBOT}"/>
+		</card>
+		<card name="www.subgenius.com" graphics="wwwsubgeniuscom.jpg" text="You may draw an extra Group card each time you start a new turn, and put it in the uncontrolled area. Or, in a game with no uncontrolled area, you may spend this group's action at any time in order to draw a new Group.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Organization"/>
+			<attr key="type" value="Group"/> 
+			<attr key="power" value="3"/>
+			<attr key="globalpower" value="3"/>
+			<attr key="resistance" value="2"/>
+			<attr key="attribute1" value="SubGenius"/>
+			<attr key="attribute2" value="Computer"/>
+			<attr key="attribute3" value="Church"/>
+			<attr key="arrowtop" value="{INCTOP}"/>
+			<attr key="arrowleft" value="{OUTLEFT}"/>
+		</card>
+		<card name="Xists" graphics="xists.jpg" text="You can't actually CONTROL them, but sometimes you can secure their cooperation for a while. If they are destroyed, they go to the uncontrolled area (or the hand of the player who destroyed them, in games with no uncontrolled area) and do not count as destroyed for any purpose.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Organization"/>
+			<attr key="type" value="Group"/> 
+			<attr key="power" value="5"/>
+			<attr key="globalpower" value="5"/>
+			<attr key="resistance" value="5"/>
+			<attr key="attribute1" value="Space"/>
+			<attr key="arrowtop" value="{INCTOP}"/>
+			<attr key="arrowleft" value="{OUTLEFT}"/>
+			<attr key="arrowright" value="{OUTRIGHT}"/>
+			<attr key="arrowbot" value="{OUTBOT}"/>
+		</card>
+		<card name="Yetis" graphics="yetis.jpg" text="The Yetis hide their human connections carefully. This card may be placed on any open side of its master's card, even is there is no outgoing control arrow there! Any group may attack to control the Yetis, as long as it has an open side on which to place them.">
+			<attr key="rarity" value="R"/> 
+			<attr key="subtype" value="Organization"/>
+			<attr key="type" value="Group"/> 
+			<attr key="power" value="2"/>
+			<attr key="globalpower" value="2"/>
+			<attr key="resistance" value="3"/>
+			<attr key="alignment1" value="Peaceful"/>
+			<attr key="attribute1" value="Green"/>
+			<attr key="arrowtop" value="{INCTOP}"/>
+			<attr key="arrowleft" value="{OUTLEFT}"/>
+			<attr key="arrowright" value="{OUTRIGHT}"/>
+		</card>
+		<card name="Connie Dobbs" graphics="conniedobbs.jpg" text="It is possible that 'Connie' does not exist at all, though she has been the Primary Wife of 'Bob' since 1955, and he has never denied her reality. At any rate, she is a Primal Incarnation of Womanhood, and neither she, nor any group she controls, can be destroyed as long as Connie is both Straight and SubGenius.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Personality"/>
+			<attr key="type" value="Group"/> 
+			<attr key="power" value="2"/>
+			<attr key="globalpower" value="2"/>
+			<attr key="resistance" value="4"/>
+			<attr key="alignment1" value="Straight"/>
+			<attr key="attribute1" value="SubGenius"/>
+			<attr key="arrowtop" value="{INCTOP}"/>
+			<attr key="arrowleft" value="{OUTLEFT}"/>
+			<attr key="arrowbot" value="{OUTBOT}"/>
+		</card>
+		<card name="Dr. K'Taden Legume" graphics="drktadenlegume.jpg" text="Dr. Legume preaches the Word of 'Bob' to all who cannot escape his rantings. While you control Dr. Legume and he remains SubGenius, no one may make any kind of attack against any other SubGenius Personality you control.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Personality"/>
+			<attr key="type" value="Group"/> 
+			<attr key="power" value="2"/>
+			<attr key="globalpower" value="0"/>
+			<attr key="resistance" value="3"/>
+			<attr key="alignment1" value="Violent"/>
+			<attr key="attribute1" value="SubGenius"/>
+			<attr key="arrowtop" value="{INCTOP}"/>
+			<attr key="arrowright" value="{OUTRIGHT}"/>
+		</card>
+		<card name="Jesus B." graphics="jesusb.jpg" text="Once per game, while Jesus B. is in your Power Structure, you may BUY a single point of Slack by sending one dollar to the SubGenius Foundation, PO Box 14306, Dallas, TX 75214. We trust that your rivals, infuriated by your sleazy ploy, will force you to actually put the envelope in the mail!">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Personality"/>
+			<attr key="type" value="Group"/> 
+			<attr key="power" value="3"/>
+			<attr key="globalpower" value="0"/>
+			<attr key="resistance" value="3"/>
+			<attr key="alignment1" value="Weird"/>
+			<attr key="alignment2" value="Corporate"/>
+			<attr key="attribute1" value="SubGenius"/>
+			<attr key="arrowtop" value="{OUTTOP}"/>
+			<attr key="arrowleft" value="{OUTLEFT}"/>
+			<attr key="arrowbot" value="{INCBOT}"/>
+		</card>
+		<card name="NHGH" graphics="nhgh.jpg" text="NHGH can't be destroyed. It can be controlled only by one who has exposed the Anti'Bob' Goal. While in the uncontrolled area, though, it adds its Power of 5 to all attempts to destroy, by any player. In a game with no uncontrolled area, play NHGH as a Plot to add +5 to any Attack to Destroy against a rival... but you then must give NHGH to that rival!">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Personality"/>
+			<attr key="type" value="Group"/> 
+			<attr key="power" value="5"/>
+			<attr key="globalpower" value="3"/>
+			<attr key="resistance" value="2"/>
+			<attr key="alignment1" value="Criminal"/>
+			<attr key="arrowtop" value="{INCTOP}"/>
+			<attr key="arrowbot" value="{OUTBOT}"/>
+		</card>
+		<card name="OverMan Philo Drummond" graphics="overmanphilodrummond.jpg" text="Any Weird group Philo controls is considered to be SubGenius. He is, of course, unaffected by the OverMan and False OverMan cards.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Personality"/>
+			<attr key="type" value="Group"/> 
+			<attr key="power" value="3"/>
+			<attr key="globalpower" value="3"/>
+			<attr key="resistance" value="4"/>
+			<attr key="attribute1" value="SubGenius"/>
+			<attr key="arrowtop" value="{INCTOP}"/>
+			<attr key="arrowleft" value="{OUTLEFT}"/>
+			<attr key="arrowright" value="{OUTRIGHT}"/>
+		</card>
+		<card name="Reverend Ivan Stang" graphics="reverendivanstang.jpg" text="Chiefly responsible for Church brochures and pamphlets, Reverend Stang is now the primary spreader of the Word of 'Bob.' Reverend Stang can give his Action token to any other SubGenius group at any time, as long as that group has no token.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Personality"/>
+			<attr key="type" value="Group"/> 
+			<attr key="power" value="3"/>
+			<attr key="globalpower" value="2"/>
+			<attr key="resistance" value="4"/>
+			<attr key="attribute1" value="Media"/>
+			<attr key="attribute2" value="SubGenius"/>
+			<attr key="arrowtop" value="{OUTTOP}"/>
+			<attr key="arrowleft" value="{OUTLEFT}"/>
+			<attr key="arrowright" value="{OUTRIGHT}"/>
+			<attr key="arrowbot" value="{INCBOT}"/>
+		</card>
+		<card name="St. Janor Hypercleats" graphics="stjanorhypercleats.jpg" text="St. Janor exists at right angles to the Luck Plane. When he attacks, or aids an attack, a roll of 11 is not an automatic failure - but if a natural 2 is rolled, the roll is considered a 12, and his controlling Illuminati loses one token if it has any. St. Janor is not Secret, but he may attack any group that is Secret, or aid an attack on any Secret group, regardless of alignments.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Personality"/>
+			<attr key="type" value="Group"/> 
+			<attr key="power" value="2"/>
+			<attr key="globalpower" value="0"/>
+			<attr key="resistance" value="1"/>
+			<attr key="alignment1" value="Weird"/>
+			<attr key="attribute1" value="Magic"/>
+			<attr key="attribute2" value="SubGenius"/>
+			<attr key="arrowtop" value="{INCTOP}"/>
+			<attr key="arrowleft" value="{OUTLEFT}"/>
+		</card>
+		<card name="Dallas Catacombs" graphics="dallascatacombs.jpg" text="Any group in your Power Structure may be placed on any side of its master's card, and moved to any other side of its master's card, and moved to any other side of that card at any time, regardless of where the master's outgoing control arrows are. A group cannot have more puppets than it has outgoing control arrows. If you lose control of the Catacombs, you must immediately move all groups to their masters' actual control arrows. This is a free move, but any group that does not now fit in your Power Structure must be discarded!">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Place"/>
+			<attr key="type" value="Group"/> 
+			<attr key="power" value="1"/>
+			<attr key="globalpower" value="0"/>
+			<attr key="resistance" value="6"/>
+			<attr key="attribute1" value="SubGenius"/>
+			<attr key="arrowtop" value="{INCTOP}"/>
+			<attr key="arrowleft" value="{OUTLEFT}"/>
+		</card>
+		<card name="Dobbstown" graphics="dobbstown.jpg" text="All true SubGenii yearn for Dobbstown and the company of their own kind. Its owner has a +5 on any attempt to control a SubGenius Personality.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Place"/>
+			<attr key="type" value="Group"/> 
+			<attr key="power" value="3"/>
+			<attr key="globalpower" value="0"/>
+			<attr key="resistance" value="4"/>
+			<attr key="alignment1" value="Weird"/>
+			<attr key="alignment2" value="Fanatic"/>
+			<attr key="attribute1" value="SubGenius"/>
+			<attr key="arrowtop" value="{INCTOP}"/>
+			<attr key="arrowleft" value="{OUTLEFT}"/>
+			<attr key="arrowbot" value="{OUTBOT}"/>
+		</card>
+		<card name="Dokstok" graphics="dokstok.jpg" text="He who controls Dokstok may dispense Slack to the masses! Your Illuminati gets an extra token during the token-placement phase of your turn, which must be given to or traded to another player's Illuminati - or discarded again - before you may do anything else. This is all you may do with it! Make them fight and beg for it. Demand strange and repulsive favors. Enjoy yourself.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Place"/>
+			<attr key="type" value="Group"/> 
+			<attr key="power" value="1"/>
+			<attr key="globalpower" value="0"/>
+			<attr key="resistance" value="1"/>
+			<attr key="alignment1" value="Peaceful"/>
+			<attr key="alignment2" value="Weird"/>
+			<attr key="attribute1" value="SubGenius"/>
+			<attr key="arrowright" value="{OUTRIGHT}"/>
+			<attr key="arrowbot" value="{INCBOT}"/>
+		</card>
+		<card name="Frop Farm" graphics="fropfarms.jpg" text="In a secret mountain valley, high in Tibet, grows the sacred 'Frop (NOT A DRUG!). Agents of many governments have given their lives (and MORE!) to steal the secret, yet it remains inviolate. As its action, the 'Frop Farm may remove all Action tokens from any Personality.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Place"/>
+			<attr key="type" value="Group"/> 
+			<attr key="power" value="2"/>
+			<attr key="globalpower" value="1"/>
+			<attr key="resistance" value="5"/>
+			<attr key="alignment1" value="Peaceful"/>
+			<attr key="attribute1" value="Secret"/>
+			<attr key="attribute2" value="SubGenius"/>
+			<attr key="arrowtop" value="{INCTOP}"/>
+			<attr key="arrowright" value="{OUTRIGHT}"/>
+		</card>
+		<card name="Saucer Landing Strip" graphics="saucerlandingstrip.jpg" text="The visitors bring mysterious gifts. At any time you have no Plot cards, you may exchange this group's Action token for two Plots.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Place"/>
+			<attr key="type" value="Group"/> 
+			<attr key="power" value="1"/>
+			<attr key="globalpower" value="1"/>
+			<attr key="resistance" value="3"/>
+			<attr key="attribute1" value="Secret"/>
+			<attr key="attribute2" value="SubGenius"/>
+			<attr key="attribute3" value="Space"/>
+			<attr key="arrowtop" value="{OUTTOP}"/>
+			<attr key="arrowright" value="{OUTRIGHT}"/>
+			<attr key="arrowbot" value="{INCBOT}"/>
+		</card>
+		<card name="Janor Device" graphics="janordevice.jpg" text="You may add or subtract 1 - your choice - from any die roll you make. Any time you roll a natural 11 or 12, your turn ends right there (if it was your turn), and you must give the Device to a randomly chosen rival. Each rival rolls two dice, and the highest roll gets it.">
+			<attr key="rarity" value="C"/> 
+			<attr key="subtype" value="Resource"/>
+			<attr key="type" value="Group"/> 
+			<attr key="textbot" value="Unique Gadget"/>
+		</card>
+		<card name="Martyr Meter" graphics="martyrmeter.jpg" text="Place an extra Action token on on of your Personalities during the token placement phase of your turn.">
+			<attr key="rarity" value="C"/> 
+			<attr key="subtype" value="Resource"/>
+			<attr key="type" value="Group"/> 
+			<attr key="textbot" value="Unique Gadget"/>
+		</card>
+		<card name="Sacred Stencil" graphics="sacredstencil.jpg" text="You may add +5 to your defense when any Attack to Destroy is made against a group you control. (In standard INWO, this bonus is also good against Instant attacks.) Providing a rational explanation for this effect is left as an exercise for the student.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Resource"/>
+			<attr key="type" value="Group"/> 
+			<attr key="textbot" value="Unique Artifact"/>
+		</card>
+		<card name="The Prescriptures" graphics="theprescriptures.jpg" text="You know what will happen before it happens. Once per turn, on your turn, you may spend the Action tokens of all your Personalities (minimum of one), or an Illuminati action, to look at either the top three cards of any two decks in the game, or one rival's Plot hand.">
+			<attr key="rarity" value="C"/> 
+			<attr key="subtype" value="Resource"/>
+			<attr key="type" value="Group"/> 
+			<attr key="textbot" value="Unique Artifact"/>
+		</card>
+		<card name="The True Pipe" graphics="thetruepipe.jpg" text="The Power and Global Power of your Illuminati are each increased by 2. This cannot be combined with any other Resource that increases your Illuminati's power. The True Pipe is a Jealous Pipe!">
+			<attr key="rarity" value="R"/> 
+			<attr key="subtype" value="Resource"/>
+			<attr key="type" value="Group"/> 
+			<attr key="textbot" value="Unique Artifact"/>
+		</card>
+		<card name="Three-Fisted Tales of 'Bob'" graphics="threefistedtalesofbob.jpg" text="Link this to any SubGenius Place to increase its Power by 2, and give it Global Power to equal to its new Power.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Resource"/>
+			<attr key="type" value="Group"/> 
+			<attr key="textbot" value="Unique Artifact"/>
+		</card>
+		<card name="Church of the SubGenius" graphics="churchofthesubgenius.png" back="1" text="The Curch of the SubGenius may accumulate its Action tokens ('Slack') each turn, though it can spend only one per action. It, and any SubGenius groups in its Power Structure, has +2 for direct control of any SubGenius group. {gold}Special {gold}Goal: {white}Up to three Slack (Illuminati) tokens on the Church of the SubGenius may count as groups toward your Basic Goal. This Goal cannot be combined with any other Goal.">
+			<attr key="rarity" value="I"/> 
+			<attr key="subtype" value="Illuminati"/>
+			<attr key="type" value="Illuminati"/>
+			<attr key="power" value="7"/>
+			<attr key="globalpower" value="7"/>
+			<attr key="arrowtop" value="{OUTTOP}"/>
+			<attr key="arrowleft" value="{OUTLEFT}"/>
+			<attr key="arrowright" value="{OUTRIGHT}"/>
+			<attr key="arrowbot" value="{OUTBOT}"/>
+		</card>
+		<card name="Arise!" graphics="arise.jpg" back="1" text="You are so Illuminated that you can triumph in defeat. If a rival removes your last puppet, reveal this Goal. Instead of being out, you stay in until the end of the turn. And if you still have no puppets, you WIN! You may share a victory, even with a rival playing the same Illuminati, with this Goal.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Goal"/>
+			<attr key="type" value="Plot"/> 
+		</card>
+		<card name="Brag of the SubGenius" graphics="bragofthesubgenius.jpg" back="1" text="Any SubGenius group with a Power of 3 or more counts double toward your total number of groups controlled.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Goal"/>
+			<attr key="type" value="Plot"/> 
+		</card>
+		<card name="Cast Out False Prophets!" graphics="castoutfalseprophts.jpg" back="1" text="As a Destroy on Illuminati group of the same type as yours, by eliminating its last group. Or as a regular Plot: +10 to destroy the False Prophets, or any of their puppets, or their master unless they're directly controlled by the Illuminati.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Goal"/>
+			<attr key="type" value="Plot"/> 
+		</card>
+		<card name="Science Cannot Remove the Terror of the Gods!" graphics="scienceterrorofthegods.jpg" back="1" text="Control Church groups, and destroy Science or Church groups, in any of the following combinations: Destroy 2 Science or Church, control 5 Church - Destroy 3 Science or Church, control 4 Church, Destroy 4 Science or Church, control 3 Church, Destroy 5 Science or Church, control 2 Church, Destroy 6 Science or Church, control 1 Church. This Goal cannot be combined with other Goals in any way.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Goal"/>
+			<attr key="type" value="Plot"/> 
+		</card>
+		<card name="The Anti'Bob'" graphics="theantibob.jpg" back="1" text="You have joined the Evil One, and your true Goal is to subvert the Church from within! You win if you control at least six SubGenius groups and have destroyed at least two SubGenius or Weird groups belonging to your rivals. If you voluntarily expose this Goal, you get one extra Illuminati token... but then nothing anyone does can hide it again, or remove it from your hand! You may only earn one token per game this way.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Goal"/>
+			<attr key="type" value="Plot"/> 
+		</card>
+		<card name="13013" graphics="13013.jpg" back="1" text="Meditation on 13013 can produce amazing effects. The Power for one SubGenius group is increased to 6. Link this card to your chosen SubGenius group. This card may be played at any time, and counts as the action for the group it affects. The increased Power takes effect immediately. No player may have more than one 13013 in play.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Plot"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="textbot" value="Requries Action"/>
+		</card>
+		<card name=". . . Or Kill Me!" graphics="orkillme.jpg" back="1" text="You may play this card at any time when you have no Slack... that is, when there are no tokens on your Illuminati. Pick a rival who does have Slack. That player must either give you one Illuminati token (which goes on your own Illuminati), or discard a Group from his Power Structure. You cannot take any actions or free moves for the rest of that turn, other than to defend yourself against attacks.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Plot"/>
+			<attr key="type" value="Plot"/> 
+		</card>
+		<card name="Anti-Slack  " graphics="antislack.jpg" back="1" text="Play this card at any time, on a rival who has at least two Action tokens on their Illuminati. Remove one of them. Smile sweetly or laugh nastily, as you wish. No player may be hit by more than one AntiSlack card in a turn.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Plot"/>
+			<attr key="type" value="Plot"/> 
+		</card>
+		<card name="Attitude Mutation" graphics="attitudemutation.jpg" back="1" text="Play this card at any time. You may add, remove or reverse an alignment of any group you control. If the group is directly controlled by the Illuminati, there is no cost to make the change; otherwise, it requires an action from that group's master. The change lasts only for the rest of the current turn. You may play only one Attitude Mutation per turn.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Plot"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="textbot" value="May Requrie Action"/>
+		</card>
+		<card name="Bulldada" graphics="bulldada.jpg" back="1" text="Play this card immediately after any die roll (by any player). That roll is immediately changed, retroactively, to a 12. You must discard three other Plot cards.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Plot"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="textbot" value="Requries Three Discards"/>
+		</card>
+		<card name="Comet Hail-Bob" graphics="comethailbob.jpg" back="1" text="Play this card immediately after a rival takes control of a group from his hand or the uncontrolled area. That group went a little overboard in their newfound adoration, and... well, they're no longer with us. They are destroyed, but this destruction does not count toward any Goal. This requires an action from your Illuminati or two Church groups.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Plot"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="textbot" value="Requries Illuminati or Church Actions"/>
+		</card>
+		<card name="Decency is OK!" graphics="decencyisok.jpg" back="1" text="Play this card to cancel any action taken by or aided by a rival's Weird group.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Plot"/>
+			<attr key="type" value="Plot"/> 
+		</card>
+		<card name="Devival" graphics="devival.jpg" back="1" text="Play this card at any time to give +10 Power or Resistance (your choice) to any SubGenius group you control. If used with an action, it must be played when that action is first declared, and counts only for that action. If used for defense, the bonus lasts until the end of the current turn and does not count toward Goals. This card may only count once in any action or defense.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Plot"/>
+			<attr key="type" value="Plot"/> 
+		</card>
+		<card name="Eternal Salvation or Triple your Money Back" graphics="eternalsalvation.jpg" back="1" text="Play this card at any time. Draw enough new Plots to fill your hand out to 5. You may only play this card once per game. It requires an action from one SubGenius group.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Plot"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="textbot" value="Requries SubGenius Action"/>
+		</card>
+		<card name="Excremeditation" graphics="excremeditation.jpg" back="1" text="Place an Action token on any SubGenius group, or on two or more SubGenius groups whose Power adds up to 5 or less. This card may not benefit a group that already has any tokens, or a group which is suffering from any effect that prevents it from getting Action tokens. This card may be played at any time. It requires an action from your Illuminati.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Plot"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="textbot" value="Requries Illuminati Action"/>
+		</card>
+		<card name="Fake Healing" graphics="fakehealing.jpg" back="1" text="And it REALLY impresses the Pinks! Play this card on your turn to reduce the Resistance of any group in the uncontrolled area (or in your hand) to 0 until the end of the current turn.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Plot"/>
+			<attr key="type" value="Plot"/> 
+		</card>
+		<card name="False Overman" graphics="falseoverman.jpg" back="1" text="Play this card at any time except during an attack. Link it to any Personality in play, either uncontrolled or controlled by any player. Increase his Power to 3, but he becomes Violent and Straight! If he was Peaceful or Weird, those alignments are lost. This card cannot affect someone who is already an OverMan.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Plot"/>
+			<attr key="type" value="Plot"/> 
+		</card>
+		<card name="False Slack" graphics="falseslack.jpg" back="1" text="Play this card at any time. Choose one Group (other than an Illuminiati) controlled by a rival. Remove all its Action tokens, and those on its puppets, and their puppets and so on. This requires an action from your Illuminati. No one may be hit with more than one False Slack in a single turn.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Plot"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="textbot" value="Requries Illuminati Action"/>
+		</card>
+		<card name="Give Me Slack, Or Give Me Food" graphics="givemeslackorgivemefood.jpg" back="1" text="Play this card immediately after you use a Plot. Discard this card instead, plus one other, and put the first Plot back into your hand.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Plot"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="textbot" value="Requries Discards"/>
+		</card>
+		<card name="Head Launching" graphics="headlaunching.jpg" back="1" text="Play this card at any time. The group of your choice now has Global Power equal to its Permanent Power. Link this card to the group. This requires an action from the affected group. You must also discard two other Plots.">
+			<attr key="rarity" value="C"/> 
+			<attr key="subtype" value="Plot"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="textbot" value="Requries Action and Two Discards"/>
+		</card>
+		<card name="Inherently Bogus" graphics="inherentlybogus.jpg" back="1" text="Play this card at any time, except during an attack, on any Church of the SubGenius Illuminati which has no SubGenius groups in its Power Structure. They look suspiciously Pink! They lose one Illuminati token. No player may be hit by more than one Inherently Bogus card in a turn.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Plot"/>
+			<attr key="type" value="Plot"/> 
+		</card>
+		<card name="JHVH-1" graphics="jhvh1.jpg" back="1" text="Play this card on a rival at any time. He must immediately discard half of his Plots (round up). He chooses the ones to be discarded. This requires an action from your Illuminati.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Plot"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="textbot" value="Requries Illuminati Action"/>
+		</card>
+		<card name="Kill 'Bob'" graphics="killbob.jpg" back="1" text="Play this card during an Attack to Destroy against any SubGenius group. After the dice are rolled, every player who participated on the attacking side, if it succeeded, gets an Illuminati token. If the SubGenius group was yours, you get an Illuminati token regardless of the results of the dice! You may not play this card more than once per turn.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Plot"/>
+			<attr key="type" value="Plot"/> 
+		</card>
+		<card name="Luck Plane" graphics="luckplane.jpg" back="1" text="Play this card immediately after any die roll (by any player). That roll is immediately changed, retroactively, to a 2. This is an automatic success only for an attack with a net Power of at least 2; attacks with a lower Power don't even gt to roll the dice. You must discard three other Plot cards.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Plot"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="textbot" value="Requries Three Discards"/>
+		</card>
+		<card name="Mediocretinism" graphics="mediocretinism.jpg" back="1" text="Play this card at any time on any SubGenius group to remove that attribute until the end of current turn.">
+			<attr key="rarity" value="C"/> 
+			<attr key="subtype" value="Plot"/>
+			<attr key="type" value="Plot"/> 
+		</card>
+		<card name="Miraculous Manifestation" graphics="miraculousmanifestation.jpg" back="1" text="Play this card at any time. Each other players must draw a Group and add it to the uncontrolled area. In standard INWO, he must draw a Group, show it to you and add it to his own hand.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Plot"/>
+			<attr key="type" value="Plot"/> 
+		</card>
+		<card name="More Slack" graphics="moreslack.jpg" back="1" text="Play this card at any time in exchange for one Slack (Illuminati) token. While you are absorbed in your search for Slack, your plans become apparent to your enemies. Expose all your Plots. No player may play this card more than once per game.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Plot"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="textbot" value="Expose All Plots"/>
+		</card>
+		<card name="Nental Ife" graphics="nentalife.jpg" back="1" text="But if a SubGenius does gain control of his Nental Ife, his intelligence rockets. Play this card at any time. Link it to any SubGenius Personality. It gains Global Power equal to its Permanent Power. This costs that Personality's action.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Plot"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="textbot" value="Requries Personality Action"/>
+		</card>
+		<card name="Official, all Inclusive, Divine Excuse" graphics="officaildivineexcuse.jpg" back="1" text="Play this card when any attack is made against a Personality, before the dice are rolled. That attack becomes a failure.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Plot"/>
+			<attr key="type" value="Plot"/> 
+		</card>
+		<card name="OverMan" graphics="overman.jpg" back="1" text="Play this card at any time except during an attack. Link it to any Personality in play, either controlled by any player or uncontrolled. Increase his Power and Global Power to 3. This card cannot affect someone who is already a False OverMan.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Plot"/>
+			<attr key="type" value="Plot"/> 
+		</card>
+		<card name="Psychic Pstench" graphics="psychicpstench.jpg" back="1" text="Play this card at any time. One rival of your choice must expose all his Plots. Alternatively, you may play this card to force a rival to discard one exposed Goal. This Plot costs an action from a SubGenius Personality.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Plot"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="textbot" value="Requries SubGenius Personality Action"/>
+		</card>
+		<card name="Rain of Prairie Squid" graphics="rainofprairiesquid.jpg" back="1" text="Play this card at any time except during an attack. Remove all cards from the uncontrolled area. Shuffle them back into the Groups deck. Deal out an equal number of replacements. In standard INWO, discard any number of Groups from your hand, and draw the same number.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Plot"/>
+			<attr key="type" value="Plot"/> 
+		</card>
+		<card name="Random Jesii" graphics="randomjesii.jpg" back="1" text="Play this card at any time except during an attack. One chosen rival, harassed by swarms of False Jesii, must expose all but one of his Plots. This requires the action of one SubGenius or Church group. Anyone controlling the Martyr Meter is immune to this card.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Plot"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="textbot" value="Requries SubGenius or Church Action"/>
+		</card>
+		<card name="Rant!" graphics="rant.jpg" back="1" text="Play this card during your turn, any time after your token placement phase, to take automatic control of any Group or Resource in the uncontrolled area (or from your hand in standard INWO). This requires an action from a Personality with an open control arrow. If a Group is chosen, it becomes a puppet of that Personality. Your turn ends immediately.">
+			<attr key="rarity" value="R"/> 
+			<attr key="subtype" value="Plot"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="textbot" value="Requries Personality Action, Ends Turn"/>
+		</card>
+		<card name="Repent!" graphics="repent.jpg" back="1" text="Play this card at the beginning of your turn, immediately after your token placement phase. Slack off, do nothing else, and end your turn... and take an extra token on your Illuminati.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Plot"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="textbot" value="Ends Turn"/>
+		</card>
+		<card name="Robo 'Bob'" graphics="robobob.jpg" back="1" text="Play this card on your turn. Link it permanently to any SubGenius Place you control. That Place may never be controlled by another player, and has a +5 against any attempt to destroy it. This counts as the action for the place it affects. No player may have more than one Robo 'Bob' in play.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Plot"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="textbot" value="Requries Action"/>
+		</card>
+		<card name="S.C.A.M." graphics="scam.jpg" back="1" text="Play this card after an opponent makes any die roll. He must roll again. Playing this card is an action for a Personality.">
+			<attr key="rarity" value="C"/> 
+			<attr key="subtype" value="Plot"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="textbot" value="Requries Personality Action"/>
+		</card>
+		<card name="Sacred Jests  " graphics="sacredjests.jpg" back="1" text="Play this card at any time. Pick one rival. He must pick one of his Plots at random, and either use it immediately or discard it. If it is a Goal, he must expose it instead. If this turns him into the Anti'Bob' well, so be it.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Plot"/>
+			<attr key="type" value="Plot"/> 
+		</card>
+		<card name="Saint of Sales" graphics="saintofsales.jpg" back="1" text="Play this card on your turn. You may spend your Illuminati action, or the action(s) of SubGenius groups with a Power of at least 4, to automatically control one Resource from the uncontrolled area or from your hand.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Plot"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="textbot" value="Requries SubGenius or Illuminati Action"/>
+		</card>
+		<card name="Schizm" graphics="schizm.jpg" back="1" text="Play this card with any attack against a group controlled by a rival. It gives +10 to that attack, but if the attack succeeds, the target group becomes uncontrolled, along with any puppets it has, and their puppets, and so on! This card does allow attacks against groups that are otherwise uncontrollable or undestroyable. In a game wtih no uncontrolled area, the target group is discarded, and its puppets go to their owner's hand.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Plot"/>
+			<attr key="type" value="Plot"/> 
+		</card>
+		<card name="Shordurpersav" graphics="shordurpersav.jpg" back="1" text="Play this card immediately after any die roll you make. You may ignore that roll and try again. This requies an action from your Illuminati or two actions from SubGenius groups.">
+			<attr key="rarity" value="R"/> 
+			<attr key="subtype" value="Plot"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="textbot" value="Requries Illuminati or SubGenius Actions"/>
+		</card>
+		<card name="Slackfusion" graphics="slackfusion.jpg" back="1" text="Play this card at any time to let you give or receive Illuminati tokens as part of a deal, for the rest of that turn. These tokens may not go to or from other groups - just from one Illuminati to another.">
+			<attr key="rarity" value="C"/> 
+			<attr key="subtype" value="Plot"/>
+			<attr key="type" value="Plot"/> 
+		</card>
+		<card name="Smite Them All!" graphics="smitethemall.jpg" back="1" text="Play this card at any time except during an attack. Each of your rivals must choose one Group or Resource to be removed from the uncontrolled area and placed on the bottom of the Group deck. You choose two such cards, and pick last. In standard INWO, each player chosses the Group card(s) from his own hand and places them at the bottom of his own Group deck. You must have at least two Groups in your hand to play this card.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Plot"/>
+			<attr key="type" value="Plot"/> 
+		</card>
+		<card name="Stark Fist of Removal" graphics="starkfistofremoval.jpg" back="1" text="Play this card on your turn. Remove all your own Illuminati tokens (minimum of 1). Pick one rival and remove all his Illuminati tokens. Show him the Stark Fist. Optionally read him the italicized text. Put feeling into it. Rant. Your turn is over.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Plot"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="textbot" value="Requries All Illuminati Tokens, Ends Turn"/>
+		</card>
+		<card name="Sultan of Slack  " graphics="sultanofslack.jpg" back="1" text="You may play this card at any time, except during an attempt to thwart a declared victory. Until the beginning of your next turn, no player may claim victory using his Illuminati Special Goal unless he has at least as many Illuminati tokens as you do. You may not play this card more than once per game.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Plot"/>
+			<attr key="type" value="Plot"/> 
+		</card>
+		<card name="Tape Runs Out..." graphics="taperunsout.jpg" back="1" text="Good try. Too bad something went wrong. This card may be played immediately after any other Plot is played, for any purpose. That card is canceled. Both cars are discarded. Use of this card requires either an action from your Illuminati, or three other Plot discards.">
+			<attr key="rarity" value="C"/> 
+			<attr key="subtype" value="Plot"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="textbot" value="Requries Illuminati Action or Discards"/>
+		</card>
+		<card name="The 13th Apostle  " graphics="the13thapostle.jpg" back="1" text="Place an Action token on any Personality group, or on two or more Personalities whose Power adds up to 5 or less. This card may not benefit a group that already has any tokens, or a group which is suffering from any effect that prevents it from getting Action tokens. This card may be played at any time. It requires an action from your Illuminati.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Plot"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="textbot" value="Requries Illuminati Action"/>
+		</card>
+		<card name="The World Ends Tomorrow and You May Die!" graphics="theworldendstomorrow.jpg" back="1" text="Play this card when you attack a group in the uncontrolled area (or in your hand, in standard INWO). The attacking group must spend its token for the attack and either have at least one alignment in common with the target or be a Media group, but the attack is an automatic success. Your turn ends immediately.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Plot"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="textbot" value="End Turn"/>
+		</card>
+		<card name="They May Be Pink. . . " graphics="theymaybepink.jpg" back="1" text="The enlightened Church does not desire the destruction of the Pinks. Far better to gyp them out of their money and leave them alive to make more. Play this card whenever a Straight group is attacked. All your Weird and/or SubGenius groups may help in its defense.">
+			<attr key="rarity" value="C"/> 
+			<attr key="subtype" value="Plot"/>
+			<attr key="type" value="Plot"/> 
+		</card>
+		<card name="Time Control" graphics="timecontrol.jpg" back="1" text="Play this card during your turn to let your Illuminati attempt a direct attack, at its normal power, without spending a token. However you may not spend, or have spent, any Illuminati tokens this turn except to buy Plot cards.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Plot"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="textbot" value="Spend No Illuminati Tokens"/>
+		</card>
+		<card name="X-Day" graphics="xday.jpg" back="1" text="Play this card at any time. Discard all your Plots, and draw the same number of new ones, but never more than four. You may only declare X-Day once per turn.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Plot"/>
+			<attr key="type" value="Plot"/> 
+		</card>
+		<card name="Yacatisma" graphics="yacatisma.jpg" back="1" text="Play this card at any time except during an attack. Pick two hidden Plots randomly from a rival's hand. He must discard them, This requires an action from a SubGenius group.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Plot"/>
+			<attr key="type" value="Plot"/> 
+			<attr key="textbot" value="Requries SubGenius Action"/>
+		</card>
+		<card name="You'd Pay to Know What You Really Think!" graphics="youdpaytoknowwhatyoureallythink.jpg" back="1" text="Play this card at any time except during an attack. Choose any group you control (other than your Illuminati), as long as it has not puppets, and put it in the uncontrolled area (in a game with no uncontrolled area, discard it). Replace it with the top card from the Groups deck. If that card is a Resource, place it with your Resources instead. If the new Group cannot be controlled by its intended master, dscard it, and draw a Plot instead. The new group, if any, gets any tokens the old group had on it at the time of the switch.">
+			<attr key="rarity" value="U"/> 
+			<attr key="subtype" value="Plot"/>
+			<attr key="type" value="Plot"/> 
+		</card>
+	</cards>
+</ccg-setinfo>

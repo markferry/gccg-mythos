@@ -7,5 +7,52 @@ def InitDistributions
 {
   distribution=(,);
   distribution{"UE"}=(,);
-  distribution{"UE"}{"Booster"}=((7,"C"),(4,"U"),(2,"R"));
+  distribution{"UE"}{"Booster"}=((11,"C"),(3,"U"),(2,"R"));
+  distribution{"UE-I"}=(,);
+  distribution{"UE-I"}{"Booster"}=((10,"C"),(3,"U"),(2,"R"),(1,"I"));
+  distribution{"AS"}=(,);
+  distribution{"AS"}{"Booster"}=((5,"C"),(2,"U"),(1,"R"));
+  distribution{"AS-I"}=(,);
+  distribution{"AS-I"}{"Booster"}=((5,"C"),(1,"U"),(1,"R"),(1,"I"));
+  distribution{"AS-V"}=(,);
+  distribution{"AS-V"}{"Booster"}=((5,"C"),(2,"U"),(1,"V"));
+  distribution{"AS-VI"}=(,);
+  distribution{"AS-VI"}{"Booster"}=((5,"C"),(1,"U"),(1,"V"),(1,"I"));
+  distribution{"SG"}=(,);
+  distribution{"SG"}{"Booster"}=((3,"C"),(8,"U"),(1,"R"));
+  distribution{"SG-I"}=(,);
+  distribution{"SG-I"}{"Booster"}=((3,"C"),(7,"U"),(1,"R"),(1,"I"));
 }
+
+def ProduceUE_Booster
+{
+  if(random(100) < 33)
+    return(RandomCardSet("UE",distribution{"UE-I"}{"Booster"}));
+  else
+    return(RandomCardSet("UE",distribution{"UE"}{"Booster"}));
+}
+
+def ProduceSG_Booster
+{
+  if(random(100) < 15)
+    return(RandomCardSet("SG",distribution{"SG-I"}{"Booster"}));
+  else
+    return(RandomCardSet("SG",distribution{"SG"}{"Booster"}));
+}
+
+def ProduceAS_Booster
+{
+  push(p);
+  p=(random(100));
+  if (p < 33 && p > 10)
+    return(RandomCardSet("AS",distribution{"AS-I"}{"Booster"}));
+  else if (p < 11 && p > 5)
+    return(RandomCardSet("AS",distribution{"AS-V"}{"Booster"}));
+  else if (p < 6)
+    return(RandomCardSet("AS",distribution{"AS-VI"}{"Booster"}));
+  else
+    return(RandomCardSet("AS",distribution{"AS"}{"Booster"}));
+  p=pop();
+}
+
+

@@ -226,7 +226,7 @@
 			 <attr key="race" value="Dwarf"/>
 			 <attr key="keyword" value="Ironfist"/>
 		</card>
-		<card name="Born within the Mountain's Heart" graphics="Born within the Mountains Heart.jpg" text="Dwarf-lord specific. All your mp sources at Under-deeps sites count for the purpose of calling your Day of Reckoning. Any Under-deeps movement roll for your companies moving to a site where a minion company is present is automatically successful. You may discard this card (at any time) to cancel a Rock Fall attack, or to give all Dwarves at an Under-deeps site +2 prowess in CvCC.">
+		<card name="Born within the Mountain's Heart" graphics="Born within the Mountains Heart.jpg" text="Dwarf-lord specific. All your mp sources at Under-deeps sites count for the purpose of calling your Day of Reckoning. Any Under-deeps movement roll for your companies moving to a site where a minion company is present is automatically successful. You may discard this card (at any time) to cancel a Rock Fall attack, or to give all Dwarves at an Under-deeps site +2 prowess in CvCC. Cannot be duplicated by a given player.">
 			 <attr key="type" value="Stage Resource"/>
 			 <attr key="rarity" value="C"/>
 			 <attr key="class" value="Permanent-event"/>

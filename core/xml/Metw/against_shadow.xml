@@ -512,7 +512,7 @@
        <attr key="rarity" value="R1"/>
        <attr key="class" value="Special Item"/>
        <attr key="type" value="Hero Resource"/>
-	   <attr key="keyword" value="Palantir"/>
+	   <attr key="keyword" value="Palantír"/>
     </card>
     <card name="Jewel of Beleriand" graphics="JewelofBeleriand.jpg" text="Hoard Item. Tap this item and make a roll - if the result is greater than 6, the bearer untaps if tapped. Cannot be duplicated on a given character.">
        <attr key="corruption" value="1"/>
@@ -933,6 +933,7 @@
        <attr key="rarity" value="U2"/>
        <attr key="class" value="Special Item"/>
        <attr key="type" value="Minion Resource"/>
+	   <attr key="keyword" value="Dwarven Ring"/>
     </card>
 
     <card name="Dwarven Ring of Thrár's Tribe" graphics="DwarvenRingofThrarsTribe.jpg" text="Unique. Dwarven Ring. Tap a Dwarf bearer to search your play deck and/or discard pile for one or two minor items to put in your hand. Bearer then makes a corruption check modified by +2.">
@@ -942,6 +943,7 @@
        <attr key="rarity" value="U2"/>
        <attr key="class" value="Special Item"/>
        <attr key="type" value="Minion Resource"/>
+	   <attr key="keyword" value="Dwarven Ring"/>
     </card>
 
     <card name="Goblin Earth-plumb" graphics="GoblinEarthplumb.jpg" text="Playable only on an Orc or Troll. +1 to all rolls required for bearer's company to move to adjacent Under-deeps site.">

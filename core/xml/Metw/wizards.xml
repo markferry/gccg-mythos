@@ -2687,7 +2687,7 @@
        <attr key="rarity" value="R"/>
        <attr key="class" value="Greater Item"/>
        <attr key="type" value="Hero Resource"/>
-	   <attr key="keyword" value="Palantir"/>
+	   <attr key="keyword" value="Palantír"/>
     </card>
     <card name="Palantír of Annúminas" graphics="PalantirofAnnuminas.jpg" text="Unique. Palantír. With its bearer able to use a Palantír, tap Palantír of Annúminas to search through your play deck and discard pile for a &quot;sage only&quot; card. Put this card in your hand. Reshuffle your play deck. Bearer makes a corruption check.">
        <attr key="unique" value="yes"/>
@@ -2696,7 +2696,7 @@
        <attr key="rarity" value="R"/>
        <attr key="class" value="Greater Item"/>
        <attr key="type" value="Hero Resource"/>
-	   <attr key="keyword" value="Palantir"/>
+	   <attr key="keyword" value="Palantír"/>
     </card>
     <card name="Palantír of Elostirion" graphics="PalantirofElostirion.jpg" text="Unique. Palantír. Playable only at The White Towers. Discard if the bearer moves. If the bearer is a sage, he may tap Palantír of Elostirion to remove one corruption card from an Elf or a Wizard under your control. Bearer makes a corruption check.">
        <attr key="unique" value="yes"/>
@@ -2705,7 +2705,7 @@
        <attr key="rarity" value="U"/>
        <attr key="class" value="Special Item"/>
        <attr key="type" value="Hero Resource"/>
-	   <attr key="keyword" value="Palantir"/>
+	   <attr key="keyword" value="Palantír"/>
     </card>
     <card name="Palantír of Minas Tirith" graphics="PalantirofMinasTirith.jpg" text="Unique. Palantír. Playable only at Minas Tirith. With its bearer able to use a Palantír, tap Palantír of Minas Tirith to look at the top five cards of your play deck; shuffle these 5 cards and return them to the top of your play deck. do the same to your opponent's play deck. Bearer makes a corruption check.">
        <attr key="unique" value="yes"/>
@@ -2714,7 +2714,7 @@
        <attr key="rarity" value="U"/>
        <attr key="class" value="Special Item"/>
        <attr key="type" value="Hero Resource"/>
-	   <attr key="keyword" value="Palantir"/>
+	   <attr key="keyword" value="Palantír"/>
     </card>
     <card name="Palantír of Orthanc" graphics="PalantirofOrthanc.jpg" text="Unique. Palantír. Playable only at Isengard. With its bearer able to use a Palantír and with at least 5 cards in your play deck, tap Palantír of Orthanc to choose one card from your discard pile to place in your play deck (reshuffle the play deck). Bearer makes a corruption check.">
        <attr key="unique" value="yes"/>
@@ -2723,7 +2723,7 @@
        <attr key="rarity" value="U"/>
        <attr key="class" value="Special Item"/>
        <attr key="type" value="Hero Resource"/>
-	   <attr key="keyword" value="Palantir"/>
+	   <attr key="keyword" value="Palantír"/>
     </card>
     <card name="Palantír of Osgiliath" graphics="PalantirofOsgiliath.jpg" text="Unique. Palantír. If the bearer's company is ever below 4 character and the company moves, discard. 5 marshalling pts. if stored in a Haven [{H}]. With its bearer able to use a Palantír, tap Palantír of Osgiliath to force the discard of any hazard permanent-event or to duplicate the effect of any Palantír in play. Bearer makes a corruption check.">
        <attr key="unique" value="yes"/>
@@ -2732,7 +2732,7 @@
        <attr key="rarity" value="R"/>
        <attr key="class" value="Greater Item"/>
        <attr key="type" value="Hero Resource"/>
-	   <attr key="keyword" value="Palantir"/>
+	   <attr key="keyword" value="Palantír"/>
     </card>
     <card name="Paths of the Dead" graphics="PathsoftheDead.jpg" text="Playable only at the end of the organization phase. For its movement, a company that starts at the Dunharrow site and contains Aragorn II may move to the Vale of Erech site. The only hazard creatures that may be played on this company are Undead, but any Undead may be played on the company.">
        <attr key="rarity" value="R"/>

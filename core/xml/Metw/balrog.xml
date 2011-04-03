@@ -457,12 +457,12 @@
        <attr key="class" value="Permanent-event"/>
        <attr key="type" value="Minion Resource"/>
     </card>
-    <card name="Flame of Udûn" graphics="FlameofUdun.jpg" text="Balrog specific. Demon Fána. Playable during your organization phase on The Balrog. Return this card to your hand: when you play another Demon Fána card, or, if you choose, during your organization phase. Discard his allies. No other characters or allies can be in his company outside of the organization phase. +3 prowess; -2 direct influence. +1 to all body checks resulting from failed strikes against The Balrog. If The Balrog attacks successfully in company vs. company combat, +1 to defending character's body check.">
+    <card name="Flame of Udûn" graphics="FlameofUdun.jpg" text="Balrog specific. Demon fána. Playable during your organization phase on The Balrog. Return this card to your hand: when you play another Demon fána card, or, if you choose, during your organization phase. Discard his allies. No other characters or allies can be in his company outside of the organization phase. +3 prowess; -2 direct influence. +1 to all body checks resulting from failed strikes against The Balrog. If The Balrog attacks successfully in company vs. company combat, +1 to defending character's body check.">
        <attr key="specific" value="Balrog"/>
        <attr key="rarity" value="C2"/>
        <attr key="class" value="Permanent-event"/>
        <attr key="type" value="Minion Resource"/>
-	   <attr key="keyword" value="Demon Fána"/>
+	   <attr key="keyword" value="Demon fána"/>
     </card>
     <card name="Foe Dismayed" graphics="FoeDismayed.jpg" text="Balrog specific. +1 prowess against an attack for all characters in a leader's or The Balrog's company or +3 to an influence attempt by a leader or The Balrog.">
        <attr key="specific" value="Balrog"/>
@@ -482,12 +482,12 @@
        <attr key="class" value="Short-event"/>
        <attr key="type" value="Minion Resource"/>
     </card>
-    <card name="Great Shadow" graphics="GreatShadow.jpg" text="Balrog specific. Demon Fána. Playable during your organization phase on The Balrog. Return this card to your hand: when you play another Demon Fána card, or, if you choose, during your organization phase. +6 general influence; -2 prowess; -1 body. The Balrog gains the scout skill and may have followers. During your end-of-turn phase, you may take one non-short-event resource or character from your discard pile (show it to your opponent) and shuffle it into your play deck. The Balrog may tap to cancel an attack against his company.">
+    <card name="Great Shadow" graphics="GreatShadow.jpg" text="Balrog specific. Demon fána. Playable during your organization phase on The Balrog. Return this card to your hand: when you play another Demon fána card, or, if you choose, during your organization phase. +6 general influence; -2 prowess; -1 body. The Balrog gains the scout skill and may have followers. During your end-of-turn phase, you may take one non-short-event resource or character from your discard pile (show it to your opponent) and shuffle it into your play deck. The Balrog may tap to cancel an attack against his company.">
        <attr key="specific" value="Balrog"/>
        <attr key="rarity" value="C2"/>
        <attr key="class" value="Permanent-event"/>
        <attr key="type" value="Minion Resource"/>
-	   <attr key="keyword" value="Demon Fána"/>
+	   <attr key="keyword" value="Demon fána"/>
     </card>
     <card name="Heart of Dark Fire" graphics="HeartofDarkFire.jpg" text="Balrog specific. Playable if Strangling Coils is in play. You may bring this card from your sideboard into your play deck and reshuffle during your organization phase. The Balrog receives +5 direct influence this turn while Strangling Coils is in play. Cannot be duplicated on a given turn.">
        <attr key="specific" value="Balrog"/>
@@ -574,12 +574,12 @@
        <attr key="class" value="Short-event"/>
        <attr key="type" value="Minion Resource"/>
     </card>
-    <card name="Strangling Coils" graphics="StranglingCoils.jpg" text="Balrog specific. Demon Fána. Playable during your organization phase on The Balrog. Return this card to your hand: when you play another Demon Fána card, or, if you choose, during your organization phase. +3 direct influence; -1 body. The Balrog gains the diplomat skill and may have followers. Once during his movement/hazard phase, you may untap all tapped characters in The Balrog's company. If then untapped, tap The Balrog.">
+    <card name="Strangling Coils" graphics="StranglingCoils.jpg" text="Balrog specific. Demon fána. Playable during your organization phase on The Balrog. Return this card to your hand: when you play another Demon fána card, or, if you choose, during your organization phase. +3 direct influence; -1 body. The Balrog gains the diplomat skill and may have followers. Once during his movement/hazard phase, you may untap all tapped characters in The Balrog's company. If then untapped, tap The Balrog.">
        <attr key="specific" value="Balrog"/>
        <attr key="rarity" value="C2"/>
        <attr key="class" value="Permanent-event"/>
        <attr key="type" value="Minion Resource"/>
-	   <attr key="keyword" value="Demon Fána"/>
+	   <attr key="keyword" value="Demon fána"/>
     </card>
     <card name="Tempest of Fire" graphics="TempestofFire.jpg" text="Balrog specific. Playable during the site phase on an untapped Border-hold or Shadow-hold; the site cannot be an Under-deeps site or surface site thereof. Tap the site. The company faces three attacks (Men at a Border-hold, Orcs at a Shadow-hold 5 strikes with 8 prowess, 4 strikes with 9 prowess, 3 strikes with 10 prowess). Following these attacks: discard this card or tap a character, place this card in your marshalling point pile, and return each unique faction playable at the site to its owner's hand.">
        <attr key="specific" value="Balrog"/>

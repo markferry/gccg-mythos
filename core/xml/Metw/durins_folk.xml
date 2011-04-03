@@ -267,6 +267,7 @@
 			 <attr key="prowess" value="(+2)"/>
 			 <attr key="body" value="+1"/>
 			 <attr key="influence" value="-2"/>
+			 <attr key="keyword" value="Command"/>
 		</card>
 		<card name="Clan Bonds" graphics="Clan Bonds.jpg" text="Dwarf characters may be brought into play atany Dwarf-hold where one of your companies is present.">
 			 <attr key="type" value="Hero Resource"/>
@@ -437,6 +438,7 @@
 			 <attr key="class" value="Permanent-event"/>
 			 <attr key="influence" value="-2"/>
 			 <attr key="cp" value="(+1)"/>
+			 <attr key="keyword" value="Command"/>
 		</card>
 		<card name="Dwarven Chain-shirt" graphics="Dwarven Chainshirt.jpg" text="Armor. Playable only after succesfully influencing a Dwarf faction or bringing a Dwarf character into play (also during the organization phase). Dwarf only: +1 body to a maximum of 8.">
 			 <attr key="type" value="Dual Resource"/>
@@ -1269,6 +1271,7 @@
 			 <attr key="class" value="Permanent-event"/>
 			 <attr key="prowess" value="+1/-"/>
 			 <attr key="influence" value="-2"/>
+			 <attr key="keyword" value="Command"/>
 		</card>
 		<card name="Out of Practise" graphics="Out of Practise.jpg" text="Playable on a non-Hobbit character with 2 or more skills. Target character must attempt to move to a different site each turn or tap at the end of the organization phase. Tap another character in the same company during the organization phase to attempt to remove this card by making a roll: if the result is greater than 6, discard this card. Cannot be duplicated on a given character.">
 			 <attr key="type" value="Hazard"/>

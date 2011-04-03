@@ -1949,8 +1949,7 @@
        <attr key="rarity" value="CB2"/>
        <attr key="class" value="Short-event"/>
        <attr key="type" value="Hero Resource"/>
-	   <attr key="keyword" value="Stream"/>
-    </card>
+	</card>
     <card name="Andúril, the Flame of the West" graphics="AnduriltheFlameoftheWest.jpg" text="Unique. Sage only during the site phase at an untapped site where &quot;information&quot; is playable. Tape the sage and the site. Sage makes a corruption check modified by -3. Keep sage tapped until Andúril is stored at a Haven [{H}]. Once stored, you may discard a stored Reforging and place Andúril with Narsil. In addition to Narsil's effects, Andúril gives its bearer 4 marshalling points, +4 prowess (to a maximum of 11), +1 direct influence, and one more corruption point. Andúril may be tapped to untap a Dúnadan character in the same company, but its bearer must make a corruption check modified by -1.">
        <attr key="unique" value="yes"/>
        <attr key="corruption" value="1"/>

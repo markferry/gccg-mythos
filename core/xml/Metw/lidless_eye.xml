@@ -2666,7 +2666,7 @@
        <attr key="rarity" value="R"/>
        <attr key="class" value="Greater Item"/>
        <attr key="type" value="Minion Resource"/>
-	   <attr key="keyword" value="Palantir"/>
+	   <attr key="keyword" value="Palantír"/>
     </card>
     <card name="Palantír of Annúminas" graphics="PalantirofAnnuminas.jpg" text="Unique. Palantír. With its bearer able to use a Palantír, tap Palantír of Annúminas to take a sage only card from your play deck and/or discard pile into your hand. Reshuffle your play deck. Bearer then makes a corruption check.">
        <attr key="unique" value="yes"/>
@@ -2675,7 +2675,7 @@
        <attr key="rarity" value="R"/>
        <attr key="class" value="Greater Item"/>
        <attr key="type" value="Minion Resource"/>
-	   <attr key="keyword" value="Palantir"/>
+	   <attr key="keyword" value="Palantír"/>
     </card>
     <card name="Palantír of Elostirion" graphics="PalantirofElostirion.jpg" text="Unique. Palantír. Playable at The White Towers. Discard if the bearer moves. If the bearer is a sage: your hand size increases by one and the bearer is able to use this Palantír this turn if he taps. With its bearer able to use a Palantír, tap Palantír of Elostirion to draw a card. Bearer then makes a corruption check.">
        <attr key="unique" value="yes"/>
@@ -2684,7 +2684,7 @@
        <attr key="rarity" value="R"/>
        <attr key="class" value="Special Item"/>
        <attr key="type" value="Minion Resource"/>
-	   <attr key="keyword" value="Palantir"/>
+	   <attr key="keyword" value="Palantír"/>
     </card>
     <card name="Palantír of Minas Tirith" graphics="PalantirofMinasTirith.jpg" text="Unique. Palantír. Playable at Minas Tirith. With its bearer able to use a Palantír, tap Palantír of Minas Tirith to look at the top five cards of your play deck; shuffle these 5 cards and return then to the top of your play deck. Do the same to your opponent's play deck. Bearer then makes a corruption check.">
        <attr key="unique" value="yes"/>
@@ -2693,7 +2693,7 @@
        <attr key="rarity" value="U"/>
        <attr key="class" value="Special Item"/>
        <attr key="type" value="Minion Resource"/>
-	   <attr key="keyword" value="Palantir"/>
+	   <attr key="keyword" value="Palantír"/>
     </card>
     <card name="Palantír of Orthanc" graphics="PalantirofOrthanc.jpg" text="Unique. Palantír. Playable at Isengard. With its bearer able to use a Palantír and with at least 5 cards in your play deck, tap Palantír of Orthanc to choose one card from your discard pile to move to your play deck (reshuffle the play deck). Bearer then makes a corruption check.">
        <attr key="unique" value="yes"/>
@@ -2702,7 +2702,7 @@
        <attr key="rarity" value="U"/>
        <attr key="class" value="Special Item"/>
        <attr key="type" value="Minion Resource"/>
-	   <attr key="keyword" value="Palantir"/>
+	   <attr key="keyword" value="Palantír"/>
     </card>
     <card name="Palantír of Osgiliath" graphics="PalantirofOsgiliath.jpg" text="Unique. Palantír. If the bearer's company is ever below 4 characters and it moves, discard this item. With its bearer able to use a Palantír, tap Palantír of Osgiliath to force the discard of any hazard permanent-event or to duplicate the effect of any minion Palantír in play. Bearer then makes a corruption check. 5 marshalling points if stored at Barad-dûr.">
        <attr key="unique" value="yes"/>
@@ -2711,7 +2711,7 @@
        <attr key="rarity" value="R"/>
        <attr key="class" value="Greater Item"/>
        <attr key="type" value="Minion Resource"/>
-	   <attr key="keyword" value="Palantir"/>
+	   <attr key="keyword" value="Palantír"/>
     </card>
     <card name="Paltry Ring" graphics="PaltryRing.jpg" text="Lesser Ring. Playable only with a Gold Ring and after a test indicates a Lesser Ring. +3 to prowess against detainment attacks. Cannot be duplicated on a given character.">
        <attr key="corruption" value="1"/>

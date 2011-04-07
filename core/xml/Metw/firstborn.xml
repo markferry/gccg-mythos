@@ -1340,7 +1340,7 @@
        <attr key="unique" value="yes"/>
        <attr key="haven" value="Rivendell"/>
        <attr key="draw" value="1"/>
-       <attr key="region" value="Hollin"/>
+       <attr key="region" value="Misty Mountains - Southern Spur"/>
        <attr key="site_type" value="{B}"/>
        <attr key="playable" value="Items (minor, see Special)"/>
 	   <attr key="special" value="Tap an Elf with a mind of 5 or greater to make major items or gold ring items playable at this site this turn."/>
@@ -1356,7 +1356,7 @@
        <attr key="unique" value="yes"/>
        <attr key="haven" value="Carn Dûm"/>
        <attr key="draw" value="1"/>
-       <attr key="region" value="Hollin"/>
+       <attr key="region" value="Misty Mountains - Southern Spur"/>
        <attr key="site_type" value="{B}"/>
        <attr key="playable" value="Items (minor, see Special)"/>
 	   <attr key="special" value="Tap an Elf with a mind of 5 or greater to make major items or gold ring items playable at this site this turn."/>

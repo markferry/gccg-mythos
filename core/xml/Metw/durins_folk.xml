@@ -42,7 +42,7 @@
 			 <attr key="rarity" value="C"/>
 			 <attr key="class" value="Long-event"/>
 		</card>
-		<card name="At Your Service!" graphics="At Your Service.jpg" text="Dwarf only. One influence check by a Dwarf is modified by half his mind value (round up). Any negative modifications for his race or type are cancelled. If the check is successful you may remove one hazard permanent-event from the influencing character.">
+		<card name="At Your Service!" graphics="At Your Service.jpg" text="Dwarf only. One influence check by a Dwarf is modified by adding half his mind value (round up). Any negative modifications for his race or type are cancelled. If the check is successful you may remove one hazard permanent-event from the influencing character.">
 			 <attr key="type" value="Hero Resource"/>
 			 <attr key="rarity" value="C"/>
 			 <attr key="class" value="Short-event"/>

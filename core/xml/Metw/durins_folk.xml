@@ -771,7 +771,7 @@
 			 <attr key="rarity" value="U"/>
 			 <attr key="class" value="Permanent-event"/>
 		</card>
-		<card name="Hoard Gathering" graphics="Hoard Gathering.jpg" text="Choose one of the following types when you play this card: Dwarven Ring, Greater Hoard Item, Ore or Treasure. This card is worth 3 mp if you have stored at least 3 different cards of the chosen type. This card is worth mp to a Dwarf-lord player. Cannot be duplicated by a given player for a given type.">
+		<card name="Hoard Gathering" graphics="Hoard Gathering.jpg" text="Choose one of the following types when you play this card: Dwarven Ring, Greater Hoard Item, Ore or Treasure. This card is worth 2 mp if you have stored at least 3 different cards of the chosen type. This card is worth mp to a Dwarf-lord player. Cannot be duplicated by a given player for a given type.">
 			 <attr key="type" value="Hero Resource"/>
 			 <attr key="rarity" value="U"/>
 			 <attr key="class" value="Permanent-event"/>

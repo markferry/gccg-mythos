@@ -1151,6 +1151,7 @@
 			 <attr key="type" value="Stage Resource"/>
 			 <attr key="rarity" value="C"/>
 			 <attr key="class" value="Permanent-event"/>
+			 <attr key="sp" value="1"/>
 		</card>
 		<card name="Ninevet" graphics="Ninevet.jpg" text="Animal. 1 strike. Attacker chooses defending characters. May also be played keyed to a Swamp or site in a Coastal Sea [c] region and on a company moving with Port-on- River movement. If Terror from the Deeps is in play may also be played keyed to any Under-deeps site.">
 			 <attr key="type" value="Hazard"/>

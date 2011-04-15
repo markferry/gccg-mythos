@@ -5,6 +5,8 @@ v0.9.7
 
 [ ] BUG: dived by zero error crashes
 [ ] BUG: In multiplayer games player standing on right side of table may have items auto-placed outside of right margin, even without a (("OffscreenEnabled","yes"),),
+[ ] Include monospace font (font is provided but not included )
+[ ]	Mtg users don't like order of players to be shuffled (server.functions -> StartGame && PlayerShuffle)
 [X] Added mofo's small repo to installed.xml
 [X] fixed function that places avatars on tables (now tables image height can be changed)
 [ ] Check if gccg_package diff works 

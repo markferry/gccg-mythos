@@ -1706,7 +1706,7 @@
        <attr key="class" value="Short-event"/>
        <attr key="type" value="Minion Resource"/>
     </card>
-    <card name="Dwar Unleashed" graphics="DwarUnleashed.jpg" text="Playable during the organization phase on Dwar the Ringwraith's company (if Dwar is your Ringwraith). His own company may use region movement this turn. {cyan} UEP: Dwar doesn't have to be in a mode to use this card.">
+    <card name="Dwar Unleashed" graphics="DwarUnleashed.jpg" text="Playable during the organization phase on Dwar the Ringwraith's company (if Dwar is your Ringwraith). His own company may use region movement this turn. {cyan} UEP: Dwar does not have to be in a mode to use this card.">
        <attr key="rarity" value="R"/>
        <attr key="class" value="Short-event"/>
        <attr key="type" value="Minion Resource"/>

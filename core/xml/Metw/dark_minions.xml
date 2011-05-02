@@ -552,8 +552,7 @@
 	   <attr key="keyword" value="Troll-hold"/>
     </card>
     <card name="The Under-galleries" graphics="TheUndergalleries.jpg" back="1" text="">
-       <attr key="magic" value="Stolen Knowledge"/>
-	   <attr key="unique" value="yes"/>
+       <attr key="unique" value="yes"/>
        <attr key="adjacent" value="Any site in Ûdun (0), The Under-courts (4), The Sulfur-deeps (8)"/>
        <attr key="draw" value="1"/>
        <attr key="region" value="Under-deeps"/>
@@ -1121,8 +1120,7 @@
        <attr key="type" value="Hero Resource"/>
     </card>
     <card name="Dark Numbers" graphics="DarkNumbers.jpg" text="Stolen Knowledge. Playable on an untapped scout immediately after facing an Orc, Troll, or Man attack. Tap scout. Can be stored at a Haven. If not stored, discard to give +3 to an influence attempt against a faction by a character in the same company.">
-       <attr key="magic" value="Stolen Knowledge"/>
-	   <attr key="mp" value="1"/>
+       <attr key="mp" value="1"/>
        <attr key="rarity" value="C2"/>
        <attr key="class" value="Permanent-event"/>
        <attr key="type" value="Hero Resource"/>

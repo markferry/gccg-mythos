@@ -313,10 +313,10 @@
 			 <attr key="class" value="Short-event"/>
 		</card>
 		<card name="Dawn Take You All!" graphics="Dawn Take You All.jpg" text="Ritual. Playable during CvCC on an untapped sage in a company at a non-Underdeeps site or surface siteC, if Gates of Morning is in play. Tap the sage. All Trolls at the same site are immediately wounded; Half-trolls and Olog-hai are not wounded but receive -2 prowess instead until the end of the turn. Sage makes a CC modified by -2.">
-			 <attr key="magic" value="Ritual"/>
 			 <attr key="type" value="Hero Resource"/>
 			 <attr key="rarity" value="C"/>
 			 <attr key="class" value="Short-event"/>
+			 <attr key="keyword" value="Ritual"/>
 		</card>
 		<card name="Deep Mountain Fortress" graphics="Deep Mountain Fortress.jpg" text="Dwarf-lord specific. Playable during the site phase on an Under-deeps Ruins &amp; Lairs [R] with a surface site that is not a Shadow-hold [S] or Dark-hold [D]. The company faces an attack: Drake -- 2 strikes with 13 prowess (cannot be cancelled). Following the attack, tatap your Dwarf-lord or discard this card. The site becomes one of your Lord-havens [H] and a Dwarf-hold and loses all automatic-attacks. Nothing is considered playable as written on the site card. The site is never discarded or returned to the location deck. If one of your companies is at this site all attacks against it are cancelled. All other versions gain an additional automatic-attack: Dwarves -- 4 strikes with 8 prowess. Opponents may play Breach the Hold at any version of the affected site; discard both if played successfully. Cannot be duplicated on a given site.">
 			 <attr key="type" value="Stage Resource"/>

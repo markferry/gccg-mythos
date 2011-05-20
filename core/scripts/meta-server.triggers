@@ -39,7 +39,14 @@ trigger "init" "" code
   players=(,);
 
   execute("meta-server.functions");
-  execute(GAMEDIR+"-meta-server.include");
+  if(!execute(GAMEDIR+"-meta-server.include"))
+  {
+    server_failed=1;
+    println("");
+    println(GAMEDIR+"-meta-server.include not defined for this game");
+    println("");
+    quit(1);
+  }
 
   Log("Loading old data... ");
 
@@ -149,5 +156,6 @@ trigger "main" "" code
 
 trigger "exit" "" code
 {
-  SaveAll();
+  if(!server_failed)
+    SaveAll();
 }

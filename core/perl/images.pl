@@ -150,7 +150,14 @@ sub cmd_resize
 	    $s=$x."x".$y;
 	    $s2=$y."x".$x;
 	    if($s ne $sz0 && $s2 ne $sz0) {
+		$sz0=~m/(\d+)x(\d+)/;
+		$x0=$1;
+		$y0=$2;
+		if(abs($x0-$x) + abs($y0-$y) > abs($y0-$x) + abs($x0-$y)) {
+		    $sz="$y0!x$x0!";
+		}
 		print "RESIZING: $f from $s to $sz\n";
+
 		sys("mogrify -geometry \"$sz\" \"$f\"");
 	    }
 	}

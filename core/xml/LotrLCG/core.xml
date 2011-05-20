@@ -1320,7 +1320,7 @@
        <attr key="type" value="Quest"/>
     </card>
 
-    <card name="A Chosen Path - &quot;Don't Leave the Path!&quot;" graphics="AChosenPathDontLeavethePath.jpg" text="">
+    <card name="A Chosen Path" graphics="AChosenPath.jpg" text="A Chosen Path">
        <attr key="scenario_title" value="Passage Through Mirkwood"/>
        <attr key="encounters" value="{spider} {orc_head}"/>
        <attr key="sequence" value="3A"/>
@@ -1330,7 +1330,7 @@
        <attr key="type" value="Quest"/>
     </card>
 
-    <card name="A Chosen Path - &quot;Don't Leave the Path!&quot;" graphics="AChosenPathDontLeavethePath2.jpg" back="224" text="When Revealed: Each player must search the encounter deck and discard pile for 1 Spider card of his choice, and add it to the staging area. The players must find and defeat Ungoliant's Spawn to win the game.">
+    <card name="&quot;Don't Leave the Path!&quot;" graphics="DontLeavethePath.jpg" back="224" text="&quot;Don't Leave the Path!&quot;">
        <attr key="scenario_title" value="Passage Through Mirkwood"/>
        <attr key="sequence" value="3B"/>
        <attr key="number" value="121"/>
@@ -1340,7 +1340,7 @@
        <attr key="type" value="Quest"/>
     </card>
 
-    <card name="A Chosen Path - Beorn's Path" graphics="AChosenPathBeornsPath.jpg" text="">
+    <card name="A Chosen Path" graphics="AChosenPath2.jpg" text="A Chosen Path">
        <attr key="scenario_title" value="Passage Through Mirkwood"/>
        <attr key="encounters" value="{spider} {orc_head}"/>
        <attr key="sequence" value="3A"/>
@@ -1350,7 +1350,7 @@
        <attr key="type" value="Quest"/>
     </card>
 
-    <card name="A Chosen Path - Beorn's Path" graphics="AChosenPathBeornsPath2.jpg" back="226" text="Players cannot defeat this stage when Ungoliant's Spawn is in play. If players defeat this stage, they have won the game.">
+    <card name="Beorn's Path" graphics="BeornsPath.jpg" back="226" text="Beorn's Path">
        <attr key="scenario_title" value="Passage Through Mirkwood"/>
        <attr key="sequence" value="3B"/>
        <attr key="number" value="122"/>

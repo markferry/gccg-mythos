@@ -49,9 +49,18 @@ def SetUpPlayer
 {
   CreateDeck(ARG,"deck",50,80);
   CreateDeck(ARG,"discard pile",50,220);
-  CreateDeck(ARG,"encounter",screen.width-150,0);
-  CreateDeck(ARG,"encounter discard",screen.width-50,0);
-  CreateDeck(ARG,"quest",screen.width-250,0);
+  if(ARG==0)
+  {
+    CreateDeck(ARG,"encounter",screen.width-150,0);
+    CreateDeck(ARG,"encounter discard",screen.width-50,0);
+    CreateDeck(ARG,"quest",screen.width-250,0);
+  }
+  else
+  {
+    CreateDeck(ARG,"encounter",-1000,0);
+    CreateDeck(ARG,"encounter discard",-1000,0);
+    CreateDeck(ARG,"quest",-1000,0);
+  }
 }
 
 #

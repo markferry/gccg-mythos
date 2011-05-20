@@ -181,6 +181,24 @@ namespace Evaluator
 	    return cards.Back(crd);
 	}
 
+	/// card_front(c) - Return front image number of the card if differs.
+	Data card_front(const Data& args)
+	{
+	    VECTORIZE(Libcards::card_back);
+
+	    if(args.IsNull())
+		return 0;
+	    if(!args.IsInteger())
+		return Null;
+
+	    int crd=args.Integer();
+			
+	    if(crd < 0 || crd >= cards.Cards())
+		return Null;
+	
+	    return cards.Front(crd);
+	}
+
 	/// game_data() - Return dictionaty of game data containgin
 	/// entries \{\tt "game"\} (name of the game), \{\tt "gamedir"\}
 	/// (directory name for the game), \{\tt "play"\} (attribute to call
@@ -1049,6 +1067,7 @@ namespace Evaluator
 	external_function["canonical_name"]=&Libcards::canonical_name;
 	external_function["card_attr"]=&Libcards::card_attr;
 	external_function["card_back"]=&Libcards::card_back;
+	external_function["card_front"]=&Libcards::card_front;
 	external_function["decks"]=&Libcards::decks;
 	external_function["game_data"]=&Libcards::game_data;
 	external_function["game_option"]=&Libcards::game_option;

@@ -327,6 +327,16 @@ int CardSet::Back(int cardnumber) const
     return 0;
 }
 
+int CardSet::Front(int cardnumber) const
+{
+    if(cardnumber < 0 || cardnumber >= nextcard)
+	throw Error::Range("CardSet::Front(int)","invalid cardnumber "+ToString(cardnumber));
+    if((*card[cardnumber])["front"]!="")
+	return atoi((*card[cardnumber])["front"].c_str());
+
+    return 0;
+}
+
 bool CardSet::IsCard(int cardnumber) const
 {
     if(cardnumber < 0 || cardnumber >= nextcard)

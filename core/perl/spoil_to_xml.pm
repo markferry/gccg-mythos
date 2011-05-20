@@ -63,6 +63,7 @@ sub encode_xml($)
 # $text - text of the card
 # $attr{attribute} - attributes
 # $back - backside image number
+# $front - frontside image number
 #
 sub print_card()
 {
@@ -88,6 +89,10 @@ sub print_card()
 	if($back > 0)
 	{
 		print "    <card name=\"".encode_xml($title)."\" graphics=\"$graphics\" back=\"$back\" text=\"".encode_xml($text)."\">\n";
+	}
+	elsif($front > 0)
+	{
+		print "    <card name=\"".encode_xml($title)."\" graphics=\"$graphics\" front=\"$front\" text=\"".encode_xml($text)."\">\n";
 	}
 	else
 	{

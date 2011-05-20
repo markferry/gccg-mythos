@@ -1280,7 +1280,7 @@
        <attr key="type" value="Treachery"/>
     </card>
 
-    <card name="Flies and Spiders" graphics="FliesandSpiders.jpg" text="Setup: Search the encounter deck for 1 copy of the Forest Spider and 1 copy of the Old Forest Road, and add them to the staging area. Then, shuffle the encounter deck.">
+    <card name="Flies and Spiders" graphics="FliesandSpiders.jpg" front="220" text="Setup: Search the encounter deck for 1 copy of the Forest Spider and 1 copy of the Old Forest Road, and add them to the staging area. Then, shuffle the encounter deck.">
        <attr key="scenario_title" value="Passage Through Mirkwood"/>
        <attr key="encounters" value="{spider} {orc_head}"/>
        <attr key="sequence" value="1A"/>
@@ -1300,7 +1300,7 @@
        <attr key="type" value="Quest"/>
     </card>
 
-    <card name="A Fork in the Road" graphics="AForkintheRoad.jpg" text="">
+    <card name="A Fork in the Road" graphics="AForkintheRoad.jpg" front="222" text="">
        <attr key="scenario_title" value="Passage Through Mirkwood"/>
        <attr key="encounters" value="{spider} {orc_head}"/>
        <attr key="sequence" value="2A"/>
@@ -1320,7 +1320,7 @@
        <attr key="type" value="Quest"/>
     </card>
 
-    <card name="A Chosen Path" graphics="AChosenPath.jpg" text="A Chosen Path">
+    <card name="A Chosen Path" graphics="AChosenPath.jpg" front="224" text="A Chosen Path">
        <attr key="scenario_title" value="Passage Through Mirkwood"/>
        <attr key="encounters" value="{spider} {orc_head}"/>
        <attr key="sequence" value="3A"/>
@@ -1340,7 +1340,7 @@
        <attr key="type" value="Quest"/>
     </card>
 
-    <card name="A Chosen Path" graphics="AChosenPath2.jpg" text="A Chosen Path">
+    <card name="A Chosen Path" graphics="AChosenPath2.jpg" front="226" text="A Chosen Path">
        <attr key="scenario_title" value="Passage Through Mirkwood"/>
        <attr key="encounters" value="{spider} {orc_head}"/>
        <attr key="sequence" value="3A"/>
@@ -1360,7 +1360,7 @@
        <attr key="type" value="Quest"/>
     </card>
 
-    <card name="The Necromancer's Tower" graphics="TheNecromancersTower.jpg" text="Setup: Search the encounter deck for the 3 objective cards, and place them in the staging area. Also, place the Nazgûl of Dol Guldur face up but out of place, alongside the quest deck. Then, shuffle the encounter deck and attach 1 encounter to each objective card.">
+    <card name="The Necromancer's Tower" graphics="TheNecromancersTower.jpg" front="228" text="Setup: Search the encounter deck for the 3 objective cards, and place them in the staging area. Also, place the Nazgûl of Dol Guldur face up but out of place, alongside the quest deck. Then, shuffle the encounter deck and attach 1 encounter to each objective card.">
        <attr key="scenario_title" value="Escape From Dol Guldur"/>
        <attr key="encounters" value="{spider} {orc_head}"/>
        <attr key="sequence" value="1A"/>
@@ -1380,7 +1380,7 @@
        <attr key="type" value="Quest"/>
     </card>
 
-    <card name="Through the Caverns" graphics="ThroughtheCaverns.jpg" text="">
+    <card name="Through the Caverns" graphics="ThroughtheCaverns.jpg" front="230" text="">
        <attr key="scenario_title" value="Escape From Dol Guldur"/>
        <attr key="encounters" value="{spider} {orc_head}"/>
        <attr key="sequence" value="2A"/>
@@ -1400,7 +1400,7 @@
        <attr key="type" value="Quest"/>
     </card>
 
-    <card name="Out of the Dungeons" graphics="OutoftheDungeons.jpg" text="">
+    <card name="Out of the Dungeons" graphics="OutoftheDungeons.jpg" front="232" text="">
        <attr key="scenario_title" value="Escape From Dol Guldur"/>
        <attr key="encounters" value="{spider} {orc_head}"/>
        <attr key="sequence" value="3A"/>
@@ -1420,7 +1420,7 @@
        <attr key="type" value="Quest"/>
     </card>
 
-    <card name="To the River..." graphics="TotheRiver.jpg" text="Setup: Each player reveals 1 card from the top of the encounter deck, and adds it to the staging area.">
+    <card name="To the River..." graphics="TotheRiver.jpg" front="234" text="Setup: Each player reveals 1 card from the top of the encounter deck, and adds it to the staging area.">
        <attr key="scenario_title" value="Journey Along the Anduin"/>
        <attr key="encounters" value="{eye} {orc} {paw}"/>
        <attr key="sequence" value="1A"/>
@@ -1440,7 +1440,7 @@
        <attr key="type" value="Quest"/>
     </card>
 
-    <card name="Anduin Passage" graphics="AnduinPassage.jpg" text="">
+    <card name="Anduin Passage" graphics="AnduinPassage.jpg" front="236" text="">
        <attr key="scenario_title" value="Journey Along the Anduin"/>
        <attr key="encounters" value="{eye} {orc} {paw}"/>
        <attr key="sequence" value="2A"/>
@@ -1460,7 +1460,7 @@
        <attr key="type" value="Quest"/>
     </card>
 
-    <card name="Ambush on the Shore" graphics="AmbushontheShore.jpg" text="">
+    <card name="Ambush on the Shore" graphics="AmbushontheShore.jpg" front="238" text="">
        <attr key="scenario_title" value="Journey Along the Anduin"/>
        <attr key="encounters" value="{eye} {orc} {paw}"/>
        <attr key="sequence" value="3A"/>

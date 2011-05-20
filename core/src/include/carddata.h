@@ -86,6 +86,8 @@ namespace Database
 		list<int> Images(const string& s,bool fuzzymatch=false);
         /// Return card number of the backside image.
 		int Back(int cardnumber) const;
+        /// Return card number of the frontside image if different from card number.
+		int Front(int cardnumber) const;
 		/// Return 1 if card is a real card and not a card back, token, etc..
 		bool IsCard(int cardnumber) const;
 		/// Return 1 if a string is an set abbreviation.

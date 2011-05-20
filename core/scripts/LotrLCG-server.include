@@ -13,7 +13,7 @@ port=32011;
 meta.port=29114;
 
 # What piles have known order even if not visible.
-SELF_KNOWN_PILES=("quest");
+SELF_KNOWN_PILES=("quest",);
 
 #
 # HOOKS
@@ -26,11 +26,11 @@ def InitServerHook
 {
   for(i)(ARG)
   {
-    visible.me[i]{"discard"}=0;
+    visible.me[i]{"discard pile"}=1;
     visible.me[i]{"deck"}=0;
     visible.me[i]{"quest"}=1;
     visible.me[i]{"encounter"}=0;
-    visible.opp[i]{"discard"}=0;
+    visible.opp[i]{"discard pile"}=1;
     visible.opp[i]{"deck"}=0;
     visible.opp[i]{"quest"}=1;
     visible.opp[i]{"encounter"}=0;
@@ -47,10 +47,11 @@ def InitServerHook
 #
 def SetUpPlayer
 {
-  CreateDeck(ARG,"deck",40,160);
-  CreateDeck(ARG,"discard",40,270);
-  CreateDeck(ARG,"encounter",40,50);
-  CreateDeck(ARG,"quest",140,50);
+  CreateDeck(ARG,"deck",50,80);
+  CreateDeck(ARG,"discard pile",50,220);
+  CreateDeck(ARG,"encounter",screen.width-150,0);
+  CreateDeck(ARG,"encounter discard",screen.width-50,0);
+  CreateDeck(ARG,"quest",screen.width-250,0);
 }
 
 #

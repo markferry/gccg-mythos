@@ -78,7 +78,6 @@ sub print_card()
 	$graphics=~s/^(.)/uc($1)/e;
 
 	die "$0: print_card: no title defined" if($title eq "");
-	die "$0: print_card: no rarity for $title" if($attr{rarity} eq "");
 	
 	my $f;
 	my $g;

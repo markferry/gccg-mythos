@@ -1286,7 +1286,6 @@
        <attr key="sequence" value="1A"/>
        <attr key="number" value="119"/>
        <attr key="scenario_symbol" value="{tree}"/>
-       <attr key="rarity" value="F1"/>
        <attr key="type" value="Quest"/>
     </card>
 
@@ -1306,7 +1305,6 @@
        <attr key="sequence" value="2A"/>
        <attr key="number" value="120"/>
        <attr key="scenario_symbol" value="{tree}"/>
-       <attr key="rarity" value="F1"/>
        <attr key="type" value="Quest"/>
     </card>
 
@@ -1326,7 +1324,6 @@
        <attr key="sequence" value="3A"/>
        <attr key="number" value="121"/>
        <attr key="scenario_symbol" value="{tree}"/>
-       <attr key="rarity" value="F1"/>
        <attr key="type" value="Quest"/>
     </card>
 
@@ -1346,7 +1343,6 @@
        <attr key="sequence" value="3A"/>
        <attr key="number" value="122"/>
        <attr key="scenario_symbol" value="{tree}"/>
-       <attr key="rarity" value="F1"/>
        <attr key="type" value="Quest"/>
     </card>
 
@@ -1366,7 +1362,6 @@
        <attr key="sequence" value="1A"/>
        <attr key="number" value="123"/>
        <attr key="scenario_symbol" value="{tower}"/>
-       <attr key="rarity" value="F1"/>
        <attr key="type" value="Quest"/>
     </card>
 
@@ -1386,7 +1381,6 @@
        <attr key="sequence" value="2A"/>
        <attr key="number" value="124"/>
        <attr key="scenario_symbol" value="{tower}"/>
-       <attr key="rarity" value="F1"/>
        <attr key="type" value="Quest"/>
     </card>
 
@@ -1406,7 +1400,6 @@
        <attr key="sequence" value="3A"/>
        <attr key="number" value="125"/>
        <attr key="scenario_symbol" value="{tower}"/>
-       <attr key="rarity" value="F1"/>
        <attr key="type" value="Quest"/>
     </card>
 
@@ -1426,7 +1419,6 @@
        <attr key="sequence" value="1A"/>
        <attr key="number" value="126"/>
        <attr key="scenario_symbol" value="{river}"/>
-       <attr key="rarity" value="F1"/>
        <attr key="type" value="Quest"/>
     </card>
 
@@ -1446,7 +1438,6 @@
        <attr key="sequence" value="2A"/>
        <attr key="number" value="127"/>
        <attr key="scenario_symbol" value="{river}"/>
-       <attr key="rarity" value="F1"/>
        <attr key="type" value="Quest"/>
     </card>
 
@@ -1466,7 +1457,6 @@
        <attr key="sequence" value="3A"/>
        <attr key="number" value="128"/>
        <attr key="scenario_symbol" value="{river}"/>
-       <attr key="rarity" value="F1"/>
        <attr key="type" value="Quest"/>
     </card>
 

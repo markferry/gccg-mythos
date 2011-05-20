@@ -76,9 +76,13 @@ def ScoreToText
 # SPECIAL KEYS
 # ============
 
+def PlayKeyControlKeyO
+{
+  Send("SetScenario",("Hello",(101,102),(103,103,104)));
+}
+
 # PLAYING CARDS
 # =============
-
 
 #
 # LOCATION TABLES

@@ -31,11 +31,11 @@ def InitServerHook
     visible.me[i]{"discard pile"}=1;
     visible.me[i]{"deck"}=0;
     visible.me[i]{"quest"}=0;
-    visible.me[i]{"encounter"}=0;
+    visible.me[i]{"encounter deck"}=0;
     visible.opp[i]{"discard pile"}=1;
     visible.opp[i]{"deck"}=0;
     visible.opp[i]{"quest"}=0;
-    visible.opp[i]{"encounter"}=0;
+    visible.opp[i]{"encounter deck"}=0;
   }
   score_adjust=(,);
 }
@@ -53,13 +53,13 @@ def SetUpPlayer
   CreateDeck(ARG,"discard pile",50,220);
   if(ARG==0)
   {
-    CreateDeck(ARG,"encounter",screen.width-150,0);
+    CreateDeck(ARG,"encounter deck",screen.width-150,0);
     CreateDeck(ARG,"encounter discard",screen.width-50,0);
     CreateDeck(ARG,"quest",screen.width-250,0);
   }
   else
   {
-    CreateDeck(ARG,"encounter",-1000,0);
+    CreateDeck(ARG,"encounter deck",-1000,0);
     CreateDeck(ARG,"encounter discard",-1000,0);
     CreateDeck(ARG,"quest",-1000,0);
   }
@@ -91,13 +91,14 @@ def SetScenario
   {
     SendAll("Message","{orange}Setting up scenario: "+ARG[0]);
     q=FindDeck(0,"quest");
-    e=FindDeck(0,"encounter");
+    e=FindDeck(0,"encounter deck");
     ClearDeck(0,0,q);
     ClearDeck(0,0,e);
     for(c)(ARG[2])
       Put.DeckTop(c,0,0,q);
     for(c)(ARG[1])
       Put.DeckTop(c,0,0,e);
+    ShuffleDeck(e);
   }
   e=pop();
   q=pop();

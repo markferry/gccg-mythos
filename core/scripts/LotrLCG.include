@@ -110,6 +110,7 @@ def StartGame
 {
   net_send(server,("UploadDeck",decks{deck.name}));
   net_send(server,("ShuffleDeck",deck));
+#  SearchStartingCards();
 }
 
 #

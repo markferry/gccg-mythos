@@ -10,6 +10,11 @@
   <image tag="{will}" file="will.png" />
   <image tag="{attack}" file="attack.png" />
   <image tag="{defence}" file="defence.png" />
+  <image tag="{spider}" file="spider.png" />
+  <image tag="{orc_head}" file="orc_head.png" />
+  <image tag="{tree}" file="orc_head.png" />
+  <image tag="{paw}" file="orc_head.png" />
+  <image tag="{eye}" file="eye.png" />
 
   <option name="hand card size" value="30"/>
   <option name="table card size" value="25"/>

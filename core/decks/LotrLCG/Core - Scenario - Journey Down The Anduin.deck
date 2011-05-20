@@ -1,0 +1,55 @@
+#
+# GCCG v0.9.6.3 Lord of the Rings: Living Card Game deck
+#
+#      {blue}Imported Deck{white}
+#
+
+####
+Deck
+####
+
+#########
+Encounter
+#########
+
+# Enemy (20)
+
+1 Chieftan Ufthak
+2 Dol Guldur Beastmaster
+3 Dol Guldur Orcs
+3 Eastern Crows
+2 Goblin Sniper
+2 Hill Troll
+1 Marsh Adder
+3 Misty Mountain Goblins
+2 Wargs
+1 Wolf Rider
+
+# Location (13)
+
+2 Banks of the Anduin
+2 Enchanted Stream
+3 Gladden Fields
+2 Necromancer's Pass
+2 The Brown Lands
+2 The East Bight
+
+# Treachery (14)
+
+2 Despair
+1 Driven by Shadow
+3 Evil Storm
+1 Massing at Night
+2 Pursued by Shadow
+3 The Necromancer's Reach
+2 Treacherous Fog
+
+#####
+Quest
+#####
+
+# Quest (3)
+
+1 Ambush on the Shore #2
+1 Anduin Passage #2
+1 To the River... #2

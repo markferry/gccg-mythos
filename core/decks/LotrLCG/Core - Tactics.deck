@@ -1,0 +1,40 @@
+#
+# GCCG v0.9.6.3 Lord of the Rings: Living Card Game deck
+#
+#      {blue}Imported Deck{white}
+#
+
+####
+Deck
+####
+
+# Ally (10)
+
+1 Beorn
+1 Gandalf
+3 Gondorian Spearman
+2 Horseback Archer
+3 Veteran Axehand
+
+# Attachment (7)
+
+2 Blade of Gondolin
+2 Citadel Plate
+2 Dwarven Axe
+1 Horn of Gondor
+
+# Event (13)
+
+3 Blade Mastery
+2 Feint
+2 Quick Strike
+2 Rain of Arrows
+1 Stand Together
+1 Swift Strike
+2 Thicket of Spears
+
+# Hero (3)
+
+1 Gimli
+1 Legolas
+1 Thalin

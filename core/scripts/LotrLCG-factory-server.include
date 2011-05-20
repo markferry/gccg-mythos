@@ -10,7 +10,7 @@ def InitDistributions
   distribution{"C"}{"pack"}=(,);
 }
 
-def ProduceC_Pack
+def ProduceCore_Pack
 {
-    return(101,102,103);
+    return(CompleteCardSet('Core','F'));
 }

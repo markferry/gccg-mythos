@@ -76,6 +76,14 @@ def RandomCardSet
 }
 
 #
+# CompleteCardSet(set abbrev,distribution) - Return weighted full copy of distribution.
+#
+def CompleteCardSet
+{
+  return(cards{ARG[0]}{ARG[1]});
+}
+
+#
 # InitTables(set abbrev) - Initialize card distribution tables for a set.
 #
 def InitTables

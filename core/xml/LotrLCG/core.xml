@@ -13,7 +13,6 @@
        <attr key="threat_cost" value="12"/>
        <attr key="rarity" value="F1"/>
        <attr key="will" value="2"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Hero"/>
        <attr key="abilities" value="Sentinel"/>
        <attr key="traits" value="Dúnedain. Noble. Ranger."/>
@@ -29,7 +28,6 @@
        <attr key="threat_cost" value="8"/>
        <attr key="will" value="1"/>
        <attr key="rarity" value="F1"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Hero"/>
        <attr key="traits" value="Noble. Rohan. Warrior."/>
     </card>
@@ -44,7 +42,6 @@
        <attr key="threat_cost" value="9"/>
        <attr key="will" value="2"/>
        <attr key="rarity" value="F1"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Hero"/>
        <attr key="traits" value="Dwarf. Noble."/>
     </card>
@@ -59,7 +56,6 @@
        <attr key="threat_cost" value="11"/>
        <attr key="will" value="2"/>
        <attr key="rarity" value="F1"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Hero"/>
        <attr key="traits" value="Dwarf. Noble. Warrior."/>
     </card>
@@ -74,7 +70,6 @@
        <attr key="threat_cost" value="9"/>
        <attr key="will" value="1"/>
        <attr key="rarity" value="F1"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Hero"/>
        <attr key="abilities" value="Ranged"/>
        <attr key="traits" value="Noble. Silvan. Warrior."/>
@@ -90,7 +85,6 @@
        <attr key="threat_cost" value="9"/>
        <attr key="will" value="1"/>
        <attr key="rarity" value="F1"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Hero"/>
        <attr key="traits" value="Dwarf. Warrior."/>
     </card>
@@ -105,7 +99,6 @@
        <attr key="threat_cost" value="9"/>
        <attr key="will" value="4"/>
        <attr key="rarity" value="F1"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Hero"/>
        <attr key="traits" value="Noble. Rohan."/>
     </card>
@@ -120,7 +113,6 @@
        <attr key="threat_cost" value="7"/>
        <attr key="will" value="1"/>
        <attr key="rarity" value="F1"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Hero"/>
        <attr key="traits" value="Gondor. Noble."/>
     </card>
@@ -135,7 +127,6 @@
        <attr key="threat_cost" value="8"/>
        <attr key="will" value="1"/>
        <attr key="rarity" value="F1"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Hero"/>
        <attr key="traits" value="Rohan. Warrior."/>
     </card>
@@ -150,7 +141,6 @@
        <attr key="threat_cost" value="8"/>
        <attr key="will" value="1"/>
        <attr key="rarity" value="F1"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Hero"/>
        <attr key="traits" value="Gondor. Noble. Steward."/>
     </card>
@@ -165,7 +155,6 @@
        <attr key="threat_cost" value="12"/>
        <attr key="will" value="3"/>
        <attr key="rarity" value="F1"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Hero"/>
        <attr key="traits" value="Noble. Noldor. Warrior."/>
     </card>
@@ -180,7 +169,6 @@
        <attr key="threat_cost" value="10"/>
        <attr key="will" value="2"/>
        <attr key="rarity" value="F1"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Hero"/>
        <attr key="traits" value="Dúnedain. Ranger."/>
     </card>
@@ -194,7 +182,6 @@
        <attr key="attack" value="1"/>
        <attr key="will" value="1"/>
        <attr key="rarity" value="F3"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Ally"/>
        <attr key="traits" value="Gondor. Warrior."/>
     </card>
@@ -209,7 +196,6 @@
        <attr key="attack" value="1"/>
        <attr key="will" value="2"/>
        <attr key="rarity" value="F2"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Ally"/>
        <attr key="traits" value="Gondor. Noble. Ranger."/>
     </card>
@@ -223,7 +209,6 @@
        <attr key="attack" value="2"/>
        <attr key="will" value="0"/>
        <attr key="rarity" value="F2"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Ally"/>
        <attr key="traits" value="Dúnedain."/>
     </card>
@@ -237,7 +222,6 @@
        <attr key="attack" value="0"/>
        <attr key="will" value="0"/>
        <attr key="rarity" value="F3"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Ally"/>
        <attr key="traits" value="Rohan. Scout."/>
     </card>
@@ -251,7 +235,6 @@
        <attr key="attack" value="2"/>
        <attr key="will" value="1"/>
        <attr key="rarity" value="F2"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Ally"/>
        <attr key="abilities" value="Ranged"/>
        <attr key="traits" value="Archer. Silvan."/>
@@ -266,7 +249,6 @@
        <attr key="attack" value="2"/>
        <attr key="will" value="0"/>
        <attr key="rarity" value="F2"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Ally"/>
        <attr key="traits" value="Dwarf. Warrior."/>
     </card>
@@ -281,7 +263,6 @@
        <attr key="attack" value="2"/>
        <attr key="will" value="2"/>
        <attr key="rarity" value="F1"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Ally"/>
        <attr key="traits" value="Dwarf. Warrior."/>
     </card>
@@ -291,7 +272,6 @@
        <attr key="sphere" value="{leadership}"/>
        <attr key="number" value="20"/>
        <attr key="rarity" value="F2"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Event"/>
     </card>
 
@@ -300,7 +280,6 @@
        <attr key="sphere" value="{leadership}"/>
        <attr key="number" value="21"/>
        <attr key="rarity" value="F2"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Event"/>
     </card>
 
@@ -309,7 +288,6 @@
        <attr key="sphere" value="{leadership}"/>
        <attr key="number" value="22"/>
        <attr key="rarity" value="F2"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Event"/>
     </card>
 
@@ -318,7 +296,6 @@
        <attr key="sphere" value="{leadership}"/>
        <attr key="number" value="23"/>
        <attr key="rarity" value="F2"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Event"/>
     </card>
 
@@ -327,7 +304,6 @@
        <attr key="sphere" value="{leadership}"/>
        <attr key="number" value="24"/>
        <attr key="rarity" value="F2"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Event"/>
     </card>
 
@@ -336,7 +312,6 @@
        <attr key="sphere" value="{leadership}"/>
        <attr key="number" value="25"/>
        <attr key="rarity" value="F1"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Event"/>
     </card>
 
@@ -346,7 +321,6 @@
        <attr key="sphere" value="{leadership}"/>
        <attr key="number" value="26"/>
        <attr key="rarity" value="F2"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Attachment"/>
        <attr key="traits" value="Gondor. Title"/>
     </card>
@@ -357,7 +331,6 @@
        <attr key="sphere" value="{leadership}"/>
        <attr key="number" value="27"/>
        <attr key="rarity" value="F1"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Attachment"/>
        <attr key="traits" value="Artifact. Item"/>
     </card>
@@ -371,7 +344,6 @@
        <attr key="attack" value="2"/>
        <attr key="will" value="0"/>
        <attr key="rarity" value="F3"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Ally"/>
        <attr key="traits" value="Dwarf. Warrior."/>
     </card>
@@ -385,7 +357,6 @@
        <attr key="attack" value="1"/>
        <attr key="will" value="0"/>
        <attr key="rarity" value="F3"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Ally"/>
        <attr key="abilities" value="Sentinel"/>
        <attr key="traits" value="Gondor. Warrior."/>
@@ -400,7 +371,6 @@
        <attr key="attack" value="2"/>
        <attr key="will" value="0"/>
        <attr key="rarity" value="F2"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Ally"/>
        <attr key="abilities" value="Ranged"/>
        <attr key="traits" value="Rohan. Archer."/>
@@ -416,7 +386,6 @@
        <attr key="attack" value="3"/>
        <attr key="will" value="1"/>
        <attr key="rarity" value="F1"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Ally"/>
        <attr key="traits" value="Beorning. Warrior."/>
     </card>
@@ -426,7 +395,6 @@
        <attr key="sphere" value="{tactics}"/>
        <attr key="number" value="32"/>
        <attr key="rarity" value="F3"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Event"/>
     </card>
 
@@ -435,7 +403,6 @@
        <attr key="sphere" value="{tactics}"/>
        <attr key="number" value="33"/>
        <attr key="rarity" value="F2"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Event"/>
     </card>
 
@@ -444,7 +411,6 @@
        <attr key="sphere" value="{tactics}"/>
        <attr key="number" value="34"/>
        <attr key="rarity" value="F2"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Event"/>
     </card>
 
@@ -453,7 +419,6 @@
        <attr key="sphere" value="{tactics}"/>
        <attr key="number" value="35"/>
        <attr key="rarity" value="F2"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Event"/>
     </card>
 
@@ -462,7 +427,6 @@
        <attr key="sphere" value="{tactics}"/>
        <attr key="number" value="36"/>
        <attr key="rarity" value="F2"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Event"/>
     </card>
 
@@ -471,7 +435,6 @@
        <attr key="sphere" value="{tactics}"/>
        <attr key="number" value="37"/>
        <attr key="rarity" value="F1"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Event"/>
     </card>
 
@@ -480,7 +443,6 @@
        <attr key="sphere" value="{tactics}"/>
        <attr key="number" value="38"/>
        <attr key="rarity" value="F1"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Event"/>
     </card>
 
@@ -489,7 +451,6 @@
        <attr key="sphere" value="{tactics}"/>
        <attr key="number" value="39"/>
        <attr key="rarity" value="F2"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Attachment"/>
        <attr key="traits" value="Item. Weapon."/>
     </card>
@@ -499,7 +460,6 @@
        <attr key="sphere" value="{tactics}"/>
        <attr key="number" value="40"/>
        <attr key="rarity" value="F2"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Attachment"/>
        <attr key="traits" value="Item. Armor."/>
     </card>
@@ -509,7 +469,6 @@
        <attr key="sphere" value="{tactics}"/>
        <attr key="number" value="41"/>
        <attr key="rarity" value="F2"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Attachment"/>
        <attr key="traits" value="Item. Weapon."/>
     </card>
@@ -520,7 +479,6 @@
        <attr key="sphere" value="{tactics}"/>
        <attr key="number" value="42"/>
        <attr key="rarity" value="F1"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Attachment"/>
        <attr key="traits" value="Item. Artifact."/>
     </card>
@@ -534,7 +492,6 @@
        <attr key="attack" value="1"/>
        <attr key="will" value="1"/>
        <attr key="rarity" value="F2"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Ally"/>
        <attr key="traits" value="Hobbit."/>
     </card>
@@ -548,7 +505,6 @@
        <attr key="attack" value="1"/>
        <attr key="will" value="1"/>
        <attr key="rarity" value="F3"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Ally"/>
        <attr key="traits" value="Silvan. Scout."/>
     </card>
@@ -562,7 +518,6 @@
        <attr key="attack" value="2"/>
        <attr key="will" value="1"/>
        <attr key="rarity" value="F2"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Ally"/>
        <attr key="traits" value="Dúnedain. Ranger."/>
     </card>
@@ -572,7 +527,6 @@
        <attr key="sphere" value="{spirit}"/>
        <attr key="number" value="46"/>
        <attr key="rarity" value="F2"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Event"/>
     </card>
 
@@ -581,7 +535,6 @@
        <attr key="sphere" value="{spirit}"/>
        <attr key="number" value="47"/>
        <attr key="rarity" value="F2"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Event"/>
     </card>
 
@@ -590,7 +543,6 @@
        <attr key="sphere" value="{spirit}"/>
        <attr key="number" value="48"/>
        <attr key="rarity" value="F2"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Event"/>
     </card>
 
@@ -599,7 +551,6 @@
        <attr key="sphere" value="{spirit}"/>
        <attr key="number" value="49"/>
        <attr key="rarity" value="F2"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Event"/>
     </card>
 
@@ -608,7 +559,6 @@
        <attr key="sphere" value="{spirit}"/>
        <attr key="number" value="50"/>
        <attr key="rarity" value="F2"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Event"/>
     </card>
 
@@ -617,7 +567,6 @@
        <attr key="sphere" value="{spirit}"/>
        <attr key="number" value="51"/>
        <attr key="rarity" value="F3"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Event"/>
     </card>
 
@@ -626,7 +575,6 @@
        <attr key="sphere" value="{spirit}"/>
        <attr key="number" value="52"/>
        <attr key="rarity" value="F2"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Event"/>
     </card>
 
@@ -635,7 +583,6 @@
        <attr key="sphere" value="{spirit}"/>
        <attr key="number" value="53"/>
        <attr key="rarity" value="F1"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Event"/>
     </card>
 
@@ -644,7 +591,6 @@
        <attr key="sphere" value="{spirit}"/>
        <attr key="number" value="54"/>
        <attr key="rarity" value="F1"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Event"/>
     </card>
 
@@ -653,7 +599,6 @@
        <attr key="sphere" value="{spirit}"/>
        <attr key="number" value="55"/>
        <attr key="rarity" value="F2"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Attachment"/>
        <attr key="traits" value="Condition."/>
     </card>
@@ -663,7 +608,6 @@
        <attr key="sphere" value="{spirit}"/>
        <attr key="number" value="56"/>
        <attr key="rarity" value="F2"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Attachment"/>
        <attr key="traits" value="Condition."/>
     </card>
@@ -673,7 +617,6 @@
        <attr key="sphere" value="{spirit}"/>
        <attr key="number" value="57"/>
        <attr key="rarity" value="F1"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Attachment"/>
        <attr key="traits" value="Condition."/>
     </card>
@@ -687,7 +630,6 @@
        <attr key="attack" value="0"/>
        <attr key="will" value="1"/>
        <attr key="rarity" value="F3"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Ally"/>
        <attr key="traits" value="Silvan."/>
     </card>
@@ -701,7 +643,6 @@
        <attr key="attack" value="1"/>
        <attr key="will" value="1"/>
        <attr key="rarity" value="F2"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Ally"/>
        <attr key="traits" value="Dwarf. Craftsman."/>
     </card>
@@ -716,7 +657,6 @@
        <attr key="attack" value="1"/>
        <attr key="will" value="1"/>
        <attr key="rarity" value="F1"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Ally"/>
        <attr key="traits" value="Silvan."/>
     </card>
@@ -730,7 +670,6 @@
        <attr key="attack" value="1"/>
        <attr key="will" value="0"/>
        <attr key="rarity" value="F2"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Ally"/>
        <attr key="traits" value="Dwarf."/>
     </card>
@@ -745,7 +684,6 @@
        <attr key="attack" value="0"/>
        <attr key="will" value="1"/>
        <attr key="rarity" value="F2"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Ally"/>
        <attr key="traits" value="Minstral. Rohan."/>
     </card>
@@ -755,7 +693,6 @@
        <attr key="sphere" value="{lore}"/>
        <attr key="number" value="63"/>
        <attr key="rarity" value="F3"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Event"/>
     </card>
 
@@ -764,7 +701,6 @@
        <attr key="sphere" value="{lore}"/>
        <attr key="number" value="64"/>
        <attr key="rarity" value="F2"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Event"/>
     </card>
 
@@ -773,7 +709,6 @@
        <attr key="sphere" value="{lore}"/>
        <attr key="number" value="65"/>
        <attr key="rarity" value="F2"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Event"/>
     </card>
 
@@ -782,7 +717,6 @@
        <attr key="sphere" value="{lore}"/>
        <attr key="number" value="66"/>
        <attr key="rarity" value="F2"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Event"/>
     </card>
 
@@ -791,7 +725,6 @@
        <attr key="sphere" value="{lore}"/>
        <attr key="number" value="67"/>
        <attr key="rarity" value="F2"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Event"/>
     </card>
 
@@ -800,7 +733,6 @@
        <attr key="sphere" value="{lore}"/>
        <attr key="number" value="68"/>
        <attr key="rarity" value="F1"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Event"/>
     </card>
 
@@ -809,7 +741,6 @@
        <attr key="sphere" value="{lore}"/>
        <attr key="number" value="69"/>
        <attr key="rarity" value="F2"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Attachment"/>
        <attr key="traits" value="Item. Trap."/>
     </card>
@@ -819,7 +750,6 @@
        <attr key="sphere" value="{lore}"/>
        <attr key="number" value="70"/>
        <attr key="rarity" value="F2"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Attachment"/>
        <attr key="traits" value="Title."/>
     </card>
@@ -829,7 +759,6 @@
        <attr key="sphere" value="{lore}"/>
        <attr key="number" value="71"/>
        <attr key="rarity" value="F1"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Attachment"/>
        <attr key="traits" value="Condition."/>
     </card>
@@ -839,7 +768,6 @@
        <attr key="sphere" value="{lore}"/>
        <attr key="number" value="72"/>
        <attr key="rarity" value="F2"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Attachment"/>
        <attr key="traits" value="Skill."/>
     </card>
@@ -854,7 +782,6 @@
        <attr key="attack" value="4"/>
        <attr key="will" value="4"/>
        <attr key="rarity" value="F4"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Ally"/>
        <attr key="traits" value="Istari."/>
     </card>
@@ -908,7 +835,6 @@
        <attr key="quest_points" value="2"/>
        <attr key="encounter_set" value="Spiders of Mirkwood {spider}"/>
        <attr key="rarity" value="F2"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Location"/>
        <attr key="traits" value="Forest."/>
     </card>
@@ -919,7 +845,6 @@
        <attr key="quest_points" value="2"/>
        <attr key="encounter_set" value="Spiders of Mirkwood {spider}"/>
        <attr key="rarity" value="F3"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Location"/>
        <attr key="traits" value="Forest. Mountain."/>
     </card>
@@ -928,7 +853,6 @@
        <attr key="number" value="79"/>
        <attr key="encounter_set" value="Spiders of Mirkwood {spider}"/>
        <attr key="rarity" value="F1"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Treachery"/>
     </card>
 
@@ -936,7 +860,6 @@
        <attr key="number" value="80"/>
        <attr key="encounter_set" value="Spiders of Mirkwood {spider}"/>
        <attr key="rarity" value="F2"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Treachery"/>
     </card>
 
@@ -964,7 +887,6 @@
        <attr key="attack" value="6"/>
        <attr key="encounter_set" value="Wilderlands {paw}"/>
        <attr key="rarity" value="F2"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Enemy"/>
        <attr key="abilities" value="Victory 4"/>
        <attr key="traits" value="Troll."/>
@@ -979,7 +901,6 @@
        <attr key="attack" value="2"/>
        <attr key="encounter_set" value="Wilderlands {paw}"/>
        <attr key="rarity" value="F2"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Enemy"/>
        <attr key="traits" value="Goblin. Orc."/>
     </card>
@@ -993,7 +914,6 @@
        <attr key="attack" value="4"/>
        <attr key="encounter_set" value="Wilderlands {paw}"/>
        <attr key="rarity" value="F1"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Enemy"/>
        <attr key="abilities" value="Victory 3"/>
        <attr key="traits" value="Creature."/>
@@ -1027,7 +947,6 @@
        <attr key="quest_points" value="1"/>
        <attr key="encounter_set" value="Wilderlands {paw}"/>
        <attr key="rarity" value="F2"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Location"/>
        <attr key="traits" value="Wasteland."/>
     </card>
@@ -1038,7 +957,6 @@
        <attr key="quest_points" value="6"/>
        <attr key="encounter_set" value="Wilderlands {paw}"/>
        <attr key="rarity" value="F2"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Location"/>
        <attr key="traits" value="Wasteland."/>
     </card>
@@ -1066,7 +984,6 @@
        <attr key="attack" value="3"/>
        <attr key="encounter_set" value="Dol Guldur Orcs {orc_head}"/>
        <attr key="rarity" value="F1"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Enemy"/>
        <attr key="abilities" value="Victory 4"/>
        <attr key="traits" value="Dol Guldur. Orc."/>
@@ -1081,7 +998,6 @@
        <attr key="attack" value="3"/>
        <attr key="encounter_set" value="Dol Guldur Orcs {orc_head}"/>
        <attr key="rarity" value="F2"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Enemy"/>
        <attr key="traits" value="Dol Guldur. Orc."/>
     </card>
@@ -1098,7 +1014,6 @@
        <attr key="number" value="93"/>
        <attr key="encounter_set" value="Dol Guldur Orcs {orc_head}"/>
        <attr key="rarity" value="F3"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Treachery"/>
     </card>
 
@@ -1108,7 +1023,6 @@
        <attr key="quest_points" value="2"/>
        <attr key="encounter_set" value="Dol Guldur Orcs {orc_head}"/>
        <attr key="rarity" value="F2"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Location"/>
        <attr key="traits" value="Stronghold. Dol Guldur."/>
     </card>
@@ -1119,7 +1033,6 @@
        <attr key="quest_points" value="2"/>
        <attr key="encounter_set" value="Dol Guldur Orcs {orc_head}"/>
        <attr key="rarity" value="F2"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Location"/>
        <attr key="traits" value="Forest."/>
     </card>
@@ -1161,7 +1074,6 @@
        <attr key="attack" value="1"/>
        <attr key="encounter_set" value="Passage through Mirkwood {tree}"/>
        <attr key="rarity" value="F1"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Enemy"/>
        <attr key="traits" value="Creature."/>
     </card>
@@ -1172,7 +1084,6 @@
        <attr key="quest_points" value="3"/>
        <attr key="encounter_set" value="Passage through Mirkwood {tree}"/>
        <attr key="rarity" value="F2"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Location"/>
        <attr key="traits" value="Forest."/>
     </card>
@@ -1183,7 +1094,6 @@
        <attr key="quest_points" value="4"/>
        <attr key="encounter_set" value="Passage through Mirkwood {tree}"/>
        <attr key="rarity" value="F2"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Location"/>
        <attr key="traits" value="Forest."/>
     </card>
@@ -1197,7 +1107,6 @@
        <attr key="attack" value="2"/>
        <attr key="encounter_set" value="Escape from Dol Guldur {tower}"/>
        <attr key="rarity" value="F2"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Enemy"/>
        <attr key="traits" value="Dol Gulgur. Orc."/>
     </card>
@@ -1211,7 +1120,6 @@
        <attr key="attack" value="4"/>
        <attr key="encounter_set" value="Escape from Dol Guldur {tower}"/>
        <attr key="rarity" value="F1"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Enemy"/>
        <attr key="traits" value="Nazgûl"/>
     </card>
@@ -1253,7 +1161,6 @@
        <attr key="quest_points" value="3"/>
        <attr key="encounter_set" value="Escape from Dol Guldur {tower}"/>
        <attr key="rarity" value="F2"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Location"/>
        <attr key="abilities" value="Doomed 1. Surge"/>
        <attr key="traits" value="Dungeon."/>
@@ -1265,7 +1172,6 @@
        <attr key="quest_points" value="1"/>
        <attr key="encounter_set" value="Escape from Dol Guldur {tower}"/>
        <attr key="rarity" value="F2"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Location"/>
        <attr key="traits" value="Dungeon."/>
     </card>
@@ -1274,7 +1180,6 @@
        <attr key="number" value="108"/>
        <attr key="encounter_set" value="Escape from Dol Guldur {tower}"/>
        <attr key="rarity" value="F1"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Objective"/>
        <attr key="abilities" value="Guarded. Restricted."/>
     </card>
@@ -1283,7 +1188,6 @@
        <attr key="number" value="109"/>
        <attr key="encounter_set" value="Escape from Dol Guldur {tower}"/>
        <attr key="rarity" value="F1"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Objective"/>
        <attr key="abilities" value="Guarded. Restricted."/>
     </card>
@@ -1292,7 +1196,6 @@
        <attr key="number" value="110"/>
        <attr key="encounter_set" value="Escape from Dol Guldur {tower}"/>
        <attr key="rarity" value="F1"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Objective"/>
        <attr key="abilities" value="Guarded. Restricted."/>
     </card>
@@ -1325,7 +1228,6 @@
        <attr key="quest_points" value="3"/>
        <attr key="encounter_set" value="Journey Down the Anduin {river}"/>
        <attr key="rarity" value="F2"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Location"/>
        <attr key="traits" value="Riverland."/>
     </card>
@@ -1336,7 +1238,6 @@
        <attr key="quest_points" value="3"/>
        <attr key="encounter_set" value="Journey Down the Anduin {river}"/>
        <attr key="rarity" value="F3"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Location"/>
        <attr key="abilities" value="Victory 3"/>
        <attr key="traits" value="Marshland."/>
@@ -1361,7 +1262,6 @@
        <attr key="number" value="116"/>
        <attr key="encounter_set" value="Sauron's Reach {eye}"/>
        <attr key="rarity" value="F3"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Treachery"/>
     </card>
 
@@ -1377,8 +1277,207 @@
        <attr key="number" value="118"/>
        <attr key="encounter_set" value="Sauron's Reach {eye}"/>
        <attr key="rarity" value="F2"/>
-       <attr key="shadow_text" value=""/>
        <attr key="type" value="Treachery"/>
+    </card>
+
+    <card name="Flies and Spiders" graphics="FliesandSpiders.jpg" text="Setup: Search the encounter deck for 1 copy of the Forest Spider and 1 copy of the Old Forest Road, and add them to the staging area. Then, shuffle the encounter deck.">
+       <attr key="scenario_title" value="Passage Through Mirkwood"/>
+       <attr key="encounters" value="{spider} {orc_head}"/>
+       <attr key="sequence" value="1A"/>
+       <attr key="number" value="119"/>
+       <attr key="scenario_symbol" value="{tree}"/>
+       <attr key="rarity" value="F1"/>
+       <attr key="type" value="Quest"/>
+    </card>
+
+    <card name="Flies and Spiders" graphics="FliesandSpiders2.jpg" back="220" text="">
+       <attr key="scenario_title" value="Passage Through Mirkwood"/>
+       <attr key="sequence" value="1B"/>
+       <attr key="number" value="119"/>
+       <attr key="quest_points" value="8"/>
+       <attr key="scenario_symbol" value="{tree}"/>
+       <attr key="rarity" value="F1"/>
+       <attr key="type" value="Quest"/>
+    </card>
+
+    <card name="A Fork in the Road" graphics="AForkintheRoad.jpg" text="">
+       <attr key="scenario_title" value="Passage Through Mirkwood"/>
+       <attr key="encounters" value="{spider} {orc_head}"/>
+       <attr key="sequence" value="2A"/>
+       <attr key="number" value="120"/>
+       <attr key="scenario_symbol" value="{tree}"/>
+       <attr key="rarity" value="F1"/>
+       <attr key="type" value="Quest"/>
+    </card>
+
+    <card name="A Fork in the Road" graphics="AForkintheRoad2.jpg" back="222" text="Forced: When you defeat this stage, proceed to one of the 2 &quot;A Chosen Path&quot; stages, at random.">
+       <attr key="scenario_title" value="Passage Through Mirkwood"/>
+       <attr key="sequence" value="2B"/>
+       <attr key="number" value="120"/>
+       <attr key="quest_points" value="2"/>
+       <attr key="scenario_symbol" value="{tree}"/>
+       <attr key="rarity" value="F1"/>
+       <attr key="type" value="Quest"/>
+    </card>
+
+    <card name="A Chosen Path - &quot;Don't Leave the Path!&quot;" graphics="AChosenPathDontLeavethePath.jpg" text="">
+       <attr key="scenario_title" value="Passage Through Mirkwood"/>
+       <attr key="encounters" value="{spider} {orc_head}"/>
+       <attr key="sequence" value="3A"/>
+       <attr key="number" value="121"/>
+       <attr key="scenario_symbol" value="{tree}"/>
+       <attr key="rarity" value="F1"/>
+       <attr key="type" value="Quest"/>
+    </card>
+
+    <card name="A Chosen Path - &quot;Don't Leave the Path!&quot;" graphics="AChosenPathDontLeavethePath2.jpg" back="224" text="When Revealed: Each player must search the encounter deck and discard pile for 1 Spider card of his choice, and add it to the staging area. The players must find and defeat Ungoliant's Spawn to win the game.">
+       <attr key="scenario_title" value="Passage Through Mirkwood"/>
+       <attr key="sequence" value="3B"/>
+       <attr key="number" value="121"/>
+       <attr key="quest_points" value="0"/>
+       <attr key="scenario_symbol" value="{tree}"/>
+       <attr key="rarity" value="F1"/>
+       <attr key="type" value="Quest"/>
+    </card>
+
+    <card name="A Chosen Path - Beorn's Path" graphics="AChosenPathBeornsPath.jpg" text="">
+       <attr key="scenario_title" value="Passage Through Mirkwood"/>
+       <attr key="encounters" value="{spider} {orc_head}"/>
+       <attr key="sequence" value="3A"/>
+       <attr key="number" value="122"/>
+       <attr key="scenario_symbol" value="{tree}"/>
+       <attr key="rarity" value="F1"/>
+       <attr key="type" value="Quest"/>
+    </card>
+
+    <card name="A Chosen Path - Beorn's Path" graphics="AChosenPathBeornsPath2.jpg" back="226" text="Players cannot defeat this stage when Ungoliant's Spawn is in play. If players defeat this stage, they have won the game.">
+       <attr key="scenario_title" value="Passage Through Mirkwood"/>
+       <attr key="sequence" value="3B"/>
+       <attr key="number" value="122"/>
+       <attr key="quest_points" value="10"/>
+       <attr key="scenario_symbol" value="{tree}"/>
+       <attr key="rarity" value="F1"/>
+       <attr key="type" value="Quest"/>
+    </card>
+
+    <card name="The Necromancer's Tower" graphics="TheNecromancersTower.jpg" text="Setup: Search the encounter deck for the 3 objective cards, and place them in the staging area. Also, place the Nazgûl of Dol Guldur face up but out of place, alongside the quest deck. Then, shuffle the encounter deck and attach 1 encounter to each objective card.">
+       <attr key="scenario_title" value="Escape From Dol Guldur"/>
+       <attr key="encounters" value="{spider} {orc_head}"/>
+       <attr key="sequence" value="1A"/>
+       <attr key="number" value="123"/>
+       <attr key="scenario_symbol" value="{tower}"/>
+       <attr key="rarity" value="F1"/>
+       <attr key="type" value="Quest"/>
+    </card>
+
+    <card name="The Necromancer's Tower" graphics="TheNecromancersTower2.jpg" back="228" text="When Revealed: Randomly select 1 hero card (among all the heroes controlled by the players) and turn it facedown. That hero is now considered a &quot;prisoner,&quot; cannot be used, cannot be damaged, and does not collect resources, until it is &quot;rescued&quot; (as instructed by card effects) later in this quest. The players, as a group, cannot play more than 1 ally card each round. Players cannot advance to the next stage of this quest unless they have at least 1 objective card.">
+       <attr key="scenario_title" value="Escape From Dol Guldur"/>
+       <attr key="sequence" value="1B"/>
+       <attr key="number" value="123"/>
+       <attr key="quest_points" value="9"/>
+       <attr key="scenario_symbol" value="{tower}"/>
+       <attr key="rarity" value="F1"/>
+       <attr key="type" value="Quest"/>
+    </card>
+
+    <card name="Through the Caverns" graphics="ThroughtheCaverns.jpg" text="">
+       <attr key="scenario_title" value="Escape From Dol Guldur"/>
+       <attr key="encounters" value="{spider} {orc_head}"/>
+       <attr key="sequence" value="2A"/>
+       <attr key="number" value="124"/>
+       <attr key="scenario_symbol" value="{tower}"/>
+       <attr key="rarity" value="F1"/>
+       <attr key="type" value="Quest"/>
+    </card>
+
+    <card name="Through the Caverns" graphics="ThroughtheCaverns2.jpg" back="230" text="Response: After placing any number of progress tokens on this card, flip the &quot;prisoner&quot; hero card face up, and place 1 damage token on it. This hero has now been &quot;rescued,&quot; and may now be used by its controller. The players, as a group, cannot play more than 1 ally card each round. Players cannot advance to the next stage of this quest unless they have rescued the prisoner and have all 3 &quot;Escape from Dol Guldur&quot; objective cards.">
+       <attr key="scenario_title" value="Escape From Dol Guldur"/>
+       <attr key="sequence" value="2B"/>
+       <attr key="number" value="124"/>
+       <attr key="quest_points" value="15"/>
+       <attr key="scenario_symbol" value="{tower}"/>
+       <attr key="rarity" value="F1"/>
+       <attr key="type" value="Quest"/>
+    </card>
+
+    <card name="Out of the Dungeons" graphics="OutoftheDungeons.jpg" text="">
+       <attr key="scenario_title" value="Escape From Dol Guldur"/>
+       <attr key="encounters" value="{spider} {orc_head}"/>
+       <attr key="sequence" value="3A"/>
+       <attr key="number" value="125"/>
+       <attr key="scenario_symbol" value="{tower}"/>
+       <attr key="rarity" value="F1"/>
+       <attr key="type" value="Quest"/>
+    </card>
+
+    <card name="Out of the Dungeons" graphics="OutoftheDungeons2.jpg" back="232" text="Forced: At the beginning of each quest phase, each player places the top card of his deck, face down in front of him, as if it just engaged him from the staging area. These cards are called &quot;Orc Guard,&quot; and act as enemies with: 1 hit point, 1 {attack}, and 1 {defence}. Players cannot defeat this stage while Nazgûl of Dol Guldur is in play. If it is defeated and Nazgûl of Dol Guldur is not in play, the players have won the game.">
+       <attr key="scenario_title" value="Escape From Dol Guldur"/>
+       <attr key="sequence" value="3B"/>
+       <attr key="number" value="125"/>
+       <attr key="quest_points" value="7"/>
+       <attr key="scenario_symbol" value="{tower}"/>
+       <attr key="rarity" value="F1"/>
+       <attr key="type" value="Quest"/>
+    </card>
+
+    <card name="To the River..." graphics="TotheRiver.jpg" text="Setup: Each player reveals 1 card from the top of the encounter deck, and adds it to the staging area.">
+       <attr key="scenario_title" value="Journey Along the Anduin"/>
+       <attr key="encounters" value="{eye} {orc} {paw}"/>
+       <attr key="sequence" value="1A"/>
+       <attr key="number" value="126"/>
+       <attr key="scenario_symbol" value="{river}"/>
+       <attr key="rarity" value="F1"/>
+       <attr key="type" value="Quest"/>
+    </card>
+
+    <card name="To the River..." graphics="TotheRiver2.jpg" back="234" text="When Revealed: Search the encounter deck for 1 Hill Troll (if one is not already in play), and place it in the staging area. Shuffle the encounter deck. Players cannot defeat this stage while any Hill Troll cards are in play.">
+       <attr key="scenario_title" value="Journey Along the Anduin"/>
+       <attr key="sequence" value="1B"/>
+       <attr key="number" value="126"/>
+       <attr key="quest_points" value="8"/>
+       <attr key="scenario_symbol" value="{river}"/>
+       <attr key="rarity" value="F1"/>
+       <attr key="type" value="Quest"/>
+    </card>
+
+    <card name="Anduin Passage" graphics="AnduinPassage.jpg" text="">
+       <attr key="scenario_title" value="Journey Along the Anduin"/>
+       <attr key="encounters" value="{eye} {orc} {paw}"/>
+       <attr key="sequence" value="2A"/>
+       <attr key="number" value="127"/>
+       <attr key="scenario_symbol" value="{river}"/>
+       <attr key="rarity" value="F1"/>
+       <attr key="type" value="Quest"/>
+    </card>
+
+    <card name="Anduin Passage" graphics="AnduinPassage2.jpg" back="236" text="Reveal 1 additional card from the encounter deck each quest phase. Do not make engagement checks during the encounter phase. (Each player may still optionally engage 1 enemy each encounter phase.)">
+       <attr key="scenario_title" value="Journey Along the Anduin"/>
+       <attr key="sequence" value="2B"/>
+       <attr key="number" value="127"/>
+       <attr key="quest_points" value="16"/>
+       <attr key="scenario_symbol" value="{river}"/>
+       <attr key="rarity" value="F1"/>
+       <attr key="type" value="Quest"/>
+    </card>
+
+    <card name="Ambush on the Shore" graphics="AmbushontheShore.jpg" text="">
+       <attr key="scenario_title" value="Journey Along the Anduin"/>
+       <attr key="encounters" value="{eye} {orc} {paw}"/>
+       <attr key="sequence" value="3A"/>
+       <attr key="number" value="128"/>
+       <attr key="scenario_symbol" value="{river}"/>
+       <attr key="rarity" value="F1"/>
+       <attr key="type" value="Quest"/>
+    </card>
+
+    <card name="Ambush on the Shore" graphics="AmbushontheShore2.jpg" back="238" text="When Revealed: Reveal 2 encounter cards per player and add them to the staging area. Skip the staging step of the quest phase for the remainder of the game. Once there are no enemies in play, the players have won the game.">
+       <attr key="scenario_title" value="Journey Along the Anduin"/>
+       <attr key="sequence" value="3B"/>
+       <attr key="number" value="128"/>
+       <attr key="quest_points" value="0"/>
+       <attr key="scenario_symbol" value="{river}"/>
+       <attr key="rarity" value="F1"/>
+       <attr key="type" value="Quest"/>
     </card>
 
   </cards>

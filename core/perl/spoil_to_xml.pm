@@ -62,6 +62,7 @@ sub encode_xml($)
 # $title - card name
 # $text - text of the card
 # $attr{attribute} - attributes
+# $back - backside image number
 #
 sub print_card()
 {
@@ -104,6 +105,7 @@ sub print_card()
 	%attr=();
 	$title="";
 	$text="";
+	$back=0;
 }
 
 1;

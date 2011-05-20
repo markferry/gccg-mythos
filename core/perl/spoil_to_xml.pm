@@ -64,6 +64,7 @@ sub encode_xml($)
 # $attr{attribute} - attributes
 # $back - backside image number
 # $front - frontside image number
+# $hidden - if this is hidden card
 #
 sub print_card()
 {
@@ -81,23 +82,18 @@ sub print_card()
 	
 	my $f;
 	my $g;
+	my $atrs;
 
 	$count_graphics{$graphics}++;
 	$graphics=~s/\.jpg$/$count_graphics{$graphics}.".jpg"/e if($count_graphics{$graphics} > 1);
 		
 	
-	if($back > 0)
-	{
-		print "    <card name=\"".encode_xml($title)."\" graphics=\"$graphics\" back=\"$back\" text=\"".encode_xml($text)."\">\n";
-	}
-	elsif($front > 0)
-	{
-		print "    <card name=\"".encode_xml($title)."\" graphics=\"$graphics\" front=\"$front\" text=\"".encode_xml($text)."\">\n";
-	}
-	else
-	{
-		print "    <card name=\"".encode_xml($title)."\" graphics=\"$graphics\" text=\"".encode_xml($text)."\">\n";
-	}
+	
+	$atrs.=" back=\"$back\"" if($back > 0);
+	$atrs.=" front=\"$front\"" if($front > 0);
+	$atrs.=" hidden=\"1\"" if($hidden);
+	
+	print "    <card name=\"".encode_xml($title)."\" graphics=\"$graphics\"$atrs text=\"".encode_xml($text)."\">\n";
 	
 	foreach $f (keys %attr)
 	{
@@ -111,6 +107,8 @@ sub print_card()
 	$title="";
 	$text="";
 	$back=0;
+	$front=0;
+	$hidden=0;
 }
 
 1;

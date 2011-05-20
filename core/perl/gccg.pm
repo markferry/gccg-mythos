@@ -417,7 +417,7 @@ sub graphics_files
 }
 
 #
-# graphcis(cardnum) - Path to the graphcis of the card if found.
+# graphics(cardnum_path) - Path to the graphcis of the card if found.
 #
 sub graphics
 {
@@ -426,6 +426,7 @@ sub graphics
     
     my $file="graphics/$game_dir/".set_dir($set)."/".$graphics{$num};
     $file="../".info_full2name($game_name)."/$file" if !-f $file;
+
     $file="" if !-f $file;
 
     return $file;

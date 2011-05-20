@@ -11,7 +11,7 @@ DECKBOX_SIZE=(20,220,110);
 # minor version number for filter alogrithm
 BOOK_FILTER_VERSION_MINOR=".0";
 # default book sorting criteria.
-BOOK_DEFAULT_SORT=("[age]","N[card_number]");
+BOOK_DEFAULT_SORT=("[age]","N[number]");
 
 if(!port)
   port=28100;

@@ -14,7 +14,7 @@ BOOK_FILTER_VERSION_MINOR=".0";
 BOOK_DEFAULT_SORT=("[age]","N[number]");
 
 if(!port)
-  port=28100;
+  port=29114;
 if(server.name=="NO.DEFAULT.SERVER.FOR.THIS.GAME")
   server.name="gccg.servebeer.com";
 

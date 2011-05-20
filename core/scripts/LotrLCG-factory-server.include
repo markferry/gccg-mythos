@@ -9,3 +9,8 @@ def InitDistributions
   distribution{"C"}=(,);
   distribution{"C"}{"pack"}=(,);
 }
+
+def ProduceC_Pack
+{
+    return(101,102,103);
+}

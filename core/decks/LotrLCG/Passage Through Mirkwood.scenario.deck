@@ -1,0 +1,48 @@
+#
+# GCCG v0.9.6.3 Lord of the Rings: Living Card Game deck
+#
+#      test
+#
+
+#########
+Encounter
+#########
+
+# Enemy (16)
+
+1 Black Forest Bats
+1 Chieftan Ufthak
+2 Dol Guldur Beastmaster
+3 Dol Guldur Orcs
+1 East Bight Patrol
+4 Forest Spider
+1 Hummerhorns
+2 King Spider
+1 Ungoliant's Spawn
+
+# Location (13)
+
+2 Enchanted Stream
+2 Forest Gate
+2 Great Forest Web
+3 Mountains of Mirkwood
+2 Necromancer's Pass
+2 Old Forest Road
+
+# Treachery (7)
+
+2 Caught in a Web
+1 Driven by Shadow
+1 Eyes of the Forest
+3 The Necromancer's Reach
+
+#####
+Quest
+#####
+
+# Quest (4)
+
+1 "Don't Leave the Path!"
+1 A Fork in the Road #2
+1 Beorn's Path
+1 Flies and Spiders #2

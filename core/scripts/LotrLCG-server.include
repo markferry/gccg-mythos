@@ -30,11 +30,11 @@ def InitServerHook
   {
     visible.me[i]{"discard pile"}=1;
     visible.me[i]{"deck"}=0;
-    visible.me[i]{"quest"}=1;
+    visible.me[i]{"quest"}=0;
     visible.me[i]{"encounter"}=0;
     visible.opp[i]{"discard pile"}=1;
     visible.opp[i]{"deck"}=0;
-    visible.opp[i]{"quest"}=1;
+    visible.opp[i]{"quest"}=0;
     visible.opp[i]{"encounter"}=0;
   }
   score_adjust=(,);
@@ -72,7 +72,7 @@ def InitialScore
 {
   push(s);
   s=(,);
-  s{"Threat"}=0;
+  return(0);
   return(s);
   s=pop();
 }
@@ -89,7 +89,7 @@ def SetScenario
     Reply("{red}Please clear the table before setting the scenario.");
   else
   {
-    SendAll("Message","{orange}Setting up scenario: "+ARG[0]+".");
+    SendAll("Message","{orange}Setting up scenario: "+ARG[0]);
     q=FindDeck(0,"quest");
     e=FindDeck(0,"encounter");
     ClearDeck(0,0,q);

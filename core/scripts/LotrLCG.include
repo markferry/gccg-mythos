@@ -23,8 +23,56 @@ product.image=(,);
 # MENUS
 # =====
 
-FILTER_OPTIONS=(,
+FILTER_OPTIONS=(
+ ("Card Types","1",(1,"[type]"))
 );
+
+GAME_MENU{"Tap a card"}=(
+ (1,"Tap/Untap","middle click",""),
+ (1,"Tap and keep tapped","","SetStayTapped()"),
+ (1,"Invert as wounded","",'Send("Rotate",(object.number,180))'),
+ (1,"Heal","",'Send("Rotate",(object.number,90))'),
+);
+
+GAME_MENU{"Current Deck Menu"}=(
+ (1,"{hr}","",""),
+ (1,"Create scenario deck","","CreateScenario()"),
+ );
+
+GAME_MENU{"Main Menu - Play"}=(
+ (1,"{hr}","",""),
+ (1,"Select scenario...","","SelectScenarioMenu()"),
+ );
+
+#
+# SelectScenarioMenu() - Provide a list of scenarios to play.
+#
+def SelectScenarioMenu
+{
+  push(d);
+  push(s);
+  s=(,);
+  for(d)(decks())
+  {
+    if(find("scenario",lc(d)))
+      s=s+((d,"",'ImportScenario('+tostr(d)+')'),);
+  }
+  Submenu("Select Scenario",s);
+  s=pop();
+  d=pop();
+}
+
+#
+# ImportScenario(file) - Import a deck and setup scenario.
+#
+def ImportScenario
+{
+  push(d);
+  d=load_deck(ARG);
+  d=ImportDeck(d);
+  Send("SetScenario",(ARG,d{'encounter'},reverse(sort_by('[sequence]',d{'quest'},0))));
+  d=pop();
+}
 
 # FUNCTIONS
 # =========
@@ -35,6 +83,17 @@ FILTER_OPTIONS=(,
 def NewDeck
 {
   return((("deck",(,)),));
+}
+
+#
+# CreateScenario() - Create scenario deck.
+#
+def CreateScenario
+{
+    decks{deck.name}=(,);  
+    decks{deck.name}{"quest"}=(,);  
+    decks{deck.name}{"encounter"}=(,);  
+    RefreshCurrentDeck();
 }
 
 #
@@ -75,11 +134,6 @@ def ScoreToText
 
 # SPECIAL KEYS
 # ============
-
-def PlayKeyControlKeyO
-{
-  Send("SetScenario",("Hello",(101,102),(103,103,104)));
-}
 
 # PLAYING CARDS
 # =============

@@ -19,7 +19,7 @@
   <option name="hand card size" value="40"/>
   <option name="table card size" value="30"/>
   <option name="deck card size" value="25"/>
-  <option name="book card size" value="40"/>
+  <option name="book card size" value="34"/>
 
   <option name="deck order" value="type"/>
   <option name="deck color by" value="type"/>

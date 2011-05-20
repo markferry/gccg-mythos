@@ -6,7 +6,10 @@
   <cardset source="lotrlcg_basecards.xml"/>
   <cardset source="core.xml"/>
 
+  <image tag="{threat}" file="attack.png" />
+  <image tag="{will}" file="attack.png" />
   <image tag="{attack}" file="attack.png" />
+  <image tag="{defence}" file="attack.png" />
 
   <option name="hand card size" value="30"/>
   <option name="table card size" value="25"/>

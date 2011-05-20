@@ -342,7 +342,7 @@ bool CardSet::IsCard(int cardnumber) const
     if(cardnumber < 0 || cardnumber >= nextcard)
 	throw Error::Range("CardSet::IsCard(int)","invalid cardnumber "+ToString(cardnumber));
 
-    return Set(cardnumber)!="";
+    return Set(cardnumber)!="" && atoi((*card[cardnumber])["hidden"].c_str())==0;
 }
 
 bool CardSet::IsSet(const string& s) const

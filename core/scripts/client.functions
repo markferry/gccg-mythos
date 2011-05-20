@@ -10409,7 +10409,7 @@ def UpdateProductsPanel
     set_textalign(obj,1); 
     set_textvalign(obj,2);
     add_text(obj,"{shadow}"+b[1][2][0]);
-    add_text(obj,"{shadow}"+b[1][2][1]);
+    add_text(obj,"{shadow}"+ucfirst(b[1][2][1]));
     add_text(obj,"{shadow}$"+format("%.2f",b[1][1]));
 
     x=x+image_width(product.images{b[0]})+w(5);

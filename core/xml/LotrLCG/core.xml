@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <!DOCTYPE ccg-setinfo SYSTEM "../gccg-set.dtd">
-<ccg-setinfo name="Core" dir="Core" abbrev="C" game="Lord of the Rings LCG">
+<ccg-setinfo name="Core" dir="Core" abbrev="Core" game="Lord of the Rings LCG">
   <cards>
 
     <card name="Aragorn" graphics="Aragorn.jpg" text="Response: After Aragorn commits to a quest, spend 1 resource from his resource pool to ready him.">

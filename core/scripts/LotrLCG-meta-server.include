@@ -6,7 +6,7 @@ factory.port=29115;
 if(!load("products"))
 {
   products=(,);
-  products{"The core set"}=(65536,40.00,("C","pack"),65536);
+  products{"The core set"}=(65536,40.00,("Core","pack"),65536);
 }
 
 INITIAL_MONEY=0.0;

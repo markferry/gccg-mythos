@@ -1290,7 +1290,7 @@
        <attr key="type" value="Quest"/>
     </card>
 
-    <card name="Flies and Spiders" graphics="FliesandSpiders2.jpg" back="220" text="">
+    <card name="Flies and Spiders" graphics="FliesandSpiders2.jpg" back="219" text="">
        <attr key="scenario_title" value="Passage Through Mirkwood"/>
        <attr key="sequence" value="1B"/>
        <attr key="number" value="119"/>
@@ -1310,7 +1310,7 @@
        <attr key="type" value="Quest"/>
     </card>
 
-    <card name="A Fork in the Road" graphics="AForkintheRoad2.jpg" back="222" text="Forced: When you defeat this stage, proceed to one of the 2 &quot;A Chosen Path&quot; stages, at random.">
+    <card name="A Fork in the Road" graphics="AForkintheRoad2.jpg" back="221" text="Forced: When you defeat this stage, proceed to one of the 2 &quot;A Chosen Path&quot; stages, at random.">
        <attr key="scenario_title" value="Passage Through Mirkwood"/>
        <attr key="sequence" value="2B"/>
        <attr key="number" value="120"/>
@@ -1330,7 +1330,7 @@
        <attr key="type" value="Quest"/>
     </card>
 
-    <card name="&quot;Don't Leave the Path!&quot;" graphics="DontLeavethePath.jpg" back="224" text="&quot;Don't Leave the Path!&quot;">
+    <card name="&quot;Don't Leave the Path!&quot;" graphics="DontLeavethePath.jpg" back="223" text="&quot;Don't Leave the Path!&quot;">
        <attr key="scenario_title" value="Passage Through Mirkwood"/>
        <attr key="sequence" value="3B"/>
        <attr key="number" value="121"/>
@@ -1350,7 +1350,7 @@
        <attr key="type" value="Quest"/>
     </card>
 
-    <card name="Beorn's Path" graphics="BeornsPath.jpg" back="226" text="Beorn's Path">
+    <card name="Beorn's Path" graphics="BeornsPath.jpg" back="225" text="Beorn's Path">
        <attr key="scenario_title" value="Passage Through Mirkwood"/>
        <attr key="sequence" value="3B"/>
        <attr key="number" value="122"/>
@@ -1370,7 +1370,7 @@
        <attr key="type" value="Quest"/>
     </card>
 
-    <card name="The Necromancer's Tower" graphics="TheNecromancersTower2.jpg" back="228" text="When Revealed: Randomly select 1 hero card (among all the heroes controlled by the players) and turn it facedown. That hero is now considered a &quot;prisoner,&quot; cannot be used, cannot be damaged, and does not collect resources, until it is &quot;rescued&quot; (as instructed by card effects) later in this quest. The players, as a group, cannot play more than 1 ally card each round. Players cannot advance to the next stage of this quest unless they have at least 1 objective card.">
+    <card name="The Necromancer's Tower" graphics="TheNecromancersTower2.jpg" back="227" text="When Revealed: Randomly select 1 hero card (among all the heroes controlled by the players) and turn it facedown. That hero is now considered a &quot;prisoner,&quot; cannot be used, cannot be damaged, and does not collect resources, until it is &quot;rescued&quot; (as instructed by card effects) later in this quest. The players, as a group, cannot play more than 1 ally card each round. Players cannot advance to the next stage of this quest unless they have at least 1 objective card.">
        <attr key="scenario_title" value="Escape From Dol Guldur"/>
        <attr key="sequence" value="1B"/>
        <attr key="number" value="123"/>
@@ -1390,7 +1390,7 @@
        <attr key="type" value="Quest"/>
     </card>
 
-    <card name="Through the Caverns" graphics="ThroughtheCaverns2.jpg" back="230" text="Response: After placing any number of progress tokens on this card, flip the &quot;prisoner&quot; hero card face up, and place 1 damage token on it. This hero has now been &quot;rescued,&quot; and may now be used by its controller. The players, as a group, cannot play more than 1 ally card each round. Players cannot advance to the next stage of this quest unless they have rescued the prisoner and have all 3 &quot;Escape from Dol Guldur&quot; objective cards.">
+    <card name="Through the Caverns" graphics="ThroughtheCaverns2.jpg" back="229" text="Response: After placing any number of progress tokens on this card, flip the &quot;prisoner&quot; hero card face up, and place 1 damage token on it. This hero has now been &quot;rescued,&quot; and may now be used by its controller. The players, as a group, cannot play more than 1 ally card each round. Players cannot advance to the next stage of this quest unless they have rescued the prisoner and have all 3 &quot;Escape from Dol Guldur&quot; objective cards.">
        <attr key="scenario_title" value="Escape From Dol Guldur"/>
        <attr key="sequence" value="2B"/>
        <attr key="number" value="124"/>
@@ -1410,7 +1410,7 @@
        <attr key="type" value="Quest"/>
     </card>
 
-    <card name="Out of the Dungeons" graphics="OutoftheDungeons2.jpg" back="232" text="Forced: At the beginning of each quest phase, each player places the top card of his deck, face down in front of him, as if it just engaged him from the staging area. These cards are called &quot;Orc Guard,&quot; and act as enemies with: 1 hit point, 1 {attack}, and 1 {defence}. Players cannot defeat this stage while Nazgûl of Dol Guldur is in play. If it is defeated and Nazgûl of Dol Guldur is not in play, the players have won the game.">
+    <card name="Out of the Dungeons" graphics="OutoftheDungeons2.jpg" back="231" text="Forced: At the beginning of each quest phase, each player places the top card of his deck, face down in front of him, as if it just engaged him from the staging area. These cards are called &quot;Orc Guard,&quot; and act as enemies with: 1 hit point, 1 {attack}, and 1 {defence}. Players cannot defeat this stage while Nazgûl of Dol Guldur is in play. If it is defeated and Nazgûl of Dol Guldur is not in play, the players have won the game.">
        <attr key="scenario_title" value="Escape From Dol Guldur"/>
        <attr key="sequence" value="3B"/>
        <attr key="number" value="125"/>
@@ -1430,7 +1430,7 @@
        <attr key="type" value="Quest"/>
     </card>
 
-    <card name="To the River..." graphics="TotheRiver2.jpg" back="234" text="When Revealed: Search the encounter deck for 1 Hill Troll (if one is not already in play), and place it in the staging area. Shuffle the encounter deck. Players cannot defeat this stage while any Hill Troll cards are in play.">
+    <card name="To the River..." graphics="TotheRiver2.jpg" back="233" text="When Revealed: Search the encounter deck for 1 Hill Troll (if one is not already in play), and place it in the staging area. Shuffle the encounter deck. Players cannot defeat this stage while any Hill Troll cards are in play.">
        <attr key="scenario_title" value="Journey Along the Anduin"/>
        <attr key="sequence" value="1B"/>
        <attr key="number" value="126"/>
@@ -1450,7 +1450,7 @@
        <attr key="type" value="Quest"/>
     </card>
 
-    <card name="Anduin Passage" graphics="AnduinPassage2.jpg" back="236" text="Reveal 1 additional card from the encounter deck each quest phase. Do not make engagement checks during the encounter phase. (Each player may still optionally engage 1 enemy each encounter phase.)">
+    <card name="Anduin Passage" graphics="AnduinPassage2.jpg" back="235" text="Reveal 1 additional card from the encounter deck each quest phase. Do not make engagement checks during the encounter phase. (Each player may still optionally engage 1 enemy each encounter phase.)">
        <attr key="scenario_title" value="Journey Along the Anduin"/>
        <attr key="sequence" value="2B"/>
        <attr key="number" value="127"/>
@@ -1470,7 +1470,7 @@
        <attr key="type" value="Quest"/>
     </card>
 
-    <card name="Ambush on the Shore" graphics="AmbushontheShore2.jpg" back="238" text="When Revealed: Reveal 2 encounter cards per player and add them to the staging area. Skip the staging step of the quest phase for the remainder of the game. Once there are no enemies in play, the players have won the game.">
+    <card name="Ambush on the Shore" graphics="AmbushontheShore2.jpg" back="237" text="When Revealed: Reveal 2 encounter cards per player and add them to the staging area. Skip the staging step of the quest phase for the remainder of the game. Once there are no enemies in play, the players have won the game.">
        <attr key="scenario_title" value="Journey Along the Anduin"/>
        <attr key="sequence" value="3B"/>
        <attr key="number" value="128"/>

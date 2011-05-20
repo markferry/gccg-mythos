@@ -69,9 +69,7 @@ def SetUpPlayer
 #
 def InitialScore
 {
-  push(s);
   return(0);
-  s=pop();
 }
 
 #

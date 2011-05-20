@@ -1640,6 +1640,15 @@ def PlaySound
 # =======================
 
 #
+# ClearDeck(vis.self,vis.opp,deck object number) - Remove all cards from deck.
+#
+def ClearDeck
+{
+  while(length(decks{ARG[2]}[0]))
+    Take.DeckTop(ARG[0],ARG[1],ARG[2]);
+}
+
+#
 # Take.Active(vis.self,vis.opp,player,card index) - Take a card from active set.
 #
 def Take.Active

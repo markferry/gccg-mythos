@@ -83,14 +83,23 @@ def InitialScore
 def SetScenario
 {
   push(c);
-  push(d);
-  SendAll("Message","{orange}Setting up scenario: "+ARG[0]+".");
-  d=FindDeck(0,"quest");
-  for(c)(ARG[2])
-    Put.DeckTop(c,0,0,d);
-  d=FindDeck(0,"encounter");
-  for(c)(ARG[1])
-    Put.DeckTop(c,0,0,d);
-  d=pop();
+  push(q);
+  push(e);
+  if(length(table))
+    Reply("{red}Please clear the table before setting the scenario.");
+  else
+  {
+    SendAll("Message","{orange}Setting up scenario: "+ARG[0]+".");
+    q=FindDeck(0,"quest");
+    e=FindDeck(0,"encounter");
+    ClearDeck(0,0,q);
+    ClearDeck(0,0,e);
+    for(c)(ARG[2])
+      Put.DeckTop(c,0,0,q);
+    for(c)(ARG[1])
+      Put.DeckTop(c,0,0,e);
+  }
+  e=pop();
+  q=pop();
   c=pop();
 }

@@ -1,0 +1,66 @@
+#
+#  Lotr LCG server
+#  ---------------
+#
+#  Variables:
+#
+#  Functions:
+#
+
+screen.width=1024;
+screen.height=768;
+port=32011;
+meta.port=29114;
+
+# What piles have known order even if not visible.
+SELF_KNOWN_PILES=("quest");
+
+#
+# HOOKS
+# =====
+
+#
+# InitServerHook(nmb.of players) - Called during server initialization.
+#
+def InitServerHook
+{
+  for(i)(ARG)
+  {
+    visible.me[i]{"discard"}=0;
+    visible.me[i]{"deck"}=0;
+    visible.me[i]{"quest"}=1;
+    visible.me[i]{"encounter"}=0;
+    visible.opp[i]{"discard"}=0;
+    visible.opp[i]{"deck"}=0;
+    visible.opp[i]{"quest"}=1;
+    visible.opp[i]{"encounter"}=0;
+  }
+  score_adjust=(,);
+}
+
+#
+# GAME SPECIFIC FUNCTIONS
+# =======================
+
+#
+# SetUpPlayer(p) - Create necessary strucrures for player 'p'.
+#
+def SetUpPlayer
+{
+  CreateDeck(ARG,"deck",40,160);
+  CreateDeck(ARG,"discard",40,270);
+  CreateDeck(ARG,"encounter",40,50);
+  CreateDeck(ARG,"quest",140,50);
+}
+
+#
+# InitialScore(p) - Return a structure representing initial score for a player 'p'.
+#
+def InitialScore
+{
+  push(s);
+  s=(,);
+  s{"Threat"}=0;
+  return(s);
+  s=pop();
+}

@@ -1,0 +1,12 @@
+#
+# DECK RULES
+# ==========
+
+deck_rules=(,);
+server_description="Standard rules";
+deck_rules{"Tournament"}=(,);
+deck_rules{"Tournament"}{"deck"}=(
+  ("RuleDeckMinimum",50),
+  ("RuleCardLimitGeneral",3),
+  ("RulePass",NULL),
+);

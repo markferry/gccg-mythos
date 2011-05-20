@@ -6,4 +6,6 @@ if(!port)
 def InitDistributions
 {
   distribution=(,);
+  distribution{"C"}=(,);
+  distribution{"C"}{"pack"}=(,);
 }

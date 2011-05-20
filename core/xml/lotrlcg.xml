@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ccg SYSTEM "gccg-game.dtd">
+
+<ccg name="Lord of the Rings: Living Card Game" dir="Lotrlcg">
+
+  <cardset source="lotrlcg_basecards.xml"/>
+  <cardset source="core.xml"/>
+
+  <image tag="{attack}" file="attack.png" />
+
+  <option name="hand card size" value="30"/>
+  <option name="table card size" value="25"/>
+  <option name="deck card size" value="20"/>
+  <option name="book card size" value="30"/>
+
+  <option name="deck order" value="type"/>
+  <option name="deck color by" value="type"/>
+  <option name="draw hints" value="type"/>
+
+  <trigger event="location hint" attribute="type"/>
+  <trigger event="play" attribute="type"/>
+
+</ccg>

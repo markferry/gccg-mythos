@@ -1,0 +1,790 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ccg-setinfo SYSTEM "../gccg-set.dtd">
+<ccg-setinfo name="Core" dir="Core" abbrev="C" game="Lord of the Rings LCG">
+  <cards>
+
+    <card name="Aragorn" graphics="Aragorn.jpg" text="Response: After Aragorn commits to a quest, spend 1 resource from his resource pool to ready him.">
+       <attr key="unique" value="O"/>
+       <attr key="hp" value="5"/>
+       <attr key="sphere" value="{leadership}"/>
+       <attr key="number" value="1"/>
+       <attr key="defence" value="2"/>
+       <attr key="attack" value="3"/>
+       <attr key="threat_cost" value="12"/>
+       <attr key="rarity" value="F1"/>
+       <attr key="will" value="2"/>
+       <attr key="type" value="Hero"/>
+       <attr key="abilities" value="Sentinel"/>
+       <attr key="traits" value="Dúnedain. Noble. Ranger."/>
+    </card>
+
+    <card name="Théodred" graphics="Theodred.jpg" text="Response: After Théodred commits to a quest, choose a hero committed to that quest. Add 1 resource to that hero's resource pool.">
+       <attr key="unique" value="O"/>
+       <attr key="hp" value="4"/>
+       <attr key="sphere" value="{leadership}"/>
+       <attr key="number" value="2"/>
+       <attr key="defence" value="1"/>
+       <attr key="attack" value="2"/>
+       <attr key="threat_cost" value="8"/>
+       <attr key="will" value="1"/>
+       <attr key="rarity" value="F1"/>
+       <attr key="type" value="Hero"/>
+       <attr key="traits" value="Noble. Rohan. Warrior."/>
+    </card>
+
+    <card name="Glóin" graphics="Gloin.jpg" text="Response: After Glóin suffers damage, add 1 resource to his resource pool for each point of damage he just suffered.">
+       <attr key="unique" value="O"/>
+       <attr key="hp" value="4"/>
+       <attr key="sphere" value="{leadership}"/>
+       <attr key="number" value="3"/>
+       <attr key="defence" value="1"/>
+       <attr key="attack" value="2"/>
+       <attr key="threat_cost" value="9"/>
+       <attr key="will" value="2"/>
+       <attr key="rarity" value="F1"/>
+       <attr key="type" value="Hero"/>
+       <attr key="traits" value="Dwarf. Noble."/>
+    </card>
+
+    <card name="Gimli" graphics="Gimli.jpg" text="Gimli gets +1 {attack} for each damage token on him.">
+       <attr key="unique" value="O"/>
+       <attr key="hp" value="5"/>
+       <attr key="sphere" value="{tactics}"/>
+       <attr key="number" value="4"/>
+       <attr key="defence" value="2"/>
+       <attr key="attack" value="2"/>
+       <attr key="threat_cost" value="11"/>
+       <attr key="will" value="2"/>
+       <attr key="rarity" value="F1"/>
+       <attr key="type" value="Hero"/>
+       <attr key="traits" value="Dwarf. Noble. Warrior."/>
+    </card>
+
+    <card name="Legolas" graphics="Legolas.jpg" text="Response: After Legolas participates in an attack that destroys an enemy, place 2 progress tokens on the current quest.">
+       <attr key="unique" value="O"/>
+       <attr key="hp" value="4"/>
+       <attr key="sphere" value="{tactics}"/>
+       <attr key="number" value="5"/>
+       <attr key="defence" value="1"/>
+       <attr key="attack" value="3"/>
+       <attr key="threat_cost" value="9"/>
+       <attr key="will" value="1"/>
+       <attr key="rarity" value="F1"/>
+       <attr key="type" value="Hero"/>
+       <attr key="abilities" value="Ranged"/>
+       <attr key="traits" value="Noble. Silvan. Warrior."/>
+    </card>
+
+    <card name="Thalin" graphics="Thalin.jpg" text="While Thalin is committed to a quest, deal 1 damage to each enemy as it is revealed by the encounter deck.">
+       <attr key="unique" value="O"/>
+       <attr key="hp" value="4"/>
+       <attr key="sphere" value="{tactics}"/>
+       <attr key="number" value="6"/>
+       <attr key="defence" value="2"/>
+       <attr key="attack" value="2"/>
+       <attr key="threat_cost" value="9"/>
+       <attr key="will" value="1"/>
+       <attr key="rarity" value="F1"/>
+       <attr key="type" value="Hero"/>
+       <attr key="traits" value="Dwarf. Warrior."/>
+    </card>
+
+    <card name="Éowyn" graphics="Eowyn.jpg" text="Action: Discard 1 card from your hand to give Éowyn +1 {will} until the end of the phase. This effect may be triggered by each player once each round.">
+       <attr key="unique" value="O"/>
+       <attr key="hp" value="3"/>
+       <attr key="sphere" value="{spirit}"/>
+       <attr key="number" value="7"/>
+       <attr key="defence" value="1"/>
+       <attr key="attack" value="1"/>
+       <attr key="threat_cost" value="9"/>
+       <attr key="will" value="4"/>
+       <attr key="rarity" value="F1"/>
+       <attr key="type" value="Hero"/>
+       <attr key="traits" value="Noble. Rohan."/>
+    </card>
+
+    <card name="Eleanor" graphics="Eleanor.jpg" text="Response: Exhaust Eleanor to cancel the &quot;when revealed&quot; effects of a treachery card just revealed by the encounter deck. Then, discard that card and replace it with the next card from the encounter deck.">
+       <attr key="unique" value="O"/>
+       <attr key="hp" value="3"/>
+       <attr key="sphere" value="{spirit}"/>
+       <attr key="number" value="8"/>
+       <attr key="defence" value="2"/>
+       <attr key="attack" value="1"/>
+       <attr key="threat_cost" value="7"/>
+       <attr key="will" value="1"/>
+       <attr key="rarity" value="F1"/>
+       <attr key="type" value="Hero"/>
+       <attr key="traits" value="Gondor. Noble."/>
+    </card>
+
+    <card name="Dúnhere" graphics="Dunhere.jpg" text="Dúnhere can target enemies in the staging area when he attacks alone. When doing so, he gets +1 {attack}.">
+       <attr key="unique" value="O"/>
+       <attr key="hp" value="4"/>
+       <attr key="sphere" value="{spirit}"/>
+       <attr key="number" value="9"/>
+       <attr key="defence" value="1"/>
+       <attr key="attack" value="2"/>
+       <attr key="threat_cost" value="8"/>
+       <attr key="will" value="1"/>
+       <attr key="rarity" value="F1"/>
+       <attr key="type" value="Hero"/>
+       <attr key="traits" value="Rohan. Warrior."/>
+    </card>
+
+    <card name="Denethor" graphics="Denethor.jpg" text="Action: Exhaust Denethor to look at the top card of the encounter deck. You may move that card to the bottom of the deck.">
+       <attr key="unique" value="O"/>
+       <attr key="hp" value="3"/>
+       <attr key="sphere" value="{lore}"/>
+       <attr key="number" value="10"/>
+       <attr key="defence" value="3"/>
+       <attr key="attack" value="1"/>
+       <attr key="threat_cost" value="8"/>
+       <attr key="will" value="1"/>
+       <attr key="rarity" value="F1"/>
+       <attr key="type" value="Hero"/>
+       <attr key="traits" value="Gondor. Noble. Steward."/>
+    </card>
+
+    <card name="Glorfindel" graphics="Glorfindel.jpg" text="Action: Pay 1 resource from Glorfindel's pool to heal 1 damage on any character. (Limit once per round.)">
+       <attr key="unique" value="O"/>
+       <attr key="hp" value="5"/>
+       <attr key="sphere" value="{lore}"/>
+       <attr key="number" value="11"/>
+       <attr key="defence" value="1"/>
+       <attr key="attack" value="3"/>
+       <attr key="threat_cost" value="12"/>
+       <attr key="will" value="3"/>
+       <attr key="rarity" value="F1"/>
+       <attr key="type" value="Hero"/>
+       <attr key="traits" value="Noble. Noldor. Warrior."/>
+    </card>
+
+    <card name="Beravor" graphics="Beravor.jpg" text="Action: Exhaust Beravor to choose a player. That player draws 2 cards.">
+       <attr key="unique" value="O"/>
+       <attr key="hp" value="4"/>
+       <attr key="sphere" value="{lore}"/>
+       <attr key="number" value="12"/>
+       <attr key="defence" value="2"/>
+       <attr key="attack" value="2"/>
+       <attr key="threat_cost" value="10"/>
+       <attr key="will" value="2"/>
+       <attr key="rarity" value="F1"/>
+       <attr key="type" value="Hero"/>
+       <attr key="traits" value="Dúnedain. Ranger."/>
+    </card>
+
+    <card name="Guard of the Citadel" graphics="GuardoftheCitadel.jpg" text="">
+       <attr key="cost" value="2"/>
+       <attr key="hp" value="2"/>
+       <attr key="sphere" value="{leadership}"/>
+       <attr key="number" value="13"/>
+       <attr key="defence" value="0"/>
+       <attr key="attack" value="1"/>
+       <attr key="will" value="1"/>
+       <attr key="rarity" value="F3"/>
+       <attr key="type" value="Ally"/>
+       <attr key="traits" value="Gondor. Warrior."/>
+    </card>
+
+    <card name="Faramir" graphics="Faramir.jpg" text="Action: Exhaust Faramir to choose a player. Each character controlled by that player gets +1 {will} until the end of the phase.">
+       <attr key="cost" value="4"/>
+       <attr key="unique" value="O"/>
+       <attr key="hp" value="3"/>
+       <attr key="sphere" value="{leadership}"/>
+       <attr key="number" value="14"/>
+       <attr key="defence" value="2"/>
+       <attr key="attack" value="1"/>
+       <attr key="will" value="2"/>
+       <attr key="rarity" value="F2"/>
+       <attr key="type" value="Ally"/>
+       <attr key="traits" value="Gondor. Noble. Ranger."/>
+    </card>
+
+    <card name="Son of Arnor" graphics="SonofArnor.jpg" text="Response: After Son of Arnor enters play, choose an enemy card in the staging area or currently engaged with another player. Engage that enemy.">
+       <attr key="cost" value="3"/>
+       <attr key="hp" value="2"/>
+       <attr key="sphere" value="{leadership}"/>
+       <attr key="number" value="15"/>
+       <attr key="defence" value="0"/>
+       <attr key="attack" value="2"/>
+       <attr key="will" value="0"/>
+       <attr key="rarity" value="F2"/>
+       <attr key="type" value="Ally"/>
+       <attr key="traits" value="Dúnedain."/>
+    </card>
+
+    <card name="Snowbourn Scout" graphics="SnowbournScout.jpg" text="Response: After Snowbourn Scout enters play, choose a location. Place 1 progress token on that location.">
+       <attr key="cost" value="1"/>
+       <attr key="hp" value="1"/>
+       <attr key="sphere" value="{leadership}"/>
+       <attr key="number" value="16"/>
+       <attr key="defence" value="1"/>
+       <attr key="attack" value="0"/>
+       <attr key="will" value="0"/>
+       <attr key="rarity" value="F3"/>
+       <attr key="type" value="Ally"/>
+       <attr key="traits" value="Rohan. Scout."/>
+    </card>
+
+    <card name="Silverlode Archer" graphics="SilverlodeArcher.jpg" text="">
+       <attr key="cost" value="3"/>
+       <attr key="hp" value="1"/>
+       <attr key="sphere" value="{leadership}"/>
+       <attr key="number" value="17"/>
+       <attr key="defence" value="0"/>
+       <attr key="attack" value="2"/>
+       <attr key="will" value="1"/>
+       <attr key="rarity" value="F2"/>
+       <attr key="type" value="Ally"/>
+       <attr key="abilities" value="Ranged"/>
+       <attr key="traits" value="Archer. Silvan."/>
+    </card>
+
+    <card name="Longbeard Orc Slayer" graphics="LongbeardOrcSlayer.jpg" text="Response: After Longbeard Orc Slayer enters play, deal 1 damage to each Orc enemy in play.">
+       <attr key="cost" value="4"/>
+       <attr key="hp" value="3"/>
+       <attr key="sphere" value="{leadership}"/>
+       <attr key="number" value="18"/>
+       <attr key="defence" value="1"/>
+       <attr key="attack" value="2"/>
+       <attr key="will" value="0"/>
+       <attr key="rarity" value="F2"/>
+       <attr key="type" value="Ally"/>
+       <attr key="traits" value="Dwarf. Warrior."/>
+    </card>
+
+    <card name="Brok Ironfist" graphics="BrokIronfist.jpg" text="Response: After a Dwarf hero you control leaves play, put Brok Ironfist into play from your hand.">
+       <attr key="cost" value="6"/>
+       <attr key="unique" value="O"/>
+       <attr key="hp" value="4"/>
+       <attr key="sphere" value="{leadership}"/>
+       <attr key="number" value="19"/>
+       <attr key="defence" value="1"/>
+       <attr key="attack" value="2"/>
+       <attr key="will" value="2"/>
+       <attr key="rarity" value="F1"/>
+       <attr key="type" value="Ally"/>
+       <attr key="traits" value="Dwarf. Warrior."/>
+    </card>
+
+    <card name="Ever Vigilant" graphics="EverVigilant.jpg" text="Action: Choose and ready 1 ally card.">
+       <attr key="cost" value="1"/>
+       <attr key="sphere" value="{leadership}"/>
+       <attr key="number" value="20"/>
+       <attr key="rarity" value="F2"/>
+       <attr key="type" value="Event"/>
+    </card>
+
+    <card name="Common Cause" graphics="CommonCause.jpg" text="Action: Exhaust 1 hero you control to choose and ready a different hero.">
+       <attr key="cost" value="0"/>
+       <attr key="sphere" value="{leadership}"/>
+       <attr key="number" value="21"/>
+       <attr key="rarity" value="F2"/>
+       <attr key="type" value="Event"/>
+    </card>
+
+    <card name="For Gondor!" graphics="ForGondor.jpg" text="Action: Until the end of the phase, all characters get +1 {attack}. All Gondor characters also get +1 {defence} until the end of the phase.">
+       <attr key="cost" value="2"/>
+       <attr key="sphere" value="{leadership}"/>
+       <attr key="number" value="22"/>
+       <attr key="rarity" value="F2"/>
+       <attr key="type" value="Event"/>
+    </card>
+
+    <card name="Sneak Attack" graphics="SneakAttack.jpg" text="Action: Put 1 ally card into play from your hand. At the end of the phase, if that ally is still in play, return it to your hand.">
+       <attr key="cost" value="1"/>
+       <attr key="sphere" value="{leadership}"/>
+       <attr key="number" value="23"/>
+       <attr key="rarity" value="F2"/>
+       <attr key="type" value="Event"/>
+    </card>
+
+    <card name="Valiant Sacrifice" graphics="ValiantSacrifice.jpg" text="Response: After an ally card leaves play, that card's controller draws 2 cards.">
+       <attr key="cost" value="1"/>
+       <attr key="sphere" value="{leadership}"/>
+       <attr key="number" value="24"/>
+       <attr key="rarity" value="F2"/>
+       <attr key="type" value="Event"/>
+    </card>
+
+    <card name="Grim Resolve" graphics="GrimResolve.jpg" text="Action: Ready all character cards in play.">
+       <attr key="cost" value="5"/>
+       <attr key="sphere" value="{leadership}"/>
+       <attr key="number" value="25"/>
+       <attr key="rarity" value="F1"/>
+       <attr key="type" value="Event"/>
+    </card>
+
+    <card name="Steward of Gondor" graphics="StewardofGondor.jpg" text="Attach to a hero. Attached hero gains the Gondor trait. Action: Exhaust Steward of Gondor to add 2 resources to the attached hero's resource pool.">
+       <attr key="cost" value="2"/>
+       <attr key="unique" value="O"/>
+       <attr key="sphere" value="{leadership}"/>
+       <attr key="number" value="26"/>
+       <attr key="rarity" value="F2"/>
+       <attr key="type" value="Attachment"/>
+       <attr key="traits" value="Gondor. Title"/>
+    </card>
+
+    <card name="Celebrían's Stone" graphics="CelebriansStone.jpg" text="Attach to a hero. Restricted. Attached hero gains +2 {will}. If attached hero is Aragorn, he also gains a SPI resource icon.">
+       <attr key="cost" value="2"/>
+       <attr key="unique" value="O"/>
+       <attr key="sphere" value="{leadership}"/>
+       <attr key="number" value="27"/>
+       <attr key="rarity" value="F1"/>
+       <attr key="type" value="Attachment"/>
+       <attr key="traits" value="Artifact. Item"/>
+    </card>
+
+    <card name="Veteran Axehand" graphics="VeteranAxehand.jpg" text="">
+       <attr key="cost" value="2"/>
+       <attr key="hp" value="2"/>
+       <attr key="sphere" value="{tactics}"/>
+       <attr key="number" value="28"/>
+       <attr key="defence" value="1"/>
+       <attr key="attack" value="2"/>
+       <attr key="will" value="0"/>
+       <attr key="rarity" value="F3"/>
+       <attr key="type" value="Ally"/>
+       <attr key="traits" value="Dwarf. Warrior."/>
+    </card>
+
+    <card name="Gondorian Spearman" graphics="GondorianSpearman.jpg" text="Response: After Gondorian Spearman is declared as a defender, deal 1 damage to the attacking enemy.">
+       <attr key="cost" value="2"/>
+       <attr key="hp" value="1"/>
+       <attr key="sphere" value="{tactics}"/>
+       <attr key="number" value="29"/>
+       <attr key="defence" value="1"/>
+       <attr key="attack" value="1"/>
+       <attr key="will" value="0"/>
+       <attr key="rarity" value="F3"/>
+       <attr key="type" value="Ally"/>
+       <attr key="abilities" value="Sentinel"/>
+       <attr key="traits" value="Gondor. Warrior."/>
+    </card>
+
+    <card name="Horseback Archer" graphics="HorsebackArcher.jpg" text="">
+       <attr key="cost" value="3"/>
+       <attr key="hp" value="2"/>
+       <attr key="sphere" value="{tactics}"/>
+       <attr key="number" value="30"/>
+       <attr key="defence" value="1"/>
+       <attr key="attack" value="2"/>
+       <attr key="will" value="0"/>
+       <attr key="rarity" value="F2"/>
+       <attr key="type" value="Ally"/>
+       <attr key="abilities" value="Ranged"/>
+       <attr key="traits" value="Rohan. Archer."/>
+    </card>
+
+    <card name="Beorn" graphics="Beorn.jpg" text="Action: Beorn gains +5 {attack} until the end of the phase. At the end of the phase in which you trigger this effect, shuffle Beorn back into your deck. (Limit once per round.)">
+       <attr key="cost" value="6"/>
+       <attr key="unique" value="O"/>
+       <attr key="hp" value="6"/>
+       <attr key="sphere" value="{tactics}"/>
+       <attr key="number" value="31"/>
+       <attr key="defence" value="3"/>
+       <attr key="attack" value="3"/>
+       <attr key="will" value="1"/>
+       <attr key="rarity" value="F1"/>
+       <attr key="type" value="Ally"/>
+       <attr key="traits" value="Beorning. Warrior."/>
+    </card>
+
+    <card name="Blade Mastery" graphics="BladeMastery.jpg" text="Action: Choose a character. Until the end of the phase, that character gains +1 {attack} and +1 {defence}.">
+       <attr key="cost" value="1"/>
+       <attr key="sphere" value="{tactics}"/>
+       <attr key="number" value="32"/>
+       <attr key="rarity" value="F3"/>
+       <attr key="type" value="Event"/>
+    </card>
+
+    <card name="Rain of Arrows" graphics="RainofArrows.jpg" text="Action: Exhaust a character you control with the ranged keyword to choose a player. Deal 1 damage to each enemy engaged with that player.">
+       <attr key="cost" value="1"/>
+       <attr key="sphere" value="{tactics}"/>
+       <attr key="number" value="33"/>
+       <attr key="rarity" value="F2"/>
+       <attr key="type" value="Event"/>
+    </card>
+
+    <card name="Feint" graphics="Feint.jpg" text="Combat Action: Choose an enemy engaged with a player. That enemy cannot attack this phase.">
+       <attr key="cost" value="1"/>
+       <attr key="sphere" value="{tactics}"/>
+       <attr key="number" value="34"/>
+       <attr key="rarity" value="F2"/>
+       <attr key="type" value="Event"/>
+    </card>
+
+    <card name="Quick Strike" graphics="QuickStrike.jpg" text="Action: Exhaust a character you control to immediately declare it as an attacker (and resolve its attack) against any eligible enemy target.">
+       <attr key="cost" value="1"/>
+       <attr key="sphere" value="{tactics}"/>
+       <attr key="number" value="35"/>
+       <attr key="rarity" value="F2"/>
+       <attr key="type" value="Event"/>
+    </card>
+
+    <card name="Thicket of Spears" graphics="ThicketofSpears.jpg" text="You must use resources from 3 different heroes' pools to pay for this card.. Action: Choose a player. That player's engaged enemies do not attack this phase.">
+       <attr key="cost" value="3"/>
+       <attr key="sphere" value="{tactics}"/>
+       <attr key="number" value="36"/>
+       <attr key="rarity" value="F2"/>
+       <attr key="type" value="Event"/>
+    </card>
+
+    <card name="Swift Strike" graphics="SwiftStrike.jpg" text="Response: After a character is declared as a defender, deal 2 damage to the attacking enemy.">
+       <attr key="cost" value="2"/>
+       <attr key="sphere" value="{tactics}"/>
+       <attr key="number" value="37"/>
+       <attr key="rarity" value="F1"/>
+       <attr key="type" value="Event"/>
+    </card>
+
+    <card name="Stand Together" graphics="StandTogether.jpg" text="Action: Choose a player. That player may declare any number of his eligible characters as defenders against each enemy attacking him this phase.">
+       <attr key="cost" value="0"/>
+       <attr key="sphere" value="{tactics}"/>
+       <attr key="number" value="38"/>
+       <attr key="rarity" value="F1"/>
+       <attr key="type" value="Event"/>
+    </card>
+
+    <card name="Blade of Gondolin" graphics="BladeofGondolin.jpg" text="Attach to a hero. Restricted. Attached hero gets +1 {attack} when attacking an Orc. Response: After attached hero attacks and destroys an enemy, place 1 progress token on the current quest.">
+       <attr key="cost" value="1"/>
+       <attr key="sphere" value="{tactics}"/>
+       <attr key="number" value="39"/>
+       <attr key="rarity" value="F2"/>
+       <attr key="type" value="Attachment"/>
+       <attr key="traits" value="Item. Weapon."/>
+    </card>
+
+    <card name="Citadel Plate" graphics="CitadelPlate.jpg" text="Attach to a hero. Restricted. Attached hero gets +4 Hit Points.">
+       <attr key="cost" value="4"/>
+       <attr key="sphere" value="{tactics}"/>
+       <attr key="number" value="40"/>
+       <attr key="rarity" value="F2"/>
+       <attr key="type" value="Attachment"/>
+       <attr key="traits" value="Item. Armor."/>
+    </card>
+
+    <card name="Dwarven Axe" graphics="DwarvenAxe.jpg" text="Attach to a hero. Restricted. Attached hero gains +1 {attack}. (+2 ATK instead if attached hero is a Dwarf.)">
+       <attr key="cost" value="2"/>
+       <attr key="sphere" value="{tactics}"/>
+       <attr key="number" value="41"/>
+       <attr key="rarity" value="F2"/>
+       <attr key="type" value="Attachment"/>
+       <attr key="traits" value="Item. Weapon."/>
+    </card>
+
+    <card name="Horn of Gondor" graphics="HornofGondor.jpg" text="Attach to a hero. Restricted. Response: After a character leaves play, add 1 resource to attached hero's pool.">
+       <attr key="cost" value="1"/>
+       <attr key="unique" value="O"/>
+       <attr key="sphere" value="{tactics}"/>
+       <attr key="number" value="42"/>
+       <attr key="rarity" value="F1"/>
+       <attr key="type" value="Attachment"/>
+       <attr key="traits" value="Item. Artifact."/>
+    </card>
+
+    <card name="Wandering Took" graphics="WanderingTook.jpg" text="Action: Reduce your threat by 3 to give control of Wandering Took to another player. Raise that player's threat by 3.">
+       <attr key="cost" value="2"/>
+       <attr key="hp" value="2"/>
+       <attr key="sphere" value="{spirit}"/>
+       <attr key="number" value="43"/>
+       <attr key="defence" value="1"/>
+       <attr key="attack" value="1"/>
+       <attr key="will" value="1"/>
+       <attr key="rarity" value="F2"/>
+       <attr key="type" value="Ally"/>
+       <attr key="traits" value="Hobbit."/>
+    </card>
+
+    <card name="Lórien Guide" graphics="LorienGuide.jpg" text="Response: After Lórien Guide commits to a quest, place 1 progress token on the active location.">
+       <attr key="cost" value="3"/>
+       <attr key="hp" value="2"/>
+       <attr key="sphere" value="{spirit}"/>
+       <attr key="number" value="44"/>
+       <attr key="defence" value="0"/>
+       <attr key="attack" value="1"/>
+       <attr key="will" value="1"/>
+       <attr key="rarity" value="F3"/>
+       <attr key="type" value="Ally"/>
+       <attr key="traits" value="Silvan. Scout."/>
+    </card>
+
+    <card name="Northern Tracker" graphics="NorthernTracker.jpg" text="Response: After Northern Tracker commits to a quest, place 1 progress token on each location in the staging area.">
+       <attr key="cost" value="4"/>
+       <attr key="hp" value="3"/>
+       <attr key="sphere" value="{spirit}"/>
+       <attr key="number" value="45"/>
+       <attr key="defence" value="2"/>
+       <attr key="attack" value="2"/>
+       <attr key="will" value="1"/>
+       <attr key="rarity" value="F2"/>
+       <attr key="type" value="Ally"/>
+       <attr key="traits" value="Dúnedain. Ranger."/>
+    </card>
+
+    <card name="The Galadhrim's Greeting" graphics="TheGaladhrimsGreeting.jpg" text="Action: Reduce 1 player's threat by 6 or reduce each player's threat by 2.">
+       <attr key="cost" value="3"/>
+       <attr key="sphere" value="{spirit}"/>
+       <attr key="number" value="46"/>
+       <attr key="rarity" value="F2"/>
+       <attr key="type" value="Event"/>
+    </card>
+
+    <card name="Strength of Will" graphics="StrengthofWill.jpg" text="Response: After you travel to a location, exhaust a SPI character to place 2 progress tokens on that location.">
+       <attr key="cost" value="0"/>
+       <attr key="sphere" value="{spirit}"/>
+       <attr key="number" value="47"/>
+       <attr key="rarity" value="F2"/>
+       <attr key="type" value="Event"/>
+    </card>
+
+    <card name="Hasty Stroke" graphics="HastyStroke.jpg" text="Response: Cancel a shadow effect just triggered during combat.">
+       <attr key="cost" value="1"/>
+       <attr key="sphere" value="{spirit}"/>
+       <attr key="number" value="48"/>
+       <attr key="rarity" value="F2"/>
+       <attr key="type" value="Event"/>
+    </card>
+
+    <card name="Will of the West" graphics="WilloftheWest.jpg" text="Action: Choose a player. Shuffle that player's discard pile back into his deck.">
+       <attr key="cost" value="1"/>
+       <attr key="sphere" value="{spirit}"/>
+       <attr key="number" value="49"/>
+       <attr key="rarity" value="F2"/>
+       <attr key="type" value="Event"/>
+    </card>
+
+    <card name="A Test of Will" graphics="ATestofWill.jpg" text="Response: Cancel the &quot;when revealed&quot; effects of a card that was just revealed from the encounter deck.">
+       <attr key="cost" value="1"/>
+       <attr key="sphere" value="{spirit}"/>
+       <attr key="number" value="50"/>
+       <attr key="rarity" value="F2"/>
+       <attr key="type" value="Event"/>
+    </card>
+
+    <card name="Stand and Fight" graphics="StandandFight.jpg" text="Action: Choose an ally with a printed cost of X in any player's discard pile. Put that ally into play under your control (The chosen ally can belong to any sphere of influence.)">
+       <attr key="cost" value="X"/>
+       <attr key="sphere" value="{spirit}"/>
+       <attr key="number" value="51"/>
+       <attr key="rarity" value="F3"/>
+       <attr key="type" value="Event"/>
+    </card>
+
+    <card name="A Light in the Dark" graphics="ALightintheDark.jpg" text="Action: Choose an enemy engaged with a player. Return that enemy to the staging area.">
+       <attr key="cost" value="2"/>
+       <attr key="sphere" value="{spirit}"/>
+       <attr key="number" value="52"/>
+       <attr key="rarity" value="F2"/>
+       <attr key="type" value="Event"/>
+    </card>
+
+    <card name="Dwarven Tomb" graphics="DwarvenTomb.jpg" text="Action: Return 1 SPI card from your discard pile to your hand.">
+       <attr key="cost" value="1"/>
+       <attr key="sphere" value="{spirit}"/>
+       <attr key="number" value="53"/>
+       <attr key="rarity" value="F1"/>
+       <attr key="type" value="Event"/>
+    </card>
+
+    <card name="Fortune or Fate" graphics="FortuneorFate.jpg" text="Action: Choose a hero in any player's discard pile. Put that card into play, under its owner's control.">
+       <attr key="cost" value="5"/>
+       <attr key="sphere" value="{spirit}"/>
+       <attr key="number" value="54"/>
+       <attr key="rarity" value="F1"/>
+       <attr key="type" value="Event"/>
+    </card>
+
+    <card name="The Favor of the Lady" graphics="TheFavoroftheLady.jpg" text="Attach to a hero. Attached hero gains +1 {will}.">
+       <attr key="cost" value="2"/>
+       <attr key="sphere" value="{spirit}"/>
+       <attr key="number" value="55"/>
+       <attr key="rarity" value="F2"/>
+       <attr key="type" value="Attachment"/>
+       <attr key="traits" value="Condition."/>
+    </card>
+
+    <card name="Power in the Earth" graphics="PowerintheEarth.jpg" text="Attach to a location. Attached location gets -1 {threat}">
+       <attr key="cost" value="1"/>
+       <attr key="sphere" value="{spirit}"/>
+       <attr key="number" value="56"/>
+       <attr key="rarity" value="F2"/>
+       <attr key="type" value="Attachment"/>
+       <attr key="traits" value="Condition."/>
+    </card>
+
+    <card name="Unexpected Courage" graphics="UnexpectedCourage.jpg" text="Attach to a hero. Action: Exhaust Unexpected Courage to ready attached hero.">
+       <attr key="cost" value="2"/>
+       <attr key="sphere" value="{spirit}"/>
+       <attr key="number" value="57"/>
+       <attr key="rarity" value="F1"/>
+       <attr key="type" value="Attachment"/>
+       <attr key="traits" value="Condition."/>
+    </card>
+
+    <card name="Daughter of the Nimrodel" graphics="DaughteroftheNimrodel.jpg" text="Action: Exhaust Daughter of the Nimrodel to heal up to 2 damage on any 1 hero.">
+       <attr key="cost" value="3"/>
+       <attr key="hp" value="1"/>
+       <attr key="sphere" value="{lore}"/>
+       <attr key="number" value="58"/>
+       <attr key="defence" value="0"/>
+       <attr key="attack" value="0"/>
+       <attr key="will" value="1"/>
+       <attr key="rarity" value="F3"/>
+       <attr key="type" value="Ally"/>
+       <attr key="traits" value="Silvan."/>
+    </card>
+
+    <card name="Erebor Hammersmith" graphics="EreborHammersmith.jpg" text="Response: After you play Erebor Hammersmith, return the topmost attachment in any player's discard pile to his hand.">
+       <attr key="cost" value="2"/>
+       <attr key="hp" value="3"/>
+       <attr key="sphere" value="{lore}"/>
+       <attr key="number" value="59"/>
+       <attr key="defence" value="1"/>
+       <attr key="attack" value="1"/>
+       <attr key="will" value="1"/>
+       <attr key="rarity" value="F2"/>
+       <attr key="type" value="Ally"/>
+       <attr key="traits" value="Dwarf. Craftsman."/>
+    </card>
+
+    <card name="Henamarth Riversong" graphics="HenamarthRiversong.jpg" text="Action: Exhaust Henamarth Riversong to look at the top card of the encounter deck.">
+       <attr key="cost" value="1"/>
+       <attr key="unique" value="O"/>
+       <attr key="hp" value="1"/>
+       <attr key="sphere" value="{lore}"/>
+       <attr key="number" value="60"/>
+       <attr key="defence" value="0"/>
+       <attr key="attack" value="1"/>
+       <attr key="will" value="1"/>
+       <attr key="rarity" value="F1"/>
+       <attr key="type" value="Ally"/>
+       <attr key="traits" value="Silvan."/>
+    </card>
+
+    <card name="Miner of the Iron Hills" graphics="MineroftheIronHills.jpg" text="Response: After Miner of the Iron Hills enters play, choose and discard 1 Condition attachment from play.">
+       <attr key="cost" value="2"/>
+       <attr key="hp" value="2"/>
+       <attr key="sphere" value="{lore}"/>
+       <attr key="number" value="61"/>
+       <attr key="defence" value="1"/>
+       <attr key="attack" value="1"/>
+       <attr key="will" value="0"/>
+       <attr key="rarity" value="F2"/>
+       <attr key="type" value="Ally"/>
+       <attr key="traits" value="Dwarf."/>
+    </card>
+
+    <card name="Gléowine" graphics="Gleowine.jpg" text="Action: Exhaust Gléowine to choose a player. That player draws 1 card.">
+       <attr key="cost" value="2"/>
+       <attr key="unique" value="O"/>
+       <attr key="hp" value="2"/>
+       <attr key="sphere" value="{lore}"/>
+       <attr key="number" value="62"/>
+       <attr key="defence" value="0"/>
+       <attr key="attack" value="0"/>
+       <attr key="will" value="1"/>
+       <attr key="rarity" value="F2"/>
+       <attr key="type" value="Ally"/>
+       <attr key="traits" value="Minstral. Rohan."/>
+    </card>
+
+    <card name="Lore of Imladris" graphics="LoreofImladris.jpg" text="Action: Choose a character. Heal all damage from that character.">
+       <attr key="cost" value="2"/>
+       <attr key="sphere" value="{lore}"/>
+       <attr key="number" value="63"/>
+       <attr key="rarity" value="F3"/>
+       <attr key="type" value="Event"/>
+    </card>
+
+    <card name="Lórien's Wealth" graphics="LoriensWealth.jpg" text="Action: Choose a player. That player draws 3 cards.">
+       <attr key="cost" value="3"/>
+       <attr key="sphere" value="{lore}"/>
+       <attr key="number" value="64"/>
+       <attr key="rarity" value="F2"/>
+       <attr key="type" value="Event"/>
+    </card>
+
+    <card name="Radagast's Cunning" graphics="RadagastsCunning.jpg" text="Quest Action: Choose an enemy in the staging area. Until the end of the phase, that enemy does not contribute its {threat}">
+       <attr key="cost" value="1"/>
+       <attr key="sphere" value="{lore}"/>
+       <attr key="number" value="65"/>
+       <attr key="rarity" value="F2"/>
+       <attr key="type" value="Event"/>
+    </card>
+
+    <card name="Secret Paths" graphics="SecretPaths.jpg" text="Quest Action: Choose a location in the staging area. Until the end of the phase, that location does not contribute its {threat}.">
+       <attr key="cost" value="1"/>
+       <attr key="sphere" value="{lore}"/>
+       <attr key="number" value="66"/>
+       <attr key="rarity" value="F2"/>
+       <attr key="type" value="Event"/>
+    </card>
+
+    <card name="Gandalf's Search" graphics="GandalfsSearch.jpg" text="Action: Look at the top X cards of any player's deck, add 1 of those cards to its owner's hand, and return the rest to the top of the deck in any order.">
+       <attr key="cost" value="X"/>
+       <attr key="sphere" value="{lore}"/>
+       <attr key="number" value="67"/>
+       <attr key="rarity" value="F2"/>
+       <attr key="type" value="Event"/>
+    </card>
+
+    <card name="Beorn's Hospitality" graphics="BeornsHospitality.jpg" text="Action: Choose a player. Heal all damage on each hero controlled by that player.">
+       <attr key="cost" value="5"/>
+       <attr key="sphere" value="{lore}"/>
+       <attr key="number" value="68"/>
+       <attr key="rarity" value="F1"/>
+       <attr key="type" value="Event"/>
+    </card>
+
+    <card name="Forest Snare" graphics="ForestSnare.jpg" text="Attach to an enemy engaged with a player. Attached enemy cannot attack.">
+       <attr key="cost" value="3"/>
+       <attr key="sphere" value="{lore}"/>
+       <attr key="number" value="69"/>
+       <attr key="rarity" value="F2"/>
+       <attr key="type" value="Attachment"/>
+       <attr key="traits" value="Item. Trap."/>
+    </card>
+
+    <card name="Protector of Lórien" graphics="ProtectorofLorien.jpg" text="Attach to a hero. Action: Discard a card from your hand to give the attached hero +1 {defence} or +1 {will} until the end of the phase.">
+       <attr key="cost" value="1"/>
+       <attr key="sphere" value="{lore}"/>
+       <attr key="number" value="70"/>
+       <attr key="rarity" value="F2"/>
+       <attr key="type" value="Attachment"/>
+       <attr key="traits" value="Title."/>
+    </card>
+
+    <card name="Dark Knowledge" graphics="DarkKnowledge.jpg" text="Attach to a hero. Attached hero gets -1 {will}. Response: Exhaust Dark Knowledge to look at 1 shadow card that was just dealt to an enemy attacking you.">
+       <attr key="cost" value="1"/>
+       <attr key="sphere" value="{lore}"/>
+       <attr key="number" value="71"/>
+       <attr key="rarity" value="F1"/>
+       <attr key="type" value="Attachment"/>
+       <attr key="traits" value="Condition."/>
+    </card>
+
+    <card name="Self Preservation" graphics="SelfPreservation.jpg" text="Attach to a character. Action: Exhaust Self Preservation to heal 2 points of damage from attached character.">
+       <attr key="cost" value="3"/>
+       <attr key="sphere" value="{lore}"/>
+       <attr key="number" value="72"/>
+       <attr key="rarity" value="F2"/>
+       <attr key="type" value="Attachment"/>
+       <attr key="traits" value="Skill."/>
+    </card>
+
+    <card name="Gandalf" graphics="Gandalf.jpg" text="At the end of the round, discard Gandalf from play. Response: After Gandalf enters play, (choose 1): draw 3 cards, deal 4 damage to 1 enemy in play, or reduce your threat by 5.">
+       <attr key="cost" value="5"/>
+       <attr key="unique" value="O"/>
+       <attr key="hp" value="4"/>
+       <attr key="sphere" value="{neutral}"/>
+       <attr key="number" value="73"/>
+       <attr key="defence" value="4"/>
+       <attr key="attack" value="4"/>
+       <attr key="will" value="4"/>
+       <attr key="rarity" value="F4"/>
+       <attr key="type" value="Ally"/>
+       <attr key="traits" value="Istari."/>
+    </card>
+
+  </cards>
+</ccg-setinfo>

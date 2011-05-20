@@ -5,11 +5,11 @@
 #
 # Used: 
 #
-# 29100-29113
+# 29100-29115
 # 29120-29131
 # 29140-29141
 # 29200-29999
-# 32000-32010
+# 32000-32099
 #      
 Mtg|29100|29101|29200-29299|200x285|Magic the Gathering
 Poker|29102|29109|32000-32010|210x294|Collectible Poker
@@ -21,3 +21,4 @@ Cthulhu|29103|29104|29700-29799|300x415|Call of Cthulhu
 Vtes|29105|29106|29800-29899|362x507|Vampire: The Eternal Struggle
 Sw|29107|29108|29900-29999|350x490|Star Wars: The Collectible Card Game
 Inwo|29112|29113|29122-29129|Illuminati: New World Order
+Lotrlcg|29114|29115|32011-32099|357x497|Lord of the Rings

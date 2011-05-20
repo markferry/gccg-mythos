@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <!DOCTYPE ccg SYSTEM "gccg-game.dtd">
 
-<ccg name="Lord of the Rings: Living Card Game" dir="Lotrlcg">
+<ccg name="Lord of the Rings: Living Card Game" dir="LotrLCG">
 
   <cardset source="lotrlcg_basecards.xml"/>
   <cardset source="core.xml"/>

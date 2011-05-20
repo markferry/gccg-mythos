@@ -61,6 +61,8 @@ sub repo_path
     return $path if -d $path."/graphics/$game_dir";
 
     my $path = abs_path("../../".lc($game_dir));
+    print "$game_dir $path/graphics/$game_dir\n";
+
     return $path if -d $path."/graphics/$game_dir";
 }
 
@@ -74,10 +76,12 @@ sub xml_path
     return $path=root_path()."/xml" if $file eq "";
 
     $path=repo_path()."/xml/";
+    print repo_path(),"\n";
     return $path if -f "$path/$game_dir/$file";
 
     $path=root_path()."/xml/";
     return $path if -f "$path/$game_dir/$file";
+
 
     die "Cannot find XML path for $file";
 }

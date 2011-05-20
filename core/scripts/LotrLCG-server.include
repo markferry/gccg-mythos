@@ -37,7 +37,6 @@ def InitServerHook
     visible.opp[i]{"quest"}=0;
     visible.opp[i]{"encounter deck"}=0;
   }
-  score_adjust=(,);
 }
 
 #
@@ -71,9 +70,7 @@ def SetUpPlayer
 def InitialScore
 {
   push(s);
-  s=(,);
   return(0);
-  return(s);
   s=pop();
 }
 

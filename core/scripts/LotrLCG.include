@@ -174,7 +174,7 @@ def TryTransferHook
 	return(ARG[0],deck.objects[me]{"encounter deck"});
   else if( card_back(card.number)==1 && ((ARG==("deck.top",deck.objects[me]{"discard pile"}) || ARG==("deck.bottom",deck.objects[me]{"discard pile"}))) )
 	return(ARG[0],deck.objects[me]{"encounter discard"});
-  else if( card_back(card.number)==2 && (ARG==("deck.top",deck) || ARG==("deck.bottom",deck) || ARG==("deck.top",deck.objects[me]{"discard pile"}) || ARG==("deck.bottom",deck.objects[me]{"discard pile"})) )
+  else if( Attr("type",card.number)=="Quest" && (ARG==("deck.top",deck) || ARG==("deck.bottom",deck) || ARG==("deck.top",deck.objects[me]{"discard pile"}) || ARG==("deck.bottom",deck.objects[me]{"discard pile"})) )
 	return(ARG[0],deck.objects[me]{"quest"});
   else 
 	return(ARG);
@@ -185,7 +185,7 @@ def EndOfTurnHook
   push(s);
   s=score.raw[me];
   s{'Threat'}=s{'Threat'}+1;
-  Msg("{yellow}Threat count increased by 1");
+  Msg("{yellow}" + username + "'s threat count increased by 1");
   Send("Score",(me,s));
   s=pop();
 }
@@ -196,14 +196,14 @@ def InputHook
   s=score.raw[me];
   if(flag.playing && substr(ARG,0,1)=="+" && tostr(toint(ARG))==substr(ARG,1)) 
   {
-    Msg("{yellow}Threat count increased by " + substr(ARG,1));
+    Msg("{yellow}" + username + "'s threat count increased by " + substr(ARG,1));
     s{'Threat'}=s{'Threat'}+toint(ARG);
     Send("Score",(me,s));
     return(1);
   }
   else if(flag.playing && substr(ARG,0,1)=="-" && tostr(toint(ARG))==ARG)
   {
-    Msg("{yellow}Threat count decreased by " + substr(ARG,1));
+    Msg("{yellow}" + username + "'s threat count decreased by " + substr(ARG,1));
     s{'Threat'}=s{'Threat'}+toint(ARG);
     Send("Score",(me,s));
     return(1);

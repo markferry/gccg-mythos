@@ -10,11 +10,18 @@
   <image tag="{will}" file="will.png" />
   <image tag="{attack}" file="attack.png" />
   <image tag="{defence}" file="defence.png" />
+  <image tag="{leadership}" file="leadership.png" />
+  <image tag="{tactics}" file="tactics.png" />
+  <image tag="{lore}" file="lore.png" />
+  <image tag="{spirit}" file="spirit.png" />
   <image tag="{spider}" file="spider.png" />
+  <image tag="{orc}" file="orc.png" />
   <image tag="{orc_head}" file="orc_head.png" />
-  <image tag="{tree}" file="orc_head.png" />
-  <image tag="{paw}" file="orc_head.png" />
+  <image tag="{tree}" file="tree.png" />
+  <image tag="{paw}" file="paw.png" />
   <image tag="{eye}" file="eye.png" />
+  <image tag="{tower}" file="tower.png" />
+  <image tag="{river}" file="river.png" />
 
   <option name="hand card size" value="40"/>
   <option name="table card size" value="30"/>

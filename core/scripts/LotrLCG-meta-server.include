@@ -9,7 +9,7 @@ if(!load("products"))
   products{"The core set"}=(65536,40.00,("Core","pack"),65536);
 }
 
-INITIAL_MONEY=0.0;
+INITIAL_MONEY=40.0;
 GAME_BONUS=0.0;
 BET_BONUS_MULTIPLIER=0;
 LOSER_PERCENTAGE=0.00;

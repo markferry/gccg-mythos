@@ -39,7 +39,7 @@ FILTER_OPTIONS=(
  ("Sort by Name","1",(0,"[name]")),
  ("Sort by Type","1",(1,"[type]")),
  ("Sort by Sphere","1",(1,"[sphere]")),
- ("Sort by Encounter Set","1",(1,"[encounter_set]")), 
+ ("Encounter Sets","Attr('encounter_set',#)!=''",(1,"[encounter_set]")), 
 );
 
 GAME_MENU{"Current Deck Menu"}=(

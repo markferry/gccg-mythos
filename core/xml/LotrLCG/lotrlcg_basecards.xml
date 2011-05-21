@@ -5,7 +5,7 @@
   <cards>
     <card name="A Card" text="" graphics="lotrlcg_back.jpg">
     </card>
-    <card name="A Card" text="" graphics="lotrlcg_back2.jpg">
+    <card name="A Card" text="" back="1" graphics="lotrlcg_back2.jpg">
     </card>
     <card name="_unknown_" text="" graphics="">
     </card>

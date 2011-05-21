@@ -776,7 +776,7 @@
        <attr key="cost" value="5"/>
        <attr key="unique" value="O"/>
        <attr key="hp" value="4"/>
-       <attr key="sphere" value="{neutral}"/>
+       <attr key="sphere" value="Neutral"/>
        <attr key="number" value="73"/>
        <attr key="defence" value="4"/>
        <attr key="attack" value="4"/>

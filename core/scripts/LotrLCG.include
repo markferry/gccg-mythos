@@ -20,18 +20,26 @@ if(server.name=="NO.DEFAULT.SERVER.FOR.THIS.GAME")
 
 product.image=(,);
 
+game.bindings=(
+  ("KeyControlKey1","{orange}1. Resource phase..."),
+  ("KeyControlKey2","{orange}2. Planing phase..."),
+  ("KeyControlKey3","{orange}3. Quest phase..."),
+  ("KeyControlKey4","{orange}4. Travel phase..."),
+  ("KeyControlKey5","{orange}5. Encounter phase..."),
+  ("KeyControlKey6","{orange}6. Combat phase..."),
+  ("KeyControlKey7","{orange}7. Refresh phase..."),);
+
+if(options{"discard_attached"}==NULL)
+  options{"discard_attached"}="yes";
+
 # MENUS
 # =====
 
 FILTER_OPTIONS=(
- ("Card Types","1",(1,"[type]"))
-);
-
-GAME_MENU{"Tap a card"}=(
- (1,"Tap/Untap","middle click",""),
- (1,"Tap and keep tapped","","SetStayTapped()"),
- (1,"Invert as wounded","",'Send("Rotate",(object.number,180))'),
- (1,"Heal","",'Send("Rotate",(object.number,90))'),
+ ("Sort by Name","1",(0,"[name]")),
+ ("Sort by Type","1",(1,"[type]")),
+ ("Sort by Sphere","1",(1,"[sphere]")),
+ ("Sort by Encounter Set","1",(1,"[encounter_set]")), 
 );
 
 GAME_MENU{"Current Deck Menu"}=(
@@ -110,12 +118,164 @@ def StartGame
 {
   net_send(server,("UploadDeck",decks{deck.name}));
   net_send(server,("ShuffleDeck",deck));
-#  SearchStartingCards();
+
+  push(s);
+  push(i);
+  push(t);
+  i=0;
+  s=select('Attr("type",#)=="Hero"',decks{deck.name}{"deck"});  
+  forall('i=i+toint(Attr("threat_cost",#))',s);
+  t=(,);
+  t{'Threat'}=i;
+  Send("Score",(me,t));
+  forall('Send("Transfer",(1,("deck.search",deck.objects[me]{"deck"},#),("play",0)))',s);
+  t=pop();
+  i=pop();
+  s=pop();
 }
 
 #
 # HOOKS
 # =====
+
+def MouseLeftClickQuest
+{
+  PlayKeyControlKeyL();
+}
+
+def MouseLeftClickQuestSearchBoxHook
+{
+  TryTransferTo("play",0);
+  KeyEscape();
+}
+
+def MouseLeftClickEncounterDeck
+{
+  TryTransferTo("play",0);
+}
+
+def MouseMiddleClickEncounterDeck
+{
+  TryTransferTo("play",1);
+}
+
+def TryTransferHook
+{
+  if( card_back(card.number)==1 && ((ARG==("deck.top",deck) || ARG==("deck.bottom",deck))) )
+	return(ARG[0],deck.objects[me]{"encounter deck"});
+  else if( card_back(card.number)==1 && ((ARG==("deck.top",deck.objects[me]{"discard pile"}) || ARG==("deck.bottom",deck.objects[me]{"discard pile"}))) )
+	return(ARG[0],deck.objects[me]{"encounter discard"});
+  else if( card_back(card.number)==2 && (ARG==("deck.top",deck) || ARG==("deck.bottom",deck) || ARG==("deck.top",deck.objects[me]{"discard pile"}) || ARG==("deck.bottom",deck.objects[me]{"discard pile"})) )
+	return(ARG[0],deck.objects[me]{"quest"});
+  else 
+	return(ARG);
+}
+
+def EndOfTurnHook
+{
+  push(s);
+  s=score.raw[me];
+  s{'Threat'}=s{'Threat'}+1;
+  Msg("{yellow}Threat count increased by 1");
+  Send("Score",(me,s));
+  s=pop();
+}
+
+def InputHook
+{
+  push(s);
+  s=score.raw[me];
+  if(flag.playing && substr(ARG,0,1)=="+" && tostr(toint(ARG))==substr(ARG,1)) 
+  {
+    Msg("{yellow}Threat count increased by " + substr(ARG,1));
+    s{'Threat'}=s{'Threat'}+toint(ARG);
+    Send("Score",(me,s));
+    return(1);
+  }
+  else if(flag.playing && substr(ARG,0,1)=="-" && tostr(toint(ARG))==ARG)
+  {
+    Msg("{yellow}Threat count decreased by " + substr(ARG,1));
+    s{'Threat'}=s{'Threat'}+toint(ARG);
+    Send("Score",(me,s));
+    return(1);
+  }
+  else
+    return(0);
+  s=pop();
+}
+
+def PlayQuestMenu
+{
+  Menu("Quest Deck",(
+   ("Look at your quest","Ctrl+L",""),
+  ));
+}
+
+def PlayEncounterDiscardMenu
+{
+  Menu("Encounter Discard",(
+   ("Look at encounter discard","Ctrl+L",""),
+  ));
+}
+
+def PlayEncounterDeckMenu
+{
+  Menu("Encounter Deck",(
+   ("Play {blue}"+card.name,"left click",""),
+   ("Play {blue}"+card.name+"{black} face down","middle click","TryTransferTo('play',1)"),
+   ("Look at your quest","Ctrl+L",""),
+  ));
+}
+
+def MouseLeftClickQuestCard
+{
+	Send("AddMarker",(object.number,1));
+}
+
+def MouseLeftClickLocationCard
+{
+	Send("AddMarker",(object.number,1));
+}
+
+def MouseLeftClickEnemyCard
+{
+	Send("AddMarker",(object.number,0));
+}
+
+def MouseLeftClickHeroCard
+{
+	Send("AddMarker",(object.number,0));
+}
+
+def MouseLeftClickAllyCard
+{
+	Send("AddMarker",(object.number,0));
+}
+
+#
+# Hmm, do we want to take the burden of keeping this up to date...
+#
+def PutTableHook_Thinking_If_We_do_this
+{
+    if(name(ARG[4])=="Flies and Spiders")
+    {
+		Send("Transfer",(1,("deck.search",deck.objects[me]{"encounter deck"},first(select('name(#)=="Forest Spider"',decks{deck.name}{"encounter deck"}))),("play",0)));
+		Send("Transfer",(1,("deck.search",deck.objects[me]{"encounter deck"},first(select('name(#)=="Old Forest Road"',decks{deck.name}{"encounter deck"}))),("play",0)));
+		Send("ShuffleDeck",deck.objects[me]{"encounter deck"});
+	}
+    else if(name(ARG[4])=="To the River...")
+    {
+		Send("Transfer",(1,("deck.top",deck.objects[me]{"encounter deck"}),("play",0)));
+		Send("Transfer",(1,("deck.search",deck.objects[me]{"encounter deck"},first(select('name(#)=="Hill Troll"',decks{deck.name}{"encounter deck"}))),("play",0)));
+		Send("ShuffleDeck",deck.objects[me]{"encounter deck"});
+	}	
+    else if(name(ARG[4])=="The Necromancer's Tower")
+    {
+		Send("Transfer",(3,("deck.search",deck.objects[me]{"encounter deck"},select('Attr("type",#)=="Objective"',decks{deck.name}{"encounter deck"})),("play",0)));
+		Send("ShuffleDeck",deck.objects[me]{"encounter deck"});
+	}	
+}
+
 
 #
 # REDEFINED FUNCTIONS
@@ -126,7 +286,7 @@ def StartGame
 # 
 def ScoreToText
 {
-  return("");
+  return("Threat: "+ARG{'Threat'});
 }
 
 # MOUSE
@@ -148,7 +308,13 @@ def ScoreToText
 #
 def InitializeLocationTables
 {
-  rules.category=(,);
-
-  rules.coordinate=(,);
+  rules.category=(
+	('type=="Hero" || type=="Ally"','("characters","")'),
+	('type=="Enemy" || type=="Location" || type=="Objective"','("encounters","")'),
+	('type=="Treachery"','("treacheries","")'),
+	('type=="Quest"','("quests","")'),
+  );
+  rules.coordinate=(
+	(("characters",),((("StacksByGroup",card.xstep+10,design.height/3-card.ystep-10,(card.xstep*13)/10,0,0,0),),(,))),
+  );
 }

@@ -154,7 +154,7 @@ def MouseLeftClickQuest
 
 def MouseLeftClickQuestSearchBoxHook
 {
-  TryTransferTo("play",0);
+  TryTransferTo("play",1);
   KeyEscape();
 }
 

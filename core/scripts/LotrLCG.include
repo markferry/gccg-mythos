@@ -315,6 +315,6 @@ def InitializeLocationTables
 	('type=="Quest"','("quests","")'),
   );
   rules.coordinate=(
-	(("characters",),((("StacksByGroup",card.xstep+10,design.height/3-card.ystep-10,(card.xstep*13)/10,0,0,0),),(,))),
+	(("characters",),((("StacksByGroup",card.xstep+10,design.height/2-card.ystep-10,(card.xstep*13)/10,0,0,0),),(,))),
   );
 }

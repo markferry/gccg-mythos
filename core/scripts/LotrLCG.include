@@ -36,9 +36,10 @@ if(options{"discard_attached"}==NULL)
 # =====
 
 FILTER_OPTIONS=(
- ("Sort by Name","1",(0,"[name]")),
- ("Sort by Type","1",(1,"[type]")),
- ("Sort by Sphere","Attr('type',#)!='Enemy' && Attr('type',#)!='Location' && Attr('type',#)!='Treachery' && Attr('type',#)!='Objective' && Attr('type',#)!='Quest'",(1,"[sphere]")),
+ ("Cards by Name","1",(0,"[name]")),
+ ("Cards by Type","1",(1,"[type]")),
+ ("Cards by Sphere","Attr('type',#)!='Enemy' && Attr('type',#)!='Location' && Attr('type',#)!='Treachery' && Attr('type',#)!='Objective' && Attr('type',#)!='Quest'",(1,"[sphere]")),
+ ("Quests","Attr('type',#)=='Quest'",(2,"[age]","[scenario_title]","[sequence]")), 
  ("Encounter Sets","Attr('encounter_set',#)!=''",(1,"[encounter_set]")), 
 );
 

@@ -82,6 +82,15 @@ def ImportScenario
   d=pop();
 }
 
+def SingleCardMenuHook
+{
+  push(m);
+  m=(("Put to quest deck","","TryTransferTo('deck.top',deck.objects[me]{'quest'})"),
+     ("Put to encounter deck","","TryTransferTo('deck.top',deck.objects[me]{'encounter'})"),);
+  return(m);
+  m=pop();
+}
+
 # FUNCTIONS
 # =========
 

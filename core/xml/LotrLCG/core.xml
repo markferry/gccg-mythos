@@ -786,7 +786,7 @@
        <attr key="traits" value="Istari."/>
     </card>
 
-    <card name="King Spider" graphics="KingSpider.jpg" text="When Revealed: Each player must choose and exhaust 1 character he controls.">
+    <card name="King Spider" graphics="KingSpider.jpg" back="1" text="When Revealed: Each player must choose and exhaust 1 character he controls.">
        <attr key="engage" value="20"/>
        <attr key="hp" value="3"/>
        <attr key="threat" value="2"/>
@@ -800,7 +800,7 @@
        <attr key="traits" value="Creature. Spider"/>
     </card>
 
-    <card name="Hummerhorns" graphics="Hummerhorns.jpg" text="Forced: After Hummerhorns engages you, deal 5 damage to a single hero you control.">
+    <card name="Hummerhorns" graphics="Hummerhorns.jpg" back="1" text="Forced: After Hummerhorns engages you, deal 5 damage to a single hero you control.">
        <attr key="engage" value="40"/>
        <attr key="hp" value="3"/>
        <attr key="threat" value="1"/>
@@ -815,7 +815,7 @@
        <attr key="traits" value="Creature. Insect."/>
     </card>
 
-    <card name="Ungoliant's Spawn" graphics="UngoliantsSpawn.jpg" text="When Revealed: Each character currently committed to a quest gets -1 SPI until the end of the phase.">
+    <card name="Ungoliant's Spawn" graphics="UngoliantsSpawn.jpg" back="1" text="When Revealed: Each character currently committed to a quest gets -1 SPI until the end of the phase.">
        <attr key="engage" value="32"/>
        <attr key="hp" value="9"/>
        <attr key="threat" value="3"/>
@@ -829,7 +829,7 @@
        <attr key="traits" value="Creature. Spider."/>
     </card>
 
-    <card name="Great Forest Web" graphics="GreatForestWeb.jpg" text="Travel: Each player must exhaust 1 hero he controls to travel here.">
+    <card name="Great Forest Web" graphics="GreatForestWeb.jpg" back="1" text="Travel: Each player must exhaust 1 hero he controls to travel here.">
        <attr key="threat" value="2"/>
        <attr key="number" value="77"/>
        <attr key="quest_points" value="2"/>
@@ -839,7 +839,7 @@
        <attr key="traits" value="Forest."/>
     </card>
 
-    <card name="Mountains of Mirkwood" graphics="MountainsofMirkwood.jpg" text="Travel: Reveal the top card of the encounter deck and add it to the staging area to travel here. Response: After Mountains of Mirkwood leave play as an explored location, each player may search the top 5 cards of his deck for 1 card and add it to his hand. Shuffle the rest of the searched card back into their owners' decks.">
+    <card name="Mountains of Mirkwood" graphics="MountainsofMirkwood.jpg" back="1" text="Travel: Reveal the top card of the encounter deck and add it to the staging area to travel here. Response: After Mountains of Mirkwood leave play as an explored location, each player may search the top 5 cards of his deck for 1 card and add it to his hand. Shuffle the rest of the searched card back into their owners' decks.">
        <attr key="threat" value="3"/>
        <attr key="number" value="78"/>
        <attr key="quest_points" value="2"/>
@@ -849,21 +849,21 @@
        <attr key="traits" value="Forest. Mountain."/>
     </card>
 
-    <card name="Eyes of the Forest" graphics="EyesoftheForest.jpg" text="When Revealed: Each player discards all event cards in his hand.">
+    <card name="Eyes of the Forest" graphics="EyesoftheForest.jpg" back="1" text="When Revealed: Each player discards all event cards in his hand.">
        <attr key="number" value="79"/>
        <attr key="encounter_set" value="Spiders of Mirkwood {spider}"/>
        <attr key="rarity" value="F1"/>
        <attr key="type" value="Treachery"/>
     </card>
 
-    <card name="Caught in a Web" graphics="CaughtinaWeb.jpg" text="When Revealed: The player with the highest threat level attaches this card to one of his heroes. (Counts as a Condition attachment with the text: &quot;Attached hero does not ready during the refresh phase unless you pay 2 resources from that hero's pool.&quot;)">
+    <card name="Caught in a Web" graphics="CaughtinaWeb.jpg" back="1" text="When Revealed: The player with the highest threat level attaches this card to one of his heroes. (Counts as a Condition attachment with the text: &quot;Attached hero does not ready during the refresh phase unless you pay 2 resources from that hero's pool.&quot;)">
        <attr key="number" value="80"/>
        <attr key="encounter_set" value="Spiders of Mirkwood {spider}"/>
        <attr key="rarity" value="F2"/>
        <attr key="type" value="Treachery"/>
     </card>
 
-    <card name="Wolf Rider" graphics="WolfRider.jpg" text="">
+    <card name="Wolf Rider" graphics="WolfRider.jpg" back="1" text="">
        <attr key="engage" value="10"/>
        <attr key="hp" value="2"/>
        <attr key="threat" value="1"/>
@@ -878,7 +878,7 @@
        <attr key="traits" value="Goblin. Orc."/>
     </card>
 
-    <card name="Hill Troll" graphics="HillTroll.jpg" text="Excess combat damage dealt by Hill Troll (damage that is dealt beyond the remaining hit points of the character damaged by its attack) must be assigned as an increase to your threat.">
+    <card name="Hill Troll" graphics="HillTroll.jpg" back="1" text="Excess combat damage dealt by Hill Troll (damage that is dealt beyond the remaining hit points of the character damaged by its attack) must be assigned as an increase to your threat.">
        <attr key="engage" value="30"/>
        <attr key="hp" value="9"/>
        <attr key="threat" value="1"/>
@@ -892,7 +892,7 @@
        <attr key="traits" value="Troll."/>
     </card>
 
-    <card name="Goblin Sniper" graphics="GoblinSniper.jpg" text="During the encounter phase, players cannot optionally engage Goblin Sniper if there are other enemies in the staging area. Forced: If Goblin Sniper is in the staging area at the end of the combat phase, each player deals 1 point of damage to 1 character he controls.">
+    <card name="Goblin Sniper" graphics="GoblinSniper.jpg" back="1" text="During the encounter phase, players cannot optionally engage Goblin Sniper if there are other enemies in the staging area. Forced: If Goblin Sniper is in the staging area at the end of the combat phase, each player deals 1 point of damage to 1 character he controls.">
        <attr key="engage" value="48"/>
        <attr key="hp" value="2"/>
        <attr key="threat" value="2"/>
@@ -905,7 +905,7 @@
        <attr key="traits" value="Goblin. Orc."/>
     </card>
 
-    <card name="Marsh Adder" graphics="MarshAdder.jpg" text="Forced: Each time Marsh Adder attacks you, raise your threat by 1.">
+    <card name="Marsh Adder" graphics="MarshAdder.jpg" back="1" text="Forced: Each time Marsh Adder attacks you, raise your threat by 1.">
        <attr key="engage" value="40"/>
        <attr key="hp" value="7"/>
        <attr key="threat" value="3"/>
@@ -919,7 +919,7 @@
        <attr key="traits" value="Creature."/>
     </card>
 
-    <card name="Wargs" graphics="Wargs.jpg" text="Forced: If Wargs is dealt a shadow card with no effect, return Wargs to the staging area after it attacks.">
+    <card name="Wargs" graphics="Wargs.jpg" back="1" text="Forced: If Wargs is dealt a shadow card with no effect, return Wargs to the staging area after it attacks.">
        <attr key="engage" value="20"/>
        <attr key="hp" value="3"/>
        <attr key="threat" value="2"/>
@@ -933,7 +933,7 @@
        <attr key="traits" value="Creature."/>
     </card>
 
-    <card name="Despair" graphics="Despair.jpg" text="When Revealed: Remove 4 progress tokens from the current quest card. (If there are fewer than 4 progress tokens on the quest, remove all progress tokens from that quest.)">
+    <card name="Despair" graphics="Despair.jpg" back="1" text="When Revealed: Remove 4 progress tokens from the current quest card. (If there are fewer than 4 progress tokens on the quest, remove all progress tokens from that quest.)">
        <attr key="number" value="86"/>
        <attr key="encounter_set" value="Wilderlands {paw}"/>
        <attr key="rarity" value="F2"/>
@@ -941,7 +941,7 @@
        <attr key="type" value="Treachery"/>
     </card>
 
-    <card name="The Brown Lands" graphics="TheBrownLands.jpg" text="Forced: After the players travel to The Brown Lands, place 1 progress token on it.">
+    <card name="The Brown Lands" graphics="TheBrownLands.jpg" back="1" text="Forced: After the players travel to The Brown Lands, place 1 progress token on it.">
        <attr key="threat" value="5"/>
        <attr key="number" value="87"/>
        <attr key="quest_points" value="1"/>
@@ -951,7 +951,7 @@
        <attr key="traits" value="Wasteland."/>
     </card>
 
-    <card name="The East Bight" graphics="TheEastBight.jpg" text="When faced with the option to travel, the players must travel to The East Bight if there is no active location.">
+    <card name="The East Bight" graphics="TheEastBight.jpg" back="1" text="When faced with the option to travel, the players must travel to The East Bight if there is no active location.">
        <attr key="threat" value="1"/>
        <attr key="number" value="88"/>
        <attr key="quest_points" value="6"/>
@@ -961,7 +961,7 @@
        <attr key="traits" value="Wasteland."/>
     </card>
 
-    <card name="Dol Guldur Orcs" graphics="DolGuldurOrcs.jpg" text="When Revealed: The first player chooses 1 character currently committed to a quest. Deal 2 damage to that character.">
+    <card name="Dol Guldur Orcs" graphics="DolGuldurOrcs.jpg" back="1" text="When Revealed: The first player chooses 1 character currently committed to a quest. Deal 2 damage to that character.">
        <attr key="engage" value="10"/>
        <attr key="hp" value="3"/>
        <attr key="threat" value="2"/>
@@ -975,7 +975,7 @@
        <attr key="traits" value="Dol Guldur. Orc."/>
     </card>
 
-    <card name="Chieftan Ufthak" graphics="ChieftanUfthak.jpg" text="Chieftan Ufthank gets +2 {attack} for each resource token on him. Forced: After Chieftan Ufthak attacks, place 1 resource token on him.">
+    <card name="Chieftan Ufthak" graphics="ChieftanUfthak.jpg" back="1" text="Chieftan Ufthank gets +2 {attack} for each resource token on him. Forced: After Chieftan Ufthak attacks, place 1 resource token on him.">
        <attr key="engage" value="35"/>
        <attr key="hp" value="6"/>
        <attr key="threat" value="2"/>
@@ -989,7 +989,7 @@
        <attr key="traits" value="Dol Guldur. Orc."/>
     </card>
 
-    <card name="Dol Guldur Beastmaster" graphics="DolGuldurBeastmaster.jpg" text="Forced: After Dol Guldur Beastmaster attacks, deal it 1 additional shadow card.">
+    <card name="Dol Guldur Beastmaster" graphics="DolGuldurBeastmaster.jpg" back="1" text="Forced: After Dol Guldur Beastmaster attacks, deal it 1 additional shadow card.">
        <attr key="engage" value="35"/>
        <attr key="hp" value="5"/>
        <attr key="threat" value="2"/>
@@ -1002,7 +1002,7 @@
        <attr key="traits" value="Dol Guldur. Orc."/>
     </card>
 
-    <card name="Driven by Shadow" graphics="DrivenbyShadow.jpg" text="When Revealed: Each enemy and each location currently in the staging area gets +1 {threat} until the end of the phase. If there are no cards in the staging area, Driven by Shadow gains surge.">
+    <card name="Driven by Shadow" graphics="DrivenbyShadow.jpg" back="1" text="When Revealed: Each enemy and each location currently in the staging area gets +1 {threat} until the end of the phase. If there are no cards in the staging area, Driven by Shadow gains surge.">
        <attr key="number" value="92"/>
        <attr key="encounter_set" value="Dol Guldur Orcs {orc_head}"/>
        <attr key="rarity" value="F1"/>
@@ -1010,14 +1010,14 @@
        <attr key="type" value="Treachery"/>
     </card>
 
-    <card name="The Necromancer's Reach" graphics="TheNecromancersReach.jpg" text="When Revealed: Deal 1 damage to each exhausted character.">
+    <card name="The Necromancer's Reach" graphics="TheNecromancersReach.jpg" back="1" text="When Revealed: Deal 1 damage to each exhausted character.">
        <attr key="number" value="93"/>
        <attr key="encounter_set" value="Dol Guldur Orcs {orc_head}"/>
        <attr key="rarity" value="F3"/>
        <attr key="type" value="Treachery"/>
     </card>
 
-    <card name="Necromancer's Pass" graphics="NecromancersPass.jpg" text="Travel: The first player must discard 2 cards from his hand at random to travel here.">
+    <card name="Necromancer's Pass" graphics="NecromancersPass.jpg" back="1" text="Travel: The first player must discard 2 cards from his hand at random to travel here.">
        <attr key="threat" value="3"/>
        <attr key="number" value="94"/>
        <attr key="quest_points" value="2"/>
@@ -1027,7 +1027,7 @@
        <attr key="traits" value="Stronghold. Dol Guldur."/>
     </card>
 
-    <card name="Enchanted Stream" graphics="EnchantedStream.jpg" text="While Enchanted Stream is the active location, players cannot draw cards.">
+    <card name="Enchanted Stream" graphics="EnchantedStream.jpg" back="1" text="While Enchanted Stream is the active location, players cannot draw cards.">
        <attr key="threat" value="2"/>
        <attr key="number" value="95"/>
        <attr key="quest_points" value="2"/>
@@ -1037,7 +1037,7 @@
        <attr key="traits" value="Forest."/>
     </card>
 
-    <card name="Forest Spider" graphics="ForestSpider.jpg" text="Forced: After Forest Spider engages a player, it gets +1 {attack} until the end of the round.">
+    <card name="Forest Spider" graphics="ForestSpider.jpg" back="1" text="Forced: After Forest Spider engages a player, it gets +1 {attack} until the end of the round.">
        <attr key="engage" value="25"/>
        <attr key="hp" value="4"/>
        <attr key="threat" value="2"/>
@@ -1051,7 +1051,7 @@
        <attr key="traits" value="Creature. Spider."/>
     </card>
 
-    <card name="East Bight Patrol" graphics="EastBightPatrol.jpg" text="">
+    <card name="East Bight Patrol" graphics="EastBightPatrol.jpg" back="1" text="">
        <attr key="engage" value="5"/>
        <attr key="hp" value="2"/>
        <attr key="threat" value="3"/>
@@ -1065,7 +1065,7 @@
        <attr key="traits" value="Goblin. Orc."/>
     </card>
 
-    <card name="Black Forest Bats" graphics="BlackForestBats.jpg" text="When Revealed: Each player must choose 1 character currently committed to a quest, and remove that character from the quest. (The chosen character does not ready.)">
+    <card name="Black Forest Bats" graphics="BlackForestBats.jpg" back="1" text="When Revealed: Each player must choose 1 character currently committed to a quest, and remove that character from the quest. (The chosen character does not ready.)">
        <attr key="engage" value="15"/>
        <attr key="hp" value="2"/>
        <attr key="threat" value="1"/>
@@ -1078,7 +1078,7 @@
        <attr key="traits" value="Creature."/>
     </card>
 
-    <card name="Old Forest Road" graphics="OldForestRoad.jpg" text="Response: After you travel to Old Forest Road, the first player may choose and ready 1 character he controls.">
+    <card name="Old Forest Road" graphics="OldForestRoad.jpg" back="1" text="Response: After you travel to Old Forest Road, the first player may choose and ready 1 character he controls.">
        <attr key="threat" value="1"/>
        <attr key="number" value="99"/>
        <attr key="quest_points" value="3"/>
@@ -1088,7 +1088,7 @@
        <attr key="traits" value="Forest."/>
     </card>
 
-    <card name="Forest Gate" graphics="ForestGate.jpg" text="Response: After you travel to Forest Gate, the first player may draw 2 cards.">
+    <card name="Forest Gate" graphics="ForestGate.jpg" back="1" text="Response: After you travel to Forest Gate, the first player may draw 2 cards.">
        <attr key="threat" value="2"/>
        <attr key="number" value="100"/>
        <attr key="quest_points" value="4"/>
@@ -1098,7 +1098,7 @@
        <attr key="traits" value="Forest."/>
     </card>
 
-    <card name="Dungeon Jailor" graphics="DungeonJailor.jpg" text="Forced: If Dungeon Jailor is in the staging area after the players have just quested unsuccessfully, shuffle 1 unclaimed objective card from the staging area back into the encounter deck.">
+    <card name="Dungeon Jailor" graphics="DungeonJailor.jpg" back="1" text="Forced: If Dungeon Jailor is in the staging area after the players have just quested unsuccessfully, shuffle 1 unclaimed objective card from the staging area back into the encounter deck.">
        <attr key="engage" value="38"/>
        <attr key="hp" value="5"/>
        <attr key="threat" value="1"/>
@@ -1111,7 +1111,7 @@
        <attr key="traits" value="Dol Gulgur. Orc."/>
     </card>
 
-    <card name="Nazgûl of Dol Guldur" graphics="NazgulofDolGuldur.jpg" text="Forced: When the prisoner is &quot;rescued,&quot; move Nazgûl of Dol Guldur into the staging area. Forced: After a shadow effect dealt to Nazgûl of Dol Guldur resolves, the engaged player must choose and discard 1 character he controls.">
+    <card name="Nazgûl of Dol Guldur" graphics="NazgulofDolGuldur.jpg" back="1" text="Forced: When the prisoner is &quot;rescued,&quot; move Nazgûl of Dol Guldur into the staging area. Forced: After a shadow effect dealt to Nazgûl of Dol Guldur resolves, the engaged player must choose and discard 1 character he controls.">
        <attr key="engage" value="40"/>
        <attr key="hp" value="9"/>
        <attr key="threat" value="5"/>
@@ -1124,7 +1124,7 @@
        <attr key="traits" value="Nazgûl"/>
     </card>
 
-    <card name="Cavern Guardian" graphics="CavernGuardian.jpg" text="">
+    <card name="Cavern Guardian" graphics="CavernGuardian.jpg" back="1" text="">
        <attr key="engage" value="8"/>
        <attr key="hp" value="2"/>
        <attr key="threat" value="2"/>
@@ -1139,7 +1139,7 @@
        <attr key="traits" value="Undead."/>
     </card>
 
-    <card name="Under the Shadow" graphics="UndertheShadow.jpg" text="When Revealed: Until the end of the phase, raise the total {threat} in the stating area by X, where X is the number of players in the game.">
+    <card name="Under the Shadow" graphics="UndertheShadow.jpg" back="1" text="When Revealed: Until the end of the phase, raise the total {threat} in the stating area by X, where X is the number of players in the game.">
        <attr key="number" value="104"/>
        <attr key="encounter_set" value="Escape from Dol Guldur {tower}"/>
        <attr key="rarity" value="F2"/>
@@ -1147,7 +1147,7 @@
        <attr key="type" value="Treachery"/>
     </card>
 
-    <card name="Iron Shackles" graphics="IronShackles.jpg" text="When Revealed: Attack Iron Shackles to the top of the first player's deck. (Counts as a Condition attachment with the text: &quot;The next time a player would draw 1 or more cards from the attached deck, discard Iron Shackles instead.&quot;)">
+    <card name="Iron Shackles" graphics="IronShackles.jpg" back="1" text="When Revealed: Attack Iron Shackles to the top of the first player's deck. (Counts as a Condition attachment with the text: &quot;The next time a player would draw 1 or more cards from the attached deck, discard Iron Shackles instead.&quot;)">
        <attr key="number" value="105"/>
        <attr key="encounter_set" value="Escape from Dol Guldur {tower}"/>
        <attr key="rarity" value="F1"/>
@@ -1155,7 +1155,7 @@
        <attr key="type" value="Treachery"/>
     </card>
 
-    <card name="Endless Caverns" graphics="EndlessCaverns.jpg" text="">
+    <card name="Endless Caverns" graphics="EndlessCaverns.jpg" back="1" text="">
        <attr key="threat" value="1"/>
        <attr key="number" value="106"/>
        <attr key="quest_points" value="3"/>
@@ -1166,7 +1166,7 @@
        <attr key="traits" value="Dungeon."/>
     </card>
 
-    <card name="Tower Gate" graphics="TowerGate.jpg" text="Forced:After travelling to Tower Gate, each player places the top card of his deck, face down in front of him, as if it just engaged him from the staging area. These cards are called &quot;Orc Guard,&quot; and act as enemies with: 1 hit point, 1 {attack}, and 1 {defence}.">
+    <card name="Tower Gate" graphics="TowerGate.jpg" back="1" text="Forced:After travelling to Tower Gate, each player places the top card of his deck, face down in front of him, as if it just engaged him from the staging area. These cards are called &quot;Orc Guard,&quot; and act as enemies with: 1 hit point, 1 {attack}, and 1 {defence}.">
        <attr key="threat" value="2"/>
        <attr key="number" value="107"/>
        <attr key="quest_points" value="1"/>
@@ -1176,7 +1176,7 @@
        <attr key="traits" value="Dungeon."/>
     </card>
 
-    <card name="Gandalf's Map" graphics="GandalfsMap.jpg" text="Action: Raise your threat by 2 to claim this objective when it is free of encounters. When claimed, attach Gandalf's Map to a hero you control. (Counts as an attachment. If detached, return Gandalf's Map to the staging area.) Attached hero cannot attack or defend.">
+    <card name="Gandalf's Map" graphics="GandalfsMap.jpg" back="1" text="Action: Raise your threat by 2 to claim this objective when it is free of encounters. When claimed, attach Gandalf's Map to a hero you control. (Counts as an attachment. If detached, return Gandalf's Map to the staging area.) Attached hero cannot attack or defend.">
        <attr key="number" value="108"/>
        <attr key="encounter_set" value="Escape from Dol Guldur {tower}"/>
        <attr key="rarity" value="F1"/>
@@ -1184,7 +1184,7 @@
        <attr key="abilities" value="Guarded. Restricted."/>
     </card>
 
-    <card name="Dungeon Torch" graphics="DungeonTorch.jpg" text="Action: Raise your threat by 2 to claim this objective when it is free of encounters. When claimed, attach Dungeon Torch to a hero you control. (Counts as an attachment. If detached, return Dungeon Torch to the staging area.) Forced: At the end of each round, raise attached hero's controller's threat by 2.">
+    <card name="Dungeon Torch" graphics="DungeonTorch.jpg" back="1" text="Action: Raise your threat by 2 to claim this objective when it is free of encounters. When claimed, attach Dungeon Torch to a hero you control. (Counts as an attachment. If detached, return Dungeon Torch to the staging area.) Forced: At the end of each round, raise attached hero's controller's threat by 2.">
        <attr key="number" value="109"/>
        <attr key="encounter_set" value="Escape from Dol Guldur {tower}"/>
        <attr key="rarity" value="F1"/>
@@ -1192,7 +1192,7 @@
        <attr key="abilities" value="Guarded. Restricted."/>
     </card>
 
-    <card name="Shadow Key" graphics="ShadowKey.jpg" text="Action: Raise your threat by 2 to claim this objective when it is free of encounters. When claimed, attach Shadow Key to a hero you control. (Counts as an attachment. If detached, return Shadow Key to the staging area.) Forced: At the end of each round, attached hero suffers 1 damage.">
+    <card name="Shadow Key" graphics="ShadowKey.jpg" back="1" text="Action: Raise your threat by 2 to claim this objective when it is free of encounters. When claimed, attach Shadow Key to a hero you control. (Counts as an attachment. If detached, return Shadow Key to the staging area.) Forced: At the end of each round, attached hero suffers 1 damage.">
        <attr key="number" value="110"/>
        <attr key="encounter_set" value="Escape from Dol Guldur {tower}"/>
        <attr key="rarity" value="F1"/>
@@ -1200,7 +1200,7 @@
        <attr key="abilities" value="Guarded. Restricted."/>
     </card>
 
-    <card name="Misty Mountain Goblins" graphics="MistyMountainGoblins.jpg" text="Forced: After Misty Mountain Goblins attacks, remove 1 progress token from the current quest.">
+    <card name="Misty Mountain Goblins" graphics="MistyMountainGoblins.jpg" back="1" text="Forced: After Misty Mountain Goblins attacks, remove 1 progress token from the current quest.">
        <attr key="engage" value="15"/>
        <attr key="hp" value="3"/>
        <attr key="threat" value="2"/>
@@ -1214,7 +1214,7 @@
        <attr key="traits" value="Goblin. Orc."/>
     </card>
 
-    <card name="Massing at Night" graphics="MassingatNight.jpg" text="When Revealed: Reveal X additional cards from the encounter deck. X is the number of players in the game.">
+    <card name="Massing at Night" graphics="MassingatNight.jpg" back="1" text="When Revealed: Reveal X additional cards from the encounter deck. X is the number of players in the game.">
        <attr key="number" value="112"/>
        <attr key="encounter_set" value="Journey Down the Anduin {river}"/>
        <attr key="rarity" value="F1"/>
@@ -1222,7 +1222,7 @@
        <attr key="type" value="Treachery"/>
     </card>
 
-    <card name="Banks of the Anduin" graphics="BanksoftheAnduin.jpg" text="Forced: If Banks of the Anduin leaves play, return it to the top of the encounter deck instead of placing it in the discard pile.">
+    <card name="Banks of the Anduin" graphics="BanksoftheAnduin.jpg" back="1" text="Forced: If Banks of the Anduin leaves play, return it to the top of the encounter deck instead of placing it in the discard pile.">
        <attr key="threat" value="1"/>
        <attr key="number" value="113"/>
        <attr key="quest_points" value="3"/>
@@ -1232,7 +1232,7 @@
        <attr key="traits" value="Riverland."/>
     </card>
 
-    <card name="Gladden Fields" graphics="GladdenFields.jpg" text="Forced: When Gladden Fields is the active location, each player must raise his threat by an additional point during the refresh phase.">
+    <card name="Gladden Fields" graphics="GladdenFields.jpg" back="1" text="Forced: When Gladden Fields is the active location, each player must raise his threat by an additional point during the refresh phase.">
        <attr key="threat" value="3"/>
        <attr key="number" value="114"/>
        <attr key="quest_points" value="3"/>
@@ -1243,7 +1243,7 @@
        <attr key="traits" value="Marshland."/>
     </card>
 
-    <card name="Eastern Crows" graphics="EasternCrows.jpg" text="Forced: After Eastern Crows is defeated, shuffle it back into the encounter deck.">
+    <card name="Eastern Crows" graphics="EasternCrows.jpg" back="1" text="Forced: After Eastern Crows is defeated, shuffle it back into the encounter deck.">
        <attr key="engage" value="30"/>
        <attr key="hp" value="1"/>
        <attr key="threat" value="1"/>
@@ -1258,14 +1258,14 @@
        <attr key="traits" value="Creature."/>
     </card>
 
-    <card name="Evil Storm" graphics="EvilStorm.jpg" text="When Revealed: Deal 1 damage to each character controlled by each player with a threat of 35 or higher.">
+    <card name="Evil Storm" graphics="EvilStorm.jpg" back="1" text="When Revealed: Deal 1 damage to each character controlled by each player with a threat of 35 or higher.">
        <attr key="number" value="116"/>
        <attr key="encounter_set" value="Sauron's Reach {eye}"/>
        <attr key="rarity" value="F3"/>
        <attr key="type" value="Treachery"/>
     </card>
 
-    <card name="Pursued by Shadow" graphics="PursuedbyShadow.jpg" text="When Revealed: Each player raises his threat by 1 for each character he controls that is not currently committed to a quest.">
+    <card name="Pursued by Shadow" graphics="PursuedbyShadow.jpg" back="1" text="When Revealed: Each player raises his threat by 1 for each character he controls that is not currently committed to a quest.">
        <attr key="number" value="117"/>
        <attr key="encounter_set" value="Sauron's Reach {eye}"/>
        <attr key="rarity" value="F2"/>
@@ -1273,7 +1273,7 @@
        <attr key="type" value="Treachery"/>
     </card>
 
-    <card name="Treacherous Fog" graphics="TreacherousFog.jpg" text="When Revealed: Each location in the staging area gets +1 {threat} until the end of the phase. Then, each player with a threat of 35 or higher chooses and discards 1 card from his hand.">
+    <card name="Treacherous Fog" graphics="TreacherousFog.jpg" back="1" text="When Revealed: Each location in the staging area gets +1 {threat} until the end of the phase. Then, each player with a threat of 35 or higher chooses and discards 1 card from his hand.">
        <attr key="number" value="118"/>
        <attr key="encounter_set" value="Sauron's Reach {eye}"/>
        <attr key="rarity" value="F2"/>

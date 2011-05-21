@@ -32,10 +32,12 @@ def InitServerHook
     visible.me[i]{"deck"}=0;
     visible.me[i]{"quest"}=0;
     visible.me[i]{"encounter deck"}=0;
+    visible.me[i]{"encounter discard"}=1;
     visible.opp[i]{"discard pile"}=1;
     visible.opp[i]{"deck"}=0;
     visible.opp[i]{"quest"}=0;
     visible.opp[i]{"encounter deck"}=0;
+    visible.opp[i]{"encounter discard"}=1;
   }
 }
 

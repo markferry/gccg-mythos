@@ -35,4 +35,13 @@
   <trigger event="location hint" attribute="type"/>
   <trigger event="play" attribute="type"/>
 
+  <option name="Ally text" value="{green}"/>
+  <option name="Attachment text" value="{gray}"/>
+  <option name="Event text" value="{blue}"/>
+  <option name="Hero text" value="{orange}"/>
+  <option name="Enemy text" value="{red}"/>
+  <option name="Location text" value="{brown}"/>
+  <option name="Treachery text" value="{black}"/>
+  <option name="Quest text" value="{magenta}"/>
+
 </ccg>

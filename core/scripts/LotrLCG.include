@@ -86,9 +86,25 @@ def ImportScenario
 def SingleCardMenuHook
 {
   push(m);
-  m=(("Put to quest deck","","TryTransferTo('deck.top',deck.objects[me]{'quest'})"),
-     ("Put to encounter deck","","TryTransferTo('deck.top',deck.objects[me]{'encounter'})"),);
+  push(n1);
+  push(n2);
+  if(me==0)
+  {
+    n1='quest';
+    n2='encounter deck';
+  }
+  else
+  {
+    n1='opponent quest';
+    n2='opponent encounter deck';
+  }
+
+  m=(("Put to quest deck","","TryTransferTo('deck.top',"+deck.objects[0]{n1}+")"),
+     ("Put to encounter deck","","TryTransferTo('deck.top',"+deck.objects[0]{n2}+")"),);
+
   return(m);
+  n2=pop();
+  n1=pop();
   m=pop();
 }
 
@@ -153,10 +169,20 @@ def MouseLeftClickQuest
   PlayKeyControlKeyL();
 }
 
+def MouseLeftClickOpponentQuest
+{
+  MouseLeftClickQuest();
+}
+
 def MouseLeftClickQuestSearchBoxHook
 {
   TryTransferTo("play",1);
   KeyEscape();
+}
+
+def MouseLeftClickOpponentQuestSearchBoxHook
+{
+  MouseLeftClickQuestSearchBoxHook();
 }
 
 def MouseLeftClickEncounterDeck
@@ -164,9 +190,19 @@ def MouseLeftClickEncounterDeck
   TryTransferTo("play",0);
 }
 
+def MouseLeftClickOpponentEncounterDeck
+{
+  MouseLeftClickEncounterDeck();
+}
+
 def MouseMiddleClickEncounterDeck
 {
   TryTransferTo("play",1);
+}
+
+def MouseMiddleClickOpponentEncounterDeck
+{
+  MouseMiddleClickEncounterDeck();
 }
 
 def TryTransferHook
@@ -265,7 +301,7 @@ def MouseLeftClickAllyCard
 #
 # Hmm, do we want to take the burden of keeping this up to date...
 #
-def PutTableHook_Thinking_If_We_do_this
+def PutTableHook_tmp
 {
     if(name(ARG[4])=="Flies and Spiders")
     {
@@ -325,6 +361,6 @@ def InitializeLocationTables
 	('type=="Quest"','("quests","")'),
   );
   rules.coordinate=(
-	(("characters",),((("StacksByGroup",card.xstep+10,BASE_TABLE_HEIGHT/2-card.ystep-10,(card.xstep*13)/10,0,0,0),),(,))),
+	(("characters",),((("StacksByGroup",card.xstep+30,BASE_TABLE_HEIGHT/2-card.ystep-10,(card.xstep*14)/10,0,0,0),),(,))),
   );
 }

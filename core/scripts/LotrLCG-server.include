@@ -50,8 +50,8 @@ def InitServerHook
 #
 def SetUpPlayer
 {
-  CreateDeck(ARG,"deck",50,80);
-  CreateDeck(ARG,"discard pile",50,220);
+  CreateDeck(ARG,"deck",50,150);
+  CreateDeck(ARG,"discard pile",50,290);
   if(ARG==0)
   {
     CreateDeck(ARG,"encounter deck",screen.width-150,0);

@@ -94,6 +94,7 @@ GAME_MENU{"Current Deck Menu"}=(
  (1,"Add Dwarf-lord sites","","CurrentDeckAddSites('Dwarf-lord Site')"),
  (1,"Add Minion DC sites","","CurrentDeckAddSites('Minion DC Site')"),
  (1,"Add Balrog DC sites","","CurrentDeckAddSites('Balrog DC Site')"),
+ (1,"Add DC sites per regions...","","DCSitesRegions()"),
  (1,"Add some havens","","CurrentDeckAddHavens()"),
  (1,"Remove sites not owned","","CurrentDeckRemoveUnownedSites()"),
  (1,"{hr}","",""),
@@ -1022,6 +1023,20 @@ def ChatMapMenu
   ));
 }
 
+
+#
+# DCSitesRegions() - Generate menu for add DC sites for regions
+#
+def DCSitesRegions
+{
+Menu("DC Sites",(
+   ("Add sites in Eriador","","CurrentDeckAddSitesRegion('Eriador')"),
+#   ("Add sites in Sun Lands","","CurrentDeckAddSitesRegion(\"SunLands\")"),
+   ("Add sites in Northern Waste","","CurrentDeckAddSitesRegion(\"NWaste\")"),
+  ));
+}
+
+
 #
 # CurrentDeckRemoveSites() - Delete all cards from 'sites' section.
 #
@@ -1033,6 +1048,38 @@ def CurrentDeckRemoveSites
     RefreshCurrentDeck();
   }
 }
+
+#
+# CurrentDeckAddSites(site type) - Add one card of each site with the given type.
+#
+def CurrentDeckAddSitesRegion
+{
+  if(deck.name!=NULL && has_entry(deck.name,decks))
+  {
+    push(s);
+    push(a);
+	
+	s=cards()-cards("V1");
+
+    s=select("find('Site',Attr('type',#))!=NULL",s);
+	print ARG;
+
+    if(ARG=='Eriador')
+      decks{deck.name}{"sites"}=decks{deck.name}{"sites"}+select("card_attr('region',#)=='Angmar'",s)+select("card_attr('region',#)=='Númeriador'",s)+select("card_attr('region',#)=='Arthedain'",s)+select("card_attr('region',#)=='Rhudaur'",s)+select("card_attr('region',#)=='High Pass'",s)+select("card_attr('region',#)=='Misty Mountains'",s)+select("card_attr('region',#)=='The Shire'",s)+select("card_attr('region',#)=='Old Forest'",s)+select("card_attr('region',#)=='Cardolan'",s)+select("card_attr('region',#)=='Hollin'",s)+select("card_attr('region',#)=='Redhorn Gate'",s)+select("card_attr('region',#)=='Dunland'",s)+select("card_attr('region',#)=='Enedwaith'",s);
+	else if(ARG=='NWaste')
+	  decks{deck.name}{"sites"}=decks{deck.name}{"sites"}+select("card_attr('region',#)=='Forochel'",s)+select("card_attr('region',#)=='East Bay of Forochel'",s)+select("card_attr('region',#)=='Rast Losnaeth'",s)+select("card_attr('region',#)=='Iron Hills'",s)+select("card_attr('region',#)=='Lhûgdalf'",s)+select("card_attr('region',#)=='Talath Uichel'",s)+select("card_attr('region',#)=='Everdalf'",s)+select("card_attr('region',#)=='Minheldolath'",s)+select("card_attr('region',#)=='Thorenaer'",s)+select("card_attr('region',#)=='Withered Heath'",s)+select("card_attr('region',#)=='Talath Oiohelka'",s)+select("card_attr('region',#)=='Dor Bendor'",s)+select("card_attr('region',#)=='Sea of Silence'",s)+select("card_attr('region',#)=='Gondalf'",s)+select("card_attr('region',#)=='Ekkaia'",s)+select("card_attr('region',#)=='Lindalf'",s)+select("card_attr('region',#)=='Dragon Gap'",s)+select("card_attr('region',#)=='Forovirkain'",s)+select("card_attr('region',#)=='Mur Fostisyr'",s)+select("card_attr('region',#)=='Azjan'",s)+select("card_attr('region',#)=='Grey Mountains'",s)+select("card_attr('region',#)=='Barl Syrnac'",s)+select("card_attr('region',#)=='Ukal Sêj'",s)+select("card_attr('region',#)=='Helkëar'",s)+select("card_attr('region',#)=='Dyr'",s);
+
+	
+    SortSites();
+    RefreshCurrentDeck();
+
+    a=pop();
+    s=pop();
+  }
+}
+
+
+
 #
 # CurrentDeckAddSites(site type) - Add one card of each site with the given type.
 #

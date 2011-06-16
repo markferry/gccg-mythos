@@ -292,7 +292,7 @@
        <attr key="mind" value="3"/>
        <attr key="influence" value="0"/>
     </card>
-    <card name="Nimloth" graphics="Nimloth.jpg" text="Unique. Agent. +2 direct influence against Elves and Elf Factions. Agent only: may move to a Haven. {green} DCE: Add: Home site: Celebannon, Ceber Fanuin ;remove: Sarn Goriwing">
+    <card name="Nimloth" graphics="NimlothDC.jpg" text="Unique. Agent. +2 direct influence against Elves and Elf Factions. Agent only: may move to a Haven. {green} DCE: Add: Home site: Celebannon, Ceber Fanuin ;remove: Sarn Goriwing">
        <attr key="unique" value="yes"/>
        <attr key="skills" value="Scout/Ranger"/>
        <attr key="mp" value="1"/>

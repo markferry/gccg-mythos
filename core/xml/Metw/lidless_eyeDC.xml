@@ -787,7 +787,7 @@
        <attr key="class" value="Creature"/>
        <attr key="type" value="Hazard"/>
     </card>
-    <card name="Barrow-wight" graphics="Barrowwight.jpg" text="Undead. One strike. After the attack, each character wounded by Barrow-wight makes a corruption check modified by -2. {cyan} UEP: Barrow-wight is playable at Barrow-downs.">
+    <card name="Barrow-wight" graphics="BarrowwightDC.jpg" text="Undead. One strike. After the attack, each character wounded by Barrow-wight makes a corruption check modified by -2. {cyan} UEP: Barrow-wight is playable at Barrow-downs.">
        <attr key="strikes" value="1"/>
        <attr key="mp" value="1"/>
        <attr key="playable" value="{s}{d}{S}{D}"/>
@@ -830,7 +830,7 @@
        <attr key="class" value="Creature"/>
        <attr key="type" value="Hazard"/>
     </card>
-    <card name="Cave Worm" graphics="CaveWorm.jpg" text="Drake. One strike. May be played keyed to Redhorn Gate, High Pass, Gap of Isen, Angmar, Gundabad, Grey Mountain Narrows, Withered Heath, Númeriador, and Iron Hills.">
+    <card name="Cave Worm" graphics="CaveWormDC.jpg" text="Drake. One strike. May be played keyed to Redhorn Gate, High Pass, Gap of Isen, Angmar, Gundabad, Grey Mountain Narrows, Withered Heath, Númeriador, and Iron Hills.">
        <attr key="strikes" value="1"/>
        <attr key="mp" value="1"/>
        <attr key="body" value="-"/>
@@ -840,7 +840,7 @@
        <attr key="class" value="Creature"/>
        <attr key="type" value="Hazard"/>
     </card>
-    <card name="Cave-drake" graphics="Cavedrake.jpg" text="Dragon. Two strikes. Attacker chooses defending characters. {green} DCE: Replace Dragon, with: Drake">
+    <card name="Cave-drake" graphics="CavedrakeDC.jpg" text="Dragon. Two strikes. Attacker chooses defending characters. {green} DCE: Replace Dragon, with: Drake">
        <attr key="strikes" value="2"/>
        <attr key="mp" value="1"/>
        <attr key="playable" value="{w}{w}{R}"/>
@@ -1644,7 +1644,7 @@
        <attr key="class" value="Short-event"/>
        <attr key="type" value="Minion Resource"/>
     </card>
-    <card name="Black Rider" graphics="BlackRider.jpg" text="Black Rider mode. Playable at a Darkhaven during the organization phase on your Ringwraith's own company. The company may move to a non-Darkhaven site. Discard this card and any other Ringwraith followers in the company during any of your following organization phases the company is at a Darkhaven. Cannot be duplicated on a given company. {cyan} UEP: Discard this card and any other Ringwraith followers in the company during any of your following organization phases the company is at a Darkhaven after having moved from a non-Darkhaven site to a Darkhaven. Cannot be duplicated on a given company.">
+    <card name="Black Rider" graphics="BlackRiderDC.jpg" text="Black Rider mode. Playable at a Darkhaven during the organization phase on your Ringwraith's own company. The company may move to a non-Darkhaven site. Discard this card and any other Ringwraith followers in the company during any of your following organization phases the company is at a Darkhaven. Cannot be duplicated on a given company. {cyan} UEP: Discard this card and any other Ringwraith followers in the company during any of your following organization phases the company is at a Darkhaven after having moved from a non-Darkhaven site to a Darkhaven. Cannot be duplicated on a given company.">
        <attr key="rarity" value="CB+CS1"/>
        <attr key="class" value="Permanent-event"/>
        <attr key="type" value="Minion Resource"/>
@@ -1711,7 +1711,7 @@
        <attr key="class" value="Short-event"/>
        <attr key="type" value="Minion Resource"/>
     </card>
-    <card name="Fell Rider" graphics="FellRider.jpg" text="Fell Rider mode. Playable at a Darkhaven during the organization phase on your Ringwraith's own company. +2 prowess, -3 direct influence to your Ringwraith. Discard all allies and Ringwraith followers in the company; none may join the company. Your Ringwraith may move to a non-Darkhaven site. Discard this card during any of your following organization phases the company is at a Darkhaven. Cannot be duplicated on a given company. {cyan} UEP: Discard this card during any of your following organization phases the company is at a Darkhaven after having moved from a non-Darkhaven site to a Darkhaven. Cannot be duplicated on a given company.">
+    <card name="Fell Rider" graphics="FellRiderDC.jpg" text="Fell Rider mode. Playable at a Darkhaven during the organization phase on your Ringwraith's own company. +2 prowess, -3 direct influence to your Ringwraith. Discard all allies and Ringwraith followers in the company; none may join the company. Your Ringwraith may move to a non-Darkhaven site. Discard this card during any of your following organization phases the company is at a Darkhaven. Cannot be duplicated on a given company. {cyan} UEP: Discard this card during any of your following organization phases the company is at a Darkhaven after having moved from a non-Darkhaven site to a Darkhaven. Cannot be duplicated on a given company.">
        <attr key="rarity" value="CB+CS1"/>
        <attr key="class" value="Permanent-event"/>
        <attr key="type" value="Minion Resource"/>

@@ -2326,7 +2326,7 @@
        <attr key="type" value="Hero Resource"/>
 	   <attr key="keyword" value="Battle-gear"/>
     </card>
-    <card name="Goldberry" graphics="Goldberry.jpg" text="Unique. Playable at Old Forest. May not be attacked. Tap Goldberry to cancel any effect that would cause her company to return to its site of origin after declaring its movement to a new site. Alternatively, tap Goldberry to cancel one attack against her company keyed to Wilderness [{w}].">
+    <card name="Goldberry" graphics="GoldberryDC.jpg" text="Unique. Playable at Old Forest. May not be attacked. Tap Goldberry to cancel any effect that would cause her company to return to its site of origin after declaring its movement to a new site. Alternatively, tap Goldberry to cancel one attack against her company keyed to Wilderness [{w}].">
        <attr key="unique" value="yes"/>
        <attr key="mp" value="1"/>
        <attr key="rarity" value="U"/>
@@ -2733,7 +2733,7 @@
        <attr key="type" value="Hero Resource"/>
 	   <attr key="keyword" value="Palantír"/>
     </card>
-    <card name="Paths of the Dead" graphics="PathsoftheDead.jpg" text="Playable only at the end of the organization phase. For its movement, a company that starts at the Dunharrow site and contains Aragorn II may move to the Vale of Erech site. The only hazard creatures that may be played on this company are Undead, but any Undead may be played on the company.">
+    <card name="Paths of the Dead" graphics="PathsoftheDeadDC.jpg" text="Playable only at the end of the organization phase. For its movement, a company that starts at the Dunharrow site and contains Aragorn II may move to the Vale of Erech site. The only hazard creatures that may be played on this company are Undead, but any Undead may be played on the company.">
        <attr key="rarity" value="R"/>
        <attr key="class" value="Short-event"/>
        <attr key="type" value="Hero Resource"/>

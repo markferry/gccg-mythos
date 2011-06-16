@@ -624,7 +624,7 @@
        <attr key="class" value="Permanent-event"/>
        <attr key="type" value="Stage Resource"/>
     </card>
-    <card name="War-forges" graphics="Warforges.jpg" text="Playable on one of your protected Wizardhavens (not by Radagast). You may tap War-forges to make an additional non-hoard, non-unique minor item playable at this site this turn (if the site is tapped or not). The item may be taken from your discard pile or sideboard. Discard when this site is discarded or returned to your location deck. Cannot be duplicated on a given site.">
+    <card name="War-forges" graphics="WarforgesDC.jpg" text="Playable on one of your protected Wizardhavens (not by Radagast). You may tap War-forges to make an additional non-hoard, non-unique minor item playable at this site this turn (if the site is tapped or not). The item may be taken from your discard pile or sideboard. Discard when this site is discarded or returned to your location deck. Cannot be duplicated on a given site.">
        <attr key="sp" value="2"/>
        <attr key="rarity" value="U3"/>
        <attr key="class" value="Permanent-event"/>

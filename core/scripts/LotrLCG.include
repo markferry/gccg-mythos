@@ -207,13 +207,13 @@ def MouseMiddleClickOpponentEncounterDeck
 
 def TryTransferHook
 {
-  if( card_back(card.number)==1 && ((ARG==("deck.top",deck) || ARG==("deck.bottom",deck))) )
+    if( card_back(card.number)==1 && ((ARG==("deck.top",deck) || ARG==("deck.bottom",deck))) )
 	return(ARG[0],deck.objects[me]{"encounter deck"});
-  else if( card_back(card.number)==1 && ((ARG==("deck.top",deck.objects[me]{"discard pile"}) || ARG==("deck.bottom",deck.objects[me]{"discard pile"}))) )
+    else if( card_back(card.number)==1 && ((ARG==("deck.top",deck.objects[me]{"discard pile"}) || ARG==("deck.bottom",deck.objects[me]{"discard pile"}))) )
 	return(ARG[0],deck.objects[me]{"encounter discard"});
-  else if( Attr("type",card.number)=="Quest" && (ARG==("deck.top",deck) || ARG==("deck.bottom",deck) || ARG==("deck.top",deck.objects[me]{"discard pile"}) || ARG==("deck.bottom",deck.objects[me]{"discard pile"})) )
+    else if( Attr("type",card.number)=="Quest" && (ARG==("deck.top",deck) || ARG==("deck.bottom",deck) || ARG==("deck.top",deck.objects[me]{"discard pile"}) || ARG==("deck.bottom",deck.objects[me]{"discard pile"})) )
 	return(ARG[0],deck.objects[me]{"quest"});
-  else 
+    else 
 	return(ARG);
 }
 
@@ -346,6 +346,24 @@ def ScoreToText
 # =============
 
 #
+# PutTable(object number,x,y,orientation,card number,player,real card number) - Tap encounters.
+#
+def PutTableHook
+{
+  push(t);
+  t=Attr("type",ARG[6]);
+  if(t=="Enemy" || t=="Location" || t=="Objective")
+  {
+    if(me % 2 == 0)
+      Send("Rotate",(ARG[0],90));
+    else
+      Send("Rotate",(ARG[0],270));
+    add_text(ARG[0],STRING_KEEP_TAPPED);
+  }
+  t=pop();
+}
+
+#
 # LOCATION TABLES
 # ===============
 
@@ -360,7 +378,18 @@ def InitializeLocationTables
 	('type=="Treachery"','("treacheries","")'),
 	('type=="Quest"','("quests","")'),
   );
-  rules.coordinate=(
-	(("characters",),((("StacksByGroup",card.xstep+30,BASE_TABLE_HEIGHT/2-card.ystep-10,(card.xstep*14)/10,0,0,0),),(,))),
-  );
+
+  if(players==1)
+    rules.coordinate=(
+      (("characters",),((("StacksByGroup",card.xstep+30,BASE_TABLE_HEIGHT/2-card.ystep-10,(card.xstep*14)/10,0,0,0),),(,))),
+      (("encounters",),((("StacksByGroup",BASE_TABLE_WIDTH-card.xstep-10,-(3*card.ystep)/2,-(card.xstep*14)/10,0,0,0),),(,))),
+    );
+
+  if(players>1)
+    rules.coordinate=(
+      (("characters",),((("StacksByGroup",card.xstep+30,BASE_TABLE_HEIGHT/2-card.ystep-10,(card.xstep*14)/10,0,0,0),),(,))),
+      (("encounters",),((("StacksByGroup",BASE_TABLE_WIDTH-(5*card.xstep)/2,-card.ystep/2,-(card.xstep*14)/10,0,0,0),),(,))),
+    );
+
+
 }

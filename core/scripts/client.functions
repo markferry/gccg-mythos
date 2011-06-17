@@ -3229,68 +3229,63 @@ def SetDeck
 #
 def TryTransferTo
 {
-  push(d);
-  push(s);
+  if(object.number)
+  {
+    push(d);
+    push(s);
 
-  d=ARG;
-  s=NULL;
+    d=ARG;
+    s=NULL;
 
-  if(isfunction("TryTransferHook"))
-    d=call("TryTransferHook",d);
+    if(isfunction("TryTransferHook"))
+      d=call("TryTransferHook",d);
 
-  if(d[0]!="table" && object.type=="card")
-  {
-    s=("table",object.number);
-  }
-  elseif(object.type=="hand")
-  {
-    s=("hand",Owner(object.number),hand.card_index);
-  }
-  elseif(object.type=="deck")
-  {
-    ClearSearchbox();
-    s=("deck.top",object.number);
-  }
-  elseif(object.type=="cardbox" && count(object.number,active))
-  {
-    s=("active",Owner(object.number),cardbox.card_index);
-  }
-  elseif(d[0]!="active" && object.number==active[me])
-  {
-    s=("active",me,cardbox.card_index);
-  }
-  elseif(d[0]!="search.box" && cardbox.card_index >=0 && object.number==search.box)
-  {
-    s=("deck",search.source,cardbox.card_index);
-    del_cardbox_recenter(search.box,cardbox.card_index);
-  }
-  else if(object.number==select.box && select.source!=NULL)
-  {
-    s=first(forall(select.source,card.number));
-    del_cardbox_all_recenter(select.box);
-    set_attr(select.box,"visible",0);
-    if(isfunction("PlayFromSelectionHook"))
-      call("PlayFromSelectionHook",NULL);
-  }
-
-  if(s!=NULL)
-  {
-    if(IMMOBILE_CARDS==NULL)
-      IMMOBILE_CARDS=(,);
-
-    if(find(card.number,IMMOBILE_CARDS)==NULL)
+    if(d[0]!="table" && object.type=="card")
+      s=("table",object.number);
+    elseif(object.type=="hand")
+      s=("hand",Owner(object.number),hand.card_index);
+    elseif(object.type=="deck")
     {
-      if(transfer.options!=(,))
-        Send("Transfer",(1,s,d,transfer.options));
-      else
-        Send("Transfer",(1,s,d));
+      ClearSearchbox();
+      s=("deck.top",object.number);
     }
+    elseif(object.type=="cardbox" && count(object.number,active))
+      s=("active",Owner(object.number),cardbox.card_index);
+    elseif(d[0]!="active" && object.number==active[me])
+      s=("active",me,cardbox.card_index);
+    elseif(d[0]!="search.box" && cardbox.card_index >=0 && object.number==search.box)
+    {
+      s=("deck",search.source,cardbox.card_index);
+      del_cardbox_recenter(search.box,cardbox.card_index);
+    }
+    else if(object.number==select.box && select.source!=NULL)
+    {
+      s=first(forall(select.source,card.number));
+      del_cardbox_all_recenter(select.box);
+      set_attr(select.box,"visible",0);
+      if(isfunction("PlayFromSelectionHook"))
+        call("PlayFromSelectionHook",NULL);
+    }
+
+    if(s!=NULL)
+    {
+      if(IMMOBILE_CARDS==NULL)
+        IMMOBILE_CARDS=(,);
+
+      if(find(card.number,IMMOBILE_CARDS)==NULL)
+      {
+        if(transfer.options!=(,))
+          Send("Transfer",(1,s,d,transfer.options));
+        else
+          Send("Transfer",(1,s,d));
+      }
+    }
+
+    transfer.options=(,);
+
+    s=pop();
+    d=pop();
   }
-
-  transfer.options=(,);
-
-  s=pop();
-  d=pop();
 }
 
 #

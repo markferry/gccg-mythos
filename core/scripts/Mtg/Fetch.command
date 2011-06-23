@@ -53,7 +53,7 @@ def PlayCommandFetch
 		}
 		if(foundInDeck == (,))
 		{
-			Msg("{red}Can not find {brown}" + join(ARG, " ") + " {red}in your deck.")
+			Msg("{red}Can not find {brown}" + join(ARG, " ") + " {red}in your deck.");
 		}
 		else
 		{

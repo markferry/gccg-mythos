@@ -25,7 +25,7 @@ def CommandRemind
         {yellow}E: {white}Echo, Emblem, Enchant, Entwine, Epic, Equip, Evoke, Exalted.\n
         {yellow}F: {white}Fading, Fateseal, Fear, First strike, Flanking, Flash, Flashback, Flying, Forecast, Fortify, Frenzy.\n
         {yellow}G: {white}Graft, Grandeur, Gravestorm.\n
-        {yellow}H: {white}Haste, Haunt, Hellbent, Hideaway, Horsemanship.\n
+        {yellow}H: {white}Haste, Haunt, Hellbent, Hexproof, Hideaway, Horsemanship.\n
         {yellow}I: {white}Imprint, Infect, Intimidate.\n
         {yellow}K: {white}Kicker, Kinship.\n
         {yellow}L: {white}Landfall, Landwalk, Level up, Lifelink.\n
@@ -258,6 +258,10 @@ def CommandRemind
 	else if(lc(ARG)==("hellbent",))
 	{
         Msg("{yellow}Hellbent{white} is an ability word. The card itself explains the referred ability.");
+	}
+	else if(lc(ARG)==("hexproof",))
+	{
+        Msg("{yellow}Hexproof{white} is a static ability. \"Hexproof\" on a permanent means \"This permanent can't be the target of spells or abilities that permanent's controller opponents control.\". \"Hexproof\" on a player means \"This player can't be the target of spells or abilities that player's opponents control.\".");
 	}
 	else if(lc(ARG)==("hideaway",))
 	{

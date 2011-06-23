@@ -20,6 +20,9 @@ deck_rules{"Type 2 (2010)"}{""}=(
 
   ("RuleCardLimitAny","Relentless Rats"),
 
+  ("RuleCardLimitSingle",("Jace, the Mind Sculptor",0)),
+  ("RuleCardLimitSingle",("Stoneforge Mystic",0)),
+
   ("RuleCardSetReprint",("M11",4)),
 
   ("RuleCardSetReprint",("ZDK",4)),
@@ -27,4 +30,6 @@ deck_rules{"Type 2 (2010)"}{""}=(
   ("RuleCardSetReprint",("ROE",4)),
 
   ("RuleCardSetReprint",("SOM",4)),
+  ("RuleCardSetReprint",("MBS",4)),
+  ("RuleCardSetReprint",("NPH",4)),
 );

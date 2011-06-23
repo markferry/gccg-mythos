@@ -17,14 +17,6 @@ deck_rules{"Extended"}{""}=(
   ("RuleCardLimitAny","Mountain"),
   ("RuleCardLimitAny","Swamp"),
   ("RuleCardLimitAny","Plains"),
-  ("RuleCardLimitAny","Snow-Covered Island"),
-  ("RuleCardLimitAny","Snow-Covered Forest"),
-  ("RuleCardLimitAny","Snow-Covered Mountain"),
-  ("RuleCardLimitAny","Snow-Covered Swamp"),
-  ("RuleCardLimitAny","Snow-Covered Plains"),
-
-  ("RuleCardLimitSingle",("Hypergenesis",0)),
-  ("RuleCardLimitSingle",("Sword of the Meek",0)),
 
   ("RuleCardLimitAny","Relentless Rats"),
 
@@ -46,4 +38,6 @@ deck_rules{"Extended"}{""}=(
   ("RuleCardSetReprint",("ROE",4)),
 
   ("RuleCardSetReprint",("SOM",4)),
+  ("RuleCardSetReprint",("MBS",4)),
+  ("RuleCardSetReprint",("NPH",4)),
 );

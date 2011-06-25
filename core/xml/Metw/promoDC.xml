@@ -96,7 +96,7 @@
        <attr key="corruption" value="2"/>
        <attr key="rarity" value="P"/>
        <attr key="class" value="Minor Item"/>
-       <attr key="type" value="Minion Resource"/>
+       <attr key="type" value="Dual Resource"/>
 	   <attr key="keyword" value="Battle-gear"/>
     </card>
     <card name="The Iron Crown" graphics="TheIronCrown.jpg" text="Unique. Whenever bearer makes an influence check, he must also make a corruption check. If the bearer is not a Hobbit: he receives +1 to body to a maximum of 10; he receives +4 to direct influence; and he may tap The Iron Crown to cancel an attack by Orcs, Trolls, or Men against his company.">

@@ -8049,7 +8049,12 @@ def FindSpace
           xy=NULL;
       }
       if(xy != NULL)
-        j=length(r);
+      {
+        if(xy[0] > design.width || xy[1] > design.height/2)
+          xy=NULL;
+        else
+          j=length(r);
+      }
     }
     j=j+1;
   }

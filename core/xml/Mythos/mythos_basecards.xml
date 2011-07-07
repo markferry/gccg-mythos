@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ccg-setinfo SYSTEM "../gccg-set.dtd">
+<ccg-setinfo name="" game="Mythos">
+  <cards>
+    <card name="A Card" text="" graphics="mythos.image.cardback.jpg">
+    </card>
+    <card name="An Investigator" text="" back="1" graphics="">
+    </card>
+    <card name="_unknown_" graphics="" text="">
+    </card>
+    <card name="_unknown_" graphics="" text="">
+    </card>
+    <card name="_unknown_" graphics="" text="">
+    </card>
+    <card name="_unknown_" graphics="" text="">
+    </card>
+    <card name="_unknown_" graphics="" text="">
+    </card>
+    <card name="_unknown_" graphics="" text="">
+    </card>
+    <card name="_unknown_" graphics="" text="">
+    </card>
+    <card name="_unknown_" graphics="" text="">
+    </card>
+    <card name="_unknown_" graphics="" text="">
+    </card>
+    <card name="_unknown_" graphics="" text="">
+    </card>
+    <card name="_unknown_" graphics="" text="">
+    </card>
+    <card name="_unknown_" graphics="" text="">
+    </card>
+    <card name="_unknown_" graphics="" text="">
+    </card>
+    <card name="_unknown_" graphics="" text="">
+    </card>
+  </cards>
+</ccg-setinfo>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ccg SYSTEM "gccg-game.dtd">
+
+<ccg name="Mythos" dir="Mythos">
+
+  <cardset source="mythos_basecards.xml"/>
+
+  <option name="hand card size" value="20"/>
+  <option name="table card size" value="20"/>
+  <option name="deck card size" value="10"/>
+  <option name="book card size" value="20"/>
+
+</ccg>
+

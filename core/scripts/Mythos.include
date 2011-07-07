@@ -1,0 +1,37 @@
+# VARIABLES
+# =========
+
+HANDSIZE=13;
+DECKBOX_SIZE=(20,220,110);
+
+# Servers
+if(!port)
+  port=29116;
+
+product.image=(,);
+
+# FUNCTIONS
+# =========
+
+def NewDeck
+{
+  return((("deck",(,)),));
+}
+
+def InitializeLocationTables
+{
+  rules.category=(,);
+
+  rules.coordinate=(,);
+}
+
+def StartGame 
+{
+  net_send(server,("UploadDeck",decks{deck.name}));
+  net_send(server,("ShuffleDeck",deck));
+}
+
+def InitializeGame
+{
+}
+

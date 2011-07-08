@@ -2,7 +2,7 @@
 <!DOCTYPE ccg-setinfo SYSTEM "../gccg-set.dtd">
 <ccg-setinfo name="" game="Mythos">
   <cards>
-    <card name="A Card" text="" graphics="mythos.image.cardback.jpg">
+    <card name="A Card" text="" graphics="cardback.jpg">
     </card>
     <card name="An Investigator" text="" back="1" graphics="">
     </card>

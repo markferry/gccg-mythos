@@ -43,6 +43,7 @@ deck_rules{"Modern"}{""}=(
   ("RuleCardSetReprint",("XE",4)),
   ("RuleCardSetReprint",("M10",4)),
   ("RuleCardSetReprint",("M11",4)),
+  ("RuleCardSetReprint",("M12",4)),
 
   ("RuleCardSetReprint",("MR",4)),
   ("RuleCardSetReprint",("DS",4)),

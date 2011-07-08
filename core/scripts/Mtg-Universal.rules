@@ -368,6 +368,7 @@ deck_rules{"Type 2 (2010)"}{""}=(
   ("RuleCardLimitSingle",("Stoneforge Mystic",0)),
 
   ("RuleCardSetReprint",("M11",4)),
+  ("RuleCardSetReprint",("M12",4)),
 
   ("RuleCardSetReprint",("ZDK",4)),
   ("RuleCardSetReprint",("WWK",4)),
@@ -402,6 +403,7 @@ deck_rules{"Extended"}{""}=(
 
   ("RuleCardSetReprint",("M10",4)),
   ("RuleCardSetReprint",("M11",4)),
+  ("RuleCardSetReprint",("M12",4)),
 
   ("RuleCardSetReprint",("LRW",4)),
   ("RuleCardSetReprint",("MOR",4)),
@@ -468,6 +470,7 @@ deck_rules{"Modern"}{""}=(
   ("RuleCardSetReprint",("XE",4)),
   ("RuleCardSetReprint",("M10",4)),
   ("RuleCardSetReprint",("M11",4)),
+  ("RuleCardSetReprint",("M12",4)),
 
   ("RuleCardSetReprint",("MR",4)),
   ("RuleCardSetReprint",("DS",4)),

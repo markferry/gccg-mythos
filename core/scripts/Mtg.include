@@ -155,6 +155,7 @@ product.image{"Mirrodin Besieged mirran"}="MBS_mirran.jpg";
 product.image{"Mirrodin Besieged phyrexian"}="MBS_phyrexian.jpg";
 product.image{"New Phyrexia booster"}="NPH_booster.jpg";
 product.image{"Commander starter"}="COM_starter.jpg";
+product.image{"Magic 2012 booster"}="M12_booster.jpg";
 
 
 game.bindings=(

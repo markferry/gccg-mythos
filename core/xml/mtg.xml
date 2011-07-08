@@ -75,6 +75,10 @@
   <cardset source="roe.xml"/>
   <cardset source="m11.xml"/>
   <cardset source="som.xml"/>
+  <cardset source="mbs.xml"/>
+  <cardset source="nph.xml"/>
+  <cardset source="com.xml"/>
+  <cardset source="m12.xml"/>
   <image file="b.png" tag="{B}"/>
   <image file="g.png" tag="{G}"/>
   <image file="r.png" tag="{R}"/>
@@ -100,6 +104,11 @@
   <image file="ur.png" tag="{UR}"/>
   <image file="wb.png" tag="{WB}"/>
   <image file="wu.png" tag="{WU}"/>
+  <image file="bp.png" tag="{BP}"/>
+  <image file="gp.png" tag="{GP}"/>
+  <image file="rp.png" tag="{RP}"/>
+  <image file="up.png" tag="{UP}"/>
+  <image file="wp.png" tag="{WP}"/>
   <image file="inf.png" tag="{inf}"/>
   <image file="half.png" tag="{half}"/>
   <image file="0.png" tag="{0}"/>
@@ -115,8 +124,16 @@
   <image file="10.png" tag="{10}"/>
   <image file="11.png" tag="{11}"/>
   <image file="12.png" tag="{12}"/>
+  <image file="13.png" tag="{13}"/>
+  <image file="14.png" tag="{14}"/>
   <image file="15.png" tag="{15}"/>
   <image file="16.png" tag="{16}"/>
+  <image file="17.png" tag="{17}"/>
+  <image file="18.png" tag="{18}"/>
+  <image file="19.png" tag="{19}"/>
+  <image file="20.png" tag="{20}"/>
+  <image file="100.png" tag="{100}"/>
+  <image file="1000000.png" tag="{1000000}"/>
   <image file="x.png" tag="{X}"/>
   <image file="y.png" tag="{Y}"/>
   <image file="z.png" tag="{Z}"/>
@@ -131,94 +148,104 @@
 
   <option name="draw hints" value="color"/>
 
-  <option name="default back color" value="5,5,5"/>
+  <option name="default back color" value="213,210,0"/>
+  <option name="Colorless back color" value="152,152,152"/>
   <option name="Artifact back color" value="125,83,69"/>
-  <option name="Black back color" value="66,66,70"/>
+  <option name="Black back color" value="20,20,20"/>
   <option name="Blue back color" value="30,60,130"/>
   <option name="Green back color" value="75,105,50"/>
-  <option name="Multicolor back color" value="190,190,100"/>
   <option name="Red back color" value="120,50,60"/>
-  <option name="White back color" value="200,190,190"/>
+  <option name="White back color" value="210,190,190"/>
   <option name="Land back color" value="140,120,110"/>
 
   <option name="default border width" value="5"/>
   <option name="default border color" value="5,5,5"/>
-  <option name="default title" value="6,6,159,20"/>
+  <option name="default title" value="6,8,159,20"/>
   <option name="default title font color" value="255,255,255"/>
-  <option name="default title font" value="1"/>
-  <option name="default title font size" value="20"/>
+  <option name="default title font" value="0"/>
+  <option name="default title font size" value="15"/>
 
-  <option name="default text box font size" value="16"/>
-  <option name="default text box" value="19,179,173,91"/>
+  <option name="default text box font size" value="12"/>
+  <option name="default text box font" value="0"/>
+  <option name="default text box" value="17,171,166,90"/>
   <option name="default text box align" value="1"/>
-  <option name="default text box color" value="150,159,156"/>
+  <option name="default text box color" value="150,150,150"/>
   <option name="default text box border" value="2"/>
   <option name="Artifact text box color" value="221,200,171"/>
-  <option name="Black text box color" value="237,198,139"/>
+  <option name="Black text box color" value="150,150,150"/>
   <option name="Blue text box color" value="171,196,227"/>
-  <option name="Green text box color" value="131,100,98"/>
+  <option name="Green text box color" value="100,143,60"/>
   <option name="Red text box color" value="188,117,135"/>
   <option name="White text box color" value="247,236,234"/>
-  <option name="Multicolor text box color" value="220,202,202"/>
   <option name="Land text box color" value="199,138,107"/>
-  <option name="Forest text box color" value="183,191,106"/>
-  <option name="Mountain text box color" value="219,95,93"/>
-  <option name="Swamp text box color" value="144,125,145"/>
-  <option name="Plains text box color" value="232,218,153"/>
-  <option name="Island text box color" value="171,173,194"/>
 
-  <option name="default image" value="15,30,180,132"/>
+  <option name="default image" value="15,30,170,122"/>
   <option name="default image color" value="150,159,156"/>
   <option name="default image border" value="2"/>
-  <option name="default image font size" value="100"/>
+  <option name="default image font" value="0"/>
+  <option name="default image font size" value="60"/>
 
-  <option name="default text 1" value="18,164,174,15"/>
+  <option name="default text 1" value="14,154,172,15"/>
   <option name="default text 1 content" value="[type] - [subtype]"/>
+  <option name="default text 1 font" value="0"/>
   <option name="default text 1 font color" value="255,255,255"/>
-  <option name="White text 1 font color" value="0,0,0"/>
-  <option name="Multicolor text 1 font color" value="0,0,0"/>
 
-  <option name="default text 2" value="14,9,184,14"/>
+  <option name="default text 2" value="10,9,184,14"/>
   <option name="default text 2 content" value="[cost]"/>
   <option name="default text 2 font size" value="20"/>
   <option name="default text 2 align" value="2"/>
 
-  <option name="default text 3" value="158,275,44,15"/>
+  <option name="default text 3" value="141,265,44,15"/>
   <option name="default text 3 content" value="[power]/[toughness]"/>
-  <option name="default text 3 font size" value="18"/>
+  <option name="default text 3 font color" value="255,255,255"/>
+  <option name="default text 3 font size" value="16"/>
+  <option name="default text 3 font" value="0"/>
   <option name="default text 3 align" value="2"/>
+
+  <option name="default text 4" value="141,265,44,15"/>
+  <option name="default text 4 content" value="[loyalty]"/>
+  <option name="default text 4 font color" value="255,255,255"/>
+  <option name="default text 4 font size" value="16"/>
+  <option name="default text 4 font" value="0"/>
+  <option name="default text 4 align" value="2"/>
 
   <option name="deck order" value="color"/>
   <option name="deck color by" value="color"/>
 
-  <option name="Artifact text" value="{brown}"/>
-  <option name="Black Blue Green Red White text" value="{gold}"/>
-  <option name="Black Blue Green text" value="{gold}"/>
-  <option name="Black Blue Red text" value="{gold}"/>
-  <option name="Black Blue White text" value="{gold}"/>
-  <option name="Black Blue text" value="{gold}"/>
-  <option name="Black Green Red text" value="{gold}"/>
-  <option name="Black Green White text" value="{gold}"/>
-  <option name="Black Green text" value="{gold}"/>
-  <option name="Black Red White text" value="{gold}"/>
-  <option name="Black Red text" value="{gold}"/>
-  <option name="Black White text" value="{gold}"/>
-  <option name="Black text" value="{black}"/>
-  <option name="Blue Green Red text" value="{gold}"/>
-  <option name="Blue Green White text" value="{gold}"/>
-  <option name="Blue Green text" value="{gold}"/>
-  <option name="Blue Red White text" value="{gold}"/>
-  <option name="Blue Red text" value="{gold}"/>
-  <option name="Blue White text" value="{gold}"/>
-  <option name="Blue text" value="{blue}"/>
-  <option name="Green Red White text" value="{gold}"/>
-  <option name="Green Red text" value="{gold}"/>
-  <option name="Green White text" value="{gold}"/>
-  <option name="Green text" value="{green}"/>
+  <option name="Colorless text" value="{gray}"/>
   <option name="Land text" value="{gray}"/>
-  <option name="Red White text" value="{gold}"/>
+  <option name="Artifact text" value="{brown}"/>
+  <option name="Black text" value="{black}"/>
+  <option name="Blue text" value="{blue}"/>
+  <option name="Green text" value="{green}"/>
   <option name="Red text" value="{red}"/>
   <option name="White text" value="{yellow}"/>
+  <option name="Black Blue text" value="{gold}"/>
+  <option name="Black Blue Green text" value="{gold}"/>
+  <option name="Black Blue Green Red text" value="{gold}"/>
+  <option name="Black Blue Green Red White text" value="{gold}"/>
+  <option name="Black Blue Green White text" value="{gold}"/>
+  <option name="Black Blue Red text" value="{gold}"/>
+  <option name="Black Blue Red White text" value="{gold}"/>
+  <option name="Black Blue White text" value="{gold}"/>
+  <option name="Black Green text" value="{gold}"/>
+  <option name="Black Green Red text" value="{gold}"/>
+  <option name="Black Green Red White text" value="{gold}"/>
+  <option name="Black Green White text" value="{gold}"/>
+  <option name="Black Red text" value="{gold}"/>
+  <option name="Black Red White text" value="{gold}"/>
+  <option name="Black White text" value="{gold}"/>
+  <option name="Blue Green text" value="{gold}"/>
+  <option name="Blue Green Red text" value="{gold}"/>
+  <option name="Blue Green Red White text" value="{gold}"/>
+  <option name="Blue Green White text" value="{gold}"/>
+  <option name="Blue Red text" value="{gold}"/>
+  <option name="Blue Red White text" value="{gold}"/>
+  <option name="Blue White text" value="{gold}"/>
+  <option name="Green Red text" value="{gold}"/>
+  <option name="Green Red White text" value="{gold}"/>
+  <option name="Green White text" value="{gold}"/>
+  <option name="Red White text" value="{gold}"/>
 
   <trigger event="location hint" attribute="type"/>
   <trigger event="location hint" attribute="color"/>

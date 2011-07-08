@@ -22,6 +22,7 @@ deck_rules{"Extended"}{""}=(
 
   ("RuleCardSetReprint",("M10",4)),
   ("RuleCardSetReprint",("M11",4)),
+  ("RuleCardSetReprint",("M12",4)),
 
   ("RuleCardSetReprint",("LRW",4)),
   ("RuleCardSetReprint",("MOR",4)),

@@ -4,11 +4,18 @@
 <ccg name="Mythos" dir="Mythos">
 
   <cardset source="mythos_basecards.xml"/>
+  <cardset source="ltd.xml"/>
+  <cardset source="eomu.xml"/>
+  <cardset source="cr.xml"/>
+  <cardset source="lotn.xml"/>
+  <cardset source="msgs.xml"/>
+  <cardset source="drm.xml"/>
+  <cardset source="nae.xml"/>
 
-  <option name="hand card size" value="20"/>
-  <option name="table card size" value="20"/>
-  <option name="deck card size" value="10"/>
-  <option name="book card size" value="20"/>
+  <option name="hand card size" value="50"/>
+  <option name="table card size" value="50"/>
+  <option name="deck card size" value="30"/>
+  <option name="book card size" value="50"/>
 
 </ccg>
 

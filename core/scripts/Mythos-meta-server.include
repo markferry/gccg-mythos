@@ -1,0 +1,11 @@
+
+if(!port)
+  port=29116;
+factory.port=29117;
+
+if(!load("products"))
+{
+  products=(,);
+  products{"Limited starter"}=(65536,8.95,("LTD","starter"),65536);
+  save("products");
+}

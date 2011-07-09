@@ -1,0 +1,18 @@
+#
+# DECK RULES
+# ==========
+
+deck_rules=(,);
+server_description="Standard rules";
+deck_rules{"Campaign"}=(,);
+deck_rules{"Campaign"}{"deck"}=(
+  ("RuleDeckMinimum",52),
+  ("RulePass",NULL),
+);
+deck_rules{"Campaign"}{""}=(
+  ("RuleLimitEachByExpression",(1,"Attr(\"unique\",#) == \"1\"")),
+  ("RuleLimitEachByExpression",(1,"Attr(\"type\",#) == \"Investigator\"")),
+  ("RuleCardLimitSingle",("Create Your Own Adventure",0)),
+  ("RuleCardLimitGeneral",4),
+  ("RulePass",NULL),
+);

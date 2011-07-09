@@ -1,0 +1,99 @@
+#
+# VARIABLES:
+#
+# distribution{set}{product} - rarity distribution of the product
+# port - server port of the factory
+# rarities - generate these distributions from the card data
+# fixed[number] - fixed sets
+#
+# FUNCTIONS:
+#
+# InitDistributions() - Initialize product distribution data.
+#
+
+
+if(!port)
+  port=29117;
+
+fixed=array(3);
+
+# Investigator Sets
+fixed[0]=FixedSet("LTD",(
+                         "Adventurous Dilettante",
+                         "Brilliant Egyptian Archaeologist",
+                         "Capable Graduate Student",
+                         "Cleric of Fading Faith",
+                         "Controversial French Mystic",
+                         "Earnest Reporter",
+                         "Exuberant Boston Flapper",
+                         "Grizzled Boston Detective",
+                         "Hardened Chicago Gangster",
+                         "Haunted French Sculptor",
+                         "Inquisitive Chinese Intellectual",
+                         "Mad German Inventor",
+                         "Morose Veteran of the Great War",
+                         "Pragmatic Hobo",
+                         "Proud Prussian Submariner",
+                         "Respected New England Doctor",
+                         "Staid University Professor",
+                         "Unfortunate Nephew, The"
+));
+
+fixed[1]=FixedSet("DRM",(
+                         "Bored Housewife",
+                         "Enthusiastic Chorus Girl",
+                         "Exploited Coal Miner",
+                         "Falsely Imprisoned Convict",
+                         "Homeless Waif",
+                         "Lyric Poet",
+                         "Overworked Telephone Operator",
+                         "Unacknowledged Author",
+                         "Utopian Socialist",
+                         "Widowed Seamstress"
+));
+
+fixed[2]=FixedSet("NAE",(
+                         "Deep-One Hybrid",
+                         "Diabolical Cultist",
+                         "Grinning Ghoul",
+                         "Obsequious Televangelist",
+                         "Obsessed Agent in a Mi-Go Braincase",
+                         "Obsessed Federal Agent",
+                         "Pallid Programmer",
+                         "Sardonic Serpentman",
+                         "Skeptical Pathologist",
+                         "Trigger-Happy Mercenary"
+));
+
+def InitDistributions
+{
+  distribution=(,);
+  distribution{"LTD"}=(,);
+  distribution{"LTD"}{"starter"}=((45,"C"),(16,"V"),(13,"U"),(2,"R"));
+  distribution{"DRM"}=(,);
+  distribution{"DRM"}{"booster"}=((7,"C"),(4,"U"),(2,"R"));
+  distribution{"DRM"}{"starter"}=((46,"C"),(10,"U"),(4,"R"));
+  distribution{"NAE"}=(,);
+  distribution{"NAE"}{"booster"}=((7,"C"),(4,"U"),(2,"R"));
+  distribution{"NAE"}{"starter"}=((46,"C"),(10,"U"),(4,"R"));
+
+}
+
+def ProduceEOMU_Booster
+{
+    return(RandomCardSet("LTD",((2,"C"),(1,"U"),(1,"R")))
+           + RandomCardSet("EOMU",((6,"C"),(2,"U"),(1,"R"))));
+}
+
+def ProduceCR_Booster
+{
+    return(RandomCardSet("LTD",((2,"C"),(1,"U"),(1,"R")))
+           + RandomCardSet("CR",((6,"C"),(2,"U"),(1,"R"))));
+}
+
+def ProduceLOTN_Booster
+{
+    return(RandomCardSet("LTD",((2,"C"),(1,"U"),(1,"R")))
+           + RandomCardSet("LOTN",((6,"C"),(2,"U"),(1,"R"))));
+}
+

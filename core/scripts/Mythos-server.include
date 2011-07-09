@@ -1,0 +1,44 @@
+#
+#  Mythos server
+#  --------------------------
+#
+#  Variables:
+#
+#  screen.width,screen.height - screen resolution
+#  port - server port
+#  meta.port - meta server port to connect
+#  players_wanted - how many players we will wait
+#
+#  Functions:
+#
+# SetUpPlayer(p) - create necessary strucrures for player 'p'
+#
+
+screen.width=1024;
+screen.height=768;
+port=30100;
+meta.port=29116;
+
+#
+# GAME SPECIFIC FUNCTIONS
+# =======================
+#
+
+#
+# SetUpPlayer(p) - Create necessary structures for player 'p'.
+#
+def SetUpPlayer
+{
+  CreateDeck(ARG,"deck",40,50);
+  CreateDeck(ARG,"discard pile",40,160);
+  CreateDeck(ARG,"story deck",40,250);
+  CreateDeck(ARG,"adventures",40,250);
+}
+
+#
+# InitialScore(p) - Return a structure representing initial score for a player 'p'.
+#
+def InitialScore
+{
+  return(0);
+}

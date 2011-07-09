@@ -8,9 +8,9 @@
 Deck
 ####
 
-# Dragon-lord (3)
+# Dragon Character (3)
 
-3 Smaug the Golden (GW)
+4 Smaug the Golden (GW)
 
 # Hazard (33)
 
@@ -23,7 +23,7 @@ Deck
 3 Doors of Night (TW)
 2 Fell Winter (TW)
 1 Foolish Words (TD)
-1 Grima Wormtongue (TOI)
+1 Grima Wormtongue (TI)
 1 Ice-drake (NW)
 1 Nameless Thing (DM)
 1 Out of Practise (DF)
@@ -84,9 +84,12 @@ Deck
 Pool
 ####
 
-# Minion Character (5)
+# Dual Agent Character (1)
 
-1 Aryen (GW)
+1 Aryen the Beastmaster (GW)
+
+# Minion Character (4)
+
 1 Durlog (GW)
 1 Mountain-maggot (BA)
 1 Orc Grunt (NE)
@@ -99,16 +102,20 @@ Pool
 1 Foul-smelling Paste (LE)
 1 Orc-pouch (NE)
 1 Orders from the Great Demon (BA)
-1 Wealth of his Halls (GW)
+1 Wealth of His Halls (GW)
 
 #########
 Sideboard
 #########
 
+# Dual Resource (1)
+
+1 Feud with the Dragon (GW)
+
 # Hazard (3)
 
 1 Cursed Treasure (GW)
-1 Politics (WOTR)
+1 Politics (WR)
 1 Uruial (GW)
 
 # Hero Character (2)
@@ -125,15 +132,14 @@ Sideboard
 1 Grim-faced Northman (GW)
 1 Luitprand (LE)
 
-# Minion Resource (12)
+# Minion Resource (11)
 
 1 Back to the Fray (LE)
 1 Dragon's Abode (GW)
-1 Dragon-king (GW)
-1 Feud with the Dragon (GW)
 1 Flaming Torch (NE)
 2 Marauding Fire (GW)
 1 Memories of Old Torture (BA)
+1 Orcs of His Dominion (GW)
 1 Scales and Jewels (GW)
 1 The Arkenstone [M] (PR)
 1 Trophy-belt (NE)
@@ -143,14 +149,14 @@ Sideboard
 Sites
 #####
 
-# Fallen-wizard Site (3)
+# Dragon-lord Site (3)
 
 3 Dragon's Den (GW)
 
 # Minion Site (50)
 
 1 Bandit Lair [M] (LE)
-1 Barak-shatur [M] (DF)
+1 Barak-shathur [M] (DF)
 1 Beorn's House [M] (LE)
 1 Buhr Thurasig [M] (GW)
 1 Buhr Widu [M] (LE)
@@ -194,8 +200,9 @@ Sites
 1 The Carrock [M] (DF)
 1 The Lonely Mountain [M] (LE)
 1 The Stones [M] (LE)
-1 The Tower of the Wolf-friend [M] (GW)
 1 The Wind Throne [M] (LE)
 1 Thranduil's Halls [M] (LE)
 1 Thunder Cleft [M] (GW)
+1 Tower of the Wolf-friend [M] (GW)
 1 Woodmen-town [M] (LE)
+

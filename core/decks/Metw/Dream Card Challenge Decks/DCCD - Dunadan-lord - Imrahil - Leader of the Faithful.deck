@@ -10,15 +10,15 @@ Deck
 
 # Dual Character (2)
 
-2 Dúnadan Mariner (WOTR)
+2 Dúnadan Mariner (WR)
 
-# Dunadan-lord (3)
+# Dúnadan-lord Character (4)
 
-4 Prince Imrahil (WOTR)
+4 Prince Imrahil (WR)
 
 # Hazard (33)
 
-1 Ambush! (DF)
+1 Ambush! (TI)
 2 An Unexpected Outpost (DM)
 1 Arthadan Rangers (LE)
 2 Black Crows (FB)
@@ -49,8 +49,8 @@ Deck
 
 1 Adrazar (TW)
 1 Annalena (TW)
-1 Duilin (WOTR)
-1 Duinhir (WOTR)
+1 Duilin (WR)
+1 Duinhir (WR)
 1 Tharudan (FB)
 
 # Hero Resource (29)
@@ -58,7 +58,7 @@ Deck
 1 A Chance Meeting (TW)
 2 Ancient Knowledge (FB)
 1 Blood of Huan (FB)
-1 Elendilmir (WOTR)
+1 Elendilmir (WR)
 1 Elves of Edhellond (FP)
 3 Enduring Tales (DM)
 1 Fair Sailing (TW)
@@ -75,12 +75,12 @@ Deck
 1 Sapling of the White Tree (TW)
 2 Smoke Rings (DM)
 2 Star of High Hope (TD)
-2 The Wind Is Turning (WOTR)
+2 The Wind Is Turning (WR)
 
 # Stage Resource (4)
 
-1 Grace of Uinen (WOTR)
-2 Knight of Dor-en-Ernil (WOTR)
+1 Grace of Uinen (WR)
+2 Knight of Dor-en-Ernil (WR)
 1 Wizard's Trove (WH)
 
 ####
@@ -89,13 +89,13 @@ Pool
 
 # Dual Character (1)
 
-1 Dúnadan Mariner (WOTR)
+1 Dúnadan Mariner (WR)
 
 # Hero Character (4)
 
-1 Angbor (WOTR)
+1 Angbor (WR)
 1 Círdor (FB)
-1 Derufin (WOTR)
+1 Derufin (WR)
 1 Shipwright (FB)
 
 # Hero Resource (3)
@@ -106,8 +106,8 @@ Pool
 
 # Stage Resource (3)
 
-1 Kin to the Firstborn (WOTR)
-1 Swan of Amroth (WOTR)
+1 Kin to the Firstborn (WR)
+1 Swan of Amroth (WR)
 1 Thrall of the Voice (WH)
 
 #########
@@ -117,7 +117,7 @@ Sideboard
 # Hazard (7)
 
 1 Choked with Vanity (FB)
-1 Heritage Forsaken (WOTR)
+1 Heritage Forsaken (WR)
 1 Many Burdens (RS)
 1 Muster Disperses (TW)
 1 Ring-chained (NM)
@@ -131,28 +131,32 @@ Sideboard
 1 Longbottom Leaf (BA)
 1 Master of Esgaroth (TD)
 1 Palantír of Annúminas [H] (TW)
-1 Royal Navy (WOTR)
+1 Royal Navy (WR)
 1 Sail to the West (FB)
 1 Sapling of the White Tree (TW)
-1 The Seaward Tower (WOTR)
+1 The Seaward Tower (WR)
 1 The White Tree (TW)
 
 # Stage Resource (3)
 
-1 Guild of the Venturers (WOTR)
+1 Guild of the Venturers (WR)
 1 Legacy of Smiths (WH)
-1 Tower of Amroth (WOTR)
+1 Tower of Amroth (WR)
 
 #####
 Sites
 #####
+
+# Dual Site (1)
+
+1 Deeps of Fuinur (SL)
 
 # Fallen Site (2)
 
 1 Edhellond [F] (FB)
 1 Grey Havens [F] (FB)
 
-# Hero Site (27)
+# Hero Site (26)
 
 1 An Karagmir [H] (SL)
 1 Dol Amroth [H] (TW)
@@ -163,16 +167,16 @@ Sites
 1 Isle of the Ulond [H] (TD)
 1 Isles of the Dead that Live [H] (TW)
 1 Kylmätalo [H] (NW)
-1 Linhir [H] (WOTR)
+1 Linhir [H] (WR)
 1 Lond Galen [H] (TW)
 1 Lossadan Cairn [H] (TW)
 1 Monastery of the True Faith [H] (SL)
 1 Pelargir [H] (TW)
 1 Pelican Islands [H] (SL)
 1 Pieni Satama [H] (NW)
-1 Setmaenen [H] (WOTR)
+1 Setmaenen [H] (WR)
 1 Stone-circle [H] (TW)
-1 The Deeps of Fuinur [H] (SL)
+1 Sudu Cull [H] (SL)
 1 The Hospice of Lost Faith [H] (SL)
 1 Tol Glingal [H] (SL)
 1 Tol Morven [H] (NW)
@@ -180,5 +184,4 @@ Sites
 1 Tolfalas [H] (TW)
 1 Umbar [H] (SL)
 1 Vale of Erech [H] (TW)
-1 Well of Junast [H] (SL)
 

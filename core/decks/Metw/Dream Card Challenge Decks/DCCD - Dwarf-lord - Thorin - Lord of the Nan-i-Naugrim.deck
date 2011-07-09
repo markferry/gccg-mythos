@@ -10,20 +10,20 @@ Deck
 
 # Dwarf-lord Character (3)
 
-3 Thorin (DF)
+4 Thorin (DF)
 
 # Hazard (31)
 
 3 An Unexpected Outpost (DM)
 3 Dire Wolves (TD)
 2 Doors of Night (TW)
-1 Grasping and Ungracious (TOI)
+1 Grasping and Ungracious (TI)
 1 Greed (TW)
 1 Hard to Tame (DF)
 1 Lord of the Eagles (DF)
 1 Lure of Nature (TW)
-1 No Memory of This Place (ROTS)
-2 The Pack at the Door (DF)
+1 No Memory of This Place (RS)
+2 The Pack at the Door (NW)
 3 Wake of War (TW)
 1 War-wargs (NW)
 1 War-wolves (NW)
@@ -142,9 +142,12 @@ Sideboard
 Sites
 #####
 
-# Dual Site (1)
+# Dual Site (4)
 
 1 Durin's Tower (DF)
+1 Ruins of Belegost (DF)
+1 Ruins of Nogrod (DF)
+1 The Drowning-deeps [D] (DF)
 
 # Dwarf-lord Site (2)
 
@@ -158,9 +161,9 @@ Sites
 
 1 Deep Mines (WH)
 
-# Hero Site (40)
+# Hero Site (37)
 
-1 Aden Scarlet's Medical Library [H] (ROTS)
+1 Aden Scarlet's Medical Library [H] (RS)
 1 Andoloki [H] (NW)
 1 Bar-en-Ibûn [H] (DF)
 1 Barad Lughilsarik [H] (NW)
@@ -185,11 +188,8 @@ Sites
 1 Mount Gram [H] (TW)
 1 Mount Rerir [H] (FB)
 1 Ruined Signal Tower [H] (TW)
-1 Ruins of Belegost [H] (DF)
-1 Ruins of Nogrod [H] (DF)
 1 Tharbad [H] (TD)
 1 Thaurung [H] (NW)
-1 The Drowning-deeps [H] (DF)
 1 The Gem-deeps [H] (DM)
 1 The Iron-deeps [H] (DM)
 1 The Pûkel-deeps [H] (DM)
@@ -198,5 +198,6 @@ Sites
 1 The Under-gates [H] (DM)
 1 The Under-grottos [H] (DM)
 1 The Under-vaults [H] (DM)
-1 Turukulon's Lair [H] (TOI)
+1 Turukulon's Lair [H] (TI)
 1 Zarak Dûm [H] (TD)
+

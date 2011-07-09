@@ -8,9 +8,14 @@
 Deck
 ####
 
+
 # Dragon Character (3)
 
-3 Daelomin the Ghost-Wing (GW)
+4 Daelomin the Ghost-Wing (GW)
+
+# Dual Resource (1)
+
+1 Honey (GW)
 
 # Hazard (33)
 
@@ -50,13 +55,16 @@ Deck
 1 Orc Tracker (LE)
 1 Orc of the Claw (GW)
 
-# Minion Resource (20)
+# Minion Resource (27)
 
 1 Artful Words (GW)
+1 Beaten into Submission (GW)
 3 Calm Song (GW)
 2 Crept Along Cleverly (WH)
 1 Goblins of Goblin-gate (LE)
 1 Great Army of the North (BA)
+3 Hunger (GW)
+2 Mating Duel (GW)
 1 Old and Cunning (GW)
 1 Orcs of Gundabad (LE)
 1 Orcs of Mirkwood (LE)
@@ -64,15 +72,8 @@ Deck
 1 Thrór's Map [M] (AS)
 1 War-wolf (LE)
 1 Weigh All Things to a Nicety (LE)
+1 Wielder of Old Arts (GW)
 3 Wyrm's Blood (GW)
-
-# Stage Resource (8)
-
-1 Beaten into Submission (GW)
-3 Dragon-flight (GW)
-1 Honey (GW)
-2 Mating Duel (GW)
-1 Wielder of old Arts (GW)
 
 ####
 Pool
@@ -85,16 +86,13 @@ Pool
 1 Râisha (DM)
 1 The Dragon's Disciple (GW)
 
-# Minion Resource (2)
-
-1 Flaming Torch (NE)
-1 Foul-smelling Paste (LE)
-
-# Stage Resource (3)
+# Minion Resource (5)
 
 1 Dragon Mindbend (GW)
 1 Enchanted Stare (GW)
-1 Rumour of Treasure (GW)
+1 Flaming Torch (NE)
+1 Foul-smelling Paste (LE)
+1 Memories of Glaurung (GW)
 
 #########
 Sideboard
@@ -115,22 +113,19 @@ Sideboard
 1 Too Much to Ask (WR)
 1 Wyrmsiege (DF)
 
-# Minion Resource (6)
+# Minion Resource (11)
 
+1 Dragon's Nest (GW)
 1 Memories of Ancalagon (GW)
+1 Orcs of His Dominion (GW)
+1 Scales and Jewels (GW)
+1 Spell-bound (GW)
 1 Tokens to Show (AS)
 1 Tribute Garnered (AS)
+1 Under His Spell (GW)
 1 Veil Removed (GW)
 1 Voices of Malice (LE)
 1 War-wolf (LE)
-
-# Stage Resource (5)
-
-1 Dragon's Nest (GW)
-1 Dragon-king (GW)
-1 Scales and Jewels (GW)
-1 Spell-bound (GW)
-1 Under his Spell (GW)
 
 #####
 Sites
@@ -142,7 +137,7 @@ Sites
 1 Dol Guldur [B] (BA)
 1 Minas Morgul [B] (BA)
 
-# Fallen-wizard Site (2)
+# Dragon-lord Site (2)
 
 2 Dragon's Den (GW)
 
@@ -166,5 +161,6 @@ Sites
 1 Sarn Goriwing [M] (LE)
 1 The Carrock [M] (DF)
 1 The Lonely Mountain [M] (LE)
-1 The Tower of the Wolf-friend [M] (GW)
 1 Thranduil's Halls [M] (LE)
+1 Tower of the Wolf-friend [M] (GW)
+

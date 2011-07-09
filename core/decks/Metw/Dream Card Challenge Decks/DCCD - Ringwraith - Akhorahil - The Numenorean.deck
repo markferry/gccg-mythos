@@ -15,8 +15,8 @@ Deck
 
 # Dual Resource (4)
 
-2 Black Númenóreans [D] (WOTR)
-1 Local Hospitality (ROTS)
+2 Black Númenóreans [D] (WR)
+1 Local Hospitality (RS)
 1 Southron Scimitar (SL)
 
 # Hazard (33)
@@ -36,7 +36,7 @@ Deck
 1 Greed (TW)
 1 Half-trolls of Far Harad (TW)
 1 Hobgoblins (TD)
-1 Hurnkennec (TOI)
+1 Hurnkennec (TI)
 1 Ireful Flames (PR)
 1 Lost in Free-domains (TW)
 1 Morgai-flies (NM)
@@ -44,10 +44,10 @@ Deck
 1 Ningarach (NW)
 1 Old Man Willow (TW)
 1 Olog-hai (Trolls) (TW)
-1 Politics (WOTR)
+1 Politics (WR)
 1 River (TW)
 1 Sand-drake (SL)
-1 Siege of Gondor (WOTR)
+1 Siege of Gondor (WR)
 1 Slayer (LE)
 1 The Burden of Time (TW)
 1 Troll-purse (DM)
@@ -57,7 +57,7 @@ Deck
 
 # Minion Character (3)
 
-3 Akhôrahil the Ringwraith (LE)
+4 Akhôrahil the Ringwraith (LE)
 
 # Minion Resource (29)
 
@@ -94,13 +94,13 @@ Pool
 
 # Dual Character (4)
 
-2 Dúnadan Mariner (WOTR)
+2 Dúnadan Mariner (WR)
 1 Jehn Remak (SL)
 1 Khandash (SL)
 
 # Minion Character (8)
 
-1 Angamaite (SL)
+1 Angamaitë (SL)
 1 Carlon (SL)
 1 Hador (LE)
 1 Miruimor (NE)
@@ -119,8 +119,9 @@ Pool
 Sideboard
 #########
 
-# Dual Resource (1)
+# Dual Resource (2)
 
+1 Oliphant (SL)
 1 Tarma of Ar-Pharazôn (SL)
 
 # Hazard (1)
@@ -131,7 +132,7 @@ Sideboard
 
 1 Ûvatha the Ringwraith (LE)
 
-# Minion Resource (17)
+# Minion Resource (16)
 
 1 A Worthy Substitute (NE)
 1 Abhorred Ring (NE)
@@ -146,7 +147,6 @@ Sideboard
 1 Magic Ring of Shadows (LE)
 1 Magic Ring of Weals (LE)
 1 Minor Ring (LE)
-1 Oliphant (SL)
 1 Poison of his Voice (WH)
 1 Rumor of the One (LE)
 1 Well-preserved (AS)
@@ -155,18 +155,14 @@ Sideboard
 Sites
 #####
 
-# Minion Site (47)
+# Minion Site (42)
 
-1 An Sakal [M] (SL)
-1 Arhazûn-Tarîk [M] (SL)
 1 Auz Azunan [M] (SL)
-1 Azrulôni [M] (SL)
-1 Barad Annûn [M] (SL)
 1 Bozisha-Dar [M] (SL)
 1 Bûr Esmer [M] (SL)
 1 Cairn of the Colruh Hazurbal [M] (SL)
-1 Calembel [M] (WOTR)
-1 Coastal Signal Tower [M] (WOTR)
+1 Calembel [M] (WR)
+1 Coastal Signal Tower [M] (WR)
 1 Dol Amroth [M] (LE)
 1 Dûsalan [M] (SL)
 1 Edhellond [M] (AS)
@@ -175,26 +171,25 @@ Sites
 1 Haudh-in-Gwanûr [M] (LE)
 1 Hazaj Tollin [M] (SL)
 1 Isle of the Ulond [M] (AS)
-1 Khibil Ephalak [M] (SL)
+1 Khibil Êphalak [M] (SL)
 1 Killing Fields [M] (SL)
 1 Korlea [M] (SL)
 1 Lighthouse at the Cape of Octopuses [M] (SL)
-1 Linhir [M] (WOTR)
+1 Linhir [M] (WR)
 1 Lond Daer [M] (KN)
 1 Lond Galen [M] (LE)
-1 Lossarnach [M] (WOTR)
+1 Lossarnach [M] (WR)
 2 Minas Morgul [M] (LE)
 1 Monastery of the True Faith [M] (SL)
 1 Narik-Zadan [M] (SL)
 1 Norr-dûm [M] (GW)
-1 Nykkea [M] (SL)
 1 Nîlûlondê [M] (SL)
 1 Pelargir [M] (LE)
 1 Pelican Islands [M] (SL)
-1 Setmaenen [M] (WOTR)
+1 Setmaenen [M] (WR)
 1 Southron Oasis [M] (LE)
-1 Temple of Kondri Odchi [M] (SL)
-1 Tharagrondost [M] (WOTR)
+1 Temple of Kondri Odchi [M] (CP)
+1 Tharagrondost [M] (WR)
 1 The Hospice of Lost Faith [M] (SL)
 1 The Stones [M] (LE)
 1 Tol Glingal [M] (SL)
@@ -203,3 +198,4 @@ Sites
 1 Vale of Erech [M] (LE)
 1 Vamag [M] (SL)
 1 Ûrêzâyan [M] (SL)
+

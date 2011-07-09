@@ -10,7 +10,7 @@ Deck
 
 # Balrog Character (3)
 
-3 The Balrog [B] (BA)
+4 The Balrog [B] (BA)
 
 # Dual Resource (7)
 
@@ -28,7 +28,7 @@ Deck
 1 Lure of Nature (TW)
 1 Ninevet (DF)
 1 Pierced by Many Wounds (DM)
-2 The Pack at the Door (DF)
+2 The Pack at the Door (NW)
 2 Twilight (TW)
 3 Wake of War (TW)
 1 War-wargs (NW)
@@ -39,7 +39,7 @@ Deck
 1 White Wolves (NW)
 2 Wolves (TW)
 
-# Minion Character (5)
+# Minion Character (4)
 
 2 Orc Tracker (LE)
 2 Orc Veteran (LE)
@@ -71,7 +71,7 @@ Deck
 Pool
 ####
 
-# Minion Character (5)
+# Minion Character (6)
 
 1 Bolg of the North (DF)
 1 Bûthrakaur (BA)
@@ -93,7 +93,7 @@ Sideboard
 # Hazard (4)
 
 1 Majmun (SL)
-1 Many Burdens (ROTS)
+1 Many Burdens (RS)
 1 Muster Disperses (TW)
 1 Slip Treacherously (AS)
 
@@ -123,7 +123,7 @@ Sites
 
 2 Moria [B] (BA)
 1 Mornost [B] (NW)
-1 Shapal Udûn [B] (NW)
+1 Shapal Udûn [B] (ML)
 1 The Drowning-deeps [B] (BA)
 1 The Gem-deeps [B] (BA)
 1 The Rusted-deeps [B] (BA)
@@ -147,3 +147,4 @@ Sites
 1 Mount Gundabad [M] (LE)
 1 Steel Fall [M] (GW)
 1 The Wind Throne [M] (LE)
+

@@ -69,31 +69,31 @@ def InitDistributions
 {
   distribution=(,);
   distribution{"LTD"}=(,);
-  distribution{"LTD"}{"starter"}=((45,"C"),(16,"V"),(13,"U"),(2,"R"));
+  distribution{"LTD"}{"starter"}=((46,"Common"),(10,"Uncommon"),(4,"Rare"),(2,"Investigator"));
   distribution{"DRM"}=(,);
-  distribution{"DRM"}{"booster"}=((7,"C"),(4,"U"),(2,"R"));
-  distribution{"DRM"}{"starter"}=((46,"C"),(10,"U"),(4,"R"));
+  distribution{"DRM"}{"booster"}=((7,"Common"),(4,"Uncommon"),(2,"Rare"));
+  distribution{"DRM"}{"starter"}=((46,"Common"),(10,"Uncommon"),(4,"Rare"),(2,"Investigator"));
   distribution{"NAE"}=(,);
-  distribution{"NAE"}{"booster"}=((7,"C"),(4,"U"),(2,"R"));
-  distribution{"NAE"}{"starter"}=((46,"C"),(10,"U"),(4,"R"));
+  distribution{"NAE"}{"booster"}=((7,"Common"),(4,"Uncommon"),(2,"Rare"));
+  distribution{"NAE"}{"starter"}=((46,"Common"),(10,"Uncommon"),(4,"Rare"),(2,"Investigator"));
 
 }
 
 def ProduceEOMU_Booster
 {
-    return(RandomCardSet("LTD",((2,"C"),(1,"U"),(1,"R")))
-           + RandomCardSet("EOMU",((6,"C"),(2,"U"),(1,"R"))));
+    return(RandomCardSet("LTD",((2,"Common"),(1,"Uncommon"),(1,"Rare")))
+           + RandomCardSet("EOMU",((6,"Common"),(2,"Uncommon"),(1,"Rare"))));
 }
 
 def ProduceCR_Booster
 {
-    return(RandomCardSet("LTD",((2,"C"),(1,"U"),(1,"R")))
-           + RandomCardSet("CR",((6,"C"),(2,"U"),(1,"R"))));
+    return(RandomCardSet("LTD",((2,"Common"),(1,"Uncommon"),(1,"Rare")))
+           + RandomCardSet("CR",((6,"Common"),(2,"Uncommon"),(1,"Rare"))));
 }
 
 def ProduceLOTN_Booster
 {
-    return(RandomCardSet("LTD",((2,"C"),(1,"U"),(1,"R")))
-           + RandomCardSet("LOTN",((6,"C"),(2,"U"),(1,"R"))));
+    return(RandomCardSet("LTD",((2,"Common"),(1,"Uncommon"),(1,"Rare")))
+           + RandomCardSet("LOTN",((6,"Common"),(2,"Uncommon"),(1,"Rare"))));
 }
 

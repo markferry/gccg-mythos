@@ -7,5 +7,8 @@ if(!load("products"))
 {
   products=(,);
   products{"Limited starter"}=(65536,8.95,("LTD","starter"),65536);
+  products{"EOMU booster"}=(65536,2.95,("EOMU","booster"),65536);
+  products{"CR booster"}=(65536,2.95,("CR","booster"),65536);
+  products{"LOTN booster"}=(65536,2.95,("LOTN","booster"),65536);
   save("products");
 }

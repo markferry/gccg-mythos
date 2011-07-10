@@ -1,5 +1,6 @@
 # VARIABLES
 # =========
+# adventure_points - Current adventure points for me
 
 HANDSIZE=13;
 DECKBOX_SIZE=(20,220,110);
@@ -15,7 +16,7 @@ product.image=(,);
 
 def NewDeck
 {
-  return((("deck",(,)),));
+  return((("deck",(,)),("investigator",(,)),));
 }
 
 def InitializeLocationTables
@@ -25,13 +26,24 @@ def InitializeLocationTables
   rules.coordinate=(,);
 }
 
-def StartGame 
+def InitializeGame
 {
-  net_send(server,("UploadDeck",decks{deck.name}));
-  net_send(server,("ShuffleDeck",deck));
+    adventure_points = 0;
 }
 
-def InitializeGame
+#
+# StartGame() - What to do when game begins.
+#
+def StartGame 
+{
+    Send("UploadDeck",decks{deck.name});
+    Send("ShuffleDeck",deck.objects[me]{"deck"});
+}
+
+#
+# EndGame() - Game over.
+#
+def EndGame
 {
 }
 

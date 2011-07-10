@@ -10,10 +10,12 @@ TORRENT_VERSION=1;
 
 # Deck name mapping.
 deck_name{"deck"}="deck";
+deck_name{"investigator"}="investigator";
 deck_name{"discard pile"}="discards";
 deck_name{"story deck"}="story deck";
 deck_name{"adventures"}="completed adventures";
 deck_name{"opponent deck"}="deck";
+deck_name{"opponent investigator"}="investigator";
 deck_name{"opponent discard pile"}="discards";
 deck_name{"opponent story deck"}="story deck";
 deck_name{"opponent adventures"}="completed adventures";

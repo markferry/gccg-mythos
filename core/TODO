@@ -3,6 +3,8 @@ GENERIC
 
 v0.9.7
 
+[ ] /have player displays cards not in sell (probably: if p1 wants ACard and p2.ACardCopies > Playset ACard is shown in /have)
+[ ] gccg_package b does not include <include files=" "/> items. check find expression on gccg_package L:99 (wrong find path, it works with "..". btw -follow is deprecated)
 [ ] BUG: dived by zero error crashes
 [ ] BUG: In multiplayer games player standing on right side of table may have items auto-placed outside of right margin, even without a (("OffscreenEnabled","yes"),),
 [ ] Include monospace font (font is provided but not included )

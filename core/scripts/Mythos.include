@@ -1,5 +1,7 @@
 # VARIABLES
 # =========
+# sanity_points - Current SAN points for me
+# san_lock - Set while waiting score update.
 # adventure_points - Current adventure points for me
 
 HANDSIZE=13;
@@ -7,28 +9,76 @@ DECKBOX_SIZE=(20,220,110);
 
 # Servers
 if(!port)
-  port=29116;
+    port=29116;
 
 product.image=(,);
 
+# MENUS
+# =========
+GAME_MENU{"Main Menu - Play"}=(
+ (1,"{hr}","",""),
+ );
+
+GAME_MENU{"A Card"}=(
+ (1,"Bury","Ctrl+B",""),
+ );
+
+#
+# PlayKeyControlKeyB() - Bury.
+#
+def PlayKeyControlKeyB
+    Bury();
+
+def MouseLeftClickStoryDeck
+  PlayKeyControlKeyL();
+
+def MouseLeftClickDiscardPile
+  PlayKeyControlKeyL();
+
+def Bury
+{
+    if(object.number)
+    {
+        if(card.number!=NULL)
+        {
+            TryTransferTo("deck.bottom",deck.objects[me]{"story deck"});
+        }
+    }
+}
+
+def MouseLeftClickHand
+{
+    if(length(hand(hand[me])) && card.number)
+    {
+        ClearSearchbox();
+        if(Attr("type",card.number) == "Location")
+            Send("Transfer",(1,("hand",me,hand.card_index),("deck.top",deck.objects[me]{"story deck"})));
+        else
+            Send("Transfer",(1,("hand",me,hand.card_index),("play",0)));
+
+    }
+}
 # FUNCTIONS
 # =========
 
 def NewDeck
 {
-  return((("deck",(,)),("investigator",(,)),));
+    return((("deck",(,)),("investigator",(,)),));
 }
 
 def InitializeLocationTables
 {
-  rules.category=(,);
+    rules.category=(,);
 
-  rules.coordinate=(,);
+    rules.coordinate=(,);
 }
 
 def InitializeGame
 {
-    adventure_points = 0;
+#   default, TODO modify by investigator
+    adventure_points = 1;
+    sanity_points = 13;
+    sanity_lock = 0;
 }
 
 #
@@ -38,6 +88,9 @@ def StartGame
 {
     Send("UploadDeck",decks{deck.name});
     Send("ShuffleDeck",deck.objects[me]{"deck"});
+# Play out first investigator
+# if found set initial SAN
+
 }
 
 #
@@ -45,5 +98,100 @@ def StartGame
 #
 def EndGame
 {
+}
+
+#
+# RefreshScore() - Send a score update.
+#
+def RefreshScore
+{
+    Send("Score",(me,(("SP",sanity_points),("AP",adventure_points))));
+}
+
+#
+# HOOKS
+# =====
+
+#
+# ScoreHook(player,scorestruct)
+#
+def ScoreHook
+{
+    if(ARG[0]==me)
+    {
+        push(s);
+        s=ARG[1];
+        if(s{"AP"}!=NULL)
+            adventure_points=toint(s{"AP"});
+
+        if(san_lock)
+            san_lock=san_lock-1;
+
+        if(san_lock==0)
+        {
+            if(s{"SP"}!=NULL)
+                sanity_points=s{"SP"};
+        }
+
+        s=pop();
+    }
+}
+
+
+#
+# ScoreToText(score structure) - Convert a score structure to string.
+# 
+def ScoreToText_disable
+{
+    push(s);
+    s="";
+
+    s=s+"San "+toint(ARG{"SP"});
+    if(ARG{"AP"})
+    {
+        s="AP. "+toint(ARG{"AP"})+" "+s;
+    }
+
+    return(s);
+    s=pop();
+}
+
+# InputHook(input)
+#   Set San Points
+#
+def InputHook
+{
+    return(0);
+    if(flag.playing)
+    {
+        push(s);
+        push(d);
+
+        d=NULL;
+        s=toint(sanity_points);
+
+        if(left(ARG,1)=="-" && tostr(toint(ARG))==ARG)
+            d=toint(ARG);
+        else if(left(ARG,1)=="+" && tostr(toint(substr(ARG,1)))==substr(ARG,1))
+            d=toint(substr(ARG,1));
+        else if(tostr(toint(ARG))==ARG)
+            d=toint(ARG)-s;
+
+        if(d != NULL)
+        {
+            s=s+d;
+            sanity_points=s;
+            RefreshScore();
+
+            if(d >= 0)
+                d="+"+d;
+            Say("{orange}Sanity ("+d+") : "+s);
+
+            return(1);
+        }
+
+        d=pop();
+        s=pop();
+    }
 }
 

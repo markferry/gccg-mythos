@@ -25,13 +25,30 @@ meta.port=29116;
 #
 
 #
+# Initialize visibility of extra decks
+#
+def InitServerHook
+{
+    for(i)(ARG)
+    {
+        visible.me[i]{"investigator"}=1;
+        visible.opp[i]{"investigator"}=1;
+        visible.me[i]{"adventures"}=1;
+        visible.opp[i]{"adventures"}=1;
+        visible.me[i]{"story deck"}=1;
+        visible.opp[i]{"story deck"}=1;
+    }
+}
+
+#
 # SetUpPlayer(p) - Create necessary structures for player 'p'.
 #
 def SetUpPlayer
 {
   CreateDeck(ARG,"deck",40,50);
+  CreateDeck(ARG,"investigator",280,250);
+  CreateDeck(ARG,"story deck",140,50);
   CreateDeck(ARG,"discard pile",40,160);
-  CreateDeck(ARG,"story deck",40,250);
   CreateDeck(ARG,"adventures",40,250);
 }
 
@@ -40,5 +57,11 @@ def SetUpPlayer
 #
 def InitialScore
 {
-  return(0);
+    push(s);
+    s=(,);
+    s{"SP"}=13;
+    s{"AP"}=0;
+    return(s);
+    s=pop();
 }
+

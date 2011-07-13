@@ -6,16 +6,72 @@
   <cardset source="mythos_basecards.xml"/>
   <cardset source="ltd.xml"/>
   <cardset source="eomu.xml"/>
-  <cardset source="cr.xml"/>
-  <cardset source="lotn.xml"/>
-  <cardset source="msgs.xml"/>
-  <cardset source="drm.xml"/>
-  <cardset source="nae.xml"/>
 
   <option name="hand card size" value="50"/>
   <option name="table card size" value="50"/>
   <option name="deck card size" value="30"/>
   <option name="book card size" value="50"/>
+
+  <option name="deck order" value="type"/>
+  <option name="deck color by" value="type"/>
+
+  <option name="draw hints" value="type"/>
+
+  <option name="Adventure text" value="{black}"/>
+  <option name="Artifact text" value="{magenta}"/>
+  <option name="Location text" value="{brown}"/>
+  <option name="Monster text" value="{red}"/>
+  <option name="Event text" value="{yellow}"/>
+  <option name="Ally text" value="{green}"/>
+  <option name="Spell text" value="{76,76,166}"/>
+  <option name="Tome text" value="{magenta}"/>
+
+  <option name="Adventure back color" value="210,180,90"/>
+  <option name="Artifact back color" value="148,0,211"/>
+  <option name="Location back color" value="208,176,160"/>
+  <option name="Monster back color" value="240,128,128"/>
+  <option name="Event back color" value="255,255,0"/>
+  <option name="Ally back color" value="0,100,0"/>
+  <option name="Spell back color" value="123,104,238"/>
+  <option name="Tome back color" value="148,0,211"/>
+
+  <option name="Adventure text box color" value="212,146,62"/>
+  <option name="Artifact text box color" value="255,255,255"/>
+  <option name="Location text box color" value="255,255,255"/>
+  <option name="Monster text box color" value="255,255,255"/>
+  <option name="Event text box color" value="255,255,255"/>
+  <option name="Ally text box color" value="255,255,255"/>
+  <option name="Spell text box color" value="255,255,255"/>
+  <option name="Tome text box color" value="255,255,255"/>
+
+  <option name="default back color" value="150,150,150"/>
+  <option name="default border width" value="5"/>
+  <option name="default border color" value="180,180,180"/>
+
+  <option name="default title" value="6,6,234,30"/>
+  <option name="default title color" value="{black}"/>
+  <option name="default title font size" value="24"/>
+
+  <option name="default text 1" value="56,60,168,30"/>
+  <option name="default text 1 content" value="[type] - [subtype]"/>
+  <option name="default text 1 color" value="{black}"/>
+  <option name="default text 1 font size" value="16"/>
+
+  <option name="default text 2" value="12,320,44,15"/>
+  <option name="default text 2 content" value="[san]"/>
+  <option name="default text 2 color" value="{black}"/>
+  <option name="default text 2 font size" value="18"/>
+
+  <option name="default image" value="50,90,180,120"/>
+  <option name="default image color" value="150,159,156"/>
+  <option name="default image border" value="2"/>
+  <option name="default image font size" value="100"/>
+
+  <option name="default text box font size" value="16"/>
+  <option name="default text box" value="50,218,170,100"/>
+  <option name="default text box align" value="1"/>
+  <option name="default text box color" value="200,50,200"/>
+  <option name="default text box border" value="2"/>
 
 </ccg>
 

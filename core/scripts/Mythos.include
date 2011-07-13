@@ -18,6 +18,9 @@ product.image=(,);
 GAME_MENU{"Main Menu - Play"}=(
     (1,"{hr}","",""),
     (1,"Select Investigator","","SelectInvestigator()"),
+    (1,"{hr}","",""),
+    (1,"Add 1 Adventure Point","/ap +1",""),
+    (1,"Del 1 Adventure Point","/ap -1",""),
 );
 
 GAME_MENU{"A Card"}=(
@@ -234,5 +237,28 @@ def InputHook
         d=pop();
         s=pop();
     }
+}
+
+
+#
+# COMMANDS
+# ==========
+
+def PlayCommandAp
+{
+    push(d);
+
+    if(length(ARG))
+    {
+        d = toint(ARG[0]);
+
+        adventure_points = adventure_points + d;
+        Say("{blue}Adventure Points ("+d+") : "+ adventure_points);
+        RefreshScore();
+    }
+    else
+        Msg("{red}Missing arguments.");
+
+    d = pop();
 }
 

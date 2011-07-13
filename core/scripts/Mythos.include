@@ -107,7 +107,7 @@ def InitializeLocationTables
 def InitializeGame
 {
 #   default, TODO modify by investigator
-    adventure_points = 1;
+    adventure_points = 0;
     sanity_points = 13;
     sanity_lock = 0;
 }

@@ -89,23 +89,6 @@ def PlayKeyAltKeyHome
 def PlayKeyAltKeyEnd
     Bury();
 
-def PlayKeyControlKeyS
-{
-    ClearSearchbox();
-    if(object.type == "card")
-    {
-        Travel();
-    }
-    else
-    {
-        if(object.type=="deck" || object.type=="hand" || object.type=="cardbox")
-            Send("ShuffleDeck",object.number);
-        else
-            Send("ShuffleDeck",deck);
-    }
-
-}
-
 # FUNCTIONS
 # =========
 

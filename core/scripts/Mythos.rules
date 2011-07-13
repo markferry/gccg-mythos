@@ -7,7 +7,6 @@ server_description="Standard rules";
 deck_rules{"Campaign"}=(,);
 deck_rules{"Campaign"}{"investigator"}=(
   ("RuleDeckMinimum",1),
-  ("RuleDeckMaximum",2),
   ("RuleLimitEachByExpression",(0,"Attr(\"type\",#) != \"Investigator\"")),
   ("RulePass",NULL),
 );

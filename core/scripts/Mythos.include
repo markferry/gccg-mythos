@@ -20,7 +20,8 @@ GAME_MENU{"Main Menu - Play"}=(
 );
 
 GAME_MENU{"A Card"}=(
-    (1,"Bury","","Bury()"),
+    (1,"Play to Story Deck","Alt+Home",""),
+    (1,"Bury in Story Deck","Alt+End",""),
 );
 
 GAME_MENU{"Story Deck"}=(
@@ -80,7 +81,14 @@ def Bury
     }
 }
 
+# Override Ctrl+S for cards
 # Send to top of Story Deck
+def PlayKeyAltKeyHome
+    Travel();
+
+def PlayKeyAltKeyEnd
+    Bury();
+
 def PlayKeyControlKeyS
 {
     ClearSearchbox();

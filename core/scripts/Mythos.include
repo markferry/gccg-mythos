@@ -16,18 +16,13 @@ product.image=(,);
 # MENUS
 # =========
 GAME_MENU{"Main Menu - Play"}=(
- (1,"{hr}","",""),
- );
+    (1,"{hr}","",""),
+);
 
 GAME_MENU{"A Card"}=(
- (1,"Bury","Ctrl+B",""),
- );
+    (1,"Bury","","Bury()"),
+);
 
-#
-# PlayKeyControlKeyB() - Bury.
-#
-def PlayKeyControlKeyB
-    Bury();
 
 def MouseLeftClickStoryDeck
   PlayKeyControlKeyL();
@@ -35,6 +30,20 @@ def MouseLeftClickStoryDeck
 def MouseLeftClickDiscardPile
   PlayKeyControlKeyL();
 
+# Play to top of Story Deck
+# e.g. Location or Travel Event
+def Travel
+{
+    if(object.number)
+    {
+        if(card.number!=NULL)
+        {
+            TryTransferTo("deck.top",deck.objects[me]{"story deck"});
+        }
+    }
+}
+
+# Play to bottom of Story Deck
 def Bury
 {
     if(object.number)
@@ -46,18 +55,24 @@ def Bury
     }
 }
 
-def MouseLeftClickHand
+# Send to top of Story Deck
+def PlayKeyControlKeyS
 {
-    if(length(hand(hand[me])) && card.number)
+    ClearSearchbox();
+    if(object.type == "card")
     {
-        ClearSearchbox();
-        if(Attr("type",card.number) == "Location")
-            Send("Transfer",(1,("hand",me,hand.card_index),("deck.top",deck.objects[me]{"story deck"})));
-        else
-            Send("Transfer",(1,("hand",me,hand.card_index),("play",0)));
-
+        Travel();
     }
+    else
+    {
+        if(object.type=="deck" || object.type=="hand" || object.type=="cardbox")
+            Send("ShuffleDeck",object.number);
+        else
+            Send("ShuffleDeck",deck);
+    }
+
 }
+
 # FUNCTIONS
 # =========
 

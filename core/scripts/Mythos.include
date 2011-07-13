@@ -23,7 +23,32 @@ GAME_MENU{"A Card"}=(
     (1,"Bury","","Bury()"),
 );
 
+GAME_MENU{"Story Deck"}=(
+    ("{hr}","",""),
+    ("Look","Ctrl+L",""),
+    ("Shuffle","Ctrl+S",""),
+);
 
+#
+# PlayStoryDeckMenu() - Generate menu for sites.
+#
+def PlayStoryDeckMenu
+{
+    push(m);
+    m=(,);
+    if(card.number!=NULL)
+    {
+        m=m+SingleCardMenu("discard");
+    }
+
+    m = m + GAME_MENU{"Story Deck"};
+
+    Menu("Story Deck", m);
+    m = pop();
+}
+
+# KEY BINDINGS
+# =============
 def MouseLeftClickStoryDeck
   PlayKeyControlKeyL();
 

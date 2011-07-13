@@ -53,7 +53,7 @@
   <option name="default title font size" value="24"/>
 
   <option name="default text 1" value="56,60,168,30"/>
-  <option name="default text 1 content" value="[type] - [subtype]"/>
+  <option name="default text 1 content" value="[type] [subtype]"/>
   <option name="default text 1 color" value="{black}"/>
   <option name="default text 1 font size" value="16"/>
 
@@ -61,6 +61,17 @@
   <option name="default text 2 content" value="[san]"/>
   <option name="default text 2 color" value="{black}"/>
   <option name="default text 2 font size" value="18"/>
+
+  <option name="Adventure image" value="50,90,180,40"/>
+  <option name="Adventure image color" value="150,159,156"/>
+  <option name="Adventure image border" value="2"/>
+  <option name="Adventure image font size" value="50"/>
+
+  <option name="Adventure text box font size" value="16"/>
+  <option name="Adventure text box" value="50,130,170,188"/>
+  <option name="Adventure text box align" value="1"/>
+  <option name="Adventure text box color" value="200,50,200"/>
+  <option name="Adventure text box border" value="2"/>
 
   <option name="default image" value="50,90,180,120"/>
   <option name="default image color" value="150,159,156"/>

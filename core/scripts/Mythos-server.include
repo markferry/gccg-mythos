@@ -45,11 +45,11 @@ def InitServerHook
 #
 def SetUpPlayer
 {
+  CreateDeck(ARG,"investigator",40,50);
   CreateDeck(ARG,"deck",40,50);
-  CreateDeck(ARG,"investigator",280,250);
-  CreateDeck(ARG,"story deck",140,50);
   CreateDeck(ARG,"discard pile",40,160);
-  CreateDeck(ARG,"adventures",40,250);
+  CreateDeck(ARG,"adventures",40,270);
+  CreateDeck(ARG,"story deck",200,50);
 }
 
 #

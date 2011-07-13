@@ -17,6 +17,7 @@ product.image=(,);
 # =========
 GAME_MENU{"Main Menu - Play"}=(
     (1,"{hr}","",""),
+    (1,"Select Investigator","","SelectInvestigator()"),
 );
 
 GAME_MENU{"A Card"}=(
@@ -119,9 +120,8 @@ def StartGame
 {
     Send("UploadDeck",decks{deck.name});
     Send("ShuffleDeck",deck.objects[me]{"deck"});
-# Play out first investigator
-# if found set initial SAN
 
+    SelectInvestigator();
 }
 
 #
@@ -137,6 +137,16 @@ def EndGame
 def RefreshScore
 {
     Send("Score",(me,(("SP",sanity_points),("AP",adventure_points))));
+}
+
+# Search the deck for an Investigator, select, put it into play
+def SelectInvestigator
+{
+    push(s);
+
+    s=unique(select('Attr("type",#)=="Investigator"',decks{deck.name}{"investigator"}));
+    SelectCard(s,'Send("Transfer",(1,("deck.search",deck.objects[me]{"investigator"},#),("play",0)))','("deck.search",deck.objects[me]{"investigator"},#)');
+    s = pop();
 }
 
 #

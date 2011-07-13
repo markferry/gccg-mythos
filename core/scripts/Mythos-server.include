@@ -31,8 +31,8 @@ def InitServerHook
 {
     for(i)(ARG)
     {
-        visible.me[i]{"investigator"}=1;
-        visible.opp[i]{"investigator"}=1;
+        visible.me[i]{"investigators"}=1;
+        visible.opp[i]{"investigators"}=0;
         visible.me[i]{"adventures"}=1;
         visible.opp[i]{"adventures"}=1;
         visible.me[i]{"story deck"}=1;
@@ -45,7 +45,7 @@ def InitServerHook
 #
 def SetUpPlayer
 {
-  CreateDeck(ARG,"investigator",40,50);
+  CreateDeck(ARG,"investigators",40,50);
   CreateDeck(ARG,"deck",40,50);
   CreateDeck(ARG,"discard pile",40,160);
   CreateDeck(ARG,"adventures",40,270);

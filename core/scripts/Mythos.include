@@ -98,7 +98,7 @@ def PlayKeyAltKeyEnd
 
 def NewDeck
 {
-    return((("deck",(,)),("investigator",(,)),));
+    return((("deck",(,)),("investigators",(,)),));
 }
 
 def InitializeLocationTables
@@ -110,7 +110,7 @@ def InitializeLocationTables
 
 def InitializeGame
 {
-#   default, TODO modify by investigator
+#   default, TODO modify by investigators
     adventure_points = 0;
     sanity_points = 13;
     sanity_lock = 0;
@@ -123,6 +123,7 @@ def StartGame
 {
     Send("UploadDeck",decks{deck.name});
     Send("ShuffleDeck",deck.objects[me]{"deck"});
+    Send("ShuffleDeck",deck.objects[me]{"investigators"});
 
     SelectInvestigator();
 }
@@ -147,8 +148,8 @@ def SelectInvestigator
 {
     push(s);
 
-    s=unique(select('Attr("type",#)=="Investigator"',decks{deck.name}{"investigator"}));
-    SelectCard(s,'Send("Transfer",(1,("deck.search",deck.objects[me]{"investigator"},#),("play",0)))','("deck.search",deck.objects[me]{"investigator"},#)');
+    s=unique(select('Attr("type",#)=="Investigator"',decks{deck.name}{"investigators"}));
+    SelectCard(s,'Send("Transfer",(1,("deck.search",deck.objects[me]{"investigators"},#),("play",0)))','("deck.search",deck.objects[me]{"investigators"},#)');
     s = pop();
 }
 

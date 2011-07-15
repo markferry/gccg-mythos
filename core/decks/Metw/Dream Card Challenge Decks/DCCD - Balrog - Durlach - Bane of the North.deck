@@ -8,42 +8,52 @@
 Deck
 ####
 
-# Balrog Character (3)
+# Balrog Character (4)
 
-3 Durlach (NW)
+4 Durlach (NW)
 
-# Dual Resource (2)
+# Dual Resource (3)
 
 1 Ancient Rite (NE)
+1 Grinding Ice (NW)
 1 Rings of Power (NM)
 
 # Hazard (33)
 
-3 An Unexpected Outpost (DM)
-2 Despair of the Heart (TW)
-2 Dire Wolves (TD)
+2 An Unexpected Outpost (DM)
 3 Doors of Night (TW)
-1 Hobgoblins (TD)
-2 Minions Stir (TW)
+1 Eloeklo, Lindor's Bane (NW)
+1 Fell Winter (LE)
+2 Hobgoblins (TD)
+1 Minions Stir (TW)
 1 Morgoth's Ring (ML)
 2 Orc-guard (TW)
 2 Orc-lieutenant (TW)
-1 Orc-raiders (TW)
 1 Soldiers of the Dark Lord (DF)
+1 Taint of the Wilds (RS)
 1 The Back Door (DF)
 1 The Black Enemy's Wrath (DM)
+1 Thrice Told Tales (RS)
 1 Twilight (TW)
 2 Wake of War (TW)
+1 War-wargs (NW)
+2 Wargs (TW)
 2 Where the Wargs Howl (NW)
-1 White Wolves (NW)
 2 Wolf-riders (TD)
 3 Wolves (TW)
 
-# Minion Character (1)
+# Hero Resource (1)
 
+1 Major Spell-bead (NW)
+
+# Minion Character (5)
+
+1 Forest-troll (KN)
+2 Hill-troll (BA)
+1 Ice-troll (NW)
 1 Konihrabn (NW)
 
-# Minion Resource (31)
+# Minion Resource (29)
 
 1 A Few Recruits (BA)
 1 Ancient Secrets (BA)
@@ -58,24 +68,20 @@ Deck
 2 Secrets of Their Forging (LE)
 2 Spirit-abuse (NW)
 1 Spying out the Land (LE)
-1 Test of Fire (LE)
 2 The Least of Gold Rings (LE)
 1 The Warg-king (LE)
-3 Voices of Malice (LE)
+2 Voices of Malice (LE)
 2 Weigh All Things to a Nicety (LE)
 
 ####
 Pool
 ####
 
-# Minion Character (9)
+# Minion Character (5)
 
 1 Agog (NW)
 1 Ardagor [M] (KN)
-1 Forest-troll (KN)
-1 Hill-troll (BA)
-2 Ice-troll (NW)
-1 Troll-chief (LE)
+1 Ice-troll (NW)
 1 Umagaur (BA)
 1 Urdrak (NW)
 
@@ -89,19 +95,21 @@ Pool
 Sideboard
 #########
 
-# Hazard (5)
+# Hazard (7)
 
-1 Call of the Sea (TW)
-1 Lost in Free-domains (TW)
+1 Drought (SL)
+1 Fell Winter (LE)
 1 Muster Disperses (TW)
+1 Sand-storm (SL)
 1 Siege of Gondor (WR)
-1 Vaurak (SL)
+1 Twilight (TW)
+1 White Wolves (NW)
 
-# Hero Resource (1)
+# Minion Character (1)
 
-1 Major Spell-bead (NW)
+1 Crook-legged Orc (BA)
 
-# Minion Resource (13)
+# Minion Resource (12)
 
 1 Black Ring of Arda (NE)
 1 Flaming Torch (NE)
@@ -111,14 +119,9 @@ Sideboard
 1 Magic Ring of Savagery (LE)
 1 Minor Ring (LE)
 1 Shoot in the Eye (GW)
-1 The Runeknife of Risinth (NW)
-1 War-wolf (LE)
+1 Test of Fire (LE)
 1 Wargs of the Forochel (LE)
 1 Wind-horde (NW)
-
-# Minion Character (1)
-
-1 Crook-legged Orc (BA)
 
 #####
 Sites
@@ -131,11 +134,14 @@ Sites
 1 Shapal Udûn [B] (ML)
 1 The Under-forges [B] (NW)
 
-# Minion Site (33)
+# Dual Site (1)
+
+1 Ancient Maze (ML)
+
+# Minion Site (32)
 
 1 Achrond [M] (NW)
 1 Amon Anlug [M] (NW)
-1 Ancient Maze (ML)
 1 Andoloki [M] (NW)
 1 Bernastath [M] (NW)
 1 Canadras [M] (NW)
@@ -166,3 +172,4 @@ Sites
 1 Tol Ringurthur [M] (ML)
 1 Vasaran Ahjo [M] (NW)
 1 Zayandaur [M] (ML)
+

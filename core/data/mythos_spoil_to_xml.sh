@@ -58,7 +58,7 @@ get_setfname()
             SET_ABBREV="NAE"
             ;;
         "ScoobyDoo")
-            SET_NAME="Scooby Doo - Where Are You?"
+            SET_NAME="Scooby-Doo"
             SET_FNAME="sd.xml"
             SET_ABBREV="SD"
             ;;

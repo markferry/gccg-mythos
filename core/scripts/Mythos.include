@@ -85,6 +85,17 @@ def Bury
     }
 }
 
+# Player announces a Pass.
+# Same as Ctrl+E, just more specific
+def Pass
+{
+    Say("{magenta}Pass");
+    if(isfunction("EndOfTurnHook"))
+        call("EndOfTurnHook",NULL);
+    Send("PassTimer",NULL);
+    Send("PlaySound","notify");
+}
+
 # Override Ctrl+S for cards
 # Send to top of Story Deck
 def PlayKeyAltKeyHome
@@ -262,4 +273,7 @@ def PlayCommandAp
 
     d = pop();
 }
+
+def PlayCommandPass
+    Pass();
 

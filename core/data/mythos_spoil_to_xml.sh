@@ -3,6 +3,8 @@
 # mythos_spoil_to_xml.sh SRC
 #    SRC: source CSV file
 #
+# CSV source is sorted by Set, Title_en, Image
+#
 
 SRC="$1"
 

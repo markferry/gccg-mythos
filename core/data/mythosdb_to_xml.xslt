@@ -7,6 +7,8 @@
 <xsl:param name="setabbrev"></xsl:param>
 <!-- Full name for the set -->
 <xsl:param name="setname"></xsl:param>
+<!-- Directory for set images -->
+<xsl:param name="setdir"></xsl:param>
 
 <xsl:output omit-xml-declaration="no"
             encoding="UTF-8"
@@ -22,7 +24,7 @@
         attributes. The rest become parameterized children -->
 
   <xsl:template match="/">
-    <ccg-setinfo name="{$setname}" abbrev="{$setabbrev}" game="Mythos">
+    <ccg-setinfo name="{$setname}" dir="{$setdir}" abbrev="{$setabbrev}" game="Mythos">
         <cards>
         <!-- Only cards from the specified set -->
         <xsl:for-each select="cards/row[Set=$setid]">

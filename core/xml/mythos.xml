@@ -6,6 +6,13 @@
   <cardset source="mythos_basecards.xml"/>
   <cardset source="ltd.xml"/>
   <cardset source="eomu.xml"/>
+  <cardset source="cr.xml"/>
+  <cardset source="lotn.xml"/>
+  <cardset source="msgs.xml"/>
+  <cardset source="drm.xml"/>
+  <cardset source="nae.xml"/>
+  <cardset source="pr.xml"/>
+  <cardset source="sd.xml"/>
 
   <option name="hand card size" value="50"/>
   <option name="table card size" value="50"/>
@@ -83,6 +90,8 @@
   <option name="default text box align" value="1"/>
   <option name="default text box color" value="200,50,200"/>
   <option name="default text box border" value="2"/>
+
+  <trigger event="location hint" attribute="type"/>
 
 </ccg>
 

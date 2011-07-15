@@ -29,7 +29,6 @@
         <!-- Only cards from the specified set -->
         <xsl:for-each select="cards/row[Set=$setid]">
             <card name="{Title_en}" graphics="{Image}" text="{Text_en}" >
-                <attr value="{Rarity}" key="rarity" />
                 <attr value="{Set}" key="set"/>
                 <attr value="{Rarity}" key="rarity"/>
                 <attr value="{Type}" key="type"/>

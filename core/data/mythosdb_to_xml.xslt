@@ -36,6 +36,7 @@
                 <attr value="{Value}" key="value"/>
                 <attr value="{Gate}" key="gate"/>
                 <attr value="{Private_Text}" key="private"/>
+                <attr value="{Public_Text}" key="public"/>
                 <attr value="{Region}" key="region"/>
                 <attr value="{Subregion}" key="subregion"/>
                 <attr value="{Education}" key="education"/>

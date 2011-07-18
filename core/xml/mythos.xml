@@ -79,16 +79,16 @@
   <option name="default image border" value="2"/>
   <option name="default image font size" value="100"/>
 
+  <option name="default text 4" value="56,180,168,20"/>
+  <option name="default text 4 content" value="[region] [subregion]"/>
+  <option name="default text 4 font color" value="0,0,0"/>
+  <option name="default text 4 font size" value="16"/>
+
   <option name="default text box" value="50,218,170,100"/>
   <option name="default text box align" value="1"/>
   <option name="default text box color" value="200,50,200"/>
   <option name="default text box border" value="2"/>
   <option name="default text box font size" value="16"/>
-
-  <option name="default text 4" value="12,90,48,130"/>
-  <option name="default text 4 content" value="[region]\n[subregion]"/>
-  <option name="default text 4 font color" value="0,0,0"/>
-  <option name="default text 4 font size" value="24"/>
 
   <option name="default text 5" value="12,220,48,100"/>
   <option name="default text 5 content" value="[public]"/>

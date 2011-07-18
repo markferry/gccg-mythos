@@ -14,6 +14,7 @@
   <cardset source="pr.xml"/>
   <cardset source="sd.xml"/>
 
+  <image file="gate.png" tag="{G}"/>
   <image file="unique.png" tag="{U}"/>
 
   <option name="hand card size" value="50"/>

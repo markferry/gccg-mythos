@@ -267,7 +267,7 @@
        <attr key="class" value="Long-event"/>
        <attr key="type" value="Hazard"/>
     </card>
-    <card name="Ice-drake" graphics="IcedrakeDC.jpg" text="Drake. Two strikes. May be played keyed to Elven Shores, Forochel, Angmar, Gundabad, Grey Mountain Narrows, and Withered Heath. {green} DCE: Two strikes. May be played keyed to any region in the Northern Waste and Elven Shores.">
+    <card name="Ice-drake" graphics="Icedrake.jpg" text="Drake. Two strikes. May be played keyed to Elven Shores, Forochel, Angmar, Gundabad, Grey Mountain Narrows, and Withered Heath. {green} DCE: Two strikes. May be played keyed to any region in the Northern Waste and Elven Shores.">
        <attr key="strikes" value="2"/>
        <attr key="mp" value="1"/>
        <attr key="body" value="-"/>

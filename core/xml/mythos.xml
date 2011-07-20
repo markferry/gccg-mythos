@@ -14,8 +14,11 @@
   <cardset source="pr.xml"/>
   <cardset source="sd.xml"/>
 
+  <image file="dim-drm.png" tag="{DRM}"/>
+  <image file="dim-nae.png" tag="{NAE}"/>
   <image file="gate.png" tag="{G}"/>
   <image file="unique.png" tag="{U}"/>
+
 
   <option name="hand card size" value="50"/>
   <option name="table card size" value="50"/>
@@ -103,10 +106,15 @@
   <option name="default text 6 font color" value="0,0,0"/>
   <option name="default text 6 font size" value="18"/>
 
-  <option name="default text 7" value="213,311,15,15"/>
-  <option name="default text 7 content" value="[unique]"/>
+  <option name="default text 7" value="36,311,15,15"/>
+  <option name="default text 7 content" value="[dimension]"/>
   <option name="default text 7 font color" value="0,0,0"/>
-  <option name="default text 7 font size" value="18"/>
+  <option name="default text 7 font size" value="14"/>
+
+  <option name="default text 8" value="213,311,15,15"/>
+  <option name="default text 8 content" value="[unique]"/>
+  <option name="default text 8 font color" value="0,0,0"/>
+  <option name="default text 8 font size" value="14"/>
 
   <option name="Adventure image" value="50,90,180,40"/>
   <option name="Adventure image color" value="150,159,156"/>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Mapping data for translating mythosdb values to GCCG tags -->
+<mythosdb-map>
+    <dimension>
+        <entry key="Dreamlands">{DRM}</entry>
+        <entry key="New Æon">{NAE}</entry>
+        <!-- default entry must be last in document -->
+        <default></default>
+    </dimension>
+    <gate>
+        <entry key="1">{G}</entry>
+        <!-- default entry must be last in document -->
+        <default></default>
+    </gate>
+    <unique>
+        <entry key="1">{U}</entry>
+        <!-- default entry must be last in document -->
+        <default></default>
+    </unique>
+    <value>
+        <entry key="GOO">{GOO}</entry>
+    </value>
+</mythosdb-map>

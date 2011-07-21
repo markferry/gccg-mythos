@@ -18,7 +18,7 @@
   <image file="dim-nae.png" tag="{NAE}"/>
   <image file="gate.png" tag="{G}"/>
   <image file="unique.png" tag="{U}"/>
-
+  <image file="goo.png" tag="{GOO}"/>
 
   <option name="hand card size" value="50"/>
   <option name="table card size" value="50"/>

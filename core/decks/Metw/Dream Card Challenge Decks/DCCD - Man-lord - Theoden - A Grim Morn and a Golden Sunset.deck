@@ -16,15 +16,18 @@ Deck
 
 2 An Unexpected Outpost (DM)
 1 Ando-anca Ahunt (GW)
-2 Doors of Night (LE)
-2 Ent in Search of the Entwives (LE)
+1 Curse him, Root and Branch! (FB)
+1 Doors of Night (LE)
+3 Ent in Search of the Entwives (LE)
 1 Fangorn* (FB)
-2 Foolish Words (TD)
+1 Finglas (FB)
+1 Foolish Words (TD)
 1 Frightful Guardian (GW)
-1 Hermit Troll (DF)
+1 Fruitless Victory (NE)
 3 Huorn (TW)
 1 Memories of Axe-wielders (TI)
-2 Nameless Thing (DM)
+2 Mensharag (TI)
+1 Nature's Revenge (WH)
 1 Old Man Willow (TW)
 2 Protecting their Domain (FB)
 1 Scatha Ahunt (TD)
@@ -32,23 +35,24 @@ Deck
 1 Siege of Gondor (WR)
 1 Tauremornalómë (TI)
 1 Tree-herder (FB)
-1 Turukulon (TI)
 1 Twilight (LE)
-1 Wose Ambush (WR)
 3 Wrath of the Olvar (FB)
 1 Yavanna's Plea (FB)
 
-# Hero Character (3)
+# Hero Character (7)
 
-1 Dernhelm (TI)
+1 Dúnhere (TI)
+1 Erkenbrand (TW)
 1 Guthláf (TI)
+1 Morwen of Lossarnach (TI)
+1 Théodred (TI)
 1 Wídfara (TI)
+1 Éothain (TI)
 
 # Hero Resource (29)
 
 1 A Short Rest (TD)
 1 Barrow-blade (DM)
-1 Concealment (TW)
 2 Evermind (TI)
 1 Gúthwinë (TI)
 2 Halfling Stealth (TW)
@@ -56,7 +60,7 @@ Deck
 1 Hour of Need (DM)
 1 Longbottom Leaf (BA)
 1 Lord of the Mark (TI)
-1 Lucky Strike (TW)
+2 Lucky Strike (TW)
 1 Marvels Told (TD)
 1 Men of Harrowdale (TI)
 1 Men of Lossarnach (WR)
@@ -72,7 +76,7 @@ Deck
 1 The Wind Is Turning (WR)
 1 Token of Goodwill (DM)
 
-# Man-lord (3)
+# Man-lord Character (4)
 
 4 Théoden King (TI)
 
@@ -89,18 +93,14 @@ Deck
 Pool
 ####
 
-# Hero Character (10)
+# Hero Character (6)
 
 1 Ceorl (TI)
-1 Dúnhere (TI)
 1 Elfhelm (TI)
 1 Grimbold of Westfold (TI)
 1 Hirgon (WR)
 1 Merry (TW)
-1 Morwen of Lossarnach (TI)
-1 Théodred (TI)
 1 Éomer (TW)
-1 Éothain (TI)
 
 # Hero Resource (3)
 
@@ -125,10 +125,10 @@ Sideboard
 # Hazard (5)
 
 1 Covetous Thoughts (LE)
-1 Durlach, Bane of the North (NW)
+1 Many Burdens (RS)
+1 Nameless Thing (DM)
 1 Politics (WR)
 1 Ring-chained (NM)
-1 Swamp-dragon (SL)
 
 # Hero Resource (9)
 
@@ -152,7 +152,7 @@ Sideboard
 Sites
 #####
 
-# Hero Site (17)
+# Hero Site (18)
 
 1 Amon Hen [H] (TW)
 1 Cair Andros [H] (WR)
@@ -166,9 +166,9 @@ Sites
 1 Hermit's Hill [H] (DM)
 1 Isengard [H] (TW)
 1 Lossarnach [H] (WR)
-1 Mathlaburg (GW)
+1 Mathlaburg [H] (GW)
 1 Minas Tirith [H] (TW)
 1 Osgiliath [H] (WR)
-1 Ruined Signal Tower (TW)
+1 Ruined Signal Tower [H] (TW)
 1 Turukulon's Lair [H] (TI)
-1 Wose Passage-hold (TW)
+1 Wose Passage-hold [H] (TW)

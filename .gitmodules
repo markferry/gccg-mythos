@@ -1,0 +1,3 @@
+[submodule "mythos"]
+	path = mythos
+	url = http://markferry.net/code/gccg-mythos-data.git

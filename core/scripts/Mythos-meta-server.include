@@ -3,6 +3,11 @@ if(!port)
   port=29116;
 factory.port=29117;
 
+INITIAL_MONEY=11.0;
+GAME_BONUS=15.0;
+LOSER_PERCENTAGE=0.1334;
+DRAW_PERCENTAGE=0.15;
+
 if(!load("products"))
 {
   products=(,);
@@ -10,5 +15,10 @@ if(!load("products"))
   products{"EOMU booster"}=(65536,2.95,("EOMU","booster"),65536);
   products{"CR booster"}=(65536,2.95,("CR","booster"),65536);
   products{"LOTN booster"}=(65536,2.95,("LOTN","booster"),65536);
+  products{"MSGS starter"}=(65536,12.95,("MSGS","starter"),65536);
+  products{"DRM starter"}=(65536,8.95,("DRM","starter"),65536);
+  products{"DRM booster"}=(65536,2.95,("DRM","booster"),65536);
+  products{"NAE starter"}=(65536,8.95,("NAE","starter"),65536);
+  products{"NAE booster"}=(65536,2.95,("NAE","booster"),65536);
   save("products");
 }

@@ -97,3 +97,9 @@ def ProduceLOTN_Booster
            + RandomCardSet("LOTN",((6,"Common"),(2,"Uncommon"),(1,"Rare"))));
 }
 
+def ProduceMSGS_Starter
+{
+    return(CompleteCardSet("MSGS","Fixed")
+           + CompleteCardSet("MSGS","Investigator"));
+}
+

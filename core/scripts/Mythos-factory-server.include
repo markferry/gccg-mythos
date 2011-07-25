@@ -76,7 +76,8 @@ def InitDistributions
   distribution{"NAE"}=(,);
   distribution{"NAE"}{"booster"}=((7,"Common"),(4,"Uncommon"),(2,"Rare"));
   distribution{"NAE"}{"starter"}=((46,"Common"),(10,"Uncommon"),(4,"Rare"),(2,"Investigator"));
-
+  distribution{"SD"}=(,);
+  distribution{"SD"}{"booster"}=((13,"Fixed"),);
 }
 
 def ProduceEOMU_Booster

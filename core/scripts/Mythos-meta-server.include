@@ -10,15 +10,57 @@ DRAW_PERCENTAGE=0.15;
 
 if(!load("products"))
 {
-  products=(,);
-  products{"Limited starter"}=(65536,8.95,("LTD","starter"),65536);
-  products{"EOMU booster"}=(65536,2.95,("EOMU","booster"),65536);
-  products{"CR booster"}=(65536,2.95,("CR","booster"),65536);
-  products{"LOTN booster"}=(65536,2.95,("LOTN","booster"),65536);
-  products{"MSGS starter"}=(65536,12.95,("MSGS","starter"),65536);
-  products{"DRM starter"}=(65536,8.95,("DRM","starter"),65536);
-  products{"DRM booster"}=(65536,2.95,("DRM","booster"),65536);
-  products{"NAE starter"}=(65536,8.95,("NAE","starter"),65536);
-  products{"NAE booster"}=(65536,2.95,("NAE","booster"),65536);
-  save("products");
+    products=(,);
+    products{"Limited starter"}=(65536,8.95,("LTD","starter"),65536);
+    products{"EOMU booster"}=(65536,2.95,("EOMU","booster"),65536);
+    products{"CR booster"}=(65536,2.95,("CR","booster"),65536);
+    products{"LOTN booster"}=(65536,2.95,("LOTN","booster"),65536);
+    products{"MSGS starter"}=(65536,12.95,("MSGS","starter"),65536);
+    products{"DRM starter"}=(65536,8.95,("DRM","starter"),65536);
+    products{"DRM booster"}=(65536,2.95,("DRM","booster"),65536);
+    products{"NAE starter"}=(65536,8.95,("NAE","starter"),65536);
+    products{"NAE booster"}=(65536,2.95,("NAE","booster"),65536);
+    save("products");
+}
+
+# Reward with a card from ScoobyDoo
+def EndGameHook
+{
+    if(length(ARG[3])>1)
+    {
+        push(c);
+        push(ready);
+        for(p)(ARG[4])
+        {
+            if(length(promo.booster) <= 0)
+            {
+                if(net_send(factory.server,(1,"SD","booster")))
+                {
+                    ready=0;
+                    while(!ready)
+                    {
+                        c=net_get();
+                        if(c!=NULL)
+                        {
+                            ready=1;
+                            promo.booster=shuffle(flatten(toval(c[1])));
+                        }
+                    }
+                }
+            }
+
+            if(users{p}[4][1][0]==0)
+            {
+                c=first(promo.booster);
+                promo.booster=tail(promo.booster);
+
+                AddCard(p,c);
+                SendAll("Message","{blue}"+p+" receives{gold} #"+c+"# {blue}as a reward for the game.");
+                if(Con(p)>-1)
+                    Send(Con(p),("SetCardbook",((c,users{p}[2]{c}),)));
+            }
+        }
+        ready=pop();
+        c=pop();
+    }
 }

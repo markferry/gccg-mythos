@@ -119,9 +119,9 @@ def InitializeLocationTables
     rules.coordinate=(,);
 }
 
+#   default, TODO modify by investigators
 def InitializeGame
 {
-#   default, TODO modify by investigators
     adventure_points = 0;
     sanity_points = 13;
     sanity_lock = 0;
@@ -277,3 +277,68 @@ def PlayCommandAp
 def PlayCommandPass
     Pass();
 
+
+#
+# LAYOUT
+# ==========
+# StacksByGroup(group index,card index,x,y,xoffset,yoffset,stack x-step,stack y-step):
+#  (x,y) = (  x + (group_index * stack_xstep) + (card_index * xoffset),
+#             y + (group_index * stack_ystep) + (card_index * yoffset))
+#
+# Investigator in the middle of your play area.
+# Adventures stacked underneath the investigator
+# Threat above the investigator (don't group by name, tells opponent too much)
+# Allies horizontally to the right (no point in grouping by name)
+# Tomes & Artifacts horizontally to the left
+# All the rest stacked next to the story deck
+#
+def InitializeLocationTables
+{
+    rules.category=(
+        ( 'type=="Investigator" || type=="Adventure"','("adventure_stack","")'),
+        ( 'type=="Monster"','("threat","")'),
+        ( 'type=="Ally"','("ally","")'),
+        ( 'type=="Artifact" || type=="Tome" || type=="Spell"','("permanent",name(card))'),
+        ( 'findspace.facedown','("facedown","")'),
+        ( '1','("other","")')
+    );
+
+    rules.coordinate=(
+        (
+            ("adventure_stack",),
+            (
+                (("StacksByGroup",table.width/3, table.height/4, 6, 16, 0, 0),),
+                (("OffscreenEnabled","yes"),),
+            )
+        ),
+        (
+            ("threat",),
+            (
+                (("StacksByGroup", table.width/3 + card.xstep + 6, 16, card.xstep/2, 0, 0, 0),),
+                (("OffscreenEnabled","yes"),),
+            )
+        ),
+        (
+            ("ally",),
+            (
+                (("StacksByGroup", table.width/3 + card.xstep + 6, table.height/4, card.xstep/2, 0, 0, 0),),
+                (("OffscreenEnabled","yes"),),
+            )
+        ),
+        (
+            ("permanent",),
+            (
+                (("StacksByGroup", 6, table.height/4, 6, 16, card.xstep/2, 0),),
+                (("OffscreenEnabled","yes"),),
+                (("AutoRaiseGroupTail","yes"),),
+            )
+        ),
+        (
+            ("other",),
+            (
+                (("StacksByGroup", 160, 16, 6, 16, 0, 0),),
+                (("AutoRaiseGroupTail","yes"),),
+            )
+        ),
+    );
+}

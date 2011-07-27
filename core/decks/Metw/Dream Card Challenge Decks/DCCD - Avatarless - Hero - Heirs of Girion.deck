@@ -1,12 +1,18 @@
 #
 # GCCG v0.9.6.3 Middle-earth deck
 #
-#      DCCD - Hero - Avatarless - Heirs of Girion
+#      DCCD - Avatarless - Hero - Heirs of Girion
 #
 
-# Dual Resource (2)
+####
+Deck
+####
 
+# Dual Resource (4)
+
+1 Deadly Dart (PR)
 1 Elf-friend (FB)
+1 Morinehtar (CP)
 1 Well Aimed (FB)
 
 # Grey Agent Character (2)
@@ -52,11 +58,10 @@
 1 The Master (GW)
 1 Wídfara (TI)
 
-# Hero Resource (32)
+# Hero Resource (31)
 
 1 Aiwendil (NW)
 1 Aranrûth (FB)
-1 Carc (DF)
 1 Concealment (TW)
 2 Dragon-feuds (TD)
 1 Elf-stone (TW)
@@ -68,9 +73,9 @@
 1 Men of Lake-town (TD)
 1 Men of Northern Rhovanion (TW)
 1 Mithrandir (DF)
-1 Morinehtar (CP)
 1 Necklace of Girion [H] (DM)
 1 New Supplies (RS)
+1 Noble Hound (DM)
 1 Not at Home (TD)
 1 Of the Race of Dale (GW)
 1 Ravens of Northern Rhovanion (DF)
@@ -79,13 +84,9 @@
 2 Smoke Rings (DM)
 1 Thane's Attire (GW)
 1 The Wind Is Turning (WR)
-1 True Fána (TW)
 1 Vanishment (TW)
+1 Wizard Uncloaked (TD)
 1 Wizard's Flame (TW)
-
-# Minion Resource (1)
-
-1 Deadly Dart (PR)
 
 ####
 Pool
@@ -120,19 +121,18 @@ Sideboard
 1 Sharp Blade (WR)
 1 Well Aimed (FB)
 
-# Hazard (6)
+# Hazard (4)
 
 1 Covetous Thoughts (LE)
 1 Dwarven Warparty (DF)
 1 Earth-tremors (DM)
-1 Sloth Bear (SL)
 1 The Sun Shone Fiercely (BA)
-1 Twilight (TW)
 
 # Hero Resource (13)
 
 1 Alert the Folk (TD)
 1 Block (TW)
+1 Carc (DF)
 1 Cram (TD)
 1 Healing Herbs (TW)
 1 Hollow on the Left Breast (GW)
@@ -140,7 +140,6 @@ Sideboard
 1 Iron Hill Dwarves (TW)
 1 King of Dale (GW)
 1 Marvels Told (TD)
-1 Noble Hound (DM)
 1 Star-glass (TW)
 1 The Old Thrush (TW)
 1 Wood-elves (TW)
@@ -149,52 +148,40 @@ Sideboard
 Sites
 #####
 
-# Hero Site (54)
+# Hero Site (35)
 
-1 Adan Tomb [H] (CP)
-1 Bandit Lair [H] (TW)
 1 Buhr Thurasig [H] (GW)
 1 Buhr Widu [H] (TD)
 1 Cave of the Urdharkonur [H] (GW)
 1 Ceber Fanuin [H] (FB)
 1 Celebannon [H] (FB)
 1 Dale [H] (TD)
+1 Dancing Spire [H] (TW)
 1 Framsburg [H] (TD)
 1 Gaurblog Lug [H] (DF)
-1 Gladden Fields [H] (TW)
 1 Gondmaeglom [H] (TD)
 1 Gyogorasag Sanctuary [H] (GW)
 1 Hermit's Hill [H] (DM)
 1 Iron Hill Dwarf-hold [H] (TW)
 1 Lake-town [H] (TW)
 1 Lar-huz [H] (CP)
-1 Lind-or-Burúm [H] (TI)
-1 Logath Camp [H] (CP)
 1 Long Marish [H] (DF)
 1 Long Peak [H] (GW)
-5 Lórien [H] (TW)
+1 Lórien [H] (TW)
 1 Mathlaburg [H] (GW)
 1 Mistrand [H] (CP)
 1 Mount Gundabad [H] (TW)
 1 Mountains of Mirkwood [H] (GW)
 1 Norr-dûm [H] (GW)
-1 Nurunkhizdín [H] (DF)
 1 Ovir Hollow [H] (TD)
-1 Relerindú [H] (CP)
-1 Rhosgobel [H] (TW)
-5 Rhûbar [H] (FB)
-1 Riavod [H] (NE)
+1 Rhûbar [H] (FB)
 1 Sarn Goriwing [H] (TW)
-1 Shrel-Kain [H] (TW)
 1 Steel Fall [H] (GW)
 1 Strayhold [H] (NE)
 1 The Carrock [H] (DF)
 1 The Lonely Mountain [H] (TW)
 1 The Wind Throne [H] (TW)
-1 Thraath [H] (CP)
 1 Thranduil's Halls [H] (TW)
 1 Tol Buruth [H] (NE)
+1 Tower of the Wolf-friend [H] (GW)
 1 Wain-Easterling Camp [H] (CP)
-1 Wellinghall [H] (TW)
-1 Woodmen-town [H] (TW)
-

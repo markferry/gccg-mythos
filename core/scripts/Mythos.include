@@ -151,7 +151,7 @@ def EndGame
 #
 def RefreshScore
 {
-    Send("Score",(me,(("SP",sanity_points),("AP",adventure_points))));
+    Send("Score",(me,(("AP",adventure_points),("SP",sanity_points),)));
 }
 
 # Search the deck for an Investigator, select, put it into play
@@ -197,7 +197,7 @@ def ScoreHook
 #
 # ScoreToText(score structure) - Convert a score structure to string.
 # 
-def ScoreToText_disable
+def ScoreToText
 {
     push(s);
     s="";
@@ -205,7 +205,7 @@ def ScoreToText_disable
     s=s+"San "+toint(ARG{"SP"});
     if(ARG{"AP"})
     {
-        s="AP. "+toint(ARG{"AP"})+" "+s;
+        s="AP "+toint(ARG{"AP"})+", "+s;
     }
 
     return(s);

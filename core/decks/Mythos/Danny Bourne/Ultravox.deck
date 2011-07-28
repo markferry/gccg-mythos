@@ -9,6 +9,9 @@
 # Retrieved from
 #   http://www.xmission.com/~hastur/mythos7.html
 #
+# Decklist had TWO (unique) Arkham Sanitariums making it illegal.
+#    Recommend Conanicut instead of the second Arkham.
+#
 Investigators
 1 Inquisitive Chinese Intellectual
 
@@ -54,7 +57,9 @@ Deck
 2 Auction House, The
 1 Arkham Sanitarium
 1 Huntingdon Asylum for Lunatics
+# !!!
 1 Arkham Sanitarium
+#1 Conanicut Island Private Hospital
 
 # MONSTERS
 2 Byakhee

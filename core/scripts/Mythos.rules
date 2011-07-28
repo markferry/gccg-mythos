@@ -16,7 +16,7 @@ deck_rules{"Campaign"}{"deck"}=(
   ("RulePass",NULL),
 );
 deck_rules{"Campaign"}{""}=(
-  ("RuleLimitEachByExpression",(1,"Attr(\"unique\",#) == \"1\"")),
+  ("RuleLimitEachByExpression",(1,"Attr(\"unique\",#) != \"\"")),
   ("RuleCardLimitSingle",("Create Your Own Adventure",0)),
   ("RuleCardLimitGeneral",4),
   ("RulePass",NULL),

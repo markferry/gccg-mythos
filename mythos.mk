@@ -2,7 +2,7 @@
 #
 #
 CLIENT_PACKAGE:=gccg-mythos
-CLIENT_VERSION:=0.1.0
+CLIENT_VERSION:=0.2.1
 
 DATA_PACKAGE:=gccg-mythos-data
 DATA_VERSION:=11071500
@@ -13,9 +13,10 @@ SITE_XML:=${SITE_PATH}/available.xml
 AVAILABLE_XML="<modules>\n\t<source url=\"http://gccg.sourceforge.net/modules/\"/>\n\t<module name=\"mythos\" version=\"${CLIENT_VERSION}\"></module>\n\t<module name=\"mythos-data\" version=\"${DATA_VERSION}\"></module>\n</modules>"
 
 CLIENT_FILES=data/mythos* decks/Mythos graphics/Mythos scripts/Mythos* xml/mythos.xml xml/Mythos
+SERVER_FILES=games.dat
 DATA_FILES=graphics/Mythos
 
-SSH_PATH=yuggoth:~/public_html/
+SSH_PATH=yuggoth-git:~/public_html/
 ########################
 all: dist
 
@@ -23,7 +24,7 @@ build-dirs:
 	mkdir -p ${PKG_PATH}
 
 client: build-dirs
-	cd core && tar -czvf ../${PKG_PATH}/${CLIENT_PACKAGE}-${CLIENT_VERSION}.tgz ${CLIENT_FILES}
+	cd core && tar -czvf ../${PKG_PATH}/${CLIENT_PACKAGE}-${CLIENT_VERSION}.tgz ${CLIENT_FILES} ${SERVER_FILES}
 
 data: build-dirs
 	cd mythos && tar -czvf ../${PKG_PATH}/${DATA_PACKAGE}-${DATA_VERSION}.tgz ${DATA_FILES}

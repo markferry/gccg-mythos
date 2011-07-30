@@ -24,14 +24,15 @@ GAME_MENU{"Main Menu - Play"}=(
 );
 
 GAME_MENU{"A Card"}=(
-    (1,"Play to Story Deck","Alt+Home",""),
-    (1,"Bury in Story Deck","Alt+End",""),
+    (1,"Play to Story Deck","Ctrl+PgUp","Travel()"),
+    (1,"Bury in Story Deck","Ctrl+PgDn","Bury()"),
 );
 
 GAME_MENU{"Story Deck"}=(
     ("{hr}","",""),
     ("Look","Ctrl+L",""),
     ("Shuffle","Ctrl+S",""),
+    ("Shuffle to Deck","", "ReshuffleStoryDeck()"),
 );
 
 #
@@ -59,6 +60,13 @@ def MouseLeftClickStoryDeck
 
 def MouseLeftClickDiscardPile
   PlayKeyControlKeyL();
+
+# Shuffle Story Deck back into Deck
+def ReshuffleStoryDeck
+{
+    Send("Transfer",(length(deck(deck.objects[me]{"story deck"})),("deck.top",deck.objects[me]{"story deck"}),("deck.top",deck)));
+    Send("ShuffleDeck",deck);
+}
 
 # Play to top of Story Deck
 # e.g. Location or Travel Event
@@ -98,10 +106,10 @@ def Pass
 
 # Override Ctrl+S for cards
 # Send to top of Story Deck
-def PlayKeyAltKeyHome
+def PlayKeyControlKeyPageUp
     Travel();
 
-def PlayKeyAltKeyEnd
+def PlayKeyControlKeyPageDown
     Bury();
 
 # FUNCTIONS

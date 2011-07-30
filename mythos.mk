@@ -5,7 +5,7 @@ CLIENT_PACKAGE:=gccg-mythos
 CLIENT_VERSION:=0.2.3
 
 DATA_PACKAGE:=gccg-mythos-data
-DATA_VERSION:=11071500
+DATA_VERSION:=11072900
 
 PKG_PATH:=packages
 SITE_PATH:=site/markferry.net/gccg

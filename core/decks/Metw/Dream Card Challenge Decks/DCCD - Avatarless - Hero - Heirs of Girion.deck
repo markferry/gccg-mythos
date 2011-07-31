@@ -29,6 +29,7 @@ Deck
 1 Cave-drake (LE)
 1 Despair of the Heart (LE)
 1 Dragon's Blood (TD)
+1 Dwarven Warparty (DF)
 1 Foolish Words (TD)
 1 Fruitless Victory (NE)
 2 Great Northern Bear (GW)
@@ -38,7 +39,6 @@ Deck
 1 Lord of the Eagles (DF)
 1 Marsh-drake (TD)
 1 Marsh-drake (LE)
-1 Mensharag (TI)
 1 Nameless Thing (DM)
 1 Neeker-breekers (PR)
 1 Rain-drake (TD)
@@ -52,10 +52,14 @@ Deck
 2 Worm's Stench (TD)
 1 Wyrmsiege (DF)
 
-# Hero Character (3)
+# Hero Character (7)
 
+1 Brand (TD)
+1 Legolas of Greenwood (FB)
 1 Othar (FB)
 1 The Master (GW)
+1 Thranduil [H] (TW)
+1 Wacho (TW)
 1 Wídfara (TI)
 
 # Hero Resource (31)
@@ -92,18 +96,14 @@ Deck
 Pool
 ####
 
-# Hero Character (10)
+# Hero Character (6)
 
 1 Bain (GW)
 1 Bard Bowman (TW)
-1 Brand (TD)
 1 Celeborn (TW)
-1 Elfhelm (TI)
 1 Eodoric (GW)
 1 Fanar (FB)
-1 Legolas of Greenwood (FB)
 1 Mallorn-dweller (FB)
-1 Thranduil [H] (TW)
 
 # Hero Resource (3)
 
@@ -124,8 +124,8 @@ Sideboard
 # Hazard (4)
 
 1 Covetous Thoughts (LE)
-1 Dwarven Warparty (DF)
 1 Earth-tremors (DM)
+1 Fell-bear (NW)
 1 The Sun Shone Fiercely (BA)
 
 # Hero Resource (13)

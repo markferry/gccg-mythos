@@ -46,7 +46,7 @@ Deck
 1 Orc of the Claw (GW)
 1 The Dragon's Disciple (GW)
 
-# Minion Resource (33)
+# Minion Resource (32)
 
 1 A Few Recruits (BA)
 1 Azog's Scimitar (GW)
@@ -54,16 +54,16 @@ Deck
 1 Crept Along Cleverly (WH)
 1 Crooked Promptings (LE)
 1 Diversion (LE)
+1 Fire-storm (GW)
 2 Foe Dismayed (BA)
 1 Great Bats (AS)
-2 Great Ruin and Fire under Tree (GW)
+1 Great Ruin and Fire under Tree (GW)
 1 Hatred (NE)
 1 Helm of Madness (NE)
 1 High Helm (LE)
 1 I'll Report You (LE)
 1 Ice-orcs (LE)
 1 Join With That Power (AS)
-1 Made His Dwelling There (GW)
 1 Necklace of Girion [M] (AS)
 1 Old Treasure (AS)
 1 Orcs of Mirkwood (LE)
@@ -130,13 +130,14 @@ Sideboard
 
 1 Back to the Fray (LE)
 1 Dragon's Abode (GW)
-2 Fire-storm (GW)
+1 Fire-storm (GW)
 1 Flaming Torch (NE)
-1 Memories of Old Torture (BA)
+1 Made His Dwelling There (GW)
 1 Orcs of His Dominion (GW)
 1 Scales and Jewels (GW)
 1 The Arkenstone [M] (PR)
 1 Trophy-belt (NE)
+1 Voices of Malice (LE)
 
 #####
 Sites
@@ -146,7 +147,7 @@ Sites
 
 3 Dragon's Den (GW)
 
-# Minion Site (32)
+# Minion Site (30)
 
 1 Buhr Thurasig [M] (GW)
 1 Buhr Widu [M] (LE)
@@ -169,7 +170,6 @@ Sites
 1 Mount Gundabad [M] (LE)
 1 Mountains of Mirkwood [M] (GW)
 1 Norr-dûm [M] (GW)
-1 Nurunkhizdín [M] (DF)
 1 Ovir Hollow [M] (AS)
 1 Sarn Goriwing [M] (LE)
 1 Shab Arch [M] (GW)
@@ -179,5 +179,4 @@ Sites
 1 Thranduil's Halls [M] (LE)
 1 Thunder Cleft [M] (GW)
 1 Tower of the Wolf-friend [M] (GW)
-1 Woodmen-town [M] (LE)
 

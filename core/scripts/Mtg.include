@@ -441,7 +441,7 @@ def TokenSubmenu
    ("Play Spirit 1/1 (BW)","",'Send("Transfer",(1,("out.of.play",83),("play",0)))'),
    ("Play Spirit 1/1 (W)","",'Send("Transfer",(1,("out.of.play",84),("play",0)))'),
    ("Play Squirrel 1/1 (G)","",'Send("Transfer",(1,("out.of.play",85),("play",0)))'),
-   ("Play Thopther 1/1 (A)","",'Send("Transfer",(1,("out.of.play",86),("play",0)))'),
+   ("Play Thopther 1/1 (AU)","",'Send("Transfer",(1,("out.of.play",86),("play",0)))'),
    ("Play Thrull 0/1 (B)","",'Send("Transfer",(1,("out.of.play",87),("play",0)))'),
    ("Play Treefolk Shaman 2/5 (G)","",'Send("Transfer",(1,("out.of.play",88),("play",0)))'),
    ("Play Twin 3/4 (A)","",'Send("Transfer",(1,("out.of.play",89),("play",0)))'),

@@ -17,7 +17,7 @@
        <attr key="influence" value="10"/>
 	   <attr key="keyword" value="Avatar"/>
     </card>
-    <card name="Doeth (Durthak)" graphics="DoethDurthakDC.jpg" text="Unique. Half-orc. Discard on a body check result of 9. {red}: Balrog offical rules: Home Site changes to: Any non-Dark-hold Under-deeps site {green} DCE: If you are a Dragon-lord: change home site to: Any non-Under-deeps Ruins and Lairs.">
+    <card name="Doeth (Durthak)" graphics="DoethDurthak.jpg" text="Unique. Half-orc. Discard on a body check result of 9. {red}: Balrog offical rules: Home Site changes to: Any non-Dark-hold Under-deeps site.">
        <attr key="unique" value="yes"/>
        <attr key="skills" value="Warrior/Sage"/>
        <attr key="mp" value="1"/>
@@ -31,7 +31,7 @@
        <attr key="influence" value="0"/>
 	   <attr key="keyword" value="Half-orc"/>
     </card>
-    <card name="Euog (Ulzog)" graphics="EuogUlzogDC.jpg" text="Unique. Half-orc. Leader. Discard on a body check result of 9. +2 direct influence against Orcs and Orc factions. {red}: Balrog offical rules: Home Site changes to: Any non-Dark-hold Under-deeps site {green} DCE: If you are a Dragon-lord: change home site to: Any non-Under-deeps Ruins and Lairs.">
+    <card name="Euog (Ulzog)" graphics="EuogUlzog.jpg" text="Unique. Half-orc. Leader. Discard on a body check result of 9. +2 direct influence against Orcs and Orc factions. {red}: Balrog offical rules: Home Site changes to: Any non-Dark-hold Under-deeps site.">
        <attr key="unique" value="yes"/>
        <attr key="skills" value="Warrior/Diplomat"/>
        <attr key="mp" value="2"/>
@@ -60,7 +60,7 @@
        <attr key="influence" value="9"/>
 	   <attr key="keyword" value="Avatar"/>
     </card>
-    <card name="Ill-favoured Fellow" graphics="IllfavouredFellowDC.jpg" text="Half-orc. Discard on a body check result of 9. {red}: Balrog offical rules: Home Site changes to: Any non-Dark-hold Under-deeps site {green} DCE: If you are a Dragon-lord: change home site to: Any non-Under-deeps Ruins and Lairs.">
+    <card name="Ill-favoured Fellow" graphics="IllfavouredFellow.jpg" text="Half-orc. Discard on a body check result of 9. {red}: Balrog offical rules: Home Site changes to: Any non-Dark-hold Under-deeps site.">
        <attr key="skills" value="Warrior/Ranger"/>
        <attr key="mp" value="1"/>
        <attr key="home_site" value="Any Dark-hold"/>
@@ -129,7 +129,7 @@
        <attr key="influence" value="12"/>
 	   <attr key="keyword" value="Avatar"/>
     </card>
-    <card name="Sly Southerner" graphics="SlySouthernerDC.jpg" text="Half-orc. Discard on a body check result of 9. {red}: Balrog offical rules: Home Site changes to: Any non-Dark-hold Under-deeps site {green} DCE: If you are a Dragon-lord: change home site to: Any non-Under-deeps Ruins and Lairs.">
+    <card name="Sly Southerner" graphics="SlySoutherner.jpg" text="Half-orc. Discard on a body check result of 9. {red}: Balrog offical rules: Home Site changes to: Any non-Dark-hold Under-deeps site.">
        <attr key="skills" value="Warrior/Scout"/>
        <attr key="mp" value="0"/>
        <attr key="home_site" value="Any Dark-hold"/>
@@ -142,7 +142,7 @@
        <attr key="influence" value="0"/>
 	   <attr key="keyword" value="Half-orc"/>
     </card>
-    <card name="Squint-eyed Brute" graphics="SquinteyedBruteDC.jpg" text="Half-orc. Discard on a body check result of 9. {red}: Balrog offical rules: Home Site changes to: Any non-Dark-hold Under-deeps site {green} DCE: If you are a Dragon-lord: change home site to: Any non-Under-deeps Ruins and Lairs.">
+    <card name="Squint-eyed Brute" graphics="SquinteyedBrute.jpg" text="Half-orc. Discard on a body check result of 9. {red}: Balrog offical rules: Home Site changes to: Any non-Dark-hold Under-deeps site.">
        <attr key="skills" value="Warrior"/>
        <attr key="mp" value="0"/>
        <attr key="home_site" value="Any Dark-hold"/>
@@ -433,7 +433,7 @@
        <attr key="type" value="Minion Resource"/>
 	   <attr key="keyword" value="Technology"/>
     </card>
-    <card name="Deep Mines" graphics="DeepMinesDC.jpg" back="1" text="A company may move to this site only from one of your protected Wizardhavens and only if you have more than 6 stage points. The protected Wizardhaven is the surface site for Deep Mines (i.e., the sites are adjacent and the movement roll required to move between them is 0). You receive the three stage points if any of your companies are at the site. May be duplicated in location deck. Cannot be duplicated on a given Wizardhaven.">
+    <card name="Deep Mines" graphics="DeepMines.jpg" back="1" text="A company may move to this site only from one of your protected Wizardhavens and only if you have more than 6 stage points. The protected Wizardhaven is the surface site for Deep Mines (i.e., the sites are adjacent and the movement roll required to move between them is 0). You receive the three stage points if any of your companies are at the site. May be duplicated in location deck. Cannot be duplicated on a given Wizardhaven.">
        <attr key="sp" value="3"/>
        <attr key="draw" value="1"/>
        <attr key="region" value="Under-deeps"/>
@@ -452,7 +452,7 @@
        <attr key="type" value="Fallen-wizard Site"/>
 	   <attr key="keyword" value="Orc-hold"/>
     </card>
-    <card name="Rhosgobel" graphics="RhosgobelDC.jpg" back="1" text="">
+    <card name="Rhosgobel" graphics="Rhosgobel.jpg" back="1" text="">
        <attr key="sp" value="1"/>
        <attr key="draw" value="2"/>
        <attr key="region" value="Southern Mirkwood"/>
@@ -484,7 +484,7 @@
        <attr key="class" value="Permanent-event"/>
        <attr key="type" value="Stage Resource"/>
     </card>
-    <card name="A Strident Spawn" graphics="AStridentSpawnDC.jpg" text="Unique. Playable if you are Pallando or Saruman and have 6 or more stage points and a protected Wizardhaven. Each of your Half-orcs requires one less point of influence to control. During your organization phase, you may take one Half- orc character from your discard pile to your hand. You may play Half-orc characters at your Wizardhavens, and even if your Fallen-wizard is not there. Cannot be duplicated by a given player.">
+    <card name="A Strident Spawn" graphics="AStridentSpawn.jpg" text="Unique. Playable if you are Pallando or Saruman and have 6 or more stage points and a protected Wizardhaven. Each of your Half-orcs requires one less point of influence to control. During your organization phase, you may take one Half- orc character from your discard pile to your hand. You may play Half-orc characters at your Wizardhavens, and even if your Fallen-wizard is not there. Cannot be duplicated by a given player.">
        <attr key="unique" value="yes"/>
        <attr key="sp" value="4"/>
        <attr key="mp" value="1"/>
@@ -529,14 +529,14 @@
        <attr key="class" value="Permanent-event"/>
        <attr key="type" value="Stage Resource"/>
     </card>
-    <card name="The Fortress of Isen" graphics="TheFortressofIsenDC.jpg" text="Unique. May not be a starting stage card. Playable if you are Alatar, Pallando, or Saruman. Playable on Isengard. Isengard is protected. Other Fallen-wizards may not use the Wizardhaven card for Isengard. Cards that give marshalling points are not playable at the site by your opponent in all cases. Discard this card when the site is discarded or returned to its location deck.">
+    <card name="The Fortress of Isen" graphics="TheFortressofIsen.jpg" text="Unique. May not be a starting stage card. Playable if you are Alatar, Pallando, or Saruman. Playable on Isengard. Isengard is protected. Other Fallen-wizards may not use the Wizardhaven card for Isengard. Cards that give marshalling points are not playable at the site by your opponent in all cases. Discard this card when the site is discarded or returned to its location deck.">
        <attr key="unique" value="yes"/>
        <attr key="sp" value="3"/>
        <attr key="rarity" value="U3"/>
        <attr key="class" value="Permanent-event"/>
        <attr key="type" value="Stage Resource"/>
     </card>
-    <card name="Fortress of the Towers" graphics="FortressoftheTowersDC.jpg" text="Unique. May not be a starting stage card. Playable if you are Alatar, Pallando, or Saruman. Playable on The White Towers. The White Towers is protected. Other Fallen- wizards may not use the Wizardhaven card for The White Towers. Cards that give marshalling points are not playable at the site by your opponent in all cases. Discard this card when the site is discarded or returned to its location deck.">
+    <card name="Fortress of the Towers" graphics="FortressoftheTowers.jpg" text="Unique. May not be a starting stage card. Playable if you are Alatar, Pallando, or Saruman. Playable on The White Towers. The White Towers is protected. Other Fallen- wizards may not use the Wizardhaven card for The White Towers. Cards that give marshalling points are not playable at the site by your opponent in all cases. Discard this card when the site is discarded or returned to its location deck.">
        <attr key="unique" value="yes"/>
        <attr key="sp" value="3"/>
        <attr key="rarity" value="U3"/>
@@ -568,7 +568,7 @@
        <attr key="class" value="Permanent-event"/>
        <attr key="type" value="Stage Resource"/>
     </card>
-    <card name="Guarded Haven" graphics="GuardedHavenDC.jpg" text="Playable on one of your Wizardhavens other than Isengard, The White Towers, or Rhosgobel. The site is protected. Cards that give marshalling points are not playable at the site by your opponent in all cases. Cannot be duplicated on a given site.">
+    <card name="Guarded Haven" graphics="GuardedHaven.jpg" text="Playable on one of your Wizardhavens other than Isengard, The White Towers, or Rhosgobel. The site is protected. Cards that give marshalling points are not playable at the site by your opponent in all cases. Cannot be duplicated on a given site.">
        <attr key="sp" value="1"/>
        <attr key="mp" value="1"/>
        <attr key="rarity" value="U3"/>

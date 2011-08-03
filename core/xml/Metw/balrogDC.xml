@@ -75,7 +75,7 @@
        <attr key="influence" value="0"/>
 	   <attr key="keyword" value="Leader"/>
     </card>
-    <card name="Crook-legged Orc" graphics="CrookleggedOrcDC.jpg" text="Balrog specific. Discard on a body check result of 7.{green} DCE: If you are a Dragon-lord: change home site to: Any non-Under-deeps Ruins and Lairs.">
+    <card name="Crook-legged Orc" graphics="CrookleggedOrc.jpg" text="Balrog specific. Discard on a body check result of 7.">
        <attr key="skills" value="Warrior/Ranger"/>
        <attr key="specific" value="Balrog"/>
        <attr key="mp" value="0"/>
@@ -88,7 +88,7 @@
        <attr key="mind" value="2"/>
        <attr key="influence" value="0"/>
     </card>
-    <card name="Hill-troll" graphics="HilltrollDC.jpg" text="Balrog specific. Discard on a body check result of 7. {green} DCE: If you are a Dragon-lord: change home site to: Any non-Under-deeps Ruins and Lairs.">
+    <card name="Hill-troll" graphics="Hilltroll.jpg" text="Balrog specific. Discard on a body check result of 7.">
        <attr key="skills" value="Warrior"/>
        <attr key="specific" value="Balrog"/>
        <attr key="mp" value="1"/>
@@ -101,7 +101,7 @@
        <attr key="mind" value="3"/>
        <attr key="influence" value="0"/>
     </card>
-    <card name="Mountain-maggot" graphics="MountainmaggotDC.jpg" text="Balrog specific. Discard on a body check result of 7. {green} DCE: If you are a Dragon-lord: change home site to: Any non-Under-deeps Ruins and Lairs.">
+    <card name="Mountain-maggot" graphics="Mountainmaggot.jpg" text="Balrog specific. Discard on a body check result of 7.">
        <attr key="skills" value="Warrior"/>
        <attr key="specific" value="Balrog"/>
        <attr key="mp" value="0"/>
@@ -208,7 +208,7 @@
        <attr key="class" value="Permanent-event"/>
        <attr key="type" value="Hazard"/>
     </card>
-    <card name="Monstrosity of Diverse Shape" graphics="MonstrosityofDiverseShapeDC.jpg" text="Unique. Spawn. The Drowning-deeps and Remains of Thangorodrim each have an additional automatic-attack: Spawn - 2 strikes with 15/9 prowess/body. In addition, once per turn the hazard player may use one against the hazard limit to play a Wolf or Animal hazard creature from his discard pile. This card must have already attacked the company this turn. {green} DCE: Add and replace with: The Drowning-deeps, Remains of Thangorodrim Ruins of Belegost and Ruins of Nogrod each have an additional automatic-attack: Spawn - 2 strikes with 15/9 prowess/body.">
+    <card name="Monstrosity of Diverse Shape" graphics="MonstrosityofDiverseShape.jpg" text="Unique. Spawn. The Drowning-deeps and Remains of Thangorodrim each have an additional automatic-attack: Spawn - 2 strikes with 15/9 prowess/body. In addition, once per turn the hazard player may use one against the hazard limit to play a Wolf or Animal hazard creature from his discard pile. This card must have already attacked the company this turn.">
        <attr key="unique" value="yes"/>
        <attr key="mp" value="4"/>
        <attr key="rarity" value="C1"/>
@@ -227,7 +227,7 @@
        <attr key="class" value="Short-event"/>
        <attr key="type" value="Hazard"/>
     </card>
-    <card name="Spawn of Ungoliant" graphics="SpawnofUngoliant.jpg" text="Unique. Spawn. The Pûkel-deeps and The Gem-deeps each have an additional automatic-attack: Spawn 3 strikes with 15/8 prowess/body. In addition, +1 to all body checks for Elves, Dwarves, Hobbits, Dúnedain, and Men resulting from Spider attacks. {green} DCE: Add and replace with: The Gem-deeps, The Pûkel-deeps and The Under-caves each have an additional automatic-attack: Spawn 3 strikes with 15/8 prowess/body.">
+    <card name="Spawn of Ungoliant" graphics="SpawnofUngoliant.jpg" text="Unique. Spawn. The Pûkel-deeps and The Gem-deeps each have an additional automatic-attack: Spawn 3 strikes with 15/8 prowess/body. In addition, +1 to all body checks for Elves, Dwarves, Hobbits, Dúnedain, and Men resulting from Spider attacks.">
        <attr key="unique" value="yes"/>
        <attr key="mp" value="4"/>
        <attr key="rarity" value="C1"/>
@@ -247,7 +247,7 @@
        <attr key="class" value="Short-event"/>
        <attr key="type" value="Hazard"/>
     </card>
-    <card name="Ungoliant's Progeny" graphics="UngoliantsProgenyDC.jpg" text="Unique. Spawn. The Wind-deeps and The Rusted-deeps each have an additional automatic-attack: Spawn 2 strikes with 16/8 prowess/body. In addition, for each Spider attack your opponent faces, you can choose for it to be at +1 prowess and detainment. {green} DCE: Add and replace with: Ancient Maze, The Rusted-deeps, The Vaults of Utumno and The Wind-deeps each have an additional automatic-attack: Spawn 2 strikes with 16/8 prowess/body.">
+    <card name="Ungoliant's Progeny" graphics="UngoliantsProgeny.jpg" text="Unique. Spawn. The Wind-deeps and The Rusted-deeps each have an additional automatic-attack: Spawn 2 strikes with 16/8 prowess/body. In addition, for each Spider attack your opponent faces, you can choose for it to be at +1 prowess and detainment.">
        <attr key="unique" value="yes"/>
        <attr key="mp" value="4"/>
        <attr key="rarity" value="C1"/>
@@ -256,7 +256,7 @@
        <attr key="spawn" value="yes"/>
 	   <attr key="keyword" value="Spawn"/>
     </card>
-    <card name="Ungoliant's Foul Issue" graphics="UngoliantsFoulIssueDC.jpg" text="Unique. Spawn. Ancient Deep-hold has an additional automatic-attack: Spawn 2 strikes with 17/7 prowess/body. In addition, non-unique Spider creatures can be keyed to Under-deeps Ruins and Lairs and Shadow-holds. {green} DCE: Add and replace with: Ancient Deep-hold, The Pits of Angband and The Under-forges each have an additional automatic-attack: Spawn 2 strikes with 17/7 prowess/body.">
+    <card name="Ungoliant's Foul Issue" graphics="UngoliantsFoulIssue.jpg" text="Unique. Spawn. Ancient Deep-hold has an additional automatic-attack: Spawn 2 strikes with 17/7 prowess/body. In addition, non-unique Spider creatures can be keyed to Under-deeps Ruins and Lairs and Shadow-holds.">
        <attr key="unique" value="yes"/>
        <attr key="mp" value="4"/>
        <attr key="rarity" value="C1"/>
@@ -285,7 +285,7 @@
        <attr key="class" value="Short-event"/>
        <attr key="type" value="Hero Resource"/>
     </card>
-    <card name="To Fealty Sworn" graphics="ToFealtySworn.jpg" text="Playable on a Hobbit: in the same company as Return of the King or during the same site phase his company plays a unique hero faction at a Free-hold (not Bag End). The Hobbit gains the warrior skill, +2 prowess, and +5 direct influence against the Hobbits faction and characters with Bag End as a home site. Cannot be duplicated on a given Hobbit.">
+    <card name="To Fealty Sworn" graphics="ToFealtySwornDC.jpg" text="Playable on a Hobbit: in the same company as Return of the King or during the same site phase his company plays a unique hero faction at a Free-hold (not Bag End). The Hobbit gains the warrior skill, +2 prowess, and +5 direct influence against the Hobbits faction and characters with Bag End as a home site. Cannot be duplicated on a given Hobbit.">
        <attr key="mp" value="1"/>
        <attr key="rarity" value="C1"/>
        <attr key="class" value="Permanent-event"/>
@@ -654,7 +654,7 @@
 	   <attr key="keyword" value="Orc-hold"/>
 	   <attr key="keyword" value="Troll-hold"/>
     </card>
-    <card name="Carn Dûm" graphics="CarnDumDC.jpg" back="1" text="">
+    <card name="Carn Dûm" graphics="CarnDum.jpg" back="1" text="">
        <attr key="unique" value="yes"/>
        <attr key="draw" value="2"/>
        <attr key="region" value="Angmar"/>
@@ -698,7 +698,7 @@
        <attr key="type" value="Balrog Site"/>
 	   <attr key="keyword" value="Orc-hold"/>
     </card>
-    <card name="Dol Guldur" graphics="DolGuldurDC.jpg" back="1" text="">
+    <card name="Dol Guldur" graphics="DolGuldur.jpg" back="1" text="">
        <attr key="unique" value="yes"/>
        <attr key="draw" value="2"/>
        <attr key="region" value="Southern Mirkwood"/>
@@ -714,7 +714,7 @@
 	   <attr key="keyword" value="Orc-hold"/>
 	   <attr key="keyword" value="Troll-hold"/>
     </card>
-    <card name="The Drowning-deeps" graphics="TheDrowningdeepsDC.jpg" back="1" text="{green} DCE: add to adjacent sites: Ruins of Belegost (12), Ruins of Nogrod (12)">
+    <card name="The Drowning-deeps" graphics="TheDrowningdeeps.jpg" back="1" text="{green} DCE: add to adjacent sites: Ruins of Belegost (12), Ruins of Nogrod (12)">
        <attr key="unique" value="yes"/>
        <attr key="adjacent" value=" Blue Mountain Dwarf-hold (13), The Under-vaults (8), Remains of Thangorodrim (9)"/>
        <attr key="draw" value="1"/>
@@ -728,7 +728,7 @@
        <attr key="class" value=""/>
        <attr key="type" value="Balrog Site"/>
     </card>
-    <card name="The Gem-deeps" graphics="TheGemdeepsDC.jpg" back="1" text="{green} DCE: add to adjacent sites: The Under-caves (6)">
+    <card name="The Gem-deeps" graphics="TheGemdeeps.jpg" back="1" text="{green} DCE: add to adjacent sites: The Under-caves (6)">
        <attr key="unique" value="yes"/>
        <attr key="adjacent" value=" Glittering Caves (0), The Pûkel-deeps (8), The Under-gates (6)"/>
        <attr key="draw" value="1"/>
@@ -757,7 +757,7 @@
        <attr key="type" value="Balrog Site"/>
 	   <attr key="keyword" value="Troll-hold"/>
     </card>
-    <card name="Minas Morgul" graphics="MinasMorgulDC.jpg" back="1" text="">
+    <card name="Minas Morgul" graphics="MinasMorgul.jpg" back="1" text="">
        <attr key="unique" value="yes"/>
        <attr key="draw" value="2"/>
        <attr key="region" value="Imlad Morgul"/>
@@ -797,7 +797,7 @@
        <attr key="class" value=""/>
        <attr key="type" value="Balrog Site"/>
     </card>
-    <card name="Remains of Thangorodrim" graphics="RemainsofThangorodrimDC.jpg" back="1" text="{green} DCE: add to adjacent sites: The Pits of Angband (4),">
+    <card name="Remains of Thangorodrim" graphics="RemainsofThangorodrim.jpg" back="1" text="{green} DCE: add to adjacent sites: The Pits of Angband (4),">
        <attr key="unique" value="yes"/>
        <attr key="adjacent" value=" no surface site, The Drowning-deeps (9)"/>
        <attr key="draw" value="2"/>

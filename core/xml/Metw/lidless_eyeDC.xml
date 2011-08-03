@@ -382,7 +382,7 @@
        <attr key="mind" value="1"/>
        <attr key="influence" value="0"/>
     </card>
-    <card name="Old Troll" graphics="OldTroll.jpg" text="Discard on a body check result of 8. +1 direct influence against Trolls, Orcs, Troll factions, and Orc factions. -1 to all corruption checks. {red}: Balrog offical rules: Home Site changes to: Any non-Dark-hold Under-deeps site {green} DCE: If you are a Dragon-lord: change home site to: Any non-Under-deeps Ruins and Lairs.">
+    <card name="Old Troll" graphics="OldTroll.jpg" text="Discard on a body check result of 8. +1 direct influence against Trolls, Orcs, Troll factions, and Orc factions. -1 to all corruption checks. {red}: Balrog offical rules: Home Site changes to: Any non-Dark-hold Under-deeps site.">
        <attr key="skills" value="Warrior"/>
        <attr key="mp" value="1"/>
        <attr key="home_site" value="Any Dark-hold"/>
@@ -394,7 +394,7 @@
        <attr key="mind" value="4"/>
        <attr key="influence" value="0"/>
     </card>
-    <card name="Orc Brawler" graphics="OrcBrawler.jpg" text="Discard on a body check result of 7 or 8. -1 to all corruption checks. {red}: Balrog offical rules: Home Site changes to: Any non-Dark-hold Under-deeps site {green} DCE: If you are a Dragon-lord: change home site to: Any non-Under-deeps Ruins and Lairs.">
+    <card name="Orc Brawler" graphics="OrcBrawler.jpg" text="Discard on a body check result of 7 or 8. -1 to all corruption checks. {red}: Balrog offical rules: Home Site changes to: Any non-Dark-hold Under-deeps site.">
        <attr key="skills" value="Warrior"/>
        <attr key="mp" value="0"/>
        <attr key="home_site" value="Any Dark-hold"/>
@@ -406,7 +406,7 @@
        <attr key="mind" value="1"/>
        <attr key="influence" value="0"/>
     </card>
-    <card name="Orc Captain" graphics="OrcCaptain.jpg" text="Leader. Discard on a body check result of 8. +3 direct influence against Orcs and Orc factions. {red}: Balrog offical rules: Home Site changes to: Any non-Dark-hold Under-deeps site {green} DCE: If you are a Dragon-lord: change home site to: Any non-Under-deeps Ruins and Lairs.">
+    <card name="Orc Captain" graphics="OrcCaptain.jpg" text="Leader. Discard on a body check result of 8. +3 direct influence against Orcs and Orc factions. {red}: Balrog offical rules: Home Site changes to: Any non-Dark-hold Under-deeps site.">
        <attr key="skills" value="Warrior"/>
        <attr key="mp" value="2"/>
        <attr key="home_site" value="Any Dark-hold"/>
@@ -419,7 +419,7 @@
        <attr key="influence" value="0"/>
 	   <attr key="keyword" value="Leader"/>
     </card>
-    <card name="Orc Chieftain" graphics="OrcChieftain.jpg" text="Leader. Discard on a body check result of 8. +3 direct influence against Orcs and Orc factions. {red}: Balrog offical rules: Home Site changes to: Any non-Dark-hold Under-deeps site {green} DCE: If you are a Dragon-lord: change home site to: Any non-Under-deeps Ruins and Lairs.">
+    <card name="Orc Chieftain" graphics="OrcChieftain.jpg" text="Leader. Discard on a body check result of 8. +3 direct influence against Orcs and Orc factions. {red}: Balrog offical rules: Home Site changes to: Any non-Dark-hold Under-deeps site.">
        <attr key="skills" value="Warrior"/>
        <attr key="mp" value="1"/>
        <attr key="home_site" value="Any Dark-hold"/>
@@ -432,7 +432,7 @@
        <attr key="influence" value="0"/>
 	   <attr key="keyword" value="Leader"/>
     </card>
-    <card name="Orc Sniffler" graphics="OrcSniffler.jpg" text="Discard on a body check result of 7 or 8. -1 to all corruption checks. {red}: Balrog offical rules: Home Site changes to: Any non-Dark-hold Under-deeps site {green} DCE: If you are a Dragon-lord: change home site to: Any non-Under-deeps Ruins and Lairs.">
+    <card name="Orc Sniffler" graphics="OrcSniffler.jpg" text="Discard on a body check result of 7 or 8. -1 to all corruption checks. {red}: Balrog offical rules: Home Site changes to: Any non-Dark-hold Under-deeps site.">
        <attr key="skills" value="Warrior/Scout"/>
        <attr key="mp" value="0"/>
        <attr key="home_site" value="Any Dark-hold"/>
@@ -444,7 +444,7 @@
        <attr key="mind" value="2"/>
        <attr key="influence" value="0"/>
     </card>
-    <card name="Orc Tracker" graphics="OrcTracker.jpg" text="Discard on a body check result of 7 or 8. -1 to all corruption checks. {red}: Balrog offical rules: Home Site changes to: Any non-Dark-hold Under-deeps site {green} DCE: If you are a Dragon-lord: change home site to: Any non-Under-deeps Ruins and Lairs.">
+    <card name="Orc Tracker" graphics="OrcTracker.jpg" text="Discard on a body check result of 7 or 8. -1 to all corruption checks. {red}: Balrog offical rules: Home Site changes to: Any non-Dark-hold Under-deeps site.">
        <attr key="skills" value="Warrior/Ranger"/>
        <attr key="mp" value="1"/>
        <attr key="home_site" value="Any Dark-hold"/>
@@ -456,7 +456,7 @@
        <attr key="mind" value="3"/>
        <attr key="influence" value="0"/>
     </card>
-    <card name="Orc Veteran" graphics="OrcVeteran.jpg" text="Discard on a body check result of 8. -1 to all corruption checks. {red}: Balrog offical rules: Home Site changes to: Any non-Dark-hold Under-deeps site {green} DCE: If you are a Dragon-lord: change home site to: Any non-Under-deeps Ruins and Lairs.">
+    <card name="Orc Veteran" graphics="OrcVeteran.jpg" text="Discard on a body check result of 8. -1 to all corruption checks. {red}: Balrog offical rules: Home Site changes to: Any non-Dark-hold Under-deeps site.">
        <attr key="skills" value="Warrior"/>
        <attr key="mp" value="0"/>
        <attr key="home_site" value="Any Dark-hold"/>
@@ -577,7 +577,7 @@
        <attr key="influence" value="2"/>
 	   <attr key="keyword" value="Ironfist"/>
     </card>
-    <card name="Troll Lout" graphics="TrollLout.jpg" text="Discard on a body check result of 8. -1 to all corruption checks. {red}: Balrog offical rules: Home Site changes to: Any non-Dark-hold Under-deeps site {green} DCE: If you are a Dragon-lord: change home site to: Any non-Under-deeps Ruins and Lairs.">
+    <card name="Troll Lout" graphics="TrollLout.jpg" text="Discard on a body check result of 8. -1 to all corruption checks. {red}: Balrog offical rules: Home Site changes to: Any non-Dark-hold Under-deeps site.">
        <attr key="skills" value="Warrior"/>
        <attr key="mp" value="1"/>
        <attr key="home_site" value="Any Dark-hold"/>
@@ -589,7 +589,7 @@
        <attr key="mind" value="3"/>
        <attr key="influence" value="0"/>
     </card>
-    <card name="Troll-chief" graphics="Trollchief.jpg" text="Olog-hai. Leader. Discard on a body check result of 9. +3 direct influence against Trolls, Orcs, Troll factions, and Orc factions. {red}: Balrog offical rules: Home Site changes to: Any non-Dark-hold Under-deeps site {green} DCE: If you are a Dragon-lord: change home site to: Any non-Under-deeps Ruins and Lairs.">
+    <card name="Troll-chief" graphics="Trollchief.jpg" text="Olog-hai. Leader. Discard on a body check result of 9. +3 direct influence against Trolls, Orcs, Troll factions, and Orc factions. {red}: Balrog offical rules: Home Site changes to: Any non-Dark-hold Under-deeps site.">
        <attr key="skills" value="Warrior"/>
        <attr key="mp" value="2"/>
        <attr key="home_site" value="Any Dark-hold"/>
@@ -1972,7 +1972,7 @@
        <attr key="class" value="Permanent-event"/>
        <attr key="type" value="Minion Resource"/>
     </card>
-    <card name="Sneakin'" graphics="Sneakin.jpg" text="Scout only. Playable during the organization phase on an untapped scout in a company with a company size less than 3. Tap the scout. No creature hazards may be played on his company this turn. {cyan} UEP: Scout only. Playable at the end of the organization phase on an untapped scout in a company with a company size less than 3. Tap the scout. No creature hazards may be played on his company this turn.">
+    <card name="Sneakin'" graphics="SneakinDC.jpg" text="Scout only. Playable at the end of the organization phase on an untapped scout in a company with a company size less than 3. Tap the scout. No creature hazards may be played on his company this turn. {cyan} UEP: Scout only. Playable at the end of the organization phase on an untapped scout in a company with a company size less than 3. Tap the scout. No creature hazards may be played on his company this turn.">
        <attr key="rarity" value="R"/>
        <attr key="class" value="Short-event"/>
        <attr key="type" value="Minion Resource"/>

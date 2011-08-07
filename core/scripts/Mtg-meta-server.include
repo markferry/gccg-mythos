@@ -45,16 +45,16 @@ if(!load("products"))
 #
 def SealedStartHook
 {
-  check_card(ARG[0],192);
-  if(users{ARG[0]}[2]{192}[0]==0)
+  check_card(ARG[0],1098);
+  if(users{ARG[0]}[2]{1098}[0]==0)
   {
     Reply("Adding some lands...");
-    AddCards(ARG[0],192,30);
-    AddCards(ARG[0],230,30);
-    AddCards(ARG[0],270,30);
-    AddCards(ARG[0],296,30);
-    AddCards(ARG[0],349,30);
-    Refresh(192,230,270,296,349);
+    AddCards(ARG[0],1098,30);
+    AddCards(ARG[0],1135,30);
+    AddCards(ARG[0],1175,30);
+    AddCards(ARG[0],1201,30);
+    AddCards(ARG[0],1254,30);
+    Refresh(1098,1135,1175,1201,1254);
   }
 }
 
@@ -63,16 +63,16 @@ def SealedStartHook
 #
 def SealedEndHook
 {
-  check_card(User(),192);
-  if(users{User()}[2]{192}[0] > 0)
+  check_card(User(),1098);
+  if(users{User()}[2]{1098}[0] > 0)
   {
     Reply("Removing extra lands...");
-    DelCards(User(),192,30);
-    DelCards(User(),230,30);
-    DelCards(User(),270,30);
-    DelCards(User(),296,30);
-    DelCards(User(),349,30);
-    Refresh(192,230,270,296,349);
+    DelCards(User(),1098,30);
+    DelCards(User(),1135,30);
+    DelCards(User(),1175,30);
+    DelCards(User(),1201,30);
+    DelCards(User(),1254,30);
+    Refresh(1098,1135,1175,1201,1254);
   }
 }
 

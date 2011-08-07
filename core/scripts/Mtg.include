@@ -96,18 +96,18 @@ product.image{"Legions booster"}="LE_booster.jpg";
 product.image{"Scourge booster"}="SC_booster.jpg";
 product.image{"Mirrodin starter"}="MR_starter.jpg";
 product.image{"Mirrodin booster"}="MR_booster.jpg";
-product.image{"4th Edition starter"}="4E_starter.jpg";
-product.image{"4th Edition booster"}="4E_booster.jpg";
-product.image{"5th Edition starter"}="5E_starter.jpg";
-product.image{"5th Edition booster"}="5E_booster.jpg";
-product.image{"6th Edition starter"}="6E_starter.jpg";
-product.image{"6th Edition booster"}="6E_booster.jpg";
-product.image{"7th Edition booster"}="7E_booster.jpg";
-product.image{"7th Edition starter"}="7E_starter.jpg";
-product.image{"8th Edition booster"}="8E_booster.jpg";
-product.image{"8th Edition starter"}="8E_starter.jpg";
-product.image{"9th Edition booster"}="9E_booster.jpg";
-product.image{"9th Edition starter"}="9E_starter.jpg";
+product.image{"Fourth Edition starter"}="4E_starter.jpg";
+product.image{"Fourth Edition booster"}="4E_booster.jpg";
+product.image{"Fifth Edition starter"}="5E_starter.jpg";
+product.image{"Fifth Edition booster"}="5E_booster.jpg";
+product.image{"Sixth Edition starter"}="6E_starter.jpg";
+product.image{"Sixth Edition booster"}="6E_booster.jpg";
+product.image{"Seventh Edition booster"}="7E_booster.jpg";
+product.image{"Seventh Edition starter"}="7E_starter.jpg";
+product.image{"Eighth Edition booster"}="8E_booster.jpg";
+product.image{"Eighth Edition starter"}="8E_starter.jpg";
+product.image{"Ninth Edition booster"}="9E_booster.jpg";
+product.image{"Ninth Edition starter"}="9E_starter.jpg";
 product.image{"Revised starter"}="RV_starter.jpg";
 product.image{"Revised booster"}="RV_booster.jpg";
 product.image{"Darksteel booster"}="DS_booster.jpg";
@@ -381,7 +381,7 @@ def TokenSubmenu
    ("R","","TokenSubmenuR()"),
    ("S","","TokenSubmenuS()"),
    ("T","","TokenSubmenuT()"),
-   ("O","","TokenSubmenuU()"),
+   ("U","","TokenSubmenuU()"),
    ("V","","TokenSubmenuV()"),
    ("W","","TokenSubmenuW()"),
    ("Z","","TokenSubmenuZ()"),
@@ -407,7 +407,7 @@ def TokenSubmenuB
    ("Bird 1/1 (U)","",'Send("Transfer",(1,("out.of.play",16),("play",0)))'),
    ("Bird 1/1 (UW)","",'Send("Transfer",(1,("out.of.play",17),("play",0)))'),
    ("Bird 1/1 (W)","",'Send("Transfer",(1,("out.of.play",18),("play",0)))'),
-   ("Bird 3/3 (W)","",'Send("Transfer",(1,("out.of.play",102),("play",0)))'),
+   ("Bird 3/3 (W)","",'Send("Transfer",(1,("out.of.play",112),("play",0)))'),
    ("Bird Soldier 1/1 (W)","",'Send("Transfer",(1,("out.of.play",19),("play",0)))'),
   ));
 }
@@ -577,7 +577,7 @@ def TokenSubmenuT
 {
   Submenu("Select Token",(
    ("Thopter 1/1 (AU)","",'Send("Transfer",(1,("out.of.play",86),("play",0)))'),
-   ("Thopter 1/1 (A)","",'Send("Transfer",(1,("out.of.play",),("play",0)))'),
+   ("Thopter 1/1 (A)","",'Send("Transfer",(1,("out.of.play",111),("play",0)))'),
    ("Thrull 0/1 (B)","",'Send("Transfer",(1,("out.of.play",87),("play",0)))'),
    ("Treefolk Shaman 2/5 (G)","",'Send("Transfer",(1,("out.of.play",88),("play",0)))'),
    ("Twin 3/4 (A)","",'Send("Transfer",(1,("out.of.play",89),("play",0)))'),

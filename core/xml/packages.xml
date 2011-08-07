@@ -107,7 +107,7 @@
 	<include file="scripts/Lotr-server.include"/>
 	<include file="lotr-sample.conf"/>
   </module>
-  <module name="mtg" version="1.2.9">
+  <module name="mtg" version="1.2.23">
   	<include file="Mtg"/>
 	<include file="Mtg.bat"/>
 	<include file="xml/mtg.xml"/>
@@ -123,7 +123,7 @@
 	<include files="graphics/Mtg/*_booster.jpg"/>
 	<include files="graphics/Mtg/*_starter.jpg"/>
 	<include files="graphics/Mtg/*_token.jpg"/>
-	<include files="graphics/Mtg/mtgback.jpg"/>
+	<include file="graphics/Mtg/mtgback.jpg"/>
   </module>
   <module name="pokemon" version="1.2">
 	<include file="Pokemon"/>
@@ -201,10 +201,7 @@
 	<include file="scripts/Nr-server.include"/>
 	<include file="nr-sample.conf"/>
   </module>
-  <module name="mtg-cards-000" version="14">
-	<include dir="graphics/Mtg/PM"/>
-	<include dir="graphics/Mtg/UG"/>
-	<include dir="graphics/Mtg/UH"/>
+  <module name="mtg-cards-000" version="15">
     <include file="graphics/Mtg/Angel44W.jpg"/>
     <include file="graphics/Mtg/AvatarXXW.jpg"/>
     <include file="graphics/Mtg/Bear22G.jpg"/>
@@ -215,16 +212,19 @@
     <include file="graphics/Mtg/Bird11U.jpg"/>
     <include file="graphics/Mtg/Bird11UW.jpg"/>
     <include file="graphics/Mtg/Bird11W.jpg"/>
+    <include file="graphics/Mtg/Bird33W.jpg"/>
     <include file="graphics/Mtg/BirdSoldier11W.jpg"/>
     <include file="graphics/Mtg/Cat11R.jpg"/>
     <include file="graphics/Mtg/Cat21B.jpg"/>
     <include file="graphics/Mtg/Centaur33G.jpg"/>
+    <include file="graphics/Mtg/Construct612C.jpg"/>
     <include file="graphics/Mtg/DemonXXB.jpg"/>
     <include file="graphics/Mtg/Dragon11RG.jpg"/>
     <include file="graphics/Mtg/Dragon44R.jpg"/>
     <include file="graphics/Mtg/Dragon55R.jpg"/>
     <include file="graphics/Mtg/DragonSpirit55U.jpg"/>
     <include file="graphics/Mtg/Drake22UG.jpg"/>
+    <include file="graphics/Mtg/EldraziSpawn01C.jpg"/>
     <include file="graphics/Mtg/Elemental11R.jpg"/>
     <include file="graphics/Mtg/Elemental22U.jpg"/>
     <include file="graphics/Mtg/Elemental31R.jpg"/>
@@ -236,12 +236,14 @@
     <include file="graphics/Mtg/Elemental77G.jpg"/>
     <include file="graphics/Mtg/ElementalShaman31R.jpg"/>
     <include file="graphics/Mtg/ElementalXXG.jpg"/>
+    <include file="graphics/Mtg/ElementalXXR.jpg"/>
     <include file="graphics/Mtg/Elephant33G.jpg"/>
     <include file="graphics/Mtg/ElfWarrior11G.jpg"/>
     <include file="graphics/Mtg/ElfWarrior11GW.jpg"/>
     <include file="graphics/Mtg/Faerie11U.jpg"/>
     <include file="graphics/Mtg/FaerieRogue11B.jpg"/>
     <include file="graphics/Mtg/FaerieRogue11BU.jpg"/>
+    <include file="graphics/Mtg/Germ00B.jpg"/>
     <include file="graphics/Mtg/GiantWarrior44GR.jpg"/>
     <include file="graphics/Mtg/GiantWarrior55W.jpg"/>
     <include file="graphics/Mtg/Goat01W.jpg"/>
@@ -249,9 +251,13 @@
     <include file="graphics/Mtg/GoblinRogue11B.jpg"/>
     <include file="graphics/Mtg/GoblinSoldier11RW.jpg"/>
     <include file="graphics/Mtg/GoblinWarrior11GR.jpg"/>
+    <include file="graphics/Mtg/Golem33C.jpg"/>
+    <include file="graphics/Mtg/Golem99C.jpg"/>
+    <include file="graphics/Mtg/Hellion44R.jpg"/>
     <include file="graphics/Mtg/Hippo11G.jpg"/>
     <include file="graphics/Mtg/Homunculus01C.jpg"/>
     <include file="graphics/Mtg/Horror44B.jpg"/>
+    <include file="graphics/Mtg/HorrorXXC.jpg"/>
     <include file="graphics/Mtg/Illusion11U.jpg"/>
     <include file="graphics/Mtg/Insect22G.jpg"/>
     <include file="graphics/Mtg/JitteCounter.jpg"/>
@@ -263,10 +269,12 @@
     <include file="graphics/Mtg/MaritLage22B.jpg"/>
     <include file="graphics/Mtg/MerfolkWizard11U.jpg"/>
     <include file="graphics/Mtg/Myr11C.jpg"/>
+    <include file="graphics/Mtg/Ogre33R.jpg"/>
     <include file="graphics/Mtg/OozeXXG.jpg"/>
     <include file="graphics/Mtg/Pentavite11C.jpg"/>
     <include file="graphics/Mtg/Pest01C.jpg"/>
     <include file="graphics/Mtg/Pincher22C.jpg"/>
+    <include file="graphics/Mtg/Plant01G.jpg"/>
     <include file="graphics/Mtg/Rat11B.jpg"/>
     <include file="graphics/Mtg/ReflectionXXW.jpg"/>
     <include file="graphics/Mtg/Rukh44R.jpg"/>
@@ -277,6 +285,7 @@
     <include file="graphics/Mtg/Snake11G.jpg"/>
     <include file="graphics/Mtg/Snake11UG.jpg"/>
     <include file="graphics/Mtg/Soldier11W.jpg"/>
+    <include file="graphics/Mtg/SoldierAlly11W.jpg"/>
     <include file="graphics/Mtg/Spawn22C.jpg"/>
     <include file="graphics/Mtg/Spider12G.jpg"/>
     <include file="graphics/Mtg/Spirit11BW.jpg"/>
@@ -284,7 +293,8 @@
     <include file="graphics/Mtg/Spirit11W.jpg"/>
     <include file="graphics/Mtg/Squirrel11G.jpg"/>
     <include file="graphics/Mtg/StormCounter.jpg"/>
-    <include file="graphics/Mtg/Thopther11C.jpg"/>
+    <include file="graphics/Mtg/Thopter11C.jpg"/>
+    <include file="graphics/Mtg/Thopter11U.jpg"/>
     <include file="graphics/Mtg/Thrull01B.jpg"/>
     <include file="graphics/Mtg/TreefolkShaman25G.jpg"/>
     <include file="graphics/Mtg/Twin34C.jpg"/>
@@ -299,117 +309,230 @@
     <include file="graphics/Mtg/Zombie22B.jpg"/>
     <include file="graphics/Mtg/ZombieWizard11BU.jpg"/>
   </module>
-  <module name="mtg-cards-001" version="11">
+  <module name="mtg-cards-001" version="15">
+	<include dir="graphics/Mtg/PM"/>
+  </module>
+  <module name="mtg-cards-002" version="15">
 	<include dir="graphics/Mtg/Beta"/>
+  </module>
+  <module name="mtg-cards-003" version="15">
+	<include dir="graphics/Mtg/AN"/>
+  </module>
+  <module name="mtg-cards-004" version="15">
+	<include dir="graphics/Mtg/AQ"/>
+  </module>
+  <module name="mtg-cards-005" version="15">
 	<include dir="graphics/Mtg/RV"/>
   </module>
-  <module name="mtg-cards-002" version="11">
-	<include dir="graphics/Mtg/4th"/>
-	<include dir="graphics/Mtg/5th"/>
-	<include dir="graphics/Mtg/6th"/>
-	<include dir="graphics/Mtg/7th"/>
-  </module>
-  <module name="mtg-cards-003" version="11">
-	<include dir="graphics/Mtg/AN"/>
-	<include dir="graphics/Mtg/AQ"/>
-	<include dir="graphics/Mtg/DK"/>
-	<include dir="graphics/Mtg/FE"/>
-	<include dir="graphics/Mtg/HL"/>
+  <module name="mtg-cards-006" version="15">
 	<include dir="graphics/Mtg/LG"/>
   </module>
-  <module name="mtg-cards-004" version="11">
-	<include dir="graphics/Mtg/8th"/>
-	<include dir="graphics/Mtg/9th"/>
-	<include dir="graphics/Mtg/XE"/>
+  <module name="mtg-cards-007" version="15">
+	<include dir="graphics/Mtg/DK"/>
   </module>
-  <module name="mtg-cards-005" version="11">
-	<include dir="graphics/Mtg/P1"/>
-	<include dir="graphics/Mtg/P2"/>
-	<include dir="graphics/Mtg/P3"/>
-	<include dir="graphics/Mtg/S1"/>
+  <module name="mtg-cards-008" version="15">
+	<include dir="graphics/Mtg/FE"/>
   </module>
-  <module name="mtg-cards-006" version="11">
+  <module name="mtg-cards-009" version="15">
+	<include dir="graphics/Mtg/4TH"/>
+  </module>
+  <module name="mtg-cards-010" version="15">
 	<include dir="graphics/Mtg/IA"/>
-	<include dir="graphics/Mtg/AL"/>
-	<include dir="graphics/Mtg/CS"/>
   </module>
-  <module name="mtg-cards-007" version="11">
+  <module name="mtg-cards-011" version="15">
+	<include dir="graphics/Mtg/HL"/>
+  </module>
+  <module name="mtg-cards-012" version="15">
+	<include dir="graphics/Mtg/AL"/>
+  </module>
+  <module name="mtg-cards-013" version="15">
 	<include dir="graphics/Mtg/MI"/>
+  </module>
+  <module name="mtg-cards-014" version="15">
 	<include dir="graphics/Mtg/VI"/>
+  </module>
+  <module name="mtg-cards-015" version="15">
+	<include dir="graphics/Mtg/5TH"/>
+  </module>
+  <module name="mtg-cards-016" version="15">
 	<include dir="graphics/Mtg/WL"/>
   </module>
-  <module name="mtg-cards-008" version="11">
+  <module name="mtg-cards-017" version="15">
+	<include dir="graphics/Mtg/P1"/>
+  </module>
+  <module name="mtg-cards-018" version="15">
 	<include dir="graphics/Mtg/TE"/>
+  </module>
+  <module name="mtg-cards-019" version="15">
 	<include dir="graphics/Mtg/SH"/>
+  </module>
+  <module name="mtg-cards-020" version="15">
 	<include dir="graphics/Mtg/EX"/>
   </module>
-  <module name="mtg-cards-009" version="11">
+  <module name="mtg-cards-021" version="15">
+	<include dir="graphics/Mtg/P2"/>
+  </module>
+  <module name="mtg-cards-022" version="15">
+    <include dir="graphics/Mtg/UG"/>
+  </module>
+  <module name="mtg-cards-023" version="15">
 	<include dir="graphics/Mtg/US"/>
-	<include dir="graphics/Mtg/UD"/>
+  </module>
+  <module name="mtg-cards-024" version="15">
 	<include dir="graphics/Mtg/UL"/>
   </module>
-  <module name="mtg-cards-010" version="11">
+  <module name="mtg-cards-025" version="15">
+	<include dir="graphics/Mtg/6TH"/>
+  </module>
+  <module name="mtg-cards-026" version="15">
+	<include dir="graphics/Mtg/P3"/>
+  </module>
+  <module name="mtg-cards-027" version="15">
+	<include dir="graphics/Mtg/UD"/>
+  </module>
+  <module name="mtg-cards-028" version="15">
+	<include dir="graphics/Mtg/S1"/>
+  </module>
+  <module name="mtg-cards-029" version="15">
 	<include dir="graphics/Mtg/MM"/>
+  </module>
+  <module name="mtg-cards-030" version="15">
 	<include dir="graphics/Mtg/NE"/>
+  </module>
+  <module name="mtg-cards-031" version="15">
 	<include dir="graphics/Mtg/PY"/>
   </module>
-  <module name="mtg-cards-011" version="11">
+  <module name="mtg-cards-032" version="15">
 	<include dir="graphics/Mtg/IN"/>
+  </module>
+  <module name="mtg-cards-033" version="15">
 	<include dir="graphics/Mtg/PS"/>
+  </module>
+  <module name="mtg-cards-034" version="15">
+	<include dir="graphics/Mtg/7TH"/>
+  </module>
+  <module name="mtg-cards-035" version="15">
 	<include dir="graphics/Mtg/AP"/>
   </module>
-  <module name="mtg-cards-012" version="11">
-	<include dir="graphics/Mtg/MI"/>
-	<include dir="graphics/Mtg/MI"/>
-	<include dir="graphics/Mtg/WL"/>
+  <module name="mtg-cards-036" version="15">
+	<include dir="graphics/Mtg/OD"/>
   </module>
-  <module name="mtg-cards-013" version="11">
+  <module name="mtg-cards-037" version="15">
+	<include dir="graphics/Mtg/TO"/>
+  </module>
+  <module name="mtg-cards-038" version="15">
+	<include dir="graphics/Mtg/JD"/>
+  </module>
+  <module name="mtg-cards-039" version="15">
 	<include dir="graphics/Mtg/ON"/>
+  </module>
+  <module name="mtg-cards-040" version="15">
 	<include dir="graphics/Mtg/LE"/>
+  </module>
+  <module name="mtg-cards-041" version="15">
 	<include dir="graphics/Mtg/SC"/>
   </module>
-  <module name="mtg-cards-014" version="12">
+  <module name="mtg-cards-042" version="15">
+	<include dir="graphics/Mtg/8TH"/>
+  </module>
+  <module name="mtg-cards-043" version="15">
 	<include dir="graphics/Mtg/MR"/>
+  </module>
+  <module name="mtg-cards-044" version="15">
 	<include dir="graphics/Mtg/DS"/>
+  </module>
+  <module name="mtg-cards-045" version="15">
 	<include dir="graphics/Mtg/FD"/>
   </module>
-  <module name="mtg-cards-015" version="11">
+  <module name="mtg-cards-046" version="15">
 	<include dir="graphics/Mtg/CK"/>
+  </module>
+  <module name="mtg-cards-047" version="15">
+	<include dir="graphics/Mtg/UH"/>
+  </module>
+  <module name="mtg-cards-048" version="15">
 	<include dir="graphics/Mtg/BK"/>
+  </module>
+  <module name="mtg-cards-049" version="15">
 	<include dir="graphics/Mtg/SK"/>
   </module>
-  <module name="mtg-cards-016" version="11">
+  <module name="mtg-cards-050" version="15">
+	<include dir="graphics/Mtg/9TH"/>
+  </module>
+  <module name="mtg-cards-051" version="15">
 	<include dir="graphics/Mtg/RA"/>
-	<include dir="graphics/Mtg/DI"/>
+  </module>
+  <module name="mtg-cards-052" version="15">
 	<include dir="graphics/Mtg/GP"/>
   </module>
-  <module name="mtg-cards-017" version="11">
+  <module name="mtg-cards-053" version="15">
+	<include dir="graphics/Mtg/DI"/>
+  </module>
+  <module name="mtg-cards-054" version="15">
+	<include dir="graphics/Mtg/CS"/>
+  </module>
+  <module name="mtg-cards-055" version="15">
 	<include dir="graphics/Mtg/TS"/>
+  </module>
+  <module name="mtg-cards-056" version="15">
 	<include dir="graphics/Mtg/PC"/>
+  </module>
+  <module name="mtg-cards-057" version="15">
 	<include dir="graphics/Mtg/FS"/>
   </module>
-  <module name="mtg-cards-018" version="12">
+  <module name="mtg-cards-058" version="15">
+	<include dir="graphics/Mtg/XE"/>
+  </module>
+  <module name="mtg-cards-059" version="15">
 	<include dir="graphics/Mtg/LRW"/>
+  </module>
+  <module name="mtg-cards-060" version="15">
 	<include dir="graphics/Mtg/MOR"/>
+  </module>
+  <module name="mtg-cards-061" version="15">
 	<include dir="graphics/Mtg/SM"/>
+  </module>
+  <module name="mtg-cards-062" version="15">
 	<include dir="graphics/Mtg/EVE"/>
   </module>
-  <module name="mtg-cards-019" version="3">
+  <module name="mtg-cards-063" version="15">
 	<include dir="graphics/Mtg/ALA"/>
+  </module>
+  <module name="mtg-cards-064" version="15">
 	<include dir="graphics/Mtg/CFX"/>
+  </module>
+  <module name="mtg-cards-065" version="15">
 	<include dir="graphics/Mtg/ARE"/>
   </module>
-  <module name="mtg-cards-020" version="2">
+  <module name="mtg-cards-066" version="15">
 	<include dir="graphics/Mtg/M10"/>
+  </module>
+  <module name="mtg-cards-067" version="15">
+    <include dir="graphics/Mtg/ZDK"/>
+  </module>
+  <module name="mtg-cards-068" version="15">
+    <include dir="graphics/Mtg/WWK"/>
+  </module>
+  <module name="mtg-cards-069" version="15">
+    <include dir="graphics/Mtg/ROE"/>
+  </module>
+  <module name="mtg-cards-070" version="15">
 	<include dir="graphics/Mtg/M11"/>
   </module>
-  <module name="mtg-cards-021" version="4">
-	<include dir="graphics/Mtg/ZDK"/>
-	<include dir="graphics/Mtg/WWK"/>
-	<include dir="graphics/Mtg/ROE"/>
+  <module name="mtg-cards-071" version="15">
+    <include dir="graphics/Mtg/SOM"/>
   </module>
-  <module name="mtg-cards-022" version="1">
-	<include dir="graphics/Mtg/SOM"/>
+  <module name="mtg-cards-072" version="15">
+    <include dir="graphics/Mtg/MBS"/>
+  </module>
+  <module name="mtg-cards-073" version="15">
+    <include dir="graphics/Mtg/NPH"/>
+  </module>
+  <module name="mtg-cards-074" version="15">
+    <include dir="graphics/Mtg/COM"/>
+  </module>  
+  <module name="mtg-cards-075" version="15">
+    <include dir="graphics/Mtg/M12"/>
   </module>
   <module name="pokemon-cards-001" version="5">
 	<include dir="graphics/Pokemon/BasicSet"/>

@@ -34,5 +34,5 @@ deck_rules{"Type 2 (1999)"}{""}=(
   ("RuleCardSetReprint",("US",4)),
   ("RuleCardSetReprint",("UL",4)),
   ("RuleCardSetReprint",("UD",4)),
-  ("RuleCardSetReprint",("6E",4)),
+  ("RuleCardSetReprint",("6TH",4)),
 );

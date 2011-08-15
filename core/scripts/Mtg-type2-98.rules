@@ -25,5 +25,5 @@ deck_rules{"Type 2 (1998)"}{""}=(
   ("RuleCardSetReprint",("TE",4)),
   ("RuleCardSetReprint",("SH",4)),
   ("RuleCardSetReprint",("EX",4)),
-  ("RuleCardSetReprint",("5E",4)),
+  ("RuleCardSetReprint",("5TH",4)),
 );

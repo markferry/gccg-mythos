@@ -1,5 +1,5 @@
 ##########################################
-# THIS RULES ARE FOR TABLE MAINTAINERS,  #
+# THESE RULES ARE FOR TABLE MAINTAINERS, #
 # THEY ALLOW TO HOST MULTI-FORMAT TABLES #
 ##########################################
 
@@ -342,20 +342,20 @@ deck_rules{"Commander EDH"}{""}=(
   ("RulePass",NULL),
 );
 
-#################
-# STANDARD 2010 #
-#################
+####################
+# CURRENT STANDARD #
+####################
 
-deck_rules{"Type 2 (2010)"}=(,);
-deck_rules{"Type 2 (2010)"}{"deck"}=(
+deck_rules{"Standard T2"}=(,);
+deck_rules{"Standard T2"}{"deck"}=(
   ("RuleDeckMinimum",60),
   ("RulePass",NULL),
 );
-deck_rules{"Type 2 (2010)"}{"sideboard"}=(
+deck_rules{"Standard T2"}{"sideboard"}=(
   ("RuleDeckSizes",(0,15)),
   ("RulePass",NULL),
 );
-deck_rules{"Type 2 (2010)"}{""}=(
+deck_rules{Standard T2"}{""}=(
   ("RuleCardLimitAny","Island"),
   ("RuleCardLimitAny","Forest"),
   ("RuleCardLimitAny","Mountain"),
@@ -383,16 +383,16 @@ deck_rules{"Type 2 (2010)"}{""}=(
 # EXTENDED #
 ############
 
-deck_rules{"Extended"}=(,);
-deck_rules{"Extended"}{"deck"}=(
+deck_rules{"Extended T1.X"}=(,);
+deck_rules{"Extended T1.X"}{"deck"}=(
   ("RuleDeckMinimum",60),
   ("RulePass",NULL),
 );
-deck_rules{"Extended"}{"sideboard"}=(
+deck_rules{"Extended T1.X"}{"sideboard"}=(
   ("RuleDeckSizes",(0,15)),
   ("RulePass",NULL),
 );
-deck_rules{"Extended"}{""}=(
+deck_rules{"Extended T1.X"}{""}=(
   ("RuleCardLimitAny","Island"),
   ("RuleCardLimitAny","Forest"),
   ("RuleCardLimitAny","Mountain"),
@@ -422,7 +422,6 @@ deck_rules{"Extended"}{""}=(
   ("RuleCardSetReprint",("SOM",4)),
   ("RuleCardSetReprint",("MBS",4)),
   ("RuleCardSetReprint",("NPH",4)),
-
 );
 
 ##########

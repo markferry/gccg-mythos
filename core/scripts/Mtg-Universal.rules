@@ -355,7 +355,7 @@ deck_rules{"Standard T2"}{"sideboard"}=(
   ("RuleDeckSizes",(0,15)),
   ("RulePass",NULL),
 );
-deck_rules{Standard T2"}{""}=(
+deck_rules{"Standard T2"}{""}=(
   ("RuleCardLimitAny","Island"),
   ("RuleCardLimitAny","Forest"),
   ("RuleCardLimitAny","Mountain"),

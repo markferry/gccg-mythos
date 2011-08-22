@@ -406,7 +406,7 @@
        <attr key="type" value="Minion Resource"/>
 	   <attr key="keyword" value="Technology"/>
     </card>
-    <card name="Liquid Fire" graphics="LiquidFire.jpg" text="Technology. Playable at a tapped or untapped Shadow-hold, Dark-hold, or a site with a Dwarf automatic-attack. Discard to cause all strikes from all attacks of a non- Dragon, non-Nazgûl, non-Balrog creature keyed to a site to fail (resulting body checks for the creature are modified by -2).">
+    <card name="Liquid Fire" graphics="LiquidFireDC.jpg" text="Technology. Playable at a tapped or untapped Shadow-hold, Dark-hold, or a site with a Dwarf automatic-attack. Discard to cause all strikes from all attacks of a non- Dragon, non-Nazgûl, non-Balrog creature keyed to a site to fail.">
        <attr key="corruption" value="1"/>
        <attr key="mp" value="1"/>
        <attr key="rarity" value="R3"/>

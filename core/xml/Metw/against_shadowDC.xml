@@ -533,8 +533,7 @@
        <attr key="mind" value="6"/>
 	   <attr key="keyword" value="Spawn"/>
     </card>
-
-    <card name="Black Horse" graphics="BlackHorseDC.jpg" text="Playable on a Ringwraith at a Darkhaven (does not tap the site). Each Horse allows you to play one Ringwraith who requires no direct influence to control. If each Ringwraith in company has a Horse, company is in Black Rider mode and may move as such. You may include up to 9 copies of this card in your play deck and sideboard. Return controller to your hand if Horse leaves play. {cyan} UEP: A Ringwraith with a mode ally (Black Horse or Creature of an Older World) will not return to hand on a body check (bc) of a 7 or 8. When a minion company consists entirely of Ringwraiths and Black Horses its maximum company size is increased to 9.">
+    <card name="Black Horse" graphics="BlackHorseDC.jpg" text=" Does not tap the site. Each Black Horse in your Ringwraith’s company allows you to play one Ringwraith follower who requires no direct influence to control. Its controlling Ringwraith is not returned to your hand on a body check of 7 or 8. return its controller to your hand if Black Horse leaves active play and he is not in a mode. If each Ringwraith in a company has a Black Horse, the company is in Black Rider mode and may freely move (using starter movement). You may include up to 9 copies of this card in your play deck and sideboard combined. A Ringwraith cannot control more than 3 copies of Black Horse.">
        <attr key="body" value="6"/>
        <attr key="prowess" value="4"/>
        <attr key="rarity" value="C3"/>
@@ -542,7 +541,6 @@
        <attr key="type" value="Minion Resource"/>
        <attr key="mind" value="2"/>
     </card>
-
     <card name="Creature of an Older World" graphics="CreatureofanOlderWorld.jpg" text="Unique. Play on your Ringwraith at a tapped or untapped Barad-dûr (does not tap). Ringwraith gets +2 prowess and, if only character in company, is in Fell Rider mode and may move as such. Tap ally to: cancel a strike against your Ringwraith or to assign your Ringwraith's strikes against a hero company as you choose. Return Ringwraith to your hand if ally leaves play. {cyan} UEP: A Ringwraith with a mode ally (Black Horse or Creature of an Older World) will not return to hand on a body check (bc) of a 7 or 8.">
        <attr key="unique" value="yes"/>
        <attr key="mp" value="1"/>
@@ -996,6 +994,7 @@
        <attr key="rarity" value="C2"/>
        <attr key="class" value="Minor Item"/>
        <attr key="type" value="Minion Resource"/>
+	   <attr key="keyword" value="Lost Knowledge"/>
     </card>
 
     <card name="Secret Book" graphics="SecretBook.jpg" text="Cannot be included with a starting company. Discard: to untap a Free-hold or Border-hold or to make Information playable at any Ruins and Lairs. Cannot be duplicated in a company.">
@@ -1003,6 +1002,7 @@
        <attr key="rarity" value="C2"/>
        <attr key="class" value="Minor Item"/>
        <attr key="type" value="Minion Resource"/>
+	   <attr key="keyword" value="Lost Knowledge"/>
     </card>
 
     <card name="Thong of Fire" graphics="ThongofFire.jpg" text="Unique. Hoard Item. Weapon. May only be borne by a character with a prowess of 6 or more. Warrior only: +1 body; +1 prowess; if bearer chooses not to tap against a strike, he receives no prowess penalty.">

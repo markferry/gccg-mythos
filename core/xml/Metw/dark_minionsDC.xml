@@ -690,7 +690,7 @@
        <attr key="class" value="Long-event"/>
        <attr key="type" value="Hazard"/>
     </card>
-    <card name="Earth-tremors" graphics="EarthtremorsDC.jpg" text="Any company moving to or from an Under-deep sites faces an attack (cannot be canceled): Rock Fall - 1 strike with 7 prowess against each character (weapons do not modify prowess against these strikes). In addition, cancels the effects of Into Dark Tunnels, Old Road, Great Road, and Bridge. Cannot be duplicated. {green} DCE: add Far Below the Deepest Delvings, Iron Road and Forced March to the listed cards.">
+    <card name="Earth-tremors" graphics="EarthtremorsDC.jpg" text="Any company moving to or from an Under-deep sites faces an attack (cannot be canceled): Rock Fall - 1 strike with 7 prowess against each character (weapons do not modify prowess against these strikes). In addition, cancels the effects of Into Dark Tunnels, Old Road, Great Road, Bridge, Far Below the Deepest Delvings, Iron Road, Forced March and World Gnawed by the Nameless. Cannot be duplicated.">
        <attr key="rarity" value="U2"/>
        <attr key="class" value="Long-event"/>
        <attr key="type" value="Hazard"/>
@@ -847,7 +847,7 @@
        <attr key="class" value="Permanent-event"/>
        <attr key="type" value="Hazard"/>
     </card>
-    <card name="The Reach of Ulmo" graphics="TheReachofUlmoDC.jpg" text="The roll required to move between adjacent Under-deep sites is increased by 2. In addition, cancels the effects of Great Ship and Ford. May be played when an Under-deep site is revealed as a new site card (before the roll is made). Discard when any play deck is exhausted or when an Under-deep site is reached from another Under-deep site or at the end of the turn after Great Ship or Ford was played. Cannot be duplicated. {green} DCE: Add Black Sails and Hidden Ways to the cards mentionend on this card.">
+    <card name="The Reach of Ulmo" graphics="TheReachofUlmoDC.jpg" text="The roll required to move between adjacent Under-deep sites is increased by 2. In addition, cancels the effects of Great Ship, Ford, Black Sails and Hidden Ways. May be played when an Under-deep site is revealed as a new site card (before the roll is made). Discard when any play deck is exhausted or when an Under-deep site is reached from another Under-deep site or at the end of the turn after Great Ship, Ford, Black Sails and Hidden Ways was played. Cannot be duplicated.">
        <attr key="rarity" value="U2"/>
        <attr key="class" value="Permanent-event"/>
        <attr key="type" value="Hazard"/>

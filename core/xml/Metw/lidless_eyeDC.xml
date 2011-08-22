@@ -1405,7 +1405,7 @@
        <attr key="class" value="Permanent-event"/>
        <attr key="type" value="Hazard"/>
     </card>
-    <card name="River" graphics="River.jpg" text="Playable on a site. If a company that has moved to this site this turn does not tap a ranger, it must do nothing during its site phase. {cyan} UEP: Tapping a single ranger to meet the requirements of River also meets the requirements of any other Rivers already played and resolved on the same site.">
+    <card name="River" graphics="RiverDC.jpg" text="Playable on a site. If a company that has moved to this site this turn does not tap a ranger, it must do nothing during its site phase. A company need only tap one ranger to meet the requirements of any River played and resolved on the same site.">
        <attr key="rarity" value="CB+CS1"/>
        <attr key="class" value="Short-event"/>
        <attr key="type" value="Hazard"/>
@@ -1644,7 +1644,7 @@
        <attr key="class" value="Short-event"/>
        <attr key="type" value="Minion Resource"/>
     </card>
-    <card name="Black Rider" graphics="BlackRiderDC.jpg" text="Black Rider mode. Playable at a Darkhaven during the organization phase on your Ringwraith's own company. The company may move to a non-Darkhaven site. Discard this card and any other Ringwraith followers in the company during any of your following organization phases the company is at a Darkhaven. Cannot be duplicated on a given company. {cyan} UEP: Discard this card and any other Ringwraith followers in the company during any of your following organization phases the company is at a Darkhaven after having moved from a non-Darkhaven site to a Darkhaven. Cannot be duplicated on a given company.">
+    <card name="Black Rider" graphics="BlackRiderDC.jpg" text="Black Rider mode. Playable at a Darkhaven [{K}] during the organization phase on your Ringwraith’s own company. The company may move to a non-Darkhaven site. Invert this card if the company has moved from a non-Darkhaven site to a Darkhaven [{K}]. If inverted, discard this card and any other Ringwraith followers in the company during your organization phase. Cannot be duplicated on a given company.">
        <attr key="rarity" value="CB+CS1"/>
        <attr key="class" value="Permanent-event"/>
        <attr key="type" value="Minion Resource"/>
@@ -1711,7 +1711,7 @@
        <attr key="class" value="Short-event"/>
        <attr key="type" value="Minion Resource"/>
     </card>
-    <card name="Fell Rider" graphics="FellRiderDC.jpg" text="Fell Rider mode. Playable at a Darkhaven during the organization phase on your Ringwraith's own company. +2 prowess, -3 direct influence to your Ringwraith. Discard all allies and Ringwraith followers in the company; none may join the company. Your Ringwraith may move to a non-Darkhaven site. Discard this card during any of your following organization phases the company is at a Darkhaven. Cannot be duplicated on a given company. {cyan} UEP: Discard this card during any of your following organization phases the company is at a Darkhaven after having moved from a non-Darkhaven site to a Darkhaven. Cannot be duplicated on a given company.">
+    <card name="Fell Rider" graphics="FellRiderDC.jpg" text="Fell Rider mode. Playable at a Darkhaven [{K}] during the organization phase on your Ringwraith’s own company. +2 prowess, -3 direct influence to your Ringwraith. Discard all allies and Ringwraith followers in the company; none may join the company. Your Ringwraith may move to a non-Darkhaven site. Invert this card if the company has moved from a non-Darkhaven site to a Darkhaven [{K}]. If inverted, discard this card during your organization phase. Cannot be duplicated on a given company.">
        <attr key="rarity" value="CB+CS1"/>
        <attr key="class" value="Permanent-event"/>
        <attr key="type" value="Minion Resource"/>
@@ -2025,15 +2025,17 @@
        <attr key="rarity" value="CB+CS1"/>
        <attr key="class" value="Permanent-event"/>
        <attr key="type" value="Minion Resource"/>
+	   <attr key="keyword" value="Stolen Knowledge"/>
 	   <attr key="keyword" value="Information"/>
-    </card>
+     </card>
     <card name="That's Been Heard Before Tonight" graphics="ThatsBeenHeardBeforeTonight.jpg" text="Playable during the site phase on an untapped character in a covert company at a Border-hold [{B}] or Free-hold [{F}] where Information is playable. Tap the character (but not the site). No marshalling points are received and the character may not untap until this card is stored at a Darkhaven during his organization phase.">
        <attr key="mp" value="(2)"/>
        <attr key="rarity" value="CB+CS1"/>
        <attr key="class" value="Permanent-event"/>
        <attr key="type" value="Minion Resource"/>
+   	   <attr key="keyword" value="Stolen Knowledge"/>
 	   <attr key="keyword" value="Information"/>
-    </card>
+     </card>
     <card name="They Ride Together" graphics="TheyRideTogether.jpg" text="Playable only at a Darkhaven during the organization phase on your Ringwraith's company. You may bring any Ringwraith followers into play with your Ringwraith's company as you have in your hand and have direct influence to control. {cyan} UEP: When a minion company consists entirely of Ringwraiths and Black Horses its maximum company size is increased to 9.">
        <attr key="rarity" value="R"/>
        <attr key="class" value="Short-event"/>

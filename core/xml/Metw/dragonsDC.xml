@@ -79,7 +79,7 @@
        <attr key="class" value="Creature"/>
        <attr key="type" value="Hazard"/>
     </card>
-    <card name="Cave Worm" graphics="CaveWormDC.jpg" text="Drake. One strike. May be played keyed to Redhorn Gate, High Pass, Gap of Isen, Angmar, Gundabad, Grey Mountain Narrows, Withered Heath, Númeriador, and Iron Hills. {green} DCE: May also be played keyed to Narthalf, Azjan, Uzek Jan, Dragon Gap.">
+    <card name="Cave Worm" graphics="CaveWormDC.jpg" text="Drake. One strike. May be played keyed to Redhorn Gate, High Pass, Gap of Isen, Angmar, Gundabad, Grey Mountain Narrows, Withered Heath, Númeriador, Iron Hills or any mountain region.">
        <attr key="strikes" value="1"/>
        <attr key="mp" value="1"/>
        <attr key="body" value="-"/>
@@ -89,7 +89,7 @@
        <attr key="class" value="Creature"/>
        <attr key="type" value="Hazard"/>
     </card>
-    <card name="Cruel Caradhras" graphics="CruelCaradhrasDC.jpg" text="Playable on a company using region movement to move through one of the following regions (and not stopping at a site therein): High Pass, Redhorn Gate, Angmar, Gundabad, Grey Mountain Narrows, or Imlad Morgul. Each character in target company must face one strike (not an attack) of 8 prowess which cannot be cancelled. Any resulting body check is modified by +1. {green} DCE: Add: Type Rock Fallweapons do not modify.">
+    <card name="Cruel Caradhras" graphics="CruelCaradhrasDC.jpg" text="Playable on a company using region movement to move through one of the following regions (and not stopping at a site therein): High Pass, Redhorn Gate, Angmar, Gundabad, Grey Mountain Narrows, Imlad Morgul, Bosiri, Cleft of Goats, Clyan, Dragon Gap and Narthalf. Each character in target company must face one strike (not an attack) of 8 prowess which cannot be cancelled. Any resulting body check is modified by +1. {green} DCE: Add: Type Rock Fallweapons do not modify.">
        <attr key="rarity" value="U2"/>
        <attr key="class" value="Short-event"/>
        <attr key="type" value="Hazard"/>
@@ -581,7 +581,7 @@
        <attr key="type" value="Hazard"/>
 	   <attr key="keyword" value="Environment"/>
     </card>
-    <card name="Sleepless Malice" graphics="SleeplessMaliceDC.jpg" text="One Undead hazard creature against each company doesn't count against its hazard limit. Additionally, if Doors of Night is in play, any Undead hazard creature may be played keyed to Ruins and Lairs. Cannot be duplicated. {green} DCE: Added in: any non-unique undead . . .">
+    <card name="Sleepless Malice" graphics="SleeplessMaliceDC.jpg" text="One Undead hazard creature against each company doesn't count against its hazard limit. Additionally, if Doors of Night is in play, any non-unique Undead hazard creature may be played keyed to Ruins and Lairs. Cannot be duplicated. {green} DCE: Added in: any non-unique undead . . .">
        <attr key="rarity" value="U2"/>
        <attr key="class" value="Long-event"/>
        <attr key="type" value="Hazard"/>

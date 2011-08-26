@@ -1,14 +1,18 @@
 #
-# GCCG v0.9.6 Middle-earth deck
+# GCCG v0.9.6.3 Middle-earth deck
 #
-#      DCCD - Elf-lord - Cirdan - Keeper of the Passage
+#      DCCD - Elf-lord - CIrdan - Keeper of the Passage
 #
 
 ####
 Deck
 ####
 
-# Elf-lord Character (3)
+# Dual Character (1)
+
+1 Dúnadan Mariner (WR)
+
+# Elf-lord Character (4)
 
 4 Círdan [E] (FB)
 
@@ -39,16 +43,18 @@ Deck
 2 Nobody's Friend (DM)
 1 Power Built by Waiting (AS)
 2 Rain-drake (TD)
-2 Sellswords Between Charters (LE)
+1 Sellswords Between Charters (LE)
+1 Sons of Kings (LE)
 2 Terror from the Deeps (DF)
 1 The Reach of Ulmo (DM)
 1 Wandering Eldar (LE)
 2 Watcher in the Water (LE)
 
-# Hero Character (4)
+# Hero Character (5)
 
 1 Andovon Pathdal (FB)
 1 Annalena (TW)
+1 Elven Handmaid (FB)
 1 Galdor (TD)
 1 Shipwright (FB)
 
@@ -84,11 +90,12 @@ Deck
 
 1 Black Sails (SL)
 
-# Stage Resource (5)
+# Stage Resource (6)
 
 1 Arsenal of Lindon (FB)
 1 Clad for War (DF)
 2 Hidden Haven (WH)
+1 Keeper of the Passage (FB)
 1 Kinsman and Ambassador (FB)
 
 ####
@@ -113,9 +120,8 @@ Pool
 1 Shield of Iron-bound Ash (TW)
 1 Star-glass (TW)
 
-# Stage Resource (3)
+# Stage Resource (2)
 
-1 Keeper of the Passage (FB)
 1 The Sea's Prowess (FB)
 1 Thrall of the Voice (WH)
 
@@ -164,12 +170,11 @@ Sites
 1 Lórien [F] (FB)
 1 Rivendell [F] (FB)
 
-# Hero Site (27)
+# Hero Site (25)
 
 1 Achrond [H] (NW)
 1 Amon Anlug [H] (NW)
 1 Andoloki [H] (NW)
-1 Canadras [H] #1 (NW)
 1 Dol Amroth [H] (TW)
 1 Ei Missa [H] (NW)
 1 Evermist [H] (NW)
@@ -178,7 +183,6 @@ Sites
 1 Himring [H] (TW)
 1 Isle of the Ulond [H] (TD)
 1 Isles of the Dead that Live [H] (TW)
-1 Jääkylät [H] (NW)
 1 Kylmätalo [H] (NW)
 1 Linnarthurras [H] (NW)
 1 Minas Tirith [H] (TW)
@@ -193,4 +197,3 @@ Sites
 1 Tol Morven [H] (NW)
 1 Tolfalas [H] (TW)
 1 Umbar [H] (SL)
-

@@ -1,5 +1,5 @@
 #
-# GCCG v0.9.6 Middle-earth deck
+# GCCG v0.9.6.3 Middle-earth deck
 #
 #      DCCD - Elf-lord - Thranduil - Protector of Greenwood
 #
@@ -8,12 +8,13 @@
 Deck
 ####
 
-# Dual Resource (2)
+# Dual Resource (3)
 
+1 Beasts of the Wood (WH)
 1 Elf-friend (FB)
 1 Great Falcons of Mirkwood (GW)
 
-# Elf-lord Character (3)
+# Elf-lord Character (4)
 
 4 Thranduil [E] (FB)
 
@@ -45,19 +46,20 @@ Deck
 1 Thranduil's Folk (LE)
 1 Twilight (TW)
 
-# Hero Character (5)
+# Hero Character (7)
 
 1 Aramacar (FB)
+1 Arhendhiril (FB)
+1 Elven Handmaid (FB)
 1 Huinen (FB)
 1 Othar (FB)
 2 Wood-elf (FB)
 
-# Hero Resource (24)
+# Hero Resource (23)
 
 1 A Friend or Three (TW)
 1 Ancient Knowledge (FB)
 1 Aranrûth (FB)
-1 Beasts of the Wood (WH)
 1 Bow of the Galadhrim (AS)
 1 Elf-path (TD)
 1 Emerald of the Mariner (TD)
@@ -96,14 +98,11 @@ Pool
 
 1 Hirbrand (NE)
 
-# Hero Character (7)
+# Hero Character (4)
 
-1 Arhendhiril (FB)
-1 Elven Handmaid (FB)
 1 Gimli, Son of Gloin (DF)
 1 Heladil (GW)
 1 Legolas (TW)
-1 Legolas of Greenwood (FB)
 1 Mallorn-dweller (FB)
 
 # Hero Resource (3)
@@ -125,9 +124,10 @@ Pool
 Sideboard
 #########
 
-# Dual Resource (1)
+# Dual Resource (2)
 
 1 Helecthil, Light of the North (NW)
+1 Wild Hounds (WH)
 
 # Hazard (3)
 
@@ -139,7 +139,7 @@ Sideboard
 
 1 Bladorthin (FB)
 
-# Hero Resource (12)
+# Hero Resource (11)
 
 1 A Panoply of Wings (WH)
 1 Ancient Knowledge (FB)
@@ -152,7 +152,6 @@ Sideboard
 1 Reforging (NW)
 1 The Great Eagles (TW)
 1 The Wind Is Turning (WR)
-1 Wild Hounds (WH)
 
 # Stage Resource (3)
 
@@ -169,49 +168,29 @@ Sites
 1 Heart of the Halls (FB)
 2 Thranduil's Halls@ (FB)
 
-# Fallen Site (2)
+# Fallen Site (1)
 
 1 Lórien [F] (FB)
-1 Rivendell [F] (FB)
 
-# Hero Site (42)
+# Hero Site (23)
 
-1 Bandit Lair [H] (TW)
-1 Buhr Widu [H] (TD)
-1 Caras Amarth [H] (FB)
 1 Caves of Ûlund [H] (TW)
 1 Ceber Fanuin [H] (FB)
 1 Celebannon [H] (FB)
-1 Cerin Amroth [H] (FB)
-1 Cor Angaladh [H] (FB)
-1 Dale [H] (TD)
 1 Dancing Spire [H] (TW)
 1 Dead Marshes [H] (TW)
-1 Dimrill Dale [H] (TW)
 1 Dol Guldur [H] (TW)
 1 Eagles' Eyrie [H] (TW)
-1 Framsburg [H] (TD)
-1 Gladden Fields [H] (TW)
-1 Goblin-gate [H] (TW)
 1 Gold Hill [H] (TD)
-1 Gondmaeglom [H] (TD)
-1 Gyogorasag Sanctuary [H] (GW)
-1 Hermit's Hill [H] (DM)
 1 Irerock [H] (TW)
 1 Iron Hill Dwarf-hold [H] (TW)
-1 Lake-town [H] (TW)
 1 Long Marish [H] (DF)
 1 Long Peak [H] (GW)
-1 Moria [H] (TW)
 1 Mount Gundabad [H] (TW)
 1 Mountains of Mirkwood [H] (GW)
 1 Norr-dûm [H] (GW)
-1 Ovir Hollow [H] (TD)
-1 Raider-hold [H] (AS)
-1 Rhosgobel [H] (TW)
 1 Rhûbar [H] (FB)
 1 Sarn Goriwing [H] (TW)
-1 Shrel-Kain [H] (TW)
 1 Steel Fall [H] (GW)
 1 The Carrock [H] (DF)
 1 The Lonely Mountain [H] (TW)

@@ -1694,7 +1694,7 @@
 	   <attr key="keyword" value="Elf-hold"/>
 	   <attr key="keyword" value="Port of Rhûnen"/>
     </card>	
-	<card name="Rivendell" graphics="Rivendell.jpg" back="1" text="">
+	<card name="Rivendell" graphics="Rivendell2.jpg" back="1" text="">
        <attr key="sp" value="1"/>
        <attr key="draw" value="2"/>
        <attr key="region" value="Rhudaur"/>
@@ -1708,7 +1708,7 @@
        <attr key="type" value="Fallen Site"/>
 	   <attr key="keyword" value="Elf-hold"/>
     </card>	
-	<card name="Rivendell@" graphics="Rivendell2.jpg" back="1" text="">
+	<card name="Rivendell@" graphics="Rivendell.jpg" back="1" text="">
        <attr key="sp" value="1"/>
        <attr key="draw" value="2"/>
        <attr key="region" value="Rhudaur"/>

@@ -8,11 +8,12 @@
 Deck
 ####
 
-# Dual Resource (3)
+# Dual Resource (4)
 
 1 Beasts of the Wood (WH)
 1 Elf-friend (FB)
 1 Great Falcons of Mirkwood (GW)
+1 Helecthil, Light of the North (NW)
 
 # Elf-lord Character (4)
 
@@ -24,10 +25,10 @@ Deck
 1 "Tom" (Tûma) (TW)
 1 "William" (Wûluag) (TW)
 1 Alone and Unadvised (AS)
-2 Ambush! (TI)
-1 An Unexpected Outpost (DM)
+1 Ambush! (TI)
+2 An Unexpected Outpost (DM)
 1 Black Crows (FB)
-1 Earth-tremors (DM)
+2 Chance of Being Lost (DM)
 2 Elf-lord Revealed in Wrath* (FB)
 2 Elven Archer (FB)
 2 Elven Custody (FB)
@@ -36,11 +37,10 @@ Deck
 1 Faladrim (FB)
 2 Galadhrim (AS)
 1 Grasping and Ungracious (TI)
-1 His Fury Has Betrayed Him (WR)
 1 Lord of the Eagles (DF)
 1 Nameless Thing (DM)
 1 Old Enemies (DF)
-1 Pierced by Many Wounds (DM)
+1 Shifting Paths (FB)
 1 Snow-elves (NW)
 1 Sons of Elrond (FB)
 1 Taint of Glory (WR)
@@ -56,10 +56,9 @@ Deck
 1 Othar (FB)
 2 Wood-elf (FB)
 
-# Hero Resource (25)
+# Hero Resource (24)
 
-1 A Friend or Three (TW)
-1 Ancient Knowledge (FB)
+2 Ancient Knowledge (FB)
 1 Aranrûth (FB)
 1 Bow of the Galadhrim (AS)
 1 Emerald of the Mariner (TD)
@@ -69,15 +68,14 @@ Deck
 1 Longbottom Leaf (BA)
 1 Many Turns and Doublings (TD)
 2 Marvels Told (TD)
-1 Muster (TW)
 1 Pass the Doors of Dol Guldur (DM)
 1 Raft-elves (FB)
 1 Reforging (NW)
 1 Refuge (TD)
-2 Rescue Prisoners (TW)
+1 Rescue Prisoners (TW)
 1 Ringil (GW)
 1 Risky Blow (TW)
-1 Smoke Rings (DM)
+2 Smoke Rings (DM)
 1 The Wind Is Turning (WR)
 1 Wood-elves (TW)
 
@@ -126,15 +124,16 @@ Pool
 Sideboard
 #########
 
-# Dual Resource (3)
+# Dual Resource (2)
 
 1 Down the Hurrying Waters (RS)
-1 Helecthil, Light of the North (NW)
 1 Wild Hounds (WH)
 
-# Hazard (3)
+# Hazard (5)
 
+1 Earth-tremors (DM)
 1 He is lost to us (FB)
+1 Lure of Magic (NE)
 1 Muster Disperses (TW)
 1 Sand-storm (SL)
 
@@ -142,16 +141,15 @@ Sideboard
 
 1 Bladorthin (FB)
 
-# Hero Resource (9)
+# Hero Resource (8)
 
 1 A Panoply of Wings (WH)
-1 Ancient Knowledge (FB)
 1 Elf-path (TD)
 1 Elves of Taur Romen (FB)
 1 Fellowship (NW)
 1 Great Bow of Lorien (FB)
-1 Great Bow of Yew (FB)
 1 Muster (TW)
+1 Rescue Prisoners (TW)
 1 The Great Eagles (TW)
 
 # Minion Resource (1)

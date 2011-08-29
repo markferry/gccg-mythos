@@ -8,8 +8,10 @@
 Deck
 ####
 
-# Dual Resource (4)
+# Dual Resource (7)
 
+1 Deadly Dart (PR)
+1 Durang (DF)
 2 Fungi (DF)
 1 His Beard Long and Forked (DF)
 1 Origin of Stone (DF)
@@ -20,7 +22,6 @@ Deck
 
 # Hazard (33)
 
-1 Abductor (TW)
 2 Ambusher (TW)
 1 An Unexpected Outpost (DM)
 1 Balrog of Moria (TW)
@@ -29,40 +30,41 @@ Deck
 2 Corsairs of Umbar (TW)
 1 Despair of the Heart (LE)
 1 Dunlending Raiders (TD)
-1 Foolish Words (LE)
+1 Foolish Words (TD)
 2 Frightful Guardian (GW)
 2 Giant (TW)
 1 Greed (TW)
+1 Grima Wormtongue (TI)
 1 His Own Master (RS)
 1 Horse-lords (LE)
-1 Lord of the Carrock (AS)
-1 Lure of Expedience (LE)
+1 Lawless Men (LE)
 1 Men of the Wood (GW)
 1 Mouth of Sauron (TW)
 1 Out of Practise (DF)
 3 Rank upon Rank (DM)
 3 Sellswords Between Charters (LE)
+1 Taint of Glory (WR)
 2 Thrice Outnumbered (LE)
 1 Twilight (LE)
 
-# Hero Character (5)
+# Hero Character (6)
 
 1 Bifur (TW)
 1 Bofur (TW)
 1 Dwarf-miner (DF)
 1 King's Advisor (DF)
+1 King's Judge (DF)
 1 Pathfinder (DF)
 
-# Hero Resource (18)
+# Hero Resource (17)
 
 1 An Unexpected Party (DM)
-1 Bill the Pony (TW)
 1 Blue Mountain Dwarves (TW)
-1 Concealment (TW)
-1 Dwarven Fire (DF)
+2 Concealment (TW)
 2 Dwarven Light-stone (DM)
+1 Dwarven-axe (DF)
+1 Gollum (TW)
 2 Marvels Told (TD)
-1 Reunion (RS)
 2 Smoke Rings (DM)
 3 The Dwarves Are upon You! (DM)
 1 To the Uttermost Foundations (DM)
@@ -73,26 +75,23 @@ Deck
 
 1 Drór (DM)
 
-# Minion Resource (5)
+# Minion Resource (4)
 
-2 Crept Along Cleverly (WH)
-1 Iron Shield of Old (AS)
+2 Iron Shield of Old (AS)
 2 Swift Strokes (LE)
 
-# Stage Resource (6)
+# Stage Resource (5)
 
 1 Clad for War (DF)
-1 Deep Mountain Fortress (DF)
+2 Deep Mountain Fortress (DF)
 1 Dwarven-galleries (DF)
-1 Great Miners (DF)
-1 No Mouse Unnoticed (DF)
 1 Son of Fundin (DF)
 
 ####
 Pool
 ####
 
-# Dual Resource (1)
+# Dual Resource (2)
 
 1 Miner's Pick (DF)
 
@@ -113,7 +112,7 @@ Pool
 
 # Minion Resource (1)
 
-1 Deadly Dart (PR)
+1 Foul-smelling Paste (LE)
 
 # Stage Resource (3)
 
@@ -125,32 +124,35 @@ Pool
 Sideboard
 #########
 
+# Dual Resource (1)
+
+1 Dwarven Art of War (DF)
+
 # Hazard (3)
 
 1 Covetous Thoughts (LE)
 1 Many Burdens (RS)
 1 Muster Disperses (LE)
 
-# Hero Resource (15)
+# Hero Resource (12)
 
-1 Aglarond (TI)
 1 Book of Mazarbul (TW)
 1 Durin's Crown (DF)
 1 Gems of Arda (DM)
-1 Gollum (TW)
 1 Halls of Khazad-dûm (DF)
 1 Into Dark Tunnels (DM)
 2 Longbottom Leaf (BA)
-1 Map to Mithril (TD)
 1 Mithril (DM)
-1 Petty-dwarves [H] (AS)
+1 Noble Hound (DM)
 1 Reconquest of Khazad-dûm (DF)
 1 Return to Khazad-dûm (DF)
 1 The Old Thrush (TW)
 
-# Stage Resource (2)
+# Stage Resource (4)
 
 1 Folk of Durin (DF)
+1 Great Miners (DF)
+1 Legacy of Smiths (WH)
 1 Lord of Dwarrowdelf (DF)
 
 #####
@@ -164,20 +166,16 @@ Sites
 1 Ruins of Nogrod (DF)
 1 The Wind-deeps [D] (DF)
 
-# Dwarf-lord Site (1)
+# Dwarf-lord Site (2)
 
-1 Blue Mountain Dwarf-hold [D] (DF)
+2 Blue Mountain Dwarf-hold [D] (DF)
 
 # Fallen-wizard Site (1)
 
 1 Deep Mines (WH)
 
-# Hero Site (24)
+# Hero Site (20)
 
-1 Bag End [H] (TW)
-1 Bar-en-Ibûn [H] (DF)
-1 Barrow-downs [H] (TW)
-1 Bree [H] (TW)
 1 Carn Dûm [H] (TW)
 1 Creb Durga [H] (KN)
 1 Dimrill Dale [H] (TW)
@@ -197,4 +195,5 @@ Sites
 1 The Under-leas [H] (DM)
 1 The Under-vaults [H] (DM)
 1 The Wind Throne [H] (TW)
-1 Thunder Cleft [H] (GW)
+
+

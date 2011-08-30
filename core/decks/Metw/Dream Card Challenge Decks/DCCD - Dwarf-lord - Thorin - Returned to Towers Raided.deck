@@ -19,6 +19,7 @@ Deck
 # Hazard (33)
 
 2 An Unexpected Outpost (DM)
+1 Ando-anca Ahunt (GW)
 1 Awaken Defenders (LE)
 1 Covetous Thoughts (LE)
 3 Dire Wolves (TD)
@@ -26,7 +27,6 @@ Deck
 1 Grasping and Ungracious (TI)
 1 Greed (TW)
 1 Hard to Tame (DF)
-1 Lomaw Ahunt (GW)
 1 Lord of the Eagles (DF)
 1 Lure of Nature (TW)
 1 No Memory of This Place (RS)
@@ -48,12 +48,12 @@ Deck
 1 Frerin (DF)
 1 Fíli (TW)
 1 Glóin (TW)
-1 Kíli (TW)
 1 Nori (TW)
 1 Ori (TW)
+1 Pathfinder (DF)
 1 Óin (TW)
 
-# Hero Resource (27)
+# Hero Resource (25)
 
 2 A Friend or Three (TW)
 1 A More or Less Decent Giant (DF)
@@ -64,8 +64,8 @@ Deck
 1 Durin's Axe (TW)
 2 Dwarven-axe (DF)
 1 Habergeon of Silver (TD)
-1 Kingdom under the Mountain (DF)
-2 Knowledge of the Enemy (DM)
+1 Khazadshatur (DF)
+1 Knowledge of the Enemy (DM)
 1 Longbottom Leaf (BA)
 1 Marvels Told (TD)
 1 Reforging (NW)
@@ -74,18 +74,18 @@ Deck
 1 Shimmer of Hope (DF)
 2 Smoke Rings (DM)
 3 The Dwarves Are upon You! (DM)
-1 Torque of Hues (TW)
 
-# Minion Resource (3)
+# Minion Resource (4)
 
 1 Crack in the Wall (LE)
-1 Crept Along Cleverly (WH)
+2 Crept Along Cleverly (WH)
 1 Swift Strokes (LE)
 
-# Stage Resource (2)
+# Stage Resource (3)
 
 1 Clad for War (DF)
 1 Kheleglin (FP)
+1 Son of Thráin (DF)
 
 ####
 Pool
@@ -128,29 +128,29 @@ Sideboard
 1 Elf-lord Revealed in Wrath* (FB)
 1 Great Northern Bear (GW)
 
-# Hero Resource (12)
+# Hero Resource (11)
 
-1 Adamant Helmet (TD)
 1 An Unexpected Party (DM)
 1 Block (TW)
-1 Hauberk of Bright Mail (TW)
+1 Dwarven Hoard (TD)
 1 Ironfists (CP)
+1 Kingdom under the Mountain (DF)
 1 No Strangers at this Time (AS)
-1 Noble Hound (DM)
 1 Noldo-lantern (DM)
 1 Petty-dwarves [H] (AS)
 1 Pipe Weed (DF)
 1 Rebuild the Town (DM)
 1 Tower Raided (AS)
 
-# Minion Resource (2)
+# Minion Resource (1)
 
-1 Crept Along Cleverly (WH)
-1 Secret Book (AS)
+1 Old Prejudice (LE)
 
-# Stage Resource (1)
+# Stage Resource (3)
 
 1 Great Achievement (DF)
+1 Mining Settlement (DF)
+1 The Seven Houses (DF)
 
 #####
 Sites

@@ -1508,7 +1508,7 @@
        <attr key="influence" value="10"/>
 	   <attr key="keyword" value="Avatar"/>
     </card>
-    <card name="Ghân-buri-Ghân" graphics="GhanburiGhan.jpg" text="Unique. +2 direct influence against Wose factions.">
+    <card name="Ghân-buri-Ghân" graphics="GhanburiGhanDC.jpg" text="Unique. +2 direct influence against Wose factions.">
        <attr key="unique" value="yes"/>
        <attr key="skills" value="Scout/Ranger"/>
        <attr key="mp" value="2"/>
@@ -1516,7 +1516,7 @@
        <attr key="prowess" value="2"/>
        <attr key="home_site" value="Drúadan Forest"/>
        <attr key="rarity" value="U"/>
-       <attr key="race" value="Man"/>
+       <attr key="race" value="Wose"/>
        <attr key="type" value="Hero Character"/>
        <attr key="mind" value="5"/>
        <attr key="influence" value="2"/>

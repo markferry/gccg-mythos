@@ -1666,7 +1666,7 @@
 			 <attr key="type" value="Dwarf-lord Character"/>
 			 <attr key="keyword" value="Longbeard"/>
 		</card>
-		<card name="Threat of many Feet" graphics="Threat of many Feet.jpg" text="Does not count against the hazard limit. Against moving companies hazard creatures may be keyed to the site of origin (or the last site moved to this turn). Cannot be duplicated.">
+		<card name="Threat of Many Feet" graphics="Threat of Many Feet.jpg" text="Does not count against the hazard limit. Against moving companies hazard creatures may be keyed to the site of origin (or the last site moved to this turn). Cannot be duplicated.">
 			 <attr key="type" value="Hazard"/>
 			 <attr key="rarity" value="C"/>
 			 <attr key="class" value="Long-event"/>

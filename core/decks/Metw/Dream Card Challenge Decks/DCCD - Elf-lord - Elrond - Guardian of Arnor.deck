@@ -1,5 +1,5 @@
 #
-# GCCG v0.9.6 Middle-earth deck
+# GCCG v0.9.6.3 Middle-earth deck
 #
 #      DCCD - Elf-lord - Elrond - Guardian of Arnor
 #
@@ -10,21 +10,22 @@ Deck
 
 # Dual Resource (3)
 
+1 Bow-master (GW)
 1 Elf-friend (FB)
-1 Mighty Steed (TI)
 1 Well Aimed (FB)
 
-# Elf-lord Character (3)
+# Elf-lord Character (4)
 
 4 Elrond [E] (FB)
 
-# Hazard (30)
+# Hazard (33)
 
 1 Agburanar Ahunt (TD)
 2 Cave Worm (TD)
 2 Cave-drake (TW)
 1 Crossing the Border (FB)
 1 Dragon's Blood (TD)
+1 Dragon's Curse (TD)
 1 Earth-tremors (DM)
 2 Flooded to the Surface (DF)
 1 From the Pits of Angband (TD)
@@ -36,36 +37,40 @@ Deck
 1 Rain-drake (TD)
 1 Sea Serpent (TD)
 2 Summons from Long Sleep (AS)
-1 Terror from the Deeps (DF)
+2 Terror from the Deeps (DF)
 2 The Reach of Ulmo (DM)
 1 True Cold-drake (TD)
 1 True Fire-drake (TD)
+1 Twilight (TW)
 2 Two or Three Tribes Present (DM)
 1 Winged Fire-drake (TD)
 1 Witch-king of Angmar (TW)
 1 Wound of Long Burden (DM)
 
-# Hero Character (9)
+# Hero Character (11)
 
-1 Ascarnil (FB)
 1 Beretar (TW)
+1 Brandir (KN)
 1 Elladan (TW)
 1 Elrohir (TW)
 1 Erestor (FB)
 1 Gildor Inglorion (TW)
 1 Kénwe Foryaren (NW)
+2 Ranger of Arnor (KN)
 1 Shipwright (FB)
 1 Strider (BA)
 
-# Hero Resource (24)
+# Hero Resource (27)
 
+1 A Chance Meeting (TW)
 1 Aeglin (GW)
 1 Ancient Skill and Wisdom (FB)
-1 Biter and Beater! (AS)
+1 Asfaloth (RS)
 1 Bow of Dragon-horn (TD)
 1 Elven Blade (FB)
 1 Elves of the House (FB)
 1 Emerald of Doriath (TD)
+1 Fellowship (NW)
 1 Great Bow of Yew (FB)
 1 Kindling of the Spirit (TW)
 1 Lossoth (TW)
@@ -81,6 +86,7 @@ Deck
 1 Vanishment (TW)
 1 Vilya (TW)
 1 When I Know Anything (TD)
+1 Wielded Twice (TD)
 1 Wizard's Flame (TW)
 
 # Minion Resource (1)
@@ -121,29 +127,28 @@ Pool
 Sideboard
 #########
 
-# Dual Resource (1)
+# Dual Resource (2)
 
-1 Mighty Steed (TI)
+2 Mighty Steed (TI)
 
-# Hazard (10)
+# Hazard (9)
 
 1 All This Dwarvish Racket (DF)
+1 Beacons Alight (WR)
 1 Call of the Deeps (DF)
-1 Dragon's Curse (TD)
 1 Foolish Words (TD)
 1 Marsh-drake (TD)
 1 Old Enemies (DF)
-1 Terror from the Deeps (DF)
+1 Sand-drake (SL)
 1 The Burden of Time (TW)
-1 Twilight (TW)
 1 Wyrmsiege (DF)
 
 # Hero Resource (6)
 
 1 Andúril, the Flame of the West (TW)
 1 Attuning the Blade (FB)
-1 Fellowship (NW)
 1 Gates of Morning (NW)
+1 Light and Flame (RS)
 1 Power Against the Shadow (AS)
 1 Sûlhelka (FB)
 
@@ -165,26 +170,21 @@ Sites
 
 1 Grey Havens [F] (FB)
 
-# Hero Site (37)
+# Hero Site (29)
 
 1 Aden Scarlet's Medical Library [H] (RS)
 1 Andoloki [H] (NW)
 1 Annúminas [H] (KN)
 1 Barad Lughilsarik [H] (NW)
-1 Barrow-downs [H] (TW)
 1 Bernastath [H] (NW)
 1 Bree [H] (TW)
-1 Cameth Brin [H] (TW)
 1 Carn Dûm [H] (TW)
 1 Cirith Helkaloke [H] (GW)
 1 Creb Durga [H] (KN)
 1 Daeron's Pool [H] (GW)
 1 Dead Man's Dike [H] (KN)
-1 Eldanar [H] (KN)
 1 Gondring's Lair [H] (NW)
 1 Hostel of the Sisters of Nienna [H] (KN)
-1 Litash [H] (NW)
-1 Lossadan Cairn [H] (TW)
 1 Lossadan Camp [H] (TW)
 1 Moria [H] (TW)
 1 Morkai [H] (KN)
@@ -192,14 +192,12 @@ Sites
 1 Mount Gundabad [H] (TW)
 1 Mount Rerir [H] (FB)
 1 Ruskea Vene [H] (NW)
-1 Thaurung [H] (NW)
 1 The Iron-deeps [H] (DM)
 1 The Last Bridge [H] (RS)
 1 The Under-Caves [H] (KN)
 1 The Under-vaults [H] (DM)
 1 The White Towers [H] (TW)
 1 The Willow Dingle [H] (RS)
-1 The Worthy Hills [H] (AS)
 1 Tol Lamfirith [H] (KN)
 1 Weathertop [H] (TW)
 1 Zarak Dûm [H] (TD)

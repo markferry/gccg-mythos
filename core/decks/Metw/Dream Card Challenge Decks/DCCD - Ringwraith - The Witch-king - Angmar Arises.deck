@@ -15,29 +15,29 @@ Deck
 # Hazard (33)
 
 1 Alone and Unadvised (AS)
-2 An Unexpected Outpost (DM)
+1 An Unexpected Outpost (DM)
 1 Angmar Arises (DM)
 2 Barrow-wight (TW)
 3 Doors of Night (TW)
 1 Eloeklo, Lindor's Bane (NW)
+1 Exhalation of Decay (DM)
 1 Fell Winter (TW)
 2 Ghosts (LE)
-2 Greater Specters (TI)
-1 King of the Dead (TI)
+1 Greater Specters (TI)
 1 Long Winter (TW)
-1 Lure of Nature (TW)
 1 Lure of the Senses (TW)
-2 Mewlips (TI)
+3 Mewlips (TI)
 1 Out of the Swamps (TI)
 2 Sleepless Malice (TD)
 1 Snow in the Mountains (NW)
+2 Stirring Bones (DM)
 1 Ta-Fa-Lisch (DF)
+1 Taint of Glory (WR)
 3 The Moon Is Dead (DM)
-1 Threat of many Feet (DF)
-1 True Fire-drake (TD)
+1 Threat of Many Feet (DF)
 2 Twilight (TW)
 
-# Minion Character (10)
+# Minion Character (11)
 
 1 Ice-troll (NW)
 1 Konihrabn (NW)
@@ -50,7 +50,6 @@ Deck
 
 # Minion Resource (32)
 
-1 Ancient Secrets (BA)
 1 Bade to Rule (LE)
 1 Bitter Cold (LE)
 1 Black Rider (LE)
@@ -59,7 +58,6 @@ Deck
 3 Burning Rick, Cot, and Tree (LE)
 2 Call to Arms (KN)
 2 Creating Their Domain (NE)
-1 Crept Along Cleverly (WH)
 1 Hatred (NE)
 1 I'll Be At Your Heels (LE)
 1 Iron-home (KN)
@@ -70,9 +68,9 @@ Deck
 1 The Iron Crown [M] (LE)
 3 The Least of Gold Rings (LE)
 2 The Tormented Earth (AS)
-1 Voices of Malice (LE)
+2 Voices of Malice (LE)
 1 War-warg (LE)
-2 Weigh All Things to a Nicety (LE)
+3 Weigh All Things to a Nicety (LE)
 
 ####
 Pool
@@ -95,21 +93,20 @@ Pool
 Sideboard
 #########
 
-# Hazard (6)
+# Hazard (5)
 
 1 Deathwind (NW)
+1 King of the Dead (TI)
 1 Muster Disperses (TW)
 1 Sand-storm (SL)
-1 Scatha Ahunt (TD)
 1 Siege of Gondor (WR)
-1 Turukulon (TI)
 
 # Minion Character (2)
 
 1 Hoarmûrath the Ringwraith (LE)
 1 Ûvatha the Ringwraith (LE)
 
-# Minion Resource (12)
+# Minion Resource (13)
 
 1 Angmarim [M] (AS)
 1 Flaming Torch (NE)
@@ -119,6 +116,7 @@ Sideboard
 2 Minor Ring (LE)
 1 Orcs of Angmar (LE)
 1 Test of Fire (LE)
+1 Trophy-belt (NE)
 1 Vasamacil (KN)
 1 War-warg (LE)
 1 Warrior-priests of Angmar (NW)
@@ -127,24 +125,30 @@ Sideboard
 Sites
 #####
 
-# Minion Site (19)
+# Minion Site (25)
 
 1 Barad Lughilsarik [M] (NW)
 1 Bernastath [M] (NW)
+1 Blue Mountain Dwarf-hold [M] (LE)
 1 Bree [M] (LE)
 1 Cameth Brin [M] (LE)
 1 Carn Dûm [M] (LE)
+1 Collarmount [M] (GW)
+1 Ei Missa [M] (NW)
 1 Eldanar [M] (KN)
 1 Leiri [M] (NW)
 1 Ligr Wodaize Berne [M] (NW)
 1 Litash [M] (NW)
 1 Lossadan Camp [M] (LE)
 1 Lothragh Camp [M] (ML)
+1 Malgolodh's Cave [M] (NW)
 1 Morkai [M] (KN)
+1 Mornost [M] (NW)
 1 Mount Gram [M] (LE)
 1 Mount Rerir [M] (FB)
 1 Puolihmisten Satama [M] (NW)
 1 Ruskea Vene [M] (NW)
+1 Shab Arch [M] (GW)
 1 Thaurung [M] (NW)
 1 Weathertop [M] (AS)
 1 Zarak Dûm [M] (LE)

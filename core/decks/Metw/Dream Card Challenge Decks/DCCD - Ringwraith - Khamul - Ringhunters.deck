@@ -8,31 +8,34 @@
 Deck
 ####
 
-# Dual Resource (3)
+# Dual Resource (4)
 
 1 Interrogation (NE)
+1 Mighty Steed (TI)
 2 On the Precious (WR)
 
-# Hazard (31)
+# Hazard (33)
 
 2 An Unexpected Outpost (DM)
 1 Assassin (NE)
 1 Black Crows (FB)
 1 Black Vapour (BA)
-1 Boars (FB)
 1 Chance of Being Lost (DM)
 2 Flies and Spiders (DM)
+1 Foolish Words (TD)
 2 Full of Froth and Rage (AS)
 2 Giant Spiders (TW)
 1 Giant Spiders (LE)
 1 Hurnkennec (TI)
+2 King Spider (DF)
 2 Lesser Spiders (TD)
 1 Lesser Spiders (LE)
 1 Mensharag (TI)
 1 Ninevet (DF)
-2 Pierced by Many Wounds (DM)
+1 Pierced by Many Wounds (DM)
 2 Protecting their Domain (FB)
 1 Seized upon the Bearer (RS)
+1 Spiders Huge and Horrible (NE)
 1 Taint of the Wilds (RS)
 1 Thrice Told Tales (RS)
 2 Twilight (TW)
@@ -40,18 +43,21 @@ Deck
 
 # Minion Character (5)
 
-3 Khamûl the Ringwraith (LE)
+4 Khamûl the Ringwraith (LE)
 1 Leärdinoth (NE)
+1 Miruimor (NE)
+1 Ulrac (NE)
 
-# Minion Resource (30)
+# Minion Resource (29)
 
 1 Angurth Roused (GW)
 1 Black Mace (LE)
 1 Black Rain (LE)
-3 Black Rider (LE)
+2 Black Rider (LE)
+1 By the Ringwraith's Word (LE)
 1 Call to Arms (KN)
 2 Crept Along Cleverly (WH)
-3 Crooked Promptings (LE)
+2 Crooked Promptings (LE)
 2 Gifts as Given of Old (LE)
 1 Gleaming Gold Ring (LE)
 1 Gold Ring that Sauron Fancies (LE)
@@ -59,11 +65,12 @@ Deck
 1 High Helm (LE)
 1 Hionvor of Womawas Druz (CP)
 1 Not Slay Needlessly (LE)
+1 Overlord of Dol Guldur (NE)
 1 Ruse (LE)
 1 Sharpen Up (NE)
 1 The Ring Leaves Its Mark (LE)
 3 The Tormented Earth (AS)
-2 Voices of Malice (LE)
+1 Voices of Malice (LE)
 2 Weigh All Things to a Nicety (LE)
 
 ####
@@ -74,13 +81,12 @@ Pool
 
 1 Jehn Remak (SL)
 
-# Minion Character (4)
+# Minion Character (5)
 
 1 Eradan (LE)
 1 Odoacer (LE)
 1 The Grimburgoth (DM)
 1 Tros Hesnef (LE)
-1 Ulrac (NE)
 
 # Minion Resource (3)
 
@@ -98,7 +104,7 @@ Sideboard
 
 # Hazard (4)
 
-1 Muster Disperses (TW)
+1 Fruitless Victory (NE)
 1 New Moon (TW)
 1 Ninevet (DF)
 1 Terror of Halifirien (TI)
@@ -115,26 +121,25 @@ Sideboard
 1 Curse The Baggins! (NE)
 1 Dragon-helm of Uon (CP)
 1 Dwarven Ring of Thrár's Tribe [M] (AS)
-1 Forced March (LE)
 1 Gondring Roused (NW)
 1 Magic Ring of Savagery (LE)
 1 Magic Ring of Weals (LE)
 2 Minor Ring (LE)
-1 Regiment of Black Crows (AS)
 1 Stinker (LE)
+1 Test of Fire (LE)
+1 Voices of Malice (LE)
 
 #####
 Sites
 #####
 
-# Minion Site (32)
+# Minion Site (30)
 
 1 Bag End [M] (LE)
 1 Bandit Lair [M] (LE)
 1 Barad-dûr [M] (LE)
-1 Blue Mountain Dwarf-hold [M] (LE)
 1 Bree [M] (LE)
-1 Buhr Thurasig [M] (GW) 
+1 Buhr Thurasig [M] (GW)
 1 Buhr Widu [M] (LE)
 1 Caras Amarth [M] (FB)
 1 Caves of Ûlund [M] (LE)
@@ -149,7 +154,6 @@ Sites
 1 Gondmaeglom [M] (LE)
 1 Gondring's Lair [M] (NW)
 1 Iron Hill Dwarf-hold [M] (LE)
-1 Isengard [M] (LE)
 1 Lond Galen [M] (LE)
 1 Long Peak [M] (GW)
 1 Lossadan Camp [M] (LE)
@@ -158,7 +162,6 @@ Sites
 1 Moria [M] (LE)
 1 Mount Gundabad [M] (LE)
 1 Norr-dûm [M] (GW)
-1 Ost-in-Edhil [M] (LE)
 1 Sarn Goriwing [M] (LE)
 1 Strayhold [M] (NE)
 1 Thranduil's Halls [M] (LE)

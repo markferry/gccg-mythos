@@ -1,5 +1,5 @@
 #
-# GCCG v0.9.6 Middle-earth deck
+# GCCG v0.9.6.3 Middle-earth deck
 #
 #      DCCD - Dunadan-lord - Denethor - Captains of Gondor
 #
@@ -8,7 +8,7 @@
 Deck
 ####
 
-# Dunadan-lord (3)
+# Dúnadan-lord Character (4)
 
 4 Lord Denethor (WR)
 
@@ -42,7 +42,6 @@ Deck
 1 Taint of Glory (WR)
 2 Twilight (LE)
 
-
 # Hero Character (5)
 
 1 Beregond (TW)
@@ -51,7 +50,7 @@ Deck
 1 Hirgon (WR)
 1 Ingold (WR)
 
-# Hero Resource (29)
+# Hero Resource (28)
 
 1 Captains of the West (WR)
 3 Dark Quarrels (TW)
@@ -76,7 +75,7 @@ Deck
 2 War Preparations (WR)
 1 Withdrawn to Mordor (DM)
 
-# Stage Resource (4)
+# Stage Resource (5)
 
 1 Captain of the Tower Guard (WR)
 1 Great Achievement (DF)
@@ -160,7 +159,7 @@ Sites
 
 1 Edhellond [F] (FB)
 
-# Hero Site (29)
+# Hero Site (31)
 
 1 Amon Lhaw [H] (TI)
 1 Amrûn [H] (SL)
@@ -168,14 +167,15 @@ Sites
 1 Barad-wath [H] (NE)
 1 Cair Andros [H] (WR)
 1 Cairn of the Colruh Hazurbal [H] (SL)
-1 Calembel [H] (WR)
 1 Cirith Gorgor [H] (AS)
 1 Cirith Ungol [H] (TW)
+1 Coastal Signal Tower [H] (WR)
 1 Dead Marshes [H] (TW)
 1 Durthang [H] (WR)
 1 Dûsalan [H] (SL)
 1 Gobel Mírlond [H] (AS)
 1 Haudh-in-Gwanûr [H] (DM)
+1 Henneth Annûn [H] (TW)
 1 Lugarlur [H] (SL)
 1 Minas Morgul [H] (TW)
 1 Minas Tirith [H] (TW)
@@ -183,11 +183,12 @@ Sites
 1 Nûrniag Camp [H] (AS)
 1 Osgiliath [H] (WR)
 1 Ostigurth [H] (NE)
+1 Pelargir [H] (TW)
 1 Raider-hold [H] (AS)
 1 Shelob's Lair [H] (TW)
 1 Sturlurtsa [H] (CP)
 1 Temple of Kondri Odchi [H] (CP)
 1 The Hospice of Lost Faith [H] (SL)
-1 Thuringwathost [H] (NE)
 1 Urlurtsu Nurn [H] (DM)
+1 Vale of Erech [H] (TW)
 1 Vamag [H] (SL)

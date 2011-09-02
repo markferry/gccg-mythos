@@ -1,5 +1,5 @@
 #
-# GCCG v0.9.6 Middle-earth deck
+# GCCG v0.9.6.3 Middle-earth deck
 #
 #      DCCD - Ringwraith - Akhorahil - The Numenorean
 #
@@ -21,6 +21,7 @@ Deck
 
 # Hazard (33)
 
+1 An Unexpected Outpost (DM)
 1 Arda Angered (DF)
 1 Assassin (NE)
 1 Bairanax Ahunt (TD)
@@ -30,22 +31,21 @@ Deck
 1 Doors of Night (TW)
 1 Doors of Night (LE)
 1 Earth-tremors (DM)
-1 Eärcaraxë Ahunt (TD)
 1 Fell-bear (NW)
 1 Giant Spiders (TW)
 1 Greed (TW)
 1 Half-trolls of Far Harad (TW)
 1 Hobgoblins (TD)
 1 Hurnkennec (TI)
+1 Ibûn (DF)
 1 Ireful Flames (PR)
+1 Kraken (SL)
 1 Lost in Free-domains (TW)
-1 Morgai-flies (NM)
 1 Nameless Thing (DM)
 1 Ningarach (NW)
 1 Old Man Willow (TW)
 1 Olog-hai (Trolls) (TW)
 1 Politics (WR)
-1 River (TW)
 1 Sand-drake (SL)
 1 Siege of Gondor (WR)
 1 Slayer (LE)
@@ -55,7 +55,7 @@ Deck
 1 Twilight (TW)
 1 Uruial (GW)
 
-# Minion Character (3)
+# Minion Character (4)
 
 4 Akhôrahil the Ringwraith (LE)
 
@@ -155,13 +155,12 @@ Sideboard
 Sites
 #####
 
-# Minion Site (42)
+# Minion Site (38)
 
-1 Auz Azunan [M] (SL)
+1 Amrûn [M] (SL)
 1 Bozisha-Dar [M] (SL)
 1 Bûr Esmer [M] (SL)
 1 Cairn of the Colruh Hazurbal [M] (SL)
-1 Calembel [M] (WR)
 1 Coastal Signal Tower [M] (WR)
 1 Dol Amroth [M] (LE)
 1 Dûsalan [M] (SL)
@@ -175,14 +174,12 @@ Sites
 1 Killing Fields [M] (SL)
 1 Korlea [M] (SL)
 1 Lighthouse at the Cape of Octopuses [M] (SL)
-1 Linhir [M] (WR)
-1 Lond Daer [M] (KN)
 1 Lond Galen [M] (LE)
 1 Lossarnach [M] (WR)
-2 Minas Morgul [M] (LE)
+1 Minas Morgul [M] (LE)
+1 Minas Tirith [M] (LE)
 1 Monastery of the True Faith [M] (SL)
 1 Narik-Zadan [M] (SL)
-1 Norr-dûm [M] (GW)
 1 Nîlûlondê [M] (SL)
 1 Pelargir [M] (LE)
 1 Pelican Islands [M] (SL)
@@ -190,12 +187,11 @@ Sites
 1 Southron Oasis [M] (LE)
 1 Temple of Kondri Odchi [M] (CP)
 1 Tharagrondost [M] (WR)
+1 Tharbad [M] (LE)
 1 The Hospice of Lost Faith [M] (SL)
-1 The Stones [M] (LE)
 1 Tol Glingal [M] (SL)
 1 Tol Uialgaer [M] (SL)
 1 Umbar [M] (SL)
 1 Vale of Erech [M] (LE)
 1 Vamag [M] (SL)
 1 Ûrêzâyan [M] (SL)
-

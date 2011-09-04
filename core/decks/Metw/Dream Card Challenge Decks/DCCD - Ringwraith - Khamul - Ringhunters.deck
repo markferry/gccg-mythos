@@ -8,6 +8,10 @@
 Deck
 ####
 
+# Dual Character (1)
+
+1 Ulred (GW)
+
 # Dual Resource (4)
 
 1 Interrogation (NE)
@@ -41,12 +45,11 @@ Deck
 2 Twilight (TW)
 2 Wake of War (TW)
 
-# Minion Character (5)
+# Minion Character (6)
 
 4 Khamûl the Ringwraith (LE)
 1 Leärdinoth (NE)
 1 Miruimor (NE)
-1 Ulrac (NE)
 
 # Minion Resource (29)
 
@@ -87,6 +90,7 @@ Pool
 1 Odoacer (LE)
 1 The Grimburgoth (DM)
 1 Tros Hesnef (LE)
+1 Ulrac (NE)
 
 # Minion Resource (3)
 
@@ -133,7 +137,7 @@ Sideboard
 Sites
 #####
 
-# Minion Site (30)
+# Minion Site (31)
 
 1 Bag End [M] (LE)
 1 Bandit Lair [M] (LE)

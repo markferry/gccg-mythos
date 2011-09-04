@@ -8,28 +8,30 @@
 Deck
 ####
 
-# Dual Resource (6)
+# Dual Resource (5)
 
-1 Deadly Dart (PR)
-1 Durang (DF)
-2 Fungi (DF)
-1 His Beard Long and Forked (DF)
+2 Children of Aulë (DF)
+1 Dwarven Art of War (DF)
+1 Fungi (DF)
 1 Origin of Stone (DF)
 
-# Dwarf-lord Character (4)
+# Dwarf-lord Character (3)
 
-4 Balin [D] (DF)
+3 Balin [D] (DF)
+
+# Grey Agent Character (1)
+
+1 Kori (DF)
 
 # Hazard (33)
 
-2 Ambusher (TW)
+1 Ambusher (TW)
 1 An Unexpected Outpost (DM)
 1 Balrog of Moria (TW)
 1 Bardings (GW)
 1 Cardolanian Whalers (NW)
 2 Corsairs of Umbar (TW)
 1 Despair of the Heart (LE)
-1 Dunlending Raiders (TD)
 1 Foolish Words (TD)
 2 Frightful Guardian (GW)
 2 Giant (TW)
@@ -37,39 +39,40 @@ Deck
 1 Grima Wormtongue (TI)
 1 His Own Master (RS)
 1 Horse-lords (LE)
-1 Lawless Men (LE)
+2 Lawless Men (LE)
 1 Men of the Wood (GW)
 1 Mouth of Sauron (TW)
 1 Out of Practise (DF)
 3 Rank upon Rank (DM)
+1 Ransom (NE)
 3 Sellswords Between Charters (LE)
 1 Taint of Glory (WR)
 2 Thrice Outnumbered (LE)
 1 Twilight (LE)
 
-# Hero Character (6)
+# Hero Character (8)
 
-1 Bifur (TW)
-1 Bofur (TW)
-1 Dwarf-miner (DF)
-1 King's Advisor (DF)
-1 King's Judge (DF)
+1 Attack-lord (DF)
+2 Dwarf-miner (DF)
+1 Frerin (DF)
+1 Glóin (TW)
+1 Mountaineer (DF)
 1 Pathfinder (DF)
+1 Óin (TW)
 
-# Hero Resource (18)
+# Hero Resource (17)
 
-1 An Unexpected Party (DM)
 1 Blue Mountain Dwarves (TW)
-2 Concealment (TW)
+1 Clan Bonds (DF)
+3 Concealment (TW)
 2 Dwarven Light-stone (DM)
 1 Dwarven-axe (DF)
 1 Gollum (TW)
-2 Marvels Told (TD)
+1 Longbottom Leaf (BA)
+1 Marvels Told (TD)
 2 Smoke Rings (DM)
 3 The Dwarves Are upon You! (DM)
 1 To the Uttermost Foundations (DM)
-1 Vein of Arda (DM)
-1 Without a Glance of Longing (DF)
 
 # Minion Character (1)
 
@@ -80,11 +83,12 @@ Deck
 2 Iron Shield of Old (AS)
 2 Swift Strokes (LE)
 
-# Stage Resource (5)
+# Stage Resource (7)
 
-1 Clad for War (DF)
-2 Deep Mountain Fortress (DF)
+1 Crimson Hood (DF)
+3 Deep Mountain Fortress (DF)
 1 Dwarven-galleries (DF)
+1 Great Miners (DF)
 1 Son of Fundin (DF)
 
 ####
@@ -95,16 +99,16 @@ Pool
 
 1 Miner's Pick (DF)
 
-# Hero Character (8)
+# Dwarf-lord Character (1)
 
-1 Attack-lord (DF)
-1 Borin (DF)
+1 Balin [D] (DF)
+
+# Hero Character (4)
+
 1 Dori (TW)
-1 Frerin (DF)
-1 Glóin (TW)
+1 Fíli (TW)
+1 King's Advisor (DF)
 1 Loni (DF)
-1 Norin (DF)
-1 Óin (TW)
 
 # Hero Resource (1)
 
@@ -114,19 +118,19 @@ Pool
 
 1 Foul-smelling Paste (LE)
 
-# Stage Resource (3)
+# Stage Resource (2)
 
 1 Balin, Dwarf of All Trades (DF)
-1 Crimson Hood (DF)
-1 Promise of Treasure (DF)
+1 Dwarven Alchemist (DF)
 
 #########
 Sideboard
 #########
 
-# Dual Resource (1)
+# Dual Resource (2)
 
-1 Dwarven Art of War (DF)
+1 Durang (DF)
+1 His Beard Long and Forked (DF)
 
 # Hazard (3)
 
@@ -134,24 +138,27 @@ Sideboard
 1 Many Burdens (RS)
 1 Muster Disperses (LE)
 
-# Hero Resource (12)
+# Hero Resource (11)
 
 1 Book of Mazarbul (TW)
-1 Durin's Crown (DF)
 1 Gems of Arda (DM)
 1 Halls of Khazad-dûm (DF)
 1 Into Dark Tunnels (DM)
-2 Longbottom Leaf (BA)
+1 Longbottom Leaf (BA)
 1 Mithril (DM)
 1 Noble Hound (DM)
 1 Reconquest of Khazad-dûm (DF)
 1 Return to Khazad-dûm (DF)
 1 The Old Thrush (TW)
+1 Vein of Arda (DM)
 
-# Stage Resource (4)
+# Minion Resource (1)
+
+1 Vile Fumes (WH)
+
+# Stage Resource (3)
 
 1 Folk of Durin (DF)
-1 Great Miners (DF)
 1 Legacy of Smiths (WH)
 1 Lord of Dwarrowdelf (DF)
 
@@ -159,13 +166,11 @@ Sideboard
 Sites
 #####
 
-# Dual Site (6)
+# Dual Site (4)
 
 1 Durin's Tower (DF)
 1 Ruins of Belegost (DF)
 1 Ruins of Nogrod (DF)
-1 The Drowning-deeps [D] (DF)
-1 The Rusted-deeps [D] (DF)
 1 The Wind-deeps [D] (DF)
 
 # Dwarf-lord Site (2)
@@ -197,3 +202,5 @@ Sites
 1 The Under-leas [H] (DM)
 1 The Under-vaults [H] (DM)
 1 The Wind Throne [H] (TW)
+
+

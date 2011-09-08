@@ -1,5 +1,5 @@
 ##########################################
-# THIS RULES ARE FOR TABLE MAINTAINERS,  #
+# THESE RULES ARE FOR TABLE MAINTAINERS, #
 # THEY ALLOW TO HOST MULTI-FORMAT TABLES #
 ##########################################
 
@@ -342,20 +342,20 @@ deck_rules{"Commander EDH"}{""}=(
   ("RulePass",NULL),
 );
 
-#################
-# STANDARD 2010 #
-#################
+####################
+# CURRENT STANDARD #
+####################
 
-deck_rules{"Type 2 (2010)"}=(,);
-deck_rules{"Type 2 (2010)"}{"deck"}=(
+deck_rules{"Standard T2"}=(,);
+deck_rules{"Standard T2"}{"deck"}=(
   ("RuleDeckMinimum",60),
   ("RulePass",NULL),
 );
-deck_rules{"Type 2 (2010)"}{"sideboard"}=(
+deck_rules{"Standard T2"}{"sideboard"}=(
   ("RuleDeckSizes",(0,15)),
   ("RulePass",NULL),
 );
-deck_rules{"Type 2 (2010)"}{""}=(
+deck_rules{"Standard T2"}{""}=(
   ("RuleCardLimitAny","Island"),
   ("RuleCardLimitAny","Forest"),
   ("RuleCardLimitAny","Mountain"),
@@ -383,16 +383,16 @@ deck_rules{"Type 2 (2010)"}{""}=(
 # EXTENDED #
 ############
 
-deck_rules{"Extended"}=(,);
-deck_rules{"Extended"}{"deck"}=(
+deck_rules{"Extended T1.X"}=(,);
+deck_rules{"Extended T1.X"}{"deck"}=(
   ("RuleDeckMinimum",60),
   ("RulePass",NULL),
 );
-deck_rules{"Extended"}{"sideboard"}=(
+deck_rules{"Extended T1.X"}{"sideboard"}=(
   ("RuleDeckSizes",(0,15)),
   ("RulePass",NULL),
 );
-deck_rules{"Extended"}{""}=(
+deck_rules{"Extended T1.X"}{""}=(
   ("RuleCardLimitAny","Island"),
   ("RuleCardLimitAny","Forest"),
   ("RuleCardLimitAny","Mountain"),
@@ -422,7 +422,6 @@ deck_rules{"Extended"}{""}=(
   ("RuleCardSetReprint",("SOM",4)),
   ("RuleCardSetReprint",("MBS",4)),
   ("RuleCardSetReprint",("NPH",4)),
-
 );
 
 ##########
@@ -450,23 +449,31 @@ deck_rules{"Modern"}{""}=(
   ("RuleCardLimitAny","Snow-Covered Swamp"),
   ("RuleCardLimitAny","Snow-Covered Plains"),
 
+  ("RuleCardLimitSingle",("Ancestral Vision",0)),
   ("RuleCardLimitSingle",("Ancient Den",0)),
-  ("RuleCardLimitSingle",("Seat of the Synod",0)),
-  ("RuleCardLimitSingle",("Vault of Whispers",0)),
-  ("RuleCardLimitSingle",("Great Furnace",0)),
-  ("RuleCardLimitSingle",("Tree of Tales",0)),
+  ("RuleCardLimitSingle",("Bitterblossom",0)),
   ("RuleCardLimitSingle",("Chrome Mox",0)),
   ("RuleCardLimitSingle",("Dark Depths",0)),
+  ("RuleCardLimitSingle",("Dread Return",0)),
+  ("RuleCardLimitSingle",("Golgari Grave-Troll",0)),
+  ("RuleCardLimitSingle",("Great Furnace",0)),
+  ("RuleCardLimitSingle",("Hypergenesis",0)),
+  ("RuleCardLimitSingle",("Jace, the Mind Sculptor",0)),
+  ("RuleCardLimitSingle",("Mental Misstep",0)),
+  ("RuleCardLimitSingle",("Seat of the Synod",0)),
   ("RuleCardLimitSingle",("Sensei's Divining Top",0)),
   ("RuleCardLimitSingle",("Skullclamp",0)),
+  ("RuleCardLimitSingle",("Stoneforge Mystic",0)),
   ("RuleCardLimitSingle",("Sword of the Meek",0)),
+  ("RuleCardLimitSingle",("Tree of Tales",0)),
   ("RuleCardLimitSingle",("Umezawa's Jitte",0)),
-  ("RuleCardLimitSingle",("Golgari Grave-Troll",0)),
+  ("RuleCardLimitSingle",("Valakut, the Molten Pinnacle",0)),
+  ("RuleCardLimitSingle",("Vault of Whispers",0)),
 
   ("RuleCardLimitAny","Relentless Rats"),
 
-  ("RuleCardSetReprint",("8E",4)),
-  ("RuleCardSetReprint",("9E",4)),
+  ("RuleCardSetReprint",("8TH",4)),
+  ("RuleCardSetReprint",("9TH",4)),
   ("RuleCardSetReprint",("XE",4)),
   ("RuleCardSetReprint",("M10",4)),
   ("RuleCardSetReprint",("M11",4)),

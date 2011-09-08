@@ -2,55 +2,55 @@
 <!DOCTYPE ccg SYSTEM "gccg-game.dtd">
 
 <ccg name="Magic the Gathering" dir="Mtg">
-
   <cardset source="mtg_basecards.xml"/>
+  <cardset source="pm.xml"/>
   <cardset source="beta.xml"/>
   <cardset source="an.xml"/>
   <cardset source="aq.xml"/>
+  <cardset source="rv.xml"/>
   <cardset source="lg.xml"/>
   <cardset source="dk.xml"/>
   <cardset source="fe.xml"/>
+  <cardset source="4th.xml"/>
   <cardset source="ia.xml"/>
   <cardset source="hl.xml"/>
   <cardset source="al.xml"/>
   <cardset source="mi.xml"/>
   <cardset source="vi.xml"/>
+  <cardset source="5th.xml"/>
   <cardset source="wl.xml"/>
+  <cardset source="p1.xml"/>
   <cardset source="te.xml"/>
   <cardset source="sh.xml"/>
   <cardset source="ex.xml"/>
+  <cardset source="p2.xml"/>
+  <cardset source="ug.xml"/>
   <cardset source="us.xml"/>
   <cardset source="ul.xml"/>
+  <cardset source="6th.xml"/>
+  <cardset source="p3.xml"/>
   <cardset source="ud.xml"/>
+  <cardset source="s1.xml"/>
   <cardset source="mm.xml"/>
   <cardset source="ne.xml"/>
   <cardset source="py.xml"/>
   <cardset source="in.xml"/>
   <cardset source="ps.xml"/>
+  <cardset source="7th.xml"/>
   <cardset source="ap.xml"/>
   <cardset source="od.xml"/>
-  <cardset source="ug.xml"/>
   <cardset source="to.xml"/>
   <cardset source="jd.xml"/>
   <cardset source="on.xml"/>
   <cardset source="le.xml"/>
   <cardset source="sc.xml"/>
-  <cardset source="mr.xml"/>
   <cardset source="8th.xml"/>
-  <cardset source="7th.xml"/>
-  <cardset source="6th.xml"/>
-  <cardset source="5th.xml"/>
-  <cardset source="4th.xml"/>
-  <cardset source="rv.xml"/>
+  <cardset source="mr.xml"/>
   <cardset source="ds.xml"/>
   <cardset source="fd.xml"/>
   <cardset source="ck.xml"/>
   <cardset source="uh.xml"/>
   <cardset source="bk.xml"/>
-  <cardset source="pm.xml"/>
-  <cardset source="P1.xml"/>
-  <cardset source="P2.xml"/>
-  <cardset source="P3.xml"/>
   <cardset source="sk.xml"/>
   <cardset source="9th.xml"/>
   <cardset source="ra.xml"/>
@@ -59,7 +59,6 @@
   <cardset source="cs.xml"/>
   <cardset source="ts.xml"/>
   <cardset source="pc.xml"/>
-  <cardset source="S1.xml"/>
   <cardset source="fs.xml"/>
   <cardset source="xe.xml"/>
   <cardset source="lrw.xml"/>
@@ -252,5 +251,4 @@
 
   <trigger event="play" attribute="type"/>
   <trigger event="play" attribute="color"/>
-
 </ccg>

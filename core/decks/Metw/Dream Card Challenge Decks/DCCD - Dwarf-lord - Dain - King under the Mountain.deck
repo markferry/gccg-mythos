@@ -91,6 +91,10 @@ Deck
 Pool
 ####
 
+# Dual Resource (1)
+
+1 Deadly Dart (PR)
+
 # Hero Character (4)
 
 1 Bain (GW)
@@ -106,10 +110,6 @@ Pool
 # Minion Character (1)
 
 1 Fori the Beardless (DM)
-
-# Minion Resource (1)
-
-1 Deadly Dart (PR)
 
 # Stage Resource (3)
 
@@ -139,7 +139,7 @@ Sideboard
 
 1 Carc (DF)
 1 Gimli's Axe (DF)
-1 Hollow on the Left Breast (GW)
+1 Hollow by the Left Breast (GW)
 1 King under the Mountain (TD)
 1 Ravens of Northern Rhovanion (DF)
 1 Returned Exiles (TD)
@@ -156,64 +156,36 @@ Sideboard
 Sites
 #####
 
-# Dual Site (3)
+# Dwarf-lord Site (1)
 
-1 The Cobalt-deeps (NW)
-1 The Rusted-deeps [D] (DF)
-1 The Wind-deeps [D] (DF)
-
-# Dwarf-lord Site (2)
-
-2 Iron Hill Dwarf-hold [D] (DF)
+1 Iron Hill Dwarf-hold [D] (DF)
 
 # Fallen Site (1)
 
 1 Thranduil's Halls [F] (FB)
 
-# Hero Site (38)
+# Hero Site (18)
 
 1 Barak-shathur [H] (DF)
-1 Buhr Thurasig [H] (GW)
-1 Buhr Widu [H] (TD)
-1 Cave of the Urdharkonur [H] (GW)
-1 Caves of Ûlund [H] (TW)
 1 Cirith Helkaloke [H] (GW)
 1 Dale [H] (TD)
 1 Dancing Spire [H] (TW)
 1 Deep Cleft [H] (GW)
-1 Dol Guldur [H] (TW)
 1 Framsburg [H] (TD)
-1 Gaurblog Lug [H] (DF)
-1 Goblin-gate [H] (TW)
 1 Gold Hill [H] (TD)
 1 Gondmaeglom [H] (TD)
 1 Irerock [H] (TW)
 1 Lake-town [H] (TW)
-1 Long Marish [H] (DF)
 1 Long Peak [H] (GW)
-1 Moria [H] (TW)
-1 Mount Gundabad [H] (TW)
 1 Norr-dûm [H] (GW)
-1 Nurunkhizdín [H] (DF)
-1 Ovir Hollow [H] (TD)
-1 Raider-hold [H] (AS)
 1 Sarn Goriwing [H] (TW)
 1 Shab Arch [H] (GW)
 1 Shrel-Kain [H] (TW)
-1 Sonotor's Mound [H] (DF)
-1 The Carrock [H] (DF)
 1 The Lonely Mountain [H] (TW)
-1 The Sulfur-deeps [H] (DM)
-1 The Under-leas [H] (DM)
-1 The Wind Throne [H] (TW)
-1 Thranduil's Halls [H] (TW)
 1 Thunder Cleft [H] (GW)
-1 Woodmen-town [H] (TW)
 1 Zarak Dûm [H] (TD)
 
-# Minion Site (4)
+# Minion Site (2)
 
-1 Cirith Helkaloke [M] (GW)
-1 Long Marish [M] (DF)
-1 Long Peak [M] (GW)
-1 Thunder Cleft [M] (GW)
+1 Cor Angaladh [M] (FB)
+1 Ovir Hollow [M] (AS)

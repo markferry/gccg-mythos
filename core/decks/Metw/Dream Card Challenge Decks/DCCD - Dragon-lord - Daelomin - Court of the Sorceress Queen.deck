@@ -8,20 +8,15 @@
 Deck
 ####
 
-
-# Dragon Character (3)
+# Dragon Character (4)
 
 4 Daelomin the Ghost-Wing (GW)
-
-# Dual Resource (1)
-
-1 Honey (GW)
 
 # Hazard (33)
 
 3 Ambusher (TW)
 2 An Unexpected Outpost (DM)
-1 Ando-anca Ahunt (GW)
+1 Angurth Ahunt (GW)
 1 Corlagon Ahunt (GW)
 1 Death of a Kinsman (WR)
 2 Doors of Night (LE)
@@ -39,41 +34,48 @@ Deck
 1 Turukulon (TI)
 1 Wyrmsiege (DF)
 
-# Hero Resource (4)
+# Hero Resource (3)
 
-1 Durin's Crown (DF)
 1 Magical Harp (TD)
 1 The Iron Crown [H] (PR)
 1 Torque of Hues (TW)
 
-# Minion Character (6)
+# Minion Character (8)
 
-1 Deallus (DM)
-1 Elerína (DM)
-1 Eun (DM)
+1 Baduila (DM)
+1 Haeldwyn (GW)
 1 Ill-favoured Fellow (WH)
+1 Leärdinoth (NE)
 1 Orc Tracker (LE)
-1 Orc of the Claw (GW)
+2 Orc of the Claw (GW)
+1 The Dragon's Disciple (GW)
 
-# Minion Resource (27)
+# Minion Resource (30)
 
+1 Are There Dragons in This Land? (GW)
 1 Artful Words (GW)
+1 Beast-thrall (GW)
 1 Beaten into Submission (GW)
 3 Calm Song (GW)
+1 Claws Sharpened (GW)
 2 Crept Along Cleverly (WH)
 1 Goblins of Goblin-gate (LE)
 1 Great Army of the North (BA)
-3 Hunger (GW)
-2 Mating Duel (GW)
+2 Hunger (GW)
+1 Hunting (GW)
+1 Mating Duel (GW)
 1 Old and Cunning (GW)
 1 Orcs of Gundabad (LE)
 1 Orcs of Mirkwood (LE)
+1 Secret Book (AS)
+1 Snow-trolls (NW)
+1 That Ain't No Secret (LE)
 3 The Tormented Earth (AS)
 1 Thrór's Map [M] (AS)
 1 War-wolf (LE)
 1 Weigh All Things to a Nicety (LE)
 1 Wielder of Old Arts (GW)
-3 Wyrm's Blood (GW)
+1 Wyrm's Blood (GW)
 
 ####
 Pool
@@ -102,7 +104,7 @@ Sideboard
 
 1 No Match in Your Treasuries (GW)
 
-# Hazard (8)
+# Hazard (7)
 
 1 Cursed Treasure (GW)
 1 Devastation (TI)
@@ -111,17 +113,17 @@ Sideboard
 1 Out of Practise (DF)
 1 Siege of Gondor (WR)
 1 Too Much to Ask (WR)
-1 Wyrmsiege (DF)
 
-# Minion Resource (11)
+# Minion Resource (12)
 
 1 Dragon's Nest (GW)
+1 Fall on Them with Speed (GW)
+1 Great Strength (GW)
 1 Memories of Ancalagon (GW)
 1 Orcs of His Dominion (GW)
+1 Records Unread (AS)
 1 Scales and Jewels (GW)
 1 Spell-bound (GW)
-1 Tokens to Show (AS)
-1 Tribute Garnered (AS)
 1 Under His Spell (GW)
 1 Veil Removed (GW)
 1 Voices of Malice (LE)
@@ -131,36 +133,38 @@ Sideboard
 Sites
 #####
 
-# Balrog Site (3)
+# Balrog Site (1)
 
-1 Carn Dûm [B] (BA)
 1 Dol Guldur [B] (BA)
-1 Minas Morgul [B] (BA)
 
 # Dragon-lord Site (2)
 
 2 Dragon's Den (GW)
 
-# Minion Site (20)
+# Hero Site (4)
 
-1 Beorn's House [M] (LE)
+1 Goblin-gate [H] (TW)
+1 Kula Dulakurth [H] (NW)
+1 Mount Gundabad [H] (TW)
+1 Sarn Goriwing [H] (TW)
+
+# Minion Site (18)
+
 1 Buhr Thurasig [M] (GW)
 1 Buhr Widu [M] (LE)
 1 Caves of Ûlund [M] (LE)
-1 Ceber Fanuin [M] (FB)
-1 Celebannon [M] (FB)
+1 Celeb-ost [M] (NW)
 1 Cor Angaladh [M] (FB)
 1 Dancing Spire [M] (AS)
-1 Dead Marshes [M] (LE)
 1 Eagles' Eyrie [M] (AS)
 1 Goblin-gate [M] (LE)
 1 Gold Hill [M] (AS)
 1 Irerock [M] (AS)
+1 Kula Dulakurth [M] (NW)
 1 Mount Gundabad [M] (LE)
 1 Norr-dûm [M] (GW)
 1 Sarn Goriwing [M] (LE)
-1 The Carrock [M] (DF)
+1 Strayhold [M] (NE)
 1 The Lonely Mountain [M] (LE)
 1 Thranduil's Halls [M] (LE)
 1 Tower of the Wolf-friend [M] (GW)
-

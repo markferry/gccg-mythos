@@ -1,5 +1,5 @@
 #
-# GCCG v0.9.6 Middle-earth deck
+# GCCG v0.9.6.3 Middle-earth deck
 #
 #      DCCD - Minion - The Necromancer - Rings of Power
 #
@@ -7,6 +7,10 @@
 ####
 Deck
 ####
+
+# Dual Agent Character (1)
+
+1 Glorin (SL)
 
 # Dual Resource (2)
 
@@ -38,29 +42,35 @@ Deck
 2 Soldiers of the Dark Lord (DF)
 1 Twilight (LE)
 
-# Minion Character (2)
+# Minion Character (6)
 
-1 Glorin (SL)
+1 Dorelas (LE)
+1 Elwen (DM)
+1 Gisulf (DM)
 1 Tarin (DF)
+1 Thulin II (DF)
+1 Woffung (DM)
 
 # Minion Resource (31)
 
-2 An Untimely Whisper (LE)
+1 A Nice Place to Hide (LE)
+1 An Untimely Whisper (LE)
 2 Black Steed (NE)
 2 Blasting Fire (WH)
 1 Crept Along Cleverly (WH)
-1 Dark Forges (NE)
-2 Dark Spires Rising (NE)
+1 Dark Spires Rising (NE)
 1 Easterlings [M] (LE)
 1 Gleaming Gold Ring (LE)
 1 Gold Ring that Sauron Fancies (LE)
+1 Hatred (NE)
 3 Hold Rebuilt and Repaired (AS)
 1 In the Name of Mordor (LE)
-3 Not Slay Needlessly (LE)
+2 Not Slay Needlessly (LE)
+1 Perfect Gold Ring (LE)
 1 Secrets of Their Forging (LE)
 2 Swift Strokes (LE)
 1 Test of Fire (LE)
-3 The Necromancer (NE)
+4 The Necromancer (NE)
 2 Voices of Malice (LE)
 2 Weigh All Things to a Nicety (LE)
 
@@ -68,17 +78,15 @@ Deck
 Pool
 ####
 
-# Minion Character (10)
+# Dual Agent Character (1)
 
-1 Anarin (DM)
+1 Vaal Gark (SL)
+
+# Minion Character (4)
+
 1 Carambor (LE)
 1 Celedhring (FB)
-1 Dorelas (LE)
-1 Elwen (DM)
-1 Eradan (LE)
-1 Hador (LE)
 1 Nevido Smôd (LE)
-1 Pon Opar (LE)
 1 Tros Hesnef (LE)
 
 # Minion Resource (4)
@@ -92,29 +100,29 @@ Pool
 Sideboard
 #########
 
-# Hazard (4)
+# Hazard (6)
 
+1 Doom of the Noldor (NM)
 1 Fake (NM)
+1 Hard to Tame (DF)
 1 Heritage Forsaken (WR)
 1 Lost in Free-domains (TW)
-1 Sand-drake (SL)
+1 Ring-chained (NM)
 
-# Minion Resource (16)
+# Minion Resource (14)
 
 1 Abhorred Ring (NE)
 1 Black Ring of Arda (NE)
 1 Bright Gold Ring (LE)
+1 Broad-headed Spear (LE)
 1 Dwarven Ring of Dwálin's Tribe [M] (LE)
-1 Foul-smelling Paste (LE)
-1 Lord of Gifts (NM)
 1 Knowledge of Nenya (FB)
+1 Lord of Gifts (NM)
 1 Magic Ring of Fury (LE)
-1 Magic Ring of Lies (LE)
 1 Magic Ring of Savagery (LE)
+1 Minor Ring (LE)
 1 Ring of Adamant (FB)
 1 Sauron (BA)
-1 Test of Fire (LE)
-1 Usriev of Treachery (AS)
 1 Wain-easterlings [M] (AS)
 1 Wisdom to Wield (LE)
 
@@ -122,41 +130,37 @@ Sideboard
 Sites
 #####
 
-# Minion Site (35)
+# Minion Site (31)
 
-1 Amon Lhaw [M] (TI)
-1 Amrûn [M] (SL)
 1 An Karagmir [M] (SL)
 1 Bandit Lair [M] (LE)
 1 Barad-dûr [M] (LE)
 1 Barak-shathur [M] (DF)
 1 Beorn's House [M] (LE)
 1 Caras Amarth [M] (FB)
+1 Caves of Ûlund [M] (LE)
 1 Ceber Fanuin [M] (FB)
-1 Celebannon [M] (FB)
 1 Cerin Amroth [M] (FB)
 1 Cor Angaladh [M] (FB)
 1 Dale [M] (LE)
 1 Dol Guldur [M] (LE)
 1 Easterling Camp [M] (LE)
+1 Gaurblog Lug [M] (DF)
 1 Gladden Fields [M] (LE)
 1 Goblin-gate [M] (LE)
 1 Gondmaeglom [M] (LE)
 1 Iron Hill Dwarf-hold [M] (LE)
 1 Isengard [M] (LE)
 1 Joghul's Shrine [M] (CP)
-1 Lake-town [M] (LE)
 1 Lórien [M] (AS)
 1 Minas Morgul [M] (LE)
-1 Mountains of Mirkwood [M] (GW)
 1 Nurunkhizdín [M] (DF)
-1 Southron Oasis [M] (LE)
-1 Strayhold [M] (NE)
-1 The Carrock [M] (DF)
+1 Shrel-Kain [M] (LE)
 1 The Hospice of Lost Faith [M] (SL)
-1 The Under-courts [M] (AS)
+1 The Lonely Mountain [M] (LE)
 1 Thranduil's Halls [M] (LE)
 1 Tol Buruth [M] (NE)
+1 Turukulon's Lair [M] (TI)
 1 Variag Camp [M] (LE)
 1 Wain-Easterling Camp [M] (CP)
 

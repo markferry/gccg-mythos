@@ -3,7 +3,7 @@
 <ccg-setinfo name="Dark Minions" dir="DarkMinions" abbrev="DM" game="Middle-earth">
   <cards>
 
-    <card name="Anarin" graphics="Anarin.jpg" text="Unique. Agent. Agent only: may move to a Haven and may tap at a company's new site to attack that company during opponent's movement/hazard phase. {green} DCE: Add: Home site: Amon Lind">
+    <card name="Anarin" graphics="AnarinDC.jpg" text="Unique. Agent. Agent only: may move to a Haven and may tap at a company's new site to attack that company during opponent's movement/hazard phase. {green} DCE: Add: Home site: Amon Lind">
        <attr key="unique" value="yes"/>
        <attr key="skills" value="Scout/Diplomat"/>
        <attr key="mp" value="2"/>
@@ -19,7 +19,7 @@
        <attr key="influence" value="3"/>
 	   <attr key="keyword" value="Sinda"/>
     </card>
-    <card name="Baduila" graphics="Baduila.jpg" text="Unique. Agent. Agent only: If Baduila is discarded at target company's new site, company must return to its site of origin. {green} DCE: Add: Home site: Morkai, ;remove: Goblin-gate">
+    <card name="Baduila" graphics="Baduila.jpg" text="Unique. Agent. Agent only: If Baduila is discarded at target company's new site, company must return to its site of origin.">
        <attr key="unique" value="yes"/>
        <attr key="skills" value="Warrior/Scout/Ranger"/>
        <attr key="mp" value="3"/>
@@ -49,7 +49,7 @@
        <attr key="mind" value="3"/>
        <attr key="influence" value="1"/>
     </card>
-    <card name="Dâsakûn" graphics="Dasakun.jpg" text="Unique. Agent. {green} DCE: Add: Home site: Balchoth Camp, Nuriag Camp, ;remove: Variag Camp, Shrel-kain">
+    <card name="Dâsakûn" graphics="Dasakun.jpg" text="Unique. Agent.">
        <attr key="unique" value="yes"/>
        <attr key="skills" value="Warrior/Ranger"/>
        <attr key="mp" value="2"/>
@@ -95,7 +95,7 @@
        <attr key="influence" value="2"/>
 	   <attr key="keyword" value="Longbeard"/>
     </card>
-    <card name="Elerína" graphics="Elerina.jpg" text="Unique. Agent. Can use shadow-magic and spirit-magic. Agent only: may tap for an extra strike. {green} DCE: Add: Home site: Litash ;remove: Mount Gram">
+    <card name="Elerína" graphics="Elerina.jpg" text="Unique. Agent. Can use shadow-magic and spirit-magic. Agent only: may tap for an extra strike.">
        <attr key="unique" value="yes"/>
        <attr key="skills" value="Scout/Sage/Diplomat"/>
        <attr key="mp" value="3"/>
@@ -110,7 +110,7 @@
        <attr key="mind" value="8"/>
        <attr key="influence" value="3"/>
     </card>
-    <card name="Elwen" graphics="Elwen.jpg" text="Unique. Agent. +2 direct influence against Elves and Elf Factions. Agent only: may move to a Haven {green} DCE: Add: Home site: Edhellond ">
+    <card name="Elwen" graphics="Elwen.jpg" text="Unique. Agent. +2 direct influence against Elves and Elf Factions. Agent only: may move to a Haven.">
        <attr key="unique" value="yes"/>
        <attr key="skills" value="Warrior/Diplomat"/>
        <attr key="mp" value="2"/>
@@ -141,7 +141,7 @@
        <attr key="mind" value="3"/>
        <attr key="influence" value="0"/>
     </card>
-    <card name="Firiel" graphics="Firiel.jpg" text="Unique. Agent. Can use shadow-magic. +2 direct influence against Dúnedain and factions that can be played in Anfalas, Anórien, Belfalas, Lamedon, and Lebennin. {green} DCE: Add: Home site: Umbar">
+    <card name="Firiel" graphics="Firiel.jpg" text="Unique. Agent. Can use shadow-magic. +2 direct influence against Dúnedain and factions that can be played in Anfalas, Anórien, Belfalas, Lamedon, and Lebennin.">
        <attr key="unique" value="yes"/>
        <attr key="skills" value="Sage/Diplomat"/>
        <attr key="mp" value="2"/>
@@ -156,7 +156,7 @@
        <attr key="mind" value="6"/>
        <attr key="influence" value="3"/>
     </card>
-    <card name="Fori the Beardless" graphics="ForitheBeardless.jpg" text="Unique. Agent. +2 direct influence against Dwarves and Dwarf Factions. {green} DCE: Add: Home site: Barak-Shatur">
+    <card name="Fori the Beardless" graphics="ForitheBeardless.jpg" text="Unique. Agent. +2 direct influence against Dwarves and Dwarf Factions.">
        <attr key="unique" value="yes"/>
        <attr key="skills" value="Warrior/Scout"/>
        <attr key="mp" value="1"/>
@@ -172,7 +172,7 @@
        <attr key="influence" value="1"/>
 	   <attr key="keyword" value="Longbeard"/>
     </card>
-    <card name="Gergeli" graphics="Gergeli.jpg" text="Unique. Agent. {green} DCE: Add: Home site: Relerindú ;remove: Easterling Camp">
+    <card name="Gergeli" graphics="Gergeli.jpg" text="Unique. Agent.">
        <attr key="unique" value="yes"/>
        <attr key="skills" value="Scout/Diplomat"/>
        <attr key="mp" value="2"/>
@@ -187,7 +187,7 @@
        <attr key="mind" value="5"/>
        <attr key="influence" value="2"/>
     </card>
-    <card name="Gisulf" graphics="Gisulf.jpg" text="Unique. Agent. {green} DCE: Add: Home site: Maethalburg ;remove: Lake-town">
+    <card name="Gisulf" graphics="Gisulf.jpg" text="Unique. Agent.">
        <attr key="unique" value="yes"/>
        <attr key="skills" value="Warrior/Ranger"/>
        <attr key="mp" value="1"/>
@@ -217,7 +217,7 @@
        <attr key="mind" value="9"/>
        <attr key="influence" value="4"/>
     </card>
-    <card name="The Grimburgoth" graphics="TheGrimburgoth.jpg" text="Unique. Agent. Can use sorcery. Agent only: may tap at a company's new site to attack that company during its movement/hazard phase with +2 prowess. {green} DCE: Add: Home site: Shapal Ûdun">
+    <card name="The Grimburgoth" graphics="TheGrimburgoth.jpg" text="Unique. Agent. Can use sorcery. Agent only: may tap at a company's new site to attack that company during its movement/hazard phase with +2 prowess.">
        <attr key="unique" value="yes"/>
        <attr key="skills" value="Warrior/Ranger/Sage"/>
        <attr key="mp" value="3"/>
@@ -232,7 +232,7 @@
        <attr key="mind" value="8"/>
        <attr key="influence" value="2"/>
     </card>
-    <card name="Herion" graphics="Herion.jpg" text="Unique. Agent. {green} DCE: Add: Home site: Calembel, Linhir ;remove: Dol Amroth">
+    <card name="Herion" graphics="Herion.jpg" text="Unique. Agent.">
        <attr key="unique" value="yes"/>
        <attr key="skills" value="Warrior/Ranger"/>
        <attr key="mp" value="1"/>
@@ -247,7 +247,7 @@
        <attr key="mind" value="3"/>
        <attr key="influence" value="0"/>
     </card>
-    <card name="Ivic" graphics="Ivic.jpg" text="Unique. Agent. {green} DCE: Add: Home site: An Sakal ;remove: Pelargir">
+    <card name="Ivic" graphics="Ivic.jpg" text="Unique. Agent.">
        <attr key="unique" value="yes"/>
        <attr key="skills" value="Warrior/Diplomat"/>
        <attr key="mp" value="2"/>
@@ -262,7 +262,7 @@
        <attr key="mind" value="6"/>
        <attr key="influence" value="2"/>
     </card>
-    <card name="Jûoma" graphics="Juoma.jpg" text="Unique. Agent. {green} DCE: Add: Home site: Homela, Leiri ;remove: Bree">
+    <card name="Jûoma" graphics="Juoma.jpg" text="Unique. Agent.">
        <attr key="unique" value="yes"/>
        <attr key="skills" value="Warrior/Ranger"/>
        <attr key="mp" value="1"/>
@@ -292,7 +292,7 @@
        <attr key="mind" value="3"/>
        <attr key="influence" value="0"/>
     </card>
-    <card name="Nimloth" graphics="NimlothDC.jpg" text="Unique. Agent. +2 direct influence against Elves and Elf Factions. Agent only: may move to a Haven. {green} DCE: Add: Home site: Celebannon, Ceber Fanuin ;remove: Sarn Goriwing">
+    <card name="Nimloth" graphics="Nimloth.jpg" text="Unique. Agent. +2 direct influence against Elves and Elf Factions. Agent only: may move to a Haven.">
        <attr key="unique" value="yes"/>
        <attr key="skills" value="Scout/Ranger"/>
        <attr key="mp" value="1"/>
@@ -340,7 +340,7 @@
        <attr key="influence" value="2"/>
 	   <attr key="keyword" value="Wose"/>
     </card>
-    <card name="Râisha" graphics="Raisha.jpg" text="Unique. Agent. {green} DCE: Add: Home site: Lâorkó ;remove: Southron Oasis">
+    <card name="Râisha" graphics="Raisha.jpg" text="Unique. Agent.">
        <attr key="unique" value="yes"/>
        <attr key="skills" value="Warrior/Scout"/>
        <attr key="mp" value="2"/>
@@ -385,7 +385,7 @@
        <attr key="mind" value="6"/>
        <attr key="influence" value="1"/>
     </card>
-    <card name="Woffung" graphics="Woffung.jpg" text="Unique. Agent. {green} DCE: Add: Home site: Strayhold ;remove: Dale ">
+    <card name="Woffung" graphics="Woffung.jpg" text="Unique. Agent.">
        <attr key="unique" value="yes"/>
        <attr key="skills" value="Warrior/Diplomat"/>
        <attr key="mp" value="1"/>
@@ -415,7 +415,7 @@
        <attr key="mind" value="5"/>
        <attr key="influence" value="2"/>
     </card>
-    <card name="Lobelia Sackville-Baggins" graphics="LobeliaSackvilleBaggins.jpg" text="Unique. Manifestation of Mistress Lobelia. Agent. +3 direct influence against Hobbits and Hobbit Factions. May not move to any site other than Bree, Old Forest, The White Towers, or a site in The Shire. {green} DCE: Add: Home site: Sackville">
+    <card name="Lobelia Sackville-Baggins" graphics="LobeliaSackvilleBaggins.jpg" text="Unique. Manifestation of Mistress Lobelia. Agent. +3 direct influence against Hobbits and Hobbit Factions. May not move to any site other than Bree, Old Forest, The White Towers, or a site in The Shire.">
        <attr key="unique" value="yes"/>
        <attr key="skills" value="Scout"/>
        <attr key="mp" value="1"/>
@@ -449,7 +449,7 @@
 	   <attr key="subclass" value="Hazard Agent"/>
 	   <attr key="keyword" value="Hazard Agent"/>
 	</card>
-    <card name="The Gem-deeps" graphics="TheGemdeepsDC.jpg" back="1" text="{green} DCE: add to adjacent sites: The Under-caves (7)">
+    <card name="The Gem-deeps" graphics="TheGemdeeps.jpg" back="1" text="{green} DCE: add to adjacent sites: The Under-caves (7), The Ghost-caves (9).">
        <attr key="unique" value="yes"/>
        <attr key="adjacent" value="Glittering Caves (0), The Pûkel-deeps (9), The Under-gates (6)"/>
        <attr key="draw" value="2"/>
@@ -643,7 +643,7 @@
        <attr key="class" value="Short-event"/>
        <attr key="type" value="Hazard"/>
     </card>
-    <card name="Angmar Arises" graphics="AngmarArisesDC.jpg" text="Any creature that can be keyed to a Shadow-land may be keyed to Forochel, Arthedain, Angmar, Gundabad, or Rhudaur. Any creature that can be keyed to a Dark-domain may be keyed to Angmar or Gundabad. Discard this card when a creature keyed to one of these regions (not to the region symbol) is defeated. {green} DCE: Replace with: Any creature that can be keyed to a Shadow-land may be keyed to Arthedain, Angmar,                   Everdalf, Forochel, Gundabad, Misty Mountains - Northern Spur, or Rhudaur. Any creature that can be keyed to a Dark-domain may be keyed to Angmar. Dragon Gap, or Gundabad. Discard this card when a creature keyed to one of these regions (not to the region symbol) is defeated.">
+    <card name="Angmar Arises" graphics="AngmarArisesDC.jpg" text="Any creature that can be keyed to a Shadow-land may be keyed to Forochel, Arthedain, Angmar, Gundabad, or Rhudaur. Any creature that can be keyed to a Dark-domain may be keyed to Angmar or Gundabad. Discard this card when a creature keyed to one of these regions (not to the region symbol) is defeated. {green} DCE: add Everdalf, Dragon Gap and Misty Mountains - Northern Spur to the listed regions.">
        <attr key="rarity" value="C2"/>
        <attr key="class" value="Permanent-event"/>
        <attr key="type" value="Hazard"/>
@@ -690,7 +690,7 @@
        <attr key="class" value="Long-event"/>
        <attr key="type" value="Hazard"/>
     </card>
-    <card name="Earth-tremors" graphics="EarthtremorsDC.jpg" text="Any company moving to or from an Under-deep sites faces an attack (cannot be canceled): Rock Fall - 1 strike with 7 prowess against each character (weapons do not modify prowess against these strikes). In addition, cancels the effects of Into Dark Tunnels, Old Road, Great Road, and Bridge. Cannot be duplicated. {green} DCE: replace: In addition with: In addition, cancels the effects of Into Dark Tunnels, Far Below the Deepest Delvings, Old Road, Great Road, Iron Road, and Bridge, Forced March. Cannot be duplicated.">
+    <card name="Earth-tremors" graphics="EarthtremorsDC.jpg" text="Any company moving to or from an Under-deep sites faces an attack (cannot be canceled): Rock Fall - 1 strike with 7 prowess against each character (weapons do not modify prowess against these strikes). In addition, cancels the effects of Into Dark Tunnels, Old Road, Great Road, Bridge, Far Below the Deepest Delvings, Iron Road, Forced March and World Gnawed by the Nameless. Cannot be duplicated.">
        <attr key="rarity" value="U2"/>
        <attr key="class" value="Long-event"/>
        <attr key="type" value="Hazard"/>
@@ -847,7 +847,7 @@
        <attr key="class" value="Permanent-event"/>
        <attr key="type" value="Hazard"/>
     </card>
-    <card name="The Reach of Ulmo" graphics="TheReachofUlmoDC.jpg" text="The roll required to move between adjacent Under-deep sites is increased by 2. In addition, cancels the effects of Great Ship and Ford. May be played when an Under-deep site is revealed as a new site card (before the roll is made). Discard when any play deck is exhausted or when an Under-deep site is reached from another Under-deep site or at the end of the turn after Great Ship or Ford was played. Cannot be duplicated. {green} DCE: Add: Hidden Ways to the card mentionend on this card.">
+    <card name="The Reach of Ulmo" graphics="TheReachofUlmoDC.jpg" text="The roll required to move between adjacent Under-deep sites is increased by 2. In addition, cancels the effects of Great Ship, Ford, Black Sails and Hidden Ways. May be played when an Under-deep site is revealed as a new site card (before the roll is made). Discard when any play deck is exhausted or when an Under-deep site is reached from another Under-deep site or at the end of the turn after Great Ship, Ford, Black Sails and Hidden Ways was played. Cannot be duplicated.">
        <attr key="rarity" value="U2"/>
        <attr key="class" value="Permanent-event"/>
        <attr key="type" value="Hazard"/>
@@ -857,7 +857,7 @@
        <attr key="class" value="Permanent-event"/>
        <attr key="type" value="Hazard"/>
     </card>
-    <card name="Reluctant Final Parting" graphics="ReluctantFinalPartingDC.jpg" text="Discard any ally if its currnet site is an Under-deeps site or if its current site's nearest Haven is not the same as the nearest Haven for the site at which the ally can be played. Determine nearest Haven using site cards of the same alignment (minion/hero) as the ally. Discard this card when any play deck is exhausted. Cannot be duplicated.">
+    <card name="Reluctant Final Parting" graphics="ReluctantFinalParting.jpg" text="Discard any ally if its currnet site is an Under-deeps site or if its current site's nearest Haven is not the same as the nearest Haven for the site at which the ally can be played. Determine nearest Haven using site cards of the same alignment (minion/hero) as the ally. Discard this card when any play deck is exhausted. Cannot be duplicated.">
        <attr key="rarity" value="U2"/>
        <attr key="class" value="Permanent-event"/>
        <attr key="type" value="Hazard"/>
@@ -878,7 +878,7 @@
        <attr key="class" value="Short-event"/>
        <attr key="type" value="Hazard"/>
     </card>
-    <card name="Seized by Terror" graphics="SeizedbyTerrorDC.jpg" text="Playable on a non-Wizard character moving in a Shadow-land or Dark-domain. Target character makes a roll (draws a #) and adds his mind. If the result is less than 12, that character splits off into a different company, and immediately returns to his original company's site of origin. {green} DCE: Cannot be played against a minion company ">
+    <card name="Seized by Terror" graphics="SeizedbyTerrorDC.jpg" text="Playable on a non-Wizard character moving in a Shadow-land or Dark-domain. Target character makes a roll (draws a #) and adds his mind. If the result is less than 12, that character splits off into a different company, and immediately returns to his original company's site of origin. {green} DCE: Cannot be played on an avatar or against a minion company.">
        <attr key="rarity" value="C2"/>
        <attr key="class" value="Short-event"/>
        <attr key="type" value="Hazard"/>
@@ -928,7 +928,7 @@
        <attr key="class" value="Short-event"/>
        <attr key="type" value="Hazard"/>
     </card>
-    <card name="The Way is Shut" graphics="TheWayisShutDC.jpg" text="A company moving to or from an Under-deep site must return to its site of origin. Additionally, cancels the effects of Secret Passage and Secret Entrance. Cannot be duplicated. {green} DCE: Replace: Additonally ...with: Additionally, cancels the effects of Secret Passage, Down Down to Goblin Town and Secret Entrance, Crack in the Wall. Cannot be duplicated.">
+    <card name="The Way is Shut" graphics="TheWayisShutDC.jpg" text="A company moving to or from an Under-deep site must return to its site of origin. Additionally, cancels the effects of Secret Passage and Secret Entrance. Cannot be duplicated. {green} DCE: Replace: add Down Down to Goblin Town and Crack in the Wall to the listed cards.">
        <attr key="rarity" value="U2"/>
        <attr key="class" value="Long-event"/>
        <attr key="type" value="Hazard"/>
@@ -1255,7 +1255,7 @@
        <attr key="type" value="Hero Resource"/>
 	   <attr key="keyword" value="Stolen Knowledge"/>
     </card>
-    <card name="Mallorn" graphics="MallornDC.jpg" text="Unique. Playable at Bag End only if Earth of Galadriel's Orchard is stored there. Bag End becomes a Haven for the purposes of healing and bringing characters into play. Bag End can untap during its owner's untap phase. If Bag End is discarded, return it to its location deck. All Hobbit factions are worth +1 marshalling points.">
+    <card name="Mallorn" graphics="Mallorn.jpg" text="Unique. Playable at Bag End only if Earth of Galadriel's Orchard is stored there. Bag End becomes a Haven for the purposes of healing and bringing characters into play. Bag End can untap during its owner's untap phase. If Bag End is discarded, return it to its location deck. All Hobbit factions are worth +1 marshalling points.">
        <attr key="unique" value="yes"/>
        <attr key="mp" value="3"/>
        <attr key="rarity" value="R2"/>
@@ -1294,7 +1294,7 @@
        <attr key="type" value="Hero Resource"/>
 	   <attr key="keyword" value="Stolen Knowledge"/>
     </card>
-    <card name="Rebuild the Town" graphics="RebuildtheTownDC.jpg" text="Playable during the site phase on a non-Dragon's lair, non-Under-deeps Ruins &amp; Lairs. The site becomes a Border-hold and loses all automatic-attacks. Discard Rebuild the Town when the site is discarded or returned to its location deck.">
+    <card name="Rebuild the Town" graphics="RebuildtheTown.jpg" text="Playable during the site phase on a non-Dragon's lair, non-Under-deeps Ruins &amp; Lairs. The site becomes a Border-hold and loses all automatic-attacks. Discard Rebuild the Town when the site is discarded or returned to its location deck.">
        <attr key="rarity" value="C2"/>
        <attr key="class" value="Permanent-event"/>
        <attr key="type" value="Hero Resource"/>
@@ -1475,7 +1475,7 @@
        <attr key="mind" value="3"/>
 	   <attr key="keyword" value="Hobbit"/>
     </card>
-    <card name="Noble Hound" graphics="NobleHoundDC.jpg" text="Playable at any tapped or untapped Border-hold. In all cases, Noble Hound must be assigned a strike before any strike can be assigned to its controlling character. Discard Noble Hound to cancel any effect that would take its controlling character prisoner (does not protect other characters from being taken prisoner). If Noble Hound is tapped or wounded, treat it as though it were untapped for the purposes of assigning strikes.">
+    <card name="Noble Hound" graphics="NobleHound.jpg" text="Playable at any tapped or untapped Border-hold. In all cases, Noble Hound must be assigned a strike before any strike can be assigned to its controlling character. Discard Noble Hound to cancel any effect that would take its controlling character prisoner (does not protect other characters from being taken prisoner). If Noble Hound is tapped or wounded, treat it as though it were untapped for the purposes of assigning strikes.">
        <attr key="mp" value="1"/>
        <attr key="body" value="6"/>
        <attr key="prowess" value="3"/>

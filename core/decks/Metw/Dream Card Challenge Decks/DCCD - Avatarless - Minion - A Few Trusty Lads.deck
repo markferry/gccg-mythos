@@ -13,11 +13,10 @@ Deck
 1 Anguirel (NW)
 2 Flight Unmarked (RS)
 
-# Hazard (33)
+# Hazard (34)
 
 2 An Unexpected Outpost (DM)
-2 Doors of Night (TW)
-1 Shut Yer Mouth (LE)
+3 Doors of Night (TW)
 2 Hobgoblins (TD)
 2 Little Snuffler (DM)
 3 Minions Stir (TW)
@@ -28,11 +27,11 @@ Deck
 3 Orc-warband (TW)
 2 Orcish Marauders (DF)
 3 Pierced by Many Wounds (DM)
-1 Siege of Gondor (WR)
+1 Shut Yer Mouth (LE)
 2 Soldiers of the Dark Lord (DF)
 1 Taint of Glory (WR)
 1 The Back Door (DF)
-1 Twilight (TW)
+2 Twilight (TW)
 
 # Minion Character (6)
 
@@ -40,7 +39,7 @@ Deck
 2 Orc Grunt (NE)
 1 Orc Tracker (LE)
 
-# Minion Resource (30)
+# Minion Resource (31)
 
 1 Blasting Fire (WH)
 2 Bold Thrust (LE)
@@ -52,6 +51,7 @@ Deck
 1 Hatred (NE)
 1 Misty Mountain Wargs (LE)
 1 No More Nonsense (LE)
+1 Orc Garrison (NE)
 2 Orc Quarrels (LE)
 1 Orcs of Gundabad (LE)
 2 Swift Strokes (LE)
@@ -97,7 +97,7 @@ Sideboard
 1 Capricious Spirit (RS)
 1 Many Burdens (RS)
 1 Muster Disperses (TW)
-1 Pride Increased with Despair (WR)
+1 Siege of Gondor (WR)
 1 Too Much to Ask (WR)
 1 Two or Three Tribes Present (DM)
 
@@ -123,10 +123,9 @@ Sites
 
 1 The Wind-deeps [D] (DF)
 
-# Minion Site (22)
+# Minion Site (24)
 
 1 Amon Hen [M] (LE)
-1 Bree [M] (LE)
 1 Carn Dûm [M] (LE)
 1 Dale [M] (LE)
 1 Deep Cleft [M] (GW)
@@ -140,10 +139,14 @@ Sites
 1 Mount Gram [M] (LE)
 1 Mount Gundabad [M] (LE)
 1 Sarn Goriwing [M] (LE)
+1 Sonotor's Mound [M] (DF)
 1 Steel Fall [M] (GW)
 1 The Carrock [M] (DF)
 1 The Iron-deeps [M] (AS)
+1 The Under-gates [M] (AS)
 1 The Under-grottos [M] (AS)
 1 The Under-leas [M] (AS)
 1 The Under-vaults [M] (AS)
 1 The Wind Throne [M] (LE)
+1 Thranduil's Halls [M] (LE)
+

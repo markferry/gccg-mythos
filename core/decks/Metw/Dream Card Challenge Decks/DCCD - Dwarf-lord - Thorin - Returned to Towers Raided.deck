@@ -1,20 +1,27 @@
 #
-# GCCG v0.9.6 Middle-earth deck
+# GCCG v0.9.6.3 Middle-earth deck
 #
-#      DCCD - Dwarf-lord - Thorin - Lord of the Nan-i-Naugrim
+#      DCCD - Dwarf-lord - Thorin - Returned to Towers Raided
 #
 
 ####
 Deck
 ####
 
-# Dwarf-lord Character (3)
+# Dual Resource (1)
+
+1 Dwarven Art of War (DF)
+
+# Dwarf-lord Character (4)
 
 4 Thorin (DF)
 
-# Hazard (31)
+# Hazard (33)
 
-3 An Unexpected Outpost (DM)
+2 An Unexpected Outpost (DM)
+1 Ando-anca Ahunt (GW)
+1 Awaken Defenders (LE)
+1 Covetous Thoughts (LE)
 3 Dire Wolves (TD)
 2 Doors of Night (TW)
 1 Grasping and Ungracious (TI)
@@ -41,57 +48,62 @@ Deck
 1 Frerin (DF)
 1 Fíli (TW)
 1 Glóin (TW)
-1 Kíli (TW)
 1 Nori (TW)
 1 Ori (TW)
+1 Pathfinder (DF)
 1 Óin (TW)
 
-# Hero Resource (26)
+# Hero Resource (25)
 
 2 A Friend or Three (TW)
+1 A More or Less Decent Giant (DF)
 1 Block (TW)
 1 Blue Mountain Dwarves (TW)
 2 Concealment (TW)
+1 Dark Numbers (DM)
 1 Durin's Axe (TW)
 2 Dwarven-axe (DF)
 1 Habergeon of Silver (TD)
-2 Knowledge of the Enemy (DM)
+1 Khazadshatur (DF)
+1 Knowledge of the Enemy (DM)
 1 Longbottom Leaf (BA)
 1 Marvels Told (TD)
-1 Noble Hound (DM)
-1 Petty-dwarves [H] (AS)
-1 Pipe (DF)
-1 Rangers of the North (TW)
+1 Reforging (NW)
+1 Return to Old Dwellings (DF)
 1 Secret Passage (TW)
 1 Shimmer of Hope (DF)
 2 Smoke Rings (DM)
 3 The Dwarves Are upon You! (DM)
-1 Torque of Hues (TW)
 
-# Minion Resource (3)
+# Minion Resource (4)
 
+1 Crack in the Wall (LE)
 2 Crept Along Cleverly (WH)
 1 Swift Strokes (LE)
 
-# Stage Resource (2)
+# Stage Resource (3)
 
-1 Gatherer of Loyalties (WH)
-1 Promise of Treasure (DF)
+1 Clad for War (DF)
+1 Kheleglin (FP)
+1 Son of Thráin (DF)
 
 ####
 Pool
 ####
 
-# Hero Character (4)
+# Dual Character (1)
 
-1 Beretar (TW)
-1 Gimli, Son of Gloin (DF)
+1 Dár (SL)
+
+# Hero Character (3)
+
 1 Lipór (DF)
+1 Norin (DF)
 1 Náin, Son of Grór (DF)
 
 # Hero Resource (3)
 
-1 Dagger of Westernesse (TW)
+1 Pipe (DF)
 1 Shield of Iron-bound Ash (TW)
 1 Star-glass (TW)
 
@@ -99,15 +111,16 @@ Pool
 
 1 Durin's Day (DF)
 1 Oakenshield (DF)
-1 Thrall of the Voice (WH)
+1 Promise of Treasure (DF)
 
 #########
 Sideboard
 #########
 
-# Dual Resource (2)
+# Dual Resource (3)
 
-1 Children of Aulë (DF)
+1 Axe-master (GW)
+1 Dwarven Cunning (DF)
 1 Fortress Reclaimed (DF)
 
 # Hazard (2)
@@ -115,89 +128,59 @@ Sideboard
 1 Elf-lord Revealed in Wrath* (FB)
 1 Great Northern Bear (GW)
 
-# Hero Resource (13)
+# Hero Resource (11)
 
-1 Adamant Helmet (TD)
 1 An Unexpected Party (DM)
 1 Block (TW)
-1 Gimli's Axe (DF)
-1 Great-shield of Rohan (TW)
-1 Hauberk of Bright Mail (TW)
-2 No Strangers at this Time (AS)
-1 Noble Hound (DM)
-2 Rebuild the Town (DM)
+1 Dwarven Hoard (TD)
+1 Ironfists (CP)
+1 Kingdom under the Mountain (DF)
+1 No Strangers at this Time (AS)
+1 Noldo-lantern (DM)
+1 Petty-dwarves [H] (AS)
+1 Pipe Weed (DF)
+1 Rebuild the Town (DM)
 1 Tower Raided (AS)
-1 Woses of the Eryn Vorn [H] (AS)
 
 # Minion Resource (1)
 
-1 Secret Book (AS)
+1 Old Prejudice (LE)
 
-# Stage Resource (2)
+# Stage Resource (3)
 
-1 Clad for War (DF)
 1 Great Achievement (DF)
+1 Mining Settlement (DF)
+1 The Seven Houses (DF)
 
 #####
 Sites
 #####
 
-# Dual Site (4)
+# Dwarf-lord Site (1)
 
-1 Durin's Tower (DF)
-1 Ruins of Belegost (DF)
-1 Ruins of Nogrod (DF)
-1 The Drowning-deeps [D] (DF)
-
-# Dwarf-lord Site (2)
-
-2 Blue Mountain Dwarf-hold [D] (DF)
-
-# Fallen Site (1)
-
-1 Grey Havens [F] (FB)
+1 Blue Mountain Dwarf-hold [D] (DF)
 
 # Fallen-wizard Site (1)
 
 1 Deep Mines (WH)
 
-# Hero Site (37)
+# Hero Site (18)
 
-1 Aden Scarlet's Medical Library [H] (RS)
 1 Andoloki [H] (NW)
 1 Bar-en-Ibûn [H] (DF)
-1 Barad Lughilsarik [H] (NW)
 1 Barrow-downs [H] (TW)
-1 Bree [H] (TW)
 1 Carn Dûm [H] (TW)
 1 Cirith Helkaloke [H] (GW)
 1 Creb Durga [H] (KN)
-1 Dead Man's Dike [H] (KN)
-1 Dimrill Dale [H] (TW)
-1 Dunnish Clan-hold [H] (TW)
-1 Glittering Caves [H] (TW)
+1 Giant's Isle [H] (RS)
 1 Goblin-gate [H] (TW)
 1 Gondring's Lair [H] (NW)
-1 Himring [H] (TW)
-1 Hostel of the Sisters of Nienna [H] (KN)
-1 Isles of the Dead that Live [H] (TW)
 1 Litash [H] (NW)
-1 Lond Daer [H] (KN)
-1 Moria [H] (TW)
 1 Morkai [H] (KN)
 1 Mount Gram [H] (TW)
+1 Mount Gundabad [H] (TW)
 1 Mount Rerir [H] (FB)
-1 Ruined Signal Tower [H] (TW)
-1 Tharbad [H] (TD)
-1 Thaurung [H] (NW)
-1 The Gem-deeps [H] (DM)
+1 Sonotor's Mound [H] (DF)
 1 The Iron-deeps [H] (DM)
-1 The Pûkel-deeps [H] (DM)
-1 The Stones [H] (TW)
 1 The Under-Caves [H] (KN)
-1 The Under-gates [H] (DM)
-1 The Under-grottos [H] (DM)
-1 The Under-vaults [H] (DM)
-1 Turukulon's Lair [H] (TI)
 1 Zarak Dûm [H] (TD)
-

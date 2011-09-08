@@ -1,17 +1,23 @@
 #
-# GCCG v0.9.6 Middle-earth deck
+# GCCG v0.9.6.3 Middle-earth deck
 #
-#      DCCD - Hero - Radagast - Elves of Evermist - The Land Reborn
+#      DCCD - Wizard - Radagast - The Land Reborn
 #
 
 ####
 Deck
 ####
 
-# Hazard (30)
+# Dual Resource (2)
+
+1 Helecthil, Light of the North (NW)
+1 There's Queer Folk About (RS)
+
+# Hazard (33)
 
 1 Alone and Unadvised (AS)
 2 An Unexpected Outpost (DM)
+1 Awaken Minions (TW)
 1 Canadras Ahunt (NW)
 1 Corsairs of Umbar (TW)
 1 Demon-whale (NW)
@@ -38,29 +44,33 @@ Deck
 1 Throkmaw Ahunt (GW)
 1 True Fire-drake (TD)
 2 Twilight (TW)
+1 Variag Horse-raiders (CP)
+1 Wound of Long Burden (DM)
 
-# Hero Character (9)
+# Hero Character (10)
 
 1 Gildor Inglorion (TW)
 1 Karhunkäsi (NW)
 1 Kénwe Foryaren (NW)
 1 Los'pindel (NW)
-3 Radagast [H] (TW)
+4 Radagast [H] (TW)
 1 Striuk'ir (NW)
 1 Vôteli (TW)
 
-# Hero Resource (30)
+# Hero Resource (31)
 
 2 A Chance Meeting (TW)
 1 Aerfaroth (NW)
 1 Ancient Knowledge (FB)
 1 Anglachel (NW)
+1 Beadmaker's Healing Runeknife (NW)
 3 Dark Quarrels (TW)
 1 Elves of Evermist (NW)
+1 Fellowship (NW)
 2 Ford (TW)
 1 Great Seagull (NW)
 1 Helechoth (NW)
-1 Helecthil, Light of the North (NW)
+1 Herb-lore (DM)
 2 Keeper of the Lodge (NW)
 1 Longbottom Leaf (BA)
 1 Lossidil (NW)
@@ -71,7 +81,6 @@ Deck
 2 Riddling Talk (TD)
 1 Ring of Healing (NW)
 2 Smoke Rings (DM)
-1 There's Queer Folk About (RS)
 1 Trickery (TD)
 
 ####
@@ -95,18 +104,18 @@ Pool
 Sideboard
 #########
 
-# Hazard (2)
+# Hazard (4)
 
 1 Aamumeren Isä (NW)
+1 Dwarven Warparty (DF)
+1 The Way is Shut (DM)
 1 Uldor the Accursed (NW)
 
-# Hero Resource (18)
+# Hero Resource (16)
 
 1 Align Palantír (TW)
-1 Beadmaker's Healing Runeknife (NW)
-1 Fellowship (NW)
+1 Belegaer (TD)
 1 Great Song of Awakening (NW)
-1 Herb-lore (DM)
 1 Hithailin (NW)
 1 Land Reborn (NW)
 1 Longbottom Leaf (BA)
@@ -121,7 +130,7 @@ Sideboard
 Sites
 #####
 
-# Hero Site (31)
+# Hero Site (28)
 
 1 Achrond [H] (NW)
 1 Amon Anlug [H] (NW)
@@ -131,23 +140,22 @@ Sites
 1 Eithel Morgoth [H] (NW)
 2 Evermist [H] (NW)
 1 Gondring's Lair [H] (NW)
+1 Grey Havens [H] (TW)
 1 Helloth [H] (NW)
 1 Hyvät Kalat [H] (NW)
 1 Jääkylät [H] (NW)
 1 Kylmätalo [H] (NW)
 1 Leiri [H] (NW)
+1 Ligr Wodaize Berne [H] (NW)
 1 Linnarthurras [H] (NW)
+1 Lossadan Cairn [H] (TW)
 1 Malgolodh's Cave [H] (NW)
 1 Mornost [H] (NW)
 1 Orod Certhas [H] (NW)
 1 Pendrath na-Udûn [H] (NW)
 1 Pieni Satama [H] (NW)
-1 Puolihmisten Satama [H] (NW)
+1 Rivendell [H] (TW)
 1 Ruskea Vene [H] (NW)
 1 Thaurung [H] (NW)
-1 The Under-forges [H] (NW)
 1 Thilgon's Tomb [H] (NW)
 1 Tol Morven [H] (NW)
-1 Urdic Camp [H] (NW)
-1 Vasaran Ahjo [H] (NW)
-

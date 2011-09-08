@@ -71,7 +71,7 @@
        <attr key="class" value="Short-event"/>
        <attr key="type" value="Hazard"/>
     </card>
-    <card name="Assassin" graphics="AssassinDC.jpg" text="Men. Three attacks (of one strike each) all against the same character. Attacker chooses defending character. One or two of these attacks may be canceled by tapping one character (not the defending character) in the defender's company for each attack canceled.">
+    <card name="Assassin" graphics="Assassin.jpg" text="Men. Three attacks (of one strike each) all against the same character. Attacker chooses defending character. One or two of these attacks may be canceled by tapping one character (not the defending character) in the defender's company for each attack canceled.">
        <attr key="strikes" value="1"/>
        <attr key="mp" value="2"/>
        <attr key="body" value="-"/>
@@ -213,7 +213,7 @@
        <attr key="class" value="Creature"/>
        <attr key="type" value="Hazard"/>
     </card>
-    <card name="Daelomin" graphics="DaelominDC.jpg" text="Unique. May be played at Dancing Spire. Dragon. Three strikes. Attacker chooses defending characters. If Doors of Night is in play, may also be played keyed to Grey Mountain Narrows, Iron Hills, Northern Rhovanion, and Withered Heath; and may also be played at site in these regions. {green} DCE: If Doors of Night is in play, may also be played keyed to Grey Mountain Narrows, Southern Rhovanion, Northern Rhovanion, and Withered Heath; and may also be played  at site in these regions.">
+    <card name="Daelomin" graphics="Daelomin.jpg" text="Unique. May be played at Dancing Spire. Dragon. Three strikes. Attacker chooses defending characters. If Doors of Night is in play, may also be played keyed to Grey Mountain Narrows, Iron Hills, Northern Rhovanion, and Withered Heath; and may also be played at site in these regions. {green} DCE: If Doors of Night is in play, may also be played keyed to Grey Mountain Narrows, Southern Rhovanion, Northern Rhovanion, and Withered Heath; and may also be played  at site in these regions.">
        <attr key="unique" value="yes"/>
        <attr key="strikes" value="3"/>
        <attr key="mp" value="4"/>
@@ -244,7 +244,7 @@
        <attr key="class" value="Short-event"/>
        <attr key="type" value="Hazard"/>
     </card>
-    <card name="Drowning Seas" graphics="DrowningSeasDC.jpg" text="Environment. Playable on a company that moved this turn to a site with a Coastal Sea [{c}] in its site path. Target company loses one item of its choice and its player must randomly discard two cards from his hand. Alternatively, if Doors of Night is in play, target company must immediately return to its site of origin.">
+    <card name="Drowning Seas" graphics="DrowningSeas.jpg" text="Environment. Playable on a company that moved this turn to a site with a Coastal Sea [{c}] in its site path. Target company loses one item of its choice and its player must randomly discard two cards from his hand. Alternatively, if Doors of Night is in play, target company must immediately return to its site of origin.">
        <attr key="rarity" value="U"/>
        <attr key="class" value="Short-event"/>
        <attr key="type" value="Hazard"/>
@@ -317,7 +317,7 @@
        <attr key="class" value="Creature"/>
        <attr key="type" value="Hazard"/>
     </card>
-    <card name="Giant" graphics="GiantDC.jpg" text="Giant. One strike. Two Wildernesses [{w}] in the site path are required.">
+    <card name="Giant" graphics="Giant.jpg" text="Giant. One strike. Two Wildernesses [{w}] in the site path are required.">
        <attr key="strikes" value="1"/>
        <attr key="mp" value="1"/>
        <attr key="body" value="-"/>
@@ -374,7 +374,7 @@
        <attr key="class" value="Creature/Permanent-event"/>
        <attr key="type" value="Hazard"/>
     </card>
-    <card name="Huorn" graphics="HuornDC.jpg" text="Awakened Plant. One strike. May also be played at Drúadan Forest, Old Forest, and Wellinghall. May also be played keyed to Heart of Mirkwood, Southern Mirkwood, Western Mirkwood, and Woodland Realm; and may also be played at Ruins &amp; Lairs [{R}] and Shadow-holds [{S}] in these regions.">
+    <card name="Huorn" graphics="Huorn.jpg" text="Awakened Plant. One strike. May also be played at Drúadan Forest, Old Forest, and Wellinghall. May also be played keyed to Heart of Mirkwood, Southern Mirkwood, Western Mirkwood, and Woodland Realm; and may also be played at Ruins &amp; Lairs [{R}] and Shadow-holds [{S}] in these regions.">
        <attr key="strikes" value="1"/>
        <attr key="mp" value="1"/>
        <attr key="body" value="-"/>
@@ -471,7 +471,7 @@
        <attr key="type" value="Hazard"/>
 	   <attr key="keyword" value="Corruption"/>
     </card>
-    <card name="Lure of Nature" graphics="LureofNatureDC.jpg" text="Corruption. Does not affect Hobbits and Dwarves. A character receives 2 corruption points. Target character makes one corruption check after all other hazards have been played for each Wilderness [{w}] in the site path that his company moved through that turn. Cannot be duplicated on a given character. During his organization phase, a character with this card may tap to attempt to remove it. Make a roll (or draw a #): if this result is greater than 4, discard this card.">
+    <card name="Lure of Nature" graphics="LureofNature.jpg" text="Corruption. Does not affect Hobbits and Dwarves. A character receives 2 corruption points. Target character makes one corruption check after all other hazards have been played for each Wilderness [{w}] in the site path that his company moved through that turn. Cannot be duplicated on a given character. During his organization phase, a character with this card may tap to attempt to remove it. Make a roll (or draw a #): if this result is greater than 4, discard this card.">
        <attr key="corruption" value="2"/>
        <attr key="rarity" value="CA2"/>
        <attr key="class" value="Permanent-event"/>
@@ -514,7 +514,7 @@
        <attr key="type" value="Hazard"/>
 	   <attr key="keyword" value="Corruption"/>
     </card>
-    <card name="Mouth of Sauron" graphics="MouthofSauronDC.jpg" text="Unique. Man. May be played as a hazard creature (with one strike) or as a short-event. If played as a short-event, bring any hazard card from your discard pile back into your hand.">
+    <card name="Mouth of Sauron" graphics="MouthofSauron.jpg" text="Unique. Man. May be played as a hazard creature (with one strike) or as a short-event. If played as a short-event, bring any hazard card from your discard pile back into your hand.">
        <attr key="unique" value="yes"/>
        <attr key="strikes" value="1"/>
        <attr key="mp" value="3"/>
@@ -553,7 +553,7 @@
        <attr key="type" value="Hazard"/>
 	   <attr key="keyword" value="Environment"/>
     </card>
-    <card name="Old Man Willow" graphics="OldManWillowDC.jpg" text="Awakened Plant. One strike. 15 prowess against Hobbits. May also be played keyed to Fangorn, Heart of Mirkwood, Southern Mirkwood, and Western Mirkwood; and may also be played at Ruins &amp; Lairs [{R}], Shadow-holds [{S}], and Dark-holds [{D}] in these regions. Also playable at Old Forest and Drúadan Forest. Two Wildernesses [{w}] in site path are required.">
+    <card name="Old Man Willow" graphics="OldManWillow.jpg" text="Awakened Plant. One strike. 15 prowess against Hobbits. May also be played keyed to Fangorn, Heart of Mirkwood, Southern Mirkwood, and Western Mirkwood; and may also be played at Ruins &amp; Lairs [{R}], Shadow-holds [{S}], and Dark-holds [{D}] in these regions. Also playable at Old Forest and Drúadan Forest. Two Wildernesses [{w}] in site path are required.">
        <attr key="strikes" value="1"/>
        <attr key="mp" value="1"/>
        <attr key="body" value="-"/>
@@ -630,7 +630,7 @@
        <attr key="class" value="Creature"/>
        <attr key="type" value="Hazard"/>
     </card>
-    <card name="Orc-warriors" graphics="OrcwarriorsDC.jpg" text="Orcs. Three strikes. {green} DCE: May also be played keyed to a Desert symbol">
+    <card name="Orc-warriors" graphics="Orcwarriors.jpg" text="Orcs. Three strikes. {green} DCE: May also be played keyed to a Desert symbol">
        <attr key="strikes" value="3"/>
        <attr key="mp" value="1"/>
        <attr key="body" value="-"/>
@@ -668,7 +668,7 @@
        <attr key="class" value="Long-event"/>
        <attr key="type" value="Hazard"/>
     </card>
-    <card name="Pûkel-men" graphics="PukelmenDC.jpg" text="Pûkel-creature. Two strikes. May also be played at Ruins &amp; Lairs [{R}] sites in the following regions: Andrast, Anfalas, Anórien, Dunland, Enedhwaith, Gap of Isen, Lamedon, Old Pûkel Gap, Old Pûkel Land, and Rohan.">
+    <card name="Pûkel-men" graphics="Pukelmen.jpg" text="Pûkel-creature. Two strikes. May also be played at Ruins &amp; Lairs [{R}] sites in the following regions: Andrast, Anfalas, Anórien, Dunland, Enedhwaith, Gap of Isen, Lamedon, Old Pûkel Gap, Old Pûkel Land, and Rohan.">
        <attr key="strikes" value="2"/>
        <attr key="mp" value="1"/>
        <attr key="body" value="-"/>
@@ -691,7 +691,7 @@
        <attr key="class" value="Creature/Permanent-event"/>
        <attr key="type" value="Hazard"/>
     </card>
-    <card name="River" graphics="RiverDC.jpg" text="Playable on a site. If a company that has moved to this site this turn does not tap a ranger, it must do nothing during its site phase. {cyan} UEP: Tapping a single ranger to meet the requirements of River also meets the requirements of any other Rivers already played and resolved on the same site.">
+    <card name="River" graphics="RiverDC.jpg" text="Playable on a site. If a company that has moved to this site this turn does not tap a ranger, it must do nothing during its site phase. A company need only tap 1 ranger to meet the requirements of any Rivers played and resolved on the same site.">
        <attr key="rarity" value="CA2"/>
        <attr key="class" value="Short-event"/>
        <attr key="type" value="Hazard"/>
@@ -721,13 +721,13 @@
        <attr key="spawn" value="yes"/>
 	   <attr key="keyword" value="Spawn"/>
     </card>
-    <card name="Siege" graphics="SiegeDC.jpg" text="Playable on a Border-hold [{B}] or Free-hold [{F}] site. A company at this site must face an Orc attack of three strikes at 7 prowess at the beginning of its site phase. At the end of the organization phase, a company at a site with Siege on it must make a roll (or draw a #) andsubtract one from the result for every non-scout character it contains. If this result is less than 5, the company may not move this turn. Discard when the site card is discarded or when the site card is returned to the location deck. Cannot be duplicated on a given site.">
+    <card name="Siege" graphics="Siege.jpg" text="Playable on a Border-hold [{B}] or Free-hold [{F}] site. A company at this site must face an Orc attack of three strikes at 7 prowess at the beginning of its site phase. At the end of the organization phase, a company at a site with Siege on it must make a roll (or draw a #) andsubtract one from the result for every non-scout character it contains. If this result is less than 5, the company may not move this turn. Discard when the site card is discarded or when the site card is returned to the location deck. Cannot be duplicated on a given site.">
        <attr key="playable" value="{B}{F}"/>
        <attr key="rarity" value="R"/>
        <attr key="class" value="Permanent-event"/>
        <attr key="type" value="Hazard"/>
     </card>
-    <card name="Silent Watcher" graphics="SilentWatcherDC.jpg" text="Pûkel-creature. Each character in the company faces one strike.">
+    <card name="Silent Watcher" graphics="SilentWatcher.jpg" text="Pûkel-creature. Each character in the company faces one strike.">
        <attr key="strikes" value="1/each"/>
        <attr key="mp" value="1"/>
        <attr key="body" value="-"/>
@@ -738,7 +738,7 @@
        <attr key="class" value="Creature"/>
        <attr key="type" value="Hazard"/>
     </card>
-    <card name="Slayer" graphics="SlayerDC.jpg" text="Slayer. Two attacks (of one strike each) against the same character. Attacker chooses defending character. The defender may tap one character in the same company to cancel one of these attacks.">
+    <card name="Slayer" graphics="Slayer.jpg" text="Slayer. Two attacks (of one strike each) against the same character. Attacker chooses defending character. The defender may tap one character in the same company to cancel one of these attacks.">
        <attr key="strikes" value="2"/>
        <attr key="mp" value="2"/>
        <attr key="body" value="-"/>
@@ -788,7 +788,7 @@
        <attr key="type" value="Hazard"/>
 	   <attr key="keyword" value="Corruption"/>
     </card>
-    <card name="The Great Goblin" graphics="TheGreatGoblinDC.jpg" text="Unique. Orc. One strike. May also be played on a company moving from Rivendell to Lórien or from Lórien to Rivendell. May also be played keyed to High Pass and at sites in High Pass.">
+    <card name="The Great Goblin" graphics="TheGreatGoblin.jpg" text="Unique. Orc. One strike. May also be played on a company moving from Rivendell to Lórien or from Lórien to Rivendell. May also be played keyed to High Pass and at sites in High Pass.">
        <attr key="unique" value="yes"/>
        <attr key="strikes" value="1"/>
        <attr key="mp" value="2"/>
@@ -864,13 +864,13 @@
        <attr key="class" value="Short-event"/>
        <attr key="type" value="Hazard"/>
     </card>
-    <card name="Traitor" graphics="TraitorDC.jpg" text="When the next character fails a corruption check, he becomes a &quot;traitor&quot; and an attack is immediately made against a character in the traitor's company. The character to be attacked is chosen by the player who does not control the traitor's company. The prowess of the attack is equal to the prowess of the traitor plus 10. Any resulting body check is modified by +1. This card is  discarded when a character fails his corruption check.">
+    <card name="Traitor" graphics="Traitor.jpg" text="When the next character fails a corruption check, he becomes a &quot;traitor&quot; and an attack is immediately made against a character in the traitor's company. The character to be attacked is chosen by the player who does not control the traitor's company. The prowess of the attack is equal to the prowess of the traitor plus 10. Any resulting body check is modified by +1. This card is  discarded when a character fails his corruption check.">
        <attr key="rarity" value="R"/>
        <attr key="class" value="Permanent-event"/>
        <attr key="type" value="Hazard"/>
 	   <attr key="keyword" value="Corruption"/>
     </card>
-    <card name="Twilight" graphics="TwilightDC.jpg" text="Environment. One environment card in play is immediately discarded. This card may also be played as a resource. This card may be played at any time during any player's turn.">
+    <card name="Twilight" graphics="Twilight.jpg" text="Environment. One environment card in play is immediately discarded. This card may also be played as a resource. This card may be played at any time during any player's turn.">
        <attr key="rarity" value="CA2"/>
        <attr key="class" value="Short-event"/>
        <attr key="type" value="Hazard"/>
@@ -945,7 +945,7 @@
        <attr key="class" value="Creature/Permanent-event"/>
        <attr key="type" value="Hazard"/>
     </card>
-    <card name="Wolves" graphics="WolvesDC.jpg" text="Wolves. Three strikes.">
+    <card name="Wolves" graphics="Wolves.jpg" text="Wolves. Three strikes.">
        <attr key="strikes" value="3"/>
        <attr key="mp" value="1"/>
        <attr key="body" value="-"/>
@@ -974,7 +974,7 @@
        <attr key="mind" value="3"/>
        <attr key="influence" value="1"/>
     </card>
-    <card name="Alatar" graphics="AlatarDC.jpg" text="Unique. During the movement/hazard phase, the number of cards that opponent draws based on Alatar's company's movement is reduced by one. If in a Haven when a hazard creature is played on another company, he may join tha company and face one of the hazard creature's strikes; he must make a corruption check immediately following the attack, and, if untapped, he must tap.">
+    <card name="Alatar" graphics="Alatar.jpg" text="Unique. During the movement/hazard phase, the number of cards that opponent draws based on Alatar's company's movement is reduced by one. If in a Haven when a hazard creature is played on another company, he may join tha company and face one of the hazard creature's strikes; he must make a corruption check immediately following the attack, and, if untapped, he must tap.">
        <attr key="unique" value="yes"/>
        <attr key="skills" value="Warrior/Scout/Ranger/Sage"/>
        <attr key="body" value="9"/>
@@ -1387,7 +1387,7 @@
        <attr key="mind" value="2"/>
        <attr key="influence" value="0"/>
     </card>
-    <card name="Erkenbrand" graphics="ErkenbrandDC.jpg" text="Unique. +2 direct influence against the Riders of Rohan faction. {green} DCE: Replace with: Helm’s Deep; +2 direct influence against the Men of the Westfold faction.">
+    <card name="Erkenbrand" graphics="ErkenbrandDC.jpg" text="Unique. +2 direct influence against the Riders of Rohan faction. {green} DCE: Replace with: Helm’s Deep; +2 direct influence against the Men of Westfold faction.">
        <attr key="unique" value="yes"/>
        <attr key="skills" value="Warrior"/>
        <attr key="mp" value="1"/>
@@ -1508,7 +1508,7 @@
        <attr key="influence" value="10"/>
 	   <attr key="keyword" value="Avatar"/>
     </card>
-    <card name="Ghân-buri-Ghân" graphics="GhanburiGhan.jpg" text="Unique. +2 direct influence against Wose factions.">
+    <card name="Ghân-buri-Ghân" graphics="GhanburiGhanDC.jpg" text="Unique. +2 direct influence against Wose factions.">
        <attr key="unique" value="yes"/>
        <attr key="skills" value="Scout/Ranger"/>
        <attr key="mp" value="2"/>
@@ -1516,7 +1516,7 @@
        <attr key="prowess" value="2"/>
        <attr key="home_site" value="Drúadan Forest"/>
        <attr key="rarity" value="U"/>
-       <attr key="race" value="Man"/>
+       <attr key="race" value="Wose"/>
        <attr key="type" value="Hero Character"/>
        <attr key="mind" value="5"/>
        <attr key="influence" value="2"/>
@@ -1938,7 +1938,7 @@
        <attr key="class" value="Short-event"/>
        <attr key="type" value="Hero Resource"/>
     </card>
-    <card name="Align Palantír" graphics="AlignPalantirDC.jpg" text="Sage only if a Palantír is in his company. Keep with the Palantír; bearer now has the ability to use the Palantír. Discard Align Palantír if the company carrying the Palantír moves. May not be duplicated on a given  Palantír.">
+    <card name="Align Palantír" graphics="AlignPalantir.jpg" text="Sage only if a Palantír is in his company. Keep with the Palantír; bearer now has the ability to use the Palantír. Discard Align Palantír if the company carrying the Palantír moves. May not be duplicated on a given  Palantír.">
        <attr key="corruption" value="2"/>
        <attr key="mp" value="2"/>
        <attr key="rarity" value="U"/>
@@ -1962,14 +1962,14 @@
 	   <attr key="keyword" value="Battle-gear"/>
 	   <attr key="keyword" value="Information"/>
     </card>
-    <card name="Army of the Dead" graphics="ArmyoftheDeadDC.jpg" text="Unique. Playable at Vale of Erech. May only be played by Aragorn II on the same turn that he plays Paths of the Dead. May not be influenced by an opponent. {cyan} UEP: Unique. Playable at the Vale of Erech. May only be played by Aragorn II on the same turn that he uses the special movement of Paths of the Dead. May not be influenced by an opponent.">
+    <card name="Army of the Dead" graphics="ArmyoftheDeadDC.jpg" text="Unique. Playable at Vale of Erech. May only be played by Aragorn II or Elessar on the same turn that he plays Paths of the Dead. May not be influenced by an opponent. {cyan} UEP: Unique. Playable at the Vale of Erech. May only be played by Aragorn II on the same turn that he uses the special movement of Paths of the Dead. May not be influenced by an opponent.">
        <attr key="unique" value="yes"/>
        <attr key="mp" value="6"/>
        <attr key="rarity" value="R"/>
        <attr key="class" value="Special Faction"/>
        <attr key="type" value="Hero Resource"/>
     </card>
-    <card name="Ash Mountains" graphics="AshMountains.jpg" text="Playable at the end of the organization phase on a company containing a ranger. If the company uses region cards for its site path, tap the ranger to move as if the following pairs of regions were adjacent: Dagorlad and Gorgoroth, Horse Plains and Gorgoroth. The company faces an attack at the beginning of its movement/hazard phase: Orcs - 4 strikes with 8 prowess. Otherwise, if the site moved to is in one of the regions listed above, the hazard limit is reduced by 2 (to a minimum of 2). Cannot be duplicated on a given company.">
+    <card name="Ash Mountains" graphics="AshMountainsDC.jpg" text="Playable at the end of the organization phase on a company containing a ranger. If the company uses region cards for its site path, tap the ranger to move as if the following pairs of regions were adjacent: Dagorlad and Gorgoroth, Horse Plains and Gorgoroth. The company faces an attack at the beginning of its movement/hazard phase: Orcs - 4 strikes with 8 prowess. Otherwise, if the site moved to is in one of the regions listed above or in Ered Lithui, the hazard limit is reduced by 2 (to a minimum of 2). Cannot be duplicated on a given company.">
        <attr key="rarity" value="CB"/>
        <attr key="class" value="Short-event"/>
        <attr key="type" value="Hero Resource"/>
@@ -1994,7 +1994,7 @@
        <attr key="class" value="Man Faction"/>
        <attr key="type" value="Hero Resource"/>
     </card>
-    <card name="Bill the Pony" graphics="BillthePonyDC.jpg" text="Unique. Playable at Bree of Bag End; playable even if the site is tapped. If at a non-Haven site and if his company's size is three of less, you may discard Bill the Pony at the end of his company's turn and replace its site with the nearest Haven [{H}].">
+    <card name="Bill the Pony" graphics="BillthePony.jpg" text="Unique. Playable at Bree of Bag End; playable even if the site is tapped. If at a non-Haven site and if his company's size is three of less, you may discard Bill the Pony at the end of his company's turn and replace its site with the nearest Haven [{H}].">
        <attr key="unique" value="yes"/>
        <attr key="mp" value="1"/>
        <attr key="body" value="10"/>
@@ -2017,7 +2017,7 @@
        <attr key="class" value="Dwarf Faction"/>
        <attr key="type" value="Hero Resource"/>
     </card>
-    <card name="Book of Mazarbul" graphics="BookofMazarbulDC.jpg" text="Unique. Only playable at Moria. May be stored at a Dwarf-hold for 5 marshalling points. If its bearer is a sage, tap Book of Mazarbul during your organization phase to increase your hand size by 1 until your next untap phase.">
+    <card name="Book of Mazarbul" graphics="BookofMazarbul.jpg" text="Unique. Only playable at Moria. May be stored at a Dwarf-hold for 5 marshalling points. If its bearer is a sage, tap Book of Mazarbul during your organization phase to increase your hand size by 1 until your next untap phase.">
        <attr key="unique" value="yes"/>
        <attr key="corruption" value="2"/>
        <attr key="mp" value="1(5)"/>
@@ -2042,7 +2042,7 @@
        <attr key="class" value="Short-event"/>
        <attr key="type" value="Hero Resource"/>
     </card>
-    <card name="Cracks of Doom" graphics="CracksofDoomDC.jpg" text="Only playable during the site phase, if The One Ring is at Mount Doom. Its bearer must make a corruption check modified by -4. If successful, The One Ring is destroyed and its bearer's player wins.">
+    <card name="Cracks of Doom" graphics="CracksofDoom.jpg" text="Only playable during the site phase, if The One Ring is at Mount Doom. Its bearer must make a corruption check modified by -4. If successful, The One Ring is destroyed and its bearer's player wins.">
        <attr key="rarity" value="U"/>
        <attr key="class" value="Short-event"/>
        <attr key="type" value="Hero Resource"/>
@@ -2177,7 +2177,7 @@
        <attr key="influence" value="+2(7)"/>
 	   <attr key="keyword" value="Dwarven Ring"/>
     </card>
-    <card name="Eagle-mounts" graphics="Eaglemounts.jpg" text="Playable only at the end of the organization phase on a company with a diplomat that begins the turn at Eagles' Eyrie. Company may move to any site that is not a Shadow-hold [{S}] or a Dark-hold [{D}]. Opponent may only play hazard creatures that are keyed to the company's site.">
+    <card name="Eagle-mounts" graphics="EaglemountsDC.jpg" text="Playable only at the end of the organization phase on a company with a diplomat that begins the turn at Eagles' Eyrie. Company may move to any site that is not a Shadow-hold [{S}] or a Dark-hold [{D}] and is in the same or an adjacent territory as the company’s current site. Opponent may only play hazard creatures that are keyed to the company's site.">
        <attr key="rarity" value="R"/>
        <attr key="class" value="Short-event"/>
        <attr key="type" value="Hero Resource"/>
@@ -2190,7 +2190,7 @@
        <attr key="class" value="Special Item"/>
        <attr key="type" value="Hero Resource"/>
     </card>
-    <card name="Easterlings" graphics="EasterlingsDC.jpg" text="Unique. Playable at Easterling Camp if the influence check is greater than 9. Standard modifications: Dúnedain (-2). {green} DCE: Add: Standard modifications: Wizards(-5)">
+    <card name="Easterlings" graphics="Easterlings.jpg" text="Unique. Playable at Easterling Camp if the influence check is greater than 9. Standard modifications: Dúnedain (-2).">
        <attr key="unique" value="yes"/>
        <attr key="mp" value="4"/>
        <attr key="rarity" value="R"/>
@@ -2222,7 +2222,7 @@
        <attr key="class" value="Elf Faction"/>
        <attr key="type" value="Hero Resource"/>
     </card>
-    <card name="Ent-draughts" graphics="EntdraughtsDC.jpg" text="Only playable at Wellinghall in addition to an ally or faction that has been successfully played at Wellinghall this turn (even if Wellinghall is already tapped). +1 to prowess. This item may not be stolen, transferred, or stored. May not be duplicated on a given character.">
+    <card name="Ent-draughts" graphics="Entdraughts.jpg" text="Only playable at Wellinghall in addition to an ally or faction that has been successfully played at Wellinghall this turn (even if Wellinghall is already tapped). +1 to prowess. This item may not be stolen, transferred, or stored. May not be duplicated on a given character.">
        <attr key="body" value="-"/>
        <attr key="prowess" value="+1"/>
        <attr key="rarity" value="U"/>
@@ -2352,7 +2352,7 @@
        <attr key="class" value="Short-event"/>
        <attr key="type" value="Hero Resource"/>
     </card>
-    <card name="Great Ship" graphics="GreatShipDC.jpg" text="Tap a character in target company during the organization phase to play Great Ship on that company. If company's current site path contains a coastal sea region and no consecutive non- coastal sea regions, until the end of the turn and character in the company may tap to cancel the effects of one hazard that targets the company.">
+    <card name="Great Ship" graphics="GreatShip.jpg" text="Tap a character in target company during the organization phase to play Great Ship on that company. If company's current site path contains a coastal sea region and no consecutive non- coastal sea regions, until the end of the turn and character in the company may tap to cancel the effects of one hazard that targets the company.">
        <attr key="rarity" value="R"/>
        <attr key="class" value="Short-event"/>
        <attr key="type" value="Hero Resource"/>
@@ -2372,7 +2372,7 @@
        <attr key="type" value="Hero Resource"/>
 	   <attr key="keyword" value="Battle-gear"/>
     </card>
-    <card name="Gwaihir" graphics="GwaihirDC.jpg" text="Unique. Playable at Eagles' Eyrie. If his company's size is two or less, you may discard Gwaihir during the organization phase to allow his company to move to any site that is not in a Shadow-land [{s}] or Dark-domain [{d}]; only hazard creatures keyed to the site may be played on a company that moves in this fashion.">
+    <card name="Gwaihir" graphics="Gwaihir.jpg" text="Unique. Playable at Eagles' Eyrie. If his company's size is two or less, you may discard Gwaihir during the organization phase to allow his company to move to any site that is not in a Shadow-land [{s}] or Dark-domain [{d}]; only hazard creatures keyed to the site may be played on a company that moves in this fashion.">
        <attr key="unique" value="yes"/>
        <attr key="mp" value="2"/>
        <attr key="body" value="8"/>
@@ -2435,7 +2435,7 @@
        <attr key="type" value="Hero Resource"/>
        <attr key="influence" value="0(2)"/>
     </card>
-    <card name="Horses" graphics="HorsesDC.jpg" text="Playable only at the end of the organization phase. Hazard limit for a company is decreased by two (to a minimum of 2). The prowess of any hazard creatures played against this company is modified by +2.">
+    <card name="Horses" graphics="Horses.jpg" text="Playable only at the end of the organization phase. Hazard limit for a company is decreased by two (to a minimum of 2). The prowess of any hazard creatures played against this company is modified by +2.">
        <attr key="rarity" value="CA"/>
        <attr key="class" value="Short-event"/>
        <attr key="type" value="Hero Resource"/>
@@ -2497,7 +2497,7 @@
        <attr key="class" value="Man Faction"/>
        <attr key="type" value="Hero Resource"/>
     </card>
-    <card name="Lucky Search" graphics="LuckySearchDC.jpg" text="Scout only. During the site phase, tap a scout at a Shadow-hold [{S}] or Dark-hold [{D}]. Turn over cards from your play deck one at a time until you reveal a non-special item or reach the end. If you reveal a non-special item, the scout takes control of it. In any case, the scout must face a single strike attack with a prowess equal to 3 plus the number of cards revealed; this attack/strike cannot be cancelled. Discard item if the scout is wounded by this attack. Reshuffle all revealed cards except the item back into play deck.">
+    <card name="Lucky Search" graphics="LuckySearch.jpg" text="Scout only. During the site phase, tap a scout at a Shadow-hold [{S}] or Dark-hold [{D}]. Turn over cards from your play deck one at a time until you reveal a non-special item or reach the end. If you reveal a non-special item, the scout takes control of it. In any case, the scout must face a single strike attack with a prowess equal to 3 plus the number of cards revealed; this attack/strike cannot be cancelled. Discard item if the scout is wounded by this attack. Reshuffle all revealed cards except the item back into play deck.">
        <attr key="rarity" value="R"/>
        <attr key="class" value="Short-event"/>
        <attr key="type" value="Hero Resource"/>
@@ -2626,7 +2626,7 @@
        <attr key="class" value="Short-event"/>
        <attr key="type" value="Hero Resource"/>
     </card>
-    <card name="Muster" graphics="MusterDC.jpg" text="Warrior only. An influence check against a faction by a warrior is modified by adding the warrior's prowess to a maximum modifier of +5.">
+    <card name="Muster" graphics="Muster.jpg" text="Warrior only. An influence check against a faction by a warrior is modified by adding the warrior's prowess to a maximum modifier of +5.">
        <attr key="rarity" value="CA"/>
        <attr key="class" value="Short-event"/>
        <attr key="type" value="Hero Resource"/>
@@ -2697,7 +2697,7 @@
        <attr key="type" value="Hero Resource"/>
 	   <attr key="keyword" value="Palantír"/>
     </card>
-    <card name="Palantír of Elostirion" graphics="PalantirofElostirionDC.jpg" text="Unique. Palantír. Playable only at The White Towers. Discard if the bearer moves. If the bearer is a sage, he may tap Palantír of Elostirion to remove one corruption card from an Elf or a Wizard under your control. Bearer makes a corruption check.">
+    <card name="Palantír of Elostirion" graphics="PalantirofElostirion.jpg" text="Unique. Palantír. Playable only at The White Towers. Discard if the bearer moves. If the bearer is a sage, he may tap Palantír of Elostirion to remove one corruption card from an Elf or a Wizard under your control. Bearer makes a corruption check.">
        <attr key="unique" value="yes"/>
        <attr key="corruption" value="2"/>
        <attr key="mp" value="2"/>
@@ -2715,7 +2715,7 @@
        <attr key="type" value="Hero Resource"/>
 	   <attr key="keyword" value="Palantír"/>
     </card>
-    <card name="Palantír of Orthanc" graphics="PalantirofOrthancDC.jpg" text="Unique. Palantír. Playable only at Isengard. With its bearer able to use a Palantír and with at least 5 cards in your play deck, tap Palantír of Orthanc to choose one card from your discard pile to place in your play deck (reshuffle the play deck). Bearer makes a corruption check.">
+    <card name="Palantír of Orthanc" graphics="PalantirofOrthanc.jpg" text="Unique. Palantír. Playable only at Isengard. With its bearer able to use a Palantír and with at least 5 cards in your play deck, tap Palantír of Orthanc to choose one card from your discard pile to place in your play deck (reshuffle the play deck). Bearer makes a corruption check.">
        <attr key="unique" value="yes"/>
        <attr key="corruption" value="2"/>
        <attr key="mp" value="2"/>
@@ -2733,7 +2733,7 @@
        <attr key="type" value="Hero Resource"/>
 	   <attr key="keyword" value="Palantír"/>
     </card>
-    <card name="Paths of the Dead" graphics="PathsoftheDeadDC.jpg" text="Playable only at the end of the organization phase. For its movement, a company that starts at the Dunharrow site and contains Aragorn II may move to the Vale of Erech site. The only hazard creatures that may be played on this company are Undead, but any Undead may be played on the company.">
+    <card name="Paths of the Dead" graphics="PathsoftheDeadDC.jpg" text="Playable only at the end of the organization phase. For its movement, a company that starts at the Dunharrow site and contains Aragorn II or Elessar may move to the Vale of Erech site. The only hazard creatures that may be played on this company are Undead, but any Undead may be played on the company.">
        <attr key="rarity" value="R"/>
        <attr key="class" value="Short-event"/>
        <attr key="type" value="Hero Resource"/>
@@ -2775,7 +2775,7 @@
        <attr key="mind" value="3"/>
 	   <attr key="keyword" value="Ent"/>
     </card>
-    <card name="Quiet Lands" graphics="QuietLandsDC.jpg" text="Environment. Until the end of the turn, the number of strikes for one automatic-attack at a Shadow-hold [{S}] or Ruins &amp; Lairs [{R}] is reduced by half (round up). Alternatively, if Gates of Morning is in play, treat one Shadow-land [{s}] as a Wilderness [{w}], or one Shadow-hold [{S}] as a Ruins &amp; Lairs [{R}] until the end of the turn. Cannot be duplicated.">
+    <card name="Quiet Lands" graphics="QuietLands.jpg" text="Environment. Until the end of the turn, the number of strikes for one automatic-attack at a Shadow-hold [{S}] or Ruins &amp; Lairs [{R}] is reduced by half (round up). Alternatively, if Gates of Morning is in play, treat one Shadow-land [{s}] as a Wilderness [{w}], or one Shadow-hold [{S}] as a Ruins &amp; Lairs [{R}] until the end of the turn. Cannot be duplicated.">
        <attr key="rarity" value="U"/>
        <attr key="class" value="Short-event"/>
        <attr key="type" value="Hero Resource"/>
@@ -2822,7 +2822,7 @@
 	   <attr key="keyword" value="Information"/>
 	   <attr key="keyword" value="Lore"/>
     </card>
-    <card name="Rescue Prisoners" graphics="RescuePrisonersDC.jpg" text="Playable at an already tapped Dark-hold [{D}] or Shadow-hold [{S}] during the site phase. The company faces a spider attack (2 strikes with 7 prowess). If no characters are untapped after the attack, discard Rescue Prisoners. Otherwise, you may tap 1 character in the company and put Rescue Prisoners under his control. That character may not untap until Rescue Prisoners is stored at a Haven [{H}], Border-hold [{B}], or Free-hold [{F}] during his organization phase. You receive the marshalling points for this card only when it is stored. Cannot be duplicated at a given site.">
+    <card name="Rescue Prisoners" graphics="RescuePrisoners.jpg" text="Playable at an already tapped Dark-hold [{D}] or Shadow-hold [{S}] during the site phase. The company faces a spider attack (2 strikes with 7 prowess). If no characters are untapped after the attack, discard Rescue Prisoners. Otherwise, you may tap 1 character in the company and put Rescue Prisoners under his control. That character may not untap until Rescue Prisoners is stored at a Haven [{H}], Border-hold [{B}], or Free-hold [{F}] during his organization phase. You receive the marshalling points for this card only when it is stored. Cannot be duplicated at a given site.">
        <attr key="mp" value="(2)"/>
        <attr key="rarity" value="CA2"/>
        <attr key="class" value="Permanent-event"/>
@@ -2843,7 +2843,7 @@
        <attr key="class" value="Man Faction"/>
        <attr key="type" value="Hero Resource"/>
     </card>
-    <card name="Ringlore" graphics="RingloreDC.jpg" text="Sage only, only playable at a site where &quot;Information&quot; is playable, and only if a character in his company has a Gold Ring. Play to test a Gold Ring. No roll (or draw) is used. The player may replace the Gold Ring with any ring from his hand (except for The One Ring). Playable only during site phase. Tap the sage and the site.">
+    <card name="Ringlore" graphics="Ringlore.jpg" text="Sage only, only playable at a site where &quot;Information&quot; is playable, and only if a character in his company has a Gold Ring. Play to test a Gold Ring. No roll (or draw) is used. The player may replace the Gold Ring with any ring from his hand (except for The One Ring). Playable only during site phase. Tap the sage and the site.">
  	   <attr key="rarity" value="U"/>
        <attr key="class" value="Short-event"/>
        <attr key="type" value="Hero Resource"/>
@@ -2855,7 +2855,7 @@
        <attr key="class" value="Short-event"/>
        <attr key="type" value="Hero Resource"/>
     </card>
-    <card name="Roäc the Raven" graphics="RoactheRavenDC.jpg" text="Unique. Playable at any site in Northern Rhovanion. Tap and discard to attempt to bring any faction into play - treat this influence check as though it were made by a diplomat.">
+    <card name="Roäc the Raven" graphics="RoactheRaven.jpg" text="Unique. Playable at any site in Northern Rhovanion. Tap and discard to attempt to bring any faction into play - treat this influence check as though it were made by a diplomat.">
        <attr key="unique" value="yes"/>
        <attr key="mp" value="1"/>
        <attr key="body" value="8"/>
@@ -2929,7 +2929,7 @@
        <attr key="mind" value="3"/>
 	   <attr key="keyword" value="Ent"/>
     </card>
-    <card name="Southrons" graphics="SouthronsDC.jpg" text="Unique. Playable at the Southron Oasis if the influence check is greater than 8. Standard Modifications: Dúnedain (-2), Elves (-2), Dwarves (-2). {green} DCE: Add: Standard modifications: Wizards(-5)">
+    <card name="Southrons" graphics="Southrons.jpg" text="Unique. Playable at the Southron Oasis if the influence check is greater than 8. Standard Modifications: Dúnedain (-2), Elves (-2), Dwarves (-2).">
        <attr key="unique" value="yes"/>
        <attr key="mp" value="5"/>
        <attr key="rarity" value="R"/>
@@ -2976,7 +2976,7 @@
        <attr key="type" value="Hero Resource"/>
 	   <attr key="keyword" value="Environment"/>
     </card>
-    <card name="Sword of Gondolin" graphics="SwordofGondolinDC.jpg" text="Weapon. Warrior only: +2 to prowess to a maximum of 8. {green} DCE: Replace with: +2 to a maximum of 9">
+    <card name="Sword of Gondolin" graphics="SwordofGondolin.jpg" text="Weapon. Warrior only: +2 to prowess to a maximum of 8.">
        <attr key="corruption" value="2"/>
        <attr key="mp" value="2"/>
        <attr key="body" value="-"/>
@@ -3040,7 +3040,7 @@
        <attr key="type" value="Hero Resource"/>
 	   <attr key="keyword" value="Battle-gear"/>
     </card>
-    <card name="The Old Thrush" graphics="TheOldThrushDC.jpg" text="-3 to the prowess and body of a non-Nazgûl attack with a prowess of 13 or more. Cannot be duplicated on a given attack.">
+    <card name="The Old Thrush" graphics="TheOldThrush.jpg" text="-3 to the prowess and body of a non-Nazgûl attack with a prowess of 13 or more. Cannot be duplicated on a given attack.">
        <attr key="rarity" value="U"/>
        <attr key="class" value="Short-event"/>
        <attr key="type" value="Hero Resource"/>
@@ -3056,14 +3056,14 @@
        <attr key="type" value="Hero Resource"/>
        <attr key="influence" value="+5"/>
     </card>
-    <card name="The White Tree" graphics="TheWhiteTreeDC.jpg" text="Unique. Sage only at Minas Tirith. Playable only if a Sapling of the White Tree is at Minas Tirith. Minas Tirith becomes a Haven [{H}] for the purposes of healing and playing hazards. Discard the Sapling of the White Tree.">
+    <card name="The White Tree" graphics="TheWhiteTree.jpg" text="Unique. Sage only at Minas Tirith. Playable only if a Sapling of the White Tree is at Minas Tirith. Minas Tirith becomes a Haven [{H}] for the purposes of healing and playing hazards. Discard the Sapling of the White Tree.">
        <attr key="unique" value="yes"/>
        <attr key="mp" value="5"/>
        <attr key="rarity" value="R"/>
        <attr key="class" value="Permanent-event"/>
        <attr key="type" value="Hero Resource"/>
     </card>
-    <card name="Thorough Search" graphics="ThoroughSearchDC.jpg" text="Scout only. Tap a scout during the site phase to allow another character in his company to play a minor, major, or gold ring item normally found at its current site. The company must face any automatic-attack for its current site at least once during this site phase. This does not tap the site, and Thorough Search can be played at a site that is already tapped.">
+    <card name="Thorough Search" graphics="ThoroughSearch.jpg" text="Scout only. Tap a scout during the site phase to allow another character in his company to play a minor, major, or gold ring item normally found at its current site. The company must face any automatic-attack for its current site at least once during this site phase. This does not tap the site, and Thorough Search can be played at a site that is already tapped.">
        <attr key="rarity" value="CA"/>
        <attr key="class" value="Short-event"/>
        <attr key="type" value="Hero Resource"/>
@@ -3095,7 +3095,7 @@
        <attr key="class" value="Dúnadan Faction"/>
        <attr key="type" value="Hero Resource"/>
     </card>
-    <card name="Treebeard" graphics="TreebeardDC.jpg" text="Unique. Playable at Wellinghall. May not be attacked by automatic-attacks or hazards keyed to his site. Discard Treebeard if his company moves to a site that is not in: Fangorn, Rohan, Gap of Isen, Wold &amp; Foothills, Enedhwaith, Old Pûkel-land, Brown Lands, Anduin Vales, or Redhorn Gate.">
+    <card name="Treebeard" graphics="Treebeard.jpg" text="Unique. Playable at Wellinghall. May not be attacked by automatic-attacks or hazards keyed to his site. Discard Treebeard if his company moves to a site that is not in: Fangorn, Rohan, Gap of Isen, Wold &amp; Foothills, Enedhwaith, Old Pûkel-land, Brown Lands, Anduin Vales, or Redhorn Gate.">
        <attr key="unique" value="yes"/>
        <attr key="mp" value="2"/>
        <attr key="body" value="9"/>
@@ -3112,7 +3112,7 @@
        <attr key="class" value="Short-event"/>
        <attr key="type" value="Hero Resource"/>
     </card>
-    <card name="Use Palantír" graphics="UsePalantirDC.jpg" text="Sage only. Tap sage to enable him to use one Palantír he bears for the rest of the turn.">
+    <card name="Use Palantír" graphics="UsePalantir.jpg" text="Sage only. Tap sage to enable him to use one Palantír he bears for the rest of the turn.">
        <attr key="rarity" value="U"/>
        <attr key="class" value="Short-event"/>
        <attr key="type" value="Hero Resource"/>
@@ -3123,14 +3123,14 @@
        <attr key="class" value="Short-event"/>
        <attr key="type" value="Hero Resource"/>
     </card>
-    <card name="Variags of Khand" graphics="VariagsofKhandDC.jpg" text="Unique. Playable at Variag Camp if the influence check is greater than 9. Standard Modifications: none. {green} DCE: Add: Standard modifications: Wizards(-5)">
+    <card name="Variags of Khand" graphics="VariagsofKhand.jpg" text="Unique. Playable at Variag Camp if the influence check is greater than 9. Standard Modifications: none.">
        <attr key="unique" value="yes"/>
        <attr key="mp" value="4"/>
        <attr key="rarity" value="R"/>
        <attr key="class" value="Man Faction"/>
        <attr key="type" value="Hero Resource"/>
     </card>
-    <card name="Vilya" graphics="VilyaDC.jpg" text="Playable on Elrond only. +4 prowess, +2 body, +6 direct influence until the end of the turn. If Elrond is at Rivendell and your play deck has at least 5 cards in it, you may take 3 resource cards of your choice from your discard pile and shuffle them into your play deck. Elrond makes a corruption check modified by  -3. Cannot be duplicated on a given turn.">
+    <card name="Vilya" graphics="Vilya.jpg" text="Playable on Elrond only. +4 prowess, +2 body, +6 direct influence until the end of the turn. If Elrond is at Rivendell and your play deck has at least 5 cards in it, you may take 3 resource cards of your choice from your discard pile and shuffle them into your play deck. Elrond makes a corruption check modified by  -3. Cannot be duplicated on a given turn.">
        <attr key="rarity" value="R"/>
        <attr key="class" value="Short-event"/>
        <attr key="type" value="Hero Resource"/>
@@ -3158,7 +3158,7 @@
        <attr key="class" value="Short-event"/>
        <attr key="type" value="Hero Resource"/>
     </card>
-    <card name="Wizard's Ring" graphics="WizardsRingDC.jpg" text="Wizard only. Playable only at a Haven [{H}]. Cannot be stored, stolen, or transferred. May not be duplicated on a given Wizard. Bearer makes a corruption check when this item is played.">
+    <card name="Wizard's Ring" graphics="WizardsRing.jpg" text="Wizard only. Playable only at a Haven [{H}]. Cannot be stored, stolen, or transferred. May not be duplicated on a given Wizard. Bearer makes a corruption check when this item is played.">
        <attr key="corruption" value="4"/>
        <attr key="mp" value="2"/>
        <attr key="body" value="-"/>
@@ -3813,8 +3813,9 @@
        <attr key="haven" value="Lórien"/>
        <attr key="draw" value="2"/>
        <attr key="region" value="Gundabad"/>
-       <attr key="auto_attack" value="Orcs - 2 strikes with 8 prowess"/>
+       <attr key="auto_attack" value="Orcs - 4 strikes with 8 prowess"/>
        <attr key="site_type" value="{S}"/>
+       <attr key="special" value="Ancient Dwarf-ruin."/>
        <attr key="playable" value="Items (minor, major, greater)"/>
        <attr key="draw_opp" value="3"/>
        <attr key="site_path" value="{w}{b}{d}"/>
@@ -3823,7 +3824,7 @@
 	   <attr key="keyword" value="Ancient Dwarf-ruin"/>
 	   <attr key="keyword" value="Orc-hold"/>
     </card>
-    <card name="Old Forest" graphics="OldForestDC.jpg" back="1" text="">
+    <card name="Old Forest" graphics="OldForest.jpg" back="1" text="">
        <attr key="unique" value="yes"/>
        <attr key="haven" value="Rivendell"/>
        <attr key="draw" value="1"/>
@@ -3863,7 +3864,7 @@
 	   <attr key="keyword" value="Port"/>
 	   <attr key="keyword" value="Port on Anduin"/>
     </card>
-    <card name="Rhosgobel" graphics="RhosgobelDC.jpg" back="1" text="">
+    <card name="Rhosgobel" graphics="Rhosgobel.jpg" back="1" text="">
        <attr key="unique" value="yes"/>
        <attr key="haven" value="Lórien"/>
        <attr key="draw" value="2"/>
@@ -4029,7 +4030,7 @@
        <attr key="type" value="Hero Site"/>
 	   <attr key="keyword" value="Elf-hold"/>
     </card>
-    <card name="Tolfalas" graphics="TolfalasDC.jpg" back="1" text="">
+    <card name="Tolfalas" graphics="Tolfalas.jpg" back="1" text="">
        <attr key="unique" value="yes"/>
        <attr key="haven" value="Edhellond"/>
        <attr key="draw" value="2"/>

@@ -79,7 +79,7 @@
        <attr key="class" value="Creature"/>
        <attr key="type" value="Hazard"/>
     </card>
-    <card name="Cave Worm" graphics="CaveWormDC.jpg" text="Drake. One strike. May be played keyed to Redhorn Gate, High Pass, Gap of Isen, Angmar, Gundabad, Grey Mountain Narrows, Withered Heath, Númeriador, and Iron Hills. {green} DCE: May also be played keyed to Narthalf, Azjan, Uzek Jan, Dragon Gap.">
+    <card name="Cave Worm" graphics="CaveWormDC.jpg" text="Drake. One strike. May be played keyed to Redhorn Gate, High Pass, Gap of Isen, Angmar, Gundabad, Grey Mountain Narrows, Withered Heath, Númeriador, Iron Hills or any mountain region.">
        <attr key="strikes" value="1"/>
        <attr key="mp" value="1"/>
        <attr key="body" value="-"/>
@@ -89,7 +89,7 @@
        <attr key="class" value="Creature"/>
        <attr key="type" value="Hazard"/>
     </card>
-    <card name="Cruel Caradhras" graphics="CruelCaradhrasDC.jpg" text="Playable on a company using region movement to move through one of the following regions (and not stopping at a site therein): High Pass, Redhorn Gate, Angmar, Gundabad, Grey Mountain Narrows, or Imlad Morgul. Each character in target company must face one strike (not an attack) of 8 prowess which cannot be cancelled. Any resulting body check is modified by +1. {green} DCE: Add: Type Rock Fallweapons do not modify.">
+    <card name="Cruel Caradhras" graphics="CruelCaradhrasDC.jpg" text="Playable on a company using region movement to move through one of the following regions (and not stopping at a site therein): High Pass, Redhorn Gate, Angmar, Gundabad, Grey Mountain Narrows, Imlad Morgul, Bosiri, Cleft of Goats, Clyan, Dragon Gap and Narthalf. Each character in target company must face one strike (not an attack) of 8 prowess which cannot be cancelled. Any resulting body check is modified by +1. {green} DCE: Add: Type Rock Fallweapons do not modify.">
        <attr key="rarity" value="U2"/>
        <attr key="class" value="Short-event"/>
        <attr key="type" value="Hazard"/>
@@ -219,7 +219,7 @@
        <attr key="class" value="Short-event"/>
        <attr key="type" value="Hazard"/>
     </card>
-    <card name="Foolish Words" graphics="FoolishWordsDC.jpg" text="Any riddling roll, offering attempt, or influence attempt by the target character is modified by -4. If placed on-guard, it may be revealed and played when a character in the company declares a riddling, offering, or influence attempt. During his organization phase, a character with this card may tap to attempt to remove it. Make a roll (or draw a #): if this result is greater than 7, discard this card. Cannot be duplicated on a given character.">
+    <card name="Foolish Words" graphics="FoolishWords.jpg" text="Any riddling roll, offering attempt, or influence attempt by the target character is modified by -4. If placed on-guard, it may be revealed and played when a character in the company declares a riddling, offering, or influence attempt. During his organization phase, a character with this card may tap to attempt to remove it. Make a roll (or draw a #): if this result is greater than 7, discard this card. Cannot be duplicated on a given character.">
        <attr key="rarity" value="C2"/>
        <attr key="class" value="Permanent-event"/>
        <attr key="type" value="Hazard"/>
@@ -267,7 +267,7 @@
        <attr key="class" value="Long-event"/>
        <attr key="type" value="Hazard"/>
     </card>
-    <card name="Ice-drake" graphics="Icedrake.jpg" text="Drake. Two strikes. May be played keyed to Elven Shores, Forochel, Angmar, Gundabad, Grey Mountain Narrows, and Withered Heath. {green} DCE: Two strikes. May be played keyed to any region in the Northern Waste and Elven Shores.">
+    <card name="Ice-drake" graphics="Icedrake.jpg" text="Drake. Two strikes. May be played keyed to Elven Shores, Forochel, Angmar, Gundabad, Grey Mountain Narrows, and Withered Heath.">
        <attr key="strikes" value="2"/>
        <attr key="mp" value="1"/>
        <attr key="body" value="-"/>
@@ -427,7 +427,7 @@
        <attr key="type" value="Hazard"/>
 	   <attr key="keyword" value="Vermin"/>
     </card>
-    <card name="No Escape from My Magic" graphics="NoEscapefromMyMagicDC.jpg" text="Playable on any unique faction in play. On the turns after it is played, this card affects the region that contains the site where this faction is playable and all adjacent regions. Each company moving with region cards using one or more of such regions must make a roll (or draw a #) modified by +2 for each ranger in the company, by +1 for each scout, and by +1 for each diplomat. If the result is 12 or less, the company must do nothing during the site phase. Cannot be duplicated on a given faction.">
+    <card name="No Escape from My Magic" graphics="NoEscapefromMyMagic.jpg" text="Playable on any unique faction in play. On the turns after it is played, this card affects the region that contains the site where this faction is playable and all adjacent regions. Each company moving with region cards using one or more of such regions must make a roll (or draw a #) modified by +2 for each ranger in the company, by +1 for each scout, and by +1 for each diplomat. If the result is 12 or less, the company must do nothing during the site phase. Cannot be duplicated on a given faction.">
        <attr key="rarity" value="R2"/>
        <attr key="class" value="Permanent-event"/>
        <attr key="type" value="Hazard"/>
@@ -478,7 +478,7 @@
        <attr key="class" value="Short-event"/>
        <attr key="type" value="Hazard"/>
     </card>
-    <card name="Sand-drake" graphics="SanddrakeDC.jpg" text="Drake. Three Strikes. Attacker chooses defending characters. May be played keyed to Khand and Harondor. If Doors of Night is in play, may also be played keyed to Ithilien, Nurn, and Horse Plains. {green} DCE: May also be played keyed to Near Harad, Dune Sea, Mirror of Fire. If Doors of Night is in play, may also be played keyed to Nurad, Nuriag.">
+    <card name="Sand-drake" graphics="Sanddrake.jpg" text="Drake. Three Strikes. Attacker chooses defending characters. May be played keyed to Khand and Harondor. If Doors of Night is in play, may also be played keyed to Ithilien, Nurn, and Horse Plains.">
        <attr key="strikes" value="3"/>
        <attr key="mp" value="1"/>
        <attr key="body" value="-"/>
@@ -535,7 +535,7 @@
 	   <attr key="keyword" value="Fire-dragon"/>
 	   <attr key="keyword" value="Winged"/>
     </card>
-    <card name="Scorba Ahunt" graphics="ScorbaAhuntDC.jpg" text="Unique. Any company moving in Forochel, Angmar, and/or Gundabad immediately faces one Dragon attack (considered a hazard creature attack) -- 4 strikes at 10/7 (attacker chooses defending characters). If Doors of Night is in play, this attack also affects: Númeriador, Arthedain, and Rhudaur. {green} DCE: Unique. Any company moving in Angmar, Everdalf, Forochel and/or Gundabad immediately faces one Dragon attack (considered a hazard creature attack) -- 4 strikes at 10/7 (attacker chooses defending characters). If Doors of Night is in play, this attack also affects: Arthedain, Dragon-gap, Númeriador, and Rhudaur.">
+    <card name="Scorba Ahunt" graphics="ScorbaAhunt.jpg" text="Unique. Any company moving in Forochel, Angmar, and/or Gundabad immediately faces one Dragon attack (considered a hazard creature attack) -- 4 strikes at 10/7 (attacker chooses defending characters). If Doors of Night is in play, this attack also affects: Númeriador, Arthedain, and Rhudaur.">
        <attr key="unique" value="yes"/>
        <attr key="strikes" value="4"/>
        <attr key="mp" value="3"/>
@@ -581,7 +581,7 @@
        <attr key="type" value="Hazard"/>
 	   <attr key="keyword" value="Environment"/>
     </card>
-    <card name="Sleepless Malice" graphics="SleeplessMaliceDC.jpg" text="One Undead hazard creature against each company doesn't count against its hazard limit. Additionally, if Doors of Night is in play, any Undead hazard creature may be played keyed to Ruins and Lairs. Cannot be duplicated. {green} DCE: Added in: any non-unique undead . . .">
+    <card name="Sleepless Malice" graphics="SleeplessMaliceDC.jpg" text="One Undead hazard creature against each company doesn't count against its hazard limit. Additionally, if Doors of Night is in play, any non-unique Undead hazard creature may be played keyed to Ruins and Lairs. Cannot be duplicated. {green} DCE: Added in: any non-unique undead . . .">
        <attr key="rarity" value="U2"/>
        <attr key="class" value="Long-event"/>
        <attr key="type" value="Hazard"/>
@@ -642,7 +642,7 @@
        <attr key="class" value="Long-event"/>
        <attr key="type" value="Hazard"/>
     </card>
-    <card name="True Cold-drake" graphics="TrueColddrakeDC.jpg" text="Drake. Two strikes. May be played keyed to Númeriador, Forochel, Angmar, Gundabad, Grey Mountain Narrows, Withered Heath, and Iron Hills. {green} DCE: Two strikes. May be played keyed to Númeriador, Forochel, Grey Mountain Narrows, Withered Heath, Iron Hills, any non-coastal sea region in the Northern Waste.">
+    <card name="True Cold-drake" graphics="TrueColddrake.jpg" text="Drake. Two strikes. May be played keyed to Númeriador, Forochel, Angmar, Gundabad, Grey Mountain Narrows, Withered Heath, and Iron Hills.">
        <attr key="strikes" value="2"/>
        <attr key="mp" value="1"/>
        <attr key="body" value="-"/>
@@ -787,7 +787,7 @@
        <attr key="influence" value="2"/>
 	   <attr key="keyword" value="Sinda"/>
     </card>
-    <card name="Ioreth" graphics="IorethDC.jpg" text="Unique. Healing effects affect all characters in her company.">
+    <card name="Ioreth" graphics="Ioreth.jpg" text="Unique. Healing effects affect all characters in her company.">
        <attr key="unique" value="yes"/>
        <attr key="skills" value="Sage"/>
        <attr key="mp" value="0"/>
@@ -846,7 +846,7 @@
 	   <attr key="keyword" value="Battle-gear"/>
 	   <attr key="keyword" value="Hoard Item"/>
     </card>
-    <card name="Belegaer" graphics="BelegaerDC.jpg" text="Playable during organization phase on a company moving without region cards. Company may move from a site of origin in one of the following regions to a new site in one of the following regions: Lindon, Elven Shores, Eriadoran Coast, Andrast Coast, Bay of Belfalas, Mouths of the Anduin, Enedhwaith, Old Pûkel-land, Andrast, Anfalas, Belfalas, Lebennin, and Harondor. The site path is [ccc] and the hazard limit is decreased by two to a minimum of two.">
+    <card name="Belegaer" graphics="Belegaer.jpg" text="Playable during organization phase on a company moving without region cards. Company may move from a site of origin in one of the following regions to a new site in one of the following regions: Lindon, Elven Shores, Eriadoran Coast, Andrast Coast, Bay of Belfalas, Mouths of the Anduin, Enedhwaith, Old Pûkel-land, Andrast, Anfalas, Belfalas, Lebennin, and Harondor. The site path is [ccc] and the hazard limit is decreased by two to a minimum of two.">
        <attr key="rarity" value="C1"/>
        <attr key="class" value="Short-event"/>
        <attr key="type" value="Hero Resource"/>
@@ -884,7 +884,7 @@
        <attr key="type" value="Hero Resource"/>
 	   <attr key="keyword" value="Food item"/>
     </card>
-    <card name="Dragon's Hunger" graphics="DragonsHungerDC.jpg" text="Playable on a Dragon or Drake attack. If one is available, opponent must discard a hazard creature from his hand; this reduces the company's hazard limit by one. Otherwise, the attack is cancelled and the opponent must  reveal his hand.">
+    <card name="Dragon's Hunger" graphics="DragonsHunger.jpg" text="Playable on a Dragon or Drake attack. If one is available, opponent must discard a hazard creature from his hand; this reduces the company's hazard limit by one. Otherwise, the attack is cancelled and the opponent must  reveal his hand.">
        <attr key="rarity" value="R3"/>
        <attr key="class" value="Short-event"/>
        <attr key="type" value="Hero Resource"/>

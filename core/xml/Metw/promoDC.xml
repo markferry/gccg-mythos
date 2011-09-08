@@ -9,7 +9,7 @@
        <attr key="class" value="Short-event"/>
        <attr key="type" value="Hazard"/>
     </card>
-    <card name="Angmar Arises" graphics="AngmarArisesDC.jpg" text="Any creature that can be keyed to a Shadow-land {s} may be keyed to Forochel, Arthedain, Gundabad, or Rhudaur. Any creature that can be keyed to a Dark-domain {d} may be keyed to Angmar or Gundabad. Discard this card when a creature keyed to one of these regions (not to the region symbol) is defeated. {green} DCE: Replace with: Any creature that can be keyed to a Shadow-land may be keyed to Arthedain, Angmar, Dragon Gap, Everdalf, Forochel, Gundabad, or Rhudaur. Any creature that can be keyed to a Dark-domain may be keyed to Angmar. Dragon Gap, or Gundabad. Discard this card when a creature keyed to one of these regions (not to the region symbol) is defeated.">
+    <card name="Angmar Arises" graphics="AngmarArises.jpg" text="Any creature that can be keyed to a Shadow-land {s} may be keyed to Forochel, Arthedain, Gundabad, or Rhudaur. Any creature that can be keyed to a Dark-domain {d} may be keyed to Angmar or Gundabad. Discard this card when a creature keyed to one of these regions (not to the region symbol) is defeated.">
        <attr key="rarity" value="P"/>
        <attr key="class" value="Permanent-event"/>
        <attr key="type" value="Hazard"/>
@@ -19,7 +19,7 @@
        <attr key="class" value="Permanent-event"/>
        <attr key="type" value="Hazard"/>
     </card>
-    <card name="Neeker-breekers" graphics="NeekerbreekersDC.jpg" text="Animals. Does not effect Wizards. Each character in the company faces one strike. His prowess against such a strike is equal to his mind attribute. Any character that would normally be wounded is only tapped intstead - no body checks are made.">
+    <card name="Neeker-breekers" graphics="Neekerbreekers.jpg" text="Animals. Does not effect Wizards. Each character in the company faces one strike. His prowess against such a strike is equal to his mind attribute. Any character that would normally be wounded is only tapped intstead - no body checks are made.">
        <attr key="strikes" value="1/each"/>
        <attr key="mp" value="1"/>
        <attr key="body" value="-"/>
@@ -43,7 +43,7 @@
        <attr key="class" value="Permanent-event"/>
        <attr key="type" value="Hero Resource"/>
     </card>
-    <card name="Ireful Flames" graphics="IrefulFlamesDC.jpg" text="Affects the following sites: The Loney Mountain, Irerock, Zarak Dum, and Gold Hill. For any item to be played at one of these sites, its player must remove an item in his hand from play that would itself be playable at the site. Cannot be revealed as an on-guard card. Discard Ireful Flames when any play deck is exhausted. {green} DCE: Add: Affects the following sites: Cirith Helkaloke, Norr-dûm, Shab Arch and Turukulon's Lair.">
+    <card name="Ireful Flames" graphics="IrefulFlamesDC.jpg" text="Affects the following sites: The Loney Mountain, Irerock, Zarak Dum, and Gold Hill. For any item to be played at one of these sites, its player must place an item in his hand that would itself be playable at the site in his out of play pile. Cannot be revealed as an on-guard card. Discard Ireful Flames when any play deck is exhausted. {green} DCE: Add Cirith Helkaloke, Norr-dûm, Shab Arch and Turukulon's Lair to the listed regions.">
        <attr key="rarity" value="P"/>
        <attr key="class" value="Permanent-event"/>
        <attr key="type" value="Hazard"/>

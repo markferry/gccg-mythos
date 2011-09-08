@@ -1,5 +1,5 @@
 #
-# GCCG v0.9.6 Middle-earth deck
+# GCCG v0.9.6.3 Middle-earth deck
 #
 #      DCCD - Elf-lord - Galadriel - Lady of the Galadhrim
 #
@@ -17,7 +17,7 @@ Deck
 1 Essay on Ringcraft (FB)
 1 Rivermen of the Anduin Vales (GW)
 
-# Elf-lord Character (3)
+# Elf-lord Character (4)
 
 4 Galadriel [E] (FB)
 
@@ -167,7 +167,7 @@ Sites
 1 Rivendell [F] (FB)
 1 Thranduil's Halls [F] (FB)
 
-# Hero Site (17)
+# Hero Site (20)
 
 1 Amon Hen [H] (TW)
 1 Amon Lhaw [H] (TI)
@@ -179,11 +179,13 @@ Sites
 1 Cerin Amroth [H] (FB)
 1 Cor Angaladh [H] (FB)
 1 Gladden Fields [H] (TW)
+1 Hermit's Hill [H] (DM)
+1 Joghul's Shrine [H] (CP)
 1 Mathlaburg [H] (GW)
 1 Mount Doom [H] (TW)
 1 Ost-in-Edhil [H] (TW)
 1 Ostelan [H] (FB)
-1 Raider-hold [H] (AS)
 1 Telpemár [H] (FB)
+1 Temple of Lokuthor [H] (CP)
 1 Wellinghall [H] (TW)
 1 Woodmen-town [H] (TW)

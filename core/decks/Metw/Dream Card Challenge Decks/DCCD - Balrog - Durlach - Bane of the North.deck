@@ -46,11 +46,11 @@ Deck
 
 1 Beadmaker's Hunting Runeknife (NW)
 
-# Minion Character (5)
+# Minion Character (6)
 
 1 Forest-troll (KN)
 2 Hill-troll (BA)
-1 Ice-troll (NW)
+2 Ice-troll (NW)
 1 Konihrabn (NW)
 
 # Minion Resource (29)
@@ -107,7 +107,7 @@ Sideboard
 
 # Minion Character (1)
 
-1 Crook-legged Orc (BA)
+1 Troll Henchman (KN)
 
 # Minion Resource (12)
 
@@ -127,38 +127,32 @@ Sideboard
 Sites
 #####
 
-# Balrog Site (4)
+# Balrog Site (3)
 
 1 Eithel Morgoth [B] (NW)
 1 Mornost [B] (NW)
-1 Shapal Udûn [B] (ML)
 1 The Under-forges [B] (NW)
 
 # Dual Site (1)
 
 1 Ancient Maze (ML)
 
-# Minion Site (32)
+# Minion Site (26)
 
 1 Achrond [M] (NW)
 1 Amon Anlug [M] (NW)
 1 Andoloki [M] (NW)
 1 Bernastath [M] (NW)
 1 Canadras [M] (NW)
-1 Celeb-ost [M] (NW)
 1 Ei Missa [M] (NW)
 1 Evermist [M] (NW)
 1 Gondring's Lair [M] (NW)
-1 Helloth [M] (NW)
 1 Kula Dulakurth [M] (NW)
 1 Kylmätalo [M] (NW)
 1 Leiri [M] (NW)
-1 Ligr Wodaize Berne [M] (NW)
 1 Linnarthurras [M] (NW)
-1 Litash [M] (NW)
 1 Lugdruong [M] (ML)
 1 Malgolodh's Cave [M] (NW)
-1 Númenórean Tomb [M] (ML)
 1 Orod Certhas [M] (NW)
 1 Pendrath na-Udûn [M] (NW)
 1 Pieni Satama [M] (NW)
@@ -166,7 +160,6 @@ Sites
 1 Ruskea Vene [M] (NW)
 1 Thaurung [M] (NW)
 1 The Pits of Angband [M] (ML)
-1 The Vaults of Utûmno [M] (ML)
 1 Thilgon's Tomb [M] (NW)
 1 Tol Morven [M] (NW)
 1 Tol Ringurthur [M] (ML)

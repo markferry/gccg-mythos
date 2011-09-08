@@ -45,8 +45,8 @@ BKBGCOLOR=(98,52,23);
 BKBRCOLOR=(248,201,111);
 
 product.image=(,);
-product.image{"Beta booster"}="Beta_booster.jpg";
-product.image{"Beta starter"}="Beta_starter.jpg";
+product.image{"Limited Edition Beta booster"}="Beta_booster.jpg";
+product.image{"Limited Edition Beta starter"}="Beta_starter.jpg";
 product.image{"Arabian Nights booster"}="AN_booster.jpg";
 product.image{"Antiquities booster"}="AQ_booster.jpg";
 product.image{"Legends booster"}="LG_booster.jpg";
@@ -96,20 +96,20 @@ product.image{"Legions booster"}="LE_booster.jpg";
 product.image{"Scourge booster"}="SC_booster.jpg";
 product.image{"Mirrodin starter"}="MR_starter.jpg";
 product.image{"Mirrodin booster"}="MR_booster.jpg";
-product.image{"4th Edition starter"}="4E_starter.jpg";
-product.image{"4th Edition booster"}="4E_booster.jpg";
-product.image{"5th Edition starter"}="5E_starter.jpg";
-product.image{"5th Edition booster"}="5E_booster.jpg";
-product.image{"6th Edition starter"}="6E_starter.jpg";
-product.image{"6th Edition booster"}="6E_booster.jpg";
-product.image{"7th Edition booster"}="7E_booster.jpg";
-product.image{"7th Edition starter"}="7E_starter.jpg";
-product.image{"8th Edition booster"}="8E_booster.jpg";
-product.image{"8th Edition starter"}="8E_starter.jpg";
-product.image{"9th Edition booster"}="9E_booster.jpg";
-product.image{"9th Edition starter"}="9E_starter.jpg";
-product.image{"Revised starter"}="RV_starter.jpg";
-product.image{"Revised booster"}="RV_booster.jpg";
+product.image{"Fourth Edition starter"}="4E_starter.jpg";
+product.image{"Fourth Edition booster"}="4E_booster.jpg";
+product.image{"Fifth Edition starter"}="5E_starter.jpg";
+product.image{"Fifth Edition booster"}="5E_booster.jpg";
+product.image{"Sixth Edition starter"}="6E_starter.jpg";
+product.image{"Sixth Edition booster"}="6E_booster.jpg";
+product.image{"Seventh Edition booster"}="7E_booster.jpg";
+product.image{"Seventh Edition starter"}="7E_starter.jpg";
+product.image{"Eighth Edition booster"}="8E_booster.jpg";
+product.image{"Eighth Edition starter"}="8E_starter.jpg";
+product.image{"Ninth Edition booster"}="9E_booster.jpg";
+product.image{"Ninth Edition starter"}="9E_starter.jpg";
+product.image{"Revised Edition starter"}="RV_starter.jpg";
+product.image{"Revised Edition booster"}="RV_booster.jpg";
 product.image{"Darksteel booster"}="DS_booster.jpg";
 product.image{"Fifth Dawn booster"}="FD_booster.jpg";
 product.image{"Champions of Kamigawa starter"}="CK_starter.jpg";
@@ -215,26 +215,32 @@ FILTER_OPTIONS=(
  ("Sorceries","find('Sorcery',Attr('type',#))!=NULL",(1,"[color]","[name]")),
  ("Creatures","find('Creature',Attr('type',#))!=NULL",(1,"[color]","[name]")),
  "{hr}",
- ("Tribal Creatures","TribalLegal(#) && set_of(#)!='UG'",("[subtype]","[color]","[name]")),
- ("Extended Legal","TypeLegal('Extended',#)",(1,"[color]","[age]","[name]")),
- ("Type 1 Restricted","TypeRestricted('Vintage T1',#)",(1,"[color]","[age]","[name]")),
- ("Type 2 (1997) Legal","TypeLegal('Type 2 (1997)',#)",(1,"[color]","[age]","[name]")),
- ("Type 2 (1998) Legal","TypeLegal('Type 2 (1998)',#)",(1,"[color]","[age]","[name]")),
- ("Type 2 (1999) Legal","TypeLegal('Type 2 (1999)',#)",(1,"[color]","[age]","[name]")),
- ("Type 2 (2000) Legal","TypeLegal('Type 2 (2000)',#)",(1,"[color]","[age]","[name]")),
- ("Type 2 (2001) Legal","TypeLegal('Type 2 (2001)',#)",(1,"[color]","[age]","[name]")),
- ("Type 2 (2002) Legal","TypeLegal('Type 2 (2002)',#)",(1,"[color]","[age]","[name]")),
- ("Type 2 (2003) Legal","TypeLegal('Type 2 (2003)',#)",(1,"[color]","[age]","[name]")),
- ("Type 2 (2004) Legal","TypeLegal('Type 2 (2004)',#)",(1,"[color]","[age]","[name]")),
- ("Type 2 (2005) Legal","TypeLegal('Type 2 (2005)',#)",(1,"[color]","[age]","[name]")),
- ("Type 2 (2006) Legal","TypeLegal('Type 2 (2006)',#)",(1,"[color]","[age]","[name]")),
- ("Type 2 (2007) Legal","TypeLegal('Type 2 (2007)',#)",(1,"[color]","[age]","[name]")),
- ("Type 2 (2008) Legal","TypeLegal('Type 2 (2008)',#)",(1,"[color]","[age]","[name]")),
- ("Type 2 (2009) Legal","TypeLegal('Type 2 (2009)',#)",(1,"[color]","[age]","[name]")),
- ("Type 2 (2010) Legal","TypeLegal('Type 2 (2010)',#)",(1,"[color]","[age]","[name]")),
- ("Type 2 Legal","TypeLegal('Type 2',#)",(1,"[color]","[age]","[name]")),
- "{hr}",
  ("Sealed deck","first(book_entry(card.book,#))",(1,"[color]","[name]")),
+ "{hr}",
+ ("Vintage Restricted","TypeRestricted('Vintage T1',#)",(1,"[color]","[age]","[name]")),
+ ("Legacy Legal","TypeLegal('Legacy T1.5',#)",(1,"[color]","[age]","[name]")),
+ ("Commander Legal","TypeLegal('Commander EDH',#)",(1,"[color]","[age]","[name]")),
+ ("Highlander Legal","TypeLegal('Highlander',#)",(1,"[color]","[age]","[name]")),
+ "{hr}",
+ ("Modern Legal","TypeLegal('Modern',#)",(1,"[color]","[age]","[name]")),
+ ("Extended Legal","TypeLegal('Extended',#)",(1,"[color]","[age]","[name]")),
+ ("Standard Legal","TypeLegal('Type 2',#)",(1,"[color]","[age]","[name]")),
+ ("Standard (2010) Legal","TypeLegal('Type 2 (2010)',#)",(1,"[color]","[age]","[name]")),
+ ("Standard (2009) Legal","TypeLegal('Type 2 (2009)',#)",(1,"[color]","[age]","[name]")),
+ ("Standard (2008) Legal","TypeLegal('Type 2 (2008)',#)",(1,"[color]","[age]","[name]")),
+ ("Standard (2007) Legal","TypeLegal('Type 2 (2007)',#)",(1,"[color]","[age]","[name]")),
+ ("Standard (2006) Legal","TypeLegal('Type 2 (2006)',#)",(1,"[color]","[age]","[name]")),
+ ("Standard (2005) Legal","TypeLegal('Type 2 (2005)',#)",(1,"[color]","[age]","[name]")),
+ ("Standard (2004) Legal","TypeLegal('Type 2 (2004)',#)",(1,"[color]","[age]","[name]")),
+ ("Standard (2003) Legal","TypeLegal('Type 2 (2003)',#)",(1,"[color]","[age]","[name]")),
+ ("Standard (2002) Legal","TypeLegal('Type 2 (2002)',#)",(1,"[color]","[age]","[name]")),
+ ("Standard (2001) Legal","TypeLegal('Type 2 (2001)',#)",(1,"[color]","[age]","[name]")),
+ ("Standard (2000) Legal","TypeLegal('Type 2 (2000)',#)",(1,"[color]","[age]","[name]")),
+ ("Standard (1999) Legal","TypeLegal('Type 2 (1999)',#)",(1,"[color]","[age]","[name]")),
+ ("Standard (1998) Legal","TypeLegal('Type 2 (1998)',#)",(1,"[color]","[age]","[name]")),
+ ("Standard (1997) Legal","TypeLegal('Type 2 (1997)',#)",(1,"[color]","[age]","[name]")),
+ "{hr}",
+ ("Tribal Creatures","TribalLegal(#) && set_of(#)!='UG'",("[subtype]","[color]","[name]")),
  "{hr}",
 );
 
@@ -364,97 +370,257 @@ def MouseLeftClickExile
 def TokenSubmenu
 {
   Submenu("Select Token",(
-   ("Play Angel 4/4 (W)","",'Send("Transfer",(1,("out.of.play",9),("play",0)))'),
-   ("Play Avatar */* (W)","",'Send("Transfer",(1,("out.of.play",10),("play",0)))'),
-   ("Play Bear 2/2 (G)","",'Send("Transfer",(1,("out.of.play",11),("play",0)))'),
-   ("Play Beast 3/3 (G)","",'Send("Transfer",(1,("out.of.play",12),("play",0)))'),
-   ("Play Beast 4/4 (G)","",'Send("Transfer",(1,("out.of.play",13),("play",0)))'),
-   ("Play Beast 5/5 (G)","",'Send("Transfer",(1,("out.of.play",14),("play",0)))'),
-   ("Play Beast 8/8 (RGW)","",'Send("Transfer",(1,("out.of.play",15),("play",0)))'),
-   ("Play Bird 1/1 (U)","",'Send("Transfer",(1,("out.of.play",16),("play",0)))'),
-   ("Play Bird 1/1 (UW)","",'Send("Transfer",(1,("out.of.play",17),("play",0)))'),
-   ("Play Bird 1/1 (W)","",'Send("Transfer",(1,("out.of.play",18),("play",0)))'),
-   ("Play Bird Soldier 1/1 (W)","",'Send("Transfer",(1,("out.of.play",19),("play",0)))'),
-   ("Play Cat 1/1 (R)","",'Send("Transfer",(1,("out.of.play",20),("play",0)))'),
-   ("Play Cat 2/1 (B)","",'Send("Transfer",(1,("out.of.play",21),("play",0)))'),
-   ("Play Centaur 3/3 (G)","",'Send("Transfer",(1,("out.of.play",22),("play",0)))'),
+   ("A","","TokenSubmenuA()"),
+   ("B","","TokenSubmenuB()"),
+   ("C","","TokenSubmenuC()"),
+   ("D","","TokenSubmenuD()"),
+   ("E","","TokenSubmenuE()"),
+   ("F","","TokenSubmenuF()"),
+   ("G","","TokenSubmenuG()"),
+   ("H","","TokenSubmenuH()"),
+   ("I","","TokenSubmenuI()"),
+   ("K","","TokenSubmenuK()"),
+   ("L","","TokenSubmenuL()"),
+   ("M","","TokenSubmenuM()"),
+   ("O","","TokenSubmenuO()"),
+   ("P","","TokenSubmenuP()"),
+   ("R","","TokenSubmenuR()"),
+   ("S","","TokenSubmenuS()"),
+   ("T","","TokenSubmenuT()"),
+   ("U","","TokenSubmenuU()"),
+   ("V","","TokenSubmenuV()"),
+   ("W","","TokenSubmenuW()"),
+   ("Z","","TokenSubmenuZ()"),
+   ));
+}
+
+def TokenSubmenuA 
+{
+  Submenu("Select Token",(
+   ("Angel 4/4 (W)","",'Send("Transfer",(1,("out.of.play",9),("play",0)))'),
+   ("Avatar */* (W)","",'Send("Transfer",(1,("out.of.play",10),("play",0)))'),
+  ));
+}
+
+def TokenSubmenuB 
+{
+  Submenu("Select Token",(
+   ("Bear 2/2 (G)","",'Send("Transfer",(1,("out.of.play",11),("play",0)))'),
+   ("Beast 3/3 (G)","",'Send("Transfer",(1,("out.of.play",12),("play",0)))'),
+   ("Beast 4/4 (G)","",'Send("Transfer",(1,("out.of.play",13),("play",0)))'),
+   ("Beast 5/5 (G)","",'Send("Transfer",(1,("out.of.play",14),("play",0)))'),
+   ("Beast 8/8 (RGW)","",'Send("Transfer",(1,("out.of.play",15),("play",0)))'),
+   ("Bird 1/1 (U)","",'Send("Transfer",(1,("out.of.play",16),("play",0)))'),
+   ("Bird 1/1 (UW)","",'Send("Transfer",(1,("out.of.play",17),("play",0)))'),
+   ("Bird 1/1 (W)","",'Send("Transfer",(1,("out.of.play",18),("play",0)))'),
+   ("Bird 3/3 (W)","",'Send("Transfer",(1,("out.of.play",112),("play",0)))'),
+   ("Bird Soldier 1/1 (W)","",'Send("Transfer",(1,("out.of.play",19),("play",0)))'),
+  ));
+}
+
+def TokenSubmenuC 
+{
+  Submenu("Select Token",(
+   ("Cat 1/1 (R)","",'Send("Transfer",(1,("out.of.play",20),("play",0)))'),
+   ("Cat 2/1 (B)","",'Send("Transfer",(1,("out.of.play",21),("play",0)))'),
+   ("Centaur 3/3 (G)","",'Send("Transfer",(1,("out.of.play",22),("play",0)))'),
+   ("Construct 6/12 (C)","",'Send("Transfer",(1,("out.of.play",100),("play",0)))'),
+  ));
+}
+
+def TokenSubmenuD 
+{
+  Submenu("Select Token",(
    ("Play Demon */* (B)","",'Send("Transfer",(1,("out.of.play",23),("play",0)))'),
    ("Play Dragon 1/1 (RG)","",'Send("Transfer",(1,("out.of.play",24),("play",0)))'),
    ("Play Dragon 4/4 (R)","",'Send("Transfer",(1,("out.of.play",25),("play",0)))'),
    ("Play Dragon 5/5 (R)","",'Send("Transfer",(1,("out.of.play",26),("play",0)))'),
    ("Play Dragon Spirit 5/5 (U)","",'Send("Transfer",(1,("out.of.play",27),("play",0)))'),
    ("Play Drake 2/2 (UG)","",'Send("Transfer",(1,("out.of.play",28),("play",0)))'),
-   ("Play Elemental 1/1 (U)","",'Send("Transfer",(1,("out.of.play",29),("play",0)))'),
-   ("Play Elemental 2/2 (U)","",'Send("Transfer",(1,("out.of.play",30),("play",0)))'),
-   ("Play Elemental 3/1 (R)","",'Send("Transfer",(1,("out.of.play",31),("play",0)))'),
-   ("Play Elemental 3/3 (R)","",'Send("Transfer",(1,("out.of.play",32),("play",0)))'),
-   ("Play Elemental 4/4 (G)","",'Send("Transfer",(1,("out.of.play",33),("play",0)))'),
-   ("Play Elemental 4/4 (W)","",'Send("Transfer",(1,("out.of.play",34),("play",0)))'),
-   ("Play Elemental 5/5 (BR)","",'Send("Transfer",(1,("out.of.play",35),("play",0)))'),
-   ("Play Elemental 5/5 (UR)","",'Send("Transfer",(1,("out.of.play",36),("play",0)))'),
-   ("Play Elemental 7/7 (G)","",'Send("Transfer",(1,("out.of.play",37),("play",0)))'),
-   ("Play Elemental */* (G)","",'Send("Transfer",(1,("out.of.play",38),("play",0)))'),
-   ("Play Elemental Shaman 3/1 (R)","",'Send("Transfer",(1,("out.of.play",39),("play",0)))'),
-   ("Play Elephant 3/3 (G)","",'Send("Transfer",(1,("out.of.play",40),("play",0)))'),   
-   ("Play Elf Warrior 1/1 (G)","",'Send("Transfer",(1,("out.of.play",41),("play",0)))'),
-   ("Play Elf Warrior 1/1 (GW)","",'Send("Transfer",(1,("out.of.play",42),("play",0)))'),
-   ("Play Faerie 1/1 (U)","",'Send("Transfer",(1,("out.of.play",43),("play",0)))'),
-   ("Play Faerie Rogue 1/1 (B)","",'Send("Transfer",(1,("out.of.play",44),("play",0)))'),
-   ("Play Faerie Rogue 1/1 (BU)","",'Send("Transfer",(1,("out.of.play",45),("play",0)))'),
-   ("Play Giant Warrior 4/4 (GR)","",'Send("Transfer",(1,("out.of.play",46),("play",0)))'),
-   ("Play Giant Warrior 5/5 (W)","",'Send("Transfer",(1,("out.of.play",47),("play",0)))'),
-   ("Play Goat 0/1 (W)","",'Send("Transfer",(1,("out.of.play",48),("play",0)))'),
-   ("Play Goblin 1/1 (R)","",'Send("Transfer",(1,("out.of.play",49),("play",0)))'),
-   ("Play Goblin Rogue 1/1 (B)","",'Send("Transfer",(1,("out.of.play",50),("play",0)))'),   
-   ("Play Goblin Soldier 1/1 (RW)","",'Send("Transfer",(1,("out.of.play",51),("play",0)))'),
-   ("Play Goblin Warrior 1/1 (GR)","",'Send("Transfer",(1,("out.of.play",52),("play",0)))'),
-   ("Play Hippo 1/1 (G)","",'Send("Transfer",(1,("out.of.play",53),("play",0)))'),
-   ("Play Homunculus 0/1 (A)","",'Send("Transfer",(1,("out.of.play",54),("play",0)))'),
-   ("Play Horror 4/4 (B)","",'Send("Transfer",(1,("out.of.play",55),("play",0)))'),
-   ("Play Illusion 1/1 (U)","",'Send("Transfer",(1,("out.of.play",56),("play",0)))'),
-   ("Play Insect 1/1 (G)","",'Send("Transfer",(1,("out.of.play",57),("play",0)))'),
-   ("Play Kaldra 4/4 (C)","",'Send("Transfer",(1,("out.of.play",58),("play",0)))'),
-   ("Play Kavu 3/3 (B)","",'Send("Transfer",(1,("out.of.play",59),("play",0)))'),
-   ("Play Kithkin Soldier 1/1 (W)","",'Send("Transfer",(1,("out.of.play",60),("play",0)))'),   
-   ("Play Knight 2/2 (W)","",'Send("Transfer",(1,("out.of.play",61),("play",0)))'),
-   ("Play Lizard 2/2 (G)","",'Send("Transfer",(1,("out.of.play",62),("play",0)))'),
-   ("Play Marit Lage 20/20 (B)","",'Send("Transfer",(1,("out.of.play",63),("play",0)))'),
-   ("Play Merfolk Wizard 1/1 (U)","",'Send("Transfer",(1,("out.of.play",64),("play",0)))'),
-   ("Play Myr 1/1 (A)","",'Send("Transfer",(1,("out.of.play",65),("play",0)))'),
-   ("Play Ooze */* (G)","",'Send("Transfer",(1,("out.of.play",66),("play",0)))'),
-   ("Play Pentavite 1/1 (A)","",'Send("Transfer",(1,("out.of.play",67),("play",0)))'),
-   ("Play Pest 0/1 (A)","",'Send("Transfer",(1,("out.of.play",68),("play",0)))'),
-   ("Play Pincher 2/2 (A)","",'Send("Transfer",(1,("out.of.play",69),("play",0)))'),
-   ("Play Rat 1/1 (B)","",'Send("Transfer",(1,("out.of.play",70),("play",0)))'),
-   ("Play Reflection */* (W)","",'Send("Transfer",(1,("out.of.play",71),("play",0)))'),   
-   ("Play Rukh 4/4 (R)","",'Send("Transfer",(1,("out.of.play",72),("play",0)))'),
-   ("Play Saproling 1/1 (G)","",'Send("Transfer",(1,("out.of.play",73),("play",0)))'),
-   ("Play Shapeshifter 1/1 (C)","",'Send("Transfer",(1,("out.of.play",74),("play",0)))'),
-   ("Play Skeleton 1/1 (B)","",'Send("Transfer",(1,("out.of.play",75),("play",0)))'),
-   ("Play Sliver 1/1 (A)","",'Send("Transfer",(1,("out.of.play",76),("play",0)))'),
-   ("Play Snake 1/1 (G)","",'Send("Transfer",(1,("out.of.play",77),("play",0)))'),
-   ("Play Snake 1/1 (UG)","",'Send("Transfer",(1,("out.of.play",78),("play",0)))'),
-   ("Play Soldier 1/1 (W)","",'Send("Transfer",(1,("out.of.play",79),("play",0)))'),
-   ("Play Spawn 2/2 (A)","",'Send("Transfer",(1,("out.of.play",80),("play",0)))'),
-   ("Play Spider 1/2 (G)","",'Send("Transfer",(1,("out.of.play",81),("play",0)))'),   
-   ("Play Spirit 1/1 (C)","",'Send("Transfer",(1,("out.of.play",82),("play",0)))'),
-   ("Play Spirit 1/1 (BW)","",'Send("Transfer",(1,("out.of.play",83),("play",0)))'),
-   ("Play Spirit 1/1 (W)","",'Send("Transfer",(1,("out.of.play",84),("play",0)))'),
-   ("Play Squirrel 1/1 (G)","",'Send("Transfer",(1,("out.of.play",85),("play",0)))'),
-   ("Play Thopther 1/1 (A)","",'Send("Transfer",(1,("out.of.play",86),("play",0)))'),
-   ("Play Thrull 0/1 (B)","",'Send("Transfer",(1,("out.of.play",87),("play",0)))'),
-   ("Play Treefolk Shaman 2/5 (G)","",'Send("Transfer",(1,("out.of.play",88),("play",0)))'),
-   ("Play Twin 3/4 (A)","",'Send("Transfer",(1,("out.of.play",89),("play",0)))'),
-   ("Play Urami 5/5 (B)","",'Send("Transfer",(1,("out.of.play",90),("play",0)))'),
-   ("Play Voja 2/2 (GW)","",'Send("Transfer",(1,("out.of.play",91),("play",0)))'),   
-   ("Play Warrior 1/1 (R)","",'Send("Transfer",(1,("out.of.play",92),("play",0)))'),
-   ("Play Wasp 1/1 (A)","",'Send("Transfer",(1,("out.of.play",93),("play",0)))'),
-   ("Play Wolf 2/2 (G)","",'Send("Transfer",(1,("out.of.play",94),("play",0)))'),
-   ("Play Worm 1/1 (BG)","",'Send("Transfer",(1,("out.of.play",95),("play",0)))'),
-   ("Play Wurm 6/6 (B)","",'Send("Transfer",(1,("out.of.play",96),("play",0)))'),
-   ("Play Wurm 6/6 (G)","",'Send("Transfer",(1,("out.of.play",97),("play",0)))'),
-   ("Play Zombie 2/2 (B)","",'Send("Transfer",(1,("out.of.play",98),("play",0)))'),
-   ("Play Zombie Wizard 1/1 (BU)","",'Send("Transfer",(1,("out.of.play",99),("play",0)))'),
+  ));
+}
+   
+def TokenSubmenuE
+{
+  Submenu("Select Token",(
+   ("Eldrazi Spawn 0/1 (C)","",'Send("Transfer",(1,("out.of.play",101),("play",0)))'),
+   ("Elemental 1/1 (U)","",'Send("Transfer",(1,("out.of.play",29),("play",0)))'),
+   ("Elemental 2/2 (U)","",'Send("Transfer",(1,("out.of.play",30),("play",0)))'),
+   ("Elemental 3/1 (R)","",'Send("Transfer",(1,("out.of.play",31),("play",0)))'),
+   ("Elemental 3/3 (R)","",'Send("Transfer",(1,("out.of.play",32),("play",0)))'),
+   ("Elemental 4/4 (G)","",'Send("Transfer",(1,("out.of.play",33),("play",0)))'),
+   ("Elemental 4/4 (W)","",'Send("Transfer",(1,("out.of.play",34),("play",0)))'),
+   ("Elemental 5/5 (BR)","",'Send("Transfer",(1,("out.of.play",35),("play",0)))'),
+   ("Elemental 5/5 (UR)","",'Send("Transfer",(1,("out.of.play",36),("play",0)))'),
+   ("Elemental 7/7 (G)","",'Send("Transfer",(1,("out.of.play",37),("play",0)))'),
+   ("Elemental */* (G)","",'Send("Transfer",(1,("out.of.play",38),("play",0)))'),
+   ("Elemental */* (R)","",'Send("Transfer",(1,("out.of.play",102),("play",0)))'),
+   ("Elemental Shaman 3/1 (R)","",'Send("Transfer",(1,("out.of.play",39),("play",0)))'),
+   ("Elephant 3/3 (G)","",'Send("Transfer",(1,("out.of.play",40),("play",0)))'),   
+   ("Elf Warrior 1/1 (G)","",'Send("Transfer",(1,("out.of.play",41),("play",0)))'),
+   ("Elf Warrior 1/1 (GW)","",'Send("Transfer",(1,("out.of.play",42),("play",0)))'),
+  ));
+}
+
+def TokenSubmenuF
+{
+  Submenu("Select Token",(
+   ("Faerie 1/1 (U)","",'Send("Transfer",(1,("out.of.play",43),("play",0)))'),
+   ("Faerie Rogue 1/1 (B)","",'Send("Transfer",(1,("out.of.play",44),("play",0)))'),
+   ("Faerie Rogue 1/1 (BU)","",'Send("Transfer",(1,("out.of.play",45),("play",0)))'),
+  ));
+}
+
+def TokenSubmenuG 
+{
+  Submenu("Select Token",(
+   ("Germ 0/0 (B)","",'Send("Transfer",(1,("out.of.play",103),("play",0)))'),
+   ("Giant Warrior 4/4 (GR)","",'Send("Transfer",(1,("out.of.play",46),("play",0)))'),
+   ("Giant Warrior 5/5 (W)","",'Send("Transfer",(1,("out.of.play",47),("play",0)))'),
+   ("Goat 0/1 (W)","",'Send("Transfer",(1,("out.of.play",48),("play",0)))'),
+   ("Goblin 1/1 (R)","",'Send("Transfer",(1,("out.of.play",49),("play",0)))'),
+   ("Goblin Rogue 1/1 (B)","",'Send("Transfer",(1,("out.of.play",50),("play",0)))'),   
+   ("Goblin Soldier 1/1 (RW)","",'Send("Transfer",(1,("out.of.play",51),("play",0)))'),
+   ("Goblin Warrior 1/1 (GR)","",'Send("Transfer",(1,("out.of.play",52),("play",0)))'),
+   ("Golem 3/3 (C)","",'Send("Transfer",(1,("out.of.play",104),("play",0)))'),
+   ("Golem 9/9 (C)","",'Send("Transfer",(1,("out.of.play",105),("play",0)))'),
+  ));
+}
+
+def TokenSubmenuH 
+{
+  Submenu("Select Token",(
+   ("Hellion 4/4 (R)","",'Send("Transfer",(1,("out.of.play",106),("play",0)))'),
+   ("Hippo 1/1 (G)","",'Send("Transfer",(1,("out.of.play",53),("play",0)))'),
+   ("Homunculus 0/1 (A)","",'Send("Transfer",(1,("out.of.play",54),("play",0)))'),
+   ("Horror 4/4 (B)","",'Send("Transfer",(1,("out.of.play",55),("play",0)))'),
+   ("Horror */* (C)","",'Send("Transfer",(1,("out.of.play",107),("play",0)))'),
+  ));
+}
+
+def TokenSubmenuI 
+{
+  Submenu("Select Token",(
+   ("Illusion 1/1 (U)","",'Send("Transfer",(1,("out.of.play",56),("play",0)))'),
+   ("Insect 1/1 (G)","",'Send("Transfer",(1,("out.of.play",57),("play",0)))'),
+  ));
+}
+
+def TokenSubmenuK 
+{
+  Submenu("Select Token",(
+   ("Kaldra 4/4 (C)","",'Send("Transfer",(1,("out.of.play",58),("play",0)))'),
+   ("Kavu 3/3 (B)","",'Send("Transfer",(1,("out.of.play",59),("play",0)))'),
+   ("Kithkin Soldier 1/1 (W)","",'Send("Transfer",(1,("out.of.play",60),("play",0)))'),   
+   ("Knight 2/2 (W)","",'Send("Transfer",(1,("out.of.play",61),("play",0)))'),
+  ));
+}
+
+def TokenSubmenuL 
+{
+  Submenu("Select Token",(
+   ("Lizard 2/2 (G)","",'Send("Transfer",(1,("out.of.play",62),("play",0)))'),
+  ));
+}
+
+def TokenSubmenuM 
+{
+  Submenu("Select Token",(
+   ("Marit Lage 20/20 (B)","",'Send("Transfer",(1,("out.of.play",63),("play",0)))'),
+   ("Merfolk Wizard 1/1 (U)","",'Send("Transfer",(1,("out.of.play",64),("play",0)))'),
+   ("Myr 1/1 (A)","",'Send("Transfer",(1,("out.of.play",65),("play",0)))'),
+  ));
+}
+
+def TokenSubmenuO 
+{
+  Submenu("Select Token",(
+   ("Ogre 3/3 (R)","",'Send("Transfer",(1,("out.of.play",108),("play",0)))'),
+   ("Ooze */* (G)","",'Send("Transfer",(1,("out.of.play",66),("play",0)))'),
+  ));
+}
+
+def TokenSubmenuP 
+{
+  Submenu("Select Token",(
+   ("Pentavite 1/1 (A)","",'Send("Transfer",(1,("out.of.play",67),("play",0)))'),
+   ("Pest 0/1 (A)","",'Send("Transfer",(1,("out.of.play",68),("play",0)))'),
+   ("Pincher 2/2 (A)","",'Send("Transfer",(1,("out.of.play",69),("play",0)))'),
+   ("Plant 0/1 (G)","",'Send("Transfer",(1,("out.of.play",109),("play",0)))'),
+  ));
+}
+
+def TokenSubmenuR 
+{
+  Submenu("Select Token",(
+   ("Rat 1/1 (B)","",'Send("Transfer",(1,("out.of.play",70),("play",0)))'),
+   ("Reflection */* (W)","",'Send("Transfer",(1,("out.of.play",71),("play",0)))'),   
+   ("Rukh 4/4 (R)","",'Send("Transfer",(1,("out.of.play",72),("play",0)))'),
+  ));
+}
+
+def TokenSubmenuS 
+{
+  Submenu("Select Token",(
+   ("Saproling 1/1 (G)","",'Send("Transfer",(1,("out.of.play",73),("play",0)))'),
+   ("Shapeshifter 1/1 (C)","",'Send("Transfer",(1,("out.of.play",74),("play",0)))'),
+   ("Skeleton 1/1 (B)","",'Send("Transfer",(1,("out.of.play",75),("play",0)))'),
+   ("Sliver 1/1 (A)","",'Send("Transfer",(1,("out.of.play",76),("play",0)))'),
+   ("Snake 1/1 (G)","",'Send("Transfer",(1,("out.of.play",77),("play",0)))'),
+   ("Snake 1/1 (UG)","",'Send("Transfer",(1,("out.of.play",78),("play",0)))'),
+   ("Soldier 1/1 (W)","",'Send("Transfer",(1,("out.of.play",79),("play",0)))'),
+   ("Soldier Ally 1/1 (W)","",'Send("Transfer",(1,("out.of.play",110),("play",0)))'),
+   ("Spawn 2/2 (A)","",'Send("Transfer",(1,("out.of.play",80),("play",0)))'),
+   ("Spider 1/2 (G)","",'Send("Transfer",(1,("out.of.play",81),("play",0)))'),   
+   ("Spirit 1/1 (C)","",'Send("Transfer",(1,("out.of.play",82),("play",0)))'),
+   ("Spirit 1/1 (BW)","",'Send("Transfer",(1,("out.of.play",83),("play",0)))'),
+   ("Spirit 1/1 (W)","",'Send("Transfer",(1,("out.of.play",84),("play",0)))'),
+   ("Squirrel 1/1 (G)","",'Send("Transfer",(1,("out.of.play",85),("play",0)))'),
+  ));
+}
+
+def TokenSubmenuT 
+{
+  Submenu("Select Token",(
+   ("Thopter 1/1 (AU)","",'Send("Transfer",(1,("out.of.play",86),("play",0)))'),
+   ("Thopter 1/1 (A)","",'Send("Transfer",(1,("out.of.play",111),("play",0)))'),
+   ("Thrull 0/1 (B)","",'Send("Transfer",(1,("out.of.play",87),("play",0)))'),
+   ("Treefolk Shaman 2/5 (G)","",'Send("Transfer",(1,("out.of.play",88),("play",0)))'),
+   ("Twin 3/4 (A)","",'Send("Transfer",(1,("out.of.play",89),("play",0)))'),
+  ));
+}
+
+def TokenSubmenuU 
+{
+  Submenu("Select Token",(
+   ("Urami 5/5 (B)","",'Send("Transfer",(1,("out.of.play",90),("play",0)))'),
+  ));
+}
+
+def TokenSubmenuV 
+{
+  Submenu("Select Token",(
+   ("Voja 2/2 (GW)","",'Send("Transfer",(1,("out.of.play",91),("play",0)))'),   
+  ));
+}
+
+def TokenSubmenuW 
+{
+  Submenu("Select Token",(
+   ("Warrior 1/1 (R)","",'Send("Transfer",(1,("out.of.play",92),("play",0)))'),
+   ("Wasp 1/1 (A)","",'Send("Transfer",(1,("out.of.play",93),("play",0)))'),
+   ("Wolf 2/2 (G)","",'Send("Transfer",(1,("out.of.play",94),("play",0)))'),
+   ("Worm 1/1 (BG)","",'Send("Transfer",(1,("out.of.play",95),("play",0)))'),
+   ("Wurm 6/6 (B)","",'Send("Transfer",(1,("out.of.play",96),("play",0)))'),
+   ("Wurm 6/6 (G)","",'Send("Transfer",(1,("out.of.play",97),("play",0)))'),
+  ));
+}
+
+def TokenSubmenuZ 
+{
+  Submenu("Select Token",(
+   ("Zombie 2/2 (B)","",'Send("Transfer",(1,("out.of.play",98),("play",0)))'),
+   ("Zombie Wizard 1/1 (BU)","",'Send("Transfer",(1,("out.of.play",99),("play",0)))'),
   ));
 }
 

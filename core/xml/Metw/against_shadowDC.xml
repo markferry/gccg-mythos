@@ -87,7 +87,7 @@
        <attr key="influence" value="0"/>
     </card>
 
-    <card name="Alatar the Hunter" graphics="AlatartheHunterDC.jpg" text="Unique. Maia. Manifestation of Alatar. Two strikes. Attacker chooses defending characters. Detainment and -3 prowess against hero companies. Discard this card if Alatar comes into play. May be played keyed to Free-domains and Free-holds and to Andrast, Old Pûkel Gap, Anfalas, Lamedon, Belfalas or Anórien; or at sites in these regions. As a permanent-event, all Maia attacks receive +1 prowess and strike and attacker chooses defending characters. Discard when any play deck is exhausted. {green} DCE: As a creature, may be played keyed to Taur Romen, Kykurian Kyn, Reimether, Lotan, Dyr, Forruhn, Harrhun ; or at sites in these regions.">
+    <card name="Alatar the Hunter" graphics="AlatartheHunterDC.jpg" text="Unique. Maia. Manifestation of Alatar. Two strikes. Attacker chooses defending characters. Detainment and -3 prowess against hero companies. Discard this card if Alatar comes into play. May be played keyed to Free-domains and Free-holds and to Andrast, Old Pûkel Gap, Anfalas, Lamedon, Belfalas or Anórien; or at sites in these regions. As a permanent-event, all Maia attacks receive +1 prowess and strike and attacker chooses defending characters. Discard when any play deck is exhausted. {green} DCE: add Kykurian Kyn, Lotan, Dyr, Forruhn, Harrhun to the listed regions, delete Lebennin, Belfalas and Anorien.">
        <attr key="unique" value="yes"/>
        <attr key="strikes" value="2"/>
        <attr key="mp" value="6* "/>
@@ -123,7 +123,7 @@
        <attr key="class" value="Creature"/>
        <attr key="type" value="Hazard"/>
     </card>
-    <card name="Galadhrim" graphics="GaladhrimDC.jpg" text="Elves. Three strikes. Detainment and -2 prowess against hero companies. Playable keyed to Lindon, Rhudaur, Wold &amp; Foothills, or Anfalas; or at non-Haven sites in these regions. Characters wounded by an attack from Galadhrim must discard all their items. {green} DCE: Playable keyed to Lindon, Rhudaur, Wold &amp; Foothills, Anfalas, Heb Aaraan, Felayia, or Minheldolath; or at non-Haven sites in these regions.">
+    <card name="Galadhrim" graphics="GaladhrimDC.jpg" text="Elves. Three strikes. Detainment and -2 prowess against hero companies. Playable keyed to Lindon, Rhudaur, Wold &amp; Foothills, or Anfalas; or at non-Haven sites in these regions. Characters wounded by an attack from Galadhrim must discard all their items. {green} DCE: add any region containing a hero haven to the listed regions.">
        <attr key="strikes" value="3"/>
        <attr key="mp" value="2*"/>
        <attr key="body" value="7"/>
@@ -201,7 +201,7 @@
        <attr key="class" value="Creature/Permanent-event"/>
        <attr key="type" value="Hazard"/>
     </card>
-    <card name="Pallando the Soul-keeper" graphics="PallandotheSoulkeeperDC.jpg" text="Unique. Maia. Manifestation of Pallando. Two strikes. Detainment and -3 prowess against hero companies. Discard this card if Pallando comes into play. May be played keyed to Free-domains and Free-holds and may also be played keyed to Lindon, Númeriador, Arthedain, or Cardolan; or at sites in these regions. As a permanent-event, the next non-Ringwraith minion discarded from play is instead eliminated. Discard when a minion is so eliminated. {green} DCE: As a creature, may be played keyed to Lindon, Númeriador, Clyan, or Chy; or at sites in these regions.">
+    <card name="Pallando the Soul-keeper" graphics="PallandotheSoulkeeperDC.jpg" text="Unique. Maia. Manifestation of Pallando. Two strikes. Detainment and -3 prowess against hero companies. Discard this card if Pallando comes into play. May be played keyed to Free-domains and Free-holds and may also be played keyed to Lindon, Númeriador, Arthedain, or Cardolan; or at sites in these regions. As a permanent-event, the next non-Ringwraith minion discarded from play is instead eliminated. Discard when a minion is so eliminated. {green} DCE: add Chy, Hathor or any region in Sirayn to the listed regions.">
        <attr key="unique" value="yes"/>
        <attr key="strikes" value="2"/>
        <attr key="mp" value="6*"/>
@@ -354,7 +354,7 @@
        <attr key="class" value="Short-event"/>
        <attr key="type" value="Hazard"/>
     </card>
-    <card name="Summons from Long Sleep" graphics="SummonsfromLongSleepDC.jpg" text="Place a Dragon or Drake face up &quot;off to the side&quot; with this card. You may play this creature as though it were in your hand with +2 prowess. Summons from Long Sleep is discarded when the creature attacks.">
+    <card name="Summons from Long Sleep" graphics="SummonsfromLongSleep.jpg" text="Place a Dragon or Drake face up &quot;off to the side&quot; with this card. You may play this creature as though it were in your hand with +2 prowess. Summons from Long Sleep is discarded when the creature attacks.">
        <attr key="rarity" value="C2"/>
        <attr key="class" value="Permanent-event"/>
        <attr key="type" value="Hazard"/>
@@ -533,8 +533,7 @@
        <attr key="mind" value="6"/>
 	   <attr key="keyword" value="Spawn"/>
     </card>
-
-    <card name="Black Horse" graphics="BlackHorseDC.jpg" text="Playable on a Ringwraith at a Darkhaven (does not tap the site). Each Horse allows you to play one Ringwraith who requires no direct influence to control. If each Ringwraith in company has a Horse, company is in Black Rider mode and may move as such. You may include up to 9 copies of this card in your play deck and sideboard. Return controller to your hand if Horse leaves play. {cyan} UEP: A Ringwraith with a mode ally (Black Horse or Creature of an Older World) will not return to hand on a body check (bc) of a 7 or 8. When a minion company consists entirely of Ringwraiths and Black Horses its maximum company size is increased to 9.">
+    <card name="Black Horse" graphics="BlackHorseDC.jpg" text=" Does not tap the site. Each Black Horse in your Ringwraith’s company allows you to play one Ringwraith follower who requires no direct influence to control. Its controlling Ringwraith is not returned to your hand on a body check of 7 or 8. return its controller to your hand if Black Horse leaves active play and he is not in a mode. If each Ringwraith in a company has a Black Horse, the company is in Black Rider mode and may freely move (using starter movement). You may include up to 9 copies of this card in your play deck and sideboard combined. A Ringwraith cannot control more than 3 copies of Black Horse.">
        <attr key="body" value="6"/>
        <attr key="prowess" value="4"/>
        <attr key="rarity" value="C3"/>
@@ -542,8 +541,7 @@
        <attr key="type" value="Minion Resource"/>
        <attr key="mind" value="2"/>
     </card>
-
-    <card name="Creature of an Older World" graphics="CreatureofanOlderWorldDC.jpg" text="Unique. Play on your Ringwraith at a tapped or untapped Barad-dûr (does not tap). Ringwraith gets +2 prowess and, if only character in company, is in Fell Rider mode and may move as such. Tap ally to: cancel a strike against your Ringwraith or to assign your Ringwraith's strikes against a hero company as you choose. Return Ringwraith to your hand if ally leaves play. {cyan} UEP: A Ringwraith with a mode ally (Black Horse or Creature of an Older World) will not return to hand on a body check (bc) of a 7 or 8. {green} DCE: Add: non-unique &amp; can be brought in play at Dol Guldur or Minas Morgul. In addition up to nine copies can be included in playdeck or sideboard combined.">
+    <card name="Creature of an Older World" graphics="CreatureofanOlderWorld.jpg" text="Unique. Play on your Ringwraith at a tapped or untapped Barad-dûr (does not tap). Ringwraith gets +2 prowess and, if only character in company, is in Fell Rider mode and may move as such. Tap ally to: cancel a strike against your Ringwraith or to assign your Ringwraith's strikes against a hero company as you choose. Return Ringwraith to your hand if ally leaves play. {cyan} UEP: A Ringwraith with a mode ally (Black Horse or Creature of an Older World) will not return to hand on a body check (bc) of a 7 or 8.">
        <attr key="unique" value="yes"/>
        <attr key="mp" value="1"/>
        <attr key="body" value="8"/>
@@ -648,7 +646,7 @@
        <attr key="type" value="Minion Resource"/>
     </card>
 
-    <card name="Hold Rebuilt and Repaired" graphics="HoldRebuiltandRepairedDC.jpg" text="Playable during the site phase on a non-Dragon's lair, non-Under-deeps Ruins and Lairs. The site becomes a Shadow-hold and all automatic-attacks become detainment. Discard this card when the site is discarded or returned to its location deck.">
+    <card name="Hold Rebuilt and Repaired" graphics="HoldRebuiltandRepaired.jpg" text="Playable during the site phase on a non-Dragon's lair, non-Under-deeps Ruins and Lairs. The site becomes a Shadow-hold and all automatic-attacks become detainment. Discard this card when the site is discarded or returned to its location deck.">
        <attr key="rarity" value="C2"/>
        <attr key="class" value="Permanent-event"/>
        <attr key="type" value="Minion Resource"/>
@@ -673,7 +671,7 @@
        <attr key="type" value="Minion Resource"/>
     </card>
 
-    <card name="The Misty Mountain Deeps" graphics="TheMistyMountainDeeps.jpg" text="Ranger only. If his company uses region movement, it may move as if the following regions were adjacent: Rhudaur and Anduin Vales, Rhudaur and Wold &amp; Foothills, Hollin and Wold &amp; Foothills, Hollin and Fangorn, Dunland and Fangorn. Alternatively, if the site moved to is one of the regions listed above, the hazard limit is reduced by two (to a minimum of two).">
+    <card name="The Misty Mountain Deeps" graphics="TheMistyMountainDeepsDC.jpg" text="Ranger only. If his company uses region movement, it may move as if the following regions were adjacent: Rhudaur and Anduin Vales, Rhudaur and Wold &amp; Foothills, Hollin and Wold &amp; Foothills, Hollin and Fangorn, Dunland and Fangorn. Alternatively, if the site moved to is one of the regions listed above or is in Misty Mountains, the hazard limit is reduced by two (to a minimum of two).">
        <attr key="rarity" value="C2"/>
        <attr key="class" value="Short-event"/>
        <attr key="type" value="Minion Resource"/>
@@ -698,7 +696,7 @@
        <attr key="type" value="Minion Resource"/>
     </card>
 
-    <card name="Padding Feet" graphics="PaddingFeetDC.jpg" text="Playable during  the site phase on a lone scout minion (no other characters or allies in his company) at the same site as an opponent hero company containing a hobbit. Also playable on a lone minion controlling Stinker. If during a following site phase target character is at the same site as the Hobbit, tap this card. This card never untaps. If then during a following site phase, target character is at the same site as the Hobbit, invert this card. If inverted, this card may be stored at a Darkhaven for 5 MP.">
+    <card name="Padding Feet" graphics="PaddingFeet.jpg" text="Playable during  the site phase on a lone scout minion (no other characters or allies in his company) at the same site as an opponent hero company containing a hobbit. Also playable on a lone minion controlling Stinker. If during a following site phase target character is at the same site as the Hobbit, tap this card. This card never untaps. If then during a following site phase, target character is at the same site as the Hobbit, invert this card. If inverted, this card may be stored at a Darkhaven for 5 MP.">
        <attr key="rarity" value="R2"/>
        <attr key="class" value="Permanent-event"/>
        <attr key="type" value="Minion Resource"/>
@@ -962,7 +960,7 @@
 	   <attr key="keyword" value="Battle-gear"/>
     </card>
 
-    <card name="Iron Shield of Old" graphics="IronShieldofOldDC.jpg" text="Shield. Playable at any Under-deeps Shadow-hold or Ruins and Lairs. +2 to all rolls required for bearer's company to move to an adjacent Under-deeps site. Warrior only: tap this items to make one strike against the bearer ineffectual.">
+    <card name="Iron Shield of Old" graphics="IronShieldofOld.jpg" text="Shield. Playable at any Under-deeps Shadow-hold or Ruins and Lairs. +2 to all rolls required for bearer's company to move to an adjacent Under-deeps site. Warrior only: tap this items to make one strike against the bearer ineffectual.">
        <attr key="corruption" value="3"/>
        <attr key="mp" value="2"/>
        <attr key="rarity" value="C2"/>
@@ -996,6 +994,7 @@
        <attr key="rarity" value="C2"/>
        <attr key="class" value="Minor Item"/>
        <attr key="type" value="Minion Resource"/>
+	   <attr key="keyword" value="Lost Knowledge"/>
     </card>
 
     <card name="Secret Book" graphics="SecretBook.jpg" text="Cannot be included with a starting company. Discard: to untap a Free-hold or Border-hold or to make Information playable at any Ruins and Lairs. Cannot be duplicated in a company.">
@@ -1003,6 +1002,7 @@
        <attr key="rarity" value="C2"/>
        <attr key="class" value="Minor Item"/>
        <attr key="type" value="Minion Resource"/>
+	   <attr key="keyword" value="Lost Knowledge"/>
     </card>
 
     <card name="Thong of Fire" graphics="ThongofFire.jpg" text="Unique. Hoard Item. Weapon. May only be borne by a character with a prowess of 6 or more. Warrior only: +1 body; +1 prowess; if bearer chooses not to tap against a strike, he receives no prowess penalty.">
@@ -1306,7 +1306,7 @@
        <attr key="site_path" value="{w}{w}{c}"/>
     </card>
 
-    <card name="Isles of the Dead that Live" graphics="IslesoftheDeadthatLiveDC.jpg" back="1" text="{green} DCE: Change: Tap an overt character not a covert!">
+    <card name="Isles of the Dead that Live" graphics="IslesoftheDeadthatLiveDC.jpg" back="1" text="{green} DCE: Change: Tap an overt character not a covert">
        <attr key="unique" value="yes"/>
        <attr key="haven" value="Geann a-Lisch"/>
        <attr key="draw" value="1"/>

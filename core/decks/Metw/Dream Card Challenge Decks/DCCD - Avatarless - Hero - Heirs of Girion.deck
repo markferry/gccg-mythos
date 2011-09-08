@@ -29,6 +29,7 @@ Deck
 1 Cave-drake (LE)
 1 Despair of the Heart (LE)
 1 Dragon's Blood (TD)
+1 Dwarven Warparty (DF)
 1 Foolish Words (TD)
 1 Fruitless Victory (NE)
 2 Great Northern Bear (GW)
@@ -38,7 +39,6 @@ Deck
 1 Lord of the Eagles (DF)
 1 Marsh-drake (TD)
 1 Marsh-drake (LE)
-1 Mensharag (TI)
 1 Nameless Thing (DM)
 1 Neeker-breekers (PR)
 1 Rain-drake (TD)
@@ -52,10 +52,14 @@ Deck
 2 Worm's Stench (TD)
 1 Wyrmsiege (DF)
 
-# Hero Character (3)
+# Hero Character (7)
 
+1 Brand (TD)
+1 Legolas of Greenwood (FB)
 1 Othar (FB)
 1 The Master (GW)
+1 Thranduil [H] (TW)
+1 Wacho (TW)
 1 Wídfara (TI)
 
 # Hero Resource (31)
@@ -70,7 +74,6 @@ Deck
 2 Long They Journeyed (CP)
 1 Longbottom Leaf (BA)
 1 Men of Dale (TD)
-1 Men of Lake-town (TD)
 1 Men of Northern Rhovanion (TW)
 1 Mithrandir (DF)
 1 Necklace of Girion [H] (DM)
@@ -87,23 +90,20 @@ Deck
 1 Vanishment (TW)
 1 Wizard Uncloaked (TD)
 1 Wizard's Flame (TW)
+1 Wood-elves (TW)
 
 ####
 Pool
 ####
 
-# Hero Character (10)
+# Hero Character (6)
 
 1 Bain (GW)
 1 Bard Bowman (TW)
-1 Brand (TD)
 1 Celeborn (TW)
-1 Elfhelm (TI)
 1 Eodoric (GW)
 1 Fanar (FB)
-1 Legolas of Greenwood (FB)
 1 Mallorn-dweller (FB)
-1 Thranduil [H] (TW)
 
 # Hero Resource (3)
 
@@ -124,9 +124,9 @@ Sideboard
 # Hazard (4)
 
 1 Covetous Thoughts (LE)
-1 Dwarven Warparty (DF)
 1 Earth-tremors (DM)
-1 The Sun Shone Fiercely (BA)
+1 Fell-bear (NW)
+1 Lure of Magic (NE)
 
 # Hero Resource (13)
 
@@ -135,22 +135,21 @@ Sideboard
 1 Carc (DF)
 1 Cram (TD)
 1 Healing Herbs (TW)
-1 Hollow on the Left Breast (GW)
+1 Hollow by the Left Breast (GW)
 1 Horns, Horns, Horns (DM)
 1 Iron Hill Dwarves (TW)
 1 King of Dale (GW)
 1 Marvels Told (TD)
+1 Men of Lake-town (TD)
 1 Star-glass (TW)
 1 The Old Thrush (TW)
-1 Wood-elves (TW)
 
 #####
 Sites
 #####
 
-# Hero Site (35)
+# Hero Site (30)
 
-1 Buhr Thurasig [H] (GW)
 1 Buhr Widu [H] (TD)
 1 Cave of the Urdharkonur [H] (GW)
 1 Ceber Fanuin [H] (FB)
@@ -164,12 +163,10 @@ Sites
 1 Hermit's Hill [H] (DM)
 1 Iron Hill Dwarf-hold [H] (TW)
 1 Lake-town [H] (TW)
-1 Lar-huz [H] (CP)
 1 Long Marish [H] (DF)
 1 Long Peak [H] (GW)
 1 Lórien [H] (TW)
 1 Mathlaburg [H] (GW)
-1 Mistrand [H] (CP)
 1 Mount Gundabad [H] (TW)
 1 Mountains of Mirkwood [H] (GW)
 1 Norr-dûm [H] (GW)
@@ -182,6 +179,4 @@ Sites
 1 The Lonely Mountain [H] (TW)
 1 The Wind Throne [H] (TW)
 1 Thranduil's Halls [H] (TW)
-1 Tol Buruth [H] (NE)
 1 Tower of the Wolf-friend [H] (GW)
-1 Wain-Easterling Camp [H] (CP)
